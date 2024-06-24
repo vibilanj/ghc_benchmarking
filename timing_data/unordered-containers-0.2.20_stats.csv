@@ -1,0 +1,10 @@
+package,module,total_time,parser_time,parser_percentage,size,extension
+unordered-containers-0.2.20,Data.HashMap.Internal,8114.183,43.537,0.5365543271577681,94822,.hs
+unordered-containers-0.2.20,Data.HashMap.Internal.Array,566.3090000000001,8.19,1.446206929432518,18337,.hs
+unordered-containers-0.2.20,Data.HashMap.Internal.Debug,263.47700000000003,2.12,0.8046243125585915,5390,.hs
+unordered-containers-0.2.20,Data.HashMap.Internal.List,66.166,1.323,1.9995163679231025,2515,.hs
+unordered-containers-0.2.20,Data.HashMap.Internal.Strict,2490.579,7.835,0.3145854839376707,27724,.hs
+unordered-containers-0.2.20,Data.HashMap.Lazy,4.428000000000001,1.156,26.106594399277324,2380,.hs
+unordered-containers-0.2.20,Data.HashMap.Strict,3.6969999999999996,0.83,22.450635650527456,27724,.hs
+unordered-containers-0.2.20,Data.HashSet,3.603,0.853,23.674715514848735,3545,.hs
+unordered-containers-0.2.20,Data.HashSet.Internal,746.5529999999999,3.229,0.4325212007720819,13326,.hs

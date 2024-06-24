@@ -1,0 +1,8 @@
+
+Package: time-1.14
+Total time for package: 7462.773999999999
+Total parser time for package: 58.381
+Percentage of total time spent in parser: 0.7822962346173153
+Arithmetic mean of parser percentage: 2.1977346007310157
+Geometric mean of parser percentage: 1.2678091422672295
+Size of package in bytes: 183791

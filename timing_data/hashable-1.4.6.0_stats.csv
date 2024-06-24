@@ -1,0 +1,11 @@
+package,module,total_time,parser_time,parser_percentage,size,extension
+hashable-1.4.6.0,Data.Hashable,3.1670000000000003,0.636,20.082096621408272,6922,.hs
+hashable-1.4.6.0,Data.Hashable.Class,1998.963,13.241,0.6623934510043458,36513,.hs
+hashable-1.4.6.0,Data.Hashable.FFI,47.23199999999999,0.691,1.462991192411924,3030,.hs
+hashable-1.4.6.0,Data.Hashable.Generic,2.499,0.17,6.802721088435375,527,.hs
+hashable-1.4.6.0,Data.Hashable.Generic.Instances,67.874,1.479,2.1790376285470137,4363,.hs
+hashable-1.4.6.0,Data.Hashable.Imports,3.8889999999999993,0.186,4.782720493700181,406,.hs
+hashable-1.4.6.0,Data.Hashable.Lifted,2.7139999999999995,0.297,10.94325718496684,3823,.hs
+hashable-1.4.6.0,Data.Hashable.LowLevel,27.592000000000002,1.981,7.179617280371121,3418,.hs
+hashable-1.4.6.0,Data.Hashable.Mix,21.103,3.185,15.092640856750226,1246,.hs
+hashable-1.4.6.0,Data.Hashable.XXH3,57.26599999999999,3.578,6.248035483532987,5465,.hs

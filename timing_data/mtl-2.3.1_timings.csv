@@ -1,0 +1,433 @@
+package,module,phase,time
+mtl-2.3.1,Control.Monad.Accum,Called arity analysis,0.011
+mtl-2.3.1,Control.Monad.Accum,CodeGen,123.931
+mtl-2.3.1,Control.Monad.Accum,Common sub-expression,0.016
+mtl-2.3.1,Control.Monad.Accum,Constructed Product Result analysis,0.254
+mtl-2.3.1,Control.Monad.Accum,CorePrep,6.476000000000001
+mtl-2.3.1,Control.Monad.Accum,CoreTidy,3.091
+mtl-2.3.1,Control.Monad.Accum,CoreToStg,8.26
+mtl-2.3.1,Control.Monad.Accum,Demand analysis,5.0329999999999995
+mtl-2.3.1,Control.Monad.Accum,Desugar,5.767
+mtl-2.3.1,Control.Monad.Accum,Exitification transformation,0.014
+mtl-2.3.1,Control.Monad.Accum,Float inwards,0.023
+mtl-2.3.1,Control.Monad.Accum,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",4.115
+mtl-2.3.1,Control.Monad.Accum,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",6.767
+mtl-2.3.1,Control.Monad.Accum,Parser,1.432
+mtl-2.3.1,Control.Monad.Accum,Renamer/typechecker,77.9
+mtl-2.3.1,Control.Monad.Accum,Simplifier,92.397
+mtl-2.3.1,Control.Monad.Accum,Specialise,1.035
+mtl-2.3.1,Control.Monad.Accum,Worker Wrapper binds,0.489
+mtl-2.3.1,Control.Monad.Cont,Called arity analysis,0.01
+mtl-2.3.1,Control.Monad.Cont,CodeGen,0.9690000000000001
+mtl-2.3.1,Control.Monad.Cont,Common sub-expression,0.009
+mtl-2.3.1,Control.Monad.Cont,Constructed Product Result analysis,0.011
+mtl-2.3.1,Control.Monad.Cont,CorePrep,0.068
+mtl-2.3.1,Control.Monad.Cont,CoreTidy,0.053
+mtl-2.3.1,Control.Monad.Cont,CoreToStg,0.092
+mtl-2.3.1,Control.Monad.Cont,Demand analysis,0.048
+mtl-2.3.1,Control.Monad.Cont,Desugar,0.034
+mtl-2.3.1,Control.Monad.Cont,Exitification transformation,0.01
+mtl-2.3.1,Control.Monad.Cont,Float inwards,0.017
+mtl-2.3.1,Control.Monad.Cont,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.037
+mtl-2.3.1,Control.Monad.Cont,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.026
+mtl-2.3.1,Control.Monad.Cont,Parser,0.316
+mtl-2.3.1,Control.Monad.Cont,Renamer/typechecker,1.61
+mtl-2.3.1,Control.Monad.Cont,Simplifier,0.324
+mtl-2.3.1,Control.Monad.Cont,Specialise,0.018
+mtl-2.3.1,Control.Monad.Cont,Worker Wrapper binds,0.01
+mtl-2.3.1,Control.Monad.Cont.Class,Called arity analysis,0.014
+mtl-2.3.1,Control.Monad.Cont.Class,CodeGen,86.275
+mtl-2.3.1,Control.Monad.Cont.Class,Common sub-expression,0.012
+mtl-2.3.1,Control.Monad.Cont.Class,Constructed Product Result analysis,0.118
+mtl-2.3.1,Control.Monad.Cont.Class,CorePrep,1.63
+mtl-2.3.1,Control.Monad.Cont.Class,CoreTidy,1.315
+mtl-2.3.1,Control.Monad.Cont.Class,CoreToStg,3.384
+mtl-2.3.1,Control.Monad.Cont.Class,Demand analysis,1.8459999999999999
+mtl-2.3.1,Control.Monad.Cont.Class,Desugar,1.733
+mtl-2.3.1,Control.Monad.Cont.Class,Exitification transformation,0.012
+mtl-2.3.1,Control.Monad.Cont.Class,Float inwards,0.020999999999999998
+mtl-2.3.1,Control.Monad.Cont.Class,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.247
+mtl-2.3.1,Control.Monad.Cont.Class,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.777
+mtl-2.3.1,Control.Monad.Cont.Class,Parser,1.56
+mtl-2.3.1,Control.Monad.Cont.Class,Renamer/typechecker,8.83
+mtl-2.3.1,Control.Monad.Cont.Class,Simplifier,26.776999999999997
+mtl-2.3.1,Control.Monad.Cont.Class,Specialise,0.358
+mtl-2.3.1,Control.Monad.Cont.Class,Worker Wrapper binds,0.182
+mtl-2.3.1,Control.Monad.Error.Class,Called arity analysis,0.014
+mtl-2.3.1,Control.Monad.Error.Class,CodeGen,87.149
+mtl-2.3.1,Control.Monad.Error.Class,Common sub-expression,0.019
+mtl-2.3.1,Control.Monad.Error.Class,Constructed Product Result analysis,0.209
+mtl-2.3.1,Control.Monad.Error.Class,CorePrep,1.624
+mtl-2.3.1,Control.Monad.Error.Class,CoreTidy,1.694
+mtl-2.3.1,Control.Monad.Error.Class,CoreToStg,6.306
+mtl-2.3.1,Control.Monad.Error.Class,Demand analysis,2.88
+mtl-2.3.1,Control.Monad.Error.Class,Desugar,1.068
+mtl-2.3.1,Control.Monad.Error.Class,Exitification transformation,0.014
+mtl-2.3.1,Control.Monad.Error.Class,Float inwards,0.036000000000000004
+mtl-2.3.1,Control.Monad.Error.Class,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",3.184
+mtl-2.3.1,Control.Monad.Error.Class,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",4.183
+mtl-2.3.1,Control.Monad.Error.Class,Parser,1.725
+mtl-2.3.1,Control.Monad.Error.Class,Renamer/typechecker,21.485
+mtl-2.3.1,Control.Monad.Error.Class,Simplifier,59.477999999999994
+mtl-2.3.1,Control.Monad.Error.Class,Specialise,3.33
+mtl-2.3.1,Control.Monad.Error.Class,Worker Wrapper binds,0.297
+mtl-2.3.1,Control.Monad.Except,Called arity analysis,0.012
+mtl-2.3.1,Control.Monad.Except,CodeGen,0.8220000000000001
+mtl-2.3.1,Control.Monad.Except,Common sub-expression,0.01
+mtl-2.3.1,Control.Monad.Except,Constructed Product Result analysis,0.013
+mtl-2.3.1,Control.Monad.Except,CorePrep,0.069
+mtl-2.3.1,Control.Monad.Except,CoreTidy,0.049
+mtl-2.3.1,Control.Monad.Except,CoreToStg,0.094
+mtl-2.3.1,Control.Monad.Except,Demand analysis,0.05
+mtl-2.3.1,Control.Monad.Except,Desugar,0.096
+mtl-2.3.1,Control.Monad.Except,Exitification transformation,0.011
+mtl-2.3.1,Control.Monad.Except,Float inwards,0.022
+mtl-2.3.1,Control.Monad.Except,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.077
+mtl-2.3.1,Control.Monad.Except,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.027
+mtl-2.3.1,Control.Monad.Except,Parser,0.594
+mtl-2.3.1,Control.Monad.Except,Renamer/typechecker,0.512
+mtl-2.3.1,Control.Monad.Except,Simplifier,0.5539999999999999
+mtl-2.3.1,Control.Monad.Except,Specialise,0.028
+mtl-2.3.1,Control.Monad.Except,Worker Wrapper binds,0.012
+mtl-2.3.1,Control.Monad.Identity,Called arity analysis,0.01
+mtl-2.3.1,Control.Monad.Identity,CodeGen,1.5299999999999998
+mtl-2.3.1,Control.Monad.Identity,Common sub-expression,0.013
+mtl-2.3.1,Control.Monad.Identity,Constructed Product Result analysis,0.012
+mtl-2.3.1,Control.Monad.Identity,CorePrep,0.08199999999999999
+mtl-2.3.1,Control.Monad.Identity,CoreTidy,0.049
+mtl-2.3.1,Control.Monad.Identity,CoreToStg,0.167
+mtl-2.3.1,Control.Monad.Identity,Demand analysis,0.048
+mtl-2.3.1,Control.Monad.Identity,Desugar,0.032
+mtl-2.3.1,Control.Monad.Identity,Exitification transformation,0.011
+mtl-2.3.1,Control.Monad.Identity,Float inwards,0.018
+mtl-2.3.1,Control.Monad.Identity,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.037
+mtl-2.3.1,Control.Monad.Identity,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.031
+mtl-2.3.1,Control.Monad.Identity,Parser,0.134
+mtl-2.3.1,Control.Monad.Identity,Renamer/typechecker,0.435
+mtl-2.3.1,Control.Monad.Identity,Simplifier,0.337
+mtl-2.3.1,Control.Monad.Identity,Specialise,0.018
+mtl-2.3.1,Control.Monad.Identity,Worker Wrapper binds,0.012
+mtl-2.3.1,Control.Monad.RWS,Called arity analysis,0.019
+mtl-2.3.1,Control.Monad.RWS,CodeGen,0.767
+mtl-2.3.1,Control.Monad.RWS,Common sub-expression,0.01
+mtl-2.3.1,Control.Monad.RWS,Constructed Product Result analysis,0.017
+mtl-2.3.1,Control.Monad.RWS,CorePrep,0.067
+mtl-2.3.1,Control.Monad.RWS,CoreTidy,0.049
+mtl-2.3.1,Control.Monad.RWS,CoreToStg,0.08299999999999999
+mtl-2.3.1,Control.Monad.RWS,Demand analysis,0.051000000000000004
+mtl-2.3.1,Control.Monad.RWS,Desugar,0.051
+mtl-2.3.1,Control.Monad.RWS,Exitification transformation,0.01
+mtl-2.3.1,Control.Monad.RWS,Float inwards,0.020999999999999998
+mtl-2.3.1,Control.Monad.RWS,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.093
+mtl-2.3.1,Control.Monad.RWS,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.028
+mtl-2.3.1,Control.Monad.RWS,Parser,0.152
+mtl-2.3.1,Control.Monad.RWS,Renamer/typechecker,0.639
+mtl-2.3.1,Control.Monad.RWS,Simplifier,0.513
+mtl-2.3.1,Control.Monad.RWS,Specialise,0.048
+mtl-2.3.1,Control.Monad.RWS,Worker Wrapper binds,0.014
+mtl-2.3.1,Control.Monad.RWS.CPS,Called arity analysis,0.01
+mtl-2.3.1,Control.Monad.RWS.CPS,CodeGen,1.247
+mtl-2.3.1,Control.Monad.RWS.CPS,Common sub-expression,0.011
+mtl-2.3.1,Control.Monad.RWS.CPS,Constructed Product Result analysis,0.014
+mtl-2.3.1,Control.Monad.RWS.CPS,CorePrep,0.08499999999999999
+mtl-2.3.1,Control.Monad.RWS.CPS,CoreTidy,0.066
+mtl-2.3.1,Control.Monad.RWS.CPS,CoreToStg,0.147
+mtl-2.3.1,Control.Monad.RWS.CPS,Demand analysis,0.06
+mtl-2.3.1,Control.Monad.RWS.CPS,Desugar,0.044
+mtl-2.3.1,Control.Monad.RWS.CPS,Exitification transformation,0.011
+mtl-2.3.1,Control.Monad.RWS.CPS,Float inwards,0.019
+mtl-2.3.1,Control.Monad.RWS.CPS,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.044
+mtl-2.3.1,Control.Monad.RWS.CPS,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.029
+mtl-2.3.1,Control.Monad.RWS.CPS,Parser,0.273
+mtl-2.3.1,Control.Monad.RWS.CPS,Renamer/typechecker,0.545
+mtl-2.3.1,Control.Monad.RWS.CPS,Simplifier,0.347
+mtl-2.3.1,Control.Monad.RWS.CPS,Specialise,0.02
+mtl-2.3.1,Control.Monad.RWS.CPS,Worker Wrapper binds,0.013
+mtl-2.3.1,Control.Monad.RWS.Class,Called arity analysis,0.018
+mtl-2.3.1,Control.Monad.RWS.Class,CodeGen,22.557000000000002
+mtl-2.3.1,Control.Monad.RWS.Class,Common sub-expression,0.009
+mtl-2.3.1,Control.Monad.RWS.Class,Constructed Product Result analysis,0.046
+mtl-2.3.1,Control.Monad.RWS.Class,CorePrep,0.741
+mtl-2.3.1,Control.Monad.RWS.Class,CoreTidy,0.388
+mtl-2.3.1,Control.Monad.RWS.Class,CoreToStg,0.898
+mtl-2.3.1,Control.Monad.RWS.Class,Demand analysis,0.623
+mtl-2.3.1,Control.Monad.RWS.Class,Desugar,0.296
+mtl-2.3.1,Control.Monad.RWS.Class,Exitification transformation,0.01
+mtl-2.3.1,Control.Monad.RWS.Class,Float inwards,0.027000000000000003
+mtl-2.3.1,Control.Monad.RWS.Class,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.609
+mtl-2.3.1,Control.Monad.RWS.Class,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.522
+mtl-2.3.1,Control.Monad.RWS.Class,Parser,0.798
+mtl-2.3.1,Control.Monad.RWS.Class,Renamer/typechecker,5.727
+mtl-2.3.1,Control.Monad.RWS.Class,Simplifier,6.024
+mtl-2.3.1,Control.Monad.RWS.Class,Specialise,0.257
+mtl-2.3.1,Control.Monad.RWS.Class,Worker Wrapper binds,0.047
+mtl-2.3.1,Control.Monad.RWS.Lazy,Called arity analysis,0.01
+mtl-2.3.1,Control.Monad.RWS.Lazy,CodeGen,0.891
+mtl-2.3.1,Control.Monad.RWS.Lazy,Common sub-expression,0.009
+mtl-2.3.1,Control.Monad.RWS.Lazy,Constructed Product Result analysis,0.015
+mtl-2.3.1,Control.Monad.RWS.Lazy,CorePrep,0.091
+mtl-2.3.1,Control.Monad.RWS.Lazy,CoreTidy,0.06
+mtl-2.3.1,Control.Monad.RWS.Lazy,CoreToStg,0.106
+mtl-2.3.1,Control.Monad.RWS.Lazy,Demand analysis,0.052
+mtl-2.3.1,Control.Monad.RWS.Lazy,Desugar,0.042
+mtl-2.3.1,Control.Monad.RWS.Lazy,Exitification transformation,0.01
+mtl-2.3.1,Control.Monad.RWS.Lazy,Float inwards,0.019
+mtl-2.3.1,Control.Monad.RWS.Lazy,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.039
+mtl-2.3.1,Control.Monad.RWS.Lazy,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.03
+mtl-2.3.1,Control.Monad.RWS.Lazy,Parser,0.739
+mtl-2.3.1,Control.Monad.RWS.Lazy,Renamer/typechecker,0.698
+mtl-2.3.1,Control.Monad.RWS.Lazy,Simplifier,0.355
+mtl-2.3.1,Control.Monad.RWS.Lazy,Specialise,0.022
+mtl-2.3.1,Control.Monad.RWS.Lazy,Worker Wrapper binds,0.013
+mtl-2.3.1,Control.Monad.RWS.Strict,Called arity analysis,0.011
+mtl-2.3.1,Control.Monad.RWS.Strict,CodeGen,1.267
+mtl-2.3.1,Control.Monad.RWS.Strict,Common sub-expression,0.016
+mtl-2.3.1,Control.Monad.RWS.Strict,Constructed Product Result analysis,0.012
+mtl-2.3.1,Control.Monad.RWS.Strict,CorePrep,0.132
+mtl-2.3.1,Control.Monad.RWS.Strict,CoreTidy,0.077
+mtl-2.3.1,Control.Monad.RWS.Strict,CoreToStg,0.157
+mtl-2.3.1,Control.Monad.RWS.Strict,Demand analysis,0.088
+mtl-2.3.1,Control.Monad.RWS.Strict,Desugar,0.042
+mtl-2.3.1,Control.Monad.RWS.Strict,Exitification transformation,0.011
+mtl-2.3.1,Control.Monad.RWS.Strict,Float inwards,0.028
+mtl-2.3.1,Control.Monad.RWS.Strict,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.04
+mtl-2.3.1,Control.Monad.RWS.Strict,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.042
+mtl-2.3.1,Control.Monad.RWS.Strict,Parser,0.274
+mtl-2.3.1,Control.Monad.RWS.Strict,Renamer/typechecker,0.612
+mtl-2.3.1,Control.Monad.RWS.Strict,Simplifier,0.419
+mtl-2.3.1,Control.Monad.RWS.Strict,Specialise,0.021
+mtl-2.3.1,Control.Monad.RWS.Strict,Worker Wrapper binds,0.012
+mtl-2.3.1,Control.Monad.Reader,Called arity analysis,0.022
+mtl-2.3.1,Control.Monad.Reader,CodeGen,0.796
+mtl-2.3.1,Control.Monad.Reader,Common sub-expression,0.011
+mtl-2.3.1,Control.Monad.Reader,Constructed Product Result analysis,0.022
+mtl-2.3.1,Control.Monad.Reader,CorePrep,0.07
+mtl-2.3.1,Control.Monad.Reader,CoreTidy,0.055
+mtl-2.3.1,Control.Monad.Reader,CoreToStg,0.091
+mtl-2.3.1,Control.Monad.Reader,Demand analysis,0.124
+mtl-2.3.1,Control.Monad.Reader,Desugar,0.036
+mtl-2.3.1,Control.Monad.Reader,Exitification transformation,0.017
+mtl-2.3.1,Control.Monad.Reader,Float inwards,0.027
+mtl-2.3.1,Control.Monad.Reader,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.048
+mtl-2.3.1,Control.Monad.Reader,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.035
+mtl-2.3.1,Control.Monad.Reader,Parser,0.353
+mtl-2.3.1,Control.Monad.Reader,Renamer/typechecker,0.554
+mtl-2.3.1,Control.Monad.Reader,Simplifier,0.391
+mtl-2.3.1,Control.Monad.Reader,Specialise,0.018
+mtl-2.3.1,Control.Monad.Reader,Worker Wrapper binds,0.016
+mtl-2.3.1,Control.Monad.Reader.Class,Called arity analysis,0.011
+mtl-2.3.1,Control.Monad.Reader.Class,CodeGen,93.299
+mtl-2.3.1,Control.Monad.Reader.Class,Common sub-expression,0.016
+mtl-2.3.1,Control.Monad.Reader.Class,Constructed Product Result analysis,0.186
+mtl-2.3.1,Control.Monad.Reader.Class,CorePrep,1.6190000000000002
+mtl-2.3.1,Control.Monad.Reader.Class,CoreTidy,2.0
+mtl-2.3.1,Control.Monad.Reader.Class,CoreToStg,7.531000000000001
+mtl-2.3.1,Control.Monad.Reader.Class,Demand analysis,3.409
+mtl-2.3.1,Control.Monad.Reader.Class,Desugar,3.711
+mtl-2.3.1,Control.Monad.Reader.Class,Exitification transformation,0.016
+mtl-2.3.1,Control.Monad.Reader.Class,Float inwards,0.023
+mtl-2.3.1,Control.Monad.Reader.Class,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",4.857
+mtl-2.3.1,Control.Monad.Reader.Class,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",5.249
+mtl-2.3.1,Control.Monad.Reader.Class,Parser,1.665
+mtl-2.3.1,Control.Monad.Reader.Class,Renamer/typechecker,13.271
+mtl-2.3.1,Control.Monad.Reader.Class,Simplifier,55.69
+mtl-2.3.1,Control.Monad.Reader.Class,Specialise,0.779
+mtl-2.3.1,Control.Monad.Reader.Class,Worker Wrapper binds,0.355
+mtl-2.3.1,Control.Monad.Select,Called arity analysis,0.011
+mtl-2.3.1,Control.Monad.Select,CodeGen,63.909
+mtl-2.3.1,Control.Monad.Select,Common sub-expression,0.011
+mtl-2.3.1,Control.Monad.Select,Constructed Product Result analysis,0.115
+mtl-2.3.1,Control.Monad.Select,CorePrep,1.292
+mtl-2.3.1,Control.Monad.Select,CoreTidy,1.004
+mtl-2.3.1,Control.Monad.Select,CoreToStg,1.97
+mtl-2.3.1,Control.Monad.Select,Demand analysis,2.4530000000000003
+mtl-2.3.1,Control.Monad.Select,Desugar,0.689
+mtl-2.3.1,Control.Monad.Select,Exitification transformation,0.012
+mtl-2.3.1,Control.Monad.Select,Float inwards,0.036
+mtl-2.3.1,Control.Monad.Select,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.953
+mtl-2.3.1,Control.Monad.Select,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.04
+mtl-2.3.1,Control.Monad.Select,Parser,2.352
+mtl-2.3.1,Control.Monad.Select,Renamer/typechecker,17.558
+mtl-2.3.1,Control.Monad.Select,Simplifier,38.142
+mtl-2.3.1,Control.Monad.Select,Specialise,0.541
+mtl-2.3.1,Control.Monad.Select,Worker Wrapper binds,0.261
+mtl-2.3.1,Control.Monad.State,Called arity analysis,0.01
+mtl-2.3.1,Control.Monad.State,CodeGen,0.776
+mtl-2.3.1,Control.Monad.State,Common sub-expression,0.014
+mtl-2.3.1,Control.Monad.State,Constructed Product Result analysis,0.013
+mtl-2.3.1,Control.Monad.State,CorePrep,0.07200000000000001
+mtl-2.3.1,Control.Monad.State,CoreTidy,0.069
+mtl-2.3.1,Control.Monad.State,CoreToStg,0.092
+mtl-2.3.1,Control.Monad.State,Demand analysis,0.053000000000000005
+mtl-2.3.1,Control.Monad.State,Desugar,0.148
+mtl-2.3.1,Control.Monad.State,Exitification transformation,0.01
+mtl-2.3.1,Control.Monad.State,Float inwards,0.022
+mtl-2.3.1,Control.Monad.State,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.048
+mtl-2.3.1,Control.Monad.State,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.035
+mtl-2.3.1,Control.Monad.State,Parser,0.168
+mtl-2.3.1,Control.Monad.State,Renamer/typechecker,0.903
+mtl-2.3.1,Control.Monad.State,Simplifier,0.41500000000000004
+mtl-2.3.1,Control.Monad.State,Specialise,0.024
+mtl-2.3.1,Control.Monad.State,Worker Wrapper binds,0.01
+mtl-2.3.1,Control.Monad.State.Class,Called arity analysis,0.01
+mtl-2.3.1,Control.Monad.State.Class,CodeGen,96.313
+mtl-2.3.1,Control.Monad.State.Class,Common sub-expression,0.013
+mtl-2.3.1,Control.Monad.State.Class,Constructed Product Result analysis,0.764
+mtl-2.3.1,Control.Monad.State.Class,CorePrep,1.553
+mtl-2.3.1,Control.Monad.State.Class,CoreTidy,2.013
+mtl-2.3.1,Control.Monad.State.Class,CoreToStg,4.433
+mtl-2.3.1,Control.Monad.State.Class,Demand analysis,4.289
+mtl-2.3.1,Control.Monad.State.Class,Desugar,2.344
+mtl-2.3.1,Control.Monad.State.Class,Exitification transformation,0.014
+mtl-2.3.1,Control.Monad.State.Class,Float inwards,0.020999999999999998
+mtl-2.3.1,Control.Monad.State.Class,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",3.06
+mtl-2.3.1,Control.Monad.State.Class,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",3.543
+mtl-2.3.1,Control.Monad.State.Class,Parser,1.845
+mtl-2.3.1,Control.Monad.State.Class,Renamer/typechecker,12.086
+mtl-2.3.1,Control.Monad.State.Class,Simplifier,81.539
+mtl-2.3.1,Control.Monad.State.Class,Specialise,1.38
+mtl-2.3.1,Control.Monad.State.Class,Worker Wrapper binds,0.292
+mtl-2.3.1,Control.Monad.State.Lazy,Called arity analysis,0.01
+mtl-2.3.1,Control.Monad.State.Lazy,CodeGen,1.055
+mtl-2.3.1,Control.Monad.State.Lazy,Common sub-expression,0.01
+mtl-2.3.1,Control.Monad.State.Lazy,Constructed Product Result analysis,0.013
+mtl-2.3.1,Control.Monad.State.Lazy,CorePrep,0.142
+mtl-2.3.1,Control.Monad.State.Lazy,CoreTidy,0.126
+mtl-2.3.1,Control.Monad.State.Lazy,CoreToStg,0.136
+mtl-2.3.1,Control.Monad.State.Lazy,Demand analysis,0.059000000000000004
+mtl-2.3.1,Control.Monad.State.Lazy,Desugar,0.036
+mtl-2.3.1,Control.Monad.State.Lazy,Exitification transformation,0.01
+mtl-2.3.1,Control.Monad.State.Lazy,Float inwards,0.024
+mtl-2.3.1,Control.Monad.State.Lazy,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.036
+mtl-2.3.1,Control.Monad.State.Lazy,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.029
+mtl-2.3.1,Control.Monad.State.Lazy,Parser,0.565
+mtl-2.3.1,Control.Monad.State.Lazy,Renamer/typechecker,0.495
+mtl-2.3.1,Control.Monad.State.Lazy,Simplifier,0.349
+mtl-2.3.1,Control.Monad.State.Lazy,Specialise,0.019
+mtl-2.3.1,Control.Monad.State.Lazy,Worker Wrapper binds,0.01
+mtl-2.3.1,Control.Monad.State.Strict,Called arity analysis,0.014
+mtl-2.3.1,Control.Monad.State.Strict,CodeGen,0.7989999999999999
+mtl-2.3.1,Control.Monad.State.Strict,Common sub-expression,0.011
+mtl-2.3.1,Control.Monad.State.Strict,Constructed Product Result analysis,0.018
+mtl-2.3.1,Control.Monad.State.Strict,CorePrep,0.07
+mtl-2.3.1,Control.Monad.State.Strict,CoreTidy,0.051
+mtl-2.3.1,Control.Monad.State.Strict,CoreToStg,0.087
+mtl-2.3.1,Control.Monad.State.Strict,Demand analysis,0.057999999999999996
+mtl-2.3.1,Control.Monad.State.Strict,Desugar,0.043
+mtl-2.3.1,Control.Monad.State.Strict,Exitification transformation,0.012
+mtl-2.3.1,Control.Monad.State.Strict,Float inwards,0.020999999999999998
+mtl-2.3.1,Control.Monad.State.Strict,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.077
+mtl-2.3.1,Control.Monad.State.Strict,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.034
+mtl-2.3.1,Control.Monad.State.Strict,Parser,0.411
+mtl-2.3.1,Control.Monad.State.Strict,Renamer/typechecker,0.667
+mtl-2.3.1,Control.Monad.State.Strict,Simplifier,0.46099999999999997
+mtl-2.3.1,Control.Monad.State.Strict,Specialise,0.027
+mtl-2.3.1,Control.Monad.State.Strict,Worker Wrapper binds,0.018
+mtl-2.3.1,Control.Monad.Trans,Called arity analysis,0.013
+mtl-2.3.1,Control.Monad.Trans,CodeGen,1.1300000000000001
+mtl-2.3.1,Control.Monad.Trans,Common sub-expression,0.011
+mtl-2.3.1,Control.Monad.Trans,Constructed Product Result analysis,0.019
+mtl-2.3.1,Control.Monad.Trans,CorePrep,0.077
+mtl-2.3.1,Control.Monad.Trans,CoreTidy,0.046
+mtl-2.3.1,Control.Monad.Trans,CoreToStg,0.115
+mtl-2.3.1,Control.Monad.Trans,Demand analysis,0.055999999999999994
+mtl-2.3.1,Control.Monad.Trans,Desugar,0.034
+mtl-2.3.1,Control.Monad.Trans,Exitification transformation,0.01
+mtl-2.3.1,Control.Monad.Trans,Float inwards,0.019999999999999997
+mtl-2.3.1,Control.Monad.Trans,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.044
+mtl-2.3.1,Control.Monad.Trans,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.031
+mtl-2.3.1,Control.Monad.Trans,Parser,0.245
+mtl-2.3.1,Control.Monad.Trans,Renamer/typechecker,1.041
+mtl-2.3.1,Control.Monad.Trans,Simplifier,0.363
+mtl-2.3.1,Control.Monad.Trans,Specialise,0.021
+mtl-2.3.1,Control.Monad.Trans,Worker Wrapper binds,0.017
+mtl-2.3.1,Control.Monad.Writer,Called arity analysis,0.014
+mtl-2.3.1,Control.Monad.Writer,CodeGen,0.992
+mtl-2.3.1,Control.Monad.Writer,Common sub-expression,0.011
+mtl-2.3.1,Control.Monad.Writer,Constructed Product Result analysis,0.017
+mtl-2.3.1,Control.Monad.Writer,CorePrep,0.072
+mtl-2.3.1,Control.Monad.Writer,CoreTidy,0.048
+mtl-2.3.1,Control.Monad.Writer,CoreToStg,0.10200000000000001
+mtl-2.3.1,Control.Monad.Writer,Demand analysis,0.054000000000000006
+mtl-2.3.1,Control.Monad.Writer,Desugar,0.044
+mtl-2.3.1,Control.Monad.Writer,Exitification transformation,0.011
+mtl-2.3.1,Control.Monad.Writer,Float inwards,0.037
+mtl-2.3.1,Control.Monad.Writer,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.05
+mtl-2.3.1,Control.Monad.Writer,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.033
+mtl-2.3.1,Control.Monad.Writer,Parser,0.177
+mtl-2.3.1,Control.Monad.Writer,Renamer/typechecker,0.485
+mtl-2.3.1,Control.Monad.Writer,Simplifier,0.438
+mtl-2.3.1,Control.Monad.Writer,Specialise,0.021
+mtl-2.3.1,Control.Monad.Writer,Worker Wrapper binds,0.017
+mtl-2.3.1,Control.Monad.Writer.CPS,Called arity analysis,0.01
+mtl-2.3.1,Control.Monad.Writer.CPS,CodeGen,0.8220000000000001
+mtl-2.3.1,Control.Monad.Writer.CPS,Common sub-expression,0.021
+mtl-2.3.1,Control.Monad.Writer.CPS,Constructed Product Result analysis,0.013
+mtl-2.3.1,Control.Monad.Writer.CPS,CorePrep,0.089
+mtl-2.3.1,Control.Monad.Writer.CPS,CoreTidy,0.077
+mtl-2.3.1,Control.Monad.Writer.CPS,CoreToStg,0.108
+mtl-2.3.1,Control.Monad.Writer.CPS,Demand analysis,0.047
+mtl-2.3.1,Control.Monad.Writer.CPS,Desugar,0.041
+mtl-2.3.1,Control.Monad.Writer.CPS,Exitification transformation,0.01
+mtl-2.3.1,Control.Monad.Writer.CPS,Float inwards,0.019
+mtl-2.3.1,Control.Monad.Writer.CPS,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.042
+mtl-2.3.1,Control.Monad.Writer.CPS,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.026
+mtl-2.3.1,Control.Monad.Writer.CPS,Parser,0.254
+mtl-2.3.1,Control.Monad.Writer.CPS,Renamer/typechecker,0.91
+mtl-2.3.1,Control.Monad.Writer.CPS,Simplifier,0.331
+mtl-2.3.1,Control.Monad.Writer.CPS,Specialise,0.019
+mtl-2.3.1,Control.Monad.Writer.CPS,Worker Wrapper binds,0.013
+mtl-2.3.1,Control.Monad.Writer.Class,Called arity analysis,0.013
+mtl-2.3.1,Control.Monad.Writer.Class,CodeGen,129.881
+mtl-2.3.1,Control.Monad.Writer.Class,Common sub-expression,0.017
+mtl-2.3.1,Control.Monad.Writer.Class,Constructed Product Result analysis,0.226
+mtl-2.3.1,Control.Monad.Writer.Class,CorePrep,2.0380000000000003
+mtl-2.3.1,Control.Monad.Writer.Class,CoreTidy,5.561
+mtl-2.3.1,Control.Monad.Writer.Class,CoreToStg,6.105
+mtl-2.3.1,Control.Monad.Writer.Class,Demand analysis,3.988
+mtl-2.3.1,Control.Monad.Writer.Class,Desugar,1.436
+mtl-2.3.1,Control.Monad.Writer.Class,Exitification transformation,0.015
+mtl-2.3.1,Control.Monad.Writer.Class,Float inwards,0.025
+mtl-2.3.1,Control.Monad.Writer.Class,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",4.306
+mtl-2.3.1,Control.Monad.Writer.Class,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",5.876
+mtl-2.3.1,Control.Monad.Writer.Class,Parser,1.593
+mtl-2.3.1,Control.Monad.Writer.Class,Renamer/typechecker,16.68
+mtl-2.3.1,Control.Monad.Writer.Class,Simplifier,84.67699999999999
+mtl-2.3.1,Control.Monad.Writer.Class,Specialise,0.961
+mtl-2.3.1,Control.Monad.Writer.Class,Worker Wrapper binds,0.405
+mtl-2.3.1,Control.Monad.Writer.Lazy,Called arity analysis,0.01
+mtl-2.3.1,Control.Monad.Writer.Lazy,CodeGen,0.887
+mtl-2.3.1,Control.Monad.Writer.Lazy,Common sub-expression,0.009
+mtl-2.3.1,Control.Monad.Writer.Lazy,Constructed Product Result analysis,0.012
+mtl-2.3.1,Control.Monad.Writer.Lazy,CorePrep,0.068
+mtl-2.3.1,Control.Monad.Writer.Lazy,CoreTidy,0.047
+mtl-2.3.1,Control.Monad.Writer.Lazy,CoreToStg,0.102
+mtl-2.3.1,Control.Monad.Writer.Lazy,Demand analysis,0.048
+mtl-2.3.1,Control.Monad.Writer.Lazy,Desugar,0.043
+mtl-2.3.1,Control.Monad.Writer.Lazy,Exitification transformation,0.01
+mtl-2.3.1,Control.Monad.Writer.Lazy,Float inwards,0.019
+mtl-2.3.1,Control.Monad.Writer.Lazy,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.04
+mtl-2.3.1,Control.Monad.Writer.Lazy,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.026
+mtl-2.3.1,Control.Monad.Writer.Lazy,Parser,0.318
+mtl-2.3.1,Control.Monad.Writer.Lazy,Renamer/typechecker,1.903
+mtl-2.3.1,Control.Monad.Writer.Lazy,Simplifier,0.352
+mtl-2.3.1,Control.Monad.Writer.Lazy,Specialise,0.024
+mtl-2.3.1,Control.Monad.Writer.Lazy,Worker Wrapper binds,0.01
+mtl-2.3.1,Control.Monad.Writer.Strict,Called arity analysis,0.011
+mtl-2.3.1,Control.Monad.Writer.Strict,CodeGen,1.0110000000000001
+mtl-2.3.1,Control.Monad.Writer.Strict,Common sub-expression,0.013
+mtl-2.3.1,Control.Monad.Writer.Strict,Constructed Product Result analysis,0.026
+mtl-2.3.1,Control.Monad.Writer.Strict,CorePrep,0.08399999999999999
+mtl-2.3.1,Control.Monad.Writer.Strict,CoreTidy,0.059
+mtl-2.3.1,Control.Monad.Writer.Strict,CoreToStg,0.107
+mtl-2.3.1,Control.Monad.Writer.Strict,Demand analysis,0.094
+mtl-2.3.1,Control.Monad.Writer.Strict,Desugar,0.04
+mtl-2.3.1,Control.Monad.Writer.Strict,Exitification transformation,0.014
+mtl-2.3.1,Control.Monad.Writer.Strict,Float inwards,0.020999999999999998
+mtl-2.3.1,Control.Monad.Writer.Strict,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.053
+mtl-2.3.1,Control.Monad.Writer.Strict,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.042
+mtl-2.3.1,Control.Monad.Writer.Strict,Parser,0.38
+mtl-2.3.1,Control.Monad.Writer.Strict,Renamer/typechecker,0.603
+mtl-2.3.1,Control.Monad.Writer.Strict,Simplifier,0.41600000000000004
+mtl-2.3.1,Control.Monad.Writer.Strict,Specialise,0.028
+mtl-2.3.1,Control.Monad.Writer.Strict,Worker Wrapper binds,0.037

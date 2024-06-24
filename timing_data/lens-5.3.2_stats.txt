@@ -1,0 +1,8 @@
+
+Package: lens-5.3.2
+Total time for package: 46971.316
+Total parser time for package: 438.6890000000001
+Percentage of total time spent in parser: 0.9339508392739094
+Arithmetic mean of parser percentage: 3.8188618892671813
+Geometric mean of parser percentage: 0.0
+Size of package in bytes: 838990

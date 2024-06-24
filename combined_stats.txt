@@ -1,0 +1,144 @@
+
+Package: aeson-2.2.3.0
+Total time for package: 45860.486000000004
+Total parser time for package: 189.811
+Percentage of total time spent in parser: 0.4138878946899952
+Arithmetic mean of parser percentage: 3.953863652104121
+Geometric mean of parser percentage: 1.422900864219734
+Size of package in bytes: 449864
+
+Package: array-0.5.7.0
+Total time for package: 7252.764
+Total parser time for package: 69.454
+Percentage of total time spent in parser: 0.9576211220991058
+Arithmetic mean of parser percentage: 9.849839893636048
+Geometric mean of parser percentage: 5.40492369824273
+Size of package in bytes: 109937
+
+Package: binary-0.8.9.2
+Total time for package: 9197.527
+Total parser time for package: 38.916
+Percentage of total time spent in parser: 0.42311373481154224
+Arithmetic mean of parser percentage: 6.3443520863058644
+Geometric mean of parser percentage: 1.890269211027407
+Size of package in bytes: 120776
+
+Package: bytestring-0.12.1.0
+Total time for package: 15938.783
+Total parser time for package: 170.987
+Percentage of total time spent in parser: 1.0727732474932372
+Arithmetic mean of parser percentage: 3.1620252241930333
+Geometric mean of parser percentage: 1.7701984548165217
+Size of package in bytes: 657195
+
+Package: containers-0.7
+Total time for package: 39856.531
+Total parser time for package: 340.139
+Percentage of total time spent in parser: 0.8534084413919516
+Arithmetic mean of parser percentage: 13.238860797348734
+Geometric mean of parser percentage: 5.449471092619773
+Size of package in bytes: 701023
+
+Package: deepseq-1.5.0.0
+Total time for package: 649.4759999999999
+Total parser time for package: 26.274
+Percentage of total time spent in parser: 4.045415073074294
+Arithmetic mean of parser percentage: 4.045415073074294
+Geometric mean of parser percentage: 4.045415073074294
+Size of package in bytes: 29578
+
+Package: directory-1.3.8.5
+Total time for package: 2348.0820000000003
+Total parser time for package: 27.928
+Percentage of total time spent in parser: 1.189396281731217
+Arithmetic mean of parser percentage: 9.277114373007697
+Geometric mean of parser percentage: 3.4385326708251283
+Size of package in bytes: 172116
+
+Package: filepath-1.5.2.0
+Total time for package: 3016.9839999999995
+Total parser time for package: 59.538999999999994
+Percentage of total time spent in parser: 1.9734609132829344
+Arithmetic mean of parser percentage: 5.511470198062893
+Geometric mean of parser percentage: 0.0
+Size of package in bytes: 8499
+
+Package: hashable-1.4.6.0
+Total time for package: 2232.299
+Total parser time for package: 25.444
+Percentage of total time spent in parser: 1.1398114679081968
+Arithmetic mean of parser percentage: 7.543551128112829
+Geometric mean of parser percentage: 5.02290057329813
+Size of package in bytes: 65713
+
+Package: lens-5.3.2
+Total time for package: 46971.316
+Total parser time for package: 438.6890000000001
+Percentage of total time spent in parser: 0.9339508392739094
+Arithmetic mean of parser percentage: 3.8188618892671813
+Geometric mean of parser percentage: 0.0
+Size of package in bytes: 838990
+
+Package: mtl-2.3.1
+Total time for package: 1567.8200000000002
+Total parser time for package: 18.323
+Percentage of total time spent in parser: 1.168692834636629
+Arithmetic mean of parser percentage: 7.605677177072906
+Geometric mean of parser percentage: 4.4921048056015245
+Size of package in bytes: 102549
+
+Package: process-1.6.20.0
+Total time for package: 1340.5579999999998
+Total parser time for package: 22.447
+Percentage of total time spent in parser: 1.6744519819358805
+Arithmetic mean of parser percentage: 8.466484396446669
+Geometric mean of parser percentage: 3.5057901365648334
+Size of package in bytes: 94737
+
+Package: random-1.2.1.2
+Total time for package: 9352.740999999998
+Total parser time for package: 36.333
+Percentage of total time spent in parser: 0.3884743520642773
+Arithmetic mean of parser percentage: 0.5442805803948776
+Geometric mean of parser percentage: 0.4205041703559797
+Size of package in bytes: 110842
+
+Package: text-2.1.1
+Total time for package: 49152.641
+Total parser time for package: 290.60900000000004
+Percentage of total time spent in parser: 0.5912378136507457
+Arithmetic mean of parser percentage: 4.146992768483315
+Geometric mean of parser percentage: 1.650725543191528
+Size of package in bytes: 606265
+
+Package: time-1.14
+Total time for package: 7462.773999999999
+Total parser time for package: 58.381
+Percentage of total time spent in parser: 0.7822962346173153
+Arithmetic mean of parser percentage: 2.1977346007310157
+Geometric mean of parser percentage: 1.2678091422672295
+Size of package in bytes: 183791
+
+Package: transformers-0.6.1.1
+Total time for package: 5718.877
+Total parser time for package: 74.325
+Percentage of total time spent in parser: 1.2996432691243403
+Arithmetic mean of parser percentage: 5.645179546493228
+Geometric mean of parser percentage: 2.3106101975435713
+Size of package in bytes: 193438
+
+Package: unordered-containers-0.2.20
+Total time for package: 12258.995
+Total parser time for package: 69.073
+Percentage of total time spent in parser: 0.5634474930449028
+Arithmetic mean of parser percentage: 8.640661576270581
+Geometric mean of parser percentage: 2.369779816392022
+Size of package in bytes: 195763
+
+Package: vector-0.13.1.0
+Total time for package: 74416.801
+Total parser time for package: 310.5920000000001
+Percentage of total time spent in parser: 0.4173681155684185
+Arithmetic mean of parser percentage: 1.4818437189187226
+Geometric mean of parser percentage: 0.7567630553744605
+Size of package in bytes: 624695

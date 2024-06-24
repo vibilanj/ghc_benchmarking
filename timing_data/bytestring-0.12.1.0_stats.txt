@@ -1,0 +1,8 @@
+
+Package: bytestring-0.12.1.0
+Total time for package: 15938.783
+Total parser time for package: 170.987
+Percentage of total time spent in parser: 1.0727732474932372
+Arithmetic mean of parser percentage: 3.1620252241930333
+Geometric mean of parser percentage: 1.7701984548165217
+Size of package in bytes: 657195

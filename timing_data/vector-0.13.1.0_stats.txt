@@ -1,0 +1,8 @@
+
+Package: vector-0.13.1.0
+Total time for package: 74416.801
+Total parser time for package: 310.5920000000001
+Percentage of total time spent in parser: 0.4173681155684185
+Arithmetic mean of parser percentage: 1.4818437189187226
+Geometric mean of parser percentage: 0.7567630553744605
+Size of package in bytes: 624695

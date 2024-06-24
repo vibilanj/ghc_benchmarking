@@ -1,0 +1,8 @@
+
+Package: containers-0.7
+Total time for package: 39856.531
+Total parser time for package: 340.139
+Percentage of total time spent in parser: 0.8534084413919516
+Arithmetic mean of parser percentage: 13.238860797348734
+Geometric mean of parser percentage: 5.449471092619773
+Size of package in bytes: 701023

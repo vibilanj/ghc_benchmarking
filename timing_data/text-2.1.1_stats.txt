@@ -1,0 +1,8 @@
+
+Package: text-2.1.1
+Total time for package: 49152.641
+Total parser time for package: 290.60900000000004
+Percentage of total time spent in parser: 0.5912378136507457
+Arithmetic mean of parser percentage: 4.146992768483315
+Geometric mean of parser percentage: 1.650725543191528
+Size of package in bytes: 606265

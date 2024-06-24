@@ -1,0 +1,1101 @@
+package,module,phase,time
+text-2.1.1,Data.Text,Called arity analysis,0.01
+text-2.1.1,Data.Text,CodeGen,1155.3600000000001
+text-2.1.1,Data.Text,Common sub-expression,0.027
+text-2.1.1,Data.Text,Constructed Product Result analysis,11.046
+text-2.1.1,Data.Text,CorePrep,51.949000000000005
+text-2.1.1,Data.Text,CoreTidy,33.093
+text-2.1.1,Data.Text,CoreToStg,760.822
+text-2.1.1,Data.Text,Demand analysis,121.67999999999999
+text-2.1.1,Data.Text,Desugar,7.996
+text-2.1.1,Data.Text,Exitification transformation,0.013
+text-2.1.1,Data.Text,Float inwards,0.020999999999999998
+text-2.1.1,Data.Text,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",44.025
+text-2.1.1,Data.Text,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",91.837
+text-2.1.1,Data.Text,Liberate case,0.011
+text-2.1.1,Data.Text,Parser,20.07
+text-2.1.1,Data.Text,Renamer/typechecker,253.886
+text-2.1.1,Data.Text,Simplifier,5141.739
+text-2.1.1,Data.Text,SpecConstr,53.277
+text-2.1.1,Data.Text,Specialise,6.037
+text-2.1.1,Data.Text,Worker Wrapper binds,3.632
+text-2.1.1,Data.Text.Array,Called arity analysis,0.012
+text-2.1.1,Data.Text.Array,CodeGen,29.674
+text-2.1.1,Data.Text.Array,Common sub-expression,0.028999999999999998
+text-2.1.1,Data.Text.Array,Constructed Product Result analysis,0.134
+text-2.1.1,Data.Text.Array,CorePrep,1.026
+text-2.1.1,Data.Text.Array,CoreTidy,0.583
+text-2.1.1,Data.Text.Array,CoreToStg,3.359
+text-2.1.1,Data.Text.Array,Demand analysis,2.222
+text-2.1.1,Data.Text.Array,Desugar,2.378
+text-2.1.1,Data.Text.Array,Exitification transformation,0.013
+text-2.1.1,Data.Text.Array,Float inwards,0.029
+text-2.1.1,Data.Text.Array,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.972
+text-2.1.1,Data.Text.Array,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.163
+text-2.1.1,Data.Text.Array,Liberate case,0.013
+text-2.1.1,Data.Text.Array,Parser,3.921
+text-2.1.1,Data.Text.Array,Renamer/typechecker,41.737
+text-2.1.1,Data.Text.Array,Simplifier,39.152
+text-2.1.1,Data.Text.Array,SpecConstr,0.402
+text-2.1.1,Data.Text.Array,Specialise,0.445
+text-2.1.1,Data.Text.Array,Worker Wrapper binds,0.065
+text-2.1.1,Data.Text.Encoding,Called arity analysis,0.01
+text-2.1.1,Data.Text.Encoding,CodeGen,181.582
+text-2.1.1,Data.Text.Encoding,Common sub-expression,0.033
+text-2.1.1,Data.Text.Encoding,Constructed Product Result analysis,1.243
+text-2.1.1,Data.Text.Encoding,CorePrep,6.848
+text-2.1.1,Data.Text.Encoding,CoreTidy,4.626
+text-2.1.1,Data.Text.Encoding,CoreToStg,44.611
+text-2.1.1,Data.Text.Encoding,Demand analysis,17.762
+text-2.1.1,Data.Text.Encoding,Desugar,1.461
+text-2.1.1,Data.Text.Encoding,Exitification transformation,0.014
+text-2.1.1,Data.Text.Encoding,Float inwards,0.020999999999999998
+text-2.1.1,Data.Text.Encoding,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",17.641
+text-2.1.1,Data.Text.Encoding,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",16.949
+text-2.1.1,Data.Text.Encoding,Liberate case,0.011
+text-2.1.1,Data.Text.Encoding,Parser,3.94
+text-2.1.1,Data.Text.Encoding,Renamer/typechecker,18.478
+text-2.1.1,Data.Text.Encoding,Simplifier,739.957
+text-2.1.1,Data.Text.Encoding,SpecConstr,2.868
+text-2.1.1,Data.Text.Encoding,Specialise,1.717
+text-2.1.1,Data.Text.Encoding,Worker Wrapper binds,0.539
+text-2.1.1,Data.Text.Encoding.Error,Called arity analysis,0.014
+text-2.1.1,Data.Text.Encoding.Error,CodeGen,35.546
+text-2.1.1,Data.Text.Encoding.Error,Common sub-expression,0.027
+text-2.1.1,Data.Text.Encoding.Error,Constructed Product Result analysis,0.149
+text-2.1.1,Data.Text.Encoding.Error,CorePrep,0.451
+text-2.1.1,Data.Text.Encoding.Error,CoreTidy,0.894
+text-2.1.1,Data.Text.Encoding.Error,CoreToStg,1.568
+text-2.1.1,Data.Text.Encoding.Error,Demand analysis,1.9500000000000002
+text-2.1.1,Data.Text.Encoding.Error,Desugar,0.75
+text-2.1.1,Data.Text.Encoding.Error,Exitification transformation,0.013
+text-2.1.1,Data.Text.Encoding.Error,Float inwards,0.024
+text-2.1.1,Data.Text.Encoding.Error,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.949
+text-2.1.1,Data.Text.Encoding.Error,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.95
+text-2.1.1,Data.Text.Encoding.Error,Liberate case,0.012
+text-2.1.1,Data.Text.Encoding.Error,Parser,1.814
+text-2.1.1,Data.Text.Encoding.Error,Renamer/typechecker,50.943
+text-2.1.1,Data.Text.Encoding.Error,Simplifier,65.064
+text-2.1.1,Data.Text.Encoding.Error,SpecConstr,0.48
+text-2.1.1,Data.Text.Encoding.Error,Specialise,0.693
+text-2.1.1,Data.Text.Encoding.Error,Worker Wrapper binds,0.094
+text-2.1.1,Data.Text.Foreign,Called arity analysis,0.011
+text-2.1.1,Data.Text.Foreign,CodeGen,40.95
+text-2.1.1,Data.Text.Foreign,Common sub-expression,0.025
+text-2.1.1,Data.Text.Foreign,Constructed Product Result analysis,0.517
+text-2.1.1,Data.Text.Foreign,CorePrep,0.771
+text-2.1.1,Data.Text.Foreign,CoreTidy,1.005
+text-2.1.1,Data.Text.Foreign,CoreToStg,3.5700000000000003
+text-2.1.1,Data.Text.Foreign,Demand analysis,2.7190000000000003
+text-2.1.1,Data.Text.Foreign,Desugar,1.05
+text-2.1.1,Data.Text.Foreign,Exitification transformation,0.013
+text-2.1.1,Data.Text.Foreign,Float inwards,0.024
+text-2.1.1,Data.Text.Foreign,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.132
+text-2.1.1,Data.Text.Foreign,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.75
+text-2.1.1,Data.Text.Foreign,Liberate case,0.01
+text-2.1.1,Data.Text.Foreign,Parser,1.932
+text-2.1.1,Data.Text.Foreign,Renamer/typechecker,17.866
+text-2.1.1,Data.Text.Foreign,Simplifier,71.68
+text-2.1.1,Data.Text.Foreign,SpecConstr,0.3
+text-2.1.1,Data.Text.Foreign,Specialise,0.339
+text-2.1.1,Data.Text.Foreign,Worker Wrapper binds,0.3
+text-2.1.1,Data.Text.IO,Called arity analysis,0.01
+text-2.1.1,Data.Text.IO,CodeGen,190.064
+text-2.1.1,Data.Text.IO,Common sub-expression,0.026000000000000002
+text-2.1.1,Data.Text.IO,Constructed Product Result analysis,0.456
+text-2.1.1,Data.Text.IO,CorePrep,3.3129999999999997
+text-2.1.1,Data.Text.IO,CoreTidy,2.057
+text-2.1.1,Data.Text.IO,CoreToStg,27.654000000000003
+text-2.1.1,Data.Text.IO,Demand analysis,13.135000000000002
+text-2.1.1,Data.Text.IO,Desugar,2.264
+text-2.1.1,Data.Text.IO,Exitification transformation,0.013
+text-2.1.1,Data.Text.IO,Float inwards,0.019
+text-2.1.1,Data.Text.IO,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.82
+text-2.1.1,Data.Text.IO,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",5.798
+text-2.1.1,Data.Text.IO,Liberate case,0.012
+text-2.1.1,Data.Text.IO,Parser,3.398
+text-2.1.1,Data.Text.IO,Renamer/typechecker,14.293
+text-2.1.1,Data.Text.IO,Simplifier,161.491
+text-2.1.1,Data.Text.IO,SpecConstr,2.421
+text-2.1.1,Data.Text.IO,Specialise,0.408
+text-2.1.1,Data.Text.IO,Worker Wrapper binds,0.136
+text-2.1.1,Data.Text.IO.Utf8,Called arity analysis,0.023
+text-2.1.1,Data.Text.IO.Utf8,CodeGen,26.61
+text-2.1.1,Data.Text.IO.Utf8,Common sub-expression,0.024
+text-2.1.1,Data.Text.IO.Utf8,Constructed Product Result analysis,0.128
+text-2.1.1,Data.Text.IO.Utf8,CorePrep,0.424
+text-2.1.1,Data.Text.IO.Utf8,CoreTidy,0.581
+text-2.1.1,Data.Text.IO.Utf8,CoreToStg,1.684
+text-2.1.1,Data.Text.IO.Utf8,Demand analysis,0.765
+text-2.1.1,Data.Text.IO.Utf8,Desugar,0.108
+text-2.1.1,Data.Text.IO.Utf8,Exitification transformation,0.014
+text-2.1.1,Data.Text.IO.Utf8,Float inwards,0.041
+text-2.1.1,Data.Text.IO.Utf8,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.469
+text-2.1.1,Data.Text.IO.Utf8,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.337
+text-2.1.1,Data.Text.IO.Utf8,Liberate case,0.012
+text-2.1.1,Data.Text.IO.Utf8,Parser,0.613
+text-2.1.1,Data.Text.IO.Utf8,Renamer/typechecker,3.41
+text-2.1.1,Data.Text.IO.Utf8,Simplifier,28.066
+text-2.1.1,Data.Text.IO.Utf8,SpecConstr,0.113
+text-2.1.1,Data.Text.IO.Utf8,Specialise,0.098
+text-2.1.1,Data.Text.IO.Utf8,Worker Wrapper binds,0.078
+text-2.1.1,Data.Text.Internal,Called arity analysis,0.017
+text-2.1.1,Data.Text.Internal,CodeGen,53.384
+text-2.1.1,Data.Text.Internal,Common sub-expression,0.028999999999999998
+text-2.1.1,Data.Text.Internal,Constructed Product Result analysis,0.267
+text-2.1.1,Data.Text.Internal,CorePrep,1.351
+text-2.1.1,Data.Text.Internal,CoreTidy,1.016
+text-2.1.1,Data.Text.Internal,CoreToStg,5.663
+text-2.1.1,Data.Text.Internal,Demand analysis,3.156
+text-2.1.1,Data.Text.Internal,Desugar,1.115
+text-2.1.1,Data.Text.Internal,Exitification transformation,0.013
+text-2.1.1,Data.Text.Internal,Float inwards,0.028999999999999998
+text-2.1.1,Data.Text.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",3.072
+text-2.1.1,Data.Text.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.971
+text-2.1.1,Data.Text.Internal,Liberate case,0.012
+text-2.1.1,Data.Text.Internal,Parser,3.001
+text-2.1.1,Data.Text.Internal,Renamer/typechecker,6.925
+text-2.1.1,Data.Text.Internal,Simplifier,154.471
+text-2.1.1,Data.Text.Internal,SpecConstr,0.708
+text-2.1.1,Data.Text.Internal,Specialise,0.556
+text-2.1.1,Data.Text.Internal,Worker Wrapper binds,0.114
+text-2.1.1,Data.Text.Internal.ArrayUtils,Called arity analysis,0.011
+text-2.1.1,Data.Text.Internal.ArrayUtils,CodeGen,6.183
+text-2.1.1,Data.Text.Internal.ArrayUtils,Common sub-expression,0.028
+text-2.1.1,Data.Text.Internal.ArrayUtils,Constructed Product Result analysis,0.028
+text-2.1.1,Data.Text.Internal.ArrayUtils,CorePrep,0.11699999999999999
+text-2.1.1,Data.Text.Internal.ArrayUtils,CoreTidy,0.236
+text-2.1.1,Data.Text.Internal.ArrayUtils,CoreToStg,0.392
+text-2.1.1,Data.Text.Internal.ArrayUtils,Demand analysis,0.184
+text-2.1.1,Data.Text.Internal.ArrayUtils,Desugar,0.167
+text-2.1.1,Data.Text.Internal.ArrayUtils,Exitification transformation,0.011
+text-2.1.1,Data.Text.Internal.ArrayUtils,Float inwards,0.022
+text-2.1.1,Data.Text.Internal.ArrayUtils,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.117
+text-2.1.1,Data.Text.Internal.ArrayUtils,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.084
+text-2.1.1,Data.Text.Internal.ArrayUtils,Liberate case,0.012
+text-2.1.1,Data.Text.Internal.ArrayUtils,Parser,1.007
+text-2.1.1,Data.Text.Internal.ArrayUtils,Renamer/typechecker,6.939
+text-2.1.1,Data.Text.Internal.ArrayUtils,Simplifier,5.907
+text-2.1.1,Data.Text.Internal.ArrayUtils,SpecConstr,0.034
+text-2.1.1,Data.Text.Internal.ArrayUtils,Specialise,0.038
+text-2.1.1,Data.Text.Internal.ArrayUtils,Worker Wrapper binds,0.035
+text-2.1.1,Data.Text.Internal.Builder,Called arity analysis,0.016
+text-2.1.1,Data.Text.Internal.Builder,CodeGen,74.168
+text-2.1.1,Data.Text.Internal.Builder,Common sub-expression,0.026000000000000002
+text-2.1.1,Data.Text.Internal.Builder,Constructed Product Result analysis,0.366
+text-2.1.1,Data.Text.Internal.Builder,CorePrep,1.449
+text-2.1.1,Data.Text.Internal.Builder,CoreTidy,1.49
+text-2.1.1,Data.Text.Internal.Builder,CoreToStg,9.672999999999998
+text-2.1.1,Data.Text.Internal.Builder,Demand analysis,4.891
+text-2.1.1,Data.Text.Internal.Builder,Desugar,1.073
+text-2.1.1,Data.Text.Internal.Builder,Exitification transformation,0.015
+text-2.1.1,Data.Text.Internal.Builder,Float inwards,0.066
+text-2.1.1,Data.Text.Internal.Builder,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.035
+text-2.1.1,Data.Text.Internal.Builder,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",4.502
+text-2.1.1,Data.Text.Internal.Builder,Liberate case,0.013
+text-2.1.1,Data.Text.Internal.Builder,Parser,3.593
+text-2.1.1,Data.Text.Internal.Builder,Renamer/typechecker,11.108
+text-2.1.1,Data.Text.Internal.Builder,Simplifier,167.285
+text-2.1.1,Data.Text.Internal.Builder,SpecConstr,0.928
+text-2.1.1,Data.Text.Internal.Builder,Specialise,0.342
+text-2.1.1,Data.Text.Internal.Builder,Worker Wrapper binds,0.17
+text-2.1.1,Data.Text.Internal.Builder.Functions,Called arity analysis,0.017
+text-2.1.1,Data.Text.Internal.Builder.Functions,CodeGen,2.355
+text-2.1.1,Data.Text.Internal.Builder.Functions,Common sub-expression,0.020999999999999998
+text-2.1.1,Data.Text.Internal.Builder.Functions,Constructed Product Result analysis,0.05
+text-2.1.1,Data.Text.Internal.Builder.Functions,CorePrep,0.11699999999999999
+text-2.1.1,Data.Text.Internal.Builder.Functions,CoreTidy,0.072
+text-2.1.1,Data.Text.Internal.Builder.Functions,CoreToStg,0.27
+text-2.1.1,Data.Text.Internal.Builder.Functions,Demand analysis,0.20500000000000002
+text-2.1.1,Data.Text.Internal.Builder.Functions,Desugar,0.118
+text-2.1.1,Data.Text.Internal.Builder.Functions,Exitification transformation,0.013
+text-2.1.1,Data.Text.Internal.Builder.Functions,Float inwards,0.029
+text-2.1.1,Data.Text.Internal.Builder.Functions,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.097
+text-2.1.1,Data.Text.Internal.Builder.Functions,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.074
+text-2.1.1,Data.Text.Internal.Builder.Functions,Liberate case,0.01
+text-2.1.1,Data.Text.Internal.Builder.Functions,Parser,1.058
+text-2.1.1,Data.Text.Internal.Builder.Functions,Renamer/typechecker,1.301
+text-2.1.1,Data.Text.Internal.Builder.Functions,Simplifier,1.647
+text-2.1.1,Data.Text.Internal.Builder.Functions,SpecConstr,0.064
+text-2.1.1,Data.Text.Internal.Builder.Functions,Specialise,0.032
+text-2.1.1,Data.Text.Internal.Builder.Functions,Worker Wrapper binds,0.017
+text-2.1.1,Data.Text.Internal.Builder.Int.Digits,Called arity analysis,0.024
+text-2.1.1,Data.Text.Internal.Builder.Int.Digits,CodeGen,1.7640000000000002
+text-2.1.1,Data.Text.Internal.Builder.Int.Digits,Common sub-expression,0.023
+text-2.1.1,Data.Text.Internal.Builder.Int.Digits,Constructed Product Result analysis,0.015
+text-2.1.1,Data.Text.Internal.Builder.Int.Digits,CorePrep,0.152
+text-2.1.1,Data.Text.Internal.Builder.Int.Digits,CoreTidy,0.066
+text-2.1.1,Data.Text.Internal.Builder.Int.Digits,CoreToStg,0.253
+text-2.1.1,Data.Text.Internal.Builder.Int.Digits,Demand analysis,0.07100000000000001
+text-2.1.1,Data.Text.Internal.Builder.Int.Digits,Desugar,0.056
+text-2.1.1,Data.Text.Internal.Builder.Int.Digits,Exitification transformation,0.012
+text-2.1.1,Data.Text.Internal.Builder.Int.Digits,Float inwards,0.03
+text-2.1.1,Data.Text.Internal.Builder.Int.Digits,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.054
+text-2.1.1,Data.Text.Internal.Builder.Int.Digits,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.042
+text-2.1.1,Data.Text.Internal.Builder.Int.Digits,Liberate case,0.012
+text-2.1.1,Data.Text.Internal.Builder.Int.Digits,Parser,0.228
+text-2.1.1,Data.Text.Internal.Builder.Int.Digits,Renamer/typechecker,2.242
+text-2.1.1,Data.Text.Internal.Builder.Int.Digits,Simplifier,2.168
+text-2.1.1,Data.Text.Internal.Builder.Int.Digits,SpecConstr,0.017
+text-2.1.1,Data.Text.Internal.Builder.Int.Digits,Specialise,0.025
+text-2.1.1,Data.Text.Internal.Builder.Int.Digits,Worker Wrapper binds,0.013
+text-2.1.1,Data.Text.Internal.Builder.RealFloat.Functions,Called arity analysis,0.012
+text-2.1.1,Data.Text.Internal.Builder.RealFloat.Functions,CodeGen,32.208
+text-2.1.1,Data.Text.Internal.Builder.RealFloat.Functions,Common sub-expression,0.026
+text-2.1.1,Data.Text.Internal.Builder.RealFloat.Functions,Constructed Product Result analysis,0.11
+text-2.1.1,Data.Text.Internal.Builder.RealFloat.Functions,CorePrep,0.425
+text-2.1.1,Data.Text.Internal.Builder.RealFloat.Functions,CoreTidy,0.501
+text-2.1.1,Data.Text.Internal.Builder.RealFloat.Functions,CoreToStg,1.98
+text-2.1.1,Data.Text.Internal.Builder.RealFloat.Functions,Demand analysis,0.713
+text-2.1.1,Data.Text.Internal.Builder.RealFloat.Functions,Desugar,0.627
+text-2.1.1,Data.Text.Internal.Builder.RealFloat.Functions,Exitification transformation,0.012
+text-2.1.1,Data.Text.Internal.Builder.RealFloat.Functions,Float inwards,0.022
+text-2.1.1,Data.Text.Internal.Builder.RealFloat.Functions,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.433
+text-2.1.1,Data.Text.Internal.Builder.RealFloat.Functions,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.409
+text-2.1.1,Data.Text.Internal.Builder.RealFloat.Functions,Liberate case,0.033
+text-2.1.1,Data.Text.Internal.Builder.RealFloat.Functions,Parser,2.161
+text-2.1.1,Data.Text.Internal.Builder.RealFloat.Functions,Renamer/typechecker,8.532
+text-2.1.1,Data.Text.Internal.Builder.RealFloat.Functions,Simplifier,25.434
+text-2.1.1,Data.Text.Internal.Builder.RealFloat.Functions,SpecConstr,0.269
+text-2.1.1,Data.Text.Internal.Builder.RealFloat.Functions,Specialise,0.162
+text-2.1.1,Data.Text.Internal.Builder.RealFloat.Functions,Worker Wrapper binds,0.048
+text-2.1.1,Data.Text.Internal.ByteStringCompat,Called arity analysis,0.024
+text-2.1.1,Data.Text.Internal.ByteStringCompat,CodeGen,4.628
+text-2.1.1,Data.Text.Internal.ByteStringCompat,Common sub-expression,0.022
+text-2.1.1,Data.Text.Internal.ByteStringCompat,Constructed Product Result analysis,0.035
+text-2.1.1,Data.Text.Internal.ByteStringCompat,CorePrep,0.134
+text-2.1.1,Data.Text.Internal.ByteStringCompat,CoreTidy,0.075
+text-2.1.1,Data.Text.Internal.ByteStringCompat,CoreToStg,0.35
+text-2.1.1,Data.Text.Internal.ByteStringCompat,Demand analysis,0.218
+text-2.1.1,Data.Text.Internal.ByteStringCompat,Desugar,0.208
+text-2.1.1,Data.Text.Internal.ByteStringCompat,Exitification transformation,0.011
+text-2.1.1,Data.Text.Internal.ByteStringCompat,Float inwards,0.027999999999999997
+text-2.1.1,Data.Text.Internal.ByteStringCompat,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.111
+text-2.1.1,Data.Text.Internal.ByteStringCompat,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.072
+text-2.1.1,Data.Text.Internal.ByteStringCompat,Liberate case,0.014
+text-2.1.1,Data.Text.Internal.ByteStringCompat,Parser,1.434
+text-2.1.1,Data.Text.Internal.ByteStringCompat,Renamer/typechecker,1.121
+text-2.1.1,Data.Text.Internal.ByteStringCompat,Simplifier,1.305
+text-2.1.1,Data.Text.Internal.ByteStringCompat,SpecConstr,0.026
+text-2.1.1,Data.Text.Internal.ByteStringCompat,Specialise,0.047
+text-2.1.1,Data.Text.Internal.ByteStringCompat,Worker Wrapper binds,0.013
+text-2.1.1,Data.Text.Internal.Encoding,Called arity analysis,0.014
+text-2.1.1,Data.Text.Internal.Encoding,CodeGen,1349.059
+text-2.1.1,Data.Text.Internal.Encoding,Common sub-expression,0.03
+text-2.1.1,Data.Text.Internal.Encoding,Constructed Product Result analysis,2.767
+text-2.1.1,Data.Text.Internal.Encoding,CorePrep,45.28999999999999
+text-2.1.1,Data.Text.Internal.Encoding,CoreTidy,18.698
+text-2.1.1,Data.Text.Internal.Encoding,CoreToStg,488.75
+text-2.1.1,Data.Text.Internal.Encoding,Demand analysis,60.714
+text-2.1.1,Data.Text.Internal.Encoding,Desugar,7.011
+text-2.1.1,Data.Text.Internal.Encoding,Exitification transformation,0.015
+text-2.1.1,Data.Text.Internal.Encoding,Float inwards,0.025
+text-2.1.1,Data.Text.Internal.Encoding,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",19.156
+text-2.1.1,Data.Text.Internal.Encoding,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",43.874
+text-2.1.1,Data.Text.Internal.Encoding,Liberate case,0.013
+text-2.1.1,Data.Text.Internal.Encoding,Parser,3.807
+text-2.1.1,Data.Text.Internal.Encoding,Renamer/typechecker,14.253
+text-2.1.1,Data.Text.Internal.Encoding,Simplifier,1859.421
+text-2.1.1,Data.Text.Internal.Encoding,SpecConstr,48.12
+text-2.1.1,Data.Text.Internal.Encoding,Specialise,2.503
+text-2.1.1,Data.Text.Internal.Encoding,Worker Wrapper binds,1.088
+text-2.1.1,Data.Text.Internal.Encoding.Fusion,Called arity analysis,0.02
+text-2.1.1,Data.Text.Internal.Encoding.Fusion,CodeGen,56.78
+text-2.1.1,Data.Text.Internal.Encoding.Fusion,Common sub-expression,0.04
+text-2.1.1,Data.Text.Internal.Encoding.Fusion,Constructed Product Result analysis,0.355
+text-2.1.1,Data.Text.Internal.Encoding.Fusion,CorePrep,1.349
+text-2.1.1,Data.Text.Internal.Encoding.Fusion,CoreTidy,1.141
+text-2.1.1,Data.Text.Internal.Encoding.Fusion,CoreToStg,6.69
+text-2.1.1,Data.Text.Internal.Encoding.Fusion,Demand analysis,5.152
+text-2.1.1,Data.Text.Internal.Encoding.Fusion,Desugar,1.66
+text-2.1.1,Data.Text.Internal.Encoding.Fusion,Exitification transformation,0.017
+text-2.1.1,Data.Text.Internal.Encoding.Fusion,Float inwards,0.033
+text-2.1.1,Data.Text.Internal.Encoding.Fusion,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.95
+text-2.1.1,Data.Text.Internal.Encoding.Fusion,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",3.333
+text-2.1.1,Data.Text.Internal.Encoding.Fusion,Liberate case,0.016
+text-2.1.1,Data.Text.Internal.Encoding.Fusion,Parser,4.35
+text-2.1.1,Data.Text.Internal.Encoding.Fusion,Renamer/typechecker,10.95
+text-2.1.1,Data.Text.Internal.Encoding.Fusion,Simplifier,220.02100000000002
+text-2.1.1,Data.Text.Internal.Encoding.Fusion,SpecConstr,0.544
+text-2.1.1,Data.Text.Internal.Encoding.Fusion,Specialise,0.453
+text-2.1.1,Data.Text.Internal.Encoding.Fusion,Worker Wrapper binds,0.151
+text-2.1.1,Data.Text.Internal.Encoding.Fusion.Common,Called arity analysis,0.011
+text-2.1.1,Data.Text.Internal.Encoding.Fusion.Common,CodeGen,32.691
+text-2.1.1,Data.Text.Internal.Encoding.Fusion.Common,Common sub-expression,0.033
+text-2.1.1,Data.Text.Internal.Encoding.Fusion.Common,Constructed Product Result analysis,0.228
+text-2.1.1,Data.Text.Internal.Encoding.Fusion.Common,CorePrep,1.466
+text-2.1.1,Data.Text.Internal.Encoding.Fusion.Common,CoreTidy,0.977
+text-2.1.1,Data.Text.Internal.Encoding.Fusion.Common,CoreToStg,3.3689999999999998
+text-2.1.1,Data.Text.Internal.Encoding.Fusion.Common,Demand analysis,5.402
+text-2.1.1,Data.Text.Internal.Encoding.Fusion.Common,Desugar,1.44
+text-2.1.1,Data.Text.Internal.Encoding.Fusion.Common,Exitification transformation,0.015
+text-2.1.1,Data.Text.Internal.Encoding.Fusion.Common,Float inwards,0.024
+text-2.1.1,Data.Text.Internal.Encoding.Fusion.Common,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",6.809
+text-2.1.1,Data.Text.Internal.Encoding.Fusion.Common,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.443
+text-2.1.1,Data.Text.Internal.Encoding.Fusion.Common,Liberate case,0.014
+text-2.1.1,Data.Text.Internal.Encoding.Fusion.Common,Parser,1.243
+text-2.1.1,Data.Text.Internal.Encoding.Fusion.Common,Renamer/typechecker,5.48
+text-2.1.1,Data.Text.Internal.Encoding.Fusion.Common,Simplifier,315.205
+text-2.1.1,Data.Text.Internal.Encoding.Fusion.Common,SpecConstr,0.378
+text-2.1.1,Data.Text.Internal.Encoding.Fusion.Common,Specialise,1.172
+text-2.1.1,Data.Text.Internal.Encoding.Fusion.Common,Worker Wrapper binds,0.093
+text-2.1.1,Data.Text.Internal.Encoding.Utf16,Called arity analysis,0.01
+text-2.1.1,Data.Text.Internal.Encoding.Utf16,CodeGen,5.824
+text-2.1.1,Data.Text.Internal.Encoding.Utf16,Common sub-expression,0.031
+text-2.1.1,Data.Text.Internal.Encoding.Utf16,Constructed Product Result analysis,0.037
+text-2.1.1,Data.Text.Internal.Encoding.Utf16,CorePrep,0.227
+text-2.1.1,Data.Text.Internal.Encoding.Utf16,CoreTidy,0.108
+text-2.1.1,Data.Text.Internal.Encoding.Utf16,CoreToStg,0.485
+text-2.1.1,Data.Text.Internal.Encoding.Utf16,Demand analysis,0.219
+text-2.1.1,Data.Text.Internal.Encoding.Utf16,Desugar,0.83
+text-2.1.1,Data.Text.Internal.Encoding.Utf16,Exitification transformation,0.017
+text-2.1.1,Data.Text.Internal.Encoding.Utf16,Float inwards,0.03
+text-2.1.1,Data.Text.Internal.Encoding.Utf16,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.116
+text-2.1.1,Data.Text.Internal.Encoding.Utf16,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.264
+text-2.1.1,Data.Text.Internal.Encoding.Utf16,Liberate case,0.017
+text-2.1.1,Data.Text.Internal.Encoding.Utf16,Parser,1.541
+text-2.1.1,Data.Text.Internal.Encoding.Utf16,Renamer/typechecker,2.66
+text-2.1.1,Data.Text.Internal.Encoding.Utf16,Simplifier,3.339
+text-2.1.1,Data.Text.Internal.Encoding.Utf16,SpecConstr,0.031
+text-2.1.1,Data.Text.Internal.Encoding.Utf16,Specialise,0.037
+text-2.1.1,Data.Text.Internal.Encoding.Utf16,Worker Wrapper binds,0.018
+text-2.1.1,Data.Text.Internal.Encoding.Utf32,Called arity analysis,0.024
+text-2.1.1,Data.Text.Internal.Encoding.Utf32,CodeGen,1.958
+text-2.1.1,Data.Text.Internal.Encoding.Utf32,Common sub-expression,0.85
+text-2.1.1,Data.Text.Internal.Encoding.Utf32,Constructed Product Result analysis,0.028
+text-2.1.1,Data.Text.Internal.Encoding.Utf32,CorePrep,0.094
+text-2.1.1,Data.Text.Internal.Encoding.Utf32,CoreTidy,0.075
+text-2.1.1,Data.Text.Internal.Encoding.Utf32,CoreToStg,0.21200000000000002
+text-2.1.1,Data.Text.Internal.Encoding.Utf32,Demand analysis,0.129
+text-2.1.1,Data.Text.Internal.Encoding.Utf32,Desugar,0.087
+text-2.1.1,Data.Text.Internal.Encoding.Utf32,Exitification transformation,0.011
+text-2.1.1,Data.Text.Internal.Encoding.Utf32,Float inwards,0.039
+text-2.1.1,Data.Text.Internal.Encoding.Utf32,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.099
+text-2.1.1,Data.Text.Internal.Encoding.Utf32,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.064
+text-2.1.1,Data.Text.Internal.Encoding.Utf32,Liberate case,0.013
+text-2.1.1,Data.Text.Internal.Encoding.Utf32,Parser,0.248
+text-2.1.1,Data.Text.Internal.Encoding.Utf32,Renamer/typechecker,0.914
+text-2.1.1,Data.Text.Internal.Encoding.Utf32,Simplifier,2.36
+text-2.1.1,Data.Text.Internal.Encoding.Utf32,SpecConstr,0.046
+text-2.1.1,Data.Text.Internal.Encoding.Utf32,Specialise,0.07
+text-2.1.1,Data.Text.Internal.Encoding.Utf32,Worker Wrapper binds,0.016
+text-2.1.1,Data.Text.Internal.Encoding.Utf8,Called arity analysis,0.014
+text-2.1.1,Data.Text.Internal.Encoding.Utf8,CodeGen,52.308
+text-2.1.1,Data.Text.Internal.Encoding.Utf8,Common sub-expression,0.03
+text-2.1.1,Data.Text.Internal.Encoding.Utf8,Constructed Product Result analysis,0.734
+text-2.1.1,Data.Text.Internal.Encoding.Utf8,CorePrep,0.856
+text-2.1.1,Data.Text.Internal.Encoding.Utf8,CoreTidy,1.312
+text-2.1.1,Data.Text.Internal.Encoding.Utf8,CoreToStg,4.086
+text-2.1.1,Data.Text.Internal.Encoding.Utf8,Demand analysis,1.47
+text-2.1.1,Data.Text.Internal.Encoding.Utf8,Desugar,1.538
+text-2.1.1,Data.Text.Internal.Encoding.Utf8,Exitification transformation,0.014
+text-2.1.1,Data.Text.Internal.Encoding.Utf8,Float inwards,0.032
+text-2.1.1,Data.Text.Internal.Encoding.Utf8,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.278
+text-2.1.1,Data.Text.Internal.Encoding.Utf8,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.958
+text-2.1.1,Data.Text.Internal.Encoding.Utf8,Liberate case,0.014
+text-2.1.1,Data.Text.Internal.Encoding.Utf8,Parser,3.797
+text-2.1.1,Data.Text.Internal.Encoding.Utf8,Renamer/typechecker,19.107
+text-2.1.1,Data.Text.Internal.Encoding.Utf8,Simplifier,65.601
+text-2.1.1,Data.Text.Internal.Encoding.Utf8,SpecConstr,0.157
+text-2.1.1,Data.Text.Internal.Encoding.Utf8,Specialise,0.264
+text-2.1.1,Data.Text.Internal.Encoding.Utf8,Worker Wrapper binds,0.073
+text-2.1.1,Data.Text.Internal.Fusion,Called arity analysis,0.01
+text-2.1.1,Data.Text.Internal.Fusion,CodeGen,129.364
+text-2.1.1,Data.Text.Internal.Fusion,Common sub-expression,0.031
+text-2.1.1,Data.Text.Internal.Fusion,Constructed Product Result analysis,0.479
+text-2.1.1,Data.Text.Internal.Fusion,CorePrep,7.704000000000001
+text-2.1.1,Data.Text.Internal.Fusion,CoreTidy,1.415
+text-2.1.1,Data.Text.Internal.Fusion,CoreToStg,25.543
+text-2.1.1,Data.Text.Internal.Fusion,Demand analysis,15.568000000000001
+text-2.1.1,Data.Text.Internal.Fusion,Desugar,1.934
+text-2.1.1,Data.Text.Internal.Fusion,Exitification transformation,0.014
+text-2.1.1,Data.Text.Internal.Fusion,Float inwards,0.023
+text-2.1.1,Data.Text.Internal.Fusion,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",4.252
+text-2.1.1,Data.Text.Internal.Fusion,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",8.742
+text-2.1.1,Data.Text.Internal.Fusion,Liberate case,0.014
+text-2.1.1,Data.Text.Internal.Fusion,Parser,3.612
+text-2.1.1,Data.Text.Internal.Fusion,Renamer/typechecker,10.692
+text-2.1.1,Data.Text.Internal.Fusion,Simplifier,401.51
+text-2.1.1,Data.Text.Internal.Fusion,SpecConstr,7.343
+text-2.1.1,Data.Text.Internal.Fusion,Specialise,0.841
+text-2.1.1,Data.Text.Internal.Fusion,Worker Wrapper binds,0.131
+text-2.1.1,Data.Text.Internal.Fusion.CaseMapping,Called arity analysis,0.012
+text-2.1.1,Data.Text.Internal.Fusion.CaseMapping,CodeGen,401.988
+text-2.1.1,Data.Text.Internal.Fusion.CaseMapping,Common sub-expression,0.038
+text-2.1.1,Data.Text.Internal.Fusion.CaseMapping,Constructed Product Result analysis,0.647
+text-2.1.1,Data.Text.Internal.Fusion.CaseMapping,CorePrep,0.6970000000000001
+text-2.1.1,Data.Text.Internal.Fusion.CaseMapping,CoreTidy,0.25
+text-2.1.1,Data.Text.Internal.Fusion.CaseMapping,CoreToStg,15.421
+text-2.1.1,Data.Text.Internal.Fusion.CaseMapping,Demand analysis,2.789
+text-2.1.1,Data.Text.Internal.Fusion.CaseMapping,Desugar,333.348
+text-2.1.1,Data.Text.Internal.Fusion.CaseMapping,Exitification transformation,0.014
+text-2.1.1,Data.Text.Internal.Fusion.CaseMapping,Float inwards,0.027
+text-2.1.1,Data.Text.Internal.Fusion.CaseMapping,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.678
+text-2.1.1,Data.Text.Internal.Fusion.CaseMapping,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",3.217
+text-2.1.1,Data.Text.Internal.Fusion.CaseMapping,Liberate case,0.012
+text-2.1.1,Data.Text.Internal.Fusion.CaseMapping,Parser,126.513
+text-2.1.1,Data.Text.Internal.Fusion.CaseMapping,Renamer/typechecker,189.707
+text-2.1.1,Data.Text.Internal.Fusion.CaseMapping,Simplifier,140.117
+text-2.1.1,Data.Text.Internal.Fusion.CaseMapping,SpecConstr,0.314
+text-2.1.1,Data.Text.Internal.Fusion.CaseMapping,Specialise,0.852
+text-2.1.1,Data.Text.Internal.Fusion.CaseMapping,Worker Wrapper binds,0.153
+text-2.1.1,Data.Text.Internal.Fusion.Common,Called arity analysis,0.012
+text-2.1.1,Data.Text.Internal.Fusion.Common,CodeGen,296.34299999999996
+text-2.1.1,Data.Text.Internal.Fusion.Common,Common sub-expression,0.034
+text-2.1.1,Data.Text.Internal.Fusion.Common,Constructed Product Result analysis,2.435
+text-2.1.1,Data.Text.Internal.Fusion.Common,CorePrep,13.472
+text-2.1.1,Data.Text.Internal.Fusion.Common,CoreTidy,7.937
+text-2.1.1,Data.Text.Internal.Fusion.Common,CoreToStg,100.599
+text-2.1.1,Data.Text.Internal.Fusion.Common,Demand analysis,24.631999999999998
+text-2.1.1,Data.Text.Internal.Fusion.Common,Desugar,16.334
+text-2.1.1,Data.Text.Internal.Fusion.Common,Exitification transformation,0.015
+text-2.1.1,Data.Text.Internal.Fusion.Common,Float inwards,0.026
+text-2.1.1,Data.Text.Internal.Fusion.Common,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",14.759
+text-2.1.1,Data.Text.Internal.Fusion.Common,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",22.561
+text-2.1.1,Data.Text.Internal.Fusion.Common,Liberate case,0.013
+text-2.1.1,Data.Text.Internal.Fusion.Common,Parser,15.866
+text-2.1.1,Data.Text.Internal.Fusion.Common,Renamer/typechecker,47.309
+text-2.1.1,Data.Text.Internal.Fusion.Common,Simplifier,1166.218
+text-2.1.1,Data.Text.Internal.Fusion.Common,SpecConstr,3.843
+text-2.1.1,Data.Text.Internal.Fusion.Common,Specialise,2.349
+text-2.1.1,Data.Text.Internal.Fusion.Common,Worker Wrapper binds,0.387
+text-2.1.1,Data.Text.Internal.Fusion.Size,Called arity analysis,0.012
+text-2.1.1,Data.Text.Internal.Fusion.Size,CodeGen,65.038
+text-2.1.1,Data.Text.Internal.Fusion.Size,Common sub-expression,0.031
+text-2.1.1,Data.Text.Internal.Fusion.Size,Constructed Product Result analysis,0.269
+text-2.1.1,Data.Text.Internal.Fusion.Size,CorePrep,1.157
+text-2.1.1,Data.Text.Internal.Fusion.Size,CoreTidy,0.884
+text-2.1.1,Data.Text.Internal.Fusion.Size,CoreToStg,5.4030000000000005
+text-2.1.1,Data.Text.Internal.Fusion.Size,Demand analysis,2.498
+text-2.1.1,Data.Text.Internal.Fusion.Size,Desugar,1.021
+text-2.1.1,Data.Text.Internal.Fusion.Size,Exitification transformation,0.014
+text-2.1.1,Data.Text.Internal.Fusion.Size,Float inwards,0.023
+text-2.1.1,Data.Text.Internal.Fusion.Size,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.076
+text-2.1.1,Data.Text.Internal.Fusion.Size,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.007
+text-2.1.1,Data.Text.Internal.Fusion.Size,Liberate case,0.015
+text-2.1.1,Data.Text.Internal.Fusion.Size,Parser,2.477
+text-2.1.1,Data.Text.Internal.Fusion.Size,Renamer/typechecker,4.967
+text-2.1.1,Data.Text.Internal.Fusion.Size,Simplifier,131.347
+text-2.1.1,Data.Text.Internal.Fusion.Size,SpecConstr,0.771
+text-2.1.1,Data.Text.Internal.Fusion.Size,Specialise,0.508
+text-2.1.1,Data.Text.Internal.Fusion.Size,Worker Wrapper binds,0.106
+text-2.1.1,Data.Text.Internal.Fusion.Types,Called arity analysis,0.013
+text-2.1.1,Data.Text.Internal.Fusion.Types,CodeGen,75.536
+text-2.1.1,Data.Text.Internal.Fusion.Types,Common sub-expression,0.025
+text-2.1.1,Data.Text.Internal.Fusion.Types,Constructed Product Result analysis,0.318
+text-2.1.1,Data.Text.Internal.Fusion.Types,CorePrep,1.076
+text-2.1.1,Data.Text.Internal.Fusion.Types,CoreTidy,1.661
+text-2.1.1,Data.Text.Internal.Fusion.Types,CoreToStg,5.492
+text-2.1.1,Data.Text.Internal.Fusion.Types,Demand analysis,2.649
+text-2.1.1,Data.Text.Internal.Fusion.Types,Desugar,1.068
+text-2.1.1,Data.Text.Internal.Fusion.Types,Exitification transformation,0.017
+text-2.1.1,Data.Text.Internal.Fusion.Types,Float inwards,0.025
+text-2.1.1,Data.Text.Internal.Fusion.Types,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.355
+text-2.1.1,Data.Text.Internal.Fusion.Types,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.378
+text-2.1.1,Data.Text.Internal.Fusion.Types,Liberate case,0.013
+text-2.1.1,Data.Text.Internal.Fusion.Types,Parser,1.188
+text-2.1.1,Data.Text.Internal.Fusion.Types,Renamer/typechecker,12.279
+text-2.1.1,Data.Text.Internal.Fusion.Types,Simplifier,54.948
+text-2.1.1,Data.Text.Internal.Fusion.Types,SpecConstr,0.494
+text-2.1.1,Data.Text.Internal.Fusion.Types,Specialise,0.814
+text-2.1.1,Data.Text.Internal.Fusion.Types,Worker Wrapper binds,0.134
+text-2.1.1,Data.Text.Internal.IO,Called arity analysis,0.011
+text-2.1.1,Data.Text.Internal.IO,CodeGen,52.667
+text-2.1.1,Data.Text.Internal.IO,Common sub-expression,0.03
+text-2.1.1,Data.Text.Internal.IO,Constructed Product Result analysis,0.361
+text-2.1.1,Data.Text.Internal.IO,CorePrep,1.236
+text-2.1.1,Data.Text.Internal.IO,CoreTidy,2.263
+text-2.1.1,Data.Text.Internal.IO,CoreToStg,6.165
+text-2.1.1,Data.Text.Internal.IO,Demand analysis,3.73
+text-2.1.1,Data.Text.Internal.IO,Desugar,1.465
+text-2.1.1,Data.Text.Internal.IO,Exitification transformation,0.015
+text-2.1.1,Data.Text.Internal.IO,Float inwards,0.024
+text-2.1.1,Data.Text.Internal.IO,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.143
+text-2.1.1,Data.Text.Internal.IO,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.64
+text-2.1.1,Data.Text.Internal.IO,Liberate case,0.017
+text-2.1.1,Data.Text.Internal.IO,Parser,1.58
+text-2.1.1,Data.Text.Internal.IO,Renamer/typechecker,12.134
+text-2.1.1,Data.Text.Internal.IO,Simplifier,85.909
+text-2.1.1,Data.Text.Internal.IO,SpecConstr,0.914
+text-2.1.1,Data.Text.Internal.IO,Specialise,0.27
+text-2.1.1,Data.Text.Internal.IO,Worker Wrapper binds,0.121
+text-2.1.1,Data.Text.Internal.IsAscii,Called arity analysis,0.012
+text-2.1.1,Data.Text.Internal.IsAscii,CodeGen,10.806000000000001
+text-2.1.1,Data.Text.Internal.IsAscii,Common sub-expression,0.040999999999999995
+text-2.1.1,Data.Text.Internal.IsAscii,Constructed Product Result analysis,0.043
+text-2.1.1,Data.Text.Internal.IsAscii,CorePrep,0.199
+text-2.1.1,Data.Text.Internal.IsAscii,CoreTidy,0.234
+text-2.1.1,Data.Text.Internal.IsAscii,CoreToStg,0.702
+text-2.1.1,Data.Text.Internal.IsAscii,Demand analysis,0.367
+text-2.1.1,Data.Text.Internal.IsAscii,Desugar,0.276
+text-2.1.1,Data.Text.Internal.IsAscii,Exitification transformation,0.01
+text-2.1.1,Data.Text.Internal.IsAscii,Float inwards,0.022
+text-2.1.1,Data.Text.Internal.IsAscii,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.253
+text-2.1.1,Data.Text.Internal.IsAscii,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.189
+text-2.1.1,Data.Text.Internal.IsAscii,Liberate case,0.012
+text-2.1.1,Data.Text.Internal.IsAscii,Parser,1.186
+text-2.1.1,Data.Text.Internal.IsAscii,Renamer/typechecker,2.306
+text-2.1.1,Data.Text.Internal.IsAscii,Simplifier,7.5489999999999995
+text-2.1.1,Data.Text.Internal.IsAscii,SpecConstr,0.062
+text-2.1.1,Data.Text.Internal.IsAscii,Specialise,0.054
+text-2.1.1,Data.Text.Internal.IsAscii,Worker Wrapper binds,0.027
+text-2.1.1,Data.Text.Internal.Lazy,Called arity analysis,0.017
+text-2.1.1,Data.Text.Internal.Lazy,CodeGen,38.19
+text-2.1.1,Data.Text.Internal.Lazy,Common sub-expression,0.033
+text-2.1.1,Data.Text.Internal.Lazy,Constructed Product Result analysis,0.096
+text-2.1.1,Data.Text.Internal.Lazy,CorePrep,0.5
+text-2.1.1,Data.Text.Internal.Lazy,CoreTidy,0.928
+text-2.1.1,Data.Text.Internal.Lazy,CoreToStg,1.951
+text-2.1.1,Data.Text.Internal.Lazy,Demand analysis,1.2229999999999999
+text-2.1.1,Data.Text.Internal.Lazy,Desugar,0.894
+text-2.1.1,Data.Text.Internal.Lazy,Exitification transformation,0.012
+text-2.1.1,Data.Text.Internal.Lazy,Float inwards,0.037000000000000005
+text-2.1.1,Data.Text.Internal.Lazy,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.634
+text-2.1.1,Data.Text.Internal.Lazy,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.775
+text-2.1.1,Data.Text.Internal.Lazy,Liberate case,0.013
+text-2.1.1,Data.Text.Internal.Lazy,Parser,1.3
+text-2.1.1,Data.Text.Internal.Lazy,Renamer/typechecker,3.828
+text-2.1.1,Data.Text.Internal.Lazy,Simplifier,24.318
+text-2.1.1,Data.Text.Internal.Lazy,SpecConstr,0.308
+text-2.1.1,Data.Text.Internal.Lazy,Specialise,0.124
+text-2.1.1,Data.Text.Internal.Lazy,Worker Wrapper binds,0.04
+text-2.1.1,Data.Text.Internal.Lazy.Encoding.Fusion,Called arity analysis,0.011
+text-2.1.1,Data.Text.Internal.Lazy.Encoding.Fusion,CodeGen,264.523
+text-2.1.1,Data.Text.Internal.Lazy.Encoding.Fusion,Common sub-expression,0.057
+text-2.1.1,Data.Text.Internal.Lazy.Encoding.Fusion,Constructed Product Result analysis,1.17
+text-2.1.1,Data.Text.Internal.Lazy.Encoding.Fusion,CorePrep,8.155000000000001
+text-2.1.1,Data.Text.Internal.Lazy.Encoding.Fusion,CoreTidy,2.543
+text-2.1.1,Data.Text.Internal.Lazy.Encoding.Fusion,CoreToStg,69.81
+text-2.1.1,Data.Text.Internal.Lazy.Encoding.Fusion,Demand analysis,16.346
+text-2.1.1,Data.Text.Internal.Lazy.Encoding.Fusion,Desugar,5.135
+text-2.1.1,Data.Text.Internal.Lazy.Encoding.Fusion,Exitification transformation,0.016
+text-2.1.1,Data.Text.Internal.Lazy.Encoding.Fusion,Float inwards,0.025
+text-2.1.1,Data.Text.Internal.Lazy.Encoding.Fusion,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",5.448
+text-2.1.1,Data.Text.Internal.Lazy.Encoding.Fusion,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",5.52
+text-2.1.1,Data.Text.Internal.Lazy.Encoding.Fusion,Liberate case,0.013
+text-2.1.1,Data.Text.Internal.Lazy.Encoding.Fusion,Parser,5.355
+text-2.1.1,Data.Text.Internal.Lazy.Encoding.Fusion,Renamer/typechecker,23.229
+text-2.1.1,Data.Text.Internal.Lazy.Encoding.Fusion,Simplifier,434.008
+text-2.1.1,Data.Text.Internal.Lazy.Encoding.Fusion,SpecConstr,3.047
+text-2.1.1,Data.Text.Internal.Lazy.Encoding.Fusion,Specialise,0.802
+text-2.1.1,Data.Text.Internal.Lazy.Encoding.Fusion,Worker Wrapper binds,0.24
+text-2.1.1,Data.Text.Internal.Lazy.Fusion,Called arity analysis,0.012
+text-2.1.1,Data.Text.Internal.Lazy.Fusion,CodeGen,41.653000000000006
+text-2.1.1,Data.Text.Internal.Lazy.Fusion,Common sub-expression,0.034
+text-2.1.1,Data.Text.Internal.Lazy.Fusion,Constructed Product Result analysis,0.287
+text-2.1.1,Data.Text.Internal.Lazy.Fusion,CorePrep,0.974
+text-2.1.1,Data.Text.Internal.Lazy.Fusion,CoreTidy,0.764
+text-2.1.1,Data.Text.Internal.Lazy.Fusion,CoreToStg,5.061
+text-2.1.1,Data.Text.Internal.Lazy.Fusion,Demand analysis,4.184
+text-2.1.1,Data.Text.Internal.Lazy.Fusion,Desugar,1.109
+text-2.1.1,Data.Text.Internal.Lazy.Fusion,Exitification transformation,0.018
+text-2.1.1,Data.Text.Internal.Lazy.Fusion,Float inwards,0.024
+text-2.1.1,Data.Text.Internal.Lazy.Fusion,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.137
+text-2.1.1,Data.Text.Internal.Lazy.Fusion,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.045
+text-2.1.1,Data.Text.Internal.Lazy.Fusion,Liberate case,0.013
+text-2.1.1,Data.Text.Internal.Lazy.Fusion,Parser,2.887
+text-2.1.1,Data.Text.Internal.Lazy.Fusion,Renamer/typechecker,3.687
+text-2.1.1,Data.Text.Internal.Lazy.Fusion,Simplifier,154.074
+text-2.1.1,Data.Text.Internal.Lazy.Fusion,SpecConstr,0.584
+text-2.1.1,Data.Text.Internal.Lazy.Fusion,Specialise,0.536
+text-2.1.1,Data.Text.Internal.Lazy.Fusion,Worker Wrapper binds,0.083
+text-2.1.1,Data.Text.Internal.Lazy.Search,Called arity analysis,0.012
+text-2.1.1,Data.Text.Internal.Lazy.Search,CodeGen,233.833
+text-2.1.1,Data.Text.Internal.Lazy.Search,Common sub-expression,0.026000000000000002
+text-2.1.1,Data.Text.Internal.Lazy.Search,Constructed Product Result analysis,0.289
+text-2.1.1,Data.Text.Internal.Lazy.Search,CorePrep,4.001
+text-2.1.1,Data.Text.Internal.Lazy.Search,CoreTidy,1.549
+text-2.1.1,Data.Text.Internal.Lazy.Search,CoreToStg,44.814
+text-2.1.1,Data.Text.Internal.Lazy.Search,Demand analysis,8.122
+text-2.1.1,Data.Text.Internal.Lazy.Search,Desugar,1.758
+text-2.1.1,Data.Text.Internal.Lazy.Search,Exitification transformation,0.022
+text-2.1.1,Data.Text.Internal.Lazy.Search,Float inwards,0.046
+text-2.1.1,Data.Text.Internal.Lazy.Search,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.262
+text-2.1.1,Data.Text.Internal.Lazy.Search,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.434
+text-2.1.1,Data.Text.Internal.Lazy.Search,Liberate case,0.016
+text-2.1.1,Data.Text.Internal.Lazy.Search,Parser,1.534
+text-2.1.1,Data.Text.Internal.Lazy.Search,Renamer/typechecker,6.405
+text-2.1.1,Data.Text.Internal.Lazy.Search,Simplifier,135.62
+text-2.1.1,Data.Text.Internal.Lazy.Search,SpecConstr,5.005
+text-2.1.1,Data.Text.Internal.Lazy.Search,Specialise,0.27
+text-2.1.1,Data.Text.Internal.Lazy.Search,Worker Wrapper binds,0.091
+text-2.1.1,Data.Text.Internal.Measure,Called arity analysis,0.015
+text-2.1.1,Data.Text.Internal.Measure,CodeGen,2.471
+text-2.1.1,Data.Text.Internal.Measure,Common sub-expression,0.022
+text-2.1.1,Data.Text.Internal.Measure,Constructed Product Result analysis,0.035
+text-2.1.1,Data.Text.Internal.Measure,CorePrep,0.235
+text-2.1.1,Data.Text.Internal.Measure,CoreTidy,0.213
+text-2.1.1,Data.Text.Internal.Measure,CoreToStg,0.279
+text-2.1.1,Data.Text.Internal.Measure,Demand analysis,0.33299999999999996
+text-2.1.1,Data.Text.Internal.Measure,Desugar,0.109
+text-2.1.1,Data.Text.Internal.Measure,Exitification transformation,0.014
+text-2.1.1,Data.Text.Internal.Measure,Float inwards,0.020999999999999998
+text-2.1.1,Data.Text.Internal.Measure,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.101
+text-2.1.1,Data.Text.Internal.Measure,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.893
+text-2.1.1,Data.Text.Internal.Measure,Liberate case,0.011
+text-2.1.1,Data.Text.Internal.Measure,Parser,1.173
+text-2.1.1,Data.Text.Internal.Measure,Renamer/typechecker,1.259
+text-2.1.1,Data.Text.Internal.Measure,Simplifier,1.791
+text-2.1.1,Data.Text.Internal.Measure,SpecConstr,0.031
+text-2.1.1,Data.Text.Internal.Measure,Specialise,0.03
+text-2.1.1,Data.Text.Internal.Measure,Worker Wrapper binds,0.016
+text-2.1.1,Data.Text.Internal.PrimCompat,Called arity analysis,0.015
+text-2.1.1,Data.Text.Internal.PrimCompat,CodeGen,0.871
+text-2.1.1,Data.Text.Internal.PrimCompat,Common sub-expression,0.022
+text-2.1.1,Data.Text.Internal.PrimCompat,Constructed Product Result analysis,0.032
+text-2.1.1,Data.Text.Internal.PrimCompat,CorePrep,0.07100000000000001
+text-2.1.1,Data.Text.Internal.PrimCompat,CoreTidy,0.055
+text-2.1.1,Data.Text.Internal.PrimCompat,CoreToStg,0.119
+text-2.1.1,Data.Text.Internal.PrimCompat,Demand analysis,0.131
+text-2.1.1,Data.Text.Internal.PrimCompat,Desugar,0.121
+text-2.1.1,Data.Text.Internal.PrimCompat,Exitification transformation,0.019
+text-2.1.1,Data.Text.Internal.PrimCompat,Float inwards,0.025
+text-2.1.1,Data.Text.Internal.PrimCompat,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.046
+text-2.1.1,Data.Text.Internal.PrimCompat,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.038
+text-2.1.1,Data.Text.Internal.PrimCompat,Liberate case,0.01
+text-2.1.1,Data.Text.Internal.PrimCompat,Parser,1.008
+text-2.1.1,Data.Text.Internal.PrimCompat,Renamer/typechecker,0.718
+text-2.1.1,Data.Text.Internal.PrimCompat,Simplifier,0.529
+text-2.1.1,Data.Text.Internal.PrimCompat,SpecConstr,0.018
+text-2.1.1,Data.Text.Internal.PrimCompat,Specialise,0.021
+text-2.1.1,Data.Text.Internal.PrimCompat,Worker Wrapper binds,0.019
+text-2.1.1,Data.Text.Internal.Private,Called arity analysis,0.016
+text-2.1.1,Data.Text.Internal.Private,CodeGen,17.975
+text-2.1.1,Data.Text.Internal.Private,Common sub-expression,0.02
+text-2.1.1,Data.Text.Internal.Private,Constructed Product Result analysis,0.096
+text-2.1.1,Data.Text.Internal.Private,CorePrep,0.279
+text-2.1.1,Data.Text.Internal.Private,CoreTidy,0.184
+text-2.1.1,Data.Text.Internal.Private,CoreToStg,1.391
+text-2.1.1,Data.Text.Internal.Private,Demand analysis,0.806
+text-2.1.1,Data.Text.Internal.Private,Desugar,0.528
+text-2.1.1,Data.Text.Internal.Private,Exitification transformation,0.012
+text-2.1.1,Data.Text.Internal.Private,Float inwards,0.035
+text-2.1.1,Data.Text.Internal.Private,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.622
+text-2.1.1,Data.Text.Internal.Private,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.53
+text-2.1.1,Data.Text.Internal.Private,Liberate case,0.012
+text-2.1.1,Data.Text.Internal.Private,Parser,1.299
+text-2.1.1,Data.Text.Internal.Private,Renamer/typechecker,2.569
+text-2.1.1,Data.Text.Internal.Private,Simplifier,25.783
+text-2.1.1,Data.Text.Internal.Private,SpecConstr,0.151
+text-2.1.1,Data.Text.Internal.Private,Specialise,0.133
+text-2.1.1,Data.Text.Internal.Private,Worker Wrapper binds,0.058
+text-2.1.1,Data.Text.Internal.Read,Called arity analysis,0.01
+text-2.1.1,Data.Text.Internal.Read,CodeGen,24.118000000000002
+text-2.1.1,Data.Text.Internal.Read,Common sub-expression,0.020999999999999998
+text-2.1.1,Data.Text.Internal.Read,Constructed Product Result analysis,0.216
+text-2.1.1,Data.Text.Internal.Read,CorePrep,0.534
+text-2.1.1,Data.Text.Internal.Read,CoreTidy,0.61
+text-2.1.1,Data.Text.Internal.Read,CoreToStg,1.6720000000000002
+text-2.1.1,Data.Text.Internal.Read,Demand analysis,0.9510000000000001
+text-2.1.1,Data.Text.Internal.Read,Desugar,0.608
+text-2.1.1,Data.Text.Internal.Read,Exitification transformation,0.011
+text-2.1.1,Data.Text.Internal.Read,Float inwards,0.019
+text-2.1.1,Data.Text.Internal.Read,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.165
+text-2.1.1,Data.Text.Internal.Read,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.804
+text-2.1.1,Data.Text.Internal.Read,Liberate case,0.01
+text-2.1.1,Data.Text.Internal.Read,Parser,0.858
+text-2.1.1,Data.Text.Internal.Read,Renamer/typechecker,7.057
+text-2.1.1,Data.Text.Internal.Read,Simplifier,29.108999999999998
+text-2.1.1,Data.Text.Internal.Read,SpecConstr,0.16
+text-2.1.1,Data.Text.Internal.Read,Specialise,0.179
+text-2.1.1,Data.Text.Internal.Read,Worker Wrapper binds,0.238
+text-2.1.1,Data.Text.Internal.Reverse,Called arity analysis,0.016
+text-2.1.1,Data.Text.Internal.Reverse,CodeGen,6.930999999999999
+text-2.1.1,Data.Text.Internal.Reverse,Common sub-expression,0.03
+text-2.1.1,Data.Text.Internal.Reverse,Constructed Product Result analysis,0.037
+text-2.1.1,Data.Text.Internal.Reverse,CorePrep,0.16299999999999998
+text-2.1.1,Data.Text.Internal.Reverse,CoreTidy,0.124
+text-2.1.1,Data.Text.Internal.Reverse,CoreToStg,0.524
+text-2.1.1,Data.Text.Internal.Reverse,Demand analysis,0.273
+text-2.1.1,Data.Text.Internal.Reverse,Desugar,0.31
+text-2.1.1,Data.Text.Internal.Reverse,Exitification transformation,0.013
+text-2.1.1,Data.Text.Internal.Reverse,Float inwards,0.026000000000000002
+text-2.1.1,Data.Text.Internal.Reverse,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.274
+text-2.1.1,Data.Text.Internal.Reverse,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.159
+text-2.1.1,Data.Text.Internal.Reverse,Liberate case,0.019
+text-2.1.1,Data.Text.Internal.Reverse,Parser,1.853
+text-2.1.1,Data.Text.Internal.Reverse,Renamer/typechecker,2.734
+text-2.1.1,Data.Text.Internal.Reverse,Simplifier,4.764
+text-2.1.1,Data.Text.Internal.Reverse,SpecConstr,0.039
+text-2.1.1,Data.Text.Internal.Reverse,Specialise,0.049
+text-2.1.1,Data.Text.Internal.Reverse,Worker Wrapper binds,0.017
+text-2.1.1,Data.Text.Internal.Search,Called arity analysis,0.012
+text-2.1.1,Data.Text.Internal.Search,CodeGen,19.648000000000003
+text-2.1.1,Data.Text.Internal.Search,Common sub-expression,0.024
+text-2.1.1,Data.Text.Internal.Search,Constructed Product Result analysis,0.09
+text-2.1.1,Data.Text.Internal.Search,CorePrep,0.32
+text-2.1.1,Data.Text.Internal.Search,CoreTidy,0.262
+text-2.1.1,Data.Text.Internal.Search,CoreToStg,2.185
+text-2.1.1,Data.Text.Internal.Search,Demand analysis,0.773
+text-2.1.1,Data.Text.Internal.Search,Desugar,0.71
+text-2.1.1,Data.Text.Internal.Search,Exitification transformation,0.013
+text-2.1.1,Data.Text.Internal.Search,Float inwards,0.020999999999999998
+text-2.1.1,Data.Text.Internal.Search,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.631
+text-2.1.1,Data.Text.Internal.Search,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.529
+text-2.1.1,Data.Text.Internal.Search,Liberate case,0.013
+text-2.1.1,Data.Text.Internal.Search,Parser,1.56
+text-2.1.1,Data.Text.Internal.Search,Renamer/typechecker,4.458
+text-2.1.1,Data.Text.Internal.Search,Simplifier,30.663
+text-2.1.1,Data.Text.Internal.Search,SpecConstr,0.214
+text-2.1.1,Data.Text.Internal.Search,Specialise,0.112
+text-2.1.1,Data.Text.Internal.Search,Worker Wrapper binds,0.06
+text-2.1.1,Data.Text.Internal.StrictBuilder,Called arity analysis,0.019
+text-2.1.1,Data.Text.Internal.StrictBuilder,CodeGen,26.993000000000002
+text-2.1.1,Data.Text.Internal.StrictBuilder,Common sub-expression,0.023
+text-2.1.1,Data.Text.Internal.StrictBuilder,Constructed Product Result analysis,0.117
+text-2.1.1,Data.Text.Internal.StrictBuilder,CorePrep,1.276
+text-2.1.1,Data.Text.Internal.StrictBuilder,CoreTidy,0.613
+text-2.1.1,Data.Text.Internal.StrictBuilder,CoreToStg,3.54
+text-2.1.1,Data.Text.Internal.StrictBuilder,Demand analysis,1.402
+text-2.1.1,Data.Text.Internal.StrictBuilder,Desugar,0.475
+text-2.1.1,Data.Text.Internal.StrictBuilder,Exitification transformation,0.014
+text-2.1.1,Data.Text.Internal.StrictBuilder,Float inwards,0.026000000000000002
+text-2.1.1,Data.Text.Internal.StrictBuilder,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.008
+text-2.1.1,Data.Text.Internal.StrictBuilder,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.986
+text-2.1.1,Data.Text.Internal.StrictBuilder,Liberate case,0.012
+text-2.1.1,Data.Text.Internal.StrictBuilder,Parser,2.996
+text-2.1.1,Data.Text.Internal.StrictBuilder,Renamer/typechecker,5.687
+text-2.1.1,Data.Text.Internal.StrictBuilder,Simplifier,39.319
+text-2.1.1,Data.Text.Internal.StrictBuilder,SpecConstr,0.198
+text-2.1.1,Data.Text.Internal.StrictBuilder,Specialise,0.153
+text-2.1.1,Data.Text.Internal.StrictBuilder,Worker Wrapper binds,0.087
+text-2.1.1,Data.Text.Internal.Transformation,Called arity analysis,0.011
+text-2.1.1,Data.Text.Internal.Transformation,CodeGen,88.67699999999999
+text-2.1.1,Data.Text.Internal.Transformation,Common sub-expression,0.034
+text-2.1.1,Data.Text.Internal.Transformation,Constructed Product Result analysis,4.298
+text-2.1.1,Data.Text.Internal.Transformation,CorePrep,8.657
+text-2.1.1,Data.Text.Internal.Transformation,CoreTidy,1.482
+text-2.1.1,Data.Text.Internal.Transformation,CoreToStg,20.753
+text-2.1.1,Data.Text.Internal.Transformation,Demand analysis,10.446
+text-2.1.1,Data.Text.Internal.Transformation,Desugar,2.196
+text-2.1.1,Data.Text.Internal.Transformation,Exitification transformation,0.014
+text-2.1.1,Data.Text.Internal.Transformation,Float inwards,0.026
+text-2.1.1,Data.Text.Internal.Transformation,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",5.384
+text-2.1.1,Data.Text.Internal.Transformation,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",11.574
+text-2.1.1,Data.Text.Internal.Transformation,Liberate case,0.015
+text-2.1.1,Data.Text.Internal.Transformation,Parser,5.613
+text-2.1.1,Data.Text.Internal.Transformation,Renamer/typechecker,11.874
+text-2.1.1,Data.Text.Internal.Transformation,Simplifier,330.411
+text-2.1.1,Data.Text.Internal.Transformation,SpecConstr,1.619
+text-2.1.1,Data.Text.Internal.Transformation,Specialise,1.049
+text-2.1.1,Data.Text.Internal.Transformation,Worker Wrapper binds,0.177
+text-2.1.1,Data.Text.Internal.Unsafe,Called arity analysis,0.011
+text-2.1.1,Data.Text.Internal.Unsafe,CodeGen,2.777
+text-2.1.1,Data.Text.Internal.Unsafe,Common sub-expression,0.033
+text-2.1.1,Data.Text.Internal.Unsafe,Constructed Product Result analysis,0.028
+text-2.1.1,Data.Text.Internal.Unsafe,CorePrep,0.131
+text-2.1.1,Data.Text.Internal.Unsafe,CoreTidy,0.093
+text-2.1.1,Data.Text.Internal.Unsafe,CoreToStg,0.28500000000000003
+text-2.1.1,Data.Text.Internal.Unsafe,Demand analysis,0.16999999999999998
+text-2.1.1,Data.Text.Internal.Unsafe,Desugar,0.473
+text-2.1.1,Data.Text.Internal.Unsafe,Exitification transformation,0.032
+text-2.1.1,Data.Text.Internal.Unsafe,Float inwards,0.03
+text-2.1.1,Data.Text.Internal.Unsafe,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.109
+text-2.1.1,Data.Text.Internal.Unsafe,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.201
+text-2.1.1,Data.Text.Internal.Unsafe,Liberate case,0.014
+text-2.1.1,Data.Text.Internal.Unsafe,Parser,1.34
+text-2.1.1,Data.Text.Internal.Unsafe,Renamer/typechecker,2.519
+text-2.1.1,Data.Text.Internal.Unsafe,Simplifier,2.239
+text-2.1.1,Data.Text.Internal.Unsafe,SpecConstr,0.024
+text-2.1.1,Data.Text.Internal.Unsafe,Specialise,0.033
+text-2.1.1,Data.Text.Internal.Unsafe,Worker Wrapper binds,0.014
+text-2.1.1,Data.Text.Internal.Unsafe.Char,Called arity analysis,0.012
+text-2.1.1,Data.Text.Internal.Unsafe.Char,CodeGen,8.955
+text-2.1.1,Data.Text.Internal.Unsafe.Char,Common sub-expression,0.024
+text-2.1.1,Data.Text.Internal.Unsafe.Char,Constructed Product Result analysis,0.053
+text-2.1.1,Data.Text.Internal.Unsafe.Char,CorePrep,0.24
+text-2.1.1,Data.Text.Internal.Unsafe.Char,CoreTidy,0.176
+text-2.1.1,Data.Text.Internal.Unsafe.Char,CoreToStg,1.254
+text-2.1.1,Data.Text.Internal.Unsafe.Char,Demand analysis,0.389
+text-2.1.1,Data.Text.Internal.Unsafe.Char,Desugar,0.663
+text-2.1.1,Data.Text.Internal.Unsafe.Char,Exitification transformation,0.01
+text-2.1.1,Data.Text.Internal.Unsafe.Char,Float inwards,0.019999999999999997
+text-2.1.1,Data.Text.Internal.Unsafe.Char,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.415
+text-2.1.1,Data.Text.Internal.Unsafe.Char,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.394
+text-2.1.1,Data.Text.Internal.Unsafe.Char,Liberate case,0.018
+text-2.1.1,Data.Text.Internal.Unsafe.Char,Parser,2.301
+text-2.1.1,Data.Text.Internal.Unsafe.Char,Renamer/typechecker,2.923
+text-2.1.1,Data.Text.Internal.Unsafe.Char,Simplifier,15.666
+text-2.1.1,Data.Text.Internal.Unsafe.Char,SpecConstr,0.065
+text-2.1.1,Data.Text.Internal.Unsafe.Char,Specialise,0.078
+text-2.1.1,Data.Text.Internal.Unsafe.Char,Worker Wrapper binds,0.017
+text-2.1.1,Data.Text.Internal.Validate,Called arity analysis,0.011
+text-2.1.1,Data.Text.Internal.Validate,CodeGen,9.375
+text-2.1.1,Data.Text.Internal.Validate,Common sub-expression,0.022
+text-2.1.1,Data.Text.Internal.Validate,Constructed Product Result analysis,0.053
+text-2.1.1,Data.Text.Internal.Validate,CorePrep,0.23399999999999999
+text-2.1.1,Data.Text.Internal.Validate,CoreTidy,0.221
+text-2.1.1,Data.Text.Internal.Validate,CoreToStg,1.101
+text-2.1.1,Data.Text.Internal.Validate,Demand analysis,0.3
+text-2.1.1,Data.Text.Internal.Validate,Desugar,0.346
+text-2.1.1,Data.Text.Internal.Validate,Exitification transformation,0.011
+text-2.1.1,Data.Text.Internal.Validate,Float inwards,0.027000000000000003
+text-2.1.1,Data.Text.Internal.Validate,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.444
+text-2.1.1,Data.Text.Internal.Validate,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.323
+text-2.1.1,Data.Text.Internal.Validate,Liberate case,0.01
+text-2.1.1,Data.Text.Internal.Validate,Parser,1.128
+text-2.1.1,Data.Text.Internal.Validate,Renamer/typechecker,3.258
+text-2.1.1,Data.Text.Internal.Validate,Simplifier,7.008
+text-2.1.1,Data.Text.Internal.Validate,SpecConstr,0.054
+text-2.1.1,Data.Text.Internal.Validate,Specialise,0.091
+text-2.1.1,Data.Text.Internal.Validate,Worker Wrapper binds,0.061
+text-2.1.1,Data.Text.Internal.Validate.Native,Called arity analysis,0.01
+text-2.1.1,Data.Text.Internal.Validate.Native,CodeGen,7.536
+text-2.1.1,Data.Text.Internal.Validate.Native,Common sub-expression,0.03
+text-2.1.1,Data.Text.Internal.Validate.Native,Constructed Product Result analysis,0.089
+text-2.1.1,Data.Text.Internal.Validate.Native,CorePrep,0.274
+text-2.1.1,Data.Text.Internal.Validate.Native,CoreTidy,0.281
+text-2.1.1,Data.Text.Internal.Validate.Native,CoreToStg,2.71
+text-2.1.1,Data.Text.Internal.Validate.Native,Demand analysis,0.742
+text-2.1.1,Data.Text.Internal.Validate.Native,Desugar,0.886
+text-2.1.1,Data.Text.Internal.Validate.Native,Exitification transformation,0.024
+text-2.1.1,Data.Text.Internal.Validate.Native,Float inwards,0.020999999999999998
+text-2.1.1,Data.Text.Internal.Validate.Native,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.32
+text-2.1.1,Data.Text.Internal.Validate.Native,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.523
+text-2.1.1,Data.Text.Internal.Validate.Native,Liberate case,0.011
+text-2.1.1,Data.Text.Internal.Validate.Native,Parser,0.705
+text-2.1.1,Data.Text.Internal.Validate.Native,Renamer/typechecker,3.495
+text-2.1.1,Data.Text.Internal.Validate.Native,Simplifier,10.435
+text-2.1.1,Data.Text.Internal.Validate.Native,SpecConstr,0.192
+text-2.1.1,Data.Text.Internal.Validate.Native,Specialise,0.072
+text-2.1.1,Data.Text.Internal.Validate.Native,Worker Wrapper binds,0.084
+text-2.1.1,Data.Text.Internal.Validate.Simd,Called arity analysis,0.019
+text-2.1.1,Data.Text.Internal.Validate.Simd,CodeGen,6.976
+text-2.1.1,Data.Text.Internal.Validate.Simd,Common sub-expression,0.024
+text-2.1.1,Data.Text.Internal.Validate.Simd,Constructed Product Result analysis,0.055
+text-2.1.1,Data.Text.Internal.Validate.Simd,CorePrep,0.16499999999999998
+text-2.1.1,Data.Text.Internal.Validate.Simd,CoreTidy,0.172
+text-2.1.1,Data.Text.Internal.Validate.Simd,CoreToStg,0.498
+text-2.1.1,Data.Text.Internal.Validate.Simd,Demand analysis,0.41400000000000003
+text-2.1.1,Data.Text.Internal.Validate.Simd,Desugar,0.053
+text-2.1.1,Data.Text.Internal.Validate.Simd,Exitification transformation,0.013
+text-2.1.1,Data.Text.Internal.Validate.Simd,Float inwards,0.022
+text-2.1.1,Data.Text.Internal.Validate.Simd,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.166
+text-2.1.1,Data.Text.Internal.Validate.Simd,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.199
+text-2.1.1,Data.Text.Internal.Validate.Simd,Liberate case,0.011
+text-2.1.1,Data.Text.Internal.Validate.Simd,Parser,0.912
+text-2.1.1,Data.Text.Internal.Validate.Simd,Renamer/typechecker,1.115
+text-2.1.1,Data.Text.Internal.Validate.Simd,Simplifier,3.939
+text-2.1.1,Data.Text.Internal.Validate.Simd,SpecConstr,0.037
+text-2.1.1,Data.Text.Internal.Validate.Simd,Specialise,0.042
+text-2.1.1,Data.Text.Internal.Validate.Simd,Worker Wrapper binds,0.014
+text-2.1.1,Data.Text.Lazy,Called arity analysis,0.011
+text-2.1.1,Data.Text.Lazy,CodeGen,2359.7960000000003
+text-2.1.1,Data.Text.Lazy,Common sub-expression,0.027
+text-2.1.1,Data.Text.Lazy,Constructed Product Result analysis,16.674
+text-2.1.1,Data.Text.Lazy,CorePrep,74.362
+text-2.1.1,Data.Text.Lazy,CoreTidy,55.575
+text-2.1.1,Data.Text.Lazy,CoreToStg,886.246
+text-2.1.1,Data.Text.Lazy,Demand analysis,186.98700000000002
+text-2.1.1,Data.Text.Lazy,Desugar,7.246
+text-2.1.1,Data.Text.Lazy,Exitification transformation,0.013
+text-2.1.1,Data.Text.Lazy,Float inwards,0.020999999999999998
+text-2.1.1,Data.Text.Lazy,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",33.649
+text-2.1.1,Data.Text.Lazy,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",136.262
+text-2.1.1,Data.Text.Lazy,Liberate case,0.013
+text-2.1.1,Data.Text.Lazy,Parser,14.949
+text-2.1.1,Data.Text.Lazy,Renamer/typechecker,50.66
+text-2.1.1,Data.Text.Lazy,Simplifier,6208.49
+text-2.1.1,Data.Text.Lazy,SpecConstr,58.019
+text-2.1.1,Data.Text.Lazy,Specialise,17.657
+text-2.1.1,Data.Text.Lazy,Worker Wrapper binds,6.352
+text-2.1.1,Data.Text.Lazy.Builder,Called arity analysis,0.01
+text-2.1.1,Data.Text.Lazy.Builder,CodeGen,0.9610000000000001
+text-2.1.1,Data.Text.Lazy.Builder,Common sub-expression,0.019
+text-2.1.1,Data.Text.Lazy.Builder,Constructed Product Result analysis,0.013
+text-2.1.1,Data.Text.Lazy.Builder,CorePrep,0.121
+text-2.1.1,Data.Text.Lazy.Builder,CoreTidy,0.106
+text-2.1.1,Data.Text.Lazy.Builder,CoreToStg,0.29400000000000004
+text-2.1.1,Data.Text.Lazy.Builder,Demand analysis,0.048
+text-2.1.1,Data.Text.Lazy.Builder,Desugar,0.087
+text-2.1.1,Data.Text.Lazy.Builder,Exitification transformation,0.009
+text-2.1.1,Data.Text.Lazy.Builder,Float inwards,0.019999999999999997
+text-2.1.1,Data.Text.Lazy.Builder,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.036
+text-2.1.1,Data.Text.Lazy.Builder,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.026
+text-2.1.1,Data.Text.Lazy.Builder,Liberate case,0.01
+text-2.1.1,Data.Text.Lazy.Builder,Parser,1.458
+text-2.1.1,Data.Text.Lazy.Builder,Renamer/typechecker,0.501
+text-2.1.1,Data.Text.Lazy.Builder,Simplifier,0.503
+text-2.1.1,Data.Text.Lazy.Builder,SpecConstr,0.018
+text-2.1.1,Data.Text.Lazy.Builder,Specialise,0.019
+text-2.1.1,Data.Text.Lazy.Builder,Worker Wrapper binds,0.014
+text-2.1.1,Data.Text.Lazy.Builder.Int,Called arity analysis,0.011
+text-2.1.1,Data.Text.Lazy.Builder.Int,CodeGen,1015.0250000000001
+text-2.1.1,Data.Text.Lazy.Builder.Int,Common sub-expression,0.028999999999999998
+text-2.1.1,Data.Text.Lazy.Builder.Int,Constructed Product Result analysis,12.939
+text-2.1.1,Data.Text.Lazy.Builder.Int,CorePrep,54.529
+text-2.1.1,Data.Text.Lazy.Builder.Int,CoreTidy,32.062
+text-2.1.1,Data.Text.Lazy.Builder.Int,CoreToStg,589.976
+text-2.1.1,Data.Text.Lazy.Builder.Int,Demand analysis,89.686
+text-2.1.1,Data.Text.Lazy.Builder.Int,Desugar,3.613
+text-2.1.1,Data.Text.Lazy.Builder.Int,Exitification transformation,0.014
+text-2.1.1,Data.Text.Lazy.Builder.Int,Float inwards,0.020999999999999998
+text-2.1.1,Data.Text.Lazy.Builder.Int,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",77.615
+text-2.1.1,Data.Text.Lazy.Builder.Int,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",128.26
+text-2.1.1,Data.Text.Lazy.Builder.Int,Liberate case,0.012
+text-2.1.1,Data.Text.Lazy.Builder.Int,Parser,5.13
+text-2.1.1,Data.Text.Lazy.Builder.Int,Renamer/typechecker,21.897
+text-2.1.1,Data.Text.Lazy.Builder.Int,Simplifier,3226.546
+text-2.1.1,Data.Text.Lazy.Builder.Int,SpecConstr,24.001
+text-2.1.1,Data.Text.Lazy.Builder.Int,Specialise,29.244
+text-2.1.1,Data.Text.Lazy.Builder.Int,Worker Wrapper binds,4.155
+text-2.1.1,Data.Text.Lazy.Builder.RealFloat,Called arity analysis,0.011
+text-2.1.1,Data.Text.Lazy.Builder.RealFloat,CodeGen,1858.8139999999999
+text-2.1.1,Data.Text.Lazy.Builder.RealFloat,Common sub-expression,0.028999999999999998
+text-2.1.1,Data.Text.Lazy.Builder.RealFloat,Constructed Product Result analysis,12.789
+text-2.1.1,Data.Text.Lazy.Builder.RealFloat,CorePrep,43.135000000000005
+text-2.1.1,Data.Text.Lazy.Builder.RealFloat,CoreTidy,53.598
+text-2.1.1,Data.Text.Lazy.Builder.RealFloat,CoreToStg,1185.037
+text-2.1.1,Data.Text.Lazy.Builder.RealFloat,Demand analysis,140.982
+text-2.1.1,Data.Text.Lazy.Builder.RealFloat,Desugar,1.912
+text-2.1.1,Data.Text.Lazy.Builder.RealFloat,Exitification transformation,0.015
+text-2.1.1,Data.Text.Lazy.Builder.RealFloat,Float inwards,0.024
+text-2.1.1,Data.Text.Lazy.Builder.RealFloat,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",83.831
+text-2.1.1,Data.Text.Lazy.Builder.RealFloat,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",143.596
+text-2.1.1,Data.Text.Lazy.Builder.RealFloat,Liberate case,0.012
+text-2.1.1,Data.Text.Lazy.Builder.RealFloat,Parser,2.879
+text-2.1.1,Data.Text.Lazy.Builder.RealFloat,Renamer/typechecker,20.668
+text-2.1.1,Data.Text.Lazy.Builder.RealFloat,Simplifier,3732.965
+text-2.1.1,Data.Text.Lazy.Builder.RealFloat,SpecConstr,59.235
+text-2.1.1,Data.Text.Lazy.Builder.RealFloat,Specialise,20.186
+text-2.1.1,Data.Text.Lazy.Builder.RealFloat,Worker Wrapper binds,3.613
+text-2.1.1,Data.Text.Lazy.Encoding,Called arity analysis,0.014
+text-2.1.1,Data.Text.Lazy.Encoding,CodeGen,481.751
+text-2.1.1,Data.Text.Lazy.Encoding,Common sub-expression,0.031
+text-2.1.1,Data.Text.Lazy.Encoding,Constructed Product Result analysis,2.121
+text-2.1.1,Data.Text.Lazy.Encoding,CorePrep,11.491
+text-2.1.1,Data.Text.Lazy.Encoding,CoreTidy,8.148
+text-2.1.1,Data.Text.Lazy.Encoding,CoreToStg,150.56900000000002
+text-2.1.1,Data.Text.Lazy.Encoding,Demand analysis,48.923
+text-2.1.1,Data.Text.Lazy.Encoding,Desugar,0.911
+text-2.1.1,Data.Text.Lazy.Encoding,Exitification transformation,0.014
+text-2.1.1,Data.Text.Lazy.Encoding,Float inwards,0.024
+text-2.1.1,Data.Text.Lazy.Encoding,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",11.619
+text-2.1.1,Data.Text.Lazy.Encoding,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",21.753
+text-2.1.1,Data.Text.Lazy.Encoding,Liberate case,0.013
+text-2.1.1,Data.Text.Lazy.Encoding,Parser,2.313
+text-2.1.1,Data.Text.Lazy.Encoding,Renamer/typechecker,5.652
+text-2.1.1,Data.Text.Lazy.Encoding,Simplifier,1193.0339999999999
+text-2.1.1,Data.Text.Lazy.Encoding,SpecConstr,13.699
+text-2.1.1,Data.Text.Lazy.Encoding,Specialise,1.969
+text-2.1.1,Data.Text.Lazy.Encoding,Worker Wrapper binds,0.399
+text-2.1.1,Data.Text.Lazy.IO,Called arity analysis,0.01
+text-2.1.1,Data.Text.Lazy.IO,CodeGen,38.588
+text-2.1.1,Data.Text.Lazy.IO,Common sub-expression,0.024
+text-2.1.1,Data.Text.Lazy.IO,Constructed Product Result analysis,0.22
+text-2.1.1,Data.Text.Lazy.IO,CorePrep,0.642
+text-2.1.1,Data.Text.Lazy.IO,CoreTidy,0.829
+text-2.1.1,Data.Text.Lazy.IO,CoreToStg,6.871
+text-2.1.1,Data.Text.Lazy.IO,Demand analysis,1.833
+text-2.1.1,Data.Text.Lazy.IO,Desugar,0.546
+text-2.1.1,Data.Text.Lazy.IO,Exitification transformation,0.013
+text-2.1.1,Data.Text.Lazy.IO,Float inwards,0.027999999999999997
+text-2.1.1,Data.Text.Lazy.IO,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.157
+text-2.1.1,Data.Text.Lazy.IO,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.539
+text-2.1.1,Data.Text.Lazy.IO,Liberate case,0.013
+text-2.1.1,Data.Text.Lazy.IO,Parser,1.629
+text-2.1.1,Data.Text.Lazy.IO,Renamer/typechecker,4.136
+text-2.1.1,Data.Text.Lazy.IO,Simplifier,44.76
+text-2.1.1,Data.Text.Lazy.IO,SpecConstr,0.419
+text-2.1.1,Data.Text.Lazy.IO,Specialise,2.646
+text-2.1.1,Data.Text.Lazy.IO,Worker Wrapper binds,1.209
+text-2.1.1,Data.Text.Lazy.Internal,Called arity analysis,0.01
+text-2.1.1,Data.Text.Lazy.Internal,CodeGen,0.958
+text-2.1.1,Data.Text.Lazy.Internal,Common sub-expression,0.024
+text-2.1.1,Data.Text.Lazy.Internal,Constructed Product Result analysis,0.021
+text-2.1.1,Data.Text.Lazy.Internal,CorePrep,0.104
+text-2.1.1,Data.Text.Lazy.Internal,CoreTidy,0.057
+text-2.1.1,Data.Text.Lazy.Internal,CoreToStg,0.123
+text-2.1.1,Data.Text.Lazy.Internal,Demand analysis,0.06999999999999999
+text-2.1.1,Data.Text.Lazy.Internal,Desugar,0.03
+text-2.1.1,Data.Text.Lazy.Internal,Exitification transformation,0.014
+text-2.1.1,Data.Text.Lazy.Internal,Float inwards,0.025
+text-2.1.1,Data.Text.Lazy.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.038
+text-2.1.1,Data.Text.Lazy.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.036
+text-2.1.1,Data.Text.Lazy.Internal,Liberate case,0.015
+text-2.1.1,Data.Text.Lazy.Internal,Parser,0.157
+text-2.1.1,Data.Text.Lazy.Internal,Renamer/typechecker,0.517
+text-2.1.1,Data.Text.Lazy.Internal,Simplifier,0.57
+text-2.1.1,Data.Text.Lazy.Internal,SpecConstr,0.054
+text-2.1.1,Data.Text.Lazy.Internal,Specialise,0.018
+text-2.1.1,Data.Text.Lazy.Internal,Worker Wrapper binds,0.016
+text-2.1.1,Data.Text.Lazy.Read,Called arity analysis,0.01
+text-2.1.1,Data.Text.Lazy.Read,CodeGen,268.991
+text-2.1.1,Data.Text.Lazy.Read,Common sub-expression,0.028999999999999998
+text-2.1.1,Data.Text.Lazy.Read,Constructed Product Result analysis,2.288
+text-2.1.1,Data.Text.Lazy.Read,CorePrep,4.606
+text-2.1.1,Data.Text.Lazy.Read,CoreTidy,4.5
+text-2.1.1,Data.Text.Lazy.Read,CoreToStg,29.72
+text-2.1.1,Data.Text.Lazy.Read,Demand analysis,12.054
+text-2.1.1,Data.Text.Lazy.Read,Desugar,1.132
+text-2.1.1,Data.Text.Lazy.Read,Exitification transformation,0.015
+text-2.1.1,Data.Text.Lazy.Read,Float inwards,0.020999999999999998
+text-2.1.1,Data.Text.Lazy.Read,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",7.89
+text-2.1.1,Data.Text.Lazy.Read,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",15.074
+text-2.1.1,Data.Text.Lazy.Read,Liberate case,0.012
+text-2.1.1,Data.Text.Lazy.Read,Parser,4.894
+text-2.1.1,Data.Text.Lazy.Read,Renamer/typechecker,9.749
+text-2.1.1,Data.Text.Lazy.Read,Simplifier,543.646
+text-2.1.1,Data.Text.Lazy.Read,SpecConstr,3.454
+text-2.1.1,Data.Text.Lazy.Read,Specialise,1.672
+text-2.1.1,Data.Text.Lazy.Read,Worker Wrapper binds,1.406
+text-2.1.1,Data.Text.Read,Called arity analysis,0.01
+text-2.1.1,Data.Text.Read,CodeGen,386.025
+text-2.1.1,Data.Text.Read,Common sub-expression,0.027
+text-2.1.1,Data.Text.Read,Constructed Product Result analysis,2.371
+text-2.1.1,Data.Text.Read,CorePrep,7.556
+text-2.1.1,Data.Text.Read,CoreTidy,8.285
+text-2.1.1,Data.Text.Read,CoreToStg,103.77000000000001
+text-2.1.1,Data.Text.Read,Demand analysis,41.596000000000004
+text-2.1.1,Data.Text.Read,Desugar,3.626
+text-2.1.1,Data.Text.Read,Exitification transformation,0.013
+text-2.1.1,Data.Text.Read,Float inwards,0.019999999999999997
+text-2.1.1,Data.Text.Read,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",19.614
+text-2.1.1,Data.Text.Read,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",17.984
+text-2.1.1,Data.Text.Read,Liberate case,0.011
+text-2.1.1,Data.Text.Read,Parser,3.714
+text-2.1.1,Data.Text.Read,Renamer/typechecker,10.88
+text-2.1.1,Data.Text.Read,Simplifier,657.923
+text-2.1.1,Data.Text.Read,SpecConstr,19.374
+text-2.1.1,Data.Text.Read,Specialise,2.598
+text-2.1.1,Data.Text.Read,Worker Wrapper binds,1.433
+text-2.1.1,Data.Text.Show,Called arity analysis,0.01
+text-2.1.1,Data.Text.Show,CodeGen,32.333999999999996
+text-2.1.1,Data.Text.Show,Common sub-expression,0.033
+text-2.1.1,Data.Text.Show,Constructed Product Result analysis,0.166
+text-2.1.1,Data.Text.Show,CorePrep,0.8260000000000001
+text-2.1.1,Data.Text.Show,CoreTidy,0.405
+text-2.1.1,Data.Text.Show,CoreToStg,4.301
+text-2.1.1,Data.Text.Show,Demand analysis,1.071
+text-2.1.1,Data.Text.Show,Desugar,0.762
+text-2.1.1,Data.Text.Show,Exitification transformation,0.013
+text-2.1.1,Data.Text.Show,Float inwards,0.024
+text-2.1.1,Data.Text.Show,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.855
+text-2.1.1,Data.Text.Show,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.634
+text-2.1.1,Data.Text.Show,Liberate case,0.01
+text-2.1.1,Data.Text.Show,Parser,1.507
+text-2.1.1,Data.Text.Show,Renamer/typechecker,4.419
+text-2.1.1,Data.Text.Show,Simplifier,42.88
+text-2.1.1,Data.Text.Show,SpecConstr,0.26
+text-2.1.1,Data.Text.Show,Specialise,0.135
+text-2.1.1,Data.Text.Show,Worker Wrapper binds,0.076
+text-2.1.1,Data.Text.Unsafe,Called arity analysis,0.011
+text-2.1.1,Data.Text.Unsafe,CodeGen,35.525
+text-2.1.1,Data.Text.Unsafe,Common sub-expression,0.022
+text-2.1.1,Data.Text.Unsafe,Constructed Product Result analysis,0.142
+text-2.1.1,Data.Text.Unsafe,CorePrep,0.62
+text-2.1.1,Data.Text.Unsafe,CoreTidy,0.445
+text-2.1.1,Data.Text.Unsafe,CoreToStg,3.444
+text-2.1.1,Data.Text.Unsafe,Demand analysis,1.3679999999999999
+text-2.1.1,Data.Text.Unsafe,Desugar,1.664
+text-2.1.1,Data.Text.Unsafe,Exitification transformation,0.012
+text-2.1.1,Data.Text.Unsafe,Float inwards,0.022
+text-2.1.1,Data.Text.Unsafe,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.419
+text-2.1.1,Data.Text.Unsafe,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.095
+text-2.1.1,Data.Text.Unsafe,Liberate case,0.011
+text-2.1.1,Data.Text.Unsafe,Parser,2.579
+text-2.1.1,Data.Text.Unsafe,Renamer/typechecker,5.762
+text-2.1.1,Data.Text.Unsafe,Simplifier,67.382
+text-2.1.1,Data.Text.Unsafe,SpecConstr,0.461
+text-2.1.1,Data.Text.Unsafe,Specialise,0.244
+text-2.1.1,Data.Text.Unsafe,Worker Wrapper binds,0.063

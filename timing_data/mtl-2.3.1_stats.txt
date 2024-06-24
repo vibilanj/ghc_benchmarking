@@ -1,0 +1,8 @@
+
+Package: mtl-2.3.1
+Total time for package: 1567.8200000000002
+Total parser time for package: 18.323
+Percentage of total time spent in parser: 1.168692834636629
+Arithmetic mean of parser percentage: 7.605677177072906
+Geometric mean of parser percentage: 4.4921048056015245
+Size of package in bytes: 102549

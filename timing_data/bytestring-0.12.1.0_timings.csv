@@ -1,0 +1,621 @@
+package,module,phase,time
+bytestring-0.12.1.0,Data.ByteString,Called arity analysis,0.01
+bytestring-0.12.1.0,Data.ByteString,CodeGen,375.926
+bytestring-0.12.1.0,Data.ByteString,Common sub-expression,0.031
+bytestring-0.12.1.0,Data.ByteString,Constructed Product Result analysis,2.984
+bytestring-0.12.1.0,Data.ByteString,CorePrep,11.485
+bytestring-0.12.1.0,Data.ByteString,CoreTidy,10.252
+bytestring-0.12.1.0,Data.ByteString,CoreToStg,75.66499999999999
+bytestring-0.12.1.0,Data.ByteString,Demand analysis,51.967
+bytestring-0.12.1.0,Data.ByteString,Desugar,17.481
+bytestring-0.12.1.0,Data.ByteString,Exitification transformation,0.018
+bytestring-0.12.1.0,Data.ByteString,Float inwards,0.019999999999999997
+bytestring-0.12.1.0,Data.ByteString,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",30.65
+bytestring-0.12.1.0,Data.ByteString,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",29.746
+bytestring-0.12.1.0,Data.ByteString,Liberate case,0.011
+bytestring-0.12.1.0,Data.ByteString,Parser,22.042
+bytestring-0.12.1.0,Data.ByteString,Renamer/typechecker,85.601
+bytestring-0.12.1.0,Data.ByteString,Simplifier,1695.468
+bytestring-0.12.1.0,Data.ByteString,SpecConstr,17.155
+bytestring-0.12.1.0,Data.ByteString,Specialise,9.351
+bytestring-0.12.1.0,Data.ByteString,Worker Wrapper binds,1.761
+bytestring-0.12.1.0,Data.ByteString.Builder,Called arity analysis,0.01
+bytestring-0.12.1.0,Data.ByteString.Builder,CodeGen,51.527
+bytestring-0.12.1.0,Data.ByteString.Builder,Common sub-expression,0.024
+bytestring-0.12.1.0,Data.ByteString.Builder,Constructed Product Result analysis,0.22
+bytestring-0.12.1.0,Data.ByteString.Builder,CorePrep,3.2769999999999997
+bytestring-0.12.1.0,Data.ByteString.Builder,CoreTidy,2.406
+bytestring-0.12.1.0,Data.ByteString.Builder,CoreToStg,5.961
+bytestring-0.12.1.0,Data.ByteString.Builder,Demand analysis,3.5090000000000003
+bytestring-0.12.1.0,Data.ByteString.Builder,Desugar,0.288
+bytestring-0.12.1.0,Data.ByteString.Builder,Exitification transformation,0.018
+bytestring-0.12.1.0,Data.ByteString.Builder,Float inwards,0.019999999999999997
+bytestring-0.12.1.0,Data.ByteString.Builder,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.451
+bytestring-0.12.1.0,Data.ByteString.Builder,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.031
+bytestring-0.12.1.0,Data.ByteString.Builder,Liberate case,0.016
+bytestring-0.12.1.0,Data.ByteString.Builder,Parser,3.221
+bytestring-0.12.1.0,Data.ByteString.Builder,Renamer/typechecker,6.176
+bytestring-0.12.1.0,Data.ByteString.Builder,Simplifier,151.241
+bytestring-0.12.1.0,Data.ByteString.Builder,SpecConstr,0.737
+bytestring-0.12.1.0,Data.ByteString.Builder,Specialise,0.358
+bytestring-0.12.1.0,Data.ByteString.Builder,Worker Wrapper binds,0.214
+bytestring-0.12.1.0,Data.ByteString.Builder.ASCII,Called arity analysis,0.012
+bytestring-0.12.1.0,Data.ByteString.Builder.ASCII,CodeGen,88.059
+bytestring-0.12.1.0,Data.ByteString.Builder.ASCII,Common sub-expression,0.068
+bytestring-0.12.1.0,Data.ByteString.Builder.ASCII,Constructed Product Result analysis,0.505
+bytestring-0.12.1.0,Data.ByteString.Builder.ASCII,CorePrep,2.064
+bytestring-0.12.1.0,Data.ByteString.Builder.ASCII,CoreTidy,2.998
+bytestring-0.12.1.0,Data.ByteString.Builder.ASCII,CoreToStg,12.23
+bytestring-0.12.1.0,Data.ByteString.Builder.ASCII,Demand analysis,6.4990000000000006
+bytestring-0.12.1.0,Data.ByteString.Builder.ASCII,Desugar,0.606
+bytestring-0.12.1.0,Data.ByteString.Builder.ASCII,Exitification transformation,0.022
+bytestring-0.12.1.0,Data.ByteString.Builder.ASCII,Float inwards,0.03
+bytestring-0.12.1.0,Data.ByteString.Builder.ASCII,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",9.72
+bytestring-0.12.1.0,Data.ByteString.Builder.ASCII,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",4.8
+bytestring-0.12.1.0,Data.ByteString.Builder.ASCII,Liberate case,0.013
+bytestring-0.12.1.0,Data.ByteString.Builder.ASCII,Parser,2.269
+bytestring-0.12.1.0,Data.ByteString.Builder.ASCII,Renamer/typechecker,6.037
+bytestring-0.12.1.0,Data.ByteString.Builder.ASCII,Simplifier,254.141
+bytestring-0.12.1.0,Data.ByteString.Builder.ASCII,SpecConstr,4.125
+bytestring-0.12.1.0,Data.ByteString.Builder.ASCII,Specialise,0.666
+bytestring-0.12.1.0,Data.ByteString.Builder.ASCII,Worker Wrapper binds,0.236
+bytestring-0.12.1.0,Data.ByteString.Builder.Extra,Called arity analysis,0.011
+bytestring-0.12.1.0,Data.ByteString.Builder.Extra,CodeGen,29.43
+bytestring-0.12.1.0,Data.ByteString.Builder.Extra,Common sub-expression,0.026
+bytestring-0.12.1.0,Data.ByteString.Builder.Extra,Constructed Product Result analysis,0.11
+bytestring-0.12.1.0,Data.ByteString.Builder.Extra,CorePrep,0.5700000000000001
+bytestring-0.12.1.0,Data.ByteString.Builder.Extra,CoreTidy,0.507
+bytestring-0.12.1.0,Data.ByteString.Builder.Extra,CoreToStg,2.239
+bytestring-0.12.1.0,Data.ByteString.Builder.Extra,Demand analysis,1.119
+bytestring-0.12.1.0,Data.ByteString.Builder.Extra,Desugar,0.299
+bytestring-0.12.1.0,Data.ByteString.Builder.Extra,Exitification transformation,0.013
+bytestring-0.12.1.0,Data.ByteString.Builder.Extra,Float inwards,0.019999999999999997
+bytestring-0.12.1.0,Data.ByteString.Builder.Extra,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.618
+bytestring-0.12.1.0,Data.ByteString.Builder.Extra,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.626
+bytestring-0.12.1.0,Data.ByteString.Builder.Extra,Liberate case,0.014
+bytestring-0.12.1.0,Data.ByteString.Builder.Extra,Parser,1.167
+bytestring-0.12.1.0,Data.ByteString.Builder.Extra,Renamer/typechecker,3.999
+bytestring-0.12.1.0,Data.ByteString.Builder.Extra,Simplifier,41.626000000000005
+bytestring-0.12.1.0,Data.ByteString.Builder.Extra,SpecConstr,0.184
+bytestring-0.12.1.0,Data.ByteString.Builder.Extra,Specialise,0.183
+bytestring-0.12.1.0,Data.ByteString.Builder.Extra,Worker Wrapper binds,0.078
+bytestring-0.12.1.0,Data.ByteString.Builder.Internal,Called arity analysis,0.011
+bytestring-0.12.1.0,Data.ByteString.Builder.Internal,CodeGen,232.84300000000002
+bytestring-0.12.1.0,Data.ByteString.Builder.Internal,Common sub-expression,0.034
+bytestring-0.12.1.0,Data.ByteString.Builder.Internal,Constructed Product Result analysis,0.905
+bytestring-0.12.1.0,Data.ByteString.Builder.Internal,CorePrep,4.377000000000001
+bytestring-0.12.1.0,Data.ByteString.Builder.Internal,CoreTidy,13.864
+bytestring-0.12.1.0,Data.ByteString.Builder.Internal,CoreToStg,29.244
+bytestring-0.12.1.0,Data.ByteString.Builder.Internal,Demand analysis,16.196
+bytestring-0.12.1.0,Data.ByteString.Builder.Internal,Desugar,3.239
+bytestring-0.12.1.0,Data.ByteString.Builder.Internal,Exitification transformation,0.014
+bytestring-0.12.1.0,Data.ByteString.Builder.Internal,Float inwards,0.026000000000000002
+bytestring-0.12.1.0,Data.ByteString.Builder.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",9.262
+bytestring-0.12.1.0,Data.ByteString.Builder.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",9.381
+bytestring-0.12.1.0,Data.ByteString.Builder.Internal,Liberate case,0.012
+bytestring-0.12.1.0,Data.ByteString.Builder.Internal,Parser,11.111
+bytestring-0.12.1.0,Data.ByteString.Builder.Internal,Renamer/typechecker,22.346
+bytestring-0.12.1.0,Data.ByteString.Builder.Internal,Simplifier,604.665
+bytestring-0.12.1.0,Data.ByteString.Builder.Internal,SpecConstr,2.792
+bytestring-0.12.1.0,Data.ByteString.Builder.Internal,Specialise,1.348
+bytestring-0.12.1.0,Data.ByteString.Builder.Internal,Worker Wrapper binds,0.251
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim,Called arity analysis,0.01
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim,CodeGen,266.582
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim,Common sub-expression,0.041999999999999996
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim,Constructed Product Result analysis,0.592
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim,CorePrep,9.594999999999999
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim,CoreTidy,6.001
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim,CoreToStg,52.592
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim,Demand analysis,16.829
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim,Desugar,1.773
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim,Exitification transformation,0.027
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim,Float inwards,0.031
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",3.383
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",4.915
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim,Liberate case,0.014
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim,Parser,3.961
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim,Renamer/typechecker,18.367
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim,Simplifier,313.95300000000003
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim,SpecConstr,3.486
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim,Specialise,0.59
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim,Worker Wrapper binds,0.131
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.ASCII,Called arity analysis,0.013
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.ASCII,CodeGen,82.705
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.ASCII,Common sub-expression,0.03
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.ASCII,Constructed Product Result analysis,0.312
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.ASCII,CorePrep,1.7040000000000002
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.ASCII,CoreTidy,1.076
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.ASCII,CoreToStg,6.858
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.ASCII,Demand analysis,3.346
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.ASCII,Desugar,0.275
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.ASCII,Exitification transformation,0.014
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.ASCII,Float inwards,0.027999999999999997
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.ASCII,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",3.361
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.ASCII,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.844
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.ASCII,Liberate case,0.013
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.ASCII,Parser,2.142
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.ASCII,Renamer/typechecker,6.434
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.ASCII,Simplifier,144.424
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.ASCII,SpecConstr,0.449
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.ASCII,Specialise,0.518
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.ASCII,Worker Wrapper binds,0.142
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Binary,Called arity analysis,0.01
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Binary,CodeGen,26.442999999999998
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Binary,Common sub-expression,0.027
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Binary,Constructed Product Result analysis,0.143
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Binary,CorePrep,0.491
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Binary,CoreTidy,0.493
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Binary,CoreToStg,4.077
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Binary,Demand analysis,1.3940000000000001
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Binary,Desugar,0.46
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Binary,Exitification transformation,0.014
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Binary,Float inwards,0.024
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Binary,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.31
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Binary,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.862
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Binary,Liberate case,0.012
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Binary,Parser,1.477
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Binary,Renamer/typechecker,3.592
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Binary,Simplifier,53.233
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Binary,SpecConstr,0.188
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Binary,Specialise,0.224
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Binary,Worker Wrapper binds,0.124
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal,Called arity analysis,0.018
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal,CodeGen,38.599000000000004
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal,Common sub-expression,0.03
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal,Constructed Product Result analysis,0.121
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal,CorePrep,1.208
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal,CoreTidy,1.645
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal,CoreToStg,3.142
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal,Demand analysis,0.989
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal,Desugar,4.562
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal,Exitification transformation,0.016
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal,Float inwards,0.029
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.376
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.872
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal,Liberate case,0.014
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal,Parser,4.819
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal,Renamer/typechecker,59.317
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal,Simplifier,28.454
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal,SpecConstr,0.155
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal,Specialise,0.208
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal,Worker Wrapper binds,0.071
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal.Base16,Called arity analysis,0.012
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal.Base16,CodeGen,3.899
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal.Base16,Common sub-expression,0.022
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal.Base16,Constructed Product Result analysis,0.033
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal.Base16,CorePrep,0.16599999999999998
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal.Base16,CoreTidy,0.126
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal.Base16,CoreToStg,0.704
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal.Base16,Demand analysis,0.14800000000000002
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal.Base16,Desugar,0.228
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal.Base16,Exitification transformation,0.011
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal.Base16,Float inwards,0.028999999999999998
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal.Base16,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.12
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal.Base16,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.105
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal.Base16,Liberate case,0.011
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal.Base16,Parser,1.151
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal.Base16,Renamer/typechecker,10.038
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal.Base16,Simplifier,4.495
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal.Base16,SpecConstr,0.03
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal.Base16,Specialise,0.04
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal.Base16,Worker Wrapper binds,0.016
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal.Floating,Called arity analysis,0.011
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal.Floating,CodeGen,5.633
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal.Floating,Common sub-expression,0.024
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal.Floating,Constructed Product Result analysis,0.071
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal.Floating,CorePrep,0.16399999999999998
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal.Floating,CoreTidy,0.072
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal.Floating,CoreToStg,0.506
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal.Floating,Demand analysis,0.251
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal.Floating,Desugar,0.196
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal.Floating,Exitification transformation,0.019
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal.Floating,Float inwards,0.022
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal.Floating,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.09
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal.Floating,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.082
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal.Floating,Liberate case,0.012
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal.Floating,Parser,1.582
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal.Floating,Renamer/typechecker,2.055
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal.Floating,Simplifier,2.245
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal.Floating,SpecConstr,0.027
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal.Floating,Specialise,0.034
+bytestring-0.12.1.0,Data.ByteString.Builder.Prim.Internal.Floating,Worker Wrapper binds,0.023
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat,Called arity analysis,0.011
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat,CodeGen,111.825
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat,Common sub-expression,0.031
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat,Constructed Product Result analysis,0.61
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat,CorePrep,1.6139999999999999
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat,CoreTidy,1.941
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat,CoreToStg,10.553999999999998
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat,Demand analysis,4.928
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat,Desugar,1.2
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat,Exitification transformation,0.017
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat,Float inwards,0.032
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",5.058
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",6.056
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat,Liberate case,0.013
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat,Parser,1.983
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat,Renamer/typechecker,7.394
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat,Simplifier,214.486
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat,SpecConstr,0.961
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat,Specialise,1.003
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat,Worker Wrapper binds,0.256
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.D2S,Called arity analysis,0.012
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.D2S,CodeGen,62.900999999999996
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.D2S,Common sub-expression,0.027999999999999997
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.D2S,Constructed Product Result analysis,0.275
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.D2S,CorePrep,1.211
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.D2S,CoreTidy,1.087
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.D2S,CoreToStg,7.893000000000001
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.D2S,Demand analysis,2.207
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.D2S,Desugar,1.959
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.D2S,Exitification transformation,0.013
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.D2S,Float inwards,0.022
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.D2S,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.602
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.D2S,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",3.449
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.D2S,Liberate case,0.014
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.D2S,Parser,2.641
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.D2S,Renamer/typechecker,11.929
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.D2S,Simplifier,146.674
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.D2S,SpecConstr,1.654
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.D2S,Specialise,0.694
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.D2S,Worker Wrapper binds,0.18
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.F2S,Called arity analysis,0.014
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.F2S,CodeGen,51.136
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.F2S,Common sub-expression,0.03
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.F2S,Constructed Product Result analysis,0.405
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.F2S,CorePrep,0.96
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.F2S,CoreTidy,0.847
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.F2S,CoreToStg,7.141
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.F2S,Demand analysis,1.936
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.F2S,Desugar,0.919
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.F2S,Exitification transformation,0.019
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.F2S,Float inwards,0.026000000000000002
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.F2S,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.989
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.F2S,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.312
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.F2S,Liberate case,0.014
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.F2S,Parser,5.225
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.F2S,Renamer/typechecker,10.789
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.F2S,Simplifier,90.88
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.F2S,SpecConstr,0.427
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.F2S,Specialise,0.876
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.F2S,Worker Wrapper binds,0.235
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.Internal,Called arity analysis,0.026
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.Internal,CodeGen,166.748
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.Internal,Common sub-expression,0.037000000000000005
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.Internal,Constructed Product Result analysis,0.751
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.Internal,CorePrep,2.968
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.Internal,CoreTidy,4.776
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.Internal,CoreToStg,23.04
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.Internal,Demand analysis,6.927
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.Internal,Desugar,4.247
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.Internal,Exitification transformation,0.018
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.Internal,Float inwards,0.03
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",7.309
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",6.616
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.Internal,Liberate case,0.014
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.Internal,Parser,8.703
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.Internal,Renamer/typechecker,44.804
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.Internal,Simplifier,338.402
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.Internal,SpecConstr,1.77
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.Internal,Specialise,2.454
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.Internal,Worker Wrapper binds,0.698
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.TableGenerator,Called arity analysis,0.011
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.TableGenerator,CodeGen,40.778000000000006
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.TableGenerator,Common sub-expression,0.026000000000000002
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.TableGenerator,Constructed Product Result analysis,0.289
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.TableGenerator,CorePrep,0.958
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.TableGenerator,CoreTidy,0.688
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.TableGenerator,CoreToStg,2.675
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.TableGenerator,Demand analysis,2.528
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.TableGenerator,Desugar,0.458
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.TableGenerator,Exitification transformation,0.02
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.TableGenerator,Float inwards,0.023
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.TableGenerator,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.222
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.TableGenerator,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.81
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.TableGenerator,Liberate case,0.016
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.TableGenerator,Parser,1.517
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.TableGenerator,Renamer/typechecker,16.742
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.TableGenerator,Simplifier,128.125
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.TableGenerator,SpecConstr,0.442
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.TableGenerator,Specialise,1.063
+bytestring-0.12.1.0,Data.ByteString.Builder.RealFloat.TableGenerator,Worker Wrapper binds,0.148
+bytestring-0.12.1.0,Data.ByteString.Char8,Called arity analysis,0.01
+bytestring-0.12.1.0,Data.ByteString.Char8,CodeGen,226.9
+bytestring-0.12.1.0,Data.ByteString.Char8,Common sub-expression,0.027
+bytestring-0.12.1.0,Data.ByteString.Char8,Constructed Product Result analysis,2.027
+bytestring-0.12.1.0,Data.ByteString.Char8,CorePrep,5.191000000000001
+bytestring-0.12.1.0,Data.ByteString.Char8,CoreTidy,7.031
+bytestring-0.12.1.0,Data.ByteString.Char8,CoreToStg,35.935
+bytestring-0.12.1.0,Data.ByteString.Char8,Demand analysis,18.205
+bytestring-0.12.1.0,Data.ByteString.Char8,Desugar,1.391
+bytestring-0.12.1.0,Data.ByteString.Char8,Exitification transformation,0.013
+bytestring-0.12.1.0,Data.ByteString.Char8,Float inwards,0.019999999999999997
+bytestring-0.12.1.0,Data.ByteString.Char8,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",18.01
+bytestring-0.12.1.0,Data.ByteString.Char8,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",18.884
+bytestring-0.12.1.0,Data.ByteString.Char8,Liberate case,0.012
+bytestring-0.12.1.0,Data.ByteString.Char8,Parser,11.414
+bytestring-0.12.1.0,Data.ByteString.Char8,Renamer/typechecker,14.229
+bytestring-0.12.1.0,Data.ByteString.Char8,Simplifier,876.955
+bytestring-0.12.1.0,Data.ByteString.Char8,SpecConstr,3.759
+bytestring-0.12.1.0,Data.ByteString.Char8,Specialise,2.775
+bytestring-0.12.1.0,Data.ByteString.Char8,Worker Wrapper binds,0.823
+bytestring-0.12.1.0,Data.ByteString.Internal,Called arity analysis,0.01
+bytestring-0.12.1.0,Data.ByteString.Internal,CodeGen,0.799
+bytestring-0.12.1.0,Data.ByteString.Internal,Common sub-expression,0.031
+bytestring-0.12.1.0,Data.ByteString.Internal,Constructed Product Result analysis,0.015
+bytestring-0.12.1.0,Data.ByteString.Internal,CorePrep,0.07100000000000001
+bytestring-0.12.1.0,Data.ByteString.Internal,CoreTidy,0.052
+bytestring-0.12.1.0,Data.ByteString.Internal,CoreToStg,0.108
+bytestring-0.12.1.0,Data.ByteString.Internal,Demand analysis,0.055
+bytestring-0.12.1.0,Data.ByteString.Internal,Desugar,0.039
+bytestring-0.12.1.0,Data.ByteString.Internal,Exitification transformation,0.01
+bytestring-0.12.1.0,Data.ByteString.Internal,Float inwards,0.022
+bytestring-0.12.1.0,Data.ByteString.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.037
+bytestring-0.12.1.0,Data.ByteString.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.027
+bytestring-0.12.1.0,Data.ByteString.Internal,Liberate case,0.024
+bytestring-0.12.1.0,Data.ByteString.Internal,Parser,0.492
+bytestring-0.12.1.0,Data.ByteString.Internal,Renamer/typechecker,0.496
+bytestring-0.12.1.0,Data.ByteString.Internal,Simplifier,0.544
+bytestring-0.12.1.0,Data.ByteString.Internal,SpecConstr,0.03
+bytestring-0.12.1.0,Data.ByteString.Internal,Specialise,0.019
+bytestring-0.12.1.0,Data.ByteString.Internal,Worker Wrapper binds,0.012
+bytestring-0.12.1.0,Data.ByteString.Internal.Type,Called arity analysis,0.01
+bytestring-0.12.1.0,Data.ByteString.Internal.Type,CodeGen,243.539
+bytestring-0.12.1.0,Data.ByteString.Internal.Type,Common sub-expression,0.027999999999999997
+bytestring-0.12.1.0,Data.ByteString.Internal.Type,Constructed Product Result analysis,2.369
+bytestring-0.12.1.0,Data.ByteString.Internal.Type,CorePrep,4.62
+bytestring-0.12.1.0,Data.ByteString.Internal.Type,CoreTidy,10.715
+bytestring-0.12.1.0,Data.ByteString.Internal.Type,CoreToStg,40.842999999999996
+bytestring-0.12.1.0,Data.ByteString.Internal.Type,Demand analysis,13.52
+bytestring-0.12.1.0,Data.ByteString.Internal.Type,Desugar,4.527
+bytestring-0.12.1.0,Data.ByteString.Internal.Type,Exitification transformation,0.017
+bytestring-0.12.1.0,Data.ByteString.Internal.Type,Float inwards,0.022
+bytestring-0.12.1.0,Data.ByteString.Internal.Type,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",9.336
+bytestring-0.12.1.0,Data.ByteString.Internal.Type,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",16.55
+bytestring-0.12.1.0,Data.ByteString.Internal.Type,Liberate case,0.013
+bytestring-0.12.1.0,Data.ByteString.Internal.Type,Parser,17.878
+bytestring-0.12.1.0,Data.ByteString.Internal.Type,Renamer/typechecker,202.964
+bytestring-0.12.1.0,Data.ByteString.Internal.Type,Simplifier,609.848
+bytestring-0.12.1.0,Data.ByteString.Internal.Type,SpecConstr,1.959
+bytestring-0.12.1.0,Data.ByteString.Internal.Type,Specialise,2.093
+bytestring-0.12.1.0,Data.ByteString.Internal.Type,Worker Wrapper binds,0.751
+bytestring-0.12.1.0,Data.ByteString.Lazy,Called arity analysis,0.011
+bytestring-0.12.1.0,Data.ByteString.Lazy,CodeGen,472.03200000000004
+bytestring-0.12.1.0,Data.ByteString.Lazy,Common sub-expression,0.03
+bytestring-0.12.1.0,Data.ByteString.Lazy,Constructed Product Result analysis,3.079
+bytestring-0.12.1.0,Data.ByteString.Lazy,CorePrep,6.409000000000001
+bytestring-0.12.1.0,Data.ByteString.Lazy,CoreTidy,16.273
+bytestring-0.12.1.0,Data.ByteString.Lazy,CoreToStg,83.506
+bytestring-0.12.1.0,Data.ByteString.Lazy,Demand analysis,35.543
+bytestring-0.12.1.0,Data.ByteString.Lazy,Desugar,18.963
+bytestring-0.12.1.0,Data.ByteString.Lazy,Exitification transformation,0.017
+bytestring-0.12.1.0,Data.ByteString.Lazy,Float inwards,0.023
+bytestring-0.12.1.0,Data.ByteString.Lazy,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",18.406
+bytestring-0.12.1.0,Data.ByteString.Lazy,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",29.687
+bytestring-0.12.1.0,Data.ByteString.Lazy,Liberate case,0.012
+bytestring-0.12.1.0,Data.ByteString.Lazy,Parser,14.021
+bytestring-0.12.1.0,Data.ByteString.Lazy,Renamer/typechecker,51.046
+bytestring-0.12.1.0,Data.ByteString.Lazy,Simplifier,1289.467
+bytestring-0.12.1.0,Data.ByteString.Lazy,SpecConstr,6.502
+bytestring-0.12.1.0,Data.ByteString.Lazy,Specialise,2.937
+bytestring-0.12.1.0,Data.ByteString.Lazy,Worker Wrapper binds,1.39
+bytestring-0.12.1.0,Data.ByteString.Lazy.Char8,Called arity analysis,0.015
+bytestring-0.12.1.0,Data.ByteString.Lazy.Char8,CodeGen,276.615
+bytestring-0.12.1.0,Data.ByteString.Lazy.Char8,Common sub-expression,0.037
+bytestring-0.12.1.0,Data.ByteString.Lazy.Char8,Constructed Product Result analysis,1.502
+bytestring-0.12.1.0,Data.ByteString.Lazy.Char8,CorePrep,3.614
+bytestring-0.12.1.0,Data.ByteString.Lazy.Char8,CoreTidy,4.976
+bytestring-0.12.1.0,Data.ByteString.Lazy.Char8,CoreToStg,32.924
+bytestring-0.12.1.0,Data.ByteString.Lazy.Char8,Demand analysis,20.165999999999997
+bytestring-0.12.1.0,Data.ByteString.Lazy.Char8,Desugar,1.237
+bytestring-0.12.1.0,Data.ByteString.Lazy.Char8,Exitification transformation,0.018
+bytestring-0.12.1.0,Data.ByteString.Lazy.Char8,Float inwards,0.03
+bytestring-0.12.1.0,Data.ByteString.Lazy.Char8,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",10.993
+bytestring-0.12.1.0,Data.ByteString.Lazy.Char8,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",14.392
+bytestring-0.12.1.0,Data.ByteString.Lazy.Char8,Liberate case,0.015
+bytestring-0.12.1.0,Data.ByteString.Lazy.Char8,Parser,6.535
+bytestring-0.12.1.0,Data.ByteString.Lazy.Char8,Renamer/typechecker,14.2
+bytestring-0.12.1.0,Data.ByteString.Lazy.Char8,Simplifier,634.657
+bytestring-0.12.1.0,Data.ByteString.Lazy.Char8,SpecConstr,3.053
+bytestring-0.12.1.0,Data.ByteString.Lazy.Char8,Specialise,2.151
+bytestring-0.12.1.0,Data.ByteString.Lazy.Char8,Worker Wrapper binds,0.696
+bytestring-0.12.1.0,Data.ByteString.Lazy.Internal,Called arity analysis,0.013
+bytestring-0.12.1.0,Data.ByteString.Lazy.Internal,CodeGen,171.262
+bytestring-0.12.1.0,Data.ByteString.Lazy.Internal,Common sub-expression,0.032
+bytestring-0.12.1.0,Data.ByteString.Lazy.Internal,Constructed Product Result analysis,0.6
+bytestring-0.12.1.0,Data.ByteString.Lazy.Internal,CorePrep,3.247
+bytestring-0.12.1.0,Data.ByteString.Lazy.Internal,CoreTidy,2.287
+bytestring-0.12.1.0,Data.ByteString.Lazy.Internal,CoreToStg,8.790000000000001
+bytestring-0.12.1.0,Data.ByteString.Lazy.Internal,Demand analysis,8.105
+bytestring-0.12.1.0,Data.ByteString.Lazy.Internal,Desugar,8.333
+bytestring-0.12.1.0,Data.ByteString.Lazy.Internal,Exitification transformation,0.015
+bytestring-0.12.1.0,Data.ByteString.Lazy.Internal,Float inwards,0.036
+bytestring-0.12.1.0,Data.ByteString.Lazy.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",3.555
+bytestring-0.12.1.0,Data.ByteString.Lazy.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",4.211
+bytestring-0.12.1.0,Data.ByteString.Lazy.Internal,Liberate case,0.014
+bytestring-0.12.1.0,Data.ByteString.Lazy.Internal,Parser,5.303
+bytestring-0.12.1.0,Data.ByteString.Lazy.Internal,Renamer/typechecker,11.67
+bytestring-0.12.1.0,Data.ByteString.Lazy.Internal,Simplifier,148.29
+bytestring-0.12.1.0,Data.ByteString.Lazy.Internal,SpecConstr,1.303
+bytestring-0.12.1.0,Data.ByteString.Lazy.Internal,Specialise,0.893
+bytestring-0.12.1.0,Data.ByteString.Lazy.Internal,Worker Wrapper binds,0.295
+bytestring-0.12.1.0,Data.ByteString.Lazy.ReadInt,Called arity analysis,0.012
+bytestring-0.12.1.0,Data.ByteString.Lazy.ReadInt,CodeGen,88.868
+bytestring-0.12.1.0,Data.ByteString.Lazy.ReadInt,Common sub-expression,0.032
+bytestring-0.12.1.0,Data.ByteString.Lazy.ReadInt,Constructed Product Result analysis,3.761
+bytestring-0.12.1.0,Data.ByteString.Lazy.ReadInt,CorePrep,2.746
+bytestring-0.12.1.0,Data.ByteString.Lazy.ReadInt,CoreTidy,2.202
+bytestring-0.12.1.0,Data.ByteString.Lazy.ReadInt,CoreToStg,19.567999999999998
+bytestring-0.12.1.0,Data.ByteString.Lazy.ReadInt,Demand analysis,6.451
+bytestring-0.12.1.0,Data.ByteString.Lazy.ReadInt,Desugar,0.89
+bytestring-0.12.1.0,Data.ByteString.Lazy.ReadInt,Exitification transformation,0.015
+bytestring-0.12.1.0,Data.ByteString.Lazy.ReadInt,Float inwards,0.024
+bytestring-0.12.1.0,Data.ByteString.Lazy.ReadInt,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",9.467
+bytestring-0.12.1.0,Data.ByteString.Lazy.ReadInt,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",9.889
+bytestring-0.12.1.0,Data.ByteString.Lazy.ReadInt,Liberate case,0.013
+bytestring-0.12.1.0,Data.ByteString.Lazy.ReadInt,Parser,2.646
+bytestring-0.12.1.0,Data.ByteString.Lazy.ReadInt,Renamer/typechecker,8.586
+bytestring-0.12.1.0,Data.ByteString.Lazy.ReadInt,Simplifier,199.497
+bytestring-0.12.1.0,Data.ByteString.Lazy.ReadInt,SpecConstr,1.53
+bytestring-0.12.1.0,Data.ByteString.Lazy.ReadInt,Specialise,0.868
+bytestring-0.12.1.0,Data.ByteString.Lazy.ReadInt,Worker Wrapper binds,0.669
+bytestring-0.12.1.0,Data.ByteString.Lazy.ReadNat,Called arity analysis,0.011
+bytestring-0.12.1.0,Data.ByteString.Lazy.ReadNat,CodeGen,36.415
+bytestring-0.12.1.0,Data.ByteString.Lazy.ReadNat,Common sub-expression,0.025
+bytestring-0.12.1.0,Data.ByteString.Lazy.ReadNat,Constructed Product Result analysis,0.241
+bytestring-0.12.1.0,Data.ByteString.Lazy.ReadNat,CorePrep,1.006
+bytestring-0.12.1.0,Data.ByteString.Lazy.ReadNat,CoreTidy,0.719
+bytestring-0.12.1.0,Data.ByteString.Lazy.ReadNat,CoreToStg,6.016
+bytestring-0.12.1.0,Data.ByteString.Lazy.ReadNat,Demand analysis,1.613
+bytestring-0.12.1.0,Data.ByteString.Lazy.ReadNat,Desugar,0.953
+bytestring-0.12.1.0,Data.ByteString.Lazy.ReadNat,Exitification transformation,0.013
+bytestring-0.12.1.0,Data.ByteString.Lazy.ReadNat,Float inwards,0.019999999999999997
+bytestring-0.12.1.0,Data.ByteString.Lazy.ReadNat,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.942
+bytestring-0.12.1.0,Data.ByteString.Lazy.ReadNat,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.195
+bytestring-0.12.1.0,Data.ByteString.Lazy.ReadNat,Liberate case,0.012
+bytestring-0.12.1.0,Data.ByteString.Lazy.ReadNat,Parser,2.352
+bytestring-0.12.1.0,Data.ByteString.Lazy.ReadNat,Renamer/typechecker,8.532
+bytestring-0.12.1.0,Data.ByteString.Lazy.ReadNat,Simplifier,55.147999999999996
+bytestring-0.12.1.0,Data.ByteString.Lazy.ReadNat,SpecConstr,0.465
+bytestring-0.12.1.0,Data.ByteString.Lazy.ReadNat,Specialise,0.449
+bytestring-0.12.1.0,Data.ByteString.Lazy.ReadNat,Worker Wrapper binds,0.164
+bytestring-0.12.1.0,Data.ByteString.ReadInt,Called arity analysis,0.015
+bytestring-0.12.1.0,Data.ByteString.ReadInt,CodeGen,53.778999999999996
+bytestring-0.12.1.0,Data.ByteString.ReadInt,Common sub-expression,0.03
+bytestring-0.12.1.0,Data.ByteString.ReadInt,Constructed Product Result analysis,0.449
+bytestring-0.12.1.0,Data.ByteString.ReadInt,CorePrep,1.903
+bytestring-0.12.1.0,Data.ByteString.ReadInt,CoreTidy,1.619
+bytestring-0.12.1.0,Data.ByteString.ReadInt,CoreToStg,11.075
+bytestring-0.12.1.0,Data.ByteString.ReadInt,Demand analysis,3.0140000000000002
+bytestring-0.12.1.0,Data.ByteString.ReadInt,Desugar,1.007
+bytestring-0.12.1.0,Data.ByteString.ReadInt,Exitification transformation,0.017
+bytestring-0.12.1.0,Data.ByteString.ReadInt,Float inwards,0.024
+bytestring-0.12.1.0,Data.ByteString.ReadInt,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",5.983
+bytestring-0.12.1.0,Data.ByteString.ReadInt,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",5.42
+bytestring-0.12.1.0,Data.ByteString.ReadInt,Liberate case,0.014
+bytestring-0.12.1.0,Data.ByteString.ReadInt,Parser,2.89
+bytestring-0.12.1.0,Data.ByteString.ReadInt,Renamer/typechecker,9.017
+bytestring-0.12.1.0,Data.ByteString.ReadInt,Simplifier,177.094
+bytestring-0.12.1.0,Data.ByteString.ReadInt,SpecConstr,0.858
+bytestring-0.12.1.0,Data.ByteString.ReadInt,Specialise,0.865
+bytestring-0.12.1.0,Data.ByteString.ReadInt,Worker Wrapper binds,0.425
+bytestring-0.12.1.0,Data.ByteString.ReadNat,Called arity analysis,0.01
+bytestring-0.12.1.0,Data.ByteString.ReadNat,CodeGen,31.309
+bytestring-0.12.1.0,Data.ByteString.ReadNat,Common sub-expression,0.023
+bytestring-0.12.1.0,Data.ByteString.ReadNat,Constructed Product Result analysis,1.609
+bytestring-0.12.1.0,Data.ByteString.ReadNat,CorePrep,0.493
+bytestring-0.12.1.0,Data.ByteString.ReadNat,CoreTidy,0.587
+bytestring-0.12.1.0,Data.ByteString.ReadNat,CoreToStg,2.751
+bytestring-0.12.1.0,Data.ByteString.ReadNat,Demand analysis,1.3250000000000002
+bytestring-0.12.1.0,Data.ByteString.ReadNat,Desugar,1.101
+bytestring-0.12.1.0,Data.ByteString.ReadNat,Exitification transformation,0.024
+bytestring-0.12.1.0,Data.ByteString.ReadNat,Float inwards,0.02
+bytestring-0.12.1.0,Data.ByteString.ReadNat,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.235
+bytestring-0.12.1.0,Data.ByteString.ReadNat,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.383
+bytestring-0.12.1.0,Data.ByteString.ReadNat,Liberate case,0.014
+bytestring-0.12.1.0,Data.ByteString.ReadNat,Parser,2.427
+bytestring-0.12.1.0,Data.ByteString.ReadNat,Renamer/typechecker,8.666
+bytestring-0.12.1.0,Data.ByteString.ReadNat,Simplifier,44.647
+bytestring-0.12.1.0,Data.ByteString.ReadNat,SpecConstr,0.377
+bytestring-0.12.1.0,Data.ByteString.ReadNat,Specialise,0.523
+bytestring-0.12.1.0,Data.ByteString.ReadNat,Worker Wrapper binds,0.108
+bytestring-0.12.1.0,Data.ByteString.Short,Called arity analysis,0.009
+bytestring-0.12.1.0,Data.ByteString.Short,CodeGen,1.693
+bytestring-0.12.1.0,Data.ByteString.Short,Common sub-expression,0.02
+bytestring-0.12.1.0,Data.ByteString.Short,Constructed Product Result analysis,0.012
+bytestring-0.12.1.0,Data.ByteString.Short,CorePrep,0.086
+bytestring-0.12.1.0,Data.ByteString.Short,CoreTidy,0.07
+bytestring-0.12.1.0,Data.ByteString.Short,CoreToStg,0.192
+bytestring-0.12.1.0,Data.ByteString.Short,Demand analysis,0.056
+bytestring-0.12.1.0,Data.ByteString.Short,Desugar,0.035
+bytestring-0.12.1.0,Data.ByteString.Short,Exitification transformation,0.01
+bytestring-0.12.1.0,Data.ByteString.Short,Float inwards,0.019
+bytestring-0.12.1.0,Data.ByteString.Short,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.038
+bytestring-0.12.1.0,Data.ByteString.Short,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.026
+bytestring-0.12.1.0,Data.ByteString.Short,Liberate case,0.01
+bytestring-0.12.1.0,Data.ByteString.Short,Parser,0.449
+bytestring-0.12.1.0,Data.ByteString.Short,Renamer/typechecker,0.463
+bytestring-0.12.1.0,Data.ByteString.Short,Simplifier,0.487
+bytestring-0.12.1.0,Data.ByteString.Short,SpecConstr,0.018
+bytestring-0.12.1.0,Data.ByteString.Short,Specialise,0.018
+bytestring-0.12.1.0,Data.ByteString.Short,Worker Wrapper binds,0.011
+bytestring-0.12.1.0,Data.ByteString.Short.Internal,Called arity analysis,0.011
+bytestring-0.12.1.0,Data.ByteString.Short.Internal,CodeGen,649.1400000000001
+bytestring-0.12.1.0,Data.ByteString.Short.Internal,Common sub-expression,0.033
+bytestring-0.12.1.0,Data.ByteString.Short.Internal,Constructed Product Result analysis,2.145
+bytestring-0.12.1.0,Data.ByteString.Short.Internal,CorePrep,8.147
+bytestring-0.12.1.0,Data.ByteString.Short.Internal,CoreTidy,22.926
+bytestring-0.12.1.0,Data.ByteString.Short.Internal,CoreToStg,122.229
+bytestring-0.12.1.0,Data.ByteString.Short.Internal,Demand analysis,29.445
+bytestring-0.12.1.0,Data.ByteString.Short.Internal,Desugar,12.006
+bytestring-0.12.1.0,Data.ByteString.Short.Internal,Exitification transformation,0.015
+bytestring-0.12.1.0,Data.ByteString.Short.Internal,Float inwards,0.023
+bytestring-0.12.1.0,Data.ByteString.Short.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",14.643
+bytestring-0.12.1.0,Data.ByteString.Short.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",26.458
+bytestring-0.12.1.0,Data.ByteString.Short.Internal,Liberate case,0.012
+bytestring-0.12.1.0,Data.ByteString.Short.Internal,Parser,25.577
+bytestring-0.12.1.0,Data.ByteString.Short.Internal,Renamer/typechecker,79.658
+bytestring-0.12.1.0,Data.ByteString.Short.Internal,Simplifier,1148.974
+bytestring-0.12.1.0,Data.ByteString.Short.Internal,SpecConstr,6.965
+bytestring-0.12.1.0,Data.ByteString.Short.Internal,Specialise,2.108
+bytestring-0.12.1.0,Data.ByteString.Short.Internal,Worker Wrapper binds,1.963
+bytestring-0.12.1.0,Data.ByteString.Unsafe,Called arity analysis,0.013
+bytestring-0.12.1.0,Data.ByteString.Unsafe,CodeGen,22.732
+bytestring-0.12.1.0,Data.ByteString.Unsafe,Common sub-expression,0.024
+bytestring-0.12.1.0,Data.ByteString.Unsafe,Constructed Product Result analysis,0.108
+bytestring-0.12.1.0,Data.ByteString.Unsafe,CorePrep,0.41700000000000004
+bytestring-0.12.1.0,Data.ByteString.Unsafe,CoreTidy,0.909
+bytestring-0.12.1.0,Data.ByteString.Unsafe,CoreToStg,2.718
+bytestring-0.12.1.0,Data.ByteString.Unsafe,Demand analysis,1.022
+bytestring-0.12.1.0,Data.ByteString.Unsafe,Desugar,0.453
+bytestring-0.12.1.0,Data.ByteString.Unsafe,Exitification transformation,0.017
+bytestring-0.12.1.0,Data.ByteString.Unsafe,Float inwards,0.023
+bytestring-0.12.1.0,Data.ByteString.Unsafe,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.574
+bytestring-0.12.1.0,Data.ByteString.Unsafe,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.562
+bytestring-0.12.1.0,Data.ByteString.Unsafe,Liberate case,0.014
+bytestring-0.12.1.0,Data.ByteString.Unsafe,Parser,1.994
+bytestring-0.12.1.0,Data.ByteString.Unsafe,Renamer/typechecker,5.896
+bytestring-0.12.1.0,Data.ByteString.Unsafe,Simplifier,24.706
+bytestring-0.12.1.0,Data.ByteString.Unsafe,SpecConstr,0.118
+bytestring-0.12.1.0,Data.ByteString.Unsafe,Specialise,0.111
+bytestring-0.12.1.0,Data.ByteString.Unsafe,Worker Wrapper binds,0.085
+bytestring-0.12.1.0,Data.ByteString.Utils.ByteOrder,Called arity analysis,0.012
+bytestring-0.12.1.0,Data.ByteString.Utils.ByteOrder,CodeGen,2.886
+bytestring-0.12.1.0,Data.ByteString.Utils.ByteOrder,Common sub-expression,0.027
+bytestring-0.12.1.0,Data.ByteString.Utils.ByteOrder,Constructed Product Result analysis,0.019
+bytestring-0.12.1.0,Data.ByteString.Utils.ByteOrder,CorePrep,0.136
+bytestring-0.12.1.0,Data.ByteString.Utils.ByteOrder,CoreTidy,0.362
+bytestring-0.12.1.0,Data.ByteString.Utils.ByteOrder,CoreToStg,0.318
+bytestring-0.12.1.0,Data.ByteString.Utils.ByteOrder,Demand analysis,0.134
+bytestring-0.12.1.0,Data.ByteString.Utils.ByteOrder,Desugar,0.365
+bytestring-0.12.1.0,Data.ByteString.Utils.ByteOrder,Exitification transformation,0.011
+bytestring-0.12.1.0,Data.ByteString.Utils.ByteOrder,Float inwards,0.02
+bytestring-0.12.1.0,Data.ByteString.Utils.ByteOrder,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.11
+bytestring-0.12.1.0,Data.ByteString.Utils.ByteOrder,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.065
+bytestring-0.12.1.0,Data.ByteString.Utils.ByteOrder,Liberate case,0.012
+bytestring-0.12.1.0,Data.ByteString.Utils.ByteOrder,Parser,1.025
+bytestring-0.12.1.0,Data.ByteString.Utils.ByteOrder,Renamer/typechecker,1.043
+bytestring-0.12.1.0,Data.ByteString.Utils.ByteOrder,Simplifier,1.377
+bytestring-0.12.1.0,Data.ByteString.Utils.ByteOrder,SpecConstr,0.028
+bytestring-0.12.1.0,Data.ByteString.Utils.ByteOrder,Specialise,0.064
+bytestring-0.12.1.0,Data.ByteString.Utils.ByteOrder,Worker Wrapper binds,0.027
+bytestring-0.12.1.0,Data.ByteString.Utils.UnalignedAccess,Called arity analysis,0.03
+bytestring-0.12.1.0,Data.ByteString.Utils.UnalignedAccess,CodeGen,9.266
+bytestring-0.12.1.0,Data.ByteString.Utils.UnalignedAccess,Common sub-expression,0.023
+bytestring-0.12.1.0,Data.ByteString.Utils.UnalignedAccess,Constructed Product Result analysis,0.077
+bytestring-0.12.1.0,Data.ByteString.Utils.UnalignedAccess,CorePrep,0.296
+bytestring-0.12.1.0,Data.ByteString.Utils.UnalignedAccess,CoreTidy,0.486
+bytestring-0.12.1.0,Data.ByteString.Utils.UnalignedAccess,CoreToStg,0.761
+bytestring-0.12.1.0,Data.ByteString.Utils.UnalignedAccess,Demand analysis,0.591
+bytestring-0.12.1.0,Data.ByteString.Utils.UnalignedAccess,Desugar,0.385
+bytestring-0.12.1.0,Data.ByteString.Utils.UnalignedAccess,Exitification transformation,0.011
+bytestring-0.12.1.0,Data.ByteString.Utils.UnalignedAccess,Float inwards,0.024
+bytestring-0.12.1.0,Data.ByteString.Utils.UnalignedAccess,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.204
+bytestring-0.12.1.0,Data.ByteString.Utils.UnalignedAccess,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.191
+bytestring-0.12.1.0,Data.ByteString.Utils.UnalignedAccess,Liberate case,0.011
+bytestring-0.12.1.0,Data.ByteString.Utils.UnalignedAccess,Parser,0.973
+bytestring-0.12.1.0,Data.ByteString.Utils.UnalignedAccess,Renamer/typechecker,1.365
+bytestring-0.12.1.0,Data.ByteString.Utils.UnalignedAccess,Simplifier,6.517
+bytestring-0.12.1.0,Data.ByteString.Utils.UnalignedAccess,SpecConstr,0.044
+bytestring-0.12.1.0,Data.ByteString.Utils.UnalignedAccess,Specialise,0.054
+bytestring-0.12.1.0,Data.ByteString.Utils.UnalignedAccess,Worker Wrapper binds,0.07

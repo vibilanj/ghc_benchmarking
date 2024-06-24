@@ -1,0 +1,8 @@
+
+Package: hashable-1.4.6.0
+Total time for package: 2232.299
+Total parser time for package: 25.444
+Percentage of total time spent in parser: 1.1398114679081968
+Arithmetic mean of parser percentage: 7.543551128112829
+Geometric mean of parser percentage: 5.02290057329813
+Size of package in bytes: 65713

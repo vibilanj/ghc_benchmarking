@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+
+*.bkp*
+sources/
+time-ghc-modules/

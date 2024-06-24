@@ -1,0 +1,8 @@
+
+Package: filepath-1.5.2.0
+Total time for package: 3016.9839999999995
+Total parser time for package: 59.538999999999994
+Percentage of total time spent in parser: 1.9734609132829344
+Arithmetic mean of parser percentage: 5.511470198062893
+Geometric mean of parser percentage: 0.0
+Size of package in bytes: 8499

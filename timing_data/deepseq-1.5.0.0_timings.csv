@@ -1,0 +1,19 @@
+package,module,phase,time
+deepseq-1.5.0.0,Control.DeepSeq,Called arity analysis,0.013
+deepseq-1.5.0.0,Control.DeepSeq,CodeGen,179.7
+deepseq-1.5.0.0,Control.DeepSeq,Common sub-expression,0.021
+deepseq-1.5.0.0,Control.DeepSeq,Constructed Product Result analysis,0.493
+deepseq-1.5.0.0,Control.DeepSeq,CorePrep,9.438
+deepseq-1.5.0.0,Control.DeepSeq,CoreTidy,5.762
+deepseq-1.5.0.0,Control.DeepSeq,CoreToStg,13.014
+deepseq-1.5.0.0,Control.DeepSeq,Demand analysis,10.460999999999999
+deepseq-1.5.0.0,Control.DeepSeq,Desugar,7.121
+deepseq-1.5.0.0,Control.DeepSeq,Exitification transformation,0.022
+deepseq-1.5.0.0,Control.DeepSeq,Float inwards,0.027999999999999997
+deepseq-1.5.0.0,Control.DeepSeq,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",6.161
+deepseq-1.5.0.0,Control.DeepSeq,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",6.25
+deepseq-1.5.0.0,Control.DeepSeq,Parser,26.274
+deepseq-1.5.0.0,Control.DeepSeq,Renamer/typechecker,141.101
+deepseq-1.5.0.0,Control.DeepSeq,Simplifier,238.614
+deepseq-1.5.0.0,Control.DeepSeq,Specialise,4.502
+deepseq-1.5.0.0,Control.DeepSeq,Worker Wrapper binds,0.501

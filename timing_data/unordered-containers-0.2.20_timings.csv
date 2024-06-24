@@ -1,0 +1,175 @@
+package,module,phase,time
+unordered-containers-0.2.20,Data.HashMap.Internal,Called arity analysis,0.012
+unordered-containers-0.2.20,Data.HashMap.Internal,CodeGen,1349.632
+unordered-containers-0.2.20,Data.HashMap.Internal,Common sub-expression,0.027
+unordered-containers-0.2.20,Data.HashMap.Internal,Constructed Product Result analysis,14.275
+unordered-containers-0.2.20,Data.HashMap.Internal,CorePrep,24.955
+unordered-containers-0.2.20,Data.HashMap.Internal,CoreTidy,53.269
+unordered-containers-0.2.20,Data.HashMap.Internal,CoreToStg,374.317
+unordered-containers-0.2.20,Data.HashMap.Internal,Demand analysis,159.39600000000002
+unordered-containers-0.2.20,Data.HashMap.Internal,Desugar,33.204
+unordered-containers-0.2.20,Data.HashMap.Internal,Exitification transformation,0.021
+unordered-containers-0.2.20,Data.HashMap.Internal,Float inwards,0.03
+unordered-containers-0.2.20,Data.HashMap.Internal,Liberate case,0.017
+unordered-containers-0.2.20,Data.HashMap.Internal,Parser,43.537
+unordered-containers-0.2.20,Data.HashMap.Internal,Renamer/typechecker,314.151
+unordered-containers-0.2.20,Data.HashMap.Internal,Simplifier,5669.7119999999995
+unordered-containers-0.2.20,Data.HashMap.Internal,SpecConstr,49.725
+unordered-containers-0.2.20,Data.HashMap.Internal,Specialise,22.388
+unordered-containers-0.2.20,Data.HashMap.Internal,Worker Wrapper binds,5.515
+unordered-containers-0.2.20,Data.HashMap.Internal.Array,Called arity analysis,0.011
+unordered-containers-0.2.20,Data.HashMap.Internal.Array,CodeGen,97.88499999999999
+unordered-containers-0.2.20,Data.HashMap.Internal.Array,Common sub-expression,0.023
+unordered-containers-0.2.20,Data.HashMap.Internal.Array,Constructed Product Result analysis,0.667
+unordered-containers-0.2.20,Data.HashMap.Internal.Array,CorePrep,2.49
+unordered-containers-0.2.20,Data.HashMap.Internal.Array,CoreTidy,2.291
+unordered-containers-0.2.20,Data.HashMap.Internal.Array,CoreToStg,13.597999999999999
+unordered-containers-0.2.20,Data.HashMap.Internal.Array,Demand analysis,6.182
+unordered-containers-0.2.20,Data.HashMap.Internal.Array,Desugar,5.858
+unordered-containers-0.2.20,Data.HashMap.Internal.Array,Exitification transformation,0.015
+unordered-containers-0.2.20,Data.HashMap.Internal.Array,Float inwards,0.032
+unordered-containers-0.2.20,Data.HashMap.Internal.Array,Liberate case,0.014
+unordered-containers-0.2.20,Data.HashMap.Internal.Array,Parser,8.19
+unordered-containers-0.2.20,Data.HashMap.Internal.Array,Renamer/typechecker,194.441
+unordered-containers-0.2.20,Data.HashMap.Internal.Array,Simplifier,232.318
+unordered-containers-0.2.20,Data.HashMap.Internal.Array,SpecConstr,0.896
+unordered-containers-0.2.20,Data.HashMap.Internal.Array,Specialise,0.996
+unordered-containers-0.2.20,Data.HashMap.Internal.Array,Worker Wrapper binds,0.402
+unordered-containers-0.2.20,Data.HashMap.Internal.Debug,Called arity analysis,0.017
+unordered-containers-0.2.20,Data.HashMap.Internal.Debug,CodeGen,110.985
+unordered-containers-0.2.20,Data.HashMap.Internal.Debug,Common sub-expression,0.034
+unordered-containers-0.2.20,Data.HashMap.Internal.Debug,Constructed Product Result analysis,0.327
+unordered-containers-0.2.20,Data.HashMap.Internal.Debug,CorePrep,1.198
+unordered-containers-0.2.20,Data.HashMap.Internal.Debug,CoreTidy,1.41
+unordered-containers-0.2.20,Data.HashMap.Internal.Debug,CoreToStg,7.3740000000000006
+unordered-containers-0.2.20,Data.HashMap.Internal.Debug,Demand analysis,2.815
+unordered-containers-0.2.20,Data.HashMap.Internal.Debug,Desugar,1.894
+unordered-containers-0.2.20,Data.HashMap.Internal.Debug,Exitification transformation,0.03
+unordered-containers-0.2.20,Data.HashMap.Internal.Debug,Float inwards,0.032
+unordered-containers-0.2.20,Data.HashMap.Internal.Debug,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",3.329
+unordered-containers-0.2.20,Data.HashMap.Internal.Debug,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.888
+unordered-containers-0.2.20,Data.HashMap.Internal.Debug,Liberate case,0.017
+unordered-containers-0.2.20,Data.HashMap.Internal.Debug,Parser,2.12
+unordered-containers-0.2.20,Data.HashMap.Internal.Debug,Renamer/typechecker,15.098
+unordered-containers-0.2.20,Data.HashMap.Internal.Debug,Simplifier,111.834
+unordered-containers-0.2.20,Data.HashMap.Internal.Debug,SpecConstr,1.391
+unordered-containers-0.2.20,Data.HashMap.Internal.Debug,Specialise,0.528
+unordered-containers-0.2.20,Data.HashMap.Internal.Debug,Worker Wrapper binds,0.156
+unordered-containers-0.2.20,Data.HashMap.Internal.List,Called arity analysis,0.015
+unordered-containers-0.2.20,Data.HashMap.Internal.List,CodeGen,25.211
+unordered-containers-0.2.20,Data.HashMap.Internal.List,Common sub-expression,0.020999999999999998
+unordered-containers-0.2.20,Data.HashMap.Internal.List,Constructed Product Result analysis,0.207
+unordered-containers-0.2.20,Data.HashMap.Internal.List,CorePrep,0.575
+unordered-containers-0.2.20,Data.HashMap.Internal.List,CoreTidy,0.283
+unordered-containers-0.2.20,Data.HashMap.Internal.List,CoreToStg,1.871
+unordered-containers-0.2.20,Data.HashMap.Internal.List,Demand analysis,0.788
+unordered-containers-0.2.20,Data.HashMap.Internal.List,Desugar,0.468
+unordered-containers-0.2.20,Data.HashMap.Internal.List,Exitification transformation,0.011
+unordered-containers-0.2.20,Data.HashMap.Internal.List,Float inwards,0.022
+unordered-containers-0.2.20,Data.HashMap.Internal.List,Liberate case,0.02
+unordered-containers-0.2.20,Data.HashMap.Internal.List,Parser,1.323
+unordered-containers-0.2.20,Data.HashMap.Internal.List,Renamer/typechecker,10.255
+unordered-containers-0.2.20,Data.HashMap.Internal.List,Simplifier,24.532
+unordered-containers-0.2.20,Data.HashMap.Internal.List,SpecConstr,0.281
+unordered-containers-0.2.20,Data.HashMap.Internal.List,Specialise,0.146
+unordered-containers-0.2.20,Data.HashMap.Internal.List,Worker Wrapper binds,0.137
+unordered-containers-0.2.20,Data.HashMap.Internal.Strict,Called arity analysis,0.012
+unordered-containers-0.2.20,Data.HashMap.Internal.Strict,CodeGen,358.633
+unordered-containers-0.2.20,Data.HashMap.Internal.Strict,Common sub-expression,0.033
+unordered-containers-0.2.20,Data.HashMap.Internal.Strict,Constructed Product Result analysis,3.65
+unordered-containers-0.2.20,Data.HashMap.Internal.Strict,CorePrep,6.327
+unordered-containers-0.2.20,Data.HashMap.Internal.Strict,CoreTidy,11.038
+unordered-containers-0.2.20,Data.HashMap.Internal.Strict,CoreToStg,81.69900000000001
+unordered-containers-0.2.20,Data.HashMap.Internal.Strict,Demand analysis,58.406000000000006
+unordered-containers-0.2.20,Data.HashMap.Internal.Strict,Desugar,10.764
+unordered-containers-0.2.20,Data.HashMap.Internal.Strict,Exitification transformation,0.02
+unordered-containers-0.2.20,Data.HashMap.Internal.Strict,Float inwards,0.031
+unordered-containers-0.2.20,Data.HashMap.Internal.Strict,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",27.009
+unordered-containers-0.2.20,Data.HashMap.Internal.Strict,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",42.125
+unordered-containers-0.2.20,Data.HashMap.Internal.Strict,Liberate case,1.797
+unordered-containers-0.2.20,Data.HashMap.Internal.Strict,Parser,7.835
+unordered-containers-0.2.20,Data.HashMap.Internal.Strict,Renamer/typechecker,39.472
+unordered-containers-0.2.20,Data.HashMap.Internal.Strict,Simplifier,1746.605
+unordered-containers-0.2.20,Data.HashMap.Internal.Strict,SpecConstr,12.661
+unordered-containers-0.2.20,Data.HashMap.Internal.Strict,Specialise,80.989
+unordered-containers-0.2.20,Data.HashMap.Internal.Strict,Worker Wrapper binds,1.473
+unordered-containers-0.2.20,Data.HashMap.Lazy,Called arity analysis,0.012
+unordered-containers-0.2.20,Data.HashMap.Lazy,CodeGen,1.178
+unordered-containers-0.2.20,Data.HashMap.Lazy,Common sub-expression,0.026
+unordered-containers-0.2.20,Data.HashMap.Lazy,Constructed Product Result analysis,0.015
+unordered-containers-0.2.20,Data.HashMap.Lazy,CorePrep,0.078
+unordered-containers-0.2.20,Data.HashMap.Lazy,CoreTidy,0.055
+unordered-containers-0.2.20,Data.HashMap.Lazy,CoreToStg,0.157
+unordered-containers-0.2.20,Data.HashMap.Lazy,Demand analysis,0.056
+unordered-containers-0.2.20,Data.HashMap.Lazy,Desugar,0.116
+unordered-containers-0.2.20,Data.HashMap.Lazy,Exitification transformation,0.013
+unordered-containers-0.2.20,Data.HashMap.Lazy,Float inwards,0.022
+unordered-containers-0.2.20,Data.HashMap.Lazy,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.042
+unordered-containers-0.2.20,Data.HashMap.Lazy,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.029
+unordered-containers-0.2.20,Data.HashMap.Lazy,Liberate case,0.012
+unordered-containers-0.2.20,Data.HashMap.Lazy,Parser,1.156
+unordered-containers-0.2.20,Data.HashMap.Lazy,Renamer/typechecker,0.872
+unordered-containers-0.2.20,Data.HashMap.Lazy,Simplifier,0.532
+unordered-containers-0.2.20,Data.HashMap.Lazy,SpecConstr,0.019
+unordered-containers-0.2.20,Data.HashMap.Lazy,Specialise,0.025
+unordered-containers-0.2.20,Data.HashMap.Lazy,Worker Wrapper binds,0.013
+unordered-containers-0.2.20,Data.HashMap.Strict,Called arity analysis,0.01
+unordered-containers-0.2.20,Data.HashMap.Strict,CodeGen,1.287
+unordered-containers-0.2.20,Data.HashMap.Strict,Common sub-expression,0.02
+unordered-containers-0.2.20,Data.HashMap.Strict,Constructed Product Result analysis,0.012
+unordered-containers-0.2.20,Data.HashMap.Strict,CorePrep,0.118
+unordered-containers-0.2.20,Data.HashMap.Strict,CoreTidy,0.054
+unordered-containers-0.2.20,Data.HashMap.Strict,CoreToStg,0.173
+unordered-containers-0.2.20,Data.HashMap.Strict,Demand analysis,0.046
+unordered-containers-0.2.20,Data.HashMap.Strict,Desugar,0.038
+unordered-containers-0.2.20,Data.HashMap.Strict,Exitification transformation,0.011
+unordered-containers-0.2.20,Data.HashMap.Strict,Float inwards,0.017
+unordered-containers-0.2.20,Data.HashMap.Strict,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.052
+unordered-containers-0.2.20,Data.HashMap.Strict,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.028
+unordered-containers-0.2.20,Data.HashMap.Strict,Liberate case,0.009
+unordered-containers-0.2.20,Data.HashMap.Strict,Parser,0.83
+unordered-containers-0.2.20,Data.HashMap.Strict,Renamer/typechecker,0.473
+unordered-containers-0.2.20,Data.HashMap.Strict,Simplifier,0.472
+unordered-containers-0.2.20,Data.HashMap.Strict,SpecConstr,0.014
+unordered-containers-0.2.20,Data.HashMap.Strict,Specialise,0.022
+unordered-containers-0.2.20,Data.HashMap.Strict,Worker Wrapper binds,0.011
+unordered-containers-0.2.20,Data.HashSet,Called arity analysis,0.546
+unordered-containers-0.2.20,Data.HashSet,CodeGen,0.7949999999999999
+unordered-containers-0.2.20,Data.HashSet,Common sub-expression,0.019
+unordered-containers-0.2.20,Data.HashSet,Constructed Product Result analysis,0.014
+unordered-containers-0.2.20,Data.HashSet,CorePrep,0.067
+unordered-containers-0.2.20,Data.HashSet,CoreTidy,0.057
+unordered-containers-0.2.20,Data.HashSet,CoreToStg,0.12
+unordered-containers-0.2.20,Data.HashSet,Demand analysis,0.049
+unordered-containers-0.2.20,Data.HashSet,Desugar,0.086
+unordered-containers-0.2.20,Data.HashSet,Exitification transformation,0.012
+unordered-containers-0.2.20,Data.HashSet,Float inwards,0.023
+unordered-containers-0.2.20,Data.HashSet,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.037
+unordered-containers-0.2.20,Data.HashSet,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.034
+unordered-containers-0.2.20,Data.HashSet,Liberate case,0.01
+unordered-containers-0.2.20,Data.HashSet,Parser,0.853
+unordered-containers-0.2.20,Data.HashSet,Renamer/typechecker,0.374
+unordered-containers-0.2.20,Data.HashSet,Simplifier,0.46
+unordered-containers-0.2.20,Data.HashSet,SpecConstr,0.015
+unordered-containers-0.2.20,Data.HashSet,Specialise,0.019
+unordered-containers-0.2.20,Data.HashSet,Worker Wrapper binds,0.013
+unordered-containers-0.2.20,Data.HashSet.Internal,Called arity analysis,0.011
+unordered-containers-0.2.20,Data.HashSet.Internal,CodeGen,215.46699999999998
+unordered-containers-0.2.20,Data.HashSet.Internal,Common sub-expression,0.032
+unordered-containers-0.2.20,Data.HashSet.Internal,Constructed Product Result analysis,5.2
+unordered-containers-0.2.20,Data.HashSet.Internal,CorePrep,4.108
+unordered-containers-0.2.20,Data.HashSet.Internal,CoreTidy,5.221
+unordered-containers-0.2.20,Data.HashSet.Internal,CoreToStg,27.445
+unordered-containers-0.2.20,Data.HashSet.Internal,Demand analysis,13.607
+unordered-containers-0.2.20,Data.HashSet.Internal,Desugar,1.754
+unordered-containers-0.2.20,Data.HashSet.Internal,Exitification transformation,0.013
+unordered-containers-0.2.20,Data.HashSet.Internal,Float inwards,0.023
+unordered-containers-0.2.20,Data.HashSet.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",10.547
+unordered-containers-0.2.20,Data.HashSet.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",14.222
+unordered-containers-0.2.20,Data.HashSet.Internal,Liberate case,0.012
+unordered-containers-0.2.20,Data.HashSet.Internal,Parser,3.229
+unordered-containers-0.2.20,Data.HashSet.Internal,Renamer/typechecker,22.46
+unordered-containers-0.2.20,Data.HashSet.Internal,Simplifier,418.39099999999996
+unordered-containers-0.2.20,Data.HashSet.Internal,SpecConstr,2.256
+unordered-containers-0.2.20,Data.HashSet.Internal,Specialise,1.708
+unordered-containers-0.2.20,Data.HashSet.Internal,Worker Wrapper binds,0.847

@@ -1,0 +1,163 @@
+package,module,phase,time
+directory-1.3.8.5,System.Directory,Called arity analysis,0.01
+directory-1.3.8.5,System.Directory,CodeGen,77.214
+directory-1.3.8.5,System.Directory,Common sub-expression,0.02
+directory-1.3.8.5,System.Directory,Constructed Product Result analysis,0.709
+directory-1.3.8.5,System.Directory,CorePrep,1.262
+directory-1.3.8.5,System.Directory,CoreTidy,3.409
+directory-1.3.8.5,System.Directory,CoreToStg,9.207
+directory-1.3.8.5,System.Directory,Demand analysis,3.9459999999999997
+directory-1.3.8.5,System.Directory,Desugar,0.565
+directory-1.3.8.5,System.Directory,Exitification transformation,0.013
+directory-1.3.8.5,System.Directory,Float inwards,0.022
+directory-1.3.8.5,System.Directory,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.766
+directory-1.3.8.5,System.Directory,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.964
+directory-1.3.8.5,System.Directory,Parser,5.641
+directory-1.3.8.5,System.Directory,Renamer/typechecker,14.493
+directory-1.3.8.5,System.Directory,Simplifier,85.533
+directory-1.3.8.5,System.Directory,Specialise,0.304
+directory-1.3.8.5,System.Directory,Worker Wrapper binds,0.242
+directory-1.3.8.5,System.Directory.Internal,Called arity analysis,0.01
+directory-1.3.8.5,System.Directory.Internal,CodeGen,1.521
+directory-1.3.8.5,System.Directory.Internal,Common sub-expression,0.01
+directory-1.3.8.5,System.Directory.Internal,Constructed Product Result analysis,0.012
+directory-1.3.8.5,System.Directory.Internal,CorePrep,0.121
+directory-1.3.8.5,System.Directory.Internal,CoreTidy,0.104
+directory-1.3.8.5,System.Directory.Internal,CoreToStg,0.202
+directory-1.3.8.5,System.Directory.Internal,Demand analysis,0.051000000000000004
+directory-1.3.8.5,System.Directory.Internal,Desugar,0.113
+directory-1.3.8.5,System.Directory.Internal,Exitification transformation,0.01
+directory-1.3.8.5,System.Directory.Internal,Float inwards,0.020999999999999998
+directory-1.3.8.5,System.Directory.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.037
+directory-1.3.8.5,System.Directory.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.027
+directory-1.3.8.5,System.Directory.Internal,Parser,0.87
+directory-1.3.8.5,System.Directory.Internal,Renamer/typechecker,0.639
+directory-1.3.8.5,System.Directory.Internal,Simplifier,0.345
+directory-1.3.8.5,System.Directory.Internal,Specialise,0.019
+directory-1.3.8.5,System.Directory.Internal,Worker Wrapper binds,0.011
+directory-1.3.8.5,System.Directory.Internal.C_utimensat,Called arity analysis,0.011
+directory-1.3.8.5,System.Directory.Internal.C_utimensat,CodeGen,1.215
+directory-1.3.8.5,System.Directory.Internal.C_utimensat,Common sub-expression,0.009
+directory-1.3.8.5,System.Directory.Internal.C_utimensat,Constructed Product Result analysis,0.015
+directory-1.3.8.5,System.Directory.Internal.C_utimensat,CorePrep,0.536
+directory-1.3.8.5,System.Directory.Internal.C_utimensat,CoreTidy,0.048
+directory-1.3.8.5,System.Directory.Internal.C_utimensat,CoreToStg,0.11299999999999999
+directory-1.3.8.5,System.Directory.Internal.C_utimensat,Demand analysis,0.052000000000000005
+directory-1.3.8.5,System.Directory.Internal.C_utimensat,Desugar,0.051
+directory-1.3.8.5,System.Directory.Internal.C_utimensat,Exitification transformation,0.011
+directory-1.3.8.5,System.Directory.Internal.C_utimensat,Float inwards,0.019
+directory-1.3.8.5,System.Directory.Internal.C_utimensat,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.039
+directory-1.3.8.5,System.Directory.Internal.C_utimensat,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.03
+directory-1.3.8.5,System.Directory.Internal.C_utimensat,Parser,0.143
+directory-1.3.8.5,System.Directory.Internal.C_utimensat,Renamer/typechecker,10.412
+directory-1.3.8.5,System.Directory.Internal.C_utimensat,Simplifier,0.34
+directory-1.3.8.5,System.Directory.Internal.C_utimensat,Specialise,0.02
+directory-1.3.8.5,System.Directory.Internal.C_utimensat,Worker Wrapper binds,0.012
+directory-1.3.8.5,System.Directory.Internal.Common,Called arity analysis,0.012
+directory-1.3.8.5,System.Directory.Internal.Common,CodeGen,336.834
+directory-1.3.8.5,System.Directory.Internal.Common,Common sub-expression,0.017
+directory-1.3.8.5,System.Directory.Internal.Common,Constructed Product Result analysis,1.385
+directory-1.3.8.5,System.Directory.Internal.Common,CorePrep,3.904
+directory-1.3.8.5,System.Directory.Internal.Common,CoreTidy,10.038
+directory-1.3.8.5,System.Directory.Internal.Common,CoreToStg,23.520000000000003
+directory-1.3.8.5,System.Directory.Internal.Common,Demand analysis,16.664
+directory-1.3.8.5,System.Directory.Internal.Common,Desugar,6.639
+directory-1.3.8.5,System.Directory.Internal.Common,Exitification transformation,0.018
+directory-1.3.8.5,System.Directory.Internal.Common,Float inwards,0.027
+directory-1.3.8.5,System.Directory.Internal.Common,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",8.29
+directory-1.3.8.5,System.Directory.Internal.Common,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",12.632
+directory-1.3.8.5,System.Directory.Internal.Common,Parser,4.209
+directory-1.3.8.5,System.Directory.Internal.Common,Renamer/typechecker,67.667
+directory-1.3.8.5,System.Directory.Internal.Common,Simplifier,484.511
+directory-1.3.8.5,System.Directory.Internal.Common,Specialise,1.45
+directory-1.3.8.5,System.Directory.Internal.Common,Worker Wrapper binds,0.782
+directory-1.3.8.5,System.Directory.Internal.Config,Called arity analysis,0.01
+directory-1.3.8.5,System.Directory.Internal.Config,CodeGen,2.8019999999999996
+directory-1.3.8.5,System.Directory.Internal.Config,Common sub-expression,0.011
+directory-1.3.8.5,System.Directory.Internal.Config,Constructed Product Result analysis,0.019
+directory-1.3.8.5,System.Directory.Internal.Config,CorePrep,0.08299999999999999
+directory-1.3.8.5,System.Directory.Internal.Config,CoreTidy,0.067
+directory-1.3.8.5,System.Directory.Internal.Config,CoreToStg,0.14700000000000002
+directory-1.3.8.5,System.Directory.Internal.Config,Demand analysis,0.078
+directory-1.3.8.5,System.Directory.Internal.Config,Desugar,0.14
+directory-1.3.8.5,System.Directory.Internal.Config,Exitification transformation,0.011
+directory-1.3.8.5,System.Directory.Internal.Config,Float inwards,0.02
+directory-1.3.8.5,System.Directory.Internal.Config,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.074
+directory-1.3.8.5,System.Directory.Internal.Config,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.048
+directory-1.3.8.5,System.Directory.Internal.Config,Parser,1.132
+directory-1.3.8.5,System.Directory.Internal.Config,Renamer/typechecker,0.604
+directory-1.3.8.5,System.Directory.Internal.Config,Simplifier,0.64
+directory-1.3.8.5,System.Directory.Internal.Config,Specialise,0.032
+directory-1.3.8.5,System.Directory.Internal.Config,Worker Wrapper binds,0.019
+directory-1.3.8.5,System.Directory.Internal.Posix,Called arity analysis,0.01
+directory-1.3.8.5,System.Directory.Internal.Posix,CodeGen,131.797
+directory-1.3.8.5,System.Directory.Internal.Posix,Common sub-expression,0.021
+directory-1.3.8.5,System.Directory.Internal.Posix,Constructed Product Result analysis,0.649
+directory-1.3.8.5,System.Directory.Internal.Posix,CorePrep,2.113
+directory-1.3.8.5,System.Directory.Internal.Posix,CoreTidy,5.218
+directory-1.3.8.5,System.Directory.Internal.Posix,CoreToStg,11.030999999999999
+directory-1.3.8.5,System.Directory.Internal.Posix,Demand analysis,3.752
+directory-1.3.8.5,System.Directory.Internal.Posix,Desugar,1.998
+directory-1.3.8.5,System.Directory.Internal.Posix,Exitification transformation,0.015
+directory-1.3.8.5,System.Directory.Internal.Posix,Float inwards,0.020999999999999998
+directory-1.3.8.5,System.Directory.Internal.Posix,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",3.282
+directory-1.3.8.5,System.Directory.Internal.Posix,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",3.93
+directory-1.3.8.5,System.Directory.Internal.Posix,Parser,5.093
+directory-1.3.8.5,System.Directory.Internal.Posix,Renamer/typechecker,76.507
+directory-1.3.8.5,System.Directory.Internal.Posix,Simplifier,128.994
+directory-1.3.8.5,System.Directory.Internal.Posix,Specialise,0.566
+directory-1.3.8.5,System.Directory.Internal.Posix,Worker Wrapper binds,0.33
+directory-1.3.8.5,System.Directory.Internal.Prelude,Called arity analysis,0.011
+directory-1.3.8.5,System.Directory.Internal.Prelude,CodeGen,0.798
+directory-1.3.8.5,System.Directory.Internal.Prelude,Common sub-expression,0.009
+directory-1.3.8.5,System.Directory.Internal.Prelude,Constructed Product Result analysis,0.013
+directory-1.3.8.5,System.Directory.Internal.Prelude,CorePrep,0.074
+directory-1.3.8.5,System.Directory.Internal.Prelude,CoreTidy,0.05
+directory-1.3.8.5,System.Directory.Internal.Prelude,CoreToStg,0.091
+directory-1.3.8.5,System.Directory.Internal.Prelude,Demand analysis,0.056
+directory-1.3.8.5,System.Directory.Internal.Prelude,Desugar,0.121
+directory-1.3.8.5,System.Directory.Internal.Prelude,Exitification transformation,0.01
+directory-1.3.8.5,System.Directory.Internal.Prelude,Float inwards,0.018
+directory-1.3.8.5,System.Directory.Internal.Prelude,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.037
+directory-1.3.8.5,System.Directory.Internal.Prelude,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.036
+directory-1.3.8.5,System.Directory.Internal.Prelude,Parser,1.188
+directory-1.3.8.5,System.Directory.Internal.Prelude,Renamer/typechecker,17.942
+directory-1.3.8.5,System.Directory.Internal.Prelude,Simplifier,0.381
+directory-1.3.8.5,System.Directory.Internal.Prelude,Specialise,0.02
+directory-1.3.8.5,System.Directory.Internal.Prelude,Worker Wrapper binds,29.044
+directory-1.3.8.5,System.Directory.Internal.Windows,Called arity analysis,0.011
+directory-1.3.8.5,System.Directory.Internal.Windows,CodeGen,1.052
+directory-1.3.8.5,System.Directory.Internal.Windows,Common sub-expression,0.01
+directory-1.3.8.5,System.Directory.Internal.Windows,Constructed Product Result analysis,0.013
+directory-1.3.8.5,System.Directory.Internal.Windows,CorePrep,0.088
+directory-1.3.8.5,System.Directory.Internal.Windows,CoreTidy,0.059
+directory-1.3.8.5,System.Directory.Internal.Windows,CoreToStg,0.093
+directory-1.3.8.5,System.Directory.Internal.Windows,Demand analysis,0.046
+directory-1.3.8.5,System.Directory.Internal.Windows,Desugar,0.151
+directory-1.3.8.5,System.Directory.Internal.Windows,Exitification transformation,0.01
+directory-1.3.8.5,System.Directory.Internal.Windows,Float inwards,0.018
+directory-1.3.8.5,System.Directory.Internal.Windows,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.037
+directory-1.3.8.5,System.Directory.Internal.Windows,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.028
+directory-1.3.8.5,System.Directory.Internal.Windows,Parser,1.227
+directory-1.3.8.5,System.Directory.Internal.Windows,Renamer/typechecker,0.38
+directory-1.3.8.5,System.Directory.Internal.Windows,Simplifier,0.336
+directory-1.3.8.5,System.Directory.Internal.Windows,Specialise,0.021
+directory-1.3.8.5,System.Directory.Internal.Windows,Worker Wrapper binds,0.011
+directory-1.3.8.5,System.Directory.OsPath,Called arity analysis,0.012
+directory-1.3.8.5,System.Directory.OsPath,CodeGen,282.605
+directory-1.3.8.5,System.Directory.OsPath,Common sub-expression,0.015
+directory-1.3.8.5,System.Directory.OsPath,Constructed Product Result analysis,1.097
+directory-1.3.8.5,System.Directory.OsPath,CorePrep,3.693
+directory-1.3.8.5,System.Directory.OsPath,CoreTidy,5.119
+directory-1.3.8.5,System.Directory.OsPath,CoreToStg,25.758000000000003
+directory-1.3.8.5,System.Directory.OsPath,Demand analysis,10.534
+directory-1.3.8.5,System.Directory.OsPath,Desugar,6.492
+directory-1.3.8.5,System.Directory.OsPath,Exitification transformation,0.014
+directory-1.3.8.5,System.Directory.OsPath,Float inwards,0.025
+directory-1.3.8.5,System.Directory.OsPath,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",10.463
+directory-1.3.8.5,System.Directory.OsPath,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",8.69
+directory-1.3.8.5,System.Directory.OsPath,Parser,8.425
+directory-1.3.8.5,System.Directory.OsPath,Renamer/typechecker,22.836
+directory-1.3.8.5,System.Directory.OsPath,Simplifier,320.611
+directory-1.3.8.5,System.Directory.OsPath,Specialise,1.649
+directory-1.3.8.5,System.Directory.OsPath,Worker Wrapper binds,1.172

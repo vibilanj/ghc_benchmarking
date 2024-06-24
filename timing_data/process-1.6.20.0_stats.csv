@@ -1,0 +1,8 @@
+package,module,total_time,parser_time,parser_percentage,size,extension
+process-1.6.20.0,System.Cmd,3.564,1.45,40.68462401795735,1001,.hs
+process-1.6.20.0,System.Process,455.0969999999999,7.32,1.6084483088220758,41736,.hs
+process-1.6.20.0,System.Process.Common,480.66299999999995,2.79,0.580448255846612,14691,.hs
+process-1.6.20.0,System.Process.CommunicationHandle,26.275,1.186,4.513796384395814,5314,.hs
+process-1.6.20.0,System.Process.CommunicationHandle.Internal,52.582,2.846,5.412498573656385,9644,.hsc
+process-1.6.20.0,System.Process.Internals,64.99299999999998,3.306,5.086701644792518,10109,.hs
+process-1.6.20.0,System.Process.Posix,257.384,3.549,1.3788735896559225,12242,.hs

@@ -1,0 +1,14 @@
+package,module,total_time,parser_time,parser_percentage,size,extension
+filepath-1.5.2.0,/home/vibilanj/Documents/uni/research/haskell_parser/benchmarking/sources/filepath-1.5.2.0/dist-newstyle/build/x86_64-linux/ghc-9.4.8/filepath-1.5.2.0/build/System/OsPath.dyn_hi-boot,0.132,0.0,0.0,0,0
+filepath-1.5.2.0,/home/vibilanj/Documents/uni/research/haskell_parser/benchmarking/sources/filepath-1.5.2.0/dist-newstyle/build/x86_64-linux/ghc-9.4.8/filepath-1.5.2.0/build/System/OsPath.hi-boot,0.176,0.0,0.0,0,0
+filepath-1.5.2.0,System.FilePath,3.0589999999999997,0.784,25.62929061784897,4167,.hs
+filepath-1.5.2.0,System.FilePath.Posix,438.89,9.278,2.113969331723211,112,.hs
+filepath-1.5.2.0,System.FilePath.Windows,635.7109999999999,10.424,1.6397388121331864,127,.hs
+filepath-1.5.2.0,System.OsPath,45.944,3.6390000000000002,7.92051192756399,97,.hs-boot
+filepath-1.5.2.0,System.OsPath.Encoding,3.5170000000000003,0.17,4.833665055444982,502,.hs
+filepath-1.5.2.0,System.OsPath.Internal,156.199,1.995,1.277216883590804,143,.hs
+filepath-1.5.2.0,System.OsPath.Posix,200.984,6.715,3.341061975082593,1065,.hs
+filepath-1.5.2.0,System.OsPath.Posix.Internal,565.525,9.753,1.7245921930949117,143,.hs
+filepath-1.5.2.0,System.OsPath.Types,4.140000000000001,0.794,19.178743961352655,902,.hs
+filepath-1.5.2.0,System.OsPath.Windows,147.30299999999997,3.649,2.4772068457533116,1082,.hs
+filepath-1.5.2.0,System.OsPath.Windows.Internal,815.404,12.338,1.5131149712289858,159,.hs

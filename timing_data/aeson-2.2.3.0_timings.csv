@@ -1,0 +1,583 @@
+package,module,phase,time
+aeson-2.2.3.0,Data.Aeson,Called arity analysis,0.009
+aeson-2.2.3.0,Data.Aeson,CodeGen,8.918
+aeson-2.2.3.0,Data.Aeson,Common sub-expression,0.01
+aeson-2.2.3.0,Data.Aeson,Constructed Product Result analysis,0.047
+aeson-2.2.3.0,Data.Aeson,CorePrep,0.261
+aeson-2.2.3.0,Data.Aeson,CoreTidy,0.239
+aeson-2.2.3.0,Data.Aeson,CoreToStg,0.492
+aeson-2.2.3.0,Data.Aeson,Demand analysis,0.388
+aeson-2.2.3.0,Data.Aeson,Desugar,0.209
+aeson-2.2.3.0,Data.Aeson,Exitification transformation,0.011
+aeson-2.2.3.0,Data.Aeson,Float inwards,0.017
+aeson-2.2.3.0,Data.Aeson,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.24
+aeson-2.2.3.0,Data.Aeson,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.196
+aeson-2.2.3.0,Data.Aeson,Parser,2.389
+aeson-2.2.3.0,Data.Aeson,Renamer/typechecker,6.574
+aeson-2.2.3.0,Data.Aeson,Simplifier,6.648000000000001
+aeson-2.2.3.0,Data.Aeson,Specialise,0.059
+aeson-2.2.3.0,Data.Aeson,Worker Wrapper binds,0.036
+aeson-2.2.3.0,Data.Aeson.Decoding,Called arity analysis,0.011
+aeson-2.2.3.0,Data.Aeson.Decoding,CodeGen,58.855999999999995
+aeson-2.2.3.0,Data.Aeson.Decoding,Common sub-expression,0.013
+aeson-2.2.3.0,Data.Aeson.Decoding,Constructed Product Result analysis,0.253
+aeson-2.2.3.0,Data.Aeson.Decoding,CorePrep,0.973
+aeson-2.2.3.0,Data.Aeson.Decoding,CoreTidy,1.035
+aeson-2.2.3.0,Data.Aeson.Decoding,CoreToStg,3.836
+aeson-2.2.3.0,Data.Aeson.Decoding,Demand analysis,2.334
+aeson-2.2.3.0,Data.Aeson.Decoding,Desugar,0.914
+aeson-2.2.3.0,Data.Aeson.Decoding,Exitification transformation,0.014
+aeson-2.2.3.0,Data.Aeson.Decoding,Float inwards,0.020999999999999998
+aeson-2.2.3.0,Data.Aeson.Decoding,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.884
+aeson-2.2.3.0,Data.Aeson.Decoding,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.431
+aeson-2.2.3.0,Data.Aeson.Decoding,Parser,1.227
+aeson-2.2.3.0,Data.Aeson.Decoding,Renamer/typechecker,8.879
+aeson-2.2.3.0,Data.Aeson.Decoding,Simplifier,41.39
+aeson-2.2.3.0,Data.Aeson.Decoding,Specialise,0.309
+aeson-2.2.3.0,Data.Aeson.Decoding,Worker Wrapper binds,0.205
+aeson-2.2.3.0,Data.Aeson.Decoding.ByteString,Called arity analysis,0.011
+aeson-2.2.3.0,Data.Aeson.Decoding.ByteString,CodeGen,120.22200000000001
+aeson-2.2.3.0,Data.Aeson.Decoding.ByteString,Common sub-expression,0.028999999999999998
+aeson-2.2.3.0,Data.Aeson.Decoding.ByteString,Constructed Product Result analysis,0.66
+aeson-2.2.3.0,Data.Aeson.Decoding.ByteString,CorePrep,1.588
+aeson-2.2.3.0,Data.Aeson.Decoding.ByteString,CoreTidy,1.345
+aeson-2.2.3.0,Data.Aeson.Decoding.ByteString,CoreToStg,10.649000000000001
+aeson-2.2.3.0,Data.Aeson.Decoding.ByteString,Demand analysis,5.824999999999999
+aeson-2.2.3.0,Data.Aeson.Decoding.ByteString,Desugar,4.223
+aeson-2.2.3.0,Data.Aeson.Decoding.ByteString,Exitification transformation,0.015
+aeson-2.2.3.0,Data.Aeson.Decoding.ByteString,Float inwards,0.024
+aeson-2.2.3.0,Data.Aeson.Decoding.ByteString,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",7.426
+aeson-2.2.3.0,Data.Aeson.Decoding.ByteString,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",4.794
+aeson-2.2.3.0,Data.Aeson.Decoding.ByteString,Liberate case,0.014
+aeson-2.2.3.0,Data.Aeson.Decoding.ByteString,Parser,15.867
+aeson-2.2.3.0,Data.Aeson.Decoding.ByteString,Renamer/typechecker,14.706
+aeson-2.2.3.0,Data.Aeson.Decoding.ByteString,Simplifier,156.42
+aeson-2.2.3.0,Data.Aeson.Decoding.ByteString,SpecConstr,1.663
+aeson-2.2.3.0,Data.Aeson.Decoding.ByteString,Specialise,0.782
+aeson-2.2.3.0,Data.Aeson.Decoding.ByteString,Worker Wrapper binds,0.255
+aeson-2.2.3.0,Data.Aeson.Decoding.ByteString.Lazy,Called arity analysis,0.017
+aeson-2.2.3.0,Data.Aeson.Decoding.ByteString.Lazy,CodeGen,678.8009999999999
+aeson-2.2.3.0,Data.Aeson.Decoding.ByteString.Lazy,Common sub-expression,0.028
+aeson-2.2.3.0,Data.Aeson.Decoding.ByteString.Lazy,Constructed Product Result analysis,0.672
+aeson-2.2.3.0,Data.Aeson.Decoding.ByteString.Lazy,CorePrep,4.702
+aeson-2.2.3.0,Data.Aeson.Decoding.ByteString.Lazy,CoreTidy,15.137
+aeson-2.2.3.0,Data.Aeson.Decoding.ByteString.Lazy,CoreToStg,64.34700000000001
+aeson-2.2.3.0,Data.Aeson.Decoding.ByteString.Lazy,Demand analysis,11.277
+aeson-2.2.3.0,Data.Aeson.Decoding.ByteString.Lazy,Desugar,9.776
+aeson-2.2.3.0,Data.Aeson.Decoding.ByteString.Lazy,Exitification transformation,0.014
+aeson-2.2.3.0,Data.Aeson.Decoding.ByteString.Lazy,Float inwards,0.026000000000000002
+aeson-2.2.3.0,Data.Aeson.Decoding.ByteString.Lazy,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",4.963
+aeson-2.2.3.0,Data.Aeson.Decoding.ByteString.Lazy,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",4.905
+aeson-2.2.3.0,Data.Aeson.Decoding.ByteString.Lazy,Liberate case,0.014
+aeson-2.2.3.0,Data.Aeson.Decoding.ByteString.Lazy,Parser,2.806
+aeson-2.2.3.0,Data.Aeson.Decoding.ByteString.Lazy,Renamer/typechecker,15.531
+aeson-2.2.3.0,Data.Aeson.Decoding.ByteString.Lazy,Simplifier,305.165
+aeson-2.2.3.0,Data.Aeson.Decoding.ByteString.Lazy,SpecConstr,5.58
+aeson-2.2.3.0,Data.Aeson.Decoding.ByteString.Lazy,Specialise,0.754
+aeson-2.2.3.0,Data.Aeson.Decoding.ByteString.Lazy,Worker Wrapper binds,5.39
+aeson-2.2.3.0,Data.Aeson.Decoding.Conversion,Called arity analysis,0.01
+aeson-2.2.3.0,Data.Aeson.Decoding.Conversion,CodeGen,24.106
+aeson-2.2.3.0,Data.Aeson.Decoding.Conversion,Common sub-expression,0.012
+aeson-2.2.3.0,Data.Aeson.Decoding.Conversion,Constructed Product Result analysis,0.264
+aeson-2.2.3.0,Data.Aeson.Decoding.Conversion,CorePrep,0.428
+aeson-2.2.3.0,Data.Aeson.Decoding.Conversion,CoreTidy,0.531
+aeson-2.2.3.0,Data.Aeson.Decoding.Conversion,CoreToStg,2.057
+aeson-2.2.3.0,Data.Aeson.Decoding.Conversion,Demand analysis,3.157
+aeson-2.2.3.0,Data.Aeson.Decoding.Conversion,Desugar,1.882
+aeson-2.2.3.0,Data.Aeson.Decoding.Conversion,Exitification transformation,0.022
+aeson-2.2.3.0,Data.Aeson.Decoding.Conversion,Float inwards,0.022
+aeson-2.2.3.0,Data.Aeson.Decoding.Conversion,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",3.525
+aeson-2.2.3.0,Data.Aeson.Decoding.Conversion,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.761
+aeson-2.2.3.0,Data.Aeson.Decoding.Conversion,Parser,1.304
+aeson-2.2.3.0,Data.Aeson.Decoding.Conversion,Renamer/typechecker,7.245
+aeson-2.2.3.0,Data.Aeson.Decoding.Conversion,Simplifier,73.826
+aeson-2.2.3.0,Data.Aeson.Decoding.Conversion,Specialise,1.108
+aeson-2.2.3.0,Data.Aeson.Decoding.Conversion,Worker Wrapper binds,0.12
+aeson-2.2.3.0,Data.Aeson.Decoding.Internal,Called arity analysis,0.011
+aeson-2.2.3.0,Data.Aeson.Decoding.Internal,CodeGen,5.654
+aeson-2.2.3.0,Data.Aeson.Decoding.Internal,Common sub-expression,0.014
+aeson-2.2.3.0,Data.Aeson.Decoding.Internal,Constructed Product Result analysis,0.043
+aeson-2.2.3.0,Data.Aeson.Decoding.Internal,CorePrep,0.189
+aeson-2.2.3.0,Data.Aeson.Decoding.Internal,CoreTidy,0.196
+aeson-2.2.3.0,Data.Aeson.Decoding.Internal,CoreToStg,0.43300000000000005
+aeson-2.2.3.0,Data.Aeson.Decoding.Internal,Demand analysis,0.17099999999999999
+aeson-2.2.3.0,Data.Aeson.Decoding.Internal,Desugar,0.295
+aeson-2.2.3.0,Data.Aeson.Decoding.Internal,Exitification transformation,0.015
+aeson-2.2.3.0,Data.Aeson.Decoding.Internal,Float inwards,0.033
+aeson-2.2.3.0,Data.Aeson.Decoding.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.13
+aeson-2.2.3.0,Data.Aeson.Decoding.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.172
+aeson-2.2.3.0,Data.Aeson.Decoding.Internal,Parser,0.251
+aeson-2.2.3.0,Data.Aeson.Decoding.Internal,Renamer/typechecker,1.596
+aeson-2.2.3.0,Data.Aeson.Decoding.Internal,Simplifier,1.942
+aeson-2.2.3.0,Data.Aeson.Decoding.Internal,Specialise,0.041
+aeson-2.2.3.0,Data.Aeson.Decoding.Internal,Worker Wrapper binds,0.031
+aeson-2.2.3.0,Data.Aeson.Decoding.Text,Called arity analysis,0.019
+aeson-2.2.3.0,Data.Aeson.Decoding.Text,CodeGen,174.207
+aeson-2.2.3.0,Data.Aeson.Decoding.Text,Common sub-expression,0.047
+aeson-2.2.3.0,Data.Aeson.Decoding.Text,Constructed Product Result analysis,1.308
+aeson-2.2.3.0,Data.Aeson.Decoding.Text,CorePrep,3.2889999999999997
+aeson-2.2.3.0,Data.Aeson.Decoding.Text,CoreTidy,1.623
+aeson-2.2.3.0,Data.Aeson.Decoding.Text,CoreToStg,31.256
+aeson-2.2.3.0,Data.Aeson.Decoding.Text,Demand analysis,11.17
+aeson-2.2.3.0,Data.Aeson.Decoding.Text,Desugar,4.538
+aeson-2.2.3.0,Data.Aeson.Decoding.Text,Exitification transformation,0.015
+aeson-2.2.3.0,Data.Aeson.Decoding.Text,Float inwards,0.031
+aeson-2.2.3.0,Data.Aeson.Decoding.Text,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",4.019
+aeson-2.2.3.0,Data.Aeson.Decoding.Text,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",8.101
+aeson-2.2.3.0,Data.Aeson.Decoding.Text,Liberate case,0.013
+aeson-2.2.3.0,Data.Aeson.Decoding.Text,Parser,5.397
+aeson-2.2.3.0,Data.Aeson.Decoding.Text,Renamer/typechecker,14.701
+aeson-2.2.3.0,Data.Aeson.Decoding.Text,Simplifier,220.236
+aeson-2.2.3.0,Data.Aeson.Decoding.Text,SpecConstr,7.874
+aeson-2.2.3.0,Data.Aeson.Decoding.Text,Specialise,0.94
+aeson-2.2.3.0,Data.Aeson.Decoding.Text,Worker Wrapper binds,0.226
+aeson-2.2.3.0,Data.Aeson.Decoding.Tokens,Called arity analysis,0.011
+aeson-2.2.3.0,Data.Aeson.Decoding.Tokens,CodeGen,299.92999999999995
+aeson-2.2.3.0,Data.Aeson.Decoding.Tokens,Common sub-expression,0.022
+aeson-2.2.3.0,Data.Aeson.Decoding.Tokens,Constructed Product Result analysis,1.574
+aeson-2.2.3.0,Data.Aeson.Decoding.Tokens,CorePrep,3.825
+aeson-2.2.3.0,Data.Aeson.Decoding.Tokens,CoreTidy,7.336
+aeson-2.2.3.0,Data.Aeson.Decoding.Tokens,CoreToStg,24.89
+aeson-2.2.3.0,Data.Aeson.Decoding.Tokens,Demand analysis,14.52
+aeson-2.2.3.0,Data.Aeson.Decoding.Tokens,Desugar,1.817
+aeson-2.2.3.0,Data.Aeson.Decoding.Tokens,Exitification transformation,0.015
+aeson-2.2.3.0,Data.Aeson.Decoding.Tokens,Float inwards,0.022
+aeson-2.2.3.0,Data.Aeson.Decoding.Tokens,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",16.309
+aeson-2.2.3.0,Data.Aeson.Decoding.Tokens,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",12.435
+aeson-2.2.3.0,Data.Aeson.Decoding.Tokens,Parser,0.869
+aeson-2.2.3.0,Data.Aeson.Decoding.Tokens,Renamer/typechecker,48.195
+aeson-2.2.3.0,Data.Aeson.Decoding.Tokens,Simplifier,468.185
+aeson-2.2.3.0,Data.Aeson.Decoding.Tokens,Specialise,4.846
+aeson-2.2.3.0,Data.Aeson.Decoding.Tokens,Worker Wrapper binds,0.722
+aeson-2.2.3.0,Data.Aeson.Encoding,Called arity analysis,0.009
+aeson-2.2.3.0,Data.Aeson.Encoding,CodeGen,0.907
+aeson-2.2.3.0,Data.Aeson.Encoding,Common sub-expression,0.013
+aeson-2.2.3.0,Data.Aeson.Encoding,Constructed Product Result analysis,0.015
+aeson-2.2.3.0,Data.Aeson.Encoding,CorePrep,0.089
+aeson-2.2.3.0,Data.Aeson.Encoding,CoreTidy,0.062
+aeson-2.2.3.0,Data.Aeson.Encoding,CoreToStg,0.137
+aeson-2.2.3.0,Data.Aeson.Encoding,Demand analysis,0.047
+aeson-2.2.3.0,Data.Aeson.Encoding,Desugar,0.045
+aeson-2.2.3.0,Data.Aeson.Encoding,Exitification transformation,0.013
+aeson-2.2.3.0,Data.Aeson.Encoding,Float inwards,0.020999999999999998
+aeson-2.2.3.0,Data.Aeson.Encoding,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.038
+aeson-2.2.3.0,Data.Aeson.Encoding,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.036
+aeson-2.2.3.0,Data.Aeson.Encoding,Parser,0.354
+aeson-2.2.3.0,Data.Aeson.Encoding,Renamer/typechecker,0.508
+aeson-2.2.3.0,Data.Aeson.Encoding,Simplifier,0.371
+aeson-2.2.3.0,Data.Aeson.Encoding,Specialise,0.019
+aeson-2.2.3.0,Data.Aeson.Encoding,Worker Wrapper binds,0.011
+aeson-2.2.3.0,Data.Aeson.Encoding.Builder,Called arity analysis,0.011
+aeson-2.2.3.0,Data.Aeson.Encoding.Builder,CodeGen,299.774
+aeson-2.2.3.0,Data.Aeson.Encoding.Builder,Common sub-expression,0.023
+aeson-2.2.3.0,Data.Aeson.Encoding.Builder,Constructed Product Result analysis,2.489
+aeson-2.2.3.0,Data.Aeson.Encoding.Builder,CorePrep,10.681000000000001
+aeson-2.2.3.0,Data.Aeson.Encoding.Builder,CoreTidy,10.246
+aeson-2.2.3.0,Data.Aeson.Encoding.Builder,CoreToStg,54.587
+aeson-2.2.3.0,Data.Aeson.Encoding.Builder,Demand analysis,19.709
+aeson-2.2.3.0,Data.Aeson.Encoding.Builder,Desugar,3.629
+aeson-2.2.3.0,Data.Aeson.Encoding.Builder,Exitification transformation,0.015
+aeson-2.2.3.0,Data.Aeson.Encoding.Builder,Float inwards,0.027
+aeson-2.2.3.0,Data.Aeson.Encoding.Builder,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",14.977
+aeson-2.2.3.0,Data.Aeson.Encoding.Builder,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",29.284
+aeson-2.2.3.0,Data.Aeson.Encoding.Builder,Parser,4.735
+aeson-2.2.3.0,Data.Aeson.Encoding.Builder,Renamer/typechecker,22.068
+aeson-2.2.3.0,Data.Aeson.Encoding.Builder,Simplifier,819.4110000000001
+aeson-2.2.3.0,Data.Aeson.Encoding.Builder,Specialise,8.73
+aeson-2.2.3.0,Data.Aeson.Encoding.Builder,Worker Wrapper binds,0.648
+aeson-2.2.3.0,Data.Aeson.Encoding.Internal,Called arity analysis,0.021
+aeson-2.2.3.0,Data.Aeson.Encoding.Internal,CodeGen,189.322
+aeson-2.2.3.0,Data.Aeson.Encoding.Internal,Common sub-expression,0.016
+aeson-2.2.3.0,Data.Aeson.Encoding.Internal,Constructed Product Result analysis,0.636
+aeson-2.2.3.0,Data.Aeson.Encoding.Internal,CorePrep,3.095
+aeson-2.2.3.0,Data.Aeson.Encoding.Internal,CoreTidy,7.136
+aeson-2.2.3.0,Data.Aeson.Encoding.Internal,CoreToStg,11.757
+aeson-2.2.3.0,Data.Aeson.Encoding.Internal,Demand analysis,6.8420000000000005
+aeson-2.2.3.0,Data.Aeson.Encoding.Internal,Desugar,0.997
+aeson-2.2.3.0,Data.Aeson.Encoding.Internal,Exitification transformation,0.015
+aeson-2.2.3.0,Data.Aeson.Encoding.Internal,Float inwards,0.024
+aeson-2.2.3.0,Data.Aeson.Encoding.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",8.684
+aeson-2.2.3.0,Data.Aeson.Encoding.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",7.517
+aeson-2.2.3.0,Data.Aeson.Encoding.Internal,Parser,3.226
+aeson-2.2.3.0,Data.Aeson.Encoding.Internal,Renamer/typechecker,17.559
+aeson-2.2.3.0,Data.Aeson.Encoding.Internal,Simplifier,230.817
+aeson-2.2.3.0,Data.Aeson.Encoding.Internal,Specialise,0.662
+aeson-2.2.3.0,Data.Aeson.Encoding.Internal,Worker Wrapper binds,0.305
+aeson-2.2.3.0,Data.Aeson.Internal.ByteString,Called arity analysis,0.014
+aeson-2.2.3.0,Data.Aeson.Internal.ByteString,CodeGen,19.078
+aeson-2.2.3.0,Data.Aeson.Internal.ByteString,Common sub-expression,0.015
+aeson-2.2.3.0,Data.Aeson.Internal.ByteString,Constructed Product Result analysis,0.112
+aeson-2.2.3.0,Data.Aeson.Internal.ByteString,CorePrep,0.995
+aeson-2.2.3.0,Data.Aeson.Internal.ByteString,CoreTidy,0.29
+aeson-2.2.3.0,Data.Aeson.Internal.ByteString,CoreToStg,0.729
+aeson-2.2.3.0,Data.Aeson.Internal.ByteString,Demand analysis,0.9019999999999999
+aeson-2.2.3.0,Data.Aeson.Internal.ByteString,Desugar,0.537
+aeson-2.2.3.0,Data.Aeson.Internal.ByteString,Exitification transformation,0.01
+aeson-2.2.3.0,Data.Aeson.Internal.ByteString,Float inwards,0.024
+aeson-2.2.3.0,Data.Aeson.Internal.ByteString,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.353
+aeson-2.2.3.0,Data.Aeson.Internal.ByteString,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.717
+aeson-2.2.3.0,Data.Aeson.Internal.ByteString,Parser,2.111
+aeson-2.2.3.0,Data.Aeson.Internal.ByteString,Renamer/typechecker,77.578
+aeson-2.2.3.0,Data.Aeson.Internal.ByteString,Simplifier,24.656
+aeson-2.2.3.0,Data.Aeson.Internal.ByteString,Specialise,0.476
+aeson-2.2.3.0,Data.Aeson.Internal.ByteString,Worker Wrapper binds,0.071
+aeson-2.2.3.0,Data.Aeson.Internal.Functions,Called arity analysis,0.011
+aeson-2.2.3.0,Data.Aeson.Internal.Functions,CodeGen,23.716
+aeson-2.2.3.0,Data.Aeson.Internal.Functions,Common sub-expression,0.014
+aeson-2.2.3.0,Data.Aeson.Internal.Functions,Constructed Product Result analysis,0.12
+aeson-2.2.3.0,Data.Aeson.Internal.Functions,CorePrep,0.43000000000000005
+aeson-2.2.3.0,Data.Aeson.Internal.Functions,CoreTidy,0.314
+aeson-2.2.3.0,Data.Aeson.Internal.Functions,CoreToStg,1.9009999999999998
+aeson-2.2.3.0,Data.Aeson.Internal.Functions,Demand analysis,1.662
+aeson-2.2.3.0,Data.Aeson.Internal.Functions,Desugar,0.163
+aeson-2.2.3.0,Data.Aeson.Internal.Functions,Exitification transformation,0.013
+aeson-2.2.3.0,Data.Aeson.Internal.Functions,Float inwards,0.022
+aeson-2.2.3.0,Data.Aeson.Internal.Functions,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.743
+aeson-2.2.3.0,Data.Aeson.Internal.Functions,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.096
+aeson-2.2.3.0,Data.Aeson.Internal.Functions,Parser,0.759
+aeson-2.2.3.0,Data.Aeson.Internal.Functions,Renamer/typechecker,17.479
+aeson-2.2.3.0,Data.Aeson.Internal.Functions,Simplifier,27.302
+aeson-2.2.3.0,Data.Aeson.Internal.Functions,Specialise,0.29
+aeson-2.2.3.0,Data.Aeson.Internal.Functions,Worker Wrapper binds,0.061
+aeson-2.2.3.0,Data.Aeson.Internal.Prelude,Called arity analysis,0.012
+aeson-2.2.3.0,Data.Aeson.Internal.Prelude,CodeGen,0.729
+aeson-2.2.3.0,Data.Aeson.Internal.Prelude,Common sub-expression,0.012
+aeson-2.2.3.0,Data.Aeson.Internal.Prelude,Constructed Product Result analysis,0.014
+aeson-2.2.3.0,Data.Aeson.Internal.Prelude,CorePrep,0.093
+aeson-2.2.3.0,Data.Aeson.Internal.Prelude,CoreTidy,0.059
+aeson-2.2.3.0,Data.Aeson.Internal.Prelude,CoreToStg,0.097
+aeson-2.2.3.0,Data.Aeson.Internal.Prelude,Demand analysis,0.073
+aeson-2.2.3.0,Data.Aeson.Internal.Prelude,Desugar,0.133
+aeson-2.2.3.0,Data.Aeson.Internal.Prelude,Exitification transformation,0.01
+aeson-2.2.3.0,Data.Aeson.Internal.Prelude,Float inwards,0.039
+aeson-2.2.3.0,Data.Aeson.Internal.Prelude,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.038
+aeson-2.2.3.0,Data.Aeson.Internal.Prelude,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.053
+aeson-2.2.3.0,Data.Aeson.Internal.Prelude,Parser,2.366
+aeson-2.2.3.0,Data.Aeson.Internal.Prelude,Renamer/typechecker,63.97
+aeson-2.2.3.0,Data.Aeson.Internal.Prelude,Simplifier,61.95
+aeson-2.2.3.0,Data.Aeson.Internal.Prelude,Specialise,0.021
+aeson-2.2.3.0,Data.Aeson.Internal.Prelude,Worker Wrapper binds,0.013
+aeson-2.2.3.0,Data.Aeson.Internal.Scientific,Called arity analysis,0.01
+aeson-2.2.3.0,Data.Aeson.Internal.Scientific,CodeGen,118.474
+aeson-2.2.3.0,Data.Aeson.Internal.Scientific,Common sub-expression,0.015
+aeson-2.2.3.0,Data.Aeson.Internal.Scientific,Constructed Product Result analysis,0.325
+aeson-2.2.3.0,Data.Aeson.Internal.Scientific,CorePrep,2.566
+aeson-2.2.3.0,Data.Aeson.Internal.Scientific,CoreTidy,1.075
+aeson-2.2.3.0,Data.Aeson.Internal.Scientific,CoreToStg,8.003
+aeson-2.2.3.0,Data.Aeson.Internal.Scientific,Demand analysis,3.029
+aeson-2.2.3.0,Data.Aeson.Internal.Scientific,Desugar,2.944
+aeson-2.2.3.0,Data.Aeson.Internal.Scientific,Exitification transformation,0.013
+aeson-2.2.3.0,Data.Aeson.Internal.Scientific,Float inwards,0.020999999999999998
+aeson-2.2.3.0,Data.Aeson.Internal.Scientific,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.135
+aeson-2.2.3.0,Data.Aeson.Internal.Scientific,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",4.909
+aeson-2.2.3.0,Data.Aeson.Internal.Scientific,Parser,1.934
+aeson-2.2.3.0,Data.Aeson.Internal.Scientific,Renamer/typechecker,8.601
+aeson-2.2.3.0,Data.Aeson.Internal.Scientific,Simplifier,109.199
+aeson-2.2.3.0,Data.Aeson.Internal.Scientific,Specialise,0.429
+aeson-2.2.3.0,Data.Aeson.Internal.Scientific,Worker Wrapper binds,0.136
+aeson-2.2.3.0,Data.Aeson.Internal.TH,Called arity analysis,0.021
+aeson-2.2.3.0,Data.Aeson.Internal.TH,CodeGen,36.361000000000004
+aeson-2.2.3.0,Data.Aeson.Internal.TH,Common sub-expression,0.011
+aeson-2.2.3.0,Data.Aeson.Internal.TH,Constructed Product Result analysis,0.172
+aeson-2.2.3.0,Data.Aeson.Internal.TH,CorePrep,0.718
+aeson-2.2.3.0,Data.Aeson.Internal.TH,CoreTidy,0.374
+aeson-2.2.3.0,Data.Aeson.Internal.TH,CoreToStg,1.7
+aeson-2.2.3.0,Data.Aeson.Internal.TH,Demand analysis,1.8079999999999998
+aeson-2.2.3.0,Data.Aeson.Internal.TH,Desugar,0.399
+aeson-2.2.3.0,Data.Aeson.Internal.TH,Exitification transformation,0.012
+aeson-2.2.3.0,Data.Aeson.Internal.TH,Float inwards,0.027000000000000003
+aeson-2.2.3.0,Data.Aeson.Internal.TH,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.048
+aeson-2.2.3.0,Data.Aeson.Internal.TH,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.255
+aeson-2.2.3.0,Data.Aeson.Internal.TH,Parser,1.046
+aeson-2.2.3.0,Data.Aeson.Internal.TH,Renamer/typechecker,7.808
+aeson-2.2.3.0,Data.Aeson.Internal.TH,Simplifier,29.162
+aeson-2.2.3.0,Data.Aeson.Internal.TH,Specialise,0.259
+aeson-2.2.3.0,Data.Aeson.Internal.TH,Worker Wrapper binds,0.085
+aeson-2.2.3.0,Data.Aeson.Internal.Text,Called arity analysis,0.024
+aeson-2.2.3.0,Data.Aeson.Internal.Text,CodeGen,4.069
+aeson-2.2.3.0,Data.Aeson.Internal.Text,Common sub-expression,0.011
+aeson-2.2.3.0,Data.Aeson.Internal.Text,Constructed Product Result analysis,0.058
+aeson-2.2.3.0,Data.Aeson.Internal.Text,CorePrep,0.11399999999999999
+aeson-2.2.3.0,Data.Aeson.Internal.Text,CoreTidy,0.095
+aeson-2.2.3.0,Data.Aeson.Internal.Text,CoreToStg,0.238
+aeson-2.2.3.0,Data.Aeson.Internal.Text,Demand analysis,0.172
+aeson-2.2.3.0,Data.Aeson.Internal.Text,Desugar,0.17
+aeson-2.2.3.0,Data.Aeson.Internal.Text,Exitification transformation,0.011
+aeson-2.2.3.0,Data.Aeson.Internal.Text,Float inwards,0.025
+aeson-2.2.3.0,Data.Aeson.Internal.Text,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.174
+aeson-2.2.3.0,Data.Aeson.Internal.Text,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.116
+aeson-2.2.3.0,Data.Aeson.Internal.Text,Parser,1.473
+aeson-2.2.3.0,Data.Aeson.Internal.Text,Renamer/typechecker,3.369
+aeson-2.2.3.0,Data.Aeson.Internal.Text,Simplifier,1.992
+aeson-2.2.3.0,Data.Aeson.Internal.Text,Specialise,0.043
+aeson-2.2.3.0,Data.Aeson.Internal.Text,Worker Wrapper binds,0.083
+aeson-2.2.3.0,Data.Aeson.Internal.Unescape,Called arity analysis,0.012
+aeson-2.2.3.0,Data.Aeson.Internal.Unescape,CodeGen,47.07
+aeson-2.2.3.0,Data.Aeson.Internal.Unescape,Common sub-expression,0.014
+aeson-2.2.3.0,Data.Aeson.Internal.Unescape,Constructed Product Result analysis,0.549
+aeson-2.2.3.0,Data.Aeson.Internal.Unescape,CorePrep,1.117
+aeson-2.2.3.0,Data.Aeson.Internal.Unescape,CoreTidy,0.891
+aeson-2.2.3.0,Data.Aeson.Internal.Unescape,CoreToStg,6.726999999999999
+aeson-2.2.3.0,Data.Aeson.Internal.Unescape,Demand analysis,6.414
+aeson-2.2.3.0,Data.Aeson.Internal.Unescape,Desugar,5.365
+aeson-2.2.3.0,Data.Aeson.Internal.Unescape,Exitification transformation,0.015
+aeson-2.2.3.0,Data.Aeson.Internal.Unescape,Float inwards,0.023
+aeson-2.2.3.0,Data.Aeson.Internal.Unescape,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",3.954
+aeson-2.2.3.0,Data.Aeson.Internal.Unescape,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",4.259
+aeson-2.2.3.0,Data.Aeson.Internal.Unescape,Parser,5.251
+aeson-2.2.3.0,Data.Aeson.Internal.Unescape,Renamer/typechecker,49.757
+aeson-2.2.3.0,Data.Aeson.Internal.Unescape,Simplifier,103.641
+aeson-2.2.3.0,Data.Aeson.Internal.Unescape,Specialise,0.585
+aeson-2.2.3.0,Data.Aeson.Internal.Unescape,Worker Wrapper binds,0.133
+aeson-2.2.3.0,Data.Aeson.Internal.UnescapeFromText,Called arity analysis,0.012
+aeson-2.2.3.0,Data.Aeson.Internal.UnescapeFromText,CodeGen,44.811
+aeson-2.2.3.0,Data.Aeson.Internal.UnescapeFromText,Common sub-expression,0.015
+aeson-2.2.3.0,Data.Aeson.Internal.UnescapeFromText,Constructed Product Result analysis,0.486
+aeson-2.2.3.0,Data.Aeson.Internal.UnescapeFromText,CorePrep,1.03
+aeson-2.2.3.0,Data.Aeson.Internal.UnescapeFromText,CoreTidy,1.088
+aeson-2.2.3.0,Data.Aeson.Internal.UnescapeFromText,CoreToStg,3.741
+aeson-2.2.3.0,Data.Aeson.Internal.UnescapeFromText,Demand analysis,3.917
+aeson-2.2.3.0,Data.Aeson.Internal.UnescapeFromText,Desugar,3.924
+aeson-2.2.3.0,Data.Aeson.Internal.UnescapeFromText,Exitification transformation,0.014
+aeson-2.2.3.0,Data.Aeson.Internal.UnescapeFromText,Float inwards,0.020999999999999998
+aeson-2.2.3.0,Data.Aeson.Internal.UnescapeFromText,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.677
+aeson-2.2.3.0,Data.Aeson.Internal.UnescapeFromText,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",5.203
+aeson-2.2.3.0,Data.Aeson.Internal.UnescapeFromText,Parser,5.959
+aeson-2.2.3.0,Data.Aeson.Internal.UnescapeFromText,Renamer/typechecker,15.997
+aeson-2.2.3.0,Data.Aeson.Internal.UnescapeFromText,Simplifier,72.883
+aeson-2.2.3.0,Data.Aeson.Internal.UnescapeFromText,Specialise,0.351
+aeson-2.2.3.0,Data.Aeson.Internal.UnescapeFromText,Worker Wrapper binds,0.117
+aeson-2.2.3.0,Data.Aeson.Key,Called arity analysis,0.01
+aeson-2.2.3.0,Data.Aeson.Key,CodeGen,88.657
+aeson-2.2.3.0,Data.Aeson.Key,Common sub-expression,0.011
+aeson-2.2.3.0,Data.Aeson.Key,Constructed Product Result analysis,0.269
+aeson-2.2.3.0,Data.Aeson.Key,CorePrep,2.0060000000000002
+aeson-2.2.3.0,Data.Aeson.Key,CoreTidy,2.797
+aeson-2.2.3.0,Data.Aeson.Key,CoreToStg,4.0120000000000005
+aeson-2.2.3.0,Data.Aeson.Key,Demand analysis,2.641
+aeson-2.2.3.0,Data.Aeson.Key,Desugar,0.536
+aeson-2.2.3.0,Data.Aeson.Key,Exitification transformation,0.015
+aeson-2.2.3.0,Data.Aeson.Key,Float inwards,0.020999999999999998
+aeson-2.2.3.0,Data.Aeson.Key,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.219
+aeson-2.2.3.0,Data.Aeson.Key,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.243
+aeson-2.2.3.0,Data.Aeson.Key,Parser,3.036
+aeson-2.2.3.0,Data.Aeson.Key,Renamer/typechecker,21.65
+aeson-2.2.3.0,Data.Aeson.Key,Simplifier,100.89099999999999
+aeson-2.2.3.0,Data.Aeson.Key,Specialise,0.318
+aeson-2.2.3.0,Data.Aeson.Key,Worker Wrapper binds,0.239
+aeson-2.2.3.0,Data.Aeson.KeyMap,Called arity analysis,0.012
+aeson-2.2.3.0,Data.Aeson.KeyMap,CodeGen,408.45799999999997
+aeson-2.2.3.0,Data.Aeson.KeyMap,Common sub-expression,0.016
+aeson-2.2.3.0,Data.Aeson.KeyMap,Constructed Product Result analysis,3.13
+aeson-2.2.3.0,Data.Aeson.KeyMap,CorePrep,8.984
+aeson-2.2.3.0,Data.Aeson.KeyMap,CoreTidy,18.134
+aeson-2.2.3.0,Data.Aeson.KeyMap,CoreToStg,33.795
+aeson-2.2.3.0,Data.Aeson.KeyMap,Demand analysis,23.262
+aeson-2.2.3.0,Data.Aeson.KeyMap,Desugar,1.685
+aeson-2.2.3.0,Data.Aeson.KeyMap,Exitification transformation,0.015
+aeson-2.2.3.0,Data.Aeson.KeyMap,Float inwards,0.023
+aeson-2.2.3.0,Data.Aeson.KeyMap,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",20.748
+aeson-2.2.3.0,Data.Aeson.KeyMap,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",30.291
+aeson-2.2.3.0,Data.Aeson.KeyMap,Parser,4.809
+aeson-2.2.3.0,Data.Aeson.KeyMap,Renamer/typechecker,83.044
+aeson-2.2.3.0,Data.Aeson.KeyMap,Simplifier,639.875
+aeson-2.2.3.0,Data.Aeson.KeyMap,Specialise,6.957
+aeson-2.2.3.0,Data.Aeson.KeyMap,Worker Wrapper binds,1.395
+aeson-2.2.3.0,Data.Aeson.Parser.Time,Called arity analysis,0.016
+aeson-2.2.3.0,Data.Aeson.Parser.Time,CodeGen,3.481
+aeson-2.2.3.0,Data.Aeson.Parser.Time,Common sub-expression,0.014
+aeson-2.2.3.0,Data.Aeson.Parser.Time,Constructed Product Result analysis,0.024
+aeson-2.2.3.0,Data.Aeson.Parser.Time,CorePrep,0.16199999999999998
+aeson-2.2.3.0,Data.Aeson.Parser.Time,CoreTidy,0.12
+aeson-2.2.3.0,Data.Aeson.Parser.Time,CoreToStg,0.253
+aeson-2.2.3.0,Data.Aeson.Parser.Time,Demand analysis,0.172
+aeson-2.2.3.0,Data.Aeson.Parser.Time,Desugar,0.502
+aeson-2.2.3.0,Data.Aeson.Parser.Time,Exitification transformation,0.01
+aeson-2.2.3.0,Data.Aeson.Parser.Time,Float inwards,0.023
+aeson-2.2.3.0,Data.Aeson.Parser.Time,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.142
+aeson-2.2.3.0,Data.Aeson.Parser.Time,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.152
+aeson-2.2.3.0,Data.Aeson.Parser.Time,Parser,0.441
+aeson-2.2.3.0,Data.Aeson.Parser.Time,Renamer/typechecker,2.953
+aeson-2.2.3.0,Data.Aeson.Parser.Time,Simplifier,3.193
+aeson-2.2.3.0,Data.Aeson.Parser.Time,Specialise,0.041
+aeson-2.2.3.0,Data.Aeson.Parser.Time,Worker Wrapper binds,0.016
+aeson-2.2.3.0,Data.Aeson.QQ.Simple,Called arity analysis,0.011
+aeson-2.2.3.0,Data.Aeson.QQ.Simple,CodeGen,14.689
+aeson-2.2.3.0,Data.Aeson.QQ.Simple,Common sub-expression,0.014
+aeson-2.2.3.0,Data.Aeson.QQ.Simple,Constructed Product Result analysis,0.052
+aeson-2.2.3.0,Data.Aeson.QQ.Simple,CorePrep,0.23700000000000002
+aeson-2.2.3.0,Data.Aeson.QQ.Simple,CoreTidy,0.312
+aeson-2.2.3.0,Data.Aeson.QQ.Simple,CoreToStg,0.6499999999999999
+aeson-2.2.3.0,Data.Aeson.QQ.Simple,Demand analysis,0.351
+aeson-2.2.3.0,Data.Aeson.QQ.Simple,Desugar,0.203
+aeson-2.2.3.0,Data.Aeson.QQ.Simple,Exitification transformation,0.021
+aeson-2.2.3.0,Data.Aeson.QQ.Simple,Float inwards,0.023
+aeson-2.2.3.0,Data.Aeson.QQ.Simple,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.317
+aeson-2.2.3.0,Data.Aeson.QQ.Simple,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.509
+aeson-2.2.3.0,Data.Aeson.QQ.Simple,Parser,0.651
+aeson-2.2.3.0,Data.Aeson.QQ.Simple,Renamer/typechecker,3.138
+aeson-2.2.3.0,Data.Aeson.QQ.Simple,Simplifier,11.014
+aeson-2.2.3.0,Data.Aeson.QQ.Simple,Specialise,0.18
+aeson-2.2.3.0,Data.Aeson.QQ.Simple,Worker Wrapper binds,0.038
+aeson-2.2.3.0,Data.Aeson.RFC8785,Called arity analysis,0.011
+aeson-2.2.3.0,Data.Aeson.RFC8785,CodeGen,77.09100000000001
+aeson-2.2.3.0,Data.Aeson.RFC8785,Common sub-expression,0.019
+aeson-2.2.3.0,Data.Aeson.RFC8785,Constructed Product Result analysis,0.653
+aeson-2.2.3.0,Data.Aeson.RFC8785,CorePrep,1.7349999999999999
+aeson-2.2.3.0,Data.Aeson.RFC8785,CoreTidy,0.941
+aeson-2.2.3.0,Data.Aeson.RFC8785,CoreToStg,5.848
+aeson-2.2.3.0,Data.Aeson.RFC8785,Demand analysis,4.1
+aeson-2.2.3.0,Data.Aeson.RFC8785,Desugar,2.521
+aeson-2.2.3.0,Data.Aeson.RFC8785,Exitification transformation,0.013
+aeson-2.2.3.0,Data.Aeson.RFC8785,Float inwards,0.022
+aeson-2.2.3.0,Data.Aeson.RFC8785,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",10.301
+aeson-2.2.3.0,Data.Aeson.RFC8785,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",5.836
+aeson-2.2.3.0,Data.Aeson.RFC8785,Parser,1.279
+aeson-2.2.3.0,Data.Aeson.RFC8785,Renamer/typechecker,7.181
+aeson-2.2.3.0,Data.Aeson.RFC8785,Simplifier,190.021
+aeson-2.2.3.0,Data.Aeson.RFC8785,Specialise,1.003
+aeson-2.2.3.0,Data.Aeson.RFC8785,Worker Wrapper binds,0.263
+aeson-2.2.3.0,Data.Aeson.TH,Called arity analysis,0.01
+aeson-2.2.3.0,Data.Aeson.TH,CodeGen,1253.6019999999999
+aeson-2.2.3.0,Data.Aeson.TH,Common sub-expression,0.014
+aeson-2.2.3.0,Data.Aeson.TH,Constructed Product Result analysis,7.982
+aeson-2.2.3.0,Data.Aeson.TH,CorePrep,36.599999999999994
+aeson-2.2.3.0,Data.Aeson.TH,CoreTidy,19.054
+aeson-2.2.3.0,Data.Aeson.TH,CoreToStg,74.908
+aeson-2.2.3.0,Data.Aeson.TH,Demand analysis,51.971000000000004
+aeson-2.2.3.0,Data.Aeson.TH,Desugar,18.893
+aeson-2.2.3.0,Data.Aeson.TH,Exitification transformation,0.013
+aeson-2.2.3.0,Data.Aeson.TH,Float inwards,0.020999999999999998
+aeson-2.2.3.0,Data.Aeson.TH,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",200.468
+aeson-2.2.3.0,Data.Aeson.TH,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",77.877
+aeson-2.2.3.0,Data.Aeson.TH,Parser,28.906
+aeson-2.2.3.0,Data.Aeson.TH,Renamer/typechecker,87.924
+aeson-2.2.3.0,Data.Aeson.TH,Simplifier,1656.673
+aeson-2.2.3.0,Data.Aeson.TH,Specialise,27.215
+aeson-2.2.3.0,Data.Aeson.TH,Worker Wrapper binds,4.739
+aeson-2.2.3.0,Data.Aeson.Text,Called arity analysis,0.015
+aeson-2.2.3.0,Data.Aeson.Text,CodeGen,186.943
+aeson-2.2.3.0,Data.Aeson.Text,Common sub-expression,0.015
+aeson-2.2.3.0,Data.Aeson.Text,Constructed Product Result analysis,1.75
+aeson-2.2.3.0,Data.Aeson.Text,CorePrep,4.092
+aeson-2.2.3.0,Data.Aeson.Text,CoreTidy,2.89
+aeson-2.2.3.0,Data.Aeson.Text,CoreToStg,31.686
+aeson-2.2.3.0,Data.Aeson.Text,Demand analysis,14.998999999999999
+aeson-2.2.3.0,Data.Aeson.Text,Desugar,1.371
+aeson-2.2.3.0,Data.Aeson.Text,Exitification transformation,0.016
+aeson-2.2.3.0,Data.Aeson.Text,Float inwards,0.026000000000000002
+aeson-2.2.3.0,Data.Aeson.Text,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",24.74
+aeson-2.2.3.0,Data.Aeson.Text,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",14.87
+aeson-2.2.3.0,Data.Aeson.Text,Parser,1.802
+aeson-2.2.3.0,Data.Aeson.Text,Renamer/typechecker,6.859
+aeson-2.2.3.0,Data.Aeson.Text,Simplifier,391.457
+aeson-2.2.3.0,Data.Aeson.Text,Specialise,2.373
+aeson-2.2.3.0,Data.Aeson.Text,Worker Wrapper binds,0.404
+aeson-2.2.3.0,Data.Aeson.Types,Called arity analysis,0.016
+aeson-2.2.3.0,Data.Aeson.Types,CodeGen,2.6
+aeson-2.2.3.0,Data.Aeson.Types,Common sub-expression,0.009
+aeson-2.2.3.0,Data.Aeson.Types,Constructed Product Result analysis,0.027
+aeson-2.2.3.0,Data.Aeson.Types,CorePrep,0.106
+aeson-2.2.3.0,Data.Aeson.Types,CoreTidy,0.092
+aeson-2.2.3.0,Data.Aeson.Types,CoreToStg,0.148
+aeson-2.2.3.0,Data.Aeson.Types,Demand analysis,0.196
+aeson-2.2.3.0,Data.Aeson.Types,Desugar,0.12
+aeson-2.2.3.0,Data.Aeson.Types,Exitification transformation,0.009
+aeson-2.2.3.0,Data.Aeson.Types,Float inwards,0.018000000000000002
+aeson-2.2.3.0,Data.Aeson.Types,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.071
+aeson-2.2.3.0,Data.Aeson.Types,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.069
+aeson-2.2.3.0,Data.Aeson.Types,Parser,0.929
+aeson-2.2.3.0,Data.Aeson.Types,Renamer/typechecker,1.881
+aeson-2.2.3.0,Data.Aeson.Types,Simplifier,1.0110000000000001
+aeson-2.2.3.0,Data.Aeson.Types,Specialise,0.028
+aeson-2.2.3.0,Data.Aeson.Types,Worker Wrapper binds,0.019
+aeson-2.2.3.0,Data.Aeson.Types.Class,Called arity analysis,0.01
+aeson-2.2.3.0,Data.Aeson.Types.Class,CodeGen,1.3679999999999999
+aeson-2.2.3.0,Data.Aeson.Types.Class,Common sub-expression,0.012
+aeson-2.2.3.0,Data.Aeson.Types.Class,Constructed Product Result analysis,0.016
+aeson-2.2.3.0,Data.Aeson.Types.Class,CorePrep,0.16
+aeson-2.2.3.0,Data.Aeson.Types.Class,CoreTidy,0.053
+aeson-2.2.3.0,Data.Aeson.Types.Class,CoreToStg,0.176
+aeson-2.2.3.0,Data.Aeson.Types.Class,Demand analysis,0.069
+aeson-2.2.3.0,Data.Aeson.Types.Class,Desugar,0.125
+aeson-2.2.3.0,Data.Aeson.Types.Class,Exitification transformation,0.01
+aeson-2.2.3.0,Data.Aeson.Types.Class,Float inwards,0.02
+aeson-2.2.3.0,Data.Aeson.Types.Class,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.04
+aeson-2.2.3.0,Data.Aeson.Types.Class,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.03
+aeson-2.2.3.0,Data.Aeson.Types.Class,Parser,2.501
+aeson-2.2.3.0,Data.Aeson.Types.Class,Renamer/typechecker,1.809
+aeson-2.2.3.0,Data.Aeson.Types.Class,Simplifier,0.38
+aeson-2.2.3.0,Data.Aeson.Types.Class,Specialise,0.021
+aeson-2.2.3.0,Data.Aeson.Types.Class,Worker Wrapper binds,0.015
+aeson-2.2.3.0,Data.Aeson.Types.FromJSON,Called arity analysis,0.01
+aeson-2.2.3.0,Data.Aeson.Types.FromJSON,CodeGen,2913.723
+aeson-2.2.3.0,Data.Aeson.Types.FromJSON,Common sub-expression,0.015
+aeson-2.2.3.0,Data.Aeson.Types.FromJSON,Constructed Product Result analysis,29.25
+aeson-2.2.3.0,Data.Aeson.Types.FromJSON,CorePrep,73.895
+aeson-2.2.3.0,Data.Aeson.Types.FromJSON,CoreTidy,104.033
+aeson-2.2.3.0,Data.Aeson.Types.FromJSON,CoreToStg,445.68
+aeson-2.2.3.0,Data.Aeson.Types.FromJSON,Demand analysis,232.81900000000002
+aeson-2.2.3.0,Data.Aeson.Types.FromJSON,Desugar,25.266
+aeson-2.2.3.0,Data.Aeson.Types.FromJSON,Exitification transformation,0.016
+aeson-2.2.3.0,Data.Aeson.Types.FromJSON,Float inwards,0.023
+aeson-2.2.3.0,Data.Aeson.Types.FromJSON,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",176.649
+aeson-2.2.3.0,Data.Aeson.Types.FromJSON,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",450.977
+aeson-2.2.3.0,Data.Aeson.Types.FromJSON,Parser,45.963
+aeson-2.2.3.0,Data.Aeson.Types.FromJSON,Renamer/typechecker,464.546
+aeson-2.2.3.0,Data.Aeson.Types.FromJSON,Simplifier,8757.387
+aeson-2.2.3.0,Data.Aeson.Types.FromJSON,Specialise,27.866
+aeson-2.2.3.0,Data.Aeson.Types.FromJSON,Worker Wrapper binds,15.017
+aeson-2.2.3.0,Data.Aeson.Types.Generic,Called arity analysis,0.01
+aeson-2.2.3.0,Data.Aeson.Types.Generic,CodeGen,16.431
+aeson-2.2.3.0,Data.Aeson.Types.Generic,Common sub-expression,0.012
+aeson-2.2.3.0,Data.Aeson.Types.Generic,Constructed Product Result analysis,0.069
+aeson-2.2.3.0,Data.Aeson.Types.Generic,CorePrep,0.44899999999999995
+aeson-2.2.3.0,Data.Aeson.Types.Generic,CoreTidy,0.621
+aeson-2.2.3.0,Data.Aeson.Types.Generic,CoreToStg,1.034
+aeson-2.2.3.0,Data.Aeson.Types.Generic,Demand analysis,0.652
+aeson-2.2.3.0,Data.Aeson.Types.Generic,Desugar,0.329
+aeson-2.2.3.0,Data.Aeson.Types.Generic,Exitification transformation,0.012
+aeson-2.2.3.0,Data.Aeson.Types.Generic,Float inwards,0.02
+aeson-2.2.3.0,Data.Aeson.Types.Generic,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.321
+aeson-2.2.3.0,Data.Aeson.Types.Generic,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.308
+aeson-2.2.3.0,Data.Aeson.Types.Generic,Parser,3.354
+aeson-2.2.3.0,Data.Aeson.Types.Generic,Renamer/typechecker,4.737
+aeson-2.2.3.0,Data.Aeson.Types.Generic,Simplifier,7.059
+aeson-2.2.3.0,Data.Aeson.Types.Generic,Specialise,0.146
+aeson-2.2.3.0,Data.Aeson.Types.Generic,Worker Wrapper binds,0.061
+aeson-2.2.3.0,Data.Aeson.Types.Internal,Called arity analysis,0.013
+aeson-2.2.3.0,Data.Aeson.Types.Internal,CodeGen,595.22
+aeson-2.2.3.0,Data.Aeson.Types.Internal,Common sub-expression,0.02
+aeson-2.2.3.0,Data.Aeson.Types.Internal,Constructed Product Result analysis,4.326
+aeson-2.2.3.0,Data.Aeson.Types.Internal,CorePrep,17.08
+aeson-2.2.3.0,Data.Aeson.Types.Internal,CoreTidy,25.024
+aeson-2.2.3.0,Data.Aeson.Types.Internal,CoreToStg,40.99
+aeson-2.2.3.0,Data.Aeson.Types.Internal,Demand analysis,31.230999999999998
+aeson-2.2.3.0,Data.Aeson.Types.Internal,Desugar,18.115
+aeson-2.2.3.0,Data.Aeson.Types.Internal,Exitification transformation,0.018
+aeson-2.2.3.0,Data.Aeson.Types.Internal,Float inwards,0.025
+aeson-2.2.3.0,Data.Aeson.Types.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",33.997
+aeson-2.2.3.0,Data.Aeson.Types.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",36.433
+aeson-2.2.3.0,Data.Aeson.Types.Internal,Parser,10.843
+aeson-2.2.3.0,Data.Aeson.Types.Internal,Renamer/typechecker,78.171
+aeson-2.2.3.0,Data.Aeson.Types.Internal,Simplifier,1183.734
+aeson-2.2.3.0,Data.Aeson.Types.Internal,Specialise,16.737
+aeson-2.2.3.0,Data.Aeson.Types.Internal,Worker Wrapper binds,2.001
+aeson-2.2.3.0,Data.Aeson.Types.ToJSON,Called arity analysis,0.012
+aeson-2.2.3.0,Data.Aeson.Types.ToJSON,CodeGen,4057.335
+aeson-2.2.3.0,Data.Aeson.Types.ToJSON,Common sub-expression,0.018
+aeson-2.2.3.0,Data.Aeson.Types.ToJSON,Constructed Product Result analysis,60.068
+aeson-2.2.3.0,Data.Aeson.Types.ToJSON,CorePrep,172.239
+aeson-2.2.3.0,Data.Aeson.Types.ToJSON,CoreTidy,158.363
+aeson-2.2.3.0,Data.Aeson.Types.ToJSON,CoreToStg,688.56
+aeson-2.2.3.0,Data.Aeson.Types.ToJSON,Demand analysis,324.976
+aeson-2.2.3.0,Data.Aeson.Types.ToJSON,Desugar,57.915
+aeson-2.2.3.0,Data.Aeson.Types.ToJSON,Exitification transformation,0.013
+aeson-2.2.3.0,Data.Aeson.Types.ToJSON,Float inwards,0.023
+aeson-2.2.3.0,Data.Aeson.Types.ToJSON,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",182.906
+aeson-2.2.3.0,Data.Aeson.Types.ToJSON,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",416.807
+aeson-2.2.3.0,Data.Aeson.Types.ToJSON,Parser,25.973
+aeson-2.2.3.0,Data.Aeson.Types.ToJSON,Renamer/typechecker,268.594
+aeson-2.2.3.0,Data.Aeson.Types.ToJSON,Simplifier,11314.182
+aeson-2.2.3.0,Data.Aeson.Types.ToJSON,Specialise,65.018
+aeson-2.2.3.0,Data.Aeson.Types.ToJSON,Worker Wrapper binds,21.196

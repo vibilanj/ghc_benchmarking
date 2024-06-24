@@ -1,0 +1,8 @@
+
+Package: array-0.5.7.0
+Total time for package: 7252.764
+Total parser time for package: 69.454
+Percentage of total time spent in parser: 0.9576211220991058
+Arithmetic mean of parser percentage: 9.849839893636048
+Geometric mean of parser percentage: 5.40492369824273
+Size of package in bytes: 109937

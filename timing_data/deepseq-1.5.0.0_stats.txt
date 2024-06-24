@@ -1,0 +1,8 @@
+
+Package: deepseq-1.5.0.0
+Total time for package: 649.4759999999999
+Total parser time for package: 26.274
+Percentage of total time spent in parser: 4.045415073074294
+Arithmetic mean of parser percentage: 4.045415073074294
+Geometric mean of parser percentage: 4.045415073074294
+Size of package in bytes: 29578

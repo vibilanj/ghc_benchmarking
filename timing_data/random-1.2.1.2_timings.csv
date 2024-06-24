@@ -1,0 +1,73 @@
+package,module,phase,time
+random-1.2.1.2,System.Random,Called arity analysis,0.014
+random-1.2.1.2,System.Random,CodeGen,617.33
+random-1.2.1.2,System.Random,Common sub-expression,0.017
+random-1.2.1.2,System.Random,Constructed Product Result analysis,12.489
+random-1.2.1.2,System.Random,CorePrep,42.113
+random-1.2.1.2,System.Random,CoreTidy,25.875
+random-1.2.1.2,System.Random,CoreToStg,111.947
+random-1.2.1.2,System.Random,Demand analysis,75.42599999999999
+random-1.2.1.2,System.Random,Desugar,2.328
+random-1.2.1.2,System.Random,Exitification transformation,0.019
+random-1.2.1.2,System.Random,Float inwards,0.024
+random-1.2.1.2,System.Random,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",130.729
+random-1.2.1.2,System.Random,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",40.219
+random-1.2.1.2,System.Random,Parser,7.524
+random-1.2.1.2,System.Random,Renamer/typechecker,37.15
+random-1.2.1.2,System.Random,Simplifier,2245.794
+random-1.2.1.2,System.Random,Specialise,17.745
+random-1.2.1.2,System.Random,Worker Wrapper binds,1.472
+random-1.2.1.2,System.Random.GFinite,Called arity analysis,0.011
+random-1.2.1.2,System.Random.GFinite,CodeGen,479.704
+random-1.2.1.2,System.Random.GFinite,Common sub-expression,0.019
+random-1.2.1.2,System.Random.GFinite,Constructed Product Result analysis,2.161
+random-1.2.1.2,System.Random.GFinite,CorePrep,6.616
+random-1.2.1.2,System.Random.GFinite,CoreTidy,10.669
+random-1.2.1.2,System.Random.GFinite,CoreToStg,58.400000000000006
+random-1.2.1.2,System.Random.GFinite,Demand analysis,19.408
+random-1.2.1.2,System.Random.GFinite,Desugar,6.448
+random-1.2.1.2,System.Random.GFinite,Exitification transformation,0.014
+random-1.2.1.2,System.Random.GFinite,Float inwards,0.020999999999999998
+random-1.2.1.2,System.Random.GFinite,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",19.738
+random-1.2.1.2,System.Random.GFinite,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",19.856
+random-1.2.1.2,System.Random.GFinite,Parser,4.094
+random-1.2.1.2,System.Random.GFinite,Renamer/typechecker,104.902
+random-1.2.1.2,System.Random.GFinite,Simplifier,1021.238
+random-1.2.1.2,System.Random.GFinite,Specialise,2.183
+random-1.2.1.2,System.Random.GFinite,Worker Wrapper binds,0.287
+random-1.2.1.2,System.Random.Internal,Called arity analysis,0.011
+random-1.2.1.2,System.Random.Internal,CodeGen,969.2940000000001
+random-1.2.1.2,System.Random.Internal,Common sub-expression,0.022
+random-1.2.1.2,System.Random.Internal,Constructed Product Result analysis,4.122
+random-1.2.1.2,System.Random.Internal,CorePrep,28.402
+random-1.2.1.2,System.Random.Internal,CoreTidy,14.748
+random-1.2.1.2,System.Random.Internal,CoreToStg,98.116
+random-1.2.1.2,System.Random.Internal,Demand analysis,64.602
+random-1.2.1.2,System.Random.Internal,Desugar,13.267
+random-1.2.1.2,System.Random.Internal,Exitification transformation,0.016
+random-1.2.1.2,System.Random.Internal,Float inwards,0.023
+random-1.2.1.2,System.Random.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",69.628
+random-1.2.1.2,System.Random.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",95.846
+random-1.2.1.2,System.Random.Internal,Parser,17.87
+random-1.2.1.2,System.Random.Internal,Renamer/typechecker,169.903
+random-1.2.1.2,System.Random.Internal,Simplifier,2101.552
+random-1.2.1.2,System.Random.Internal,Specialise,23.742
+random-1.2.1.2,System.Random.Internal,Worker Wrapper binds,2.98
+random-1.2.1.2,System.Random.Stateful,Called arity analysis,0.01
+random-1.2.1.2,System.Random.Stateful,CodeGen,185.779
+random-1.2.1.2,System.Random.Stateful,Common sub-expression,0.013
+random-1.2.1.2,System.Random.Stateful,Constructed Product Result analysis,0.851
+random-1.2.1.2,System.Random.Stateful,CorePrep,3.596
+random-1.2.1.2,System.Random.Stateful,CoreTidy,4.661
+random-1.2.1.2,System.Random.Stateful,CoreToStg,9.042
+random-1.2.1.2,System.Random.Stateful,Demand analysis,10.949
+random-1.2.1.2,System.Random.Stateful,Desugar,7.887
+random-1.2.1.2,System.Random.Stateful,Exitification transformation,0.014
+random-1.2.1.2,System.Random.Stateful,Float inwards,0.023
+random-1.2.1.2,System.Random.Stateful,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",6.737
+random-1.2.1.2,System.Random.Stateful,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",5.807
+random-1.2.1.2,System.Random.Stateful,Parser,6.845
+random-1.2.1.2,System.Random.Stateful,Renamer/typechecker,59.692
+random-1.2.1.2,System.Random.Stateful,Simplifier,193.268
+random-1.2.1.2,System.Random.Stateful,Specialise,58.991
+random-1.2.1.2,System.Random.Stateful,Worker Wrapper binds,0.448
