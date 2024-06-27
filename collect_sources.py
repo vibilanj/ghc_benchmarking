@@ -3,7 +3,7 @@ import subprocess
 import urllib.request
 from bs4 import BeautifulSoup
 
-from collect_timing import calculate_for_packages
+from collect_timing import calculate_for_packages, combine_stats_files, clean_combined_file
 
 BASE_URL = "https://hackage.haskell.org"
 
@@ -84,6 +84,7 @@ def build_sources(dirs):
 
 
 if __name__ == "__main__":
+    # TODO: move to runner file
     links = get_top_packages(20)
     links = links[1:] # Omitting the `base` package
     files = download_sources(links)
@@ -91,3 +92,6 @@ if __name__ == "__main__":
     dirs = list(map(lambda f: f.replace(".tar.gz", ""), files))
     json_files = build_sources(dirs)
     calculate_for_packages(json_files)
+    combine_stats_files()
+    clean_combined_file()
+

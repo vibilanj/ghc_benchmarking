@@ -6,6 +6,7 @@ import pandas as pd
 
 SAVE_PATH = "timing_data/"
 SOURCES_PATH = "sources/"
+COMBINED_CSV = "combined_stats.csv"
    
 
 def read_json_file(file):
@@ -130,8 +131,9 @@ def combine_stats_files():
     csv_files = search_files_with_pattern(SAVE_PATH, "*_stats.csv")
     csv_files.sort()    
     combined_df = pd.concat([pd.read_csv(file) for file in csv_files], ignore_index = True)
-    combined_df.to_csv("combined_stats.csv", index = False)
+    combined_df.to_csv(COMBINED_CSV, index = False)
 
+    # TODO: need combined stats?
     txt_files = search_files_with_pattern(SAVE_PATH, "*_stats.txt")
     txt_files.sort()
     with open("combined_stats.txt", "w") as out_f:
@@ -140,7 +142,14 @@ def combine_stats_files():
                 out_f.write(in_f.read())
 
 
+def clean_combined_file():
+    combined_df = pd.read_csv("combined_stats.csv")
+    clean_df = combined_df[(combined_df["size"] != 0) & (combined_df["extension"] != 0)]
+    # TODO: optionally remove non .hs files
+    only_hs_df = clean_df[clean_df["extension"] == ".hs"]
+    only_hs_df.to_csv("cleaned_stats.csv", index = False)
+
+
 if __name__ == "__main__":
-    # timings_df = read_and_clean_timings("aeson-2.2.2.0.json")
-    # stats = calculate_totals_and_stats(timings_df)
-    combine_stats_files()
+    timings_df = read_and_clean_timings("aeson-2.2.2.0.json")
+    stats = calculate_totals_and_stats(timings_df)
