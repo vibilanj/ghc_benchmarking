@@ -126,13 +126,17 @@ containers-0.7,Utils.Containers.Internal.TypeError,8.378,0.877,10.46789209835282
 deepseq-1.5.0.0,Control.DeepSeq,649.4759999999999,26.274,4.045415073074294,29578,.hs
 directory-1.3.8.5,System.Directory,208.32,5.641,2.707853302611367,49239,.hs
 directory-1.3.8.5,System.Directory.Internal,4.123,0.87,21.1011399466408,776,.hs
+directory-1.3.8.5,System.Directory.Internal.C_utimensat,13.076,0.143,1.093606607525237,1449,.hsc
 directory-1.3.8.5,System.Directory.Internal.Common,978.5990000000002,4.209,0.430104670043603,11568,.hs
 directory-1.3.8.5,System.Directory.Internal.Config,5.936999999999999,1.132,19.06686878895065,500,.hs
+directory-1.3.8.5,System.Directory.Internal.Posix,375.327,5.093,1.356950072869791,12976,.hsc
 directory-1.3.8.5,System.Directory.Internal.Prelude,49.899,1.188,2.380809234654001,3008,.hs
+directory-1.3.8.5,System.Directory.Internal.Windows,3.591,1.227,34.1687552213868,27896,.hsc
 directory-1.3.8.5,System.Directory.OsPath,709.2100000000002,8.425,1.187941512387022,64704,.hs
 filepath-1.5.2.0,System.FilePath,3.059,0.784,25.62929061784897,4167,.hs
 filepath-1.5.2.0,System.FilePath.Posix,438.89,9.278,2.113969331723211,112,.hs
 filepath-1.5.2.0,System.FilePath.Windows,635.7109999999999,10.424,1.6397388121331864,127,.hs
+filepath-1.5.2.0,System.OsPath,45.944,3.639,7.92051192756399,97,.hs-boot
 filepath-1.5.2.0,System.OsPath.Encoding,3.5170000000000003,0.17,4.833665055444982,502,.hs
 filepath-1.5.2.0,System.OsPath.Internal,156.199,1.995,1.277216883590804,143,.hs
 filepath-1.5.2.0,System.OsPath.Posix,200.984,6.715,3.341061975082593,1065,.hs
@@ -263,6 +267,7 @@ process-1.6.20.0,System.Cmd,3.564,1.45,40.68462401795735,1001,.hs
 process-1.6.20.0,System.Process,455.0969999999999,7.32,1.6084483088220758,41736,.hs
 process-1.6.20.0,System.Process.Common,480.663,2.79,0.580448255846612,14691,.hs
 process-1.6.20.0,System.Process.CommunicationHandle,26.275,1.186,4.513796384395814,5314,.hs
+process-1.6.20.0,System.Process.CommunicationHandle.Internal,52.582,2.846,5.412498573656385,9644,.hsc
 process-1.6.20.0,System.Process.Internals,64.99299999999998,3.306,5.086701644792518,10109,.hs
 process-1.6.20.0,System.Process.Posix,257.384,3.549,1.3788735896559223,12242,.hs
 random-1.2.1.2,System.Random,3368.215,7.524,0.2233824147211505,25859,.hs
@@ -343,6 +348,7 @@ time-1.14,Data.Time.Calendar.Week,329.81,0.89,0.2698523392256147,3612,.hs
 time-1.14,Data.Time.Calendar.WeekDate,116.861,1.26,1.0782040201607035,5104,.hs
 time-1.14,Data.Time.Clock,2.83,0.227,8.021201413427564,732,.hs
 time-1.14,Data.Time.Clock.Internal.AbsoluteTime,100.509,0.869,0.8645991901222777,1235,.hs
+time-1.14,Data.Time.Clock.Internal.CTimespec,95.73,1.051,1.097879452627181,2662,.hsc
 time-1.14,Data.Time.Clock.Internal.CTimeval,46.096,1.166,2.5295036445678583,1193,.hs
 time-1.14,Data.Time.Clock.Internal.DiffTime,182.626,1.41,0.7720696943480116,3495,.hs
 time-1.14,Data.Time.Clock.Internal.NominalDiffTime,182.463,1.53,0.8385261669489157,4400,.hs

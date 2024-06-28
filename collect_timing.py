@@ -3,6 +3,7 @@ import os
 import fnmatch
 import json5
 import pandas as pd
+import matplotlib.pyplot as plt
 
 SAVE_PATH = "timing_data/"
 SOURCES_PATH = "sources/"
@@ -145,9 +146,100 @@ def combine_stats_files():
 def clean_combined_file():
     combined_df = pd.read_csv("combined_stats.csv")
     clean_df = combined_df[(combined_df["size"] != 0) & (combined_df["extension"] != 0)]
+    clean_df.to_csv("cleaned_stats.csv", index = False)
     # TODO: optionally remove non .hs files
-    only_hs_df = clean_df[clean_df["extension"] == ".hs"]
-    only_hs_df.to_csv("cleaned_stats.csv", index = False)
+    # only_hs_df = clean_df[clean_df["extension"] == ".hs"]
+    # only_hs_df.to_csv("cleaned_stats.csv", index = False)
+
+
+def make_plots():
+    df = pd.read_csv("cleaned_stats.csv")
+
+    # Simple version 
+    # df["color"] = df["extension"].apply(lambda x: "C0" if x == ".hs" else "C1")
+    # plot_1 = df.plot.scatter(
+    #     x = "total_time", y = "parser_time",
+    #     c = "color", alpha = 0.5,
+    #     xlabel = "log Total time (ms)",
+    #     ylabel = "log Parser time (ms)",
+    #     title = "Parser time vs Total time")
+    # plot_1.set(xscale = "log", yscale = "log")
+    # plot_1.get_figure().savefig("plot_parser_vs_total.png")
+
+    # plot_2 = df.plot.scatter(
+    #     x = "total_time", y = "parser_percentage",
+    #     c = "color", alpha = 0.5,
+    #     xlabel = "log Total time (ms)",
+    #     ylabel = "log Parser percentage (%)",
+    #     title = "Parser percentage vs Total time")
+    # plot_2.set(xscale = "log", yscale = "log")
+    # plot_2.get_figure().savefig("plot_parser_pct_vs_total.png")
+
+    # plot_3 = df.plot.scatter(
+    #     x = "size", y = "parser_time",
+    #     c = "color", alpha = 0.5,
+    #     xlabel = "log Size (bytes)",
+    #     ylabel = "log Parser time (ms)",
+    #     title = "Parser time vs Size")
+    # plot_3.set(xscale = "log", yscale = "log")
+    # plot_3.get_figure().savefig("plot_parser_vs_size.png")
+
+    # plot_4 = df.plot.scatter(
+    #     x = "size", y = "parser_percentage",
+    #     c = "color", alpha = 0.5,
+    #     xlabel = "log Size (bytes)",
+    #     ylabel = "log Parser percentage (%)",
+    #     title = "Parser percentage vs Size")
+    # plot_4.set(xscale = "log", yscale = "log")
+    # plot_4.get_figure().savefig("plot_parser_pct_vs_size.png")
+
+    # Complex version with different groups
+    hs_df = df[df["extension"] == ".hs"]
+    other_df = df[df["extension"] != ".hs"]
+
+    fig1, ax1 = plt.subplots()
+    ax1.scatter(hs_df["total_time"], hs_df["parser_time"],
+                c = "C0", marker = "o", alpha = 0.5, label = ".hs")
+    ax1.scatter(other_df["total_time"], other_df["parser_time"],
+                c = "C1", marker = "x", alpha = 0.5, label = "other")
+    ax1.set(xscale = "log", yscale = "log")
+    ax1.set(xlabel = "log Total time (ms)", ylabel = "log Parser time (ms)",
+            title = "Parser time vs Total time")
+    ax1.legend()
+    fig1.savefig("plot_parser_vs_total.png")
+
+    fig2, ax2 = plt.subplots()
+    ax2.scatter(hs_df["total_time"], hs_df["parser_percentage"],
+                c = "C0", marker = "o", alpha = 0.5, label = ".hs")
+    ax2.scatter(other_df["total_time"], other_df["parser_percentage"],
+                c = "C1", marker = "x", alpha = 0.5, label = "other")
+    ax2.set(xscale = "log", yscale = "log")
+    ax2.set(xlabel = "log Total time (ms)", ylabel = "log Parser percentage (%)",
+            title = "Parser percentage vs Total time")
+    ax2.legend()
+    fig2.savefig("plot_parser_pct_vs_total.png")
+
+    fig3, ax3 = plt.subplots()
+    ax3.scatter(hs_df["size"], hs_df["parser_time"],
+                c = "C0", marker = "o", alpha = 0.5, label = ".hs")
+    ax3.scatter(other_df["size"], other_df["parser_time"],
+                c = "C1", marker = "x", alpha = 0.5, label = "other")
+    ax3.set(xscale = "log", yscale = "log")
+    ax3.set(xlabel = "log Size (bytes)", ylabel = "log Parser time (ms)",
+            title = "Parser time vs Size")
+    ax3.legend()
+    fig3.savefig("plot_parser_vs_size.png")
+
+    fig4, ax4 = plt.subplots()
+    ax4.scatter(hs_df["size"], hs_df["parser_percentage"],
+                c = "C0", marker = "o", alpha = 0.5, label = ".hs")
+    ax4.scatter(other_df["size"], other_df["parser_percentage"],
+                c = "C1", marker = "x", alpha = 0.5, label = "other")
+    ax4.set(xscale = "log", yscale = "log")
+    ax4.set(xlabel = "log Size (bytes)", ylabel = "log Parser percentage (%)",
+            title = "Parser percentage vs Size")
+    ax4.legend()
+    fig4.savefig("plot_parser_pct_vs_size.png")
 
 
 if __name__ == "__main__":
