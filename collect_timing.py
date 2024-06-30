@@ -8,7 +8,17 @@ import matplotlib.pyplot as plt
 SAVE_PATH = "timing_data/"
 SOURCES_PATH = "sources/"
 COMBINED_CSV = "combined_stats.csv"
-   
+
+# Colorblind-friendly colors
+CF_red = (204/255, 121/255, 167/255)
+CF_vermillion = (213/255, 94/255, 0)
+CF_orange = (230/255, 159/255, 0)
+CF_yellow = (240/255, 228/255, 66/255)
+CF_green = (0, 158/255, 115/255)
+CF_sky = (86/255, 180/255, 233/255)
+CF_blue = (0, 114/255, 178/255)
+CF_black = (0, 0, 0)
+
 
 def read_json_file(file):
     with open(file) as f:
@@ -199,45 +209,49 @@ def make_plots():
 
     fig1, ax1 = plt.subplots()
     ax1.scatter(hs_df["total_time"], hs_df["parser_time"],
-                c = "C0", marker = "o", alpha = 0.5, label = ".hs")
+                color = CF_blue, marker = "o", alpha = 0.5, label = ".hs")
     ax1.scatter(other_df["total_time"], other_df["parser_time"],
-                c = "C1", marker = "x", alpha = 0.5, label = "other")
+                color = CF_vermillion, marker = "X", alpha = 0.5, label = "other")
     ax1.set(xscale = "log", yscale = "log")
-    ax1.set(xlabel = "log Total time (ms)", ylabel = "log Parser time (ms)",
+    ax1.grid(linestyle = "--", linewidth = 0.5)
+    ax1.set(xlabel = "Total time (ms)", ylabel = "Parser time (ms)",
             title = "Parser time vs Total time")
     ax1.legend()
     fig1.savefig("plot_parser_vs_total.png")
 
     fig2, ax2 = plt.subplots()
     ax2.scatter(hs_df["total_time"], hs_df["parser_percentage"],
-                c = "C0", marker = "o", alpha = 0.5, label = ".hs")
+                color = CF_blue, marker = "o", alpha = 0.5, label = ".hs")
     ax2.scatter(other_df["total_time"], other_df["parser_percentage"],
-                c = "C1", marker = "x", alpha = 0.5, label = "other")
+                color = CF_vermillion, marker = "X", alpha = 0.5, label = "other")
     ax2.set(xscale = "log", yscale = "log")
-    ax2.set(xlabel = "log Total time (ms)", ylabel = "log Parser percentage (%)",
-            title = "Parser percentage vs Total time")
+    ax2.grid(linestyle = "--", linewidth = 0.5)
+    ax2.set(xlabel = "Total time (ms)", ylabel = "Percentage of time spent on parsing (%)",
+            title = "Percentage of time spent on parsing vs Total time")
     ax2.legend()
     fig2.savefig("plot_parser_pct_vs_total.png")
 
     fig3, ax3 = plt.subplots()
     ax3.scatter(hs_df["size"], hs_df["parser_time"],
-                c = "C0", marker = "o", alpha = 0.5, label = ".hs")
+                color = CF_blue, marker = "o", alpha = 0.5, label = ".hs")
     ax3.scatter(other_df["size"], other_df["parser_time"],
-                c = "C1", marker = "x", alpha = 0.5, label = "other")
+                color = CF_vermillion, marker = "X", alpha = 0.5, label = "other")
     ax3.set(xscale = "log", yscale = "log")
-    ax3.set(xlabel = "log Size (bytes)", ylabel = "log Parser time (ms)",
+    ax3.grid(linestyle = "--", linewidth = 0.5)
+    ax3.set(xlabel = "Size (bytes)", ylabel = "Parser time (ms)",
             title = "Parser time vs Size")
     ax3.legend()
     fig3.savefig("plot_parser_vs_size.png")
 
     fig4, ax4 = plt.subplots()
     ax4.scatter(hs_df["size"], hs_df["parser_percentage"],
-                c = "C0", marker = "o", alpha = 0.5, label = ".hs")
+                color = CF_blue, marker = "o", alpha = 0.5, label = ".hs")
     ax4.scatter(other_df["size"], other_df["parser_percentage"],
-                c = "C1", marker = "x", alpha = 0.5, label = "other")
+                color = CF_vermillion, marker = "X", alpha = 0.5, label = "other")
     ax4.set(xscale = "log", yscale = "log")
-    ax4.set(xlabel = "log Size (bytes)", ylabel = "log Parser percentage (%)",
-            title = "Parser percentage vs Size")
+    ax4.grid(linestyle = "--", linewidth = 0.5)
+    ax4.set(xlabel = "Size (bytes)", ylabel = "Percentage of time spent on parsing (%)",
+            title = "Percentage of time spent on parsing vs Size")
     ax4.legend()
     fig4.savefig("plot_parser_pct_vs_size.png")
 
