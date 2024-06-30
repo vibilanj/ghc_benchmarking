@@ -164,46 +164,6 @@ def clean_combined_file():
 
 def make_plots():
     df = pd.read_csv("cleaned_stats.csv")
-
-    # Simple version 
-    # df["color"] = df["extension"].apply(lambda x: "C0" if x == ".hs" else "C1")
-    # plot_1 = df.plot.scatter(
-    #     x = "total_time", y = "parser_time",
-    #     c = "color", alpha = 0.5,
-    #     xlabel = "log Total time (ms)",
-    #     ylabel = "log Parser time (ms)",
-    #     title = "Parser time vs Total time")
-    # plot_1.set(xscale = "log", yscale = "log")
-    # plot_1.get_figure().savefig("plot_parser_vs_total.png")
-
-    # plot_2 = df.plot.scatter(
-    #     x = "total_time", y = "parser_percentage",
-    #     c = "color", alpha = 0.5,
-    #     xlabel = "log Total time (ms)",
-    #     ylabel = "log Parser percentage (%)",
-    #     title = "Parser percentage vs Total time")
-    # plot_2.set(xscale = "log", yscale = "log")
-    # plot_2.get_figure().savefig("plot_parser_pct_vs_total.png")
-
-    # plot_3 = df.plot.scatter(
-    #     x = "size", y = "parser_time",
-    #     c = "color", alpha = 0.5,
-    #     xlabel = "log Size (bytes)",
-    #     ylabel = "log Parser time (ms)",
-    #     title = "Parser time vs Size")
-    # plot_3.set(xscale = "log", yscale = "log")
-    # plot_3.get_figure().savefig("plot_parser_vs_size.png")
-
-    # plot_4 = df.plot.scatter(
-    #     x = "size", y = "parser_percentage",
-    #     c = "color", alpha = 0.5,
-    #     xlabel = "log Size (bytes)",
-    #     ylabel = "log Parser percentage (%)",
-    #     title = "Parser percentage vs Size")
-    # plot_4.set(xscale = "log", yscale = "log")
-    # plot_4.get_figure().savefig("plot_parser_pct_vs_size.png")
-
-    # Complex version with different groups
     hs_df = df[df["extension"] == ".hs"]
     other_df = df[df["extension"] != ".hs"]
 
