@@ -1,8 +1,0 @@
-
-Package: directory-1.3.8.5
-Total time for package: 2348.0820000000003
-Total parser time for package: 27.928
-Percentage of total time spent in parser: 1.189396281731217
-Arithmetic mean of parser percentage: 9.277114373007697
-Geometric mean of parser percentage: 3.4385326708251283
-Size of package in bytes: 172116

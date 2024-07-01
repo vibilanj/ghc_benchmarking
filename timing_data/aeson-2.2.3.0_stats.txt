@@ -1,8 +1,0 @@
-
-Package: aeson-2.2.3.0
-Total time for package: 45860.486000000004
-Total parser time for package: 189.811
-Percentage of total time spent in parser: 0.4138878946899952
-Arithmetic mean of parser percentage: 3.953863652104121
-Geometric mean of parser percentage: 1.422900864219734
-Size of package in bytes: 449864

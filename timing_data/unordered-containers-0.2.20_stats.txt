@@ -1,8 +1,0 @@
-
-Package: unordered-containers-0.2.20
-Total time for package: 12258.995
-Total parser time for package: 69.073
-Percentage of total time spent in parser: 0.5634474930449028
-Arithmetic mean of parser percentage: 8.640661576270581
-Geometric mean of parser percentage: 2.369779816392022
-Size of package in bytes: 195763

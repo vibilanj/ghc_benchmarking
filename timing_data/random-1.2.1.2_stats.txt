@@ -1,8 +1,0 @@
-
-Package: random-1.2.1.2
-Total time for package: 9352.740999999998
-Total parser time for package: 36.333
-Percentage of total time spent in parser: 0.3884743520642773
-Arithmetic mean of parser percentage: 0.5442805803948776
-Geometric mean of parser percentage: 0.4205041703559797
-Size of package in bytes: 110842

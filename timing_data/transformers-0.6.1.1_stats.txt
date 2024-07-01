@@ -1,8 +1,0 @@
-
-Package: transformers-0.6.1.1
-Total time for package: 5718.877
-Total parser time for package: 74.325
-Percentage of total time spent in parser: 1.2996432691243403
-Arithmetic mean of parser percentage: 5.645179546493228
-Geometric mean of parser percentage: 2.3106101975435713
-Size of package in bytes: 193438

@@ -1,8 +1,0 @@
-
-Package: process-1.6.20.0
-Total time for package: 1340.5579999999998
-Total parser time for package: 22.447
-Percentage of total time spent in parser: 1.6744519819358805
-Arithmetic mean of parser percentage: 8.466484396446669
-Geometric mean of parser percentage: 3.5057901365648334
-Size of package in bytes: 94737

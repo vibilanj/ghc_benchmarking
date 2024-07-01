@@ -1,5 +1,0 @@
-package,module,total_time,parser_time,parser_percentage,size,extension
-random-1.2.1.2,System.Random,3368.2149999999997,7.524,0.22338241472115053,25859,.hs
-random-1.2.1.2,System.Random.GFinite,1755.7689999999998,4.094,0.2331741817972638,8693,.hs
-random-1.2.1.2,System.Random.Internal,3674.144,17.87,0.48637179163364314,48906,.hs
-random-1.2.1.2,System.Random.Stateful,554.6129999999999,6.845,1.2341939334274532,27384,.hs

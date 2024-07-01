@@ -1,0 +1,198 @@
+import textwrap
+import os
+import fnmatch
+import json5
+import pandas as pd
+import matplotlib.pyplot as plt
+
+from constants import SOURCES_DIR, TIMINGS_DIR
+MODULE_STATS_FILE = "module_stats.csv"
+PACKAGE_STATS_FILE = "package_stats.csv"
+
+# Colorblind-friendly colors
+CF_red = (204/255, 121/255, 167/255)
+CF_vermillion = (213/255, 94/255, 0)
+CF_orange = (230/255, 159/255, 0)
+CF_yellow = (240/255, 228/255, 66/255)
+CF_green = (0, 158/255, 115/255)
+CF_sky = (86/255, 180/255, 233/255)
+CF_blue = (0, 114/255, 178/255)
+CF_black = (0, 0, 0)
+
+
+def read_json_file(file):
+    with open(file) as f:
+        # json does not handle trailing commas in JSON files
+        return json5.load(f)
+
+
+def read_and_clean_timings(filename):
+    file_path = os.path.join(TIMINGS_DIR, filename)
+    data = read_json_file(file_path)
+    timings_df = pd.DataFrame(data["data"])
+
+    # Remove systool and hi/dyn_hi modules
+    timings_df = timings_df[~timings_df["module"].isin(["systool"]) & ~timings_df["module"].str.endswith(("hi", "dyn_hi"))]
+
+    package_name = filename.replace(".json", "")
+    timings_df.insert(0, "package", package_name)
+    timings_df.drop(["alloc"], axis = 1, inplace = True)
+
+    output_file = os.path.join(TIMINGS_DIR, f"{package_name}_timings.csv")
+    timings_df.to_csv(output_file, index = False)
+    return timings_df
+
+
+def get_size_and_extension(package, module):
+    package_path = os.path.join(SOURCES_DIR, package)
+    src_dirs = ["", "src", "lib"]
+
+    module_path_list = module.split(".")
+    module_path = os.path.join(*module_path_list[:-1]) if len(module_path_list) > 1 else ""
+    search_pattern = f"{module_path_list[-1]}.*"
+
+    for src_dir in src_dirs:
+        # Construct the search path for the module
+        search_path = os.path.join(package_path, src_dir, module_path)
+        if not os.path.isdir(search_path):
+            continue
+    
+        for root, _dirs, files in os.walk(search_path):
+            for name in files:
+                if fnmatch.fnmatch(name, search_pattern):
+                    file_path = os.path.join(root, name)
+                    size = os.path.getsize(file_path)
+                    extension = os.path.splitext(file_path)[1]
+                    return size, extension
+
+    print(f"Could not find file for module {module} in package {package}.")
+    return 0, ""
+
+# TODO: improve from here on down
+
+def compute_statistics(df):
+    if df.empty:
+        raise ValueError("Dataframe is empty.")
+
+    module_stats = []
+    modules = df["module"].unique()
+    package_name = df["package"].iloc[0]
+
+    for module in modules:
+        module_size, module_extension = get_size_and_extension(package_name, module)
+        if module_size == 0 and module_extension == "":
+            continue
+
+        total_time = df[df["module"] == module]["time"].sum()
+        parser_time = df[(df["module"] == module) & (df["phase"] == "Parser")]["time"].sum()
+        parser_percentage = (parser_time / total_time) * 100
+        
+        stats = {
+            "module": module,
+            "total_time": total_time,
+            "parser_time": parser_time,
+            "parser_percentage": parser_percentage,
+            "size": module_size,
+            "extension": module_extension
+        }
+        module_stats.append(stats)
+
+    module_stats_df = pd.DataFrame(module_stats)
+    module_stats_df.insert(0, "package", package_name)
+
+    package_total_time = module_stats_df["total_time"].sum()
+    package_parser_time = module_stats_df["parser_time"].sum()
+    package_parser_percentage = (package_parser_time / package_total_time) * 100
+    average_parser_percentage = module_stats_df["parser_percentage"].mean()
+    geomean_parser_percentage = module_stats_df["parser_percentage"].prod() ** (1 / len(module_stats_df))
+    package_size = module_stats_df["size"].sum()
+    
+    package_stats = {
+        "package": [package_name],
+        "total_time": [package_total_time],
+        "parser_time": [package_parser_time],
+        "parser_percentage": [package_parser_percentage],
+        "average_parser_percentage": [average_parser_percentage],
+        "geomean_parser_percentage": [geomean_parser_percentage],
+        "size": [package_size]
+    }
+    package_stats_df = pd.DataFrame(package_stats)
+
+    return module_stats_df, package_stats_df
+
+
+def calculate_statistics_for_packages(files):
+    all_module_stats = []
+    all_package_stats = []
+
+    for file in files:
+        timings_df = read_and_clean_timings(file)
+        module_stats_df, package_stats_df = compute_statistics(timings_df)
+        
+        all_module_stats.append(module_stats_df)
+        all_package_stats.append(package_stats_df)
+
+    all_module_stats_df = pd.concat(all_module_stats, ignore_index = True)
+    all_package_stats_df = pd.concat(all_package_stats, ignore_index = True)
+
+    all_module_stats_df.to_csv(MODULE_STATS_FILE, index = False)
+    all_package_stats_df.to_csv(PACKAGE_STATS_FILE, index = False)
+
+
+def make_plots():
+    df = pd.read_csv(MODULE_STATS_FILE)
+    hs_df = df[df["extension"] == ".hs"]
+    other_df = df[df["extension"] != ".hs"]
+
+    fig1, ax1 = plt.subplots()
+    ax1.scatter(hs_df["total_time"], hs_df["parser_time"],
+                color = CF_blue, marker = "o", alpha = 0.5, label = ".hs")
+    ax1.scatter(other_df["total_time"], other_df["parser_time"],
+                color = CF_vermillion, marker = "X", alpha = 0.5, label = "other")
+    ax1.set(xscale = "log", yscale = "log")
+    ax1.grid(linestyle = "--", linewidth = 0.5)
+    ax1.set(xlabel = "Total time (ms)", ylabel = "Parser time (ms)",
+            title = "Parser time vs Total time")
+    ax1.legend()
+    fig1.savefig("plot_parser_vs_total.png")
+
+    fig2, ax2 = plt.subplots()
+    ax2.scatter(hs_df["total_time"], hs_df["parser_percentage"],
+                color = CF_blue, marker = "o", alpha = 0.5, label = ".hs")
+    ax2.scatter(other_df["total_time"], other_df["parser_percentage"],
+                color = CF_vermillion, marker = "X", alpha = 0.5, label = "other")
+    ax2.set(xscale = "log", yscale = "log")
+    ax2.grid(linestyle = "--", linewidth = 0.5)
+    ax2.set(xlabel = "Total time (ms)", ylabel = "Percentage of time spent on parsing (%)",
+            title = "Percentage of time spent on parsing vs Total time")
+    ax2.legend()
+    fig2.savefig("plot_parser_pct_vs_total.png")
+
+    fig3, ax3 = plt.subplots()
+    ax3.scatter(hs_df["size"], hs_df["parser_time"],
+                color = CF_blue, marker = "o", alpha = 0.5, label = ".hs")
+    ax3.scatter(other_df["size"], other_df["parser_time"],
+                color = CF_vermillion, marker = "X", alpha = 0.5, label = "other")
+    ax3.set(xscale = "log", yscale = "log")
+    ax3.grid(linestyle = "--", linewidth = 0.5)
+    ax3.set(xlabel = "Size (bytes)", ylabel = "Parser time (ms)",
+            title = "Parser time vs Size")
+    ax3.legend()
+    fig3.savefig("plot_parser_vs_size.png")
+
+    fig4, ax4 = plt.subplots()
+    ax4.scatter(hs_df["size"], hs_df["parser_percentage"],
+                color = CF_blue, marker = "o", alpha = 0.5, label = ".hs")
+    ax4.scatter(other_df["size"], other_df["parser_percentage"],
+                color = CF_vermillion, marker = "X", alpha = 0.5, label = "other")
+    ax4.set(xscale = "log", yscale = "log")
+    ax4.grid(linestyle = "--", linewidth = 0.5)
+    ax4.set(xlabel = "Size (bytes)", ylabel = "Percentage of time spent on parsing (%)",
+            title = "Percentage of time spent on parsing vs Size")
+    ax4.legend()
+    fig4.savefig("plot_parser_pct_vs_size.png")
+
+
+if __name__ == "__main__":
+    # pass
+    get_size_and_extension("hashable-1.4.7.0", "Data.Hashable")

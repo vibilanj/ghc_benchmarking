@@ -1,0 +1,181 @@
+package,module,phase,time
+hashable-1.4.7.0,Data.Hashable,Called arity analysis,0.009
+hashable-1.4.7.0,Data.Hashable,CodeGen,1.055
+hashable-1.4.7.0,Data.Hashable,Common sub-expression,0.01
+hashable-1.4.7.0,Data.Hashable,Constructed Product Result analysis,0.011
+hashable-1.4.7.0,Data.Hashable,CorePrep,0.07500000000000001
+hashable-1.4.7.0,Data.Hashable,CoreTidy,0.094
+hashable-1.4.7.0,Data.Hashable,CoreToStg,0.116
+hashable-1.4.7.0,Data.Hashable,Demand analysis,0.046
+hashable-1.4.7.0,Data.Hashable,Desugar,0.032
+hashable-1.4.7.0,Data.Hashable,Exitification transformation,0.025
+hashable-1.4.7.0,Data.Hashable,Float inwards,0.018
+hashable-1.4.7.0,Data.Hashable,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.046
+hashable-1.4.7.0,Data.Hashable,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.026
+hashable-1.4.7.0,Data.Hashable,Parser,0.53
+hashable-1.4.7.0,Data.Hashable,Renamer/typechecker,0.49
+hashable-1.4.7.0,Data.Hashable,Simplifier,0.34700000000000003
+hashable-1.4.7.0,Data.Hashable,Specialise,0.019
+hashable-1.4.7.0,Data.Hashable,Worker Wrapper binds,0.013
+hashable-1.4.7.0,Data.Hashable.Class,Called arity analysis,0.028
+hashable-1.4.7.0,Data.Hashable.Class,CodeGen,454.75199999999995
+hashable-1.4.7.0,Data.Hashable.Class,Common sub-expression,0.014
+hashable-1.4.7.0,Data.Hashable.Class,Constructed Product Result analysis,1.726
+hashable-1.4.7.0,Data.Hashable.Class,CorePrep,91.77099999999999
+hashable-1.4.7.0,Data.Hashable.Class,CoreTidy,15.851
+hashable-1.4.7.0,Data.Hashable.Class,CoreToStg,56.346000000000004
+hashable-1.4.7.0,Data.Hashable.Class,Demand analysis,32.653999999999996
+hashable-1.4.7.0,Data.Hashable.Class,Desugar,12.571
+hashable-1.4.7.0,Data.Hashable.Class,Exitification transformation,0.014
+hashable-1.4.7.0,Data.Hashable.Class,Float inwards,0.026000000000000002
+hashable-1.4.7.0,Data.Hashable.Class,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",24.824
+hashable-1.4.7.0,Data.Hashable.Class,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",35.041
+hashable-1.4.7.0,Data.Hashable.Class,Parser,12.567
+hashable-1.4.7.0,Data.Hashable.Class,Renamer/typechecker,193.581
+hashable-1.4.7.0,Data.Hashable.Class,Simplifier,884.078
+hashable-1.4.7.0,Data.Hashable.Class,Specialise,3.389
+hashable-1.4.7.0,Data.Hashable.Class,Worker Wrapper binds,1.604
+hashable-1.4.7.0,Data.Hashable.FFI,Called arity analysis,0.009
+hashable-1.4.7.0,Data.Hashable.FFI,CodeGen,41.945
+hashable-1.4.7.0,Data.Hashable.FFI,Common sub-expression,0.013
+hashable-1.4.7.0,Data.Hashable.FFI,Constructed Product Result analysis,0.084
+hashable-1.4.7.0,Data.Hashable.FFI,CorePrep,0.7729999999999999
+hashable-1.4.7.0,Data.Hashable.FFI,CoreTidy,0.414
+hashable-1.4.7.0,Data.Hashable.FFI,CoreToStg,0.8460000000000001
+hashable-1.4.7.0,Data.Hashable.FFI,Demand analysis,0.45099999999999996
+hashable-1.4.7.0,Data.Hashable.FFI,Desugar,0.113
+hashable-1.4.7.0,Data.Hashable.FFI,Exitification transformation,0.013
+hashable-1.4.7.0,Data.Hashable.FFI,Float inwards,0.025
+hashable-1.4.7.0,Data.Hashable.FFI,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.363
+hashable-1.4.7.0,Data.Hashable.FFI,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.551
+hashable-1.4.7.0,Data.Hashable.FFI,Parser,0.633
+hashable-1.4.7.0,Data.Hashable.FFI,Renamer/typechecker,18.56
+hashable-1.4.7.0,Data.Hashable.FFI,Simplifier,7.688
+hashable-1.4.7.0,Data.Hashable.FFI,Specialise,0.082
+hashable-1.4.7.0,Data.Hashable.FFI,Worker Wrapper binds,0.019
+hashable-1.4.7.0,Data.Hashable.Generic,Called arity analysis,0.015
+hashable-1.4.7.0,Data.Hashable.Generic,CodeGen,0.866
+hashable-1.4.7.0,Data.Hashable.Generic,Common sub-expression,0.017
+hashable-1.4.7.0,Data.Hashable.Generic,Constructed Product Result analysis,0.012
+hashable-1.4.7.0,Data.Hashable.Generic,CorePrep,0.073
+hashable-1.4.7.0,Data.Hashable.Generic,CoreTidy,0.064
+hashable-1.4.7.0,Data.Hashable.Generic,CoreToStg,0.098
+hashable-1.4.7.0,Data.Hashable.Generic,Demand analysis,0.052000000000000005
+hashable-1.4.7.0,Data.Hashable.Generic,Desugar,0.035
+hashable-1.4.7.0,Data.Hashable.Generic,Exitification transformation,0.01
+hashable-1.4.7.0,Data.Hashable.Generic,Float inwards,0.025
+hashable-1.4.7.0,Data.Hashable.Generic,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.084
+hashable-1.4.7.0,Data.Hashable.Generic,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.036
+hashable-1.4.7.0,Data.Hashable.Generic,Parser,0.195
+hashable-1.4.7.0,Data.Hashable.Generic,Renamer/typechecker,0.523
+hashable-1.4.7.0,Data.Hashable.Generic,Simplifier,0.502
+hashable-1.4.7.0,Data.Hashable.Generic,Specialise,0.027
+hashable-1.4.7.0,Data.Hashable.Generic,Worker Wrapper binds,0.011
+hashable-1.4.7.0,Data.Hashable.Generic.Instances,Called arity analysis,0.011
+hashable-1.4.7.0,Data.Hashable.Generic.Instances,CodeGen,27.040999999999997
+hashable-1.4.7.0,Data.Hashable.Generic.Instances,Common sub-expression,0.014
+hashable-1.4.7.0,Data.Hashable.Generic.Instances,Constructed Product Result analysis,0.161
+hashable-1.4.7.0,Data.Hashable.Generic.Instances,CorePrep,0.8200000000000001
+hashable-1.4.7.0,Data.Hashable.Generic.Instances,CoreTidy,0.752
+hashable-1.4.7.0,Data.Hashable.Generic.Instances,CoreToStg,1.4220000000000002
+hashable-1.4.7.0,Data.Hashable.Generic.Instances,Demand analysis,1.18
+hashable-1.4.7.0,Data.Hashable.Generic.Instances,Desugar,0.624
+hashable-1.4.7.0,Data.Hashable.Generic.Instances,Exitification transformation,0.012
+hashable-1.4.7.0,Data.Hashable.Generic.Instances,Float inwards,0.020999999999999998
+hashable-1.4.7.0,Data.Hashable.Generic.Instances,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.085
+hashable-1.4.7.0,Data.Hashable.Generic.Instances,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.864
+hashable-1.4.7.0,Data.Hashable.Generic.Instances,Parser,1.206
+hashable-1.4.7.0,Data.Hashable.Generic.Instances,Renamer/typechecker,6.636
+hashable-1.4.7.0,Data.Hashable.Generic.Instances,Simplifier,16.242
+hashable-1.4.7.0,Data.Hashable.Generic.Instances,Specialise,0.203
+hashable-1.4.7.0,Data.Hashable.Generic.Instances,Worker Wrapper binds,0.207
+hashable-1.4.7.0,Data.Hashable.Imports,Called arity analysis,0.013
+hashable-1.4.7.0,Data.Hashable.Imports,CodeGen,1.097
+hashable-1.4.7.0,Data.Hashable.Imports,Common sub-expression,0.013
+hashable-1.4.7.0,Data.Hashable.Imports,Constructed Product Result analysis,0.023
+hashable-1.4.7.0,Data.Hashable.Imports,CorePrep,0.066
+hashable-1.4.7.0,Data.Hashable.Imports,CoreTidy,0.059
+hashable-1.4.7.0,Data.Hashable.Imports,CoreToStg,0.134
+hashable-1.4.7.0,Data.Hashable.Imports,Demand analysis,0.063
+hashable-1.4.7.0,Data.Hashable.Imports,Desugar,0.039
+hashable-1.4.7.0,Data.Hashable.Imports,Exitification transformation,0.011
+hashable-1.4.7.0,Data.Hashable.Imports,Float inwards,0.032
+hashable-1.4.7.0,Data.Hashable.Imports,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.047
+hashable-1.4.7.0,Data.Hashable.Imports,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.049
+hashable-1.4.7.0,Data.Hashable.Imports,Parser,0.256
+hashable-1.4.7.0,Data.Hashable.Imports,Renamer/typechecker,1.11
+hashable-1.4.7.0,Data.Hashable.Imports,Simplifier,0.45
+hashable-1.4.7.0,Data.Hashable.Imports,Specialise,0.036
+hashable-1.4.7.0,Data.Hashable.Imports,Worker Wrapper binds,0.012
+hashable-1.4.7.0,Data.Hashable.Lifted,Called arity analysis,0.011
+hashable-1.4.7.0,Data.Hashable.Lifted,CodeGen,0.865
+hashable-1.4.7.0,Data.Hashable.Lifted,Common sub-expression,0.028
+hashable-1.4.7.0,Data.Hashable.Lifted,Constructed Product Result analysis,0.012
+hashable-1.4.7.0,Data.Hashable.Lifted,CorePrep,0.066
+hashable-1.4.7.0,Data.Hashable.Lifted,CoreTidy,0.056
+hashable-1.4.7.0,Data.Hashable.Lifted,CoreToStg,0.091
+hashable-1.4.7.0,Data.Hashable.Lifted,Demand analysis,0.053000000000000005
+hashable-1.4.7.0,Data.Hashable.Lifted,Desugar,0.045
+hashable-1.4.7.0,Data.Hashable.Lifted,Exitification transformation,0.009
+hashable-1.4.7.0,Data.Hashable.Lifted,Float inwards,0.018000000000000002
+hashable-1.4.7.0,Data.Hashable.Lifted,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.047
+hashable-1.4.7.0,Data.Hashable.Lifted,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.03
+hashable-1.4.7.0,Data.Hashable.Lifted,Parser,0.365
+hashable-1.4.7.0,Data.Hashable.Lifted,Renamer/typechecker,0.578
+hashable-1.4.7.0,Data.Hashable.Lifted,Simplifier,0.416
+hashable-1.4.7.0,Data.Hashable.Lifted,Specialise,0.02
+hashable-1.4.7.0,Data.Hashable.Lifted,Worker Wrapper binds,0.013
+hashable-1.4.7.0,Data.Hashable.LowLevel,Called arity analysis,0.012
+hashable-1.4.7.0,Data.Hashable.LowLevel,CodeGen,8.372
+hashable-1.4.7.0,Data.Hashable.LowLevel,Common sub-expression,0.01
+hashable-1.4.7.0,Data.Hashable.LowLevel,Constructed Product Result analysis,0.068
+hashable-1.4.7.0,Data.Hashable.LowLevel,CorePrep,0.453
+hashable-1.4.7.0,Data.Hashable.LowLevel,CoreTidy,0.266
+hashable-1.4.7.0,Data.Hashable.LowLevel,CoreToStg,0.97
+hashable-1.4.7.0,Data.Hashable.LowLevel,Demand analysis,0.394
+hashable-1.4.7.0,Data.Hashable.LowLevel,Desugar,0.3
+hashable-1.4.7.0,Data.Hashable.LowLevel,Exitification transformation,0.011
+hashable-1.4.7.0,Data.Hashable.LowLevel,Float inwards,0.025
+hashable-1.4.7.0,Data.Hashable.LowLevel,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.404
+hashable-1.4.7.0,Data.Hashable.LowLevel,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.356
+hashable-1.4.7.0,Data.Hashable.LowLevel,Parser,2.025
+hashable-1.4.7.0,Data.Hashable.LowLevel,Renamer/typechecker,4.734
+hashable-1.4.7.0,Data.Hashable.LowLevel,Simplifier,11.887
+hashable-1.4.7.0,Data.Hashable.LowLevel,Specialise,0.107
+hashable-1.4.7.0,Data.Hashable.LowLevel,Worker Wrapper binds,0.1
+hashable-1.4.7.0,Data.Hashable.Mix,Called arity analysis,0.01
+hashable-1.4.7.0,Data.Hashable.Mix,CodeGen,3.4770000000000003
+hashable-1.4.7.0,Data.Hashable.Mix,Common sub-expression,0.01
+hashable-1.4.7.0,Data.Hashable.Mix,Constructed Product Result analysis,0.036
+hashable-1.4.7.0,Data.Hashable.Mix,CorePrep,0.19
+hashable-1.4.7.0,Data.Hashable.Mix,CoreTidy,0.103
+hashable-1.4.7.0,Data.Hashable.Mix,CoreToStg,0.374
+hashable-1.4.7.0,Data.Hashable.Mix,Demand analysis,0.145
+hashable-1.4.7.0,Data.Hashable.Mix,Desugar,0.51
+hashable-1.4.7.0,Data.Hashable.Mix,Exitification transformation,0.011
+hashable-1.4.7.0,Data.Hashable.Mix,Float inwards,0.017
+hashable-1.4.7.0,Data.Hashable.Mix,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.141
+hashable-1.4.7.0,Data.Hashable.Mix,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.118
+hashable-1.4.7.0,Data.Hashable.Mix,Parser,1.33
+hashable-1.4.7.0,Data.Hashable.Mix,Renamer/typechecker,7.756
+hashable-1.4.7.0,Data.Hashable.Mix,Simplifier,7.898
+hashable-1.4.7.0,Data.Hashable.Mix,Specialise,0.045
+hashable-1.4.7.0,Data.Hashable.Mix,Worker Wrapper binds,0.037
+hashable-1.4.7.0,Data.Hashable.XXH3,Called arity analysis,0.013
+hashable-1.4.7.0,Data.Hashable.XXH3,CodeGen,19.570999999999998
+hashable-1.4.7.0,Data.Hashable.XXH3,Common sub-expression,0.01
+hashable-1.4.7.0,Data.Hashable.XXH3,Constructed Product Result analysis,0.105
+hashable-1.4.7.0,Data.Hashable.XXH3,CorePrep,1.86
+hashable-1.4.7.0,Data.Hashable.XXH3,CoreTidy,0.584
+hashable-1.4.7.0,Data.Hashable.XXH3,CoreToStg,1.2730000000000001
+hashable-1.4.7.0,Data.Hashable.XXH3,Demand analysis,1.351
+hashable-1.4.7.0,Data.Hashable.XXH3,Desugar,0.629
+hashable-1.4.7.0,Data.Hashable.XXH3,Exitification transformation,0.016
+hashable-1.4.7.0,Data.Hashable.XXH3,Float inwards,0.020999999999999998
+hashable-1.4.7.0,Data.Hashable.XXH3,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.769
+hashable-1.4.7.0,Data.Hashable.XXH3,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.587
+hashable-1.4.7.0,Data.Hashable.XXH3,Parser,1.926
+hashable-1.4.7.0,Data.Hashable.XXH3,Renamer/typechecker,10.747
+hashable-1.4.7.0,Data.Hashable.XXH3,Simplifier,17.122
+hashable-1.4.7.0,Data.Hashable.XXH3,Specialise,0.136
+hashable-1.4.7.0,Data.Hashable.XXH3,Worker Wrapper binds,0.169
