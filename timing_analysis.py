@@ -5,19 +5,10 @@ import json5
 import pandas as pd
 import matplotlib.pyplot as plt
 
-from constants import SOURCES_DIR, TIMINGS_DIR
-MODULE_STATS_FILE = "module_stats.csv"
-PACKAGE_STATS_FILE = "package_stats.csv"
-
-# Colorblind-friendly colors
-CF_red = (204/255, 121/255, 167/255)
-CF_vermillion = (213/255, 94/255, 0)
-CF_orange = (230/255, 159/255, 0)
-CF_yellow = (240/255, 228/255, 66/255)
-CF_green = (0, 158/255, 115/255)
-CF_sky = (86/255, 180/255, 233/255)
-CF_blue = (0, 114/255, 178/255)
-CF_black = (0, 0, 0)
+from constants import (
+    SOURCES_DIR, TIMINGS_DIR, MODULE_STATS_FILE, PACKAGE_STATS_FILE,
+    CF_blue, CF_vermillion, CF_green
+)
 
 
 def read_json_file(file):
@@ -68,7 +59,6 @@ def get_size_and_extension(package, module):
     print(f"Could not find file for module {module} in package {package}.")
     return 0, ""
 
-# TODO: improve from here on down
 
 def compute_statistics(df):
     if df.empty:
@@ -78,6 +68,7 @@ def compute_statistics(df):
     modules = df["module"].unique()
     package_name = df["package"].iloc[0]
 
+    # Module stats
     for module in modules:
         module_size, module_extension = get_size_and_extension(package_name, module)
         if module_size == 0 and module_extension == "":
@@ -100,6 +91,7 @@ def compute_statistics(df):
     module_stats_df = pd.DataFrame(module_stats)
     module_stats_df.insert(0, "package", package_name)
 
+    # Package stats
     package_total_time = module_stats_df["total_time"].sum()
     package_parser_time = module_stats_df["parser_time"].sum()
     package_parser_percentage = (package_parser_time / package_total_time) * 100
@@ -128,71 +120,58 @@ def calculate_statistics_for_packages(files):
     for file in files:
         timings_df = read_and_clean_timings(file)
         module_stats_df, package_stats_df = compute_statistics(timings_df)
-        
         all_module_stats.append(module_stats_df)
         all_package_stats.append(package_stats_df)
 
     all_module_stats_df = pd.concat(all_module_stats, ignore_index = True)
-    all_package_stats_df = pd.concat(all_package_stats, ignore_index = True)
-
     all_module_stats_df.to_csv(MODULE_STATS_FILE, index = False)
+
+    all_package_stats_df = pd.concat(all_package_stats, ignore_index = True)
     all_package_stats_df.to_csv(PACKAGE_STATS_FILE, index = False)
 
 
-def make_plots():
+# TODO: move to constants later
+PLOT_STYLES = {
+    ".hs": {"color": CF_blue, "marker": "o"},
+    ".hsc": {"color": CF_green, "marker": "s"}
+    # "other": {"color": CF_vermillion, "marker": "X"}
+}
+DEFAULT_PLOT_STYLE = {"color": CF_vermillion, "marker": "X"}
+
+
+def plot_metric_vs_metric(df, x, y, xlabel, ylabel, title, filename):
+    fig, ax = plt.subplots()
+    for ext, ext_df in df.groupby("extension"):
+        style = PLOT_STYLES.get(ext, DEFAULT_PLOT_STYLE)
+        ax.scatter(ext_df[x], ext_df[y], alpha = 0.5, label = ext, **style)
+
+    ax.set(xscale = "log", yscale = "log")
+    ax.grid(linestyle = "--", linewidth = 0.5)
+    ax.set(xlabel = xlabel, ylabel = ylabel, title = title)
+    ax.legend()
+    fig.savefig(filename)
+
+
+def make_module_plots():
     df = pd.read_csv(MODULE_STATS_FILE)
-    hs_df = df[df["extension"] == ".hs"]
-    other_df = df[df["extension"] != ".hs"]
+    # TODO: uncomment to show all extensions but defaults to 'other' style
+    # df["extension"] = df["extension"].apply(lambda x: x if x in PLOT_STYLES else "other")
 
-    fig1, ax1 = plt.subplots()
-    ax1.scatter(hs_df["total_time"], hs_df["parser_time"],
-                color = CF_blue, marker = "o", alpha = 0.5, label = ".hs")
-    ax1.scatter(other_df["total_time"], other_df["parser_time"],
-                color = CF_vermillion, marker = "X", alpha = 0.5, label = "other")
-    ax1.set(xscale = "log", yscale = "log")
-    ax1.grid(linestyle = "--", linewidth = 0.5)
-    ax1.set(xlabel = "Total time (ms)", ylabel = "Parser time (ms)",
-            title = "Parser time vs Total time")
-    ax1.legend()
-    fig1.savefig("plot_parser_vs_total.png")
+    metrics = [
+        ("total_time", "parser_time", "Total time (ms)", "Parser time (ms)", "plot_parser_vs_total.png"),
+        ("total_time", "parser_percentage", "Total time (ms)", "Percentage of time spent on parsing (%)", "plot_parser_pct_vs_total.png"),
+        ("size", "parser_time", "Size (bytes)", "Parser time (ms)", "plot_parser_vs_size.png"),
+        ("size", "parser_percentage", "Size (bytes)", "Percentage of time spent on parsing (%)", "plot_parser_pct_vs_size.png")
+    ]
 
-    fig2, ax2 = plt.subplots()
-    ax2.scatter(hs_df["total_time"], hs_df["parser_percentage"],
-                color = CF_blue, marker = "o", alpha = 0.5, label = ".hs")
-    ax2.scatter(other_df["total_time"], other_df["parser_percentage"],
-                color = CF_vermillion, marker = "X", alpha = 0.5, label = "other")
-    ax2.set(xscale = "log", yscale = "log")
-    ax2.grid(linestyle = "--", linewidth = 0.5)
-    ax2.set(xlabel = "Total time (ms)", ylabel = "Percentage of time spent on parsing (%)",
-            title = "Percentage of time spent on parsing vs Total time")
-    ax2.legend()
-    fig2.savefig("plot_parser_pct_vs_total.png")
+    for x, y, xlabel, ylabel, filename in metrics:
+        plot_metric_vs_metric(df, x, y, xlabel, ylabel, f"{ylabel} vs {xlabel}", filename)
 
-    fig3, ax3 = plt.subplots()
-    ax3.scatter(hs_df["size"], hs_df["parser_time"],
-                color = CF_blue, marker = "o", alpha = 0.5, label = ".hs")
-    ax3.scatter(other_df["size"], other_df["parser_time"],
-                color = CF_vermillion, marker = "X", alpha = 0.5, label = "other")
-    ax3.set(xscale = "log", yscale = "log")
-    ax3.grid(linestyle = "--", linewidth = 0.5)
-    ax3.set(xlabel = "Size (bytes)", ylabel = "Parser time (ms)",
-            title = "Parser time vs Size")
-    ax3.legend()
-    fig3.savefig("plot_parser_vs_size.png")
 
-    fig4, ax4 = plt.subplots()
-    ax4.scatter(hs_df["size"], hs_df["parser_percentage"],
-                color = CF_blue, marker = "o", alpha = 0.5, label = ".hs")
-    ax4.scatter(other_df["size"], other_df["parser_percentage"],
-                color = CF_vermillion, marker = "X", alpha = 0.5, label = "other")
-    ax4.set(xscale = "log", yscale = "log")
-    ax4.grid(linestyle = "--", linewidth = 0.5)
-    ax4.set(xlabel = "Size (bytes)", ylabel = "Percentage of time spent on parsing (%)",
-            title = "Percentage of time spent on parsing vs Size")
-    ax4.legend()
-    fig4.savefig("plot_parser_pct_vs_size.png")
+def make_package_plots():
+    # TODO: implement
+    pass
 
 
 if __name__ == "__main__":
-    # pass
-    get_size_and_extension("hashable-1.4.7.0", "Data.Hashable")
+    pass
