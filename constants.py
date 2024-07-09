@@ -4,11 +4,16 @@ MODULE_STATS_FILE = "module_stats.csv"
 PACKAGE_STATS_FILE = "package_stats.csv"
 
 # Colorblind-friendly colors
-CF_red = (204/255, 121/255, 167/255)
-CF_vermillion = (213/255, 94/255, 0)
-CF_orange = (230/255, 159/255, 0)
-CF_yellow = (240/255, 228/255, 66/255)
-CF_green = (0, 158/255, 115/255)
-CF_sky = (86/255, 180/255, 233/255)
-CF_blue = (0, 114/255, 178/255)
-CF_black = (0, 0, 0)
+# SOURCE: https://gist.github.com/thriveth/8560036
+CB_colors = {
+    'blue':    '#377eb8', 
+    'orange':  '#ff7f00',
+    'green':   '#4daf4a',
+    'pink':    '#f781bf',
+    'brown':   '#a65628',
+    'purple':  '#984ea3',
+    'gray':    '#999999',
+    'red':     '#e41a1c',
+    'yellow':  '#dede00',
+    'black':   '#000000' # added this
+} 

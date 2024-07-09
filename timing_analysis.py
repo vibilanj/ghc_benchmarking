@@ -4,10 +4,11 @@ import fnmatch
 import json5
 import pandas as pd
 import matplotlib.pyplot as plt
+import numpy as np
 
 from constants import (
     SOURCES_DIR, TIMINGS_DIR, MODULE_STATS_FILE, PACKAGE_STATS_FILE,
-    CF_blue, CF_vermillion, CF_green
+    CB_colors 
 )
 
 
@@ -132,44 +133,72 @@ def calculate_statistics_for_packages(files):
 
 # TODO: move to constants later
 PLOT_STYLES = {
-    ".hs": {"color": CF_blue, "marker": "o"},
-    ".hsc": {"color": CF_green, "marker": "s"}
-    # "other": {"color": CF_vermillion, "marker": "X"}
+    ".hs": {"color": CB_colors["blue"], "marker": "o"},
+    ".hsc": {"color": CB_colors["green"], "marker": "s"}
 }
-DEFAULT_PLOT_STYLE = {"color": CF_vermillion, "marker": "X"}
+DEFAULT_PLOT_STYLE = {"color": CB_colors["red"], "marker": "X"}
 
 
-def plot_metric_vs_metric(df, x, y, xlabel, ylabel, title, filename):
+def plot_metric_vs_metric(df, x, y, xlabel, ylabel, title, filename, guide_pcts, log = True):
     fig, ax = plt.subplots()
     for ext, ext_df in df.groupby("extension"):
         style = PLOT_STYLES.get(ext, DEFAULT_PLOT_STYLE)
         ax.scatter(ext_df[x], ext_df[y], alpha = 0.5, label = ext, **style)
 
-    ax.set(xscale = "log", yscale = "log")
+    if log is True:
+        ax.set(xscale = "log", yscale = "log")
+
     ax.grid(linestyle = "--", linewidth = 0.5)
     ax.set(xlabel = xlabel, ylabel = ylabel, title = title)
+
+    # Percentage guide lines
+    x_vals = np.linspace(df[x].min(), df[x].max(), 100)
+    for pct in guide_pcts:
+        pct_vals = (pct / 100) * x_vals
+        ax.plot(x_vals, pct_vals, "--", color = CB_colors["black"], label = f"{pct}%")
+
+    # Fit a power-law relationship and plot it
+    log_x = np.log(df[x])
+    log_y = np.log(df[y])
+    b, log_a = np.polyfit(log_x, log_y, 1)  # Fit log(y) = b*log(x) + log(a)
+    a = np.exp(log_a)
+
+    x_vals = np.linspace(df[x].min(), df[x].max(), 100)
+    y_vals = a * x_vals**b
+    ax.plot(x_vals, y_vals, "--", color = CB_colors["red"], label=f"$y = {a:.5f}x^{{{b:.5f}}}$")
+
+
     ax.legend()
-    fig.savefig(filename)
+    if log is True:
+        filename = filename.replace(".pdf", "_log.pdf")
+    fig.savefig(filename, format = "pdf")
 
 
 def make_module_plots():
     df = pd.read_csv(MODULE_STATS_FILE)
-    # TODO: uncomment to show all extensions but defaults to 'other' style
-    # df["extension"] = df["extension"].apply(lambda x: x if x in PLOT_STYLES else "other")
+    # NOTE: comment/uncomment to show all / hide other extensions
+    df["extension"] = df["extension"].apply(lambda x: x if x in PLOT_STYLES else "other")
+
+    # NOTE: Rescaling times from milliseconds to seconds
+    df["total_time"] = df["total_time"] / 1000
+    df["parser_time"] = df["parser_time"] / 1000
 
     metrics = [
-        ("total_time", "parser_time", "Total time (ms)", "Parser time (ms)", "plot_parser_vs_total.png"),
-        ("total_time", "parser_percentage", "Total time (ms)", "Percentage of time spent on parsing (%)", "plot_parser_pct_vs_total.png"),
-        ("size", "parser_time", "Size (bytes)", "Parser time (ms)", "plot_parser_vs_size.png"),
-        ("size", "parser_percentage", "Size (bytes)", "Percentage of time spent on parsing (%)", "plot_parser_pct_vs_size.png")
+        ("total_time", "parser_time", "Total time (ms)", "Parser time (ms)", "plot_parser_vs_total.pdf", [1]),
+        ("total_time", "parser_percentage", "Total time (ms)", "Percentage of time spent on parsing (%)", "plot_parser_pct_vs_total.pdf", []),
+        ("size", "parser_time", "Size (bytes)", "Parser time (ms)", "plot_parser_vs_size.pdf", [0.0001]),
+        ("size", "parser_percentage", "Size (bytes)", "Percentage of time spent on parsing (%)", "plot_parser_pct_vs_size.pdf", []),
     ]
 
-    for x, y, xlabel, ylabel, filename in metrics:
-        plot_metric_vs_metric(df, x, y, xlabel, ylabel, f"{ylabel} vs {xlabel}", filename)
+    for x, y, xlabel, ylabel, filename, guide_pcts in metrics:
+        plot_metric_vs_metric(df, x, y, xlabel, ylabel, f"{ylabel} vs {xlabel}",
+                              filename, guide_pcts)
+        plot_metric_vs_metric(df, x, y, xlabel, ylabel, f"{ylabel} vs {xlabel}",
+                              filename, guide_pcts, log = False)
 
 
 def make_package_plots():
-    # TODO: implement
+    # TODO: implement based on requirements
     pass
 
 
