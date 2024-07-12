@@ -5,7 +5,7 @@ PACKAGE_STATS_FILE = "package_stats.csv"
 
 # Colorblind-friendly colors
 # SOURCE: https://gist.github.com/thriveth/8560036
-CB_colors = {
+CB_COLORS = {
     'blue':    '#377eb8', 
     'orange':  '#ff7f00',
     'green':   '#4daf4a',
@@ -16,4 +16,11 @@ CB_colors = {
     'red':     '#e41a1c',
     'yellow':  '#dede00',
     'black':   '#000000' # added this
-} 
+}
+
+# Plotting styles
+PLOT_STYLES = {
+    ".hs": {"color": CB_COLORS["blue"], "marker": "o"},
+    ".hsc": {"color": CB_COLORS["green"], "marker": "s"}
+}
+DEFAULT_PLOT_STYLE = {"color": CB_COLORS["red"], "marker": "X"}

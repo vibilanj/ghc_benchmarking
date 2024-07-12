@@ -8,7 +8,7 @@ import numpy as np
 
 from constants import (
     SOURCES_DIR, TIMINGS_DIR, MODULE_STATS_FILE, PACKAGE_STATS_FILE,
-    CB_colors 
+    CB_COLORS, PLOT_STYLES, DEFAULT_PLOT_STYLE
 )
 
 
@@ -131,21 +131,11 @@ def calculate_statistics_for_packages(files):
     all_package_stats_df.to_csv(PACKAGE_STATS_FILE, index = False)
 
 
-# TODO: move to constants later
-PLOT_STYLES = {
-    ".hs": {"color": CB_colors["blue"], "marker": "o"},
-    ".hsc": {"color": CB_colors["green"], "marker": "s"}
-}
-DEFAULT_PLOT_STYLE = {"color": CB_colors["red"], "marker": "X"}
-
-
 def plot_metric_vs_metric(df, x, y, xlabel, ylabel, title, filename, guide_pcts, guide_label, log = True):
     fig, ax = plt.subplots()
     for ext, ext_df in df.groupby("extension"):
         style = PLOT_STYLES.get(ext, DEFAULT_PLOT_STYLE)
         ax.scatter(ext_df[x], ext_df[y], alpha = 0.5, label = ext, **style)
-
-    # TODO: clamp axes to the scatter data so that the guide lines don't expand the axes
 
     if log is True:
         ax.set(xscale = "log", yscale = "log")
@@ -153,12 +143,24 @@ def plot_metric_vs_metric(df, x, y, xlabel, ylabel, title, filename, guide_pcts,
     ax.grid(linestyle = "--", linewidth = 0.5)
     ax.set(xlabel = xlabel, ylabel = ylabel, title = title)
 
+    # Clamping axes to the data
+    ax.set_xlim(ax.get_xlim())
+    ax.set_ylim(ax.get_ylim())
+
     # Percentage guide lines
     x_vals = np.linspace(df[x].min(), df[x].max(), 100)
-    for pct in guide_pcts:
+    for idx, pct in enumerate(guide_pcts):
         pct_vals = (pct / 100) * x_vals
-        ax.plot(x_vals, pct_vals, "--", color = CB_colors["black"], label = f"{pct}{guide_label}")
-        # TODO: different colors or weights for different lines
+        linestyle = "-." if idx % 2 == 0 else ":"
+        ax.plot(x_vals, pct_vals, linestyle, color = CB_COLORS["black"], label = f"{pct}{guide_label}")
+        # TODO: different colors or weights for different lines: used alternating line styles for now
+
+    # Add horizontal lines for average and median for percentage plots
+    if y == "parser_percentage":
+        avg = df[y].mean()
+        median = df[y].median()
+        ax.axhline(y = avg, linestyle = "--", color = CB_COLORS["blue"], label = f"average ({avg:.3g})")
+        ax.axhline(y = median, linestyle = "--", color = CB_COLORS["green"], label = f"median ({median:.3g})")
 
     # Fits a power-law relationship and plot it
     log_x = np.log(df[x])
@@ -168,8 +170,10 @@ def plot_metric_vs_metric(df, x, y, xlabel, ylabel, title, filename, guide_pcts,
 
     x_vals = np.linspace(df[x].min(), df[x].max(), 100)
     y_vals = a_exp * x_vals**b
-    ax.plot(x_vals, y_vals, "--", color = CB_colors["red"], label=f"best-fit line $y = {a_exp:.3g}x^{{{b:.3g}}}$")
+    ax.plot(x_vals, y_vals, "--", color = CB_COLORS["red"],
+            label=f"best-fit line $y = {a_exp:.3g}x^{{{b:.3g}}}$")
 
+    # Adding legend and saving the plot as a PDF
     ax.legend(fontsize = "small")
     if log is True:
         filename = filename.replace(".", "_log.")
@@ -191,12 +195,10 @@ def make_module_plots():
         ("total_time", "parser_percentage", "Total time (s)", "Percentage of time spent on parsing (%)",
          "plot_parser_pct_vs_total.pdf", [], ""),
         ("size", "parser_time", "Size (bytes)", "Parser time (s)",
-         "plot_parser_vs_size.pdf", [1e-4], " seconds/byte"),
+         "plot_parser_vs_size.pdf", [1e-5, 1e-4, 1e-3], " seconds/byte"),
         ("size", "parser_percentage", "Size (bytes)", "Percentage of time spent on parsing (%)",
          "plot_parser_pct_vs_size.pdf", [], ""),
     ]
-
-    # TODO: for percentage plots, add the horizontal average and median lines
 
     for x, y, xlabel, ylabel, filename, guide_pcts, guide_label in metrics:
         plot_metric_vs_metric(df, x, y, xlabel, ylabel, f"{ylabel} vs {xlabel}",
