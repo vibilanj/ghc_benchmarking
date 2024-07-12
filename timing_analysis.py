@@ -2,13 +2,10 @@ import os
 import fnmatch
 import json5
 import pandas as pd
-import matplotlib.pyplot as plt
-import numpy as np
 
 from constants import (
-    SOURCES_DIR, TIMINGS_DIR, PLOTS_DIR,
+    SOURCES_DIR, TIMINGS_DIR,
     MODULE_STATS_FILE, PACKAGE_STATS_FILE,
-    CB_COLORS, PLOT_STYLES, DEFAULT_PLOT_STYLE
 )
 
 
@@ -129,94 +126,6 @@ def calculate_statistics_for_packages(files):
 
     all_package_stats_df = pd.concat(all_package_stats, ignore_index = True)
     all_package_stats_df.to_csv(PACKAGE_STATS_FILE, index = False)
-
-
-def plot_metric_vs_metric(df, x, y, xlabel, ylabel, title, filename, guide_pcts, guide_label, log = True):
-    fig, ax = plt.subplots()
-    for ext, ext_df in df.groupby("extension"):
-        style = PLOT_STYLES.get(ext, DEFAULT_PLOT_STYLE)
-        ax.scatter(ext_df[x], ext_df[y], alpha = 0.5, label = ext, **style)
-
-    if log is True:
-        ax.set(xscale = "log", yscale = "log")
-
-    ax.grid(linestyle = "--", linewidth = 0.5)
-    ax.set(xlabel = xlabel, ylabel = ylabel, title = title)
-
-    # Clamping axes to the data
-    ax.set_xlim(ax.get_xlim())
-    ax.set_ylim(ax.get_ylim())
-
-    # Percentage guide lines
-    x_vals = np.linspace(df[x].min(), df[x].max(), 100)
-    for idx, pct in enumerate(guide_pcts):
-        pct_vals = (pct / 100) * x_vals
-        linestyle = "-." if idx % 2 == 0 else ":"
-        ax.plot(x_vals, pct_vals, linestyle, color = CB_COLORS["black"], label = f"{pct}{guide_label}")
-        # TODO: different colors or weights for different lines: used alternating line styles for now
-
-    # Add horizontal lines for average and median for percentage plots
-    if y == "parser_percentage":
-        avg = df[y].mean()
-        median = df[y].median()
-        ax.axhline(y = avg, linestyle = "--", color = CB_COLORS["blue"], label = f"average ({avg:.3g})")
-        ax.axhline(y = median, linestyle = "--", color = CB_COLORS["green"], label = f"median ({median:.3g})")
-
-    # Fits a power-law relationship and plot it
-    log_x = np.log(df[x])
-    log_y = np.log(df[y])
-    b, a = np.polyfit(log_x, log_y, 1)  # Fit log(y) = b * log(x) + a
-    a_exp = np.exp(a)
-
-    x_vals = np.linspace(df[x].min(), df[x].max(), 100)
-    y_vals = a_exp * x_vals**b
-    ax.plot(x_vals, y_vals, "--", color = CB_COLORS["red"],
-            label=f"best-fit line $y = {a_exp:.3g}x^{{{b:.3g}}}$")
-
-    # Adding legend and saving the plot as a PDF
-    ax.legend(fontsize = "small")
-    if log is True:
-        filename = filename.replace(".", "_log.")
-    fig.savefig(os.path.join(PLOTS_DIR, filename), format = "pdf")
-
-
-def make_module_plots():
-    os.makedirs(PLOTS_DIR, exist_ok = True)
-
-    df = pd.read_csv(MODULE_STATS_FILE)
-    # NOTE: comment/uncomment to show all / hide other extensions
-    df["extension"] = df["extension"].apply(lambda x: x if x in PLOT_STYLES else "other")
-
-    # NOTE: Rescaling times from milliseconds to seconds
-    df["total_time"] = df["total_time"] / 1000
-    df["parser_time"] = df["parser_time"] / 1000
-
-    metrics = [
-        ("total_time", "parser_time", "Total time (s)", "Parser time (s)",
-         "plot_parser_vs_total.pdf", [0.1, 1, 10], "%"),
-        ("total_time", "parser_percentage", "Total time (s)", "Percentage of time spent on parsing (%)",
-         "plot_parser_pct_vs_total.pdf", [], ""),
-        ("size", "parser_time", "Size (bytes)", "Parser time (s)",
-         "plot_parser_vs_size.pdf", [1e-5, 1e-4, 1e-3], " seconds/byte"),
-        ("size", "parser_percentage", "Size (bytes)", "Percentage of time spent on parsing (%)",
-         "plot_parser_pct_vs_size.pdf", [], ""),
-    ]
-
-    for x, y, xlabel, ylabel, filename, guide_pcts, guide_label in metrics:
-        plot_metric_vs_metric(df, x, y, xlabel, ylabel, f"{ylabel} vs {xlabel}",
-                              filename, guide_pcts, guide_label)
-        plot_metric_vs_metric(df, x, y, xlabel, ylabel, f"{ylabel} vs {xlabel}",
-                              filename, guide_pcts, guide_label, log = False)
-
-
-def make_package_plots():
-    os.makedirs(PLOTS_DIR, exist_ok = True)
-
-
-    # TODO: Make four plots: x-axis as total time / size, y-axis as parser time / parser percentage (not average or geomean)
-    # TODO: Add average and median of the y-axis as a horizontal line for percentage plots
-    # TODO: Make final plot with final aggregated data point with total parser time / total time for all packages
-    pass
 
 
 if __name__ == "__main__":

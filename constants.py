@@ -1,6 +1,7 @@
 SOURCES_DIR = "sources"
 TIMINGS_DIR = "timing_data"
 PLOTS_DIR = "plots"
+
 MODULE_STATS_FILE = "module_stats.csv"
 PACKAGE_STATS_FILE = "package_stats.csv"
 
@@ -25,3 +26,5 @@ PLOT_STYLES = {
     ".hsc": {"color": CB_COLORS["green"], "marker": "s"}
 }
 DEFAULT_PLOT_STYLE = {"color": CB_COLORS["red"], "marker": "X"}
+
+PACKAGE_STYLE = {"alpha": 0.5, "color": CB_COLORS["blue"], "marker": "o"}
