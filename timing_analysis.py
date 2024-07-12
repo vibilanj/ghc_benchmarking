@@ -1,4 +1,3 @@
-import textwrap
 import os
 import fnmatch
 import json5
@@ -7,7 +6,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 from constants import (
-    SOURCES_DIR, TIMINGS_DIR, MODULE_STATS_FILE, PACKAGE_STATS_FILE,
+    SOURCES_DIR, TIMINGS_DIR, PLOTS_DIR,
+    MODULE_STATS_FILE, PACKAGE_STATS_FILE,
     CB_COLORS, PLOT_STYLES, DEFAULT_PLOT_STYLE
 )
 
@@ -177,10 +177,12 @@ def plot_metric_vs_metric(df, x, y, xlabel, ylabel, title, filename, guide_pcts,
     ax.legend(fontsize = "small")
     if log is True:
         filename = filename.replace(".", "_log.")
-    fig.savefig(filename, format = "pdf")
+    fig.savefig(os.path.join(PLOTS_DIR, filename), format = "pdf")
 
 
 def make_module_plots():
+    os.makedirs(PLOTS_DIR, exist_ok = True)
+
     df = pd.read_csv(MODULE_STATS_FILE)
     # NOTE: comment/uncomment to show all / hide other extensions
     df["extension"] = df["extension"].apply(lambda x: x if x in PLOT_STYLES else "other")
@@ -208,6 +210,9 @@ def make_module_plots():
 
 
 def make_package_plots():
+    os.makedirs(PLOTS_DIR, exist_ok = True)
+
+
     # TODO: Make four plots: x-axis as total time / size, y-axis as parser time / parser percentage (not average or geomean)
     # TODO: Add average and median of the y-axis as a horizontal line for percentage plots
     # TODO: Make final plot with final aggregated data point with total parser time / total time for all packages

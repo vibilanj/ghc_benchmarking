@@ -1,5 +1,6 @@
 SOURCES_DIR = "sources"
 TIMINGS_DIR = "timing_data"
+PLOTS_DIR = "plots"
 MODULE_STATS_FILE = "module_stats.csv"
 PACKAGE_STATS_FILE = "package_stats.csv"
 
