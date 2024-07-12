@@ -139,11 +139,13 @@ PLOT_STYLES = {
 DEFAULT_PLOT_STYLE = {"color": CB_colors["red"], "marker": "X"}
 
 
-def plot_metric_vs_metric(df, x, y, xlabel, ylabel, title, filename, guide_pcts, log = True):
+def plot_metric_vs_metric(df, x, y, xlabel, ylabel, title, filename, guide_pcts, guide_label, log = True):
     fig, ax = plt.subplots()
     for ext, ext_df in df.groupby("extension"):
         style = PLOT_STYLES.get(ext, DEFAULT_PLOT_STYLE)
         ax.scatter(ext_df[x], ext_df[y], alpha = 0.5, label = ext, **style)
+
+    # TODO: clamp axes to the scatter data so that the guide lines don't expand the axes
 
     if log is True:
         ax.set(xscale = "log", yscale = "log")
@@ -155,22 +157,22 @@ def plot_metric_vs_metric(df, x, y, xlabel, ylabel, title, filename, guide_pcts,
     x_vals = np.linspace(df[x].min(), df[x].max(), 100)
     for pct in guide_pcts:
         pct_vals = (pct / 100) * x_vals
-        ax.plot(x_vals, pct_vals, "--", color = CB_colors["black"], label = f"{pct}%")
+        ax.plot(x_vals, pct_vals, "--", color = CB_colors["black"], label = f"{pct}{guide_label}")
+        # TODO: different colors or weights for different lines
 
-    # Fit a power-law relationship and plot it
+    # Fits a power-law relationship and plot it
     log_x = np.log(df[x])
     log_y = np.log(df[y])
-    b, log_a = np.polyfit(log_x, log_y, 1)  # Fit log(y) = b*log(x) + log(a)
-    a = np.exp(log_a)
+    b, a = np.polyfit(log_x, log_y, 1)  # Fit log(y) = b * log(x) + a
+    a_exp = np.exp(a)
 
     x_vals = np.linspace(df[x].min(), df[x].max(), 100)
-    y_vals = a * x_vals**b
-    ax.plot(x_vals, y_vals, "--", color = CB_colors["red"], label=f"$y = {a:.5f}x^{{{b:.5f}}}$")
+    y_vals = a_exp * x_vals**b
+    ax.plot(x_vals, y_vals, "--", color = CB_colors["red"], label=f"best-fit line $y = {a_exp:.3g}x^{{{b:.3g}}}$")
 
-
-    ax.legend()
+    ax.legend(fontsize = "small")
     if log is True:
-        filename = filename.replace(".pdf", "_log.pdf")
+        filename = filename.replace(".", "_log.")
     fig.savefig(filename, format = "pdf")
 
 
@@ -184,21 +186,29 @@ def make_module_plots():
     df["parser_time"] = df["parser_time"] / 1000
 
     metrics = [
-        ("total_time", "parser_time", "Total time (ms)", "Parser time (ms)", "plot_parser_vs_total.pdf", [1]),
-        ("total_time", "parser_percentage", "Total time (ms)", "Percentage of time spent on parsing (%)", "plot_parser_pct_vs_total.pdf", []),
-        ("size", "parser_time", "Size (bytes)", "Parser time (ms)", "plot_parser_vs_size.pdf", [0.0001]),
-        ("size", "parser_percentage", "Size (bytes)", "Percentage of time spent on parsing (%)", "plot_parser_pct_vs_size.pdf", []),
+        ("total_time", "parser_time", "Total time (s)", "Parser time (s)",
+         "plot_parser_vs_total.pdf", [0.1, 1, 10], "%"),
+        ("total_time", "parser_percentage", "Total time (s)", "Percentage of time spent on parsing (%)",
+         "plot_parser_pct_vs_total.pdf", [], ""),
+        ("size", "parser_time", "Size (bytes)", "Parser time (s)",
+         "plot_parser_vs_size.pdf", [1e-4], " seconds/byte"),
+        ("size", "parser_percentage", "Size (bytes)", "Percentage of time spent on parsing (%)",
+         "plot_parser_pct_vs_size.pdf", [], ""),
     ]
 
-    for x, y, xlabel, ylabel, filename, guide_pcts in metrics:
+    # TODO: for percentage plots, add the horizontal average and median lines
+
+    for x, y, xlabel, ylabel, filename, guide_pcts, guide_label in metrics:
         plot_metric_vs_metric(df, x, y, xlabel, ylabel, f"{ylabel} vs {xlabel}",
-                              filename, guide_pcts)
+                              filename, guide_pcts, guide_label)
         plot_metric_vs_metric(df, x, y, xlabel, ylabel, f"{ylabel} vs {xlabel}",
-                              filename, guide_pcts, log = False)
+                              filename, guide_pcts, guide_label, log = False)
 
 
 def make_package_plots():
-    # TODO: implement based on requirements
+    # TODO: Make four plots: x-axis as total time / size, y-axis as parser time / parser percentage (not average or geomean)
+    # TODO: Add average and median of the y-axis as a horizontal line for percentage plots
+    # TODO: Make final plot with final aggregated data point with total parser time / total time for all packages
     pass
 
 
