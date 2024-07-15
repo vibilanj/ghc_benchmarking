@@ -1,7 +1,15 @@
+"""
+This file contains the constants used throughout the pipeline. They are used
+to specify the directories used to store sources, timings and plots, the names
+of the statistics files and the colors and styles used for plotting.
+"""
+
+# Directories
 SOURCES_DIR = "sources"
 TIMINGS_DIR = "timing_data"
 PLOTS_DIR = "plots"
 
+# Files
 MODULE_STATS_FILE = "module_stats.csv"
 PACKAGE_STATS_FILE = "package_stats.csv"
 
@@ -20,11 +28,12 @@ CB_COLORS = {
     'black':   '#000000' # added this
 }
 
-# Plotting styles
+# Plot styles for module plots
 PLOT_STYLES = {
     ".hs": {"color": CB_COLORS["blue"], "marker": "o"},
     ".hsc": {"color": CB_COLORS["green"], "marker": "s"}
 }
 DEFAULT_PLOT_STYLE = {"color": CB_COLORS["red"], "marker": "X"}
 
+# Plot styles for package plots
 PACKAGE_STYLE = {"alpha": 0.5, "color": CB_COLORS["blue"], "marker": "o"}
