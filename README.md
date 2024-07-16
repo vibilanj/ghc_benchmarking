@@ -7,7 +7,7 @@ This Python script is designed to benchmark the Glasgow Haskell Compiler (GHC). 
 ## Features and Workflow
 The script begins by downloading the top n Hackage packages with the most reverse dependencies, defaulting to 20. It fetches the source code for these packages and then compiles them using GHC with the [`--ddump-timings`](https://ghc.gitlab.haskell.org/ghc/doc/users_guide/debugging.html#ghc-flag--ddump-timings) flag. This flag allows GHC to output allocation and runtime statistics for various compilation stages, with allocations measured in bytes and timings in milliseconds.
 
-After compilation, the script uses the [`time-ghc-modules`](https://github.com/codedownio/time-ghc-modules/releases/tag/2.0.0) tool (version 2.0.0 / commit 5eec634) to read the `--ddump-timings` files, generating JSON files that contain detailed timing information. These JSON files are collected and processed, focusing on the timing data by module and compiler phase, particularly the parsing phase. The data is then saved as a CSV file, which is further cleaned to retain only the parsing phase timings. Additional columns are added, including the total time taken for a module, the time spent on parsing as a percentage of the total time, and the size of the file corresponding to the module.
+After compilation, the script uses the [`time-ghc-modules`](https://github.com/codedownio/time-ghc-modules/releases/tag/2.0.0) tool (release tag 2.0.0 / commit hash 5eec634) to read the `--ddump-timings` files, generating JSON files that contain detailed timing information. These JSON files are collected and processed, focusing on the timing data by module and compiler phase, particularly the parsing phase. The data is then saved as a CSV file, which is further cleaned to retain only the parsing phase timings. Additional columns are added, including the total time taken for a module, the time spent on parsing as a percentage of the total time, and the size of the file corresponding to the module.
 
 The script consolidates all the timing information into a single file, creating two versions: one with detailed module-level data and another with aggregated package-level data. The package-level data includes metrics such as total time, parsing time, parsing time as a percentage, and the average and geometric mean of module parser percentages, along with the total size of the package files.
 
@@ -18,15 +18,26 @@ Finally, the script generates various plots to visualize the data, including log
 - Percentage of time spent on parsing vs. File size
 
 ## Usage
-1. Ensure you have Python and GHC installed on your system.
+1. Ensure you have Python (v3.12.4) and GHC (v9.4.8) installed on your system.
+
+2. Ensure that the git submodule is using the correct release for the `time-ghc-modules` tool:
+```sh
+git submodule update --init --recursive
+cd time-ghc-modules
+git checkout 2.0.0
+cd ..
+```
+
 2. Install the required Python packages using:
 ```sh
 pip install -r requirements.txt
 ```
+
 3. Execute the script to start the benchmarking process:
 ```sh
 python run.py
 ```
+
 4. The timing data is stored under the `timing_data` directory, and the plots are saved in the `plots` directory.
 
 ## Analysis
