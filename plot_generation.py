@@ -15,7 +15,24 @@ from constants import (CB_COLORS, DEFAULT_PLOT_STYLE, MODULE_STATS_FILE,
                        PLOTS_DIR)
 
 
-# TODO: prefer default arguments or not?
+def latex_float(f: float) -> str:
+    """
+    Formats a float in scientific notation to a LaTeX formatted string.
+
+    Args:
+        f: The float to format
+
+    Returns:
+        A LaTeX formatted string representing the float
+    """
+    float_str = f"{f:.3g}"
+    if "e" in float_str:
+        base, exp = float_str.split("e")
+        return rf"{base} \cdot 10^{{{exp}}}"
+    else:
+        return float_str
+
+
 def plot_metric_vs_metric(
     df: pd.DataFrame,
     x: str,
@@ -26,8 +43,8 @@ def plot_metric_vs_metric(
     filename: str,
     guide_pcts: List[int],
     guide_label: str,
-    log: Optional[bool] = True,
-    module: Optional[bool] = True
+    log: Optional[bool] = False,
+    module: Optional[bool] = False
 ) -> None:
     """
     Plots a metric against another metric. The plot is saved as a PDF in the
@@ -77,18 +94,20 @@ def plot_metric_vs_metric(
 
     # Plotting percentage guide lines for each given guide percentage
     x_vals = np.linspace(df[x].min(), df[x].max(), 100)
+    # Index of the middle one or two lines, middle lines use loosely dashed style
+    middle_guide = [len(guide_pcts) // 2, (len(guide_pcts) - 1) // 2]
     for idx, pct in enumerate(guide_pcts):
         pct_vals = (pct / 100) * x_vals
-        linestyle = "-." if idx % 2 == 0 else ":"
-        ax.plot(x_vals, pct_vals, linestyle, color = CB_COLORS["black"], label = f"{pct}{guide_label}")
-        # TODO: different colors or weights for different lines: used alternating line styles for now
+        linestyle = (0, (5, 10)) if idx in middle_guide else ":"
+        label = f"{pct}{guide_label}" if guide_label == "%" else f"{pct:.1e}{guide_label}"
+        ax.plot(x_vals, pct_vals, linestyle = linestyle, linewidth = 0.5, color = CB_COLORS["black"], label = label)
 
     # For graphs with parser percentage on the y-axis, add horizontal lines
     # for the average and median parser percentage
     if y == "parser_percentage":
-        avg = df[y].mean()
+        mean = df[y].mean()
         median = df[y].median()
-        ax.axhline(y = avg, linestyle = "--", color = CB_COLORS["blue"], label = f"average ({avg:.3g})")
+        ax.axhline(y = mean, linestyle = "--", color = CB_COLORS["blue"], label = f"arith mean ({mean:.3g})")
         ax.axhline(y = median, linestyle = "--", color = CB_COLORS["green"], label = f"median ({median:.3g})")
 
     # Fiting a power-law relationship
@@ -98,11 +117,10 @@ def plot_metric_vs_metric(
     a_exp = np.exp(a)
 
     # Plotting the best fit line
-    # TODO: remove duplicate or keep for clarity
     x_vals = np.linspace(df[x].min(), df[x].max(), 100)
     y_vals = a_exp * x_vals**b
     ax.plot(x_vals, y_vals, "--", color = CB_COLORS["red"],
-            label=f"best-fit line $y = {a_exp:.3g}x^{{{b:.3g}}}$")
+            label=f"best-fit: $y = {latex_float(a_exp)} \\cdot x^{{{b:.3g}}}$")
 
     # Adding a legend
     ax.legend(fontsize = "small")
@@ -145,11 +163,11 @@ def make_module_plots() -> None:
     # generic plotting function `plot_metric_vs_metric`.
     metrics = [
         ("total_time", "parser_time", "Total time (s)", "Parser time (s)",
-         "module_parser_vs_total.pdf", [0.1, 1, 10], "%"),
+         "module_parser_vs_total.pdf", [10, 1, 0.1], "%"),
         ("total_time", "parser_percentage", "Total time (s)", "Percentage of time spent on parsing (%)",
          "module_parser_pct_vs_total.pdf", [], ""),
         ("size", "parser_time", "Size (bytes)", "Parser time (s)",
-         "module_parser_vs_size.pdf", [1e-5, 1e-4, 1e-3], " seconds/byte"),
+         "module_parser_vs_size.pdf", [1e-3, 1e-4, 1e-5], " seconds/byte"),
         ("size", "parser_percentage", "Size (bytes)", "Percentage of time spent on parsing (%)",
          "module_parser_pct_vs_size.pdf", [], ""),
     ]
@@ -157,9 +175,9 @@ def make_module_plots() -> None:
     # Generate the plots for each metric, both with and without log scale
     for x, y, xlabel, ylabel, filename, guide_pcts, guide_label in metrics:
         plot_metric_vs_metric(df, x, y, xlabel, ylabel, f"{ylabel} vs {xlabel} by modules",
-                              filename, guide_pcts, guide_label)
+                              filename, guide_pcts, guide_label, module = True)
         plot_metric_vs_metric(df, x, y, xlabel, ylabel, f"{ylabel} vs {xlabel} by modules",
-                              filename, guide_pcts, guide_label, log = False)
+                              filename, guide_pcts, guide_label, module = True, log = True)
 
 
 def make_package_plots() -> None:
@@ -190,11 +208,11 @@ def make_package_plots() -> None:
     # generic plotting function `plot_metric_vs_metric`.
     metrics = [
         ("total_time", "parser_time", "Total time (s)", "Parser time (s)",
-         "package_parser_vs_total.pdf", [0.1, 1, 10], "%"),
+         "package_parser_vs_total.pdf", [5, 2, 1, 0.5, 0.2], "%"),
         ("total_time", "parser_percentage", "Total time (s)", "Percentage of time spent on parsing (%)",
          "package_parser_pct_vs_total.pdf", [], ""),
         ("size", "parser_time", "Size (bytes)", "Parser time (s)",
-         "package_parser_vs_size.pdf", [1e-5, 1e-4, 1e-3], " seconds/byte"),
+         "package_parser_vs_size.pdf", [1e-3, 1e-4, 1e-5], " seconds/byte"),
         ("size", "parser_percentage", "Size (bytes)", "Percentage of time spent on parsing (%)",
          "package_parser_pct_vs_size.pdf", [], ""),
     ]
@@ -204,7 +222,7 @@ def make_package_plots() -> None:
         plot_metric_vs_metric(df, x, y, xlabel, ylabel, f"{ylabel} vs {xlabel} by packages",
                               filename, guide_pcts, guide_label, module = False)
         plot_metric_vs_metric(df, x, y, xlabel, ylabel, f"{ylabel} vs {xlabel} by packages",
-                              filename, guide_pcts, guide_label, log = False, module = False)
+                              filename, guide_pcts, guide_label, module = False, log = True)
 
 
 def make_aggregated_plot() -> None:

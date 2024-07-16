@@ -13,8 +13,7 @@ from timing_analysis import calculate_statistics_for_packages
 if __name__ == "__main__":
     # Fetching sources, building them and generating timing reports
     links = fetch_top_package_links(20)
-    # TODO: omit base?
-    links = links[1:] # Omitting the `base` package
+    # links = links[1:] # NOTE: Uncomment to omit the `base` package
     files = download_sources(links)
     extract_sources(files)
     dirs = list(map(lambda f: f.replace(".tar.gz", ""), files))

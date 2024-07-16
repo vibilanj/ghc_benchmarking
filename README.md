@@ -5,7 +5,7 @@
 This Python script is designed to benchmark the Glasgow Haskell Compiler (GHC). It automates the process of downloading, compiling, and analyzing the top Hackage packages to provide insights into GHC's performance, particularly focusing on the parsing phase of the compilation process.
 
 ## Features and Workflow
-The script begins by downloading the top n Hackage packages with the most reverse dependencies, defaulting to 20. It fetches the source code for these packages and then compiles them using GHC with the [`--ddump-timings`](https://ghc.gitlab.haskell.org/ghc/doc/users_guide/debugging.html#ghc-flag--ddump-timings) flag. This flag allows GHC to output allocation and runtime statistics for various compilation stages, with allocations measured in bytes and timings in milliseconds.
+The script begins by downloading the top n Hackage packages with the most reverse dependencies, defaulting to 20. The `base` package produces compilation errors and if you would like to omit it, you can edit the `run` script to skip the first item in the list (assuming `base` is the package with the most reverse dependencies). It fetches the source code for these packages and then compiles them using GHC with the [`--ddump-timings`](https://ghc.gitlab.haskell.org/ghc/doc/users_guide/debugging.html#ghc-flag--ddump-timings) flag. This flag allows GHC to output allocation and runtime statistics for various compilation stages, with allocations measured in bytes and timings in milliseconds.
 
 After compilation, the script uses the [`time-ghc-modules`](https://github.com/codedownio/time-ghc-modules/releases/tag/2.0.0) tool (release tag 2.0.0 / commit hash 5eec634) to read the `--ddump-timings` files, generating JSON files that contain detailed timing information. These JSON files are collected and processed, focusing on the timing data by module and compiler phase, particularly the parsing phase. The data is then saved as a CSV file, which is further cleaned to retain only the parsing phase timings. Additional columns are added, including the total time taken for a module, the time spent on parsing as a percentage of the total time, and the size of the file corresponding to the module.
 
@@ -37,6 +37,7 @@ pip install -r requirements.txt
 ```sh
 python run.py
 ```
+This will take roughly two minutes per package. However, this time may vary depending on your system's performance and network speed.
 
 4. The timing data is stored under the `timing_data` directory, and the plots are saved in the `plots` directory.
 
