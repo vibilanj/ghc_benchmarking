@@ -1,0 +1,109 @@
+package,module,phase,time
+pretty-1.1.3.6,Text.PrettyPrint,Called arity analysis,0.012
+pretty-1.1.3.6,Text.PrettyPrint,CodeGen,1.72
+pretty-1.1.3.6,Text.PrettyPrint,Common sub-expression,0.012
+pretty-1.1.3.6,Text.PrettyPrint,Constructed Product Result analysis,0.013
+pretty-1.1.3.6,Text.PrettyPrint,CorePrep,0.102
+pretty-1.1.3.6,Text.PrettyPrint,CoreTidy,0.086
+pretty-1.1.3.6,Text.PrettyPrint,CoreToStg,0.14300000000000002
+pretty-1.1.3.6,Text.PrettyPrint,Demand analysis,0.057
+pretty-1.1.3.6,Text.PrettyPrint,Desugar,0.123
+pretty-1.1.3.6,Text.PrettyPrint,Exitification transformation,0.01
+pretty-1.1.3.6,Text.PrettyPrint,Float inwards,0.022
+pretty-1.1.3.6,Text.PrettyPrint,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.038
+pretty-1.1.3.6,Text.PrettyPrint,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.04
+pretty-1.1.3.6,Text.PrettyPrint,Parser,1.199
+pretty-1.1.3.6,Text.PrettyPrint,Renamer/typechecker,0.497
+pretty-1.1.3.6,Text.PrettyPrint,Simplifier,0.356
+pretty-1.1.3.6,Text.PrettyPrint,Specialise,0.019
+pretty-1.1.3.6,Text.PrettyPrint,Worker Wrapper binds,0.011
+pretty-1.1.3.6,Text.PrettyPrint.Annotated,Called arity analysis,0.014
+pretty-1.1.3.6,Text.PrettyPrint.Annotated,CodeGen,0.9179999999999999
+pretty-1.1.3.6,Text.PrettyPrint.Annotated,Common sub-expression,0.02
+pretty-1.1.3.6,Text.PrettyPrint.Annotated,Constructed Product Result analysis,0.016
+pretty-1.1.3.6,Text.PrettyPrint.Annotated,CorePrep,0.068
+pretty-1.1.3.6,Text.PrettyPrint.Annotated,CoreTidy,0.049
+pretty-1.1.3.6,Text.PrettyPrint.Annotated,CoreToStg,0.094
+pretty-1.1.3.6,Text.PrettyPrint.Annotated,Demand analysis,0.05
+pretty-1.1.3.6,Text.PrettyPrint.Annotated,Desugar,0.105
+pretty-1.1.3.6,Text.PrettyPrint.Annotated,Exitification transformation,0.011
+pretty-1.1.3.6,Text.PrettyPrint.Annotated,Float inwards,0.02
+pretty-1.1.3.6,Text.PrettyPrint.Annotated,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.04
+pretty-1.1.3.6,Text.PrettyPrint.Annotated,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.028
+pretty-1.1.3.6,Text.PrettyPrint.Annotated,Parser,0.968
+pretty-1.1.3.6,Text.PrettyPrint.Annotated,Renamer/typechecker,0.547
+pretty-1.1.3.6,Text.PrettyPrint.Annotated,Simplifier,0.356
+pretty-1.1.3.6,Text.PrettyPrint.Annotated,Specialise,0.02
+pretty-1.1.3.6,Text.PrettyPrint.Annotated,Worker Wrapper binds,0.014
+pretty-1.1.3.6,Text.PrettyPrint.Annotated.HughesPJ,Called arity analysis,0.01
+pretty-1.1.3.6,Text.PrettyPrint.Annotated.HughesPJ,CodeGen,339.998
+pretty-1.1.3.6,Text.PrettyPrint.Annotated.HughesPJ,Common sub-expression,0.017
+pretty-1.1.3.6,Text.PrettyPrint.Annotated.HughesPJ,Constructed Product Result analysis,3.662
+pretty-1.1.3.6,Text.PrettyPrint.Annotated.HughesPJ,CorePrep,4.847
+pretty-1.1.3.6,Text.PrettyPrint.Annotated.HughesPJ,CoreTidy,11.264
+pretty-1.1.3.6,Text.PrettyPrint.Annotated.HughesPJ,CoreToStg,28.301
+pretty-1.1.3.6,Text.PrettyPrint.Annotated.HughesPJ,Demand analysis,10.798
+pretty-1.1.3.6,Text.PrettyPrint.Annotated.HughesPJ,Desugar,20.345
+pretty-1.1.3.6,Text.PrettyPrint.Annotated.HughesPJ,Exitification transformation,0.017
+pretty-1.1.3.6,Text.PrettyPrint.Annotated.HughesPJ,Float inwards,0.034999999999999996
+pretty-1.1.3.6,Text.PrettyPrint.Annotated.HughesPJ,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",18.42
+pretty-1.1.3.6,Text.PrettyPrint.Annotated.HughesPJ,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",13.882
+pretty-1.1.3.6,Text.PrettyPrint.Annotated.HughesPJ,Parser,28.682
+pretty-1.1.3.6,Text.PrettyPrint.Annotated.HughesPJ,Renamer/typechecker,184.625
+pretty-1.1.3.6,Text.PrettyPrint.Annotated.HughesPJ,Simplifier,412.204
+pretty-1.1.3.6,Text.PrettyPrint.Annotated.HughesPJ,Specialise,1.551
+pretty-1.1.3.6,Text.PrettyPrint.Annotated.HughesPJ,Worker Wrapper binds,0.842
+pretty-1.1.3.6,Text.PrettyPrint.Annotated.HughesPJClass,Called arity analysis,0.028
+pretty-1.1.3.6,Text.PrettyPrint.Annotated.HughesPJClass,CodeGen,133.976
+pretty-1.1.3.6,Text.PrettyPrint.Annotated.HughesPJClass,Common sub-expression,0.017
+pretty-1.1.3.6,Text.PrettyPrint.Annotated.HughesPJClass,Constructed Product Result analysis,0.442
+pretty-1.1.3.6,Text.PrettyPrint.Annotated.HughesPJClass,CorePrep,3.117
+pretty-1.1.3.6,Text.PrettyPrint.Annotated.HughesPJClass,CoreTidy,2.199
+pretty-1.1.3.6,Text.PrettyPrint.Annotated.HughesPJClass,CoreToStg,9.855
+pretty-1.1.3.6,Text.PrettyPrint.Annotated.HughesPJClass,Demand analysis,4.357
+pretty-1.1.3.6,Text.PrettyPrint.Annotated.HughesPJClass,Desugar,1.159
+pretty-1.1.3.6,Text.PrettyPrint.Annotated.HughesPJClass,Exitification transformation,0.014
+pretty-1.1.3.6,Text.PrettyPrint.Annotated.HughesPJClass,Float inwards,0.028999999999999998
+pretty-1.1.3.6,Text.PrettyPrint.Annotated.HughesPJClass,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",7.924
+pretty-1.1.3.6,Text.PrettyPrint.Annotated.HughesPJClass,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",8.555
+pretty-1.1.3.6,Text.PrettyPrint.Annotated.HughesPJClass,Parser,2.681
+pretty-1.1.3.6,Text.PrettyPrint.Annotated.HughesPJClass,Renamer/typechecker,13.53
+pretty-1.1.3.6,Text.PrettyPrint.Annotated.HughesPJClass,Simplifier,101.722
+pretty-1.1.3.6,Text.PrettyPrint.Annotated.HughesPJClass,Specialise,0.725
+pretty-1.1.3.6,Text.PrettyPrint.Annotated.HughesPJClass,Worker Wrapper binds,2.157
+pretty-1.1.3.6,Text.PrettyPrint.HughesPJ,Called arity analysis,0.012
+pretty-1.1.3.6,Text.PrettyPrint.HughesPJ,CodeGen,45.572
+pretty-1.1.3.6,Text.PrettyPrint.HughesPJ,Common sub-expression,0.013
+pretty-1.1.3.6,Text.PrettyPrint.HughesPJ,Constructed Product Result analysis,0.248
+pretty-1.1.3.6,Text.PrettyPrint.HughesPJ,CorePrep,0.6799999999999999
+pretty-1.1.3.6,Text.PrettyPrint.HughesPJ,CoreTidy,1.334
+pretty-1.1.3.6,Text.PrettyPrint.HughesPJ,CoreToStg,2.4859999999999998
+pretty-1.1.3.6,Text.PrettyPrint.HughesPJ,Demand analysis,1.791
+pretty-1.1.3.6,Text.PrettyPrint.HughesPJ,Desugar,0.585
+pretty-1.1.3.6,Text.PrettyPrint.HughesPJ,Exitification transformation,0.016
+pretty-1.1.3.6,Text.PrettyPrint.HughesPJ,Float inwards,0.023
+pretty-1.1.3.6,Text.PrettyPrint.HughesPJ,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.154
+pretty-1.1.3.6,Text.PrettyPrint.HughesPJ,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.927
+pretty-1.1.3.6,Text.PrettyPrint.HughesPJ,Parser,5.399
+pretty-1.1.3.6,Text.PrettyPrint.HughesPJ,Renamer/typechecker,9.229
+pretty-1.1.3.6,Text.PrettyPrint.HughesPJ,Simplifier,58.918
+pretty-1.1.3.6,Text.PrettyPrint.HughesPJ,Specialise,0.34
+pretty-1.1.3.6,Text.PrettyPrint.HughesPJ,Worker Wrapper binds,0.102
+pretty-1.1.3.6,Text.PrettyPrint.HughesPJClass,Called arity analysis,0.013
+pretty-1.1.3.6,Text.PrettyPrint.HughesPJClass,CodeGen,157.881
+pretty-1.1.3.6,Text.PrettyPrint.HughesPJClass,Common sub-expression,0.016
+pretty-1.1.3.6,Text.PrettyPrint.HughesPJClass,Constructed Product Result analysis,0.335
+pretty-1.1.3.6,Text.PrettyPrint.HughesPJClass,CorePrep,2.015
+pretty-1.1.3.6,Text.PrettyPrint.HughesPJClass,CoreTidy,2.497
+pretty-1.1.3.6,Text.PrettyPrint.HughesPJClass,CoreToStg,10.844999999999999
+pretty-1.1.3.6,Text.PrettyPrint.HughesPJClass,Demand analysis,3.963
+pretty-1.1.3.6,Text.PrettyPrint.HughesPJClass,Desugar,1.123
+pretty-1.1.3.6,Text.PrettyPrint.HughesPJClass,Exitification transformation,0.014
+pretty-1.1.3.6,Text.PrettyPrint.HughesPJClass,Float inwards,0.028
+pretty-1.1.3.6,Text.PrettyPrint.HughesPJClass,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",7.876
+pretty-1.1.3.6,Text.PrettyPrint.HughesPJClass,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",5.45
+pretty-1.1.3.6,Text.PrettyPrint.HughesPJClass,Parser,3.607
+pretty-1.1.3.6,Text.PrettyPrint.HughesPJClass,Renamer/typechecker,10.477
+pretty-1.1.3.6,Text.PrettyPrint.HughesPJClass,Simplifier,168.708
+pretty-1.1.3.6,Text.PrettyPrint.HughesPJClass,Specialise,1.394
+pretty-1.1.3.6,Text.PrettyPrint.HughesPJClass,Worker Wrapper binds,0.236

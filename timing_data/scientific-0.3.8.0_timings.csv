@@ -1,0 +1,91 @@
+package,module,phase,time
+scientific-0.3.8.0,Data.ByteString.Builder.Scientific,Called arity analysis,0.012
+scientific-0.3.8.0,Data.ByteString.Builder.Scientific,CodeGen,140.038
+scientific-0.3.8.0,Data.ByteString.Builder.Scientific,Common sub-expression,0.017
+scientific-0.3.8.0,Data.ByteString.Builder.Scientific,Constructed Product Result analysis,0.917
+scientific-0.3.8.0,Data.ByteString.Builder.Scientific,CorePrep,1.3399999999999999
+scientific-0.3.8.0,Data.ByteString.Builder.Scientific,CoreTidy,1.686
+scientific-0.3.8.0,Data.ByteString.Builder.Scientific,CoreToStg,9.256
+scientific-0.3.8.0,Data.ByteString.Builder.Scientific,Demand analysis,6.537
+scientific-0.3.8.0,Data.ByteString.Builder.Scientific,Desugar,0.949
+scientific-0.3.8.0,Data.ByteString.Builder.Scientific,Exitification transformation,0.013
+scientific-0.3.8.0,Data.ByteString.Builder.Scientific,Float inwards,0.022
+scientific-0.3.8.0,Data.ByteString.Builder.Scientific,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",3.442
+scientific-0.3.8.0,Data.ByteString.Builder.Scientific,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",6.529
+scientific-0.3.8.0,Data.ByteString.Builder.Scientific,Parser,1.239
+scientific-0.3.8.0,Data.ByteString.Builder.Scientific,Renamer/typechecker,11.271
+scientific-0.3.8.0,Data.ByteString.Builder.Scientific,Simplifier,139.79
+scientific-0.3.8.0,Data.ByteString.Builder.Scientific,Specialise,1.35
+scientific-0.3.8.0,Data.ByteString.Builder.Scientific,Worker Wrapper binds,0.879
+scientific-0.3.8.0,Data.Scientific,Called arity analysis,0.01
+scientific-0.3.8.0,Data.Scientific,CodeGen,597.668
+scientific-0.3.8.0,Data.Scientific,Common sub-expression,0.018
+scientific-0.3.8.0,Data.Scientific,Constructed Product Result analysis,2.609
+scientific-0.3.8.0,Data.Scientific,CorePrep,13.422
+scientific-0.3.8.0,Data.Scientific,CoreTidy,16.308
+scientific-0.3.8.0,Data.Scientific,CoreToStg,60.987
+scientific-0.3.8.0,Data.Scientific,Demand analysis,22.371000000000002
+scientific-0.3.8.0,Data.Scientific,Desugar,15.265
+scientific-0.3.8.0,Data.Scientific,Exitification transformation,0.013
+scientific-0.3.8.0,Data.Scientific,Float inwards,0.019999999999999997
+scientific-0.3.8.0,Data.Scientific,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",24.624
+scientific-0.3.8.0,Data.Scientific,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",29.22
+scientific-0.3.8.0,Data.Scientific,Parser,11.067
+scientific-0.3.8.0,Data.Scientific,Renamer/typechecker,165.022
+scientific-0.3.8.0,Data.Scientific,Simplifier,892.298
+scientific-0.3.8.0,Data.Scientific,Specialise,3.727
+scientific-0.3.8.0,Data.Scientific,Worker Wrapper binds,7.724
+scientific-0.3.8.0,Data.Text.Lazy.Builder.Scientific,Called arity analysis,0.006
+scientific-0.3.8.0,Data.Text.Lazy.Builder.Scientific,CodeGen,289.126
+scientific-0.3.8.0,Data.Text.Lazy.Builder.Scientific,Common sub-expression,0.019
+scientific-0.3.8.0,Data.Text.Lazy.Builder.Scientific,Constructed Product Result analysis,3.757
+scientific-0.3.8.0,Data.Text.Lazy.Builder.Scientific,CorePrep,6.868
+scientific-0.3.8.0,Data.Text.Lazy.Builder.Scientific,CoreTidy,4.247
+scientific-0.3.8.0,Data.Text.Lazy.Builder.Scientific,CoreToStg,67.77799999999999
+scientific-0.3.8.0,Data.Text.Lazy.Builder.Scientific,Demand analysis,35.173
+scientific-0.3.8.0,Data.Text.Lazy.Builder.Scientific,Desugar,0.993
+scientific-0.3.8.0,Data.Text.Lazy.Builder.Scientific,Exitification transformation,0.013
+scientific-0.3.8.0,Data.Text.Lazy.Builder.Scientific,Float inwards,0.028999999999999998
+scientific-0.3.8.0,Data.Text.Lazy.Builder.Scientific,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",21.814
+scientific-0.3.8.0,Data.Text.Lazy.Builder.Scientific,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",28.449
+scientific-0.3.8.0,Data.Text.Lazy.Builder.Scientific,Parser,0.956
+scientific-0.3.8.0,Data.Text.Lazy.Builder.Scientific,Renamer/typechecker,8.386
+scientific-0.3.8.0,Data.Text.Lazy.Builder.Scientific,Simplifier,451.918
+scientific-0.3.8.0,Data.Text.Lazy.Builder.Scientific,Specialise,1.795
+scientific-0.3.8.0,Data.Text.Lazy.Builder.Scientific,Worker Wrapper binds,0.858
+scientific-0.3.8.0,GHC.Integer.Compat,Called arity analysis,0.011
+scientific-0.3.8.0,GHC.Integer.Compat,CodeGen,1.177
+scientific-0.3.8.0,GHC.Integer.Compat,Common sub-expression,0.009
+scientific-0.3.8.0,GHC.Integer.Compat,Constructed Product Result analysis,0.014
+scientific-0.3.8.0,GHC.Integer.Compat,CorePrep,0.486
+scientific-0.3.8.0,GHC.Integer.Compat,CoreTidy,0.044
+scientific-0.3.8.0,GHC.Integer.Compat,CoreToStg,0.10300000000000001
+scientific-0.3.8.0,GHC.Integer.Compat,Demand analysis,0.045
+scientific-0.3.8.0,GHC.Integer.Compat,Desugar,0.083
+scientific-0.3.8.0,GHC.Integer.Compat,Exitification transformation,0.009
+scientific-0.3.8.0,GHC.Integer.Compat,Float inwards,0.019
+scientific-0.3.8.0,GHC.Integer.Compat,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.037
+scientific-0.3.8.0,GHC.Integer.Compat,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.028
+scientific-0.3.8.0,GHC.Integer.Compat,Parser,0.771
+scientific-0.3.8.0,GHC.Integer.Compat,Renamer/typechecker,8.463
+scientific-0.3.8.0,GHC.Integer.Compat,Simplifier,0.327
+scientific-0.3.8.0,GHC.Integer.Compat,Specialise,0.019
+scientific-0.3.8.0,GHC.Integer.Compat,Worker Wrapper binds,0.01
+scientific-0.3.8.0,Utils,Called arity analysis,0.01
+scientific-0.3.8.0,Utils,CodeGen,27.738
+scientific-0.3.8.0,Utils,Common sub-expression,0.011
+scientific-0.3.8.0,Utils,Constructed Product Result analysis,0.14
+scientific-0.3.8.0,Utils,CorePrep,0.6859999999999999
+scientific-0.3.8.0,Utils,CoreTidy,0.524
+scientific-0.3.8.0,Utils,CoreToStg,2.516
+scientific-0.3.8.0,Utils,Demand analysis,0.893
+scientific-0.3.8.0,Utils,Desugar,0.754
+scientific-0.3.8.0,Utils,Exitification transformation,0.011
+scientific-0.3.8.0,Utils,Float inwards,0.019
+scientific-0.3.8.0,Utils,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.726
+scientific-0.3.8.0,Utils,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.808
+scientific-0.3.8.0,Utils,Parser,2.094
+scientific-0.3.8.0,Utils,Renamer/typechecker,49.3
+scientific-0.3.8.0,Utils,Simplifier,32.091
+scientific-0.3.8.0,Utils,Specialise,0.212
+scientific-0.3.8.0,Utils,Worker Wrapper binds,0.061

@@ -1,0 +1,19 @@
+package,module,phase,time
+monad-control-1.0.3.1,Control.Monad.Trans.Control,Called arity analysis,0.01
+monad-control-1.0.3.1,Control.Monad.Trans.Control,CodeGen,106.399
+monad-control-1.0.3.1,Control.Monad.Trans.Control,Common sub-expression,0.012
+monad-control-1.0.3.1,Control.Monad.Trans.Control,Constructed Product Result analysis,0.269
+monad-control-1.0.3.1,Control.Monad.Trans.Control,CorePrep,4.221
+monad-control-1.0.3.1,Control.Monad.Trans.Control,CoreTidy,1.767
+monad-control-1.0.3.1,Control.Monad.Trans.Control,CoreToStg,4.648
+monad-control-1.0.3.1,Control.Monad.Trans.Control,Demand analysis,5.116
+monad-control-1.0.3.1,Control.Monad.Trans.Control,Desugar,2.728
+monad-control-1.0.3.1,Control.Monad.Trans.Control,Exitification transformation,0.013
+monad-control-1.0.3.1,Control.Monad.Trans.Control,Float inwards,0.019999999999999997
+monad-control-1.0.3.1,Control.Monad.Trans.Control,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",4.943
+monad-control-1.0.3.1,Control.Monad.Trans.Control,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",5.437
+monad-control-1.0.3.1,Control.Monad.Trans.Control,Parser,25.405
+monad-control-1.0.3.1,Control.Monad.Trans.Control,Renamer/typechecker,98.428
+monad-control-1.0.3.1,Control.Monad.Trans.Control,Simplifier,91.128
+monad-control-1.0.3.1,Control.Monad.Trans.Control,Specialise,0.958
+monad-control-1.0.3.1,Control.Monad.Trans.Control,Worker Wrapper binds,0.327

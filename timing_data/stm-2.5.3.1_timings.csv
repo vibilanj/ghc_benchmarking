@@ -1,0 +1,181 @@
+package,module,phase,time
+stm-2.5.3.1,Control.Concurrent.STM,Called arity analysis,0.009
+stm-2.5.3.1,Control.Concurrent.STM,CodeGen,0.8340000000000001
+stm-2.5.3.1,Control.Concurrent.STM,Common sub-expression,0.009
+stm-2.5.3.1,Control.Concurrent.STM,Constructed Product Result analysis,0.012
+stm-2.5.3.1,Control.Concurrent.STM,CorePrep,0.059
+stm-2.5.3.1,Control.Concurrent.STM,CoreTidy,0.042
+stm-2.5.3.1,Control.Concurrent.STM,CoreToStg,0.08499999999999999
+stm-2.5.3.1,Control.Concurrent.STM,Demand analysis,0.046
+stm-2.5.3.1,Control.Concurrent.STM,Desugar,0.108
+stm-2.5.3.1,Control.Concurrent.STM,Exitification transformation,0.011
+stm-2.5.3.1,Control.Concurrent.STM,Float inwards,0.017
+stm-2.5.3.1,Control.Concurrent.STM,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.037
+stm-2.5.3.1,Control.Concurrent.STM,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.026
+stm-2.5.3.1,Control.Concurrent.STM,Parser,1.074
+stm-2.5.3.1,Control.Concurrent.STM,Renamer/typechecker,1.148
+stm-2.5.3.1,Control.Concurrent.STM,Simplifier,0.33499999999999996
+stm-2.5.3.1,Control.Concurrent.STM,Specialise,0.018
+stm-2.5.3.1,Control.Concurrent.STM,Worker Wrapper binds,0.011
+stm-2.5.3.1,Control.Concurrent.STM.TArray,Called arity analysis,0.01
+stm-2.5.3.1,Control.Concurrent.STM.TArray,CodeGen,25.968
+stm-2.5.3.1,Control.Concurrent.STM.TArray,Common sub-expression,0.01
+stm-2.5.3.1,Control.Concurrent.STM.TArray,Constructed Product Result analysis,0.123
+stm-2.5.3.1,Control.Concurrent.STM.TArray,CorePrep,0.497
+stm-2.5.3.1,Control.Concurrent.STM.TArray,CoreTidy,0.621
+stm-2.5.3.1,Control.Concurrent.STM.TArray,CoreToStg,2.864
+stm-2.5.3.1,Control.Concurrent.STM.TArray,Demand analysis,1.554
+stm-2.5.3.1,Control.Concurrent.STM.TArray,Desugar,1.08
+stm-2.5.3.1,Control.Concurrent.STM.TArray,Exitification transformation,0.011
+stm-2.5.3.1,Control.Concurrent.STM.TArray,Float inwards,0.019999999999999997
+stm-2.5.3.1,Control.Concurrent.STM.TArray,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.446
+stm-2.5.3.1,Control.Concurrent.STM.TArray,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.952
+stm-2.5.3.1,Control.Concurrent.STM.TArray,Parser,1.892
+stm-2.5.3.1,Control.Concurrent.STM.TArray,Renamer/typechecker,16.493
+stm-2.5.3.1,Control.Concurrent.STM.TArray,Simplifier,22.65
+stm-2.5.3.1,Control.Concurrent.STM.TArray,Specialise,0.163
+stm-2.5.3.1,Control.Concurrent.STM.TArray,Worker Wrapper binds,0.142
+stm-2.5.3.1,Control.Concurrent.STM.TBQueue,Called arity analysis,0.01
+stm-2.5.3.1,Control.Concurrent.STM.TBQueue,CodeGen,43.158
+stm-2.5.3.1,Control.Concurrent.STM.TBQueue,Common sub-expression,0.011
+stm-2.5.3.1,Control.Concurrent.STM.TBQueue,Constructed Product Result analysis,0.184
+stm-2.5.3.1,Control.Concurrent.STM.TBQueue,CorePrep,0.78
+stm-2.5.3.1,Control.Concurrent.STM.TBQueue,CoreTidy,1.667
+stm-2.5.3.1,Control.Concurrent.STM.TBQueue,CoreToStg,3.8549999999999995
+stm-2.5.3.1,Control.Concurrent.STM.TBQueue,Demand analysis,1.2189999999999999
+stm-2.5.3.1,Control.Concurrent.STM.TBQueue,Desugar,1.463
+stm-2.5.3.1,Control.Concurrent.STM.TBQueue,Exitification transformation,0.012
+stm-2.5.3.1,Control.Concurrent.STM.TBQueue,Float inwards,0.019
+stm-2.5.3.1,Control.Concurrent.STM.TBQueue,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",3.01
+stm-2.5.3.1,Control.Concurrent.STM.TBQueue,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.056
+stm-2.5.3.1,Control.Concurrent.STM.TBQueue,Parser,2.742
+stm-2.5.3.1,Control.Concurrent.STM.TBQueue,Renamer/typechecker,54.468
+stm-2.5.3.1,Control.Concurrent.STM.TBQueue,Simplifier,47.449
+stm-2.5.3.1,Control.Concurrent.STM.TBQueue,Specialise,0.316
+stm-2.5.3.1,Control.Concurrent.STM.TBQueue,Worker Wrapper binds,0.124
+stm-2.5.3.1,Control.Concurrent.STM.TChan,Called arity analysis,0.011
+stm-2.5.3.1,Control.Concurrent.STM.TChan,CodeGen,32.57
+stm-2.5.3.1,Control.Concurrent.STM.TChan,Common sub-expression,0.012
+stm-2.5.3.1,Control.Concurrent.STM.TChan,Constructed Product Result analysis,0.147
+stm-2.5.3.1,Control.Concurrent.STM.TChan,CorePrep,0.614
+stm-2.5.3.1,Control.Concurrent.STM.TChan,CoreTidy,1.807
+stm-2.5.3.1,Control.Concurrent.STM.TChan,CoreToStg,1.6680000000000001
+stm-2.5.3.1,Control.Concurrent.STM.TChan,Demand analysis,0.942
+stm-2.5.3.1,Control.Concurrent.STM.TChan,Desugar,0.742
+stm-2.5.3.1,Control.Concurrent.STM.TChan,Exitification transformation,0.018
+stm-2.5.3.1,Control.Concurrent.STM.TChan,Float inwards,0.020999999999999998
+stm-2.5.3.1,Control.Concurrent.STM.TChan,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.392
+stm-2.5.3.1,Control.Concurrent.STM.TChan,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.277
+stm-2.5.3.1,Control.Concurrent.STM.TChan,Parser,2.147
+stm-2.5.3.1,Control.Concurrent.STM.TChan,Renamer/typechecker,4.889
+stm-2.5.3.1,Control.Concurrent.STM.TChan,Simplifier,21.853
+stm-2.5.3.1,Control.Concurrent.STM.TChan,Specialise,0.408
+stm-2.5.3.1,Control.Concurrent.STM.TChan,Worker Wrapper binds,0.111
+stm-2.5.3.1,Control.Concurrent.STM.TMVar,Called arity analysis,0.018
+stm-2.5.3.1,Control.Concurrent.STM.TMVar,CodeGen,19.939
+stm-2.5.3.1,Control.Concurrent.STM.TMVar,Common sub-expression,0.012
+stm-2.5.3.1,Control.Concurrent.STM.TMVar,Constructed Product Result analysis,0.105
+stm-2.5.3.1,Control.Concurrent.STM.TMVar,CorePrep,0.507
+stm-2.5.3.1,Control.Concurrent.STM.TMVar,CoreTidy,0.47
+stm-2.5.3.1,Control.Concurrent.STM.TMVar,CoreToStg,1.4129999999999998
+stm-2.5.3.1,Control.Concurrent.STM.TMVar,Demand analysis,0.7090000000000001
+stm-2.5.3.1,Control.Concurrent.STM.TMVar,Desugar,0.672
+stm-2.5.3.1,Control.Concurrent.STM.TMVar,Exitification transformation,0.022
+stm-2.5.3.1,Control.Concurrent.STM.TMVar,Float inwards,0.026
+stm-2.5.3.1,Control.Concurrent.STM.TMVar,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.958
+stm-2.5.3.1,Control.Concurrent.STM.TMVar,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.771
+stm-2.5.3.1,Control.Concurrent.STM.TMVar,Parser,1.923
+stm-2.5.3.1,Control.Concurrent.STM.TMVar,Renamer/typechecker,9.0
+stm-2.5.3.1,Control.Concurrent.STM.TMVar,Simplifier,13.657
+stm-2.5.3.1,Control.Concurrent.STM.TMVar,Specialise,0.194
+stm-2.5.3.1,Control.Concurrent.STM.TMVar,Worker Wrapper binds,0.103
+stm-2.5.3.1,Control.Concurrent.STM.TQueue,Called arity analysis,0.01
+stm-2.5.3.1,Control.Concurrent.STM.TQueue,CodeGen,26.995
+stm-2.5.3.1,Control.Concurrent.STM.TQueue,Common sub-expression,0.013
+stm-2.5.3.1,Control.Concurrent.STM.TQueue,Constructed Product Result analysis,0.127
+stm-2.5.3.1,Control.Concurrent.STM.TQueue,CorePrep,0.636
+stm-2.5.3.1,Control.Concurrent.STM.TQueue,CoreTidy,0.869
+stm-2.5.3.1,Control.Concurrent.STM.TQueue,CoreToStg,3.1559999999999997
+stm-2.5.3.1,Control.Concurrent.STM.TQueue,Demand analysis,0.762
+stm-2.5.3.1,Control.Concurrent.STM.TQueue,Desugar,0.703
+stm-2.5.3.1,Control.Concurrent.STM.TQueue,Exitification transformation,0.016
+stm-2.5.3.1,Control.Concurrent.STM.TQueue,Float inwards,0.02
+stm-2.5.3.1,Control.Concurrent.STM.TQueue,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.203
+stm-2.5.3.1,Control.Concurrent.STM.TQueue,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.17
+stm-2.5.3.1,Control.Concurrent.STM.TQueue,Parser,1.834
+stm-2.5.3.1,Control.Concurrent.STM.TQueue,Renamer/typechecker,4.832
+stm-2.5.3.1,Control.Concurrent.STM.TQueue,Simplifier,21.397
+stm-2.5.3.1,Control.Concurrent.STM.TQueue,Specialise,0.149
+stm-2.5.3.1,Control.Concurrent.STM.TQueue,Worker Wrapper binds,0.102
+stm-2.5.3.1,Control.Concurrent.STM.TSem,Called arity analysis,0.013
+stm-2.5.3.1,Control.Concurrent.STM.TSem,CodeGen,10.126999999999999
+stm-2.5.3.1,Control.Concurrent.STM.TSem,Common sub-expression,0.01
+stm-2.5.3.1,Control.Concurrent.STM.TSem,Constructed Product Result analysis,0.056
+stm-2.5.3.1,Control.Concurrent.STM.TSem,CorePrep,0.267
+stm-2.5.3.1,Control.Concurrent.STM.TSem,CoreTidy,0.286
+stm-2.5.3.1,Control.Concurrent.STM.TSem,CoreToStg,0.9259999999999999
+stm-2.5.3.1,Control.Concurrent.STM.TSem,Demand analysis,0.351
+stm-2.5.3.1,Control.Concurrent.STM.TSem,Desugar,0.248
+stm-2.5.3.1,Control.Concurrent.STM.TSem,Exitification transformation,0.01
+stm-2.5.3.1,Control.Concurrent.STM.TSem,Float inwards,0.019999999999999997
+stm-2.5.3.1,Control.Concurrent.STM.TSem,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.853
+stm-2.5.3.1,Control.Concurrent.STM.TSem,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.337
+stm-2.5.3.1,Control.Concurrent.STM.TSem,Parser,0.564
+stm-2.5.3.1,Control.Concurrent.STM.TSem,Renamer/typechecker,2.318
+stm-2.5.3.1,Control.Concurrent.STM.TSem,Simplifier,7.719
+stm-2.5.3.1,Control.Concurrent.STM.TSem,Specialise,0.073
+stm-2.5.3.1,Control.Concurrent.STM.TSem,Worker Wrapper binds,0.178
+stm-2.5.3.1,Control.Concurrent.STM.TVar,Called arity analysis,0.011
+stm-2.5.3.1,Control.Concurrent.STM.TVar,CodeGen,6.915
+stm-2.5.3.1,Control.Concurrent.STM.TVar,Common sub-expression,0.011
+stm-2.5.3.1,Control.Concurrent.STM.TVar,Constructed Product Result analysis,0.049
+stm-2.5.3.1,Control.Concurrent.STM.TVar,CorePrep,0.14600000000000002
+stm-2.5.3.1,Control.Concurrent.STM.TVar,CoreTidy,0.16
+stm-2.5.3.1,Control.Concurrent.STM.TVar,CoreToStg,0.449
+stm-2.5.3.1,Control.Concurrent.STM.TVar,Demand analysis,0.315
+stm-2.5.3.1,Control.Concurrent.STM.TVar,Desugar,0.33
+stm-2.5.3.1,Control.Concurrent.STM.TVar,Exitification transformation,0.011
+stm-2.5.3.1,Control.Concurrent.STM.TVar,Float inwards,0.019
+stm-2.5.3.1,Control.Concurrent.STM.TVar,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.407
+stm-2.5.3.1,Control.Concurrent.STM.TVar,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.282
+stm-2.5.3.1,Control.Concurrent.STM.TVar,Parser,1.316
+stm-2.5.3.1,Control.Concurrent.STM.TVar,Renamer/typechecker,4.177
+stm-2.5.3.1,Control.Concurrent.STM.TVar,Simplifier,5.707
+stm-2.5.3.1,Control.Concurrent.STM.TVar,Specialise,0.069
+stm-2.5.3.1,Control.Concurrent.STM.TVar,Worker Wrapper binds,0.031
+stm-2.5.3.1,Control.Monad.STM,Called arity analysis,0.01
+stm-2.5.3.1,Control.Monad.STM,CodeGen,5.26
+stm-2.5.3.1,Control.Monad.STM,Common sub-expression,0.011
+stm-2.5.3.1,Control.Monad.STM,Constructed Product Result analysis,0.049
+stm-2.5.3.1,Control.Monad.STM,CorePrep,0.14700000000000002
+stm-2.5.3.1,Control.Monad.STM,CoreTidy,0.157
+stm-2.5.3.1,Control.Monad.STM,CoreToStg,0.402
+stm-2.5.3.1,Control.Monad.STM,Demand analysis,0.195
+stm-2.5.3.1,Control.Monad.STM,Desugar,0.502
+stm-2.5.3.1,Control.Monad.STM,Exitification transformation,0.013
+stm-2.5.3.1,Control.Monad.STM,Float inwards,0.02
+stm-2.5.3.1,Control.Monad.STM,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.173
+stm-2.5.3.1,Control.Monad.STM,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.187
+stm-2.5.3.1,Control.Monad.STM,Parser,1.405
+stm-2.5.3.1,Control.Monad.STM,Renamer/typechecker,3.959
+stm-2.5.3.1,Control.Monad.STM,Simplifier,3.4450000000000003
+stm-2.5.3.1,Control.Monad.STM,Specialise,0.05
+stm-2.5.3.1,Control.Monad.STM,Worker Wrapper binds,0.06
+stm-2.5.3.1,Control.Sequential.STM,Called arity analysis,0.009
+stm-2.5.3.1,Control.Sequential.STM,CodeGen,24.939999999999998
+stm-2.5.3.1,Control.Sequential.STM,Common sub-expression,0.013
+stm-2.5.3.1,Control.Sequential.STM,Constructed Product Result analysis,0.156
+stm-2.5.3.1,Control.Sequential.STM,CorePrep,0.583
+stm-2.5.3.1,Control.Sequential.STM,CoreTidy,0.957
+stm-2.5.3.1,Control.Sequential.STM,CoreToStg,1.279
+stm-2.5.3.1,Control.Sequential.STM,Demand analysis,1.017
+stm-2.5.3.1,Control.Sequential.STM,Desugar,0.493
+stm-2.5.3.1,Control.Sequential.STM,Exitification transformation,0.016
+stm-2.5.3.1,Control.Sequential.STM,Float inwards,0.028999999999999998
+stm-2.5.3.1,Control.Sequential.STM,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.03
+stm-2.5.3.1,Control.Sequential.STM,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.56
+stm-2.5.3.1,Control.Sequential.STM,Parser,2.251
+stm-2.5.3.1,Control.Sequential.STM,Renamer/typechecker,43.926
+stm-2.5.3.1,Control.Sequential.STM,Simplifier,22.887
+stm-2.5.3.1,Control.Sequential.STM,Specialise,0.231
+stm-2.5.3.1,Control.Sequential.STM,Worker Wrapper binds,0.116

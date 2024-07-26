@@ -1,0 +1,19 @@
+package,module,phase,time
+data-default-0.7.1.1,Data.Default,Called arity analysis,0.01
+data-default-0.7.1.1,Data.Default,CodeGen,1.2389999999999999
+data-default-0.7.1.1,Data.Default,Common sub-expression,0.009
+data-default-0.7.1.1,Data.Default,Constructed Product Result analysis,0.013
+data-default-0.7.1.1,Data.Default,CorePrep,0.642
+data-default-0.7.1.1,Data.Default,CoreTidy,0.055
+data-default-0.7.1.1,Data.Default,CoreToStg,0.091
+data-default-0.7.1.1,Data.Default,Demand analysis,0.053
+data-default-0.7.1.1,Data.Default,Desugar,0.045
+data-default-0.7.1.1,Data.Default,Exitification transformation,0.009
+data-default-0.7.1.1,Data.Default,Float inwards,0.017
+data-default-0.7.1.1,Data.Default,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.055
+data-default-0.7.1.1,Data.Default,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.028
+data-default-0.7.1.1,Data.Default,Parser,0.162
+data-default-0.7.1.1,Data.Default,Renamer/typechecker,94.495
+data-default-0.7.1.1,Data.Default,Simplifier,0.401
+data-default-0.7.1.1,Data.Default,Specialise,0.019
+data-default-0.7.1.1,Data.Default,Worker Wrapper binds,0.01

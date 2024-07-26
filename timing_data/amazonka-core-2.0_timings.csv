@@ -1,0 +1,559 @@
+package,module,phase,time
+amazonka-core-2.0,Amazonka.Bytes,Called arity analysis,0.009
+amazonka-core-2.0,Amazonka.Bytes,CodeGen,3.8810000000000002
+amazonka-core-2.0,Amazonka.Bytes,Common sub-expression,0.009
+amazonka-core-2.0,Amazonka.Bytes,Constructed Product Result analysis,0.026
+amazonka-core-2.0,Amazonka.Bytes,CorePrep,0.151
+amazonka-core-2.0,Amazonka.Bytes,CoreTidy,0.091
+amazonka-core-2.0,Amazonka.Bytes,CoreToStg,0.279
+amazonka-core-2.0,Amazonka.Bytes,Demand analysis,0.16299999999999998
+amazonka-core-2.0,Amazonka.Bytes,Desugar,0.128
+amazonka-core-2.0,Amazonka.Bytes,Exitification transformation,0.01
+amazonka-core-2.0,Amazonka.Bytes,Float inwards,0.017
+amazonka-core-2.0,Amazonka.Bytes,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.074
+amazonka-core-2.0,Amazonka.Bytes,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.121
+amazonka-core-2.0,Amazonka.Bytes,Parser,0.301
+amazonka-core-2.0,Amazonka.Bytes,Renamer/typechecker,19.81
+amazonka-core-2.0,Amazonka.Bytes,Simplifier,1.271
+amazonka-core-2.0,Amazonka.Bytes,Specialise,0.045
+amazonka-core-2.0,Amazonka.Bytes,Worker Wrapper binds,0.046
+amazonka-core-2.0,Amazonka.Core,Called arity analysis,0.01
+amazonka-core-2.0,Amazonka.Core,CodeGen,4.122
+amazonka-core-2.0,Amazonka.Core,Common sub-expression,0.014
+amazonka-core-2.0,Amazonka.Core,Constructed Product Result analysis,0.041
+amazonka-core-2.0,Amazonka.Core,CorePrep,0.101
+amazonka-core-2.0,Amazonka.Core,CoreTidy,0.103
+amazonka-core-2.0,Amazonka.Core,CoreToStg,0.22899999999999998
+amazonka-core-2.0,Amazonka.Core,Demand analysis,0.178
+amazonka-core-2.0,Amazonka.Core,Desugar,0.223
+amazonka-core-2.0,Amazonka.Core,Exitification transformation,0.012
+amazonka-core-2.0,Amazonka.Core,Float inwards,0.019999999999999997
+amazonka-core-2.0,Amazonka.Core,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.139
+amazonka-core-2.0,Amazonka.Core,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.144
+amazonka-core-2.0,Amazonka.Core,Parser,0.53
+amazonka-core-2.0,Amazonka.Core,Renamer/typechecker,3.378
+amazonka-core-2.0,Amazonka.Core,Simplifier,1.332
+amazonka-core-2.0,Amazonka.Core,Specialise,0.044
+amazonka-core-2.0,Amazonka.Core,Worker Wrapper binds,0.068
+amazonka-core-2.0,Amazonka.Core.Lens,Called arity analysis,0.009
+amazonka-core-2.0,Amazonka.Core.Lens,CodeGen,1.133
+amazonka-core-2.0,Amazonka.Core.Lens,Common sub-expression,0.01
+amazonka-core-2.0,Amazonka.Core.Lens,Constructed Product Result analysis,0.012
+amazonka-core-2.0,Amazonka.Core.Lens,CorePrep,0.061
+amazonka-core-2.0,Amazonka.Core.Lens,CoreTidy,0.046
+amazonka-core-2.0,Amazonka.Core.Lens,CoreToStg,0.115
+amazonka-core-2.0,Amazonka.Core.Lens,Demand analysis,0.062
+amazonka-core-2.0,Amazonka.Core.Lens,Desugar,0.082
+amazonka-core-2.0,Amazonka.Core.Lens,Exitification transformation,0.013
+amazonka-core-2.0,Amazonka.Core.Lens,Float inwards,0.018
+amazonka-core-2.0,Amazonka.Core.Lens,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.036
+amazonka-core-2.0,Amazonka.Core.Lens,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.026
+amazonka-core-2.0,Amazonka.Core.Lens,Parser,0.397
+amazonka-core-2.0,Amazonka.Core.Lens,Renamer/typechecker,1.261
+amazonka-core-2.0,Amazonka.Core.Lens,Simplifier,0.348
+amazonka-core-2.0,Amazonka.Core.Lens,Specialise,0.02
+amazonka-core-2.0,Amazonka.Core.Lens,Worker Wrapper binds,0.024
+amazonka-core-2.0,Amazonka.Core.Lens.Internal,Called arity analysis,0.009
+amazonka-core-2.0,Amazonka.Core.Lens.Internal,CodeGen,0.925
+amazonka-core-2.0,Amazonka.Core.Lens.Internal,Common sub-expression,0.009
+amazonka-core-2.0,Amazonka.Core.Lens.Internal,Constructed Product Result analysis,0.016
+amazonka-core-2.0,Amazonka.Core.Lens.Internal,CorePrep,0.5840000000000001
+amazonka-core-2.0,Amazonka.Core.Lens.Internal,CoreTidy,0.056
+amazonka-core-2.0,Amazonka.Core.Lens.Internal,CoreToStg,0.09
+amazonka-core-2.0,Amazonka.Core.Lens.Internal,Demand analysis,0.046
+amazonka-core-2.0,Amazonka.Core.Lens.Internal,Desugar,0.052
+amazonka-core-2.0,Amazonka.Core.Lens.Internal,Exitification transformation,0.01
+amazonka-core-2.0,Amazonka.Core.Lens.Internal,Float inwards,0.017
+amazonka-core-2.0,Amazonka.Core.Lens.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.052
+amazonka-core-2.0,Amazonka.Core.Lens.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.029
+amazonka-core-2.0,Amazonka.Core.Lens.Internal,Parser,0.623
+amazonka-core-2.0,Amazonka.Core.Lens.Internal,Renamer/typechecker,53.895
+amazonka-core-2.0,Amazonka.Core.Lens.Internal,Simplifier,0.401
+amazonka-core-2.0,Amazonka.Core.Lens.Internal,Specialise,0.032
+amazonka-core-2.0,Amazonka.Core.Lens.Internal,Worker Wrapper binds,0.015
+amazonka-core-2.0,Amazonka.Crypto,Called arity analysis,0.02
+amazonka-core-2.0,Amazonka.Crypto,CodeGen,9.588000000000001
+amazonka-core-2.0,Amazonka.Crypto,Common sub-expression,0.012
+amazonka-core-2.0,Amazonka.Crypto,Constructed Product Result analysis,0.065
+amazonka-core-2.0,Amazonka.Crypto,CorePrep,0.33399999999999996
+amazonka-core-2.0,Amazonka.Crypto,CoreTidy,0.256
+amazonka-core-2.0,Amazonka.Crypto,CoreToStg,12.589
+amazonka-core-2.0,Amazonka.Crypto,Demand analysis,0.982
+amazonka-core-2.0,Amazonka.Crypto,Desugar,1.447
+amazonka-core-2.0,Amazonka.Crypto,Exitification transformation,0.011
+amazonka-core-2.0,Amazonka.Crypto,Float inwards,0.019999999999999997
+amazonka-core-2.0,Amazonka.Crypto,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.314
+amazonka-core-2.0,Amazonka.Crypto,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.449
+amazonka-core-2.0,Amazonka.Crypto,Parser,2.09
+amazonka-core-2.0,Amazonka.Crypto,Renamer/typechecker,130.261
+amazonka-core-2.0,Amazonka.Crypto,Simplifier,10.363999999999999
+amazonka-core-2.0,Amazonka.Crypto,Specialise,0.106
+amazonka-core-2.0,Amazonka.Crypto,Worker Wrapper binds,0.052
+amazonka-core-2.0,Amazonka.Data,Called arity analysis,0.016
+amazonka-core-2.0,Amazonka.Data,CodeGen,1.5470000000000002
+amazonka-core-2.0,Amazonka.Data,Common sub-expression,0.011
+amazonka-core-2.0,Amazonka.Data,Constructed Product Result analysis,0.024
+amazonka-core-2.0,Amazonka.Data,CorePrep,0.061
+amazonka-core-2.0,Amazonka.Data,CoreTidy,0.045
+amazonka-core-2.0,Amazonka.Data,CoreToStg,0.08299999999999999
+amazonka-core-2.0,Amazonka.Data,Demand analysis,0.08700000000000001
+amazonka-core-2.0,Amazonka.Data,Desugar,0.072
+amazonka-core-2.0,Amazonka.Data,Exitification transformation,0.011
+amazonka-core-2.0,Amazonka.Data,Float inwards,0.026000000000000002
+amazonka-core-2.0,Amazonka.Data,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.064
+amazonka-core-2.0,Amazonka.Data,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.03
+amazonka-core-2.0,Amazonka.Data,Parser,0.206
+amazonka-core-2.0,Amazonka.Data,Renamer/typechecker,1.446
+amazonka-core-2.0,Amazonka.Data,Simplifier,0.458
+amazonka-core-2.0,Amazonka.Data,Specialise,0.047
+amazonka-core-2.0,Amazonka.Data,Worker Wrapper binds,0.013
+amazonka-core-2.0,Amazonka.Data.Base64,Called arity analysis,0.017
+amazonka-core-2.0,Amazonka.Data.Base64,CodeGen,73.241
+amazonka-core-2.0,Amazonka.Data.Base64,Common sub-expression,0.011
+amazonka-core-2.0,Amazonka.Data.Base64,Constructed Product Result analysis,0.434
+amazonka-core-2.0,Amazonka.Data.Base64,CorePrep,1.191
+amazonka-core-2.0,Amazonka.Data.Base64,CoreTidy,1.621
+amazonka-core-2.0,Amazonka.Data.Base64,CoreToStg,3.107
+amazonka-core-2.0,Amazonka.Data.Base64,Demand analysis,4.454000000000001
+amazonka-core-2.0,Amazonka.Data.Base64,Desugar,0.398
+amazonka-core-2.0,Amazonka.Data.Base64,Exitification transformation,0.014
+amazonka-core-2.0,Amazonka.Data.Base64,Float inwards,0.022
+amazonka-core-2.0,Amazonka.Data.Base64,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",3.392
+amazonka-core-2.0,Amazonka.Data.Base64,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",3.139
+amazonka-core-2.0,Amazonka.Data.Base64,Parser,1.183
+amazonka-core-2.0,Amazonka.Data.Base64,Renamer/typechecker,7.152
+amazonka-core-2.0,Amazonka.Data.Base64,Simplifier,151.411
+amazonka-core-2.0,Amazonka.Data.Base64,Specialise,0.753
+amazonka-core-2.0,Amazonka.Data.Base64,Worker Wrapper binds,0.258
+amazonka-core-2.0,Amazonka.Data.Body,Called arity analysis,0.013
+amazonka-core-2.0,Amazonka.Data.Body,CodeGen,230.36200000000002
+amazonka-core-2.0,Amazonka.Data.Body,Common sub-expression,0.016
+amazonka-core-2.0,Amazonka.Data.Body,Constructed Product Result analysis,0.733
+amazonka-core-2.0,Amazonka.Data.Body,CorePrep,3.1079999999999997
+amazonka-core-2.0,Amazonka.Data.Body,CoreTidy,3.717
+amazonka-core-2.0,Amazonka.Data.Body,CoreToStg,11.89
+amazonka-core-2.0,Amazonka.Data.Body,Demand analysis,12.485000000000001
+amazonka-core-2.0,Amazonka.Data.Body,Desugar,4.055
+amazonka-core-2.0,Amazonka.Data.Body,Exitification transformation,0.014
+amazonka-core-2.0,Amazonka.Data.Body,Float inwards,0.023
+amazonka-core-2.0,Amazonka.Data.Body,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",5.581
+amazonka-core-2.0,Amazonka.Data.Body,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",9.334
+amazonka-core-2.0,Amazonka.Data.Body,Parser,4.071
+amazonka-core-2.0,Amazonka.Data.Body,Renamer/typechecker,51.433
+amazonka-core-2.0,Amazonka.Data.Body,Simplifier,315.247
+amazonka-core-2.0,Amazonka.Data.Body,Specialise,9.617
+amazonka-core-2.0,Amazonka.Data.Body,Worker Wrapper binds,0.431
+amazonka-core-2.0,Amazonka.Data.ByteString,Called arity analysis,0.017
+amazonka-core-2.0,Amazonka.Data.ByteString,CodeGen,32.001
+amazonka-core-2.0,Amazonka.Data.ByteString,Common sub-expression,0.014
+amazonka-core-2.0,Amazonka.Data.ByteString,Constructed Product Result analysis,0.123
+amazonka-core-2.0,Amazonka.Data.ByteString,CorePrep,0.541
+amazonka-core-2.0,Amazonka.Data.ByteString,CoreTidy,1.14
+amazonka-core-2.0,Amazonka.Data.ByteString,CoreToStg,2.053
+amazonka-core-2.0,Amazonka.Data.ByteString,Demand analysis,1.028
+amazonka-core-2.0,Amazonka.Data.ByteString,Desugar,0.205
+amazonka-core-2.0,Amazonka.Data.ByteString,Exitification transformation,0.013
+amazonka-core-2.0,Amazonka.Data.ByteString,Float inwards,0.025
+amazonka-core-2.0,Amazonka.Data.ByteString,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.443
+amazonka-core-2.0,Amazonka.Data.ByteString,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.088
+amazonka-core-2.0,Amazonka.Data.ByteString,Parser,0.654
+amazonka-core-2.0,Amazonka.Data.ByteString,Renamer/typechecker,5.918
+amazonka-core-2.0,Amazonka.Data.ByteString,Simplifier,39.013
+amazonka-core-2.0,Amazonka.Data.ByteString,Specialise,0.118
+amazonka-core-2.0,Amazonka.Data.ByteString,Worker Wrapper binds,0.115
+amazonka-core-2.0,Amazonka.Data.Headers,Called arity analysis,0.015
+amazonka-core-2.0,Amazonka.Data.Headers,CodeGen,97.849
+amazonka-core-2.0,Amazonka.Data.Headers,Common sub-expression,0.013
+amazonka-core-2.0,Amazonka.Data.Headers,Constructed Product Result analysis,0.501
+amazonka-core-2.0,Amazonka.Data.Headers,CorePrep,2.0069999999999997
+amazonka-core-2.0,Amazonka.Data.Headers,CoreTidy,3.432
+amazonka-core-2.0,Amazonka.Data.Headers,CoreToStg,5.423
+amazonka-core-2.0,Amazonka.Data.Headers,Demand analysis,4.261
+amazonka-core-2.0,Amazonka.Data.Headers,Desugar,0.579
+amazonka-core-2.0,Amazonka.Data.Headers,Exitification transformation,0.016
+amazonka-core-2.0,Amazonka.Data.Headers,Float inwards,0.027999999999999997
+amazonka-core-2.0,Amazonka.Data.Headers,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",4.22
+amazonka-core-2.0,Amazonka.Data.Headers,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",4.244
+amazonka-core-2.0,Amazonka.Data.Headers,Parser,1.996
+amazonka-core-2.0,Amazonka.Data.Headers,Renamer/typechecker,7.131
+amazonka-core-2.0,Amazonka.Data.Headers,Simplifier,98.348
+amazonka-core-2.0,Amazonka.Data.Headers,Specialise,2.04
+amazonka-core-2.0,Amazonka.Data.Headers,Worker Wrapper binds,0.171
+amazonka-core-2.0,Amazonka.Data.JSON,Called arity analysis,0.012
+amazonka-core-2.0,Amazonka.Data.JSON,CodeGen,17.46
+amazonka-core-2.0,Amazonka.Data.JSON,Common sub-expression,0.012
+amazonka-core-2.0,Amazonka.Data.JSON,Constructed Product Result analysis,0.067
+amazonka-core-2.0,Amazonka.Data.JSON,CorePrep,0.233
+amazonka-core-2.0,Amazonka.Data.JSON,CoreTidy,0.284
+amazonka-core-2.0,Amazonka.Data.JSON,CoreToStg,0.605
+amazonka-core-2.0,Amazonka.Data.JSON,Demand analysis,0.496
+amazonka-core-2.0,Amazonka.Data.JSON,Desugar,0.384
+amazonka-core-2.0,Amazonka.Data.JSON,Exitification transformation,0.011
+amazonka-core-2.0,Amazonka.Data.JSON,Float inwards,0.023
+amazonka-core-2.0,Amazonka.Data.JSON,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.451
+amazonka-core-2.0,Amazonka.Data.JSON,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.42
+amazonka-core-2.0,Amazonka.Data.JSON,Parser,2.725
+amazonka-core-2.0,Amazonka.Data.JSON,Renamer/typechecker,34.316
+amazonka-core-2.0,Amazonka.Data.JSON,Simplifier,16.029
+amazonka-core-2.0,Amazonka.Data.JSON,Specialise,0.129
+amazonka-core-2.0,Amazonka.Data.JSON,Worker Wrapper binds,0.086
+amazonka-core-2.0,Amazonka.Data.Log,Called arity analysis,0.01
+amazonka-core-2.0,Amazonka.Data.Log,CodeGen,193.934
+amazonka-core-2.0,Amazonka.Data.Log,Common sub-expression,0.015
+amazonka-core-2.0,Amazonka.Data.Log,Constructed Product Result analysis,1.181
+amazonka-core-2.0,Amazonka.Data.Log,CorePrep,4.18
+amazonka-core-2.0,Amazonka.Data.Log,CoreTidy,4.339
+amazonka-core-2.0,Amazonka.Data.Log,CoreToStg,29.045
+amazonka-core-2.0,Amazonka.Data.Log,Demand analysis,19.246000000000002
+amazonka-core-2.0,Amazonka.Data.Log,Desugar,0.719
+amazonka-core-2.0,Amazonka.Data.Log,Exitification transformation,0.013
+amazonka-core-2.0,Amazonka.Data.Log,Float inwards,0.022
+amazonka-core-2.0,Amazonka.Data.Log,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",5.708
+amazonka-core-2.0,Amazonka.Data.Log,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",14.365
+amazonka-core-2.0,Amazonka.Data.Log,Parser,1.202
+amazonka-core-2.0,Amazonka.Data.Log,Renamer/typechecker,24.7
+amazonka-core-2.0,Amazonka.Data.Log,Simplifier,336.509
+amazonka-core-2.0,Amazonka.Data.Log,Specialise,0.833
+amazonka-core-2.0,Amazonka.Data.Log,Worker Wrapper binds,0.315
+amazonka-core-2.0,Amazonka.Data.Path,Called arity analysis,0.014
+amazonka-core-2.0,Amazonka.Data.Path,CodeGen,65.222
+amazonka-core-2.0,Amazonka.Data.Path,Common sub-expression,0.012
+amazonka-core-2.0,Amazonka.Data.Path,Constructed Product Result analysis,0.332
+amazonka-core-2.0,Amazonka.Data.Path,CorePrep,1.0390000000000001
+amazonka-core-2.0,Amazonka.Data.Path,CoreTidy,1.365
+amazonka-core-2.0,Amazonka.Data.Path,CoreToStg,3.883
+amazonka-core-2.0,Amazonka.Data.Path,Demand analysis,2.0300000000000002
+amazonka-core-2.0,Amazonka.Data.Path,Desugar,1.124
+amazonka-core-2.0,Amazonka.Data.Path,Exitification transformation,0.014
+amazonka-core-2.0,Amazonka.Data.Path,Float inwards,0.036000000000000004
+amazonka-core-2.0,Amazonka.Data.Path,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.02
+amazonka-core-2.0,Amazonka.Data.Path,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.337
+amazonka-core-2.0,Amazonka.Data.Path,Parser,1.064
+amazonka-core-2.0,Amazonka.Data.Path,Renamer/typechecker,7.149
+amazonka-core-2.0,Amazonka.Data.Path,Simplifier,66.922
+amazonka-core-2.0,Amazonka.Data.Path,Specialise,0.397
+amazonka-core-2.0,Amazonka.Data.Path,Worker Wrapper binds,0.159
+amazonka-core-2.0,Amazonka.Data.Query,Called arity analysis,0.009
+amazonka-core-2.0,Amazonka.Data.Query,CodeGen,111.094
+amazonka-core-2.0,Amazonka.Data.Query,Common sub-expression,0.011
+amazonka-core-2.0,Amazonka.Data.Query,Constructed Product Result analysis,0.422
+amazonka-core-2.0,Amazonka.Data.Query,CorePrep,2.597
+amazonka-core-2.0,Amazonka.Data.Query,CoreTidy,1.72
+amazonka-core-2.0,Amazonka.Data.Query,CoreToStg,8.168000000000001
+amazonka-core-2.0,Amazonka.Data.Query,Demand analysis,3.683
+amazonka-core-2.0,Amazonka.Data.Query,Desugar,1.474
+amazonka-core-2.0,Amazonka.Data.Query,Exitification transformation,0.014
+amazonka-core-2.0,Amazonka.Data.Query,Float inwards,0.026
+amazonka-core-2.0,Amazonka.Data.Query,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",3.572
+amazonka-core-2.0,Amazonka.Data.Query,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",3.588
+amazonka-core-2.0,Amazonka.Data.Query,Parser,1.485
+amazonka-core-2.0,Amazonka.Data.Query,Renamer/typechecker,10.872
+amazonka-core-2.0,Amazonka.Data.Query,Simplifier,116.554
+amazonka-core-2.0,Amazonka.Data.Query,Specialise,0.636
+amazonka-core-2.0,Amazonka.Data.Query,Worker Wrapper binds,0.204
+amazonka-core-2.0,Amazonka.Data.Sensitive,Called arity analysis,0.013
+amazonka-core-2.0,Amazonka.Data.Sensitive,CodeGen,28.5
+amazonka-core-2.0,Amazonka.Data.Sensitive,Common sub-expression,0.017
+amazonka-core-2.0,Amazonka.Data.Sensitive,Constructed Product Result analysis,0.11
+amazonka-core-2.0,Amazonka.Data.Sensitive,CorePrep,0.512
+amazonka-core-2.0,Amazonka.Data.Sensitive,CoreTidy,0.721
+amazonka-core-2.0,Amazonka.Data.Sensitive,CoreToStg,1.042
+amazonka-core-2.0,Amazonka.Data.Sensitive,Demand analysis,1.516
+amazonka-core-2.0,Amazonka.Data.Sensitive,Desugar,0.695
+amazonka-core-2.0,Amazonka.Data.Sensitive,Exitification transformation,0.016
+amazonka-core-2.0,Amazonka.Data.Sensitive,Float inwards,0.020999999999999998
+amazonka-core-2.0,Amazonka.Data.Sensitive,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.745
+amazonka-core-2.0,Amazonka.Data.Sensitive,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.251
+amazonka-core-2.0,Amazonka.Data.Sensitive,Parser,0.421
+amazonka-core-2.0,Amazonka.Data.Sensitive,Renamer/typechecker,70.157
+amazonka-core-2.0,Amazonka.Data.Sensitive,Simplifier,31.095
+amazonka-core-2.0,Amazonka.Data.Sensitive,Specialise,0.231
+amazonka-core-2.0,Amazonka.Data.Sensitive,Worker Wrapper binds,0.121
+amazonka-core-2.0,Amazonka.Data.Text,Called arity analysis,0.011
+amazonka-core-2.0,Amazonka.Data.Text,CodeGen,148.801
+amazonka-core-2.0,Amazonka.Data.Text,Common sub-expression,0.015
+amazonka-core-2.0,Amazonka.Data.Text,Constructed Product Result analysis,0.982
+amazonka-core-2.0,Amazonka.Data.Text,CorePrep,2.8019999999999996
+amazonka-core-2.0,Amazonka.Data.Text,CoreTidy,3.278
+amazonka-core-2.0,Amazonka.Data.Text,CoreToStg,17.221
+amazonka-core-2.0,Amazonka.Data.Text,Demand analysis,11.389
+amazonka-core-2.0,Amazonka.Data.Text,Desugar,0.741
+amazonka-core-2.0,Amazonka.Data.Text,Exitification transformation,0.019
+amazonka-core-2.0,Amazonka.Data.Text,Float inwards,0.044
+amazonka-core-2.0,Amazonka.Data.Text,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",6.656
+amazonka-core-2.0,Amazonka.Data.Text,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",7.882
+amazonka-core-2.0,Amazonka.Data.Text,Parser,1.04
+amazonka-core-2.0,Amazonka.Data.Text,Renamer/typechecker,25.575
+amazonka-core-2.0,Amazonka.Data.Text,Simplifier,213.01
+amazonka-core-2.0,Amazonka.Data.Text,Specialise,1.468
+amazonka-core-2.0,Amazonka.Data.Text,Worker Wrapper binds,0.494
+amazonka-core-2.0,Amazonka.Data.Time,Called arity analysis,0.019
+amazonka-core-2.0,Amazonka.Data.Time,CodeGen,272.803
+amazonka-core-2.0,Amazonka.Data.Time,Common sub-expression,0.016
+amazonka-core-2.0,Amazonka.Data.Time,Constructed Product Result analysis,1.325
+amazonka-core-2.0,Amazonka.Data.Time,CorePrep,3.995
+amazonka-core-2.0,Amazonka.Data.Time,CoreTidy,4.93
+amazonka-core-2.0,Amazonka.Data.Time,CoreToStg,14.039
+amazonka-core-2.0,Amazonka.Data.Time,Demand analysis,15.197
+amazonka-core-2.0,Amazonka.Data.Time,Desugar,1.002
+amazonka-core-2.0,Amazonka.Data.Time,Exitification transformation,0.014
+amazonka-core-2.0,Amazonka.Data.Time,Float inwards,0.023
+amazonka-core-2.0,Amazonka.Data.Time,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",9.46
+amazonka-core-2.0,Amazonka.Data.Time,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",20.383
+amazonka-core-2.0,Amazonka.Data.Time,Parser,1.839
+amazonka-core-2.0,Amazonka.Data.Time,Renamer/typechecker,50.087
+amazonka-core-2.0,Amazonka.Data.Time,Simplifier,481.734
+amazonka-core-2.0,Amazonka.Data.Time,Specialise,4.473
+amazonka-core-2.0,Amazonka.Data.Time,Worker Wrapper binds,0.678
+amazonka-core-2.0,Amazonka.Data.XML,Called arity analysis,0.01
+amazonka-core-2.0,Amazonka.Data.XML,CodeGen,245.039
+amazonka-core-2.0,Amazonka.Data.XML,Common sub-expression,0.015
+amazonka-core-2.0,Amazonka.Data.XML,Constructed Product Result analysis,0.861
+amazonka-core-2.0,Amazonka.Data.XML,CorePrep,2.608
+amazonka-core-2.0,Amazonka.Data.XML,CoreTidy,8.596
+amazonka-core-2.0,Amazonka.Data.XML,CoreToStg,11.969000000000001
+amazonka-core-2.0,Amazonka.Data.XML,Demand analysis,7.964
+amazonka-core-2.0,Amazonka.Data.XML,Desugar,4.583
+amazonka-core-2.0,Amazonka.Data.XML,Exitification transformation,0.013
+amazonka-core-2.0,Amazonka.Data.XML,Float inwards,0.020999999999999998
+amazonka-core-2.0,Amazonka.Data.XML,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",8.286
+amazonka-core-2.0,Amazonka.Data.XML,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",8.63
+amazonka-core-2.0,Amazonka.Data.XML,Parser,2.523
+amazonka-core-2.0,Amazonka.Data.XML,Renamer/typechecker,102.197
+amazonka-core-2.0,Amazonka.Data.XML,Simplifier,355.695
+amazonka-core-2.0,Amazonka.Data.XML,Specialise,2.825
+amazonka-core-2.0,Amazonka.Data.XML,Worker Wrapper binds,0.302
+amazonka-core-2.0,Amazonka.Endpoint,Called arity analysis,0.009
+amazonka-core-2.0,Amazonka.Endpoint,CodeGen,47.944
+amazonka-core-2.0,Amazonka.Endpoint,Common sub-expression,0.012
+amazonka-core-2.0,Amazonka.Endpoint,Constructed Product Result analysis,0.248
+amazonka-core-2.0,Amazonka.Endpoint,CorePrep,0.762
+amazonka-core-2.0,Amazonka.Endpoint,CoreTidy,0.795
+amazonka-core-2.0,Amazonka.Endpoint,CoreToStg,2.4109999999999996
+amazonka-core-2.0,Amazonka.Endpoint,Demand analysis,1.149
+amazonka-core-2.0,Amazonka.Endpoint,Desugar,3.133
+amazonka-core-2.0,Amazonka.Endpoint,Exitification transformation,0.012
+amazonka-core-2.0,Amazonka.Endpoint,Float inwards,0.019
+amazonka-core-2.0,Amazonka.Endpoint,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.209
+amazonka-core-2.0,Amazonka.Endpoint,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.496
+amazonka-core-2.0,Amazonka.Endpoint,Parser,1.364
+amazonka-core-2.0,Amazonka.Endpoint,Renamer/typechecker,2.826
+amazonka-core-2.0,Amazonka.Endpoint,Simplifier,37.592999999999996
+amazonka-core-2.0,Amazonka.Endpoint,Specialise,0.232
+amazonka-core-2.0,Amazonka.Endpoint,Worker Wrapper binds,0.113
+amazonka-core-2.0,Amazonka.Error,Called arity analysis,0.011
+amazonka-core-2.0,Amazonka.Error,CodeGen,108.97200000000001
+amazonka-core-2.0,Amazonka.Error,Common sub-expression,0.01
+amazonka-core-2.0,Amazonka.Error,Constructed Product Result analysis,0.306
+amazonka-core-2.0,Amazonka.Error,CorePrep,1.33
+amazonka-core-2.0,Amazonka.Error,CoreTidy,1.495
+amazonka-core-2.0,Amazonka.Error,CoreToStg,5.1
+amazonka-core-2.0,Amazonka.Error,Demand analysis,2.618
+amazonka-core-2.0,Amazonka.Error,Desugar,1.675
+amazonka-core-2.0,Amazonka.Error,Exitification transformation,0.013
+amazonka-core-2.0,Amazonka.Error,Float inwards,0.022
+amazonka-core-2.0,Amazonka.Error,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.163
+amazonka-core-2.0,Amazonka.Error,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",3.278
+amazonka-core-2.0,Amazonka.Error,Parser,1.487
+amazonka-core-2.0,Amazonka.Error,Renamer/typechecker,14.424
+amazonka-core-2.0,Amazonka.Error,Simplifier,85.41499999999999
+amazonka-core-2.0,Amazonka.Error,Specialise,0.402
+amazonka-core-2.0,Amazonka.Error,Worker Wrapper binds,0.194
+amazonka-core-2.0,Amazonka.Pager,Called arity analysis,0.01
+amazonka-core-2.0,Amazonka.Pager,CodeGen,12.219999999999999
+amazonka-core-2.0,Amazonka.Pager,Common sub-expression,0.016
+amazonka-core-2.0,Amazonka.Pager,Constructed Product Result analysis,0.061
+amazonka-core-2.0,Amazonka.Pager,CorePrep,0.295
+amazonka-core-2.0,Amazonka.Pager,CoreTidy,0.308
+amazonka-core-2.0,Amazonka.Pager,CoreToStg,0.5269999999999999
+amazonka-core-2.0,Amazonka.Pager,Demand analysis,0.371
+amazonka-core-2.0,Amazonka.Pager,Desugar,0.317
+amazonka-core-2.0,Amazonka.Pager,Exitification transformation,0.01
+amazonka-core-2.0,Amazonka.Pager,Float inwards,0.02
+amazonka-core-2.0,Amazonka.Pager,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.243
+amazonka-core-2.0,Amazonka.Pager,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.315
+amazonka-core-2.0,Amazonka.Pager,Parser,0.617
+amazonka-core-2.0,Amazonka.Pager,Renamer/typechecker,4.146
+amazonka-core-2.0,Amazonka.Pager,Simplifier,4.252
+amazonka-core-2.0,Amazonka.Pager,Specialise,0.092
+amazonka-core-2.0,Amazonka.Pager,Worker Wrapper binds,0.075
+amazonka-core-2.0,Amazonka.Prelude,Called arity analysis,0.009
+amazonka-core-2.0,Amazonka.Prelude,CodeGen,0.775
+amazonka-core-2.0,Amazonka.Prelude,Common sub-expression,0.009
+amazonka-core-2.0,Amazonka.Prelude,Constructed Product Result analysis,0.012
+amazonka-core-2.0,Amazonka.Prelude,CorePrep,0.076
+amazonka-core-2.0,Amazonka.Prelude,CoreTidy,0.051
+amazonka-core-2.0,Amazonka.Prelude,CoreToStg,0.119
+amazonka-core-2.0,Amazonka.Prelude,Demand analysis,0.052000000000000005
+amazonka-core-2.0,Amazonka.Prelude,Desugar,0.141
+amazonka-core-2.0,Amazonka.Prelude,Exitification transformation,0.009
+amazonka-core-2.0,Amazonka.Prelude,Float inwards,0.017
+amazonka-core-2.0,Amazonka.Prelude,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.052
+amazonka-core-2.0,Amazonka.Prelude,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.046
+amazonka-core-2.0,Amazonka.Prelude,Parser,1.441
+amazonka-core-2.0,Amazonka.Prelude,Renamer/typechecker,148.624
+amazonka-core-2.0,Amazonka.Prelude,Simplifier,1.64
+amazonka-core-2.0,Amazonka.Prelude,Specialise,0.035
+amazonka-core-2.0,Amazonka.Prelude,Worker Wrapper binds,0.01
+amazonka-core-2.0,Amazonka.Request,Called arity analysis,0.012
+amazonka-core-2.0,Amazonka.Request,CodeGen,74.717
+amazonka-core-2.0,Amazonka.Request,Common sub-expression,0.012
+amazonka-core-2.0,Amazonka.Request,Constructed Product Result analysis,0.257
+amazonka-core-2.0,Amazonka.Request,CorePrep,1.4
+amazonka-core-2.0,Amazonka.Request,CoreTidy,1.965
+amazonka-core-2.0,Amazonka.Request,CoreToStg,13.301
+amazonka-core-2.0,Amazonka.Request,Demand analysis,3.1799999999999997
+amazonka-core-2.0,Amazonka.Request,Desugar,10.809
+amazonka-core-2.0,Amazonka.Request,Exitification transformation,0.014
+amazonka-core-2.0,Amazonka.Request,Float inwards,0.025
+amazonka-core-2.0,Amazonka.Request,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.235
+amazonka-core-2.0,Amazonka.Request,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",3.103
+amazonka-core-2.0,Amazonka.Request,Parser,2.279
+amazonka-core-2.0,Amazonka.Request,Renamer/typechecker,13.874
+amazonka-core-2.0,Amazonka.Request,Simplifier,64.45400000000001
+amazonka-core-2.0,Amazonka.Request,Specialise,0.419
+amazonka-core-2.0,Amazonka.Request,Worker Wrapper binds,0.372
+amazonka-core-2.0,Amazonka.Response,Called arity analysis,0.013
+amazonka-core-2.0,Amazonka.Response,CodeGen,45.245000000000005
+amazonka-core-2.0,Amazonka.Response,Common sub-expression,0.011
+amazonka-core-2.0,Amazonka.Response,Constructed Product Result analysis,0.191
+amazonka-core-2.0,Amazonka.Response,CorePrep,0.714
+amazonka-core-2.0,Amazonka.Response,CoreTidy,0.867
+amazonka-core-2.0,Amazonka.Response,CoreToStg,2.206
+amazonka-core-2.0,Amazonka.Response,Demand analysis,1.576
+amazonka-core-2.0,Amazonka.Response,Desugar,1.255
+amazonka-core-2.0,Amazonka.Response,Exitification transformation,0.013
+amazonka-core-2.0,Amazonka.Response,Float inwards,0.028
+amazonka-core-2.0,Amazonka.Response,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.637
+amazonka-core-2.0,Amazonka.Response,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.939
+amazonka-core-2.0,Amazonka.Response,Parser,1.306
+amazonka-core-2.0,Amazonka.Response,Renamer/typechecker,10.148
+amazonka-core-2.0,Amazonka.Response,Simplifier,38.388
+amazonka-core-2.0,Amazonka.Response,Specialise,4.247
+amazonka-core-2.0,Amazonka.Response,Worker Wrapper binds,0.141
+amazonka-core-2.0,Amazonka.Sign.V2,Called arity analysis,0.01
+amazonka-core-2.0,Amazonka.Sign.V2,CodeGen,48.596000000000004
+amazonka-core-2.0,Amazonka.Sign.V2,Common sub-expression,0.019
+amazonka-core-2.0,Amazonka.Sign.V2,Constructed Product Result analysis,0.165
+amazonka-core-2.0,Amazonka.Sign.V2,CorePrep,0.872
+amazonka-core-2.0,Amazonka.Sign.V2,CoreTidy,0.732
+amazonka-core-2.0,Amazonka.Sign.V2,CoreToStg,2.823
+amazonka-core-2.0,Amazonka.Sign.V2,Demand analysis,1.3090000000000002
+amazonka-core-2.0,Amazonka.Sign.V2,Desugar,1.889
+amazonka-core-2.0,Amazonka.Sign.V2,Exitification transformation,0.013
+amazonka-core-2.0,Amazonka.Sign.V2,Float inwards,0.019999999999999997
+amazonka-core-2.0,Amazonka.Sign.V2,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.001
+amazonka-core-2.0,Amazonka.Sign.V2,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.066
+amazonka-core-2.0,Amazonka.Sign.V2,Parser,0.763
+amazonka-core-2.0,Amazonka.Sign.V2,Renamer/typechecker,3.941
+amazonka-core-2.0,Amazonka.Sign.V2,Simplifier,44.224
+amazonka-core-2.0,Amazonka.Sign.V2,Specialise,0.375
+amazonka-core-2.0,Amazonka.Sign.V2,Worker Wrapper binds,0.082
+amazonka-core-2.0,Amazonka.Sign.V2Header,Called arity analysis,0.01
+amazonka-core-2.0,Amazonka.Sign.V2Header,CodeGen,106.981
+amazonka-core-2.0,Amazonka.Sign.V2Header,Common sub-expression,0.012
+amazonka-core-2.0,Amazonka.Sign.V2Header,Constructed Product Result analysis,0.655
+amazonka-core-2.0,Amazonka.Sign.V2Header,CorePrep,1.885
+amazonka-core-2.0,Amazonka.Sign.V2Header,CoreTidy,2.075
+amazonka-core-2.0,Amazonka.Sign.V2Header,CoreToStg,7.3580000000000005
+amazonka-core-2.0,Amazonka.Sign.V2Header,Demand analysis,4.917
+amazonka-core-2.0,Amazonka.Sign.V2Header,Desugar,3.983
+amazonka-core-2.0,Amazonka.Sign.V2Header,Exitification transformation,0.016
+amazonka-core-2.0,Amazonka.Sign.V2Header,Float inwards,0.020999999999999998
+amazonka-core-2.0,Amazonka.Sign.V2Header,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",4.126
+amazonka-core-2.0,Amazonka.Sign.V2Header,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",5.454
+amazonka-core-2.0,Amazonka.Sign.V2Header,Parser,1.357
+amazonka-core-2.0,Amazonka.Sign.V2Header,Renamer/typechecker,8.436
+amazonka-core-2.0,Amazonka.Sign.V2Header,Simplifier,152.836
+amazonka-core-2.0,Amazonka.Sign.V2Header,Specialise,0.797
+amazonka-core-2.0,Amazonka.Sign.V2Header,Worker Wrapper binds,0.259
+amazonka-core-2.0,Amazonka.Sign.V4,Called arity analysis,0.014
+amazonka-core-2.0,Amazonka.Sign.V4,CodeGen,32.428
+amazonka-core-2.0,Amazonka.Sign.V4,Common sub-expression,0.011
+amazonka-core-2.0,Amazonka.Sign.V4,Constructed Product Result analysis,0.082
+amazonka-core-2.0,Amazonka.Sign.V4,CorePrep,0.524
+amazonka-core-2.0,Amazonka.Sign.V4,CoreTidy,0.535
+amazonka-core-2.0,Amazonka.Sign.V4,CoreToStg,2.1879999999999997
+amazonka-core-2.0,Amazonka.Sign.V4,Demand analysis,0.877
+amazonka-core-2.0,Amazonka.Sign.V4,Desugar,4.112
+amazonka-core-2.0,Amazonka.Sign.V4,Exitification transformation,0.013
+amazonka-core-2.0,Amazonka.Sign.V4,Float inwards,0.034
+amazonka-core-2.0,Amazonka.Sign.V4,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.539
+amazonka-core-2.0,Amazonka.Sign.V4,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.408
+amazonka-core-2.0,Amazonka.Sign.V4,Parser,0.866
+amazonka-core-2.0,Amazonka.Sign.V4,Renamer/typechecker,5.121
+amazonka-core-2.0,Amazonka.Sign.V4,Simplifier,24.705
+amazonka-core-2.0,Amazonka.Sign.V4,Specialise,0.262
+amazonka-core-2.0,Amazonka.Sign.V4,Worker Wrapper binds,0.045
+amazonka-core-2.0,Amazonka.Sign.V4.Base,Called arity analysis,0.012
+amazonka-core-2.0,Amazonka.Sign.V4.Base,CodeGen,152.824
+amazonka-core-2.0,Amazonka.Sign.V4.Base,Common sub-expression,0.034
+amazonka-core-2.0,Amazonka.Sign.V4.Base,Constructed Product Result analysis,0.731
+amazonka-core-2.0,Amazonka.Sign.V4.Base,CorePrep,2.899
+amazonka-core-2.0,Amazonka.Sign.V4.Base,CoreTidy,4.983
+amazonka-core-2.0,Amazonka.Sign.V4.Base,CoreToStg,14.248000000000001
+amazonka-core-2.0,Amazonka.Sign.V4.Base,Demand analysis,6.407
+amazonka-core-2.0,Amazonka.Sign.V4.Base,Desugar,7.799
+amazonka-core-2.0,Amazonka.Sign.V4.Base,Exitification transformation,0.014
+amazonka-core-2.0,Amazonka.Sign.V4.Base,Float inwards,0.026
+amazonka-core-2.0,Amazonka.Sign.V4.Base,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",17.413
+amazonka-core-2.0,Amazonka.Sign.V4.Base,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",8.86
+amazonka-core-2.0,Amazonka.Sign.V4.Base,Parser,2.029
+amazonka-core-2.0,Amazonka.Sign.V4.Base,Renamer/typechecker,27.007
+amazonka-core-2.0,Amazonka.Sign.V4.Base,Simplifier,216.573
+amazonka-core-2.0,Amazonka.Sign.V4.Base,Specialise,1.805
+amazonka-core-2.0,Amazonka.Sign.V4.Base,Worker Wrapper binds,0.39
+amazonka-core-2.0,Amazonka.Sign.V4.Chunked,Called arity analysis,0.011
+amazonka-core-2.0,Amazonka.Sign.V4.Chunked,CodeGen,51.422
+amazonka-core-2.0,Amazonka.Sign.V4.Chunked,Common sub-expression,0.011
+amazonka-core-2.0,Amazonka.Sign.V4.Chunked,Constructed Product Result analysis,0.259
+amazonka-core-2.0,Amazonka.Sign.V4.Chunked,CorePrep,0.961
+amazonka-core-2.0,Amazonka.Sign.V4.Chunked,CoreTidy,0.936
+amazonka-core-2.0,Amazonka.Sign.V4.Chunked,CoreToStg,3.467
+amazonka-core-2.0,Amazonka.Sign.V4.Chunked,Demand analysis,2.4509999999999996
+amazonka-core-2.0,Amazonka.Sign.V4.Chunked,Desugar,2.993
+amazonka-core-2.0,Amazonka.Sign.V4.Chunked,Exitification transformation,0.02
+amazonka-core-2.0,Amazonka.Sign.V4.Chunked,Float inwards,0.020999999999999998
+amazonka-core-2.0,Amazonka.Sign.V4.Chunked,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",3.83
+amazonka-core-2.0,Amazonka.Sign.V4.Chunked,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.462
+amazonka-core-2.0,Amazonka.Sign.V4.Chunked,Parser,1.055
+amazonka-core-2.0,Amazonka.Sign.V4.Chunked,Renamer/typechecker,6.235
+amazonka-core-2.0,Amazonka.Sign.V4.Chunked,Simplifier,65.42
+amazonka-core-2.0,Amazonka.Sign.V4.Chunked,Specialise,0.758
+amazonka-core-2.0,Amazonka.Sign.V4.Chunked,Worker Wrapper binds,0.146
+amazonka-core-2.0,Amazonka.Types,Called arity analysis,0.01
+amazonka-core-2.0,Amazonka.Types,CodeGen,786.716
+amazonka-core-2.0,Amazonka.Types,Common sub-expression,0.014
+amazonka-core-2.0,Amazonka.Types,Constructed Product Result analysis,5.79
+amazonka-core-2.0,Amazonka.Types,CorePrep,11.907
+amazonka-core-2.0,Amazonka.Types,CoreTidy,22.196
+amazonka-core-2.0,Amazonka.Types,CoreToStg,63.629000000000005
+amazonka-core-2.0,Amazonka.Types,Demand analysis,35.174
+amazonka-core-2.0,Amazonka.Types,Desugar,28.292
+amazonka-core-2.0,Amazonka.Types,Exitification transformation,0.013
+amazonka-core-2.0,Amazonka.Types,Float inwards,0.020999999999999998
+amazonka-core-2.0,Amazonka.Types,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",24.633
+amazonka-core-2.0,Amazonka.Types,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",46.859
+amazonka-core-2.0,Amazonka.Types,Parser,10.063
+amazonka-core-2.0,Amazonka.Types,Renamer/typechecker,101.527
+amazonka-core-2.0,Amazonka.Types,Simplifier,1515.083
+amazonka-core-2.0,Amazonka.Types,Specialise,5.027
+amazonka-core-2.0,Amazonka.Types,Worker Wrapper binds,2.788
+amazonka-core-2.0,Amazonka.Waiter,Called arity analysis,0.011
+amazonka-core-2.0,Amazonka.Waiter,CodeGen,51.188
+amazonka-core-2.0,Amazonka.Waiter,Common sub-expression,0.011
+amazonka-core-2.0,Amazonka.Waiter,Constructed Product Result analysis,0.152
+amazonka-core-2.0,Amazonka.Waiter,CorePrep,0.708
+amazonka-core-2.0,Amazonka.Waiter,CoreTidy,1.042
+amazonka-core-2.0,Amazonka.Waiter,CoreToStg,1.772
+amazonka-core-2.0,Amazonka.Waiter,Demand analysis,1.298
+amazonka-core-2.0,Amazonka.Waiter,Desugar,1.231
+amazonka-core-2.0,Amazonka.Waiter,Exitification transformation,0.016
+amazonka-core-2.0,Amazonka.Waiter,Float inwards,0.019999999999999997
+amazonka-core-2.0,Amazonka.Waiter,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.053
+amazonka-core-2.0,Amazonka.Waiter,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.31
+amazonka-core-2.0,Amazonka.Waiter,Parser,1.288
+amazonka-core-2.0,Amazonka.Waiter,Renamer/typechecker,8.209
+amazonka-core-2.0,Amazonka.Waiter,Simplifier,30.38
+amazonka-core-2.0,Amazonka.Waiter,Specialise,0.233
+amazonka-core-2.0,Amazonka.Waiter,Worker Wrapper binds,0.124

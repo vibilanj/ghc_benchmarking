@@ -1,0 +1,37 @@
+package,module,phase,time
+async-2.2.5,Control.Concurrent.Async,Called arity analysis,0.01
+async-2.2.5,Control.Concurrent.Async,CodeGen,0.722
+async-2.2.5,Control.Concurrent.Async,Common sub-expression,0.01
+async-2.2.5,Control.Concurrent.Async,Constructed Product Result analysis,0.012
+async-2.2.5,Control.Concurrent.Async,CorePrep,0.073
+async-2.2.5,Control.Concurrent.Async,CoreTidy,0.044
+async-2.2.5,Control.Concurrent.Async,CoreToStg,0.08399999999999999
+async-2.2.5,Control.Concurrent.Async,Demand analysis,0.046
+async-2.2.5,Control.Concurrent.Async,Desugar,0.07
+async-2.2.5,Control.Concurrent.Async,Exitification transformation,0.01
+async-2.2.5,Control.Concurrent.Async,Float inwards,0.018
+async-2.2.5,Control.Concurrent.Async,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.044
+async-2.2.5,Control.Concurrent.Async,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.026
+async-2.2.5,Control.Concurrent.Async,Parser,0.564
+async-2.2.5,Control.Concurrent.Async,Renamer/typechecker,0.479
+async-2.2.5,Control.Concurrent.Async,Simplifier,0.353
+async-2.2.5,Control.Concurrent.Async,Specialise,0.022
+async-2.2.5,Control.Concurrent.Async,Worker Wrapper binds,0.012
+async-2.2.5,Control.Concurrent.Async.Internal,Called arity analysis,0.019
+async-2.2.5,Control.Concurrent.Async.Internal,CodeGen,308.094
+async-2.2.5,Control.Concurrent.Async.Internal,Common sub-expression,0.015
+async-2.2.5,Control.Concurrent.Async.Internal,Constructed Product Result analysis,3.285
+async-2.2.5,Control.Concurrent.Async.Internal,CorePrep,18.181
+async-2.2.5,Control.Concurrent.Async.Internal,CoreTidy,7.821
+async-2.2.5,Control.Concurrent.Async.Internal,CoreToStg,34.947
+async-2.2.5,Control.Concurrent.Async.Internal,Demand analysis,23.984
+async-2.2.5,Control.Concurrent.Async.Internal,Desugar,4.65
+async-2.2.5,Control.Concurrent.Async.Internal,Exitification transformation,0.015
+async-2.2.5,Control.Concurrent.Async.Internal,Float inwards,0.020999999999999998
+async-2.2.5,Control.Concurrent.Async.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",18.558
+async-2.2.5,Control.Concurrent.Async.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",19.572
+async-2.2.5,Control.Concurrent.Async.Internal,Parser,24.743
+async-2.2.5,Control.Concurrent.Async.Internal,Renamer/typechecker,116.465
+async-2.2.5,Control.Concurrent.Async.Internal,Simplifier,524.267
+async-2.2.5,Control.Concurrent.Async.Internal,Specialise,2.223
+async-2.2.5,Control.Concurrent.Async.Internal,Worker Wrapper binds,0.975

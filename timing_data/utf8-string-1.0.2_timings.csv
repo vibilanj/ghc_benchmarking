@@ -1,0 +1,101 @@
+package,module,phase,time
+utf8-string-1.0.2,Codec.Binary.UTF8.Generic,Called arity analysis,0.011
+utf8-string-1.0.2,Codec.Binary.UTF8.Generic,CodeGen,202.297
+utf8-string-1.0.2,Codec.Binary.UTF8.Generic,Common sub-expression,0.049
+utf8-string-1.0.2,Codec.Binary.UTF8.Generic,Constructed Product Result analysis,0.719
+utf8-string-1.0.2,Codec.Binary.UTF8.Generic,CorePrep,4.105
+utf8-string-1.0.2,Codec.Binary.UTF8.Generic,CoreTidy,2.931
+utf8-string-1.0.2,Codec.Binary.UTF8.Generic,CoreToStg,29.314
+utf8-string-1.0.2,Codec.Binary.UTF8.Generic,Demand analysis,9.958
+utf8-string-1.0.2,Codec.Binary.UTF8.Generic,Desugar,3.804
+utf8-string-1.0.2,Codec.Binary.UTF8.Generic,Exitification transformation,0.013
+utf8-string-1.0.2,Codec.Binary.UTF8.Generic,Float inwards,0.028999999999999998
+utf8-string-1.0.2,Codec.Binary.UTF8.Generic,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",9.054
+utf8-string-1.0.2,Codec.Binary.UTF8.Generic,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",11.36
+utf8-string-1.0.2,Codec.Binary.UTF8.Generic,Liberate case,0.012
+utf8-string-1.0.2,Codec.Binary.UTF8.Generic,Parser,5.813
+utf8-string-1.0.2,Codec.Binary.UTF8.Generic,Renamer/typechecker,34.022
+utf8-string-1.0.2,Codec.Binary.UTF8.Generic,Simplifier,323.061
+utf8-string-1.0.2,Codec.Binary.UTF8.Generic,SpecConstr,3.977
+utf8-string-1.0.2,Codec.Binary.UTF8.Generic,Specialise,1.966
+utf8-string-1.0.2,Codec.Binary.UTF8.Generic,Worker Wrapper binds,0.32
+utf8-string-1.0.2,Codec.Binary.UTF8.String,Called arity analysis,0.017
+utf8-string-1.0.2,Codec.Binary.UTF8.String,CodeGen,42.113
+utf8-string-1.0.2,Codec.Binary.UTF8.String,Common sub-expression,0.022
+utf8-string-1.0.2,Codec.Binary.UTF8.String,Constructed Product Result analysis,0.213
+utf8-string-1.0.2,Codec.Binary.UTF8.String,CorePrep,1.26
+utf8-string-1.0.2,Codec.Binary.UTF8.String,CoreTidy,0.446
+utf8-string-1.0.2,Codec.Binary.UTF8.String,CoreToStg,5.9079999999999995
+utf8-string-1.0.2,Codec.Binary.UTF8.String,Demand analysis,1.5750000000000002
+utf8-string-1.0.2,Codec.Binary.UTF8.String,Desugar,1.505
+utf8-string-1.0.2,Codec.Binary.UTF8.String,Exitification transformation,0.011
+utf8-string-1.0.2,Codec.Binary.UTF8.String,Float inwards,0.033
+utf8-string-1.0.2,Codec.Binary.UTF8.String,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.181
+utf8-string-1.0.2,Codec.Binary.UTF8.String,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.038
+utf8-string-1.0.2,Codec.Binary.UTF8.String,Liberate case,0.01
+utf8-string-1.0.2,Codec.Binary.UTF8.String,Parser,18.397
+utf8-string-1.0.2,Codec.Binary.UTF8.String,Renamer/typechecker,52.579
+utf8-string-1.0.2,Codec.Binary.UTF8.String,Simplifier,48.824
+utf8-string-1.0.2,Codec.Binary.UTF8.String,SpecConstr,0.633
+utf8-string-1.0.2,Codec.Binary.UTF8.String,Specialise,0.213
+utf8-string-1.0.2,Codec.Binary.UTF8.String,Worker Wrapper binds,0.081
+utf8-string-1.0.2,Data.ByteString.Lazy.UTF8,Called arity analysis,0.01
+utf8-string-1.0.2,Data.ByteString.Lazy.UTF8,CodeGen,524.995
+utf8-string-1.0.2,Data.ByteString.Lazy.UTF8,Common sub-expression,0.026
+utf8-string-1.0.2,Data.ByteString.Lazy.UTF8,Constructed Product Result analysis,1.124
+utf8-string-1.0.2,Data.ByteString.Lazy.UTF8,CorePrep,6.926
+utf8-string-1.0.2,Data.ByteString.Lazy.UTF8,CoreTidy,41.25
+utf8-string-1.0.2,Data.ByteString.Lazy.UTF8,CoreToStg,139.4
+utf8-string-1.0.2,Data.ByteString.Lazy.UTF8,Demand analysis,16.476
+utf8-string-1.0.2,Data.ByteString.Lazy.UTF8,Desugar,1.7
+utf8-string-1.0.2,Data.ByteString.Lazy.UTF8,Exitification transformation,0.012
+utf8-string-1.0.2,Data.ByteString.Lazy.UTF8,Float inwards,0.019999999999999997
+utf8-string-1.0.2,Data.ByteString.Lazy.UTF8,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",3.612
+utf8-string-1.0.2,Data.ByteString.Lazy.UTF8,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",9.718
+utf8-string-1.0.2,Data.ByteString.Lazy.UTF8,Liberate case,0.012
+utf8-string-1.0.2,Data.ByteString.Lazy.UTF8,Parser,35.424
+utf8-string-1.0.2,Data.ByteString.Lazy.UTF8,Renamer/typechecker,17.006
+utf8-string-1.0.2,Data.ByteString.Lazy.UTF8,Simplifier,437.082
+utf8-string-1.0.2,Data.ByteString.Lazy.UTF8,SpecConstr,7.867
+utf8-string-1.0.2,Data.ByteString.Lazy.UTF8,Specialise,0.455
+utf8-string-1.0.2,Data.ByteString.Lazy.UTF8,Worker Wrapper binds,2.008
+utf8-string-1.0.2,Data.ByteString.UTF8,Called arity analysis,0.016
+utf8-string-1.0.2,Data.ByteString.UTF8,CodeGen,59.153
+utf8-string-1.0.2,Data.ByteString.UTF8,Common sub-expression,0.022
+utf8-string-1.0.2,Data.ByteString.UTF8,Constructed Product Result analysis,0.387
+utf8-string-1.0.2,Data.ByteString.UTF8,CorePrep,0.988
+utf8-string-1.0.2,Data.ByteString.UTF8,CoreTidy,1.208
+utf8-string-1.0.2,Data.ByteString.UTF8,CoreToStg,4.681
+utf8-string-1.0.2,Data.ByteString.UTF8,Demand analysis,3.227
+utf8-string-1.0.2,Data.ByteString.UTF8,Desugar,1.158
+utf8-string-1.0.2,Data.ByteString.UTF8,Exitification transformation,0.012
+utf8-string-1.0.2,Data.ByteString.UTF8,Float inwards,0.022
+utf8-string-1.0.2,Data.ByteString.UTF8,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",3.694
+utf8-string-1.0.2,Data.ByteString.UTF8,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",3.322
+utf8-string-1.0.2,Data.ByteString.UTF8,Liberate case,0.011
+utf8-string-1.0.2,Data.ByteString.UTF8,Parser,2.33
+utf8-string-1.0.2,Data.ByteString.UTF8,Renamer/typechecker,8.843
+utf8-string-1.0.2,Data.ByteString.UTF8,Simplifier,58.451
+utf8-string-1.0.2,Data.ByteString.UTF8,SpecConstr,0.729
+utf8-string-1.0.2,Data.ByteString.UTF8,Specialise,0.337
+utf8-string-1.0.2,Data.ByteString.UTF8,Worker Wrapper binds,0.135
+utf8-string-1.0.2,Data.String.UTF8,Called arity analysis,0.012
+utf8-string-1.0.2,Data.String.UTF8,CodeGen,31.002000000000002
+utf8-string-1.0.2,Data.String.UTF8,Common sub-expression,0.022
+utf8-string-1.0.2,Data.String.UTF8,Constructed Product Result analysis,0.129
+utf8-string-1.0.2,Data.String.UTF8,CorePrep,0.737
+utf8-string-1.0.2,Data.String.UTF8,CoreTidy,0.827
+utf8-string-1.0.2,Data.String.UTF8,CoreToStg,2.0549999999999997
+utf8-string-1.0.2,Data.String.UTF8,Demand analysis,1.056
+utf8-string-1.0.2,Data.String.UTF8,Desugar,0.874
+utf8-string-1.0.2,Data.String.UTF8,Exitification transformation,0.011
+utf8-string-1.0.2,Data.String.UTF8,Float inwards,0.019
+utf8-string-1.0.2,Data.String.UTF8,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.672
+utf8-string-1.0.2,Data.String.UTF8,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.989
+utf8-string-1.0.2,Data.String.UTF8,Liberate case,0.011
+utf8-string-1.0.2,Data.String.UTF8,Parser,2.079
+utf8-string-1.0.2,Data.String.UTF8,Renamer/typechecker,16.662
+utf8-string-1.0.2,Data.String.UTF8,Simplifier,30.678
+utf8-string-1.0.2,Data.String.UTF8,SpecConstr,0.187
+utf8-string-1.0.2,Data.String.UTF8,Specialise,0.145
+utf8-string-1.0.2,Data.String.UTF8,Worker Wrapper binds,0.185

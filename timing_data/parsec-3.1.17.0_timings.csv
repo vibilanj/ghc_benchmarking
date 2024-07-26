@@ -1,0 +1,451 @@
+package,module,phase,time
+parsec-3.1.17.0,Text.Parsec,Called arity analysis,0.01
+parsec-3.1.17.0,Text.Parsec,CodeGen,0.8180000000000001
+parsec-3.1.17.0,Text.Parsec,Common sub-expression,0.01
+parsec-3.1.17.0,Text.Parsec,Constructed Product Result analysis,0.022
+parsec-3.1.17.0,Text.Parsec,CorePrep,0.085
+parsec-3.1.17.0,Text.Parsec,CoreTidy,0.082
+parsec-3.1.17.0,Text.Parsec,CoreToStg,0.099
+parsec-3.1.17.0,Text.Parsec,Demand analysis,0.063
+parsec-3.1.17.0,Text.Parsec,Desugar,0.042
+parsec-3.1.17.0,Text.Parsec,Exitification transformation,0.019
+parsec-3.1.17.0,Text.Parsec,Float inwards,0.016
+parsec-3.1.17.0,Text.Parsec,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.038
+parsec-3.1.17.0,Text.Parsec,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.037
+parsec-3.1.17.0,Text.Parsec,Parser,0.566
+parsec-3.1.17.0,Text.Parsec,Renamer/typechecker,0.857
+parsec-3.1.17.0,Text.Parsec,Simplifier,0.383
+parsec-3.1.17.0,Text.Parsec,Specialise,0.019
+parsec-3.1.17.0,Text.Parsec,Worker Wrapper binds,0.013
+parsec-3.1.17.0,Text.Parsec.ByteString,Called arity analysis,0.01
+parsec-3.1.17.0,Text.Parsec.ByteString,CodeGen,9.932
+parsec-3.1.17.0,Text.Parsec.ByteString,Common sub-expression,0.01
+parsec-3.1.17.0,Text.Parsec.ByteString,Constructed Product Result analysis,0.06
+parsec-3.1.17.0,Text.Parsec.ByteString,CorePrep,0.179
+parsec-3.1.17.0,Text.Parsec.ByteString,CoreTidy,0.207
+parsec-3.1.17.0,Text.Parsec.ByteString,CoreToStg,0.428
+parsec-3.1.17.0,Text.Parsec.ByteString,Demand analysis,0.259
+parsec-3.1.17.0,Text.Parsec.ByteString,Desugar,0.08
+parsec-3.1.17.0,Text.Parsec.ByteString,Exitification transformation,0.01
+parsec-3.1.17.0,Text.Parsec.ByteString,Float inwards,0.019
+parsec-3.1.17.0,Text.Parsec.ByteString,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.381
+parsec-3.1.17.0,Text.Parsec.ByteString,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.305
+parsec-3.1.17.0,Text.Parsec.ByteString,Parser,0.673
+parsec-3.1.17.0,Text.Parsec.ByteString,Renamer/typechecker,1.415
+parsec-3.1.17.0,Text.Parsec.ByteString,Simplifier,3.9179999999999997
+parsec-3.1.17.0,Text.Parsec.ByteString,Specialise,0.116
+parsec-3.1.17.0,Text.Parsec.ByteString,Worker Wrapper binds,0.055
+parsec-3.1.17.0,Text.Parsec.ByteString.Lazy,Called arity analysis,0.01
+parsec-3.1.17.0,Text.Parsec.ByteString.Lazy,CodeGen,10.92
+parsec-3.1.17.0,Text.Parsec.ByteString.Lazy,Common sub-expression,0.02
+parsec-3.1.17.0,Text.Parsec.ByteString.Lazy,Constructed Product Result analysis,0.073
+parsec-3.1.17.0,Text.Parsec.ByteString.Lazy,CorePrep,0.306
+parsec-3.1.17.0,Text.Parsec.ByteString.Lazy,CoreTidy,0.213
+parsec-3.1.17.0,Text.Parsec.ByteString.Lazy,CoreToStg,0.5509999999999999
+parsec-3.1.17.0,Text.Parsec.ByteString.Lazy,Demand analysis,0.275
+parsec-3.1.17.0,Text.Parsec.ByteString.Lazy,Desugar,0.076
+parsec-3.1.17.0,Text.Parsec.ByteString.Lazy,Exitification transformation,0.015
+parsec-3.1.17.0,Text.Parsec.ByteString.Lazy,Float inwards,0.022
+parsec-3.1.17.0,Text.Parsec.ByteString.Lazy,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.399
+parsec-3.1.17.0,Text.Parsec.ByteString.Lazy,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.437
+parsec-3.1.17.0,Text.Parsec.ByteString.Lazy,Parser,0.374
+parsec-3.1.17.0,Text.Parsec.ByteString.Lazy,Renamer/typechecker,3.506
+parsec-3.1.17.0,Text.Parsec.ByteString.Lazy,Simplifier,6.811999999999999
+parsec-3.1.17.0,Text.Parsec.ByteString.Lazy,Specialise,0.214
+parsec-3.1.17.0,Text.Parsec.ByteString.Lazy,Worker Wrapper binds,0.062
+parsec-3.1.17.0,Text.Parsec.Char,Called arity analysis,0.01
+parsec-3.1.17.0,Text.Parsec.Char,CodeGen,80.786
+parsec-3.1.17.0,Text.Parsec.Char,Common sub-expression,0.011
+parsec-3.1.17.0,Text.Parsec.Char,Constructed Product Result analysis,0.297
+parsec-3.1.17.0,Text.Parsec.Char,CorePrep,1.2850000000000001
+parsec-3.1.17.0,Text.Parsec.Char,CoreTidy,1.645
+parsec-3.1.17.0,Text.Parsec.Char,CoreToStg,3.8089999999999997
+parsec-3.1.17.0,Text.Parsec.Char,Demand analysis,3.403
+parsec-3.1.17.0,Text.Parsec.Char,Desugar,0.463
+parsec-3.1.17.0,Text.Parsec.Char,Exitification transformation,0.012
+parsec-3.1.17.0,Text.Parsec.Char,Float inwards,0.019999999999999997
+parsec-3.1.17.0,Text.Parsec.Char,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",5.243
+parsec-3.1.17.0,Text.Parsec.Char,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",3.132
+parsec-3.1.17.0,Text.Parsec.Char,Parser,1.83
+parsec-3.1.17.0,Text.Parsec.Char,Renamer/typechecker,9.06
+parsec-3.1.17.0,Text.Parsec.Char,Simplifier,105.83200000000001
+parsec-3.1.17.0,Text.Parsec.Char,Specialise,0.797
+parsec-3.1.17.0,Text.Parsec.Char,Worker Wrapper binds,0.28
+parsec-3.1.17.0,Text.Parsec.Combinator,Called arity analysis,0.011
+parsec-3.1.17.0,Text.Parsec.Combinator,CodeGen,348.04200000000003
+parsec-3.1.17.0,Text.Parsec.Combinator,Common sub-expression,0.019
+parsec-3.1.17.0,Text.Parsec.Combinator,Constructed Product Result analysis,1.476
+parsec-3.1.17.0,Text.Parsec.Combinator,CorePrep,3.73
+parsec-3.1.17.0,Text.Parsec.Combinator,CoreTidy,7.01
+parsec-3.1.17.0,Text.Parsec.Combinator,CoreToStg,21.326
+parsec-3.1.17.0,Text.Parsec.Combinator,Demand analysis,31.623
+parsec-3.1.17.0,Text.Parsec.Combinator,Desugar,0.774
+parsec-3.1.17.0,Text.Parsec.Combinator,Exitification transformation,0.014
+parsec-3.1.17.0,Text.Parsec.Combinator,Float inwards,0.026000000000000002
+parsec-3.1.17.0,Text.Parsec.Combinator,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",11.394
+parsec-3.1.17.0,Text.Parsec.Combinator,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",21.708
+parsec-3.1.17.0,Text.Parsec.Combinator,Parser,2.664
+parsec-3.1.17.0,Text.Parsec.Combinator,Renamer/typechecker,14.327
+parsec-3.1.17.0,Text.Parsec.Combinator,Simplifier,778.8389999999999
+parsec-3.1.17.0,Text.Parsec.Combinator,Specialise,0.71
+parsec-3.1.17.0,Text.Parsec.Combinator,Worker Wrapper binds,0.791
+parsec-3.1.17.0,Text.Parsec.Error,Called arity analysis,0.013
+parsec-3.1.17.0,Text.Parsec.Error,CodeGen,120.09100000000001
+parsec-3.1.17.0,Text.Parsec.Error,Common sub-expression,0.012
+parsec-3.1.17.0,Text.Parsec.Error,Constructed Product Result analysis,1.295
+parsec-3.1.17.0,Text.Parsec.Error,CorePrep,2.44
+parsec-3.1.17.0,Text.Parsec.Error,CoreTidy,1.532
+parsec-3.1.17.0,Text.Parsec.Error,CoreToStg,5.779999999999999
+parsec-3.1.17.0,Text.Parsec.Error,Demand analysis,2.892
+parsec-3.1.17.0,Text.Parsec.Error,Desugar,1.038
+parsec-3.1.17.0,Text.Parsec.Error,Exitification transformation,0.016
+parsec-3.1.17.0,Text.Parsec.Error,Float inwards,0.020999999999999998
+parsec-3.1.17.0,Text.Parsec.Error,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.34
+parsec-3.1.17.0,Text.Parsec.Error,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.629
+parsec-3.1.17.0,Text.Parsec.Error,Parser,1.769
+parsec-3.1.17.0,Text.Parsec.Error,Renamer/typechecker,10.687
+parsec-3.1.17.0,Text.Parsec.Error,Simplifier,140.01
+parsec-3.1.17.0,Text.Parsec.Error,Specialise,0.464
+parsec-3.1.17.0,Text.Parsec.Error,Worker Wrapper binds,0.324
+parsec-3.1.17.0,Text.Parsec.Expr,Called arity analysis,0.01
+parsec-3.1.17.0,Text.Parsec.Expr,CodeGen,260.328
+parsec-3.1.17.0,Text.Parsec.Expr,Common sub-expression,0.015
+parsec-3.1.17.0,Text.Parsec.Expr,Constructed Product Result analysis,1.247
+parsec-3.1.17.0,Text.Parsec.Expr,CorePrep,2.032
+parsec-3.1.17.0,Text.Parsec.Expr,CoreTidy,3.896
+parsec-3.1.17.0,Text.Parsec.Expr,CoreToStg,14.923000000000002
+parsec-3.1.17.0,Text.Parsec.Expr,Demand analysis,19.608
+parsec-3.1.17.0,Text.Parsec.Expr,Desugar,0.515
+parsec-3.1.17.0,Text.Parsec.Expr,Exitification transformation,0.013
+parsec-3.1.17.0,Text.Parsec.Expr,Float inwards,0.022
+parsec-3.1.17.0,Text.Parsec.Expr,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",6.277
+parsec-3.1.17.0,Text.Parsec.Expr,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",18.705
+parsec-3.1.17.0,Text.Parsec.Expr,Parser,1.881
+parsec-3.1.17.0,Text.Parsec.Expr,Renamer/typechecker,5.48
+parsec-3.1.17.0,Text.Parsec.Expr,Simplifier,435.219
+parsec-3.1.17.0,Text.Parsec.Expr,Specialise,0.583
+parsec-3.1.17.0,Text.Parsec.Expr,Worker Wrapper binds,0.429
+parsec-3.1.17.0,Text.Parsec.Language,Called arity analysis,0.01
+parsec-3.1.17.0,Text.Parsec.Language,CodeGen,993.191
+parsec-3.1.17.0,Text.Parsec.Language,Common sub-expression,0.014
+parsec-3.1.17.0,Text.Parsec.Language,Constructed Product Result analysis,12.672
+parsec-3.1.17.0,Text.Parsec.Language,CorePrep,12.102
+parsec-3.1.17.0,Text.Parsec.Language,CoreTidy,12.939
+parsec-3.1.17.0,Text.Parsec.Language,CoreToStg,102.22399999999999
+parsec-3.1.17.0,Text.Parsec.Language,Demand analysis,34.786
+parsec-3.1.17.0,Text.Parsec.Language,Desugar,0.373
+parsec-3.1.17.0,Text.Parsec.Language,Exitification transformation,0.014
+parsec-3.1.17.0,Text.Parsec.Language,Float inwards,0.020999999999999998
+parsec-3.1.17.0,Text.Parsec.Language,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",44.053
+parsec-3.1.17.0,Text.Parsec.Language,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",60.777
+parsec-3.1.17.0,Text.Parsec.Language,Parser,0.756
+parsec-3.1.17.0,Text.Parsec.Language,Renamer/typechecker,3.437
+parsec-3.1.17.0,Text.Parsec.Language,Simplifier,1433.619
+parsec-3.1.17.0,Text.Parsec.Language,Specialise,14.813
+parsec-3.1.17.0,Text.Parsec.Language,Worker Wrapper binds,1.525
+parsec-3.1.17.0,Text.Parsec.Perm,Called arity analysis,0.01
+parsec-3.1.17.0,Text.Parsec.Perm,CodeGen,48.356
+parsec-3.1.17.0,Text.Parsec.Perm,Common sub-expression,0.01
+parsec-3.1.17.0,Text.Parsec.Perm,Constructed Product Result analysis,0.178
+parsec-3.1.17.0,Text.Parsec.Perm,CorePrep,1.069
+parsec-3.1.17.0,Text.Parsec.Perm,CoreTidy,0.752
+parsec-3.1.17.0,Text.Parsec.Perm,CoreToStg,2.31
+parsec-3.1.17.0,Text.Parsec.Perm,Demand analysis,1.823
+parsec-3.1.17.0,Text.Parsec.Perm,Desugar,0.958
+parsec-3.1.17.0,Text.Parsec.Perm,Exitification transformation,0.01
+parsec-3.1.17.0,Text.Parsec.Perm,Float inwards,0.018000000000000002
+parsec-3.1.17.0,Text.Parsec.Perm,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.812
+parsec-3.1.17.0,Text.Parsec.Perm,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.15
+parsec-3.1.17.0,Text.Parsec.Perm,Parser,3.04
+parsec-3.1.17.0,Text.Parsec.Perm,Renamer/typechecker,7.215
+parsec-3.1.17.0,Text.Parsec.Perm,Simplifier,37.918
+parsec-3.1.17.0,Text.Parsec.Perm,Specialise,0.21
+parsec-3.1.17.0,Text.Parsec.Perm,Worker Wrapper binds,0.122
+parsec-3.1.17.0,Text.Parsec.Pos,Called arity analysis,0.011
+parsec-3.1.17.0,Text.Parsec.Pos,CodeGen,87.083
+parsec-3.1.17.0,Text.Parsec.Pos,Common sub-expression,0.013
+parsec-3.1.17.0,Text.Parsec.Pos,Constructed Product Result analysis,0.244
+parsec-3.1.17.0,Text.Parsec.Pos,CorePrep,3.4459999999999997
+parsec-3.1.17.0,Text.Parsec.Pos,CoreTidy,1.391
+parsec-3.1.17.0,Text.Parsec.Pos,CoreToStg,4.865
+parsec-3.1.17.0,Text.Parsec.Pos,Demand analysis,2.024
+parsec-3.1.17.0,Text.Parsec.Pos,Desugar,0.963
+parsec-3.1.17.0,Text.Parsec.Pos,Exitification transformation,0.011
+parsec-3.1.17.0,Text.Parsec.Pos,Float inwards,0.03
+parsec-3.1.17.0,Text.Parsec.Pos,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.369
+parsec-3.1.17.0,Text.Parsec.Pos,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.105
+parsec-3.1.17.0,Text.Parsec.Pos,Parser,0.945
+parsec-3.1.17.0,Text.Parsec.Pos,Renamer/typechecker,54.646
+parsec-3.1.17.0,Text.Parsec.Pos,Simplifier,71.968
+parsec-3.1.17.0,Text.Parsec.Pos,Specialise,0.519
+parsec-3.1.17.0,Text.Parsec.Pos,Worker Wrapper binds,0.29
+parsec-3.1.17.0,Text.Parsec.Prim,Called arity analysis,0.011
+parsec-3.1.17.0,Text.Parsec.Prim,CodeGen,317.61
+parsec-3.1.17.0,Text.Parsec.Prim,Common sub-expression,0.02
+parsec-3.1.17.0,Text.Parsec.Prim,Constructed Product Result analysis,1.396
+parsec-3.1.17.0,Text.Parsec.Prim,CorePrep,15.974
+parsec-3.1.17.0,Text.Parsec.Prim,CoreTidy,9.876
+parsec-3.1.17.0,Text.Parsec.Prim,CoreToStg,27.733
+parsec-3.1.17.0,Text.Parsec.Prim,Demand analysis,11.879999999999999
+parsec-3.1.17.0,Text.Parsec.Prim,Desugar,8.59
+parsec-3.1.17.0,Text.Parsec.Prim,Exitification transformation,0.013
+parsec-3.1.17.0,Text.Parsec.Prim,Float inwards,0.024
+parsec-3.1.17.0,Text.Parsec.Prim,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",15.877
+parsec-3.1.17.0,Text.Parsec.Prim,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",18.711
+parsec-3.1.17.0,Text.Parsec.Prim,Parser,8.93
+parsec-3.1.17.0,Text.Parsec.Prim,Renamer/typechecker,78.28
+parsec-3.1.17.0,Text.Parsec.Prim,Simplifier,482.051
+parsec-3.1.17.0,Text.Parsec.Prim,Specialise,1.692
+parsec-3.1.17.0,Text.Parsec.Prim,Worker Wrapper binds,0.746
+parsec-3.1.17.0,Text.Parsec.String,Called arity analysis,0.013
+parsec-3.1.17.0,Text.Parsec.String,CodeGen,11.486
+parsec-3.1.17.0,Text.Parsec.String,Common sub-expression,0.009
+parsec-3.1.17.0,Text.Parsec.String,Constructed Product Result analysis,0.09
+parsec-3.1.17.0,Text.Parsec.String,CorePrep,0.22499999999999998
+parsec-3.1.17.0,Text.Parsec.String,CoreTidy,0.251
+parsec-3.1.17.0,Text.Parsec.String,CoreToStg,0.661
+parsec-3.1.17.0,Text.Parsec.String,Demand analysis,1.199
+parsec-3.1.17.0,Text.Parsec.String,Desugar,0.069
+parsec-3.1.17.0,Text.Parsec.String,Exitification transformation,0.01
+parsec-3.1.17.0,Text.Parsec.String,Float inwards,0.019
+parsec-3.1.17.0,Text.Parsec.String,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.405
+parsec-3.1.17.0,Text.Parsec.String,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.43
+parsec-3.1.17.0,Text.Parsec.String,Parser,0.666
+parsec-3.1.17.0,Text.Parsec.String,Renamer/typechecker,1.436
+parsec-3.1.17.0,Text.Parsec.String,Simplifier,9.698
+parsec-3.1.17.0,Text.Parsec.String,Specialise,0.128
+parsec-3.1.17.0,Text.Parsec.String,Worker Wrapper binds,0.081
+parsec-3.1.17.0,Text.Parsec.Text,Called arity analysis,0.013
+parsec-3.1.17.0,Text.Parsec.Text,CodeGen,9.766
+parsec-3.1.17.0,Text.Parsec.Text,Common sub-expression,0.01
+parsec-3.1.17.0,Text.Parsec.Text,Constructed Product Result analysis,0.066
+parsec-3.1.17.0,Text.Parsec.Text,CorePrep,0.178
+parsec-3.1.17.0,Text.Parsec.Text,CoreTidy,0.213
+parsec-3.1.17.0,Text.Parsec.Text,CoreToStg,0.446
+parsec-3.1.17.0,Text.Parsec.Text,Demand analysis,0.32499999999999996
+parsec-3.1.17.0,Text.Parsec.Text,Desugar,0.123
+parsec-3.1.17.0,Text.Parsec.Text,Exitification transformation,0.009
+parsec-3.1.17.0,Text.Parsec.Text,Float inwards,0.020999999999999998
+parsec-3.1.17.0,Text.Parsec.Text,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.409
+parsec-3.1.17.0,Text.Parsec.Text,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.331
+parsec-3.1.17.0,Text.Parsec.Text,Parser,0.592
+parsec-3.1.17.0,Text.Parsec.Text,Renamer/typechecker,2.367
+parsec-3.1.17.0,Text.Parsec.Text,Simplifier,3.763
+parsec-3.1.17.0,Text.Parsec.Text,Specialise,0.121
+parsec-3.1.17.0,Text.Parsec.Text,Worker Wrapper binds,0.068
+parsec-3.1.17.0,Text.Parsec.Text.Lazy,Called arity analysis,0.01
+parsec-3.1.17.0,Text.Parsec.Text.Lazy,CodeGen,8.411000000000001
+parsec-3.1.17.0,Text.Parsec.Text.Lazy,Common sub-expression,0.014
+parsec-3.1.17.0,Text.Parsec.Text.Lazy,Constructed Product Result analysis,0.068
+parsec-3.1.17.0,Text.Parsec.Text.Lazy,CorePrep,0.199
+parsec-3.1.17.0,Text.Parsec.Text.Lazy,CoreTidy,0.217
+parsec-3.1.17.0,Text.Parsec.Text.Lazy,CoreToStg,0.54
+parsec-3.1.17.0,Text.Parsec.Text.Lazy,Demand analysis,0.293
+parsec-3.1.17.0,Text.Parsec.Text.Lazy,Desugar,0.073
+parsec-3.1.17.0,Text.Parsec.Text.Lazy,Exitification transformation,0.015
+parsec-3.1.17.0,Text.Parsec.Text.Lazy,Float inwards,0.028
+parsec-3.1.17.0,Text.Parsec.Text.Lazy,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.497
+parsec-3.1.17.0,Text.Parsec.Text.Lazy,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.477
+parsec-3.1.17.0,Text.Parsec.Text.Lazy,Parser,0.383
+parsec-3.1.17.0,Text.Parsec.Text.Lazy,Renamer/typechecker,1.738
+parsec-3.1.17.0,Text.Parsec.Text.Lazy,Simplifier,5.348
+parsec-3.1.17.0,Text.Parsec.Text.Lazy,Specialise,0.129
+parsec-3.1.17.0,Text.Parsec.Text.Lazy,Worker Wrapper binds,0.06
+parsec-3.1.17.0,Text.Parsec.Token,Called arity analysis,0.01
+parsec-3.1.17.0,Text.Parsec.Token,CodeGen,1035.434
+parsec-3.1.17.0,Text.Parsec.Token,Common sub-expression,0.014
+parsec-3.1.17.0,Text.Parsec.Token,Constructed Product Result analysis,3.747
+parsec-3.1.17.0,Text.Parsec.Token,CorePrep,19.421999999999997
+parsec-3.1.17.0,Text.Parsec.Token,CoreTidy,16.427
+parsec-3.1.17.0,Text.Parsec.Token,CoreToStg,81.633
+parsec-3.1.17.0,Text.Parsec.Token,Demand analysis,54.006
+parsec-3.1.17.0,Text.Parsec.Token,Desugar,2.504
+parsec-3.1.17.0,Text.Parsec.Token,Exitification transformation,0.014
+parsec-3.1.17.0,Text.Parsec.Token,Float inwards,0.020999999999999998
+parsec-3.1.17.0,Text.Parsec.Token,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",43.765
+parsec-3.1.17.0,Text.Parsec.Token,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",69.851
+parsec-3.1.17.0,Text.Parsec.Token,Parser,5.406
+parsec-3.1.17.0,Text.Parsec.Token,Renamer/typechecker,40.455
+parsec-3.1.17.0,Text.Parsec.Token,Simplifier,1998.478
+parsec-3.1.17.0,Text.Parsec.Token,Specialise,5.877
+parsec-3.1.17.0,Text.Parsec.Token,Worker Wrapper binds,1.914
+parsec-3.1.17.0,Text.ParserCombinators.Parsec,Called arity analysis,0.01
+parsec-3.1.17.0,Text.ParserCombinators.Parsec,CodeGen,1.091
+parsec-3.1.17.0,Text.ParserCombinators.Parsec,Common sub-expression,0.01
+parsec-3.1.17.0,Text.ParserCombinators.Parsec,Constructed Product Result analysis,0.013
+parsec-3.1.17.0,Text.ParserCombinators.Parsec,CorePrep,0.078
+parsec-3.1.17.0,Text.ParserCombinators.Parsec,CoreTidy,0.05
+parsec-3.1.17.0,Text.ParserCombinators.Parsec,CoreToStg,0.11499999999999999
+parsec-3.1.17.0,Text.ParserCombinators.Parsec,Demand analysis,0.047
+parsec-3.1.17.0,Text.ParserCombinators.Parsec,Desugar,0.039
+parsec-3.1.17.0,Text.ParserCombinators.Parsec,Exitification transformation,0.011
+parsec-3.1.17.0,Text.ParserCombinators.Parsec,Float inwards,0.018
+parsec-3.1.17.0,Text.ParserCombinators.Parsec,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.043
+parsec-3.1.17.0,Text.ParserCombinators.Parsec,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.026
+parsec-3.1.17.0,Text.ParserCombinators.Parsec,Parser,0.332
+parsec-3.1.17.0,Text.ParserCombinators.Parsec,Renamer/typechecker,0.974
+parsec-3.1.17.0,Text.ParserCombinators.Parsec,Simplifier,0.325
+parsec-3.1.17.0,Text.ParserCombinators.Parsec,Specialise,0.02
+parsec-3.1.17.0,Text.ParserCombinators.Parsec,Worker Wrapper binds,0.011
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Char,Called arity analysis,0.013
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Char,CodeGen,1.1800000000000002
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Char,Common sub-expression,0.01
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Char,Constructed Product Result analysis,0.017
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Char,CorePrep,0.064
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Char,CoreTidy,0.044
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Char,CoreToStg,0.115
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Char,Demand analysis,0.059
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Char,Desugar,0.034
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Char,Exitification transformation,0.01
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Char,Float inwards,0.031
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Char,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.038
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Char,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.027
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Char,Parser,0.304
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Char,Renamer/typechecker,1.012
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Char,Simplifier,0.38
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Char,Specialise,0.02
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Char,Worker Wrapper binds,0.012
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Combinator,Called arity analysis,0.015
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Combinator,CodeGen,0.759
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Combinator,Common sub-expression,0.01
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Combinator,Constructed Product Result analysis,0.013
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Combinator,CorePrep,0.060000000000000005
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Combinator,CoreTidy,0.046
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Combinator,CoreToStg,0.08499999999999999
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Combinator,Demand analysis,0.059
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Combinator,Desugar,0.034
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Combinator,Exitification transformation,0.011
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Combinator,Float inwards,0.022
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Combinator,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.045
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Combinator,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.026
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Combinator,Parser,0.252
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Combinator,Renamer/typechecker,0.389
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Combinator,Simplifier,0.357
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Combinator,Specialise,0.026
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Combinator,Worker Wrapper binds,0.012
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Error,Called arity analysis,0.01
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Error,CodeGen,1.905
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Error,Common sub-expression,0.014
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Error,Constructed Product Result analysis,0.016
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Error,CorePrep,0.076
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Error,CoreTidy,0.057
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Error,CoreToStg,0.14700000000000002
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Error,Demand analysis,0.055
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Error,Desugar,0.054
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Error,Exitification transformation,0.011
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Error,Float inwards,0.022
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Error,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.037
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Error,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.027
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Error,Parser,0.544
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Error,Renamer/typechecker,0.862
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Error,Simplifier,0.485
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Error,Specialise,0.02
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Error,Worker Wrapper binds,0.011
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Expr,Called arity analysis,0.01
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Expr,CodeGen,8.465
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Expr,Common sub-expression,0.011
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Expr,Constructed Product Result analysis,0.042
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Expr,CorePrep,0.25
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Expr,CoreTidy,0.22
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Expr,CoreToStg,0.466
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Expr,Demand analysis,0.16599999999999998
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Expr,Desugar,0.619
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Expr,Exitification transformation,0.011
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Expr,Float inwards,0.02
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Expr,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.236
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Expr,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.21
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Expr,Parser,0.695
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Expr,Renamer/typechecker,2.814
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Expr,Simplifier,7.896
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Expr,Specialise,0.073
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Expr,Worker Wrapper binds,0.033
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Language,Called arity analysis,0.014
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Language,CodeGen,0.9590000000000001
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Language,Common sub-expression,0.011
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Language,Constructed Product Result analysis,0.015
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Language,CorePrep,0.06
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Language,CoreTidy,0.044
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Language,CoreToStg,0.08499999999999999
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Language,Demand analysis,0.05
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Language,Desugar,0.626
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Language,Exitification transformation,0.011
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Language,Float inwards,0.023
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Language,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.04
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Language,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.028
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Language,Parser,0.205
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Language,Renamer/typechecker,0.778
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Language,Simplifier,0.39
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Language,Specialise,0.024
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Language,Worker Wrapper binds,0.013
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Perm,Called arity analysis,0.012
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Perm,CodeGen,1.055
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Perm,Common sub-expression,0.01
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Perm,Constructed Product Result analysis,0.013
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Perm,CorePrep,0.07200000000000001
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Perm,CoreTidy,0.074
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Perm,CoreToStg,0.22
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Perm,Demand analysis,0.049
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Perm,Desugar,0.028
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Perm,Exitification transformation,0.012
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Perm,Float inwards,0.018
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Perm,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.041
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Perm,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.027
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Perm,Parser,0.175
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Perm,Renamer/typechecker,0.663
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Perm,Simplifier,0.346
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Perm,Specialise,0.02
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Perm,Worker Wrapper binds,0.015
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Pos,Called arity analysis,0.014
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Pos,CodeGen,0.6839999999999999
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Pos,Common sub-expression,0.015
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Pos,Constructed Product Result analysis,0.015
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Pos,CorePrep,0.059000000000000004
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Pos,CoreTidy,0.044
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Pos,CoreToStg,0.08199999999999999
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Pos,Demand analysis,0.061
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Pos,Desugar,0.035
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Pos,Exitification transformation,0.015
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Pos,Float inwards,0.024
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Pos,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.048
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Pos,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.038
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Pos,Parser,0.19
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Pos,Renamer/typechecker,0.528
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Pos,Simplifier,0.753
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Pos,Specialise,0.024
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Pos,Worker Wrapper binds,0.016
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Prim,Called arity analysis,0.01
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Prim,CodeGen,2.3129999999999997
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Prim,Common sub-expression,0.02
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Prim,Constructed Product Result analysis,0.212
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Prim,CorePrep,0.32999999999999996
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Prim,CoreTidy,0.149
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Prim,CoreToStg,0.223
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Prim,Demand analysis,0.12
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Prim,Desugar,0.065
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Prim,Exitification transformation,0.011
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Prim,Float inwards,0.019
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Prim,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.102
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Prim,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.095
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Prim,Parser,0.888
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Prim,Renamer/typechecker,1.58
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Prim,Simplifier,1.135
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Prim,Specialise,0.044
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Prim,Worker Wrapper binds,0.03
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Token,Called arity analysis,0.014
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Token,CodeGen,0.9969999999999999
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Token,Common sub-expression,0.01
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Token,Constructed Product Result analysis,0.019
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Token,CorePrep,0.073
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Token,CoreTidy,0.045
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Token,CoreToStg,0.083
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Token,Demand analysis,0.083
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Token,Desugar,0.031
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Token,Exitification transformation,0.011
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Token,Float inwards,0.023
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Token,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.044
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Token,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.028
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Token,Parser,0.149
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Token,Renamer/typechecker,0.425
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Token,Simplifier,0.381
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Token,Specialise,0.025
+parsec-3.1.17.0,Text.ParserCombinators.Parsec.Token,Worker Wrapper binds,0.015

@@ -1,0 +1,505 @@
+package,module,phase,time
+network-3.2.1.0,Network.Socket,Called arity analysis,0.011
+network-3.2.1.0,Network.Socket,CodeGen,1.181
+network-3.2.1.0,Network.Socket,Common sub-expression,0.011
+network-3.2.1.0,Network.Socket,Constructed Product Result analysis,0.014
+network-3.2.1.0,Network.Socket,CorePrep,0.098
+network-3.2.1.0,Network.Socket,CoreTidy,0.087
+network-3.2.1.0,Network.Socket,CoreToStg,0.14700000000000002
+network-3.2.1.0,Network.Socket,Demand analysis,0.086
+network-3.2.1.0,Network.Socket,Desugar,0.194
+network-3.2.1.0,Network.Socket,Exitification transformation,0.011
+network-3.2.1.0,Network.Socket,Float inwards,0.02
+network-3.2.1.0,Network.Socket,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.044
+network-3.2.1.0,Network.Socket,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.035
+network-3.2.1.0,Network.Socket,Parser,4.558
+network-3.2.1.0,Network.Socket,Renamer/typechecker,1.836
+network-3.2.1.0,Network.Socket,Simplifier,0.489
+network-3.2.1.0,Network.Socket,Specialise,0.022
+network-3.2.1.0,Network.Socket,Worker Wrapper binds,0.016
+network-3.2.1.0,Network.Socket.Address,Called arity analysis,0.017
+network-3.2.1.0,Network.Socket.Address,CodeGen,0.78
+network-3.2.1.0,Network.Socket.Address,Common sub-expression,0.01
+network-3.2.1.0,Network.Socket.Address,Constructed Product Result analysis,0.023
+network-3.2.1.0,Network.Socket.Address,CorePrep,0.061
+network-3.2.1.0,Network.Socket.Address,CoreTidy,0.051
+network-3.2.1.0,Network.Socket.Address,CoreToStg,0.079
+network-3.2.1.0,Network.Socket.Address,Demand analysis,0.082
+network-3.2.1.0,Network.Socket.Address,Desugar,0.033
+network-3.2.1.0,Network.Socket.Address,Exitification transformation,0.014
+network-3.2.1.0,Network.Socket.Address,Float inwards,0.024
+network-3.2.1.0,Network.Socket.Address,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.057
+network-3.2.1.0,Network.Socket.Address,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.03
+network-3.2.1.0,Network.Socket.Address,Parser,0.187
+network-3.2.1.0,Network.Socket.Address,Renamer/typechecker,0.564
+network-3.2.1.0,Network.Socket.Address,Simplifier,0.393
+network-3.2.1.0,Network.Socket.Address,Specialise,0.02
+network-3.2.1.0,Network.Socket.Address,Worker Wrapper binds,0.023
+network-3.2.1.0,Network.Socket.Buffer,Called arity analysis,0.01
+network-3.2.1.0,Network.Socket.Buffer,CodeGen,48.344
+network-3.2.1.0,Network.Socket.Buffer,Common sub-expression,0.012
+network-3.2.1.0,Network.Socket.Buffer,Constructed Product Result analysis,0.195
+network-3.2.1.0,Network.Socket.Buffer,CorePrep,0.9490000000000001
+network-3.2.1.0,Network.Socket.Buffer,CoreTidy,1.313
+network-3.2.1.0,Network.Socket.Buffer,CoreToStg,5.508
+network-3.2.1.0,Network.Socket.Buffer,Demand analysis,2.163
+network-3.2.1.0,Network.Socket.Buffer,Desugar,1.404
+network-3.2.1.0,Network.Socket.Buffer,Exitification transformation,0.013
+network-3.2.1.0,Network.Socket.Buffer,Float inwards,0.02
+network-3.2.1.0,Network.Socket.Buffer,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.209
+network-3.2.1.0,Network.Socket.Buffer,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.183
+network-3.2.1.0,Network.Socket.Buffer,Parser,3.588
+network-3.2.1.0,Network.Socket.Buffer,Renamer/typechecker,9.339
+network-3.2.1.0,Network.Socket.Buffer,Simplifier,66.242
+network-3.2.1.0,Network.Socket.Buffer,Specialise,0.481
+network-3.2.1.0,Network.Socket.Buffer,Worker Wrapper binds,0.128
+network-3.2.1.0,Network.Socket.ByteString,Called arity analysis,0.016
+network-3.2.1.0,Network.Socket.ByteString,CodeGen,6.464
+network-3.2.1.0,Network.Socket.ByteString,Common sub-expression,0.011
+network-3.2.1.0,Network.Socket.ByteString,Constructed Product Result analysis,0.056
+network-3.2.1.0,Network.Socket.ByteString,CorePrep,0.281
+network-3.2.1.0,Network.Socket.ByteString,CoreTidy,0.127
+network-3.2.1.0,Network.Socket.ByteString,CoreToStg,0.427
+network-3.2.1.0,Network.Socket.ByteString,Demand analysis,0.256
+network-3.2.1.0,Network.Socket.ByteString,Desugar,0.064
+network-3.2.1.0,Network.Socket.ByteString,Exitification transformation,0.011
+network-3.2.1.0,Network.Socket.ByteString,Float inwards,0.022
+network-3.2.1.0,Network.Socket.ByteString,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.163
+network-3.2.1.0,Network.Socket.ByteString,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.192
+network-3.2.1.0,Network.Socket.ByteString,Parser,0.935
+network-3.2.1.0,Network.Socket.ByteString,Renamer/typechecker,1.281
+network-3.2.1.0,Network.Socket.ByteString,Simplifier,4.87
+network-3.2.1.0,Network.Socket.ByteString,Specialise,0.277
+network-3.2.1.0,Network.Socket.ByteString,Worker Wrapper binds,0.043
+network-3.2.1.0,Network.Socket.ByteString.IO,Called arity analysis,0.01
+network-3.2.1.0,Network.Socket.ByteString.IO,CodeGen,68.548
+network-3.2.1.0,Network.Socket.ByteString.IO,Common sub-expression,0.014
+network-3.2.1.0,Network.Socket.ByteString.IO,Constructed Product Result analysis,0.392
+network-3.2.1.0,Network.Socket.ByteString.IO,CorePrep,3.065
+network-3.2.1.0,Network.Socket.ByteString.IO,CoreTidy,1.534
+network-3.2.1.0,Network.Socket.ByteString.IO,CoreToStg,6.624
+network-3.2.1.0,Network.Socket.ByteString.IO,Demand analysis,3.145
+network-3.2.1.0,Network.Socket.ByteString.IO,Desugar,1.199
+network-3.2.1.0,Network.Socket.ByteString.IO,Exitification transformation,0.013
+network-3.2.1.0,Network.Socket.ByteString.IO,Float inwards,0.023
+network-3.2.1.0,Network.Socket.ByteString.IO,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.663
+network-3.2.1.0,Network.Socket.ByteString.IO,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",3.22
+network-3.2.1.0,Network.Socket.ByteString.IO,Parser,2.654
+network-3.2.1.0,Network.Socket.ByteString.IO,Renamer/typechecker,11.144
+network-3.2.1.0,Network.Socket.ByteString.IO,Simplifier,100.245
+network-3.2.1.0,Network.Socket.ByteString.IO,Specialise,1.379
+network-3.2.1.0,Network.Socket.ByteString.IO,Worker Wrapper binds,0.164
+network-3.2.1.0,Network.Socket.ByteString.Internal,Called arity analysis,0.011
+network-3.2.1.0,Network.Socket.ByteString.Internal,CodeGen,8.549
+network-3.2.1.0,Network.Socket.ByteString.Internal,Common sub-expression,0.015
+network-3.2.1.0,Network.Socket.ByteString.Internal,Constructed Product Result analysis,0.276
+network-3.2.1.0,Network.Socket.ByteString.Internal,CorePrep,0.14200000000000002
+network-3.2.1.0,Network.Socket.ByteString.Internal,CoreTidy,0.166
+network-3.2.1.0,Network.Socket.ByteString.Internal,CoreToStg,0.404
+network-3.2.1.0,Network.Socket.ByteString.Internal,Demand analysis,0.32999999999999996
+network-3.2.1.0,Network.Socket.ByteString.Internal,Desugar,0.347
+network-3.2.1.0,Network.Socket.ByteString.Internal,Exitification transformation,0.013
+network-3.2.1.0,Network.Socket.ByteString.Internal,Float inwards,0.02
+network-3.2.1.0,Network.Socket.ByteString.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.184
+network-3.2.1.0,Network.Socket.ByteString.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.191
+network-3.2.1.0,Network.Socket.ByteString.Internal,Parser,1.271
+network-3.2.1.0,Network.Socket.ByteString.Internal,Renamer/typechecker,1.533
+network-3.2.1.0,Network.Socket.ByteString.Internal,Simplifier,3.365
+network-3.2.1.0,Network.Socket.ByteString.Internal,Specialise,0.044
+network-3.2.1.0,Network.Socket.ByteString.Internal,Worker Wrapper binds,0.073
+network-3.2.1.0,Network.Socket.ByteString.Lazy,Called arity analysis,0.016
+network-3.2.1.0,Network.Socket.ByteString.Lazy,CodeGen,12.818000000000001
+network-3.2.1.0,Network.Socket.ByteString.Lazy,Common sub-expression,0.02
+network-3.2.1.0,Network.Socket.ByteString.Lazy,Constructed Product Result analysis,0.07
+network-3.2.1.0,Network.Socket.ByteString.Lazy,CorePrep,0.241
+network-3.2.1.0,Network.Socket.ByteString.Lazy,CoreTidy,0.273
+network-3.2.1.0,Network.Socket.ByteString.Lazy,CoreToStg,0.765
+network-3.2.1.0,Network.Socket.ByteString.Lazy,Demand analysis,0.472
+network-3.2.1.0,Network.Socket.ByteString.Lazy,Desugar,0.409
+network-3.2.1.0,Network.Socket.ByteString.Lazy,Exitification transformation,0.018
+network-3.2.1.0,Network.Socket.ByteString.Lazy,Float inwards,0.038
+network-3.2.1.0,Network.Socket.ByteString.Lazy,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.341
+network-3.2.1.0,Network.Socket.ByteString.Lazy,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.399
+network-3.2.1.0,Network.Socket.ByteString.Lazy,Parser,1.892
+network-3.2.1.0,Network.Socket.ByteString.Lazy,Renamer/typechecker,3.836
+network-3.2.1.0,Network.Socket.ByteString.Lazy,Simplifier,11.807
+network-3.2.1.0,Network.Socket.ByteString.Lazy,Specialise,0.077
+network-3.2.1.0,Network.Socket.ByteString.Lazy,Worker Wrapper binds,0.056
+network-3.2.1.0,Network.Socket.ByteString.Lazy.Posix,Called arity analysis,0.016
+network-3.2.1.0,Network.Socket.ByteString.Lazy.Posix,CodeGen,15.282
+network-3.2.1.0,Network.Socket.ByteString.Lazy.Posix,Common sub-expression,0.013
+network-3.2.1.0,Network.Socket.ByteString.Lazy.Posix,Constructed Product Result analysis,0.102
+network-3.2.1.0,Network.Socket.ByteString.Lazy.Posix,CorePrep,0.351
+network-3.2.1.0,Network.Socket.ByteString.Lazy.Posix,CoreTidy,0.438
+network-3.2.1.0,Network.Socket.ByteString.Lazy.Posix,CoreToStg,0.994
+network-3.2.1.0,Network.Socket.ByteString.Lazy.Posix,Demand analysis,0.657
+network-3.2.1.0,Network.Socket.ByteString.Lazy.Posix,Desugar,0.664
+network-3.2.1.0,Network.Socket.ByteString.Lazy.Posix,Exitification transformation,0.012
+network-3.2.1.0,Network.Socket.ByteString.Lazy.Posix,Float inwards,0.022
+network-3.2.1.0,Network.Socket.ByteString.Lazy.Posix,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.649
+network-3.2.1.0,Network.Socket.ByteString.Lazy.Posix,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.585
+network-3.2.1.0,Network.Socket.ByteString.Lazy.Posix,Parser,1.45
+network-3.2.1.0,Network.Socket.ByteString.Lazy.Posix,Renamer/typechecker,5.287
+network-3.2.1.0,Network.Socket.ByteString.Lazy.Posix,Simplifier,16.541
+network-3.2.1.0,Network.Socket.ByteString.Lazy.Posix,Specialise,0.155
+network-3.2.1.0,Network.Socket.ByteString.Lazy.Posix,Worker Wrapper binds,0.093
+network-3.2.1.0,Network.Socket.Cbits,Called arity analysis,0.009
+network-3.2.1.0,Network.Socket.Cbits,CodeGen,1.4020000000000001
+network-3.2.1.0,Network.Socket.Cbits,Common sub-expression,0.01
+network-3.2.1.0,Network.Socket.Cbits,Constructed Product Result analysis,0.014
+network-3.2.1.0,Network.Socket.Cbits,CorePrep,0.079
+network-3.2.1.0,Network.Socket.Cbits,CoreTidy,0.08
+network-3.2.1.0,Network.Socket.Cbits,CoreToStg,0.306
+network-3.2.1.0,Network.Socket.Cbits,Demand analysis,0.07200000000000001
+network-3.2.1.0,Network.Socket.Cbits,Desugar,0.115
+network-3.2.1.0,Network.Socket.Cbits,Exitification transformation,0.011
+network-3.2.1.0,Network.Socket.Cbits,Float inwards,0.018
+network-3.2.1.0,Network.Socket.Cbits,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.06
+network-3.2.1.0,Network.Socket.Cbits,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.036
+network-3.2.1.0,Network.Socket.Cbits,Parser,0.44
+network-3.2.1.0,Network.Socket.Cbits,Renamer/typechecker,1.032
+network-3.2.1.0,Network.Socket.Cbits,Simplifier,1.052
+network-3.2.1.0,Network.Socket.Cbits,Specialise,0.058
+network-3.2.1.0,Network.Socket.Cbits,Worker Wrapper binds,0.012
+network-3.2.1.0,Network.Socket.Fcntl,Called arity analysis,0.009
+network-3.2.1.0,Network.Socket.Fcntl,CodeGen,6.959
+network-3.2.1.0,Network.Socket.Fcntl,Common sub-expression,0.01
+network-3.2.1.0,Network.Socket.Fcntl,Constructed Product Result analysis,0.047
+network-3.2.1.0,Network.Socket.Fcntl,CorePrep,0.165
+network-3.2.1.0,Network.Socket.Fcntl,CoreTidy,0.157
+network-3.2.1.0,Network.Socket.Fcntl,CoreToStg,0.471
+network-3.2.1.0,Network.Socket.Fcntl,Demand analysis,0.268
+network-3.2.1.0,Network.Socket.Fcntl,Desugar,0.165
+network-3.2.1.0,Network.Socket.Fcntl,Exitification transformation,0.01
+network-3.2.1.0,Network.Socket.Fcntl,Float inwards,0.018
+network-3.2.1.0,Network.Socket.Fcntl,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.199
+network-3.2.1.0,Network.Socket.Fcntl,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.184
+network-3.2.1.0,Network.Socket.Fcntl,Parser,0.939
+network-3.2.1.0,Network.Socket.Fcntl,Renamer/typechecker,3.342
+network-3.2.1.0,Network.Socket.Fcntl,Simplifier,6.564
+network-3.2.1.0,Network.Socket.Fcntl,Specialise,0.054
+network-3.2.1.0,Network.Socket.Fcntl,Worker Wrapper binds,0.045
+network-3.2.1.0,Network.Socket.Flag,Called arity analysis,0.02
+network-3.2.1.0,Network.Socket.Flag,CodeGen,22.262999999999998
+network-3.2.1.0,Network.Socket.Flag,Common sub-expression,0.01
+network-3.2.1.0,Network.Socket.Flag,Constructed Product Result analysis,0.098
+network-3.2.1.0,Network.Socket.Flag,CorePrep,0.42500000000000004
+network-3.2.1.0,Network.Socket.Flag,CoreTidy,0.619
+network-3.2.1.0,Network.Socket.Flag,CoreToStg,2.472
+network-3.2.1.0,Network.Socket.Flag,Demand analysis,0.8380000000000001
+network-3.2.1.0,Network.Socket.Flag,Desugar,0.612
+network-3.2.1.0,Network.Socket.Flag,Exitification transformation,0.016
+network-3.2.1.0,Network.Socket.Flag,Float inwards,0.024
+network-3.2.1.0,Network.Socket.Flag,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.517
+network-3.2.1.0,Network.Socket.Flag,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.448
+network-3.2.1.0,Network.Socket.Flag,Parser,2.062
+network-3.2.1.0,Network.Socket.Flag,Renamer/typechecker,15.017
+network-3.2.1.0,Network.Socket.Flag,Simplifier,30.703
+network-3.2.1.0,Network.Socket.Flag,Specialise,0.141
+network-3.2.1.0,Network.Socket.Flag,Worker Wrapper binds,0.099
+network-3.2.1.0,Network.Socket.Handle,Called arity analysis,0.01
+network-3.2.1.0,Network.Socket.Handle,CodeGen,8.113
+network-3.2.1.0,Network.Socket.Handle,Common sub-expression,0.009
+network-3.2.1.0,Network.Socket.Handle,Constructed Product Result analysis,0.039
+network-3.2.1.0,Network.Socket.Handle,CorePrep,0.14200000000000002
+network-3.2.1.0,Network.Socket.Handle,CoreTidy,0.219
+network-3.2.1.0,Network.Socket.Handle,CoreToStg,0.391
+network-3.2.1.0,Network.Socket.Handle,Demand analysis,0.18
+network-3.2.1.0,Network.Socket.Handle,Desugar,0.121
+network-3.2.1.0,Network.Socket.Handle,Exitification transformation,0.01
+network-3.2.1.0,Network.Socket.Handle,Float inwards,0.019
+network-3.2.1.0,Network.Socket.Handle,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.194
+network-3.2.1.0,Network.Socket.Handle,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.15
+network-3.2.1.0,Network.Socket.Handle,Parser,0.357
+network-3.2.1.0,Network.Socket.Handle,Renamer/typechecker,3.232
+network-3.2.1.0,Network.Socket.Handle,Simplifier,9.35
+network-3.2.1.0,Network.Socket.Handle,Specialise,0.052
+network-3.2.1.0,Network.Socket.Handle,Worker Wrapper binds,0.027
+network-3.2.1.0,Network.Socket.If,Called arity analysis,0.01
+network-3.2.1.0,Network.Socket.If,CodeGen,9.7
+network-3.2.1.0,Network.Socket.If,Common sub-expression,0.012
+network-3.2.1.0,Network.Socket.If,Constructed Product Result analysis,0.048
+network-3.2.1.0,Network.Socket.If,CorePrep,0.254
+network-3.2.1.0,Network.Socket.If,CoreTidy,0.266
+network-3.2.1.0,Network.Socket.If,CoreToStg,0.609
+network-3.2.1.0,Network.Socket.If,Demand analysis,0.307
+network-3.2.1.0,Network.Socket.If,Desugar,0.415
+network-3.2.1.0,Network.Socket.If,Exitification transformation,0.013
+network-3.2.1.0,Network.Socket.If,Float inwards,0.019
+network-3.2.1.0,Network.Socket.If,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.298
+network-3.2.1.0,Network.Socket.If,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.368
+network-3.2.1.0,Network.Socket.If,Parser,1.343
+network-3.2.1.0,Network.Socket.If,Renamer/typechecker,10.124
+network-3.2.1.0,Network.Socket.If,Simplifier,19.106
+network-3.2.1.0,Network.Socket.If,Specialise,0.058
+network-3.2.1.0,Network.Socket.If,Worker Wrapper binds,0.031
+network-3.2.1.0,Network.Socket.Imports,Called arity analysis,0.009
+network-3.2.1.0,Network.Socket.Imports,CodeGen,0.876
+network-3.2.1.0,Network.Socket.Imports,Common sub-expression,0.011
+network-3.2.1.0,Network.Socket.Imports,Constructed Product Result analysis,0.012
+network-3.2.1.0,Network.Socket.Imports,CorePrep,0.633
+network-3.2.1.0,Network.Socket.Imports,CoreTidy,0.048
+network-3.2.1.0,Network.Socket.Imports,CoreToStg,0.15
+network-3.2.1.0,Network.Socket.Imports,Demand analysis,0.053000000000000005
+network-3.2.1.0,Network.Socket.Imports,Desugar,0.129
+network-3.2.1.0,Network.Socket.Imports,Exitification transformation,0.01
+network-3.2.1.0,Network.Socket.Imports,Float inwards,0.019
+network-3.2.1.0,Network.Socket.Imports,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.045
+network-3.2.1.0,Network.Socket.Imports,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.029
+network-3.2.1.0,Network.Socket.Imports,Parser,0.144
+network-3.2.1.0,Network.Socket.Imports,Renamer/typechecker,43.232
+network-3.2.1.0,Network.Socket.Imports,Simplifier,0.366
+network-3.2.1.0,Network.Socket.Imports,Specialise,0.018
+network-3.2.1.0,Network.Socket.Imports,Worker Wrapper binds,0.01
+network-3.2.1.0,Network.Socket.Info,Called arity analysis,0.012
+network-3.2.1.0,Network.Socket.Info,CodeGen,207.144
+network-3.2.1.0,Network.Socket.Info,Common sub-expression,0.013
+network-3.2.1.0,Network.Socket.Info,Constructed Product Result analysis,0.807
+network-3.2.1.0,Network.Socket.Info,CorePrep,3.3810000000000002
+network-3.2.1.0,Network.Socket.Info,CoreTidy,4.249
+network-3.2.1.0,Network.Socket.Info,CoreToStg,11.0
+network-3.2.1.0,Network.Socket.Info,Demand analysis,9.277000000000001
+network-3.2.1.0,Network.Socket.Info,Desugar,2.042
+network-3.2.1.0,Network.Socket.Info,Exitification transformation,0.013
+network-3.2.1.0,Network.Socket.Info,Float inwards,0.022
+network-3.2.1.0,Network.Socket.Info,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",7.243
+network-3.2.1.0,Network.Socket.Info,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",6.709
+network-3.2.1.0,Network.Socket.Info,Parser,4.6
+network-3.2.1.0,Network.Socket.Info,Renamer/typechecker,17.771
+network-3.2.1.0,Network.Socket.Info,Simplifier,286.745
+network-3.2.1.0,Network.Socket.Info,Specialise,1.807
+network-3.2.1.0,Network.Socket.Info,Worker Wrapper binds,0.572
+network-3.2.1.0,Network.Socket.Internal,Called arity analysis,0.013
+network-3.2.1.0,Network.Socket.Internal,CodeGen,28.398
+network-3.2.1.0,Network.Socket.Internal,Common sub-expression,0.014
+network-3.2.1.0,Network.Socket.Internal,Constructed Product Result analysis,0.148
+network-3.2.1.0,Network.Socket.Internal,CorePrep,0.594
+network-3.2.1.0,Network.Socket.Internal,CoreTidy,0.656
+network-3.2.1.0,Network.Socket.Internal,CoreToStg,1.625
+network-3.2.1.0,Network.Socket.Internal,Demand analysis,0.861
+network-3.2.1.0,Network.Socket.Internal,Desugar,0.405
+network-3.2.1.0,Network.Socket.Internal,Exitification transformation,0.013
+network-3.2.1.0,Network.Socket.Internal,Float inwards,0.027
+network-3.2.1.0,Network.Socket.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.837
+network-3.2.1.0,Network.Socket.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.009
+network-3.2.1.0,Network.Socket.Internal,Parser,2.549
+network-3.2.1.0,Network.Socket.Internal,Renamer/typechecker,5.122
+network-3.2.1.0,Network.Socket.Internal,Simplifier,18.669999999999998
+network-3.2.1.0,Network.Socket.Internal,Specialise,0.164
+network-3.2.1.0,Network.Socket.Internal,Worker Wrapper binds,0.127
+network-3.2.1.0,Network.Socket.Name,Called arity analysis,0.015
+network-3.2.1.0,Network.Socket.Name,CodeGen,19.421
+network-3.2.1.0,Network.Socket.Name,Common sub-expression,0.012
+network-3.2.1.0,Network.Socket.Name,Constructed Product Result analysis,0.09
+network-3.2.1.0,Network.Socket.Name,CorePrep,0.41100000000000003
+network-3.2.1.0,Network.Socket.Name,CoreTidy,0.509
+network-3.2.1.0,Network.Socket.Name,CoreToStg,2.629
+network-3.2.1.0,Network.Socket.Name,Demand analysis,0.685
+network-3.2.1.0,Network.Socket.Name,Desugar,0.497
+network-3.2.1.0,Network.Socket.Name,Exitification transformation,0.01
+network-3.2.1.0,Network.Socket.Name,Float inwards,0.028999999999999998
+network-3.2.1.0,Network.Socket.Name,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.816
+network-3.2.1.0,Network.Socket.Name,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.017
+network-3.2.1.0,Network.Socket.Name,Parser,1.95
+network-3.2.1.0,Network.Socket.Name,Renamer/typechecker,2.539
+network-3.2.1.0,Network.Socket.Name,Simplifier,17.093
+network-3.2.1.0,Network.Socket.Name,Specialise,0.2
+network-3.2.1.0,Network.Socket.Name,Worker Wrapper binds,0.058
+network-3.2.1.0,Network.Socket.Options,Called arity analysis,0.01
+network-3.2.1.0,Network.Socket.Options,CodeGen,168.90699999999998
+network-3.2.1.0,Network.Socket.Options,Common sub-expression,0.014
+network-3.2.1.0,Network.Socket.Options,Constructed Product Result analysis,0.558
+network-3.2.1.0,Network.Socket.Options,CorePrep,3.62
+network-3.2.1.0,Network.Socket.Options,CoreTidy,10.936
+network-3.2.1.0,Network.Socket.Options,CoreToStg,14.151
+network-3.2.1.0,Network.Socket.Options,Demand analysis,6.066
+network-3.2.1.0,Network.Socket.Options,Desugar,1.801
+network-3.2.1.0,Network.Socket.Options,Exitification transformation,0.014
+network-3.2.1.0,Network.Socket.Options,Float inwards,0.025
+network-3.2.1.0,Network.Socket.Options,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",7.519
+network-3.2.1.0,Network.Socket.Options,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",8.376
+network-3.2.1.0,Network.Socket.Options,Parser,5.472
+network-3.2.1.0,Network.Socket.Options,Renamer/typechecker,18.186
+network-3.2.1.0,Network.Socket.Options,Simplifier,215.034
+network-3.2.1.0,Network.Socket.Options,Specialise,3.236
+network-3.2.1.0,Network.Socket.Options,Worker Wrapper binds,0.542
+network-3.2.1.0,Network.Socket.Posix.Cmsg,Called arity analysis,0.01
+network-3.2.1.0,Network.Socket.Posix.Cmsg,CodeGen,191.349
+network-3.2.1.0,Network.Socket.Posix.Cmsg,Common sub-expression,0.014
+network-3.2.1.0,Network.Socket.Posix.Cmsg,Constructed Product Result analysis,0.706
+network-3.2.1.0,Network.Socket.Posix.Cmsg,CorePrep,3.74
+network-3.2.1.0,Network.Socket.Posix.Cmsg,CoreTidy,5.511
+network-3.2.1.0,Network.Socket.Posix.Cmsg,CoreToStg,30.857
+network-3.2.1.0,Network.Socket.Posix.Cmsg,Demand analysis,11.768
+network-3.2.1.0,Network.Socket.Posix.Cmsg,Desugar,1.963
+network-3.2.1.0,Network.Socket.Posix.Cmsg,Exitification transformation,0.012
+network-3.2.1.0,Network.Socket.Posix.Cmsg,Float inwards,0.022
+network-3.2.1.0,Network.Socket.Posix.Cmsg,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",8.845
+network-3.2.1.0,Network.Socket.Posix.Cmsg,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",8.224
+network-3.2.1.0,Network.Socket.Posix.Cmsg,Parser,3.976
+network-3.2.1.0,Network.Socket.Posix.Cmsg,Renamer/typechecker,25.58
+network-3.2.1.0,Network.Socket.Posix.Cmsg,Simplifier,301.51
+network-3.2.1.0,Network.Socket.Posix.Cmsg,Specialise,2.906
+network-3.2.1.0,Network.Socket.Posix.Cmsg,Worker Wrapper binds,0.504
+network-3.2.1.0,Network.Socket.Posix.CmsgHdr,Called arity analysis,0.018
+network-3.2.1.0,Network.Socket.Posix.CmsgHdr,CodeGen,37.228
+network-3.2.1.0,Network.Socket.Posix.CmsgHdr,Common sub-expression,0.011
+network-3.2.1.0,Network.Socket.Posix.CmsgHdr,Constructed Product Result analysis,0.266
+network-3.2.1.0,Network.Socket.Posix.CmsgHdr,CorePrep,0.852
+network-3.2.1.0,Network.Socket.Posix.CmsgHdr,CoreTidy,0.862
+network-3.2.1.0,Network.Socket.Posix.CmsgHdr,CoreToStg,3.261
+network-3.2.1.0,Network.Socket.Posix.CmsgHdr,Demand analysis,1.525
+network-3.2.1.0,Network.Socket.Posix.CmsgHdr,Desugar,0.682
+network-3.2.1.0,Network.Socket.Posix.CmsgHdr,Exitification transformation,0.013
+network-3.2.1.0,Network.Socket.Posix.CmsgHdr,Float inwards,0.04
+network-3.2.1.0,Network.Socket.Posix.CmsgHdr,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.686
+network-3.2.1.0,Network.Socket.Posix.CmsgHdr,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.33
+network-3.2.1.0,Network.Socket.Posix.CmsgHdr,Parser,1.824
+network-3.2.1.0,Network.Socket.Posix.CmsgHdr,Renamer/typechecker,7.413
+network-3.2.1.0,Network.Socket.Posix.CmsgHdr,Simplifier,51.034
+network-3.2.1.0,Network.Socket.Posix.CmsgHdr,Specialise,0.256
+network-3.2.1.0,Network.Socket.Posix.CmsgHdr,Worker Wrapper binds,0.171
+network-3.2.1.0,Network.Socket.Posix.IOVec,Called arity analysis,0.01
+network-3.2.1.0,Network.Socket.Posix.IOVec,CodeGen,17.536
+network-3.2.1.0,Network.Socket.Posix.IOVec,Common sub-expression,0.011
+network-3.2.1.0,Network.Socket.Posix.IOVec,Constructed Product Result analysis,0.103
+network-3.2.1.0,Network.Socket.Posix.IOVec,CorePrep,0.42000000000000004
+network-3.2.1.0,Network.Socket.Posix.IOVec,CoreTidy,0.53
+network-3.2.1.0,Network.Socket.Posix.IOVec,CoreToStg,1.053
+network-3.2.1.0,Network.Socket.Posix.IOVec,Demand analysis,0.6890000000000001
+network-3.2.1.0,Network.Socket.Posix.IOVec,Desugar,0.392
+network-3.2.1.0,Network.Socket.Posix.IOVec,Exitification transformation,0.011
+network-3.2.1.0,Network.Socket.Posix.IOVec,Float inwards,0.019999999999999997
+network-3.2.1.0,Network.Socket.Posix.IOVec,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.651
+network-3.2.1.0,Network.Socket.Posix.IOVec,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.608
+network-3.2.1.0,Network.Socket.Posix.IOVec,Parser,0.723
+network-3.2.1.0,Network.Socket.Posix.IOVec,Renamer/typechecker,7.984
+network-3.2.1.0,Network.Socket.Posix.IOVec,Simplifier,64.643
+network-3.2.1.0,Network.Socket.Posix.IOVec,Specialise,0.315
+network-3.2.1.0,Network.Socket.Posix.IOVec,Worker Wrapper binds,0.089
+network-3.2.1.0,Network.Socket.Posix.MsgHdr,Called arity analysis,0.01
+network-3.2.1.0,Network.Socket.Posix.MsgHdr,CodeGen,21.814999999999998
+network-3.2.1.0,Network.Socket.Posix.MsgHdr,Common sub-expression,0.012
+network-3.2.1.0,Network.Socket.Posix.MsgHdr,Constructed Product Result analysis,0.136
+network-3.2.1.0,Network.Socket.Posix.MsgHdr,CorePrep,0.647
+network-3.2.1.0,Network.Socket.Posix.MsgHdr,CoreTidy,0.554
+network-3.2.1.0,Network.Socket.Posix.MsgHdr,CoreToStg,1.8519999999999999
+network-3.2.1.0,Network.Socket.Posix.MsgHdr,Demand analysis,0.8919999999999999
+network-3.2.1.0,Network.Socket.Posix.MsgHdr,Desugar,0.255
+network-3.2.1.0,Network.Socket.Posix.MsgHdr,Exitification transformation,0.011
+network-3.2.1.0,Network.Socket.Posix.MsgHdr,Float inwards,0.023
+network-3.2.1.0,Network.Socket.Posix.MsgHdr,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.8
+network-3.2.1.0,Network.Socket.Posix.MsgHdr,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.891
+network-3.2.1.0,Network.Socket.Posix.MsgHdr,Parser,1.301
+network-3.2.1.0,Network.Socket.Posix.MsgHdr,Renamer/typechecker,4.072
+network-3.2.1.0,Network.Socket.Posix.MsgHdr,Simplifier,13.401
+network-3.2.1.0,Network.Socket.Posix.MsgHdr,Specialise,0.225
+network-3.2.1.0,Network.Socket.Posix.MsgHdr,Worker Wrapper binds,0.12
+network-3.2.1.0,Network.Socket.ReadShow,Called arity analysis,0.01
+network-3.2.1.0,Network.Socket.ReadShow,CodeGen,45.998
+network-3.2.1.0,Network.Socket.ReadShow,Common sub-expression,0.012
+network-3.2.1.0,Network.Socket.ReadShow,Constructed Product Result analysis,0.134
+network-3.2.1.0,Network.Socket.ReadShow,CorePrep,0.491
+network-3.2.1.0,Network.Socket.ReadShow,CoreTidy,0.757
+network-3.2.1.0,Network.Socket.ReadShow,CoreToStg,1.508
+network-3.2.1.0,Network.Socket.ReadShow,Demand analysis,1.267
+network-3.2.1.0,Network.Socket.ReadShow,Desugar,0.77
+network-3.2.1.0,Network.Socket.ReadShow,Exitification transformation,0.013
+network-3.2.1.0,Network.Socket.ReadShow,Float inwards,0.020999999999999998
+network-3.2.1.0,Network.Socket.ReadShow,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.834
+network-3.2.1.0,Network.Socket.ReadShow,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.343
+network-3.2.1.0,Network.Socket.ReadShow,Parser,1.432
+network-3.2.1.0,Network.Socket.ReadShow,Renamer/typechecker,9.654
+network-3.2.1.0,Network.Socket.ReadShow,Simplifier,47.818
+network-3.2.1.0,Network.Socket.ReadShow,Specialise,0.251
+network-3.2.1.0,Network.Socket.ReadShow,Worker Wrapper binds,0.072
+network-3.2.1.0,Network.Socket.Shutdown,Called arity analysis,0.011
+network-3.2.1.0,Network.Socket.Shutdown,CodeGen,31.883000000000003
+network-3.2.1.0,Network.Socket.Shutdown,Common sub-expression,0.015
+network-3.2.1.0,Network.Socket.Shutdown,Constructed Product Result analysis,0.152
+network-3.2.1.0,Network.Socket.Shutdown,CorePrep,0.801
+network-3.2.1.0,Network.Socket.Shutdown,CoreTidy,0.666
+network-3.2.1.0,Network.Socket.Shutdown,CoreToStg,2.51
+network-3.2.1.0,Network.Socket.Shutdown,Demand analysis,1.0670000000000002
+network-3.2.1.0,Network.Socket.Shutdown,Desugar,0.626
+network-3.2.1.0,Network.Socket.Shutdown,Exitification transformation,0.014
+network-3.2.1.0,Network.Socket.Shutdown,Float inwards,0.025
+network-3.2.1.0,Network.Socket.Shutdown,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.955
+network-3.2.1.0,Network.Socket.Shutdown,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.321
+network-3.2.1.0,Network.Socket.Shutdown,Parser,1.313
+network-3.2.1.0,Network.Socket.Shutdown,Renamer/typechecker,4.953
+network-3.2.1.0,Network.Socket.Shutdown,Simplifier,40.217999999999996
+network-3.2.1.0,Network.Socket.Shutdown,Specialise,0.173
+network-3.2.1.0,Network.Socket.Shutdown,Worker Wrapper binds,0.068
+network-3.2.1.0,Network.Socket.SockAddr,Called arity analysis,0.02
+network-3.2.1.0,Network.Socket.SockAddr,CodeGen,25.137
+network-3.2.1.0,Network.Socket.SockAddr,Common sub-expression,0.011
+network-3.2.1.0,Network.Socket.SockAddr,Constructed Product Result analysis,0.157
+network-3.2.1.0,Network.Socket.SockAddr,CorePrep,0.41700000000000004
+network-3.2.1.0,Network.Socket.SockAddr,CoreTidy,0.652
+network-3.2.1.0,Network.Socket.SockAddr,CoreToStg,1.259
+network-3.2.1.0,Network.Socket.SockAddr,Demand analysis,1.4660000000000002
+network-3.2.1.0,Network.Socket.SockAddr,Desugar,0.946
+network-3.2.1.0,Network.Socket.SockAddr,Exitification transformation,0.021
+network-3.2.1.0,Network.Socket.SockAddr,Float inwards,0.020999999999999998
+network-3.2.1.0,Network.Socket.SockAddr,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.782
+network-3.2.1.0,Network.Socket.SockAddr,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.083
+network-3.2.1.0,Network.Socket.SockAddr,Parser,1.407
+network-3.2.1.0,Network.Socket.SockAddr,Renamer/typechecker,7.572
+network-3.2.1.0,Network.Socket.SockAddr,Simplifier,31.473
+network-3.2.1.0,Network.Socket.SockAddr,Specialise,1.047
+network-3.2.1.0,Network.Socket.SockAddr,Worker Wrapper binds,0.103
+network-3.2.1.0,Network.Socket.Syscall,Called arity analysis,0.01
+network-3.2.1.0,Network.Socket.Syscall,CodeGen,45.991
+network-3.2.1.0,Network.Socket.Syscall,Common sub-expression,0.017
+network-3.2.1.0,Network.Socket.Syscall,Constructed Product Result analysis,1.899
+network-3.2.1.0,Network.Socket.Syscall,CorePrep,1.924
+network-3.2.1.0,Network.Socket.Syscall,CoreTidy,1.056
+network-3.2.1.0,Network.Socket.Syscall,CoreToStg,2.683
+network-3.2.1.0,Network.Socket.Syscall,Demand analysis,1.785
+network-3.2.1.0,Network.Socket.Syscall,Desugar,0.735
+network-3.2.1.0,Network.Socket.Syscall,Exitification transformation,0.013
+network-3.2.1.0,Network.Socket.Syscall,Float inwards,0.020999999999999998
+network-3.2.1.0,Network.Socket.Syscall,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.965
+network-3.2.1.0,Network.Socket.Syscall,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.356
+network-3.2.1.0,Network.Socket.Syscall,Parser,2.59
+network-3.2.1.0,Network.Socket.Syscall,Renamer/typechecker,49.511
+network-3.2.1.0,Network.Socket.Syscall,Simplifier,56.516
+network-3.2.1.0,Network.Socket.Syscall,Specialise,0.505
+network-3.2.1.0,Network.Socket.Syscall,Worker Wrapper binds,0.138
+network-3.2.1.0,Network.Socket.Types,Called arity analysis,0.01
+network-3.2.1.0,Network.Socket.Types,CodeGen,273.953
+network-3.2.1.0,Network.Socket.Types,Common sub-expression,0.021
+network-3.2.1.0,Network.Socket.Types,Constructed Product Result analysis,1.799
+network-3.2.1.0,Network.Socket.Types,CorePrep,4.608
+network-3.2.1.0,Network.Socket.Types,CoreTidy,8.022
+network-3.2.1.0,Network.Socket.Types,CoreToStg,40.064
+network-3.2.1.0,Network.Socket.Types,Demand analysis,15.187000000000001
+network-3.2.1.0,Network.Socket.Types,Desugar,12.573
+network-3.2.1.0,Network.Socket.Types,Exitification transformation,0.014
+network-3.2.1.0,Network.Socket.Types,Float inwards,0.035
+network-3.2.1.0,Network.Socket.Types,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",12.936
+network-3.2.1.0,Network.Socket.Types,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",16.791
+network-3.2.1.0,Network.Socket.Types,Parser,14.406
+network-3.2.1.0,Network.Socket.Types,Renamer/typechecker,51.541
+network-3.2.1.0,Network.Socket.Types,Simplifier,492.003
+network-3.2.1.0,Network.Socket.Types,Specialise,3.98
+network-3.2.1.0,Network.Socket.Types,Worker Wrapper binds,0.947
+network-3.2.1.0,Network.Socket.Unix,Called arity analysis,0.017
+network-3.2.1.0,Network.Socket.Unix,CodeGen,30.715
+network-3.2.1.0,Network.Socket.Unix,Common sub-expression,0.014
+network-3.2.1.0,Network.Socket.Unix,Constructed Product Result analysis,0.205
+network-3.2.1.0,Network.Socket.Unix,CorePrep,0.803
+network-3.2.1.0,Network.Socket.Unix,CoreTidy,0.895
+network-3.2.1.0,Network.Socket.Unix,CoreToStg,3.825
+network-3.2.1.0,Network.Socket.Unix,Demand analysis,1.5430000000000001
+network-3.2.1.0,Network.Socket.Unix,Desugar,0.695
+network-3.2.1.0,Network.Socket.Unix,Exitification transformation,0.012
+network-3.2.1.0,Network.Socket.Unix,Float inwards,0.03
+network-3.2.1.0,Network.Socket.Unix,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.868
+network-3.2.1.0,Network.Socket.Unix,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.391
+network-3.2.1.0,Network.Socket.Unix,Parser,3.626
+network-3.2.1.0,Network.Socket.Unix,Renamer/typechecker,5.116
+network-3.2.1.0,Network.Socket.Unix,Simplifier,47.911
+network-3.2.1.0,Network.Socket.Unix,Specialise,0.427
+network-3.2.1.0,Network.Socket.Unix,Worker Wrapper binds,0.133

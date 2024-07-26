@@ -1,127 +1,127 @@
 package,module,phase,time
-process-1.6.20.0,System.Cmd,Called arity analysis,0.021
-process-1.6.20.0,System.Cmd,CodeGen,1.623
-process-1.6.20.0,System.Cmd,Common sub-expression,0.025
-process-1.6.20.0,System.Cmd,Constructed Product Result analysis,0.023
-process-1.6.20.0,System.Cmd,CorePrep,0.137
-process-1.6.20.0,System.Cmd,CoreTidy,0.18
-process-1.6.20.0,System.Cmd,CoreToStg,0.247
-process-1.6.20.0,System.Cmd,Demand analysis,0.094
-process-1.6.20.0,System.Cmd,Desugar,0.282
-process-1.6.20.0,System.Cmd,Exitification transformation,0.056
-process-1.6.20.0,System.Cmd,Float inwards,0.06
-process-1.6.20.0,System.Cmd,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.113
-process-1.6.20.0,System.Cmd,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.097
-process-1.6.20.0,System.Cmd,Parser,1.982
-process-1.6.20.0,System.Cmd,Renamer/typechecker,0.607
-process-1.6.20.0,System.Cmd,Simplifier,0.75
-process-1.6.20.0,System.Cmd,Specialise,0.033
-process-1.6.20.0,System.Cmd,Worker Wrapper binds,0.05
-process-1.6.20.0,System.Process,Called arity analysis,0.018
-process-1.6.20.0,System.Process,CodeGen,299.56600000000003
-process-1.6.20.0,System.Process,Common sub-expression,0.022
-process-1.6.20.0,System.Process,Constructed Product Result analysis,3.472
-process-1.6.20.0,System.Process,CorePrep,4.167
-process-1.6.20.0,System.Process,CoreTidy,7.996
-process-1.6.20.0,System.Process,CoreToStg,16.141
-process-1.6.20.0,System.Process,Demand analysis,6.851
-process-1.6.20.0,System.Process,Desugar,4.087
-process-1.6.20.0,System.Process,Exitification transformation,0.033
-process-1.6.20.0,System.Process,Float inwards,0.046
-process-1.6.20.0,System.Process,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",14.232
-process-1.6.20.0,System.Process,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",10.69
-process-1.6.20.0,System.Process,Parser,12.552
-process-1.6.20.0,System.Process,Renamer/typechecker,110.227
-process-1.6.20.0,System.Process,Simplifier,270.354
-process-1.6.20.0,System.Process,Specialise,1.477
-process-1.6.20.0,System.Process,Worker Wrapper binds,0.609
-process-1.6.20.0,System.Process.Common,Called arity analysis,0.019
-process-1.6.20.0,System.Process.Common,CodeGen,292.26099999999997
-process-1.6.20.0,System.Process.Common,Common sub-expression,0.024
-process-1.6.20.0,System.Process.Common,Constructed Product Result analysis,0.849
-process-1.6.20.0,System.Process.Common,CorePrep,4.386
-process-1.6.20.0,System.Process.Common,CoreTidy,4.35
-process-1.6.20.0,System.Process.Common,CoreToStg,9.95
-process-1.6.20.0,System.Process.Common,Demand analysis,5.875
-process-1.6.20.0,System.Process.Common,Desugar,5.936
-process-1.6.20.0,System.Process.Common,Exitification transformation,0.022
-process-1.6.20.0,System.Process.Common,Float inwards,0.037000000000000005
-process-1.6.20.0,System.Process.Common,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",10.589
-process-1.6.20.0,System.Process.Common,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",6.189
-process-1.6.20.0,System.Process.Common,Parser,3.96
-process-1.6.20.0,System.Process.Common,Renamer/typechecker,133.64
-process-1.6.20.0,System.Process.Common,Simplifier,292.221
-process-1.6.20.0,System.Process.Common,Specialise,2.502
-process-1.6.20.0,System.Process.Common,Worker Wrapper binds,0.353
-process-1.6.20.0,System.Process.CommunicationHandle,Called arity analysis,0.024
-process-1.6.20.0,System.Process.CommunicationHandle,CodeGen,20.408
-process-1.6.20.0,System.Process.CommunicationHandle,Common sub-expression,0.025
-process-1.6.20.0,System.Process.CommunicationHandle,Constructed Product Result analysis,0.12
-process-1.6.20.0,System.Process.CommunicationHandle,CorePrep,0.465
-process-1.6.20.0,System.Process.CommunicationHandle,CoreTidy,0.706
-process-1.6.20.0,System.Process.CommunicationHandle,CoreToStg,1.5070000000000001
-process-1.6.20.0,System.Process.CommunicationHandle,Demand analysis,0.743
-process-1.6.20.0,System.Process.CommunicationHandle,Desugar,0.623
-process-1.6.20.0,System.Process.CommunicationHandle,Exitification transformation,0.026
-process-1.6.20.0,System.Process.CommunicationHandle,Float inwards,0.05
-process-1.6.20.0,System.Process.CommunicationHandle,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.01
-process-1.6.20.0,System.Process.CommunicationHandle,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.224
-process-1.6.20.0,System.Process.CommunicationHandle,Parser,2.432
-process-1.6.20.0,System.Process.CommunicationHandle,Renamer/typechecker,4.311
-process-1.6.20.0,System.Process.CommunicationHandle,Simplifier,14.403
-process-1.6.20.0,System.Process.CommunicationHandle,Specialise,0.153
-process-1.6.20.0,System.Process.CommunicationHandle,Worker Wrapper binds,0.119
-process-1.6.20.0,System.Process.CommunicationHandle.Internal,Called arity analysis,0.024
-process-1.6.20.0,System.Process.CommunicationHandle.Internal,CodeGen,26.560000000000002
-process-1.6.20.0,System.Process.CommunicationHandle.Internal,Common sub-expression,0.022
-process-1.6.20.0,System.Process.CommunicationHandle.Internal,Constructed Product Result analysis,0.167
-process-1.6.20.0,System.Process.CommunicationHandle.Internal,CorePrep,0.7130000000000001
-process-1.6.20.0,System.Process.CommunicationHandle.Internal,CoreTidy,0.74
-process-1.6.20.0,System.Process.CommunicationHandle.Internal,CoreToStg,2.5989999999999998
-process-1.6.20.0,System.Process.CommunicationHandle.Internal,Demand analysis,0.969
-process-1.6.20.0,System.Process.CommunicationHandle.Internal,Desugar,0.632
-process-1.6.20.0,System.Process.CommunicationHandle.Internal,Exitification transformation,0.026
-process-1.6.20.0,System.Process.CommunicationHandle.Internal,Float inwards,0.044
-process-1.6.20.0,System.Process.CommunicationHandle.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.752
-process-1.6.20.0,System.Process.CommunicationHandle.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.723
-process-1.6.20.0,System.Process.CommunicationHandle.Internal,Parser,3.41
-process-1.6.20.0,System.Process.CommunicationHandle.Internal,Renamer/typechecker,20.374
-process-1.6.20.0,System.Process.CommunicationHandle.Internal,Simplifier,33.011
-process-1.6.20.0,System.Process.CommunicationHandle.Internal,Specialise,0.19
-process-1.6.20.0,System.Process.CommunicationHandle.Internal,Worker Wrapper binds,0.142
-process-1.6.20.0,System.Process.Internals,Called arity analysis,0.034
-process-1.6.20.0,System.Process.Internals,CodeGen,50.047
-process-1.6.20.0,System.Process.Internals,Common sub-expression,0.035
-process-1.6.20.0,System.Process.Internals,Constructed Product Result analysis,0.259
-process-1.6.20.0,System.Process.Internals,CorePrep,0.9410000000000001
-process-1.6.20.0,System.Process.Internals,CoreTidy,0.968
-process-1.6.20.0,System.Process.Internals,CoreToStg,2.459
-process-1.6.20.0,System.Process.Internals,Demand analysis,1.444
-process-1.6.20.0,System.Process.Internals,Desugar,0.808
-process-1.6.20.0,System.Process.Internals,Exitification transformation,0.027
-process-1.6.20.0,System.Process.Internals,Float inwards,0.05
-process-1.6.20.0,System.Process.Internals,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.346
-process-1.6.20.0,System.Process.Internals,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.974
-process-1.6.20.0,System.Process.Internals,Parser,4.128
-process-1.6.20.0,System.Process.Internals,Renamer/typechecker,10.3
-process-1.6.20.0,System.Process.Internals,Simplifier,38.721000000000004
-process-1.6.20.0,System.Process.Internals,Specialise,0.208
-process-1.6.20.0,System.Process.Internals,Worker Wrapper binds,0.152
-process-1.6.20.0,System.Process.Posix,Called arity analysis,0.02
-process-1.6.20.0,System.Process.Posix,CodeGen,160.219
-process-1.6.20.0,System.Process.Posix,Common sub-expression,0.02
-process-1.6.20.0,System.Process.Posix,Constructed Product Result analysis,0.742
-process-1.6.20.0,System.Process.Posix,CorePrep,2.215
-process-1.6.20.0,System.Process.Posix,CoreTidy,4.147
-process-1.6.20.0,System.Process.Posix,CoreToStg,8.79
-process-1.6.20.0,System.Process.Posix,Demand analysis,5.825
-process-1.6.20.0,System.Process.Posix,Desugar,1.703
-process-1.6.20.0,System.Process.Posix,Exitification transformation,0.021
-process-1.6.20.0,System.Process.Posix,Float inwards,0.037000000000000005
-process-1.6.20.0,System.Process.Posix,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",5.823
-process-1.6.20.0,System.Process.Posix,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",5.976
-process-1.6.20.0,System.Process.Posix,Parser,4.827
-process-1.6.20.0,System.Process.Posix,Renamer/typechecker,40.216
-process-1.6.20.0,System.Process.Posix,Simplifier,208.503
-process-1.6.20.0,System.Process.Posix,Specialise,1.412
-process-1.6.20.0,System.Process.Posix,Worker Wrapper binds,0.306
+process-1.6.20.0,System.Cmd,Called arity analysis,0.01
+process-1.6.20.0,System.Cmd,CodeGen,0.905
+process-1.6.20.0,System.Cmd,Common sub-expression,0.009
+process-1.6.20.0,System.Cmd,Constructed Product Result analysis,0.013
+process-1.6.20.0,System.Cmd,CorePrep,0.052
+process-1.6.20.0,System.Cmd,CoreTidy,0.046
+process-1.6.20.0,System.Cmd,CoreToStg,0.092
+process-1.6.20.0,System.Cmd,Demand analysis,0.048
+process-1.6.20.0,System.Cmd,Desugar,0.096
+process-1.6.20.0,System.Cmd,Exitification transformation,0.01
+process-1.6.20.0,System.Cmd,Float inwards,0.018000000000000002
+process-1.6.20.0,System.Cmd,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.04
+process-1.6.20.0,System.Cmd,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.029
+process-1.6.20.0,System.Cmd,Parser,1.109
+process-1.6.20.0,System.Cmd,Renamer/typechecker,0.81
+process-1.6.20.0,System.Cmd,Simplifier,0.356
+process-1.6.20.0,System.Cmd,Specialise,0.02
+process-1.6.20.0,System.Cmd,Worker Wrapper binds,0.012
+process-1.6.20.0,System.Process,Called arity analysis,0.011
+process-1.6.20.0,System.Process,CodeGen,150.94
+process-1.6.20.0,System.Process,Common sub-expression,0.019
+process-1.6.20.0,System.Process,Constructed Product Result analysis,0.48
+process-1.6.20.0,System.Process,CorePrep,3.065
+process-1.6.20.0,System.Process,CoreTidy,2.463
+process-1.6.20.0,System.Process,CoreToStg,12.362000000000002
+process-1.6.20.0,System.Process,Demand analysis,3.535
+process-1.6.20.0,System.Process,Desugar,2.179
+process-1.6.20.0,System.Process,Exitification transformation,0.016
+process-1.6.20.0,System.Process,Float inwards,0.027
+process-1.6.20.0,System.Process,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",5.694
+process-1.6.20.0,System.Process,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",7.824
+process-1.6.20.0,System.Process,Parser,6.599
+process-1.6.20.0,System.Process,Renamer/typechecker,64.354
+process-1.6.20.0,System.Process,Simplifier,150.142
+process-1.6.20.0,System.Process,Specialise,0.79
+process-1.6.20.0,System.Process,Worker Wrapper binds,0.23
+process-1.6.20.0,System.Process.Common,Called arity analysis,0.01
+process-1.6.20.0,System.Process.Common,CodeGen,160.933
+process-1.6.20.0,System.Process.Common,Common sub-expression,0.016
+process-1.6.20.0,System.Process.Common,Constructed Product Result analysis,0.517
+process-1.6.20.0,System.Process.Common,CorePrep,2.594
+process-1.6.20.0,System.Process.Common,CoreTidy,2.622
+process-1.6.20.0,System.Process.Common,CoreToStg,8.573
+process-1.6.20.0,System.Process.Common,Demand analysis,3.5709999999999997
+process-1.6.20.0,System.Process.Common,Desugar,1.373
+process-1.6.20.0,System.Process.Common,Exitification transformation,0.012
+process-1.6.20.0,System.Process.Common,Float inwards,0.019
+process-1.6.20.0,System.Process.Common,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",4.137
+process-1.6.20.0,System.Process.Common,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",6.024
+process-1.6.20.0,System.Process.Common,Parser,2.238
+process-1.6.20.0,System.Process.Common,Renamer/typechecker,76.952
+process-1.6.20.0,System.Process.Common,Simplifier,162.764
+process-1.6.20.0,System.Process.Common,Specialise,0.654
+process-1.6.20.0,System.Process.Common,Worker Wrapper binds,0.227
+process-1.6.20.0,System.Process.CommunicationHandle,Called arity analysis,0.016
+process-1.6.20.0,System.Process.CommunicationHandle,CodeGen,10.922
+process-1.6.20.0,System.Process.CommunicationHandle,Common sub-expression,0.011
+process-1.6.20.0,System.Process.CommunicationHandle,Constructed Product Result analysis,0.063
+process-1.6.20.0,System.Process.CommunicationHandle,CorePrep,0.385
+process-1.6.20.0,System.Process.CommunicationHandle,CoreTidy,0.413
+process-1.6.20.0,System.Process.CommunicationHandle,CoreToStg,0.953
+process-1.6.20.0,System.Process.CommunicationHandle,Demand analysis,0.355
+process-1.6.20.0,System.Process.CommunicationHandle,Desugar,0.259
+process-1.6.20.0,System.Process.CommunicationHandle,Exitification transformation,0.011
+process-1.6.20.0,System.Process.CommunicationHandle,Float inwards,0.022
+process-1.6.20.0,System.Process.CommunicationHandle,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.406
+process-1.6.20.0,System.Process.CommunicationHandle,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.383
+process-1.6.20.0,System.Process.CommunicationHandle,Parser,2.154
+process-1.6.20.0,System.Process.CommunicationHandle,Renamer/typechecker,2.516
+process-1.6.20.0,System.Process.CommunicationHandle,Simplifier,5.986
+process-1.6.20.0,System.Process.CommunicationHandle,Specialise,0.07
+process-1.6.20.0,System.Process.CommunicationHandle,Worker Wrapper binds,0.045
+process-1.6.20.0,System.Process.CommunicationHandle.Internal,Called arity analysis,0.01
+process-1.6.20.0,System.Process.CommunicationHandle.Internal,CodeGen,12.735
+process-1.6.20.0,System.Process.CommunicationHandle.Internal,Common sub-expression,0.011
+process-1.6.20.0,System.Process.CommunicationHandle.Internal,Constructed Product Result analysis,0.084
+process-1.6.20.0,System.Process.CommunicationHandle.Internal,CorePrep,0.37
+process-1.6.20.0,System.Process.CommunicationHandle.Internal,CoreTidy,0.385
+process-1.6.20.0,System.Process.CommunicationHandle.Internal,CoreToStg,0.9019999999999999
+process-1.6.20.0,System.Process.CommunicationHandle.Internal,Demand analysis,0.46199999999999997
+process-1.6.20.0,System.Process.CommunicationHandle.Internal,Desugar,0.271
+process-1.6.20.0,System.Process.CommunicationHandle.Internal,Exitification transformation,0.012
+process-1.6.20.0,System.Process.CommunicationHandle.Internal,Float inwards,0.02
+process-1.6.20.0,System.Process.CommunicationHandle.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.404
+process-1.6.20.0,System.Process.CommunicationHandle.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.316
+process-1.6.20.0,System.Process.CommunicationHandle.Internal,Parser,1.805
+process-1.6.20.0,System.Process.CommunicationHandle.Internal,Renamer/typechecker,11.427
+process-1.6.20.0,System.Process.CommunicationHandle.Internal,Simplifier,15.153
+process-1.6.20.0,System.Process.CommunicationHandle.Internal,Specialise,0.085
+process-1.6.20.0,System.Process.CommunicationHandle.Internal,Worker Wrapper binds,0.077
+process-1.6.20.0,System.Process.Internals,Called arity analysis,0.01
+process-1.6.20.0,System.Process.Internals,CodeGen,24.36
+process-1.6.20.0,System.Process.Internals,Common sub-expression,0.011
+process-1.6.20.0,System.Process.Internals,Constructed Product Result analysis,0.085
+process-1.6.20.0,System.Process.Internals,CorePrep,0.46
+process-1.6.20.0,System.Process.Internals,CoreTidy,0.445
+process-1.6.20.0,System.Process.Internals,CoreToStg,1.455
+process-1.6.20.0,System.Process.Internals,Demand analysis,0.829
+process-1.6.20.0,System.Process.Internals,Desugar,0.405
+process-1.6.20.0,System.Process.Internals,Exitification transformation,0.012
+process-1.6.20.0,System.Process.Internals,Float inwards,0.019
+process-1.6.20.0,System.Process.Internals,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.667
+process-1.6.20.0,System.Process.Internals,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.917
+process-1.6.20.0,System.Process.Internals,Parser,2.175
+process-1.6.20.0,System.Process.Internals,Renamer/typechecker,4.999
+process-1.6.20.0,System.Process.Internals,Simplifier,16.565
+process-1.6.20.0,System.Process.Internals,Specialise,0.114
+process-1.6.20.0,System.Process.Internals,Worker Wrapper binds,0.048
+process-1.6.20.0,System.Process.Posix,Called arity analysis,0.01
+process-1.6.20.0,System.Process.Posix,CodeGen,79.49799999999999
+process-1.6.20.0,System.Process.Posix,Common sub-expression,0.017
+process-1.6.20.0,System.Process.Posix,Constructed Product Result analysis,1.015
+process-1.6.20.0,System.Process.Posix,CorePrep,1.1989999999999998
+process-1.6.20.0,System.Process.Posix,CoreTidy,1.305
+process-1.6.20.0,System.Process.Posix,CoreToStg,5.5440000000000005
+process-1.6.20.0,System.Process.Posix,Demand analysis,2.319
+process-1.6.20.0,System.Process.Posix,Desugar,1.05
+process-1.6.20.0,System.Process.Posix,Exitification transformation,0.012
+process-1.6.20.0,System.Process.Posix,Float inwards,0.022
+process-1.6.20.0,System.Process.Posix,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",4.212
+process-1.6.20.0,System.Process.Posix,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",3.952
+process-1.6.20.0,System.Process.Posix,Parser,3.655
+process-1.6.20.0,System.Process.Posix,Renamer/typechecker,20.146
+process-1.6.20.0,System.Process.Posix,Simplifier,110.402
+process-1.6.20.0,System.Process.Posix,Specialise,0.751
+process-1.6.20.0,System.Process.Posix,Worker Wrapper binds,0.125

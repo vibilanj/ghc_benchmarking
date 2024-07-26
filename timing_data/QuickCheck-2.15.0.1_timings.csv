@@ -1,0 +1,289 @@
+package,module,phase,time
+QuickCheck-2.15.0.1,Test.QuickCheck,Called arity analysis,0.009
+QuickCheck-2.15.0.1,Test.QuickCheck,CodeGen,1.189
+QuickCheck-2.15.0.1,Test.QuickCheck,Common sub-expression,0.009
+QuickCheck-2.15.0.1,Test.QuickCheck,Constructed Product Result analysis,0.013
+QuickCheck-2.15.0.1,Test.QuickCheck,CorePrep,0.08499999999999999
+QuickCheck-2.15.0.1,Test.QuickCheck,CoreTidy,0.063
+QuickCheck-2.15.0.1,Test.QuickCheck,CoreToStg,0.131
+QuickCheck-2.15.0.1,Test.QuickCheck,Demand analysis,0.046
+QuickCheck-2.15.0.1,Test.QuickCheck,Desugar,0.219
+QuickCheck-2.15.0.1,Test.QuickCheck,Exitification transformation,0.012
+QuickCheck-2.15.0.1,Test.QuickCheck,Float inwards,0.016
+QuickCheck-2.15.0.1,Test.QuickCheck,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.039
+QuickCheck-2.15.0.1,Test.QuickCheck,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.027
+QuickCheck-2.15.0.1,Test.QuickCheck,Parser,3.101
+QuickCheck-2.15.0.1,Test.QuickCheck,Renamer/typechecker,1.458
+QuickCheck-2.15.0.1,Test.QuickCheck,Simplifier,0.366
+QuickCheck-2.15.0.1,Test.QuickCheck,Specialise,0.019
+QuickCheck-2.15.0.1,Test.QuickCheck,Worker Wrapper binds,0.012
+QuickCheck-2.15.0.1,Test.QuickCheck.All,Called arity analysis,0.018
+QuickCheck-2.15.0.1,Test.QuickCheck.All,CodeGen,114.872
+QuickCheck-2.15.0.1,Test.QuickCheck.All,Common sub-expression,0.015
+QuickCheck-2.15.0.1,Test.QuickCheck.All,Constructed Product Result analysis,0.346
+QuickCheck-2.15.0.1,Test.QuickCheck.All,CorePrep,1.391
+QuickCheck-2.15.0.1,Test.QuickCheck.All,CoreTidy,1.364
+QuickCheck-2.15.0.1,Test.QuickCheck.All,CoreToStg,4.563000000000001
+QuickCheck-2.15.0.1,Test.QuickCheck.All,Demand analysis,13.849
+QuickCheck-2.15.0.1,Test.QuickCheck.All,Desugar,1.895
+QuickCheck-2.15.0.1,Test.QuickCheck.All,Exitification transformation,0.014
+QuickCheck-2.15.0.1,Test.QuickCheck.All,Float inwards,0.034
+QuickCheck-2.15.0.1,Test.QuickCheck.All,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",7.994
+QuickCheck-2.15.0.1,Test.QuickCheck.All,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",3.761
+QuickCheck-2.15.0.1,Test.QuickCheck.All,Parser,2.386
+QuickCheck-2.15.0.1,Test.QuickCheck.All,Renamer/typechecker,30.194
+QuickCheck-2.15.0.1,Test.QuickCheck.All,Simplifier,112.788
+QuickCheck-2.15.0.1,Test.QuickCheck.All,Specialise,2.204
+QuickCheck-2.15.0.1,Test.QuickCheck.All,Worker Wrapper binds,0.765
+QuickCheck-2.15.0.1,Test.QuickCheck.Arbitrary,Called arity analysis,0.01
+QuickCheck-2.15.0.1,Test.QuickCheck.Arbitrary,CodeGen,1321.6019999999999
+QuickCheck-2.15.0.1,Test.QuickCheck.Arbitrary,Common sub-expression,0.02
+QuickCheck-2.15.0.1,Test.QuickCheck.Arbitrary,Constructed Product Result analysis,9.171
+QuickCheck-2.15.0.1,Test.QuickCheck.Arbitrary,CorePrep,55.809
+QuickCheck-2.15.0.1,Test.QuickCheck.Arbitrary,CoreTidy,38.072
+QuickCheck-2.15.0.1,Test.QuickCheck.Arbitrary,CoreToStg,263.76300000000003
+QuickCheck-2.15.0.1,Test.QuickCheck.Arbitrary,Demand analysis,60.798
+QuickCheck-2.15.0.1,Test.QuickCheck.Arbitrary,Desugar,8.543
+QuickCheck-2.15.0.1,Test.QuickCheck.Arbitrary,Exitification transformation,0.014
+QuickCheck-2.15.0.1,Test.QuickCheck.Arbitrary,Float inwards,0.026
+QuickCheck-2.15.0.1,Test.QuickCheck.Arbitrary,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",65.763
+QuickCheck-2.15.0.1,Test.QuickCheck.Arbitrary,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",84.145
+QuickCheck-2.15.0.1,Test.QuickCheck.Arbitrary,Parser,21.149
+QuickCheck-2.15.0.1,Test.QuickCheck.Arbitrary,Renamer/typechecker,189.637
+QuickCheck-2.15.0.1,Test.QuickCheck.Arbitrary,Simplifier,2331.515
+QuickCheck-2.15.0.1,Test.QuickCheck.Arbitrary,Specialise,40.937
+QuickCheck-2.15.0.1,Test.QuickCheck.Arbitrary,Worker Wrapper binds,5.412
+QuickCheck-2.15.0.1,Test.QuickCheck.Exception,Called arity analysis,0.019
+QuickCheck-2.15.0.1,Test.QuickCheck.Exception,CodeGen,14.917
+QuickCheck-2.15.0.1,Test.QuickCheck.Exception,Common sub-expression,0.01
+QuickCheck-2.15.0.1,Test.QuickCheck.Exception,Constructed Product Result analysis,0.067
+QuickCheck-2.15.0.1,Test.QuickCheck.Exception,CorePrep,0.905
+QuickCheck-2.15.0.1,Test.QuickCheck.Exception,CoreTidy,0.542
+QuickCheck-2.15.0.1,Test.QuickCheck.Exception,CoreToStg,0.7190000000000001
+QuickCheck-2.15.0.1,Test.QuickCheck.Exception,Demand analysis,0.651
+QuickCheck-2.15.0.1,Test.QuickCheck.Exception,Desugar,2.055
+QuickCheck-2.15.0.1,Test.QuickCheck.Exception,Exitification transformation,0.011
+QuickCheck-2.15.0.1,Test.QuickCheck.Exception,Float inwards,0.020999999999999998
+QuickCheck-2.15.0.1,Test.QuickCheck.Exception,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.326
+QuickCheck-2.15.0.1,Test.QuickCheck.Exception,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.325
+QuickCheck-2.15.0.1,Test.QuickCheck.Exception,Parser,1.275
+QuickCheck-2.15.0.1,Test.QuickCheck.Exception,Renamer/typechecker,21.308
+QuickCheck-2.15.0.1,Test.QuickCheck.Exception,Simplifier,40.566
+QuickCheck-2.15.0.1,Test.QuickCheck.Exception,Specialise,0.149
+QuickCheck-2.15.0.1,Test.QuickCheck.Exception,Worker Wrapper binds,0.069
+QuickCheck-2.15.0.1,Test.QuickCheck.Features,Called arity analysis,0.015
+QuickCheck-2.15.0.1,Test.QuickCheck.Features,CodeGen,59.311
+QuickCheck-2.15.0.1,Test.QuickCheck.Features,Common sub-expression,0.015
+QuickCheck-2.15.0.1,Test.QuickCheck.Features,Constructed Product Result analysis,0.379
+QuickCheck-2.15.0.1,Test.QuickCheck.Features,CorePrep,0.871
+QuickCheck-2.15.0.1,Test.QuickCheck.Features,CoreTidy,0.941
+QuickCheck-2.15.0.1,Test.QuickCheck.Features,CoreToStg,4.776
+QuickCheck-2.15.0.1,Test.QuickCheck.Features,Demand analysis,3.21
+QuickCheck-2.15.0.1,Test.QuickCheck.Features,Desugar,0.825
+QuickCheck-2.15.0.1,Test.QuickCheck.Features,Exitification transformation,0.015
+QuickCheck-2.15.0.1,Test.QuickCheck.Features,Float inwards,0.028
+QuickCheck-2.15.0.1,Test.QuickCheck.Features,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.98
+QuickCheck-2.15.0.1,Test.QuickCheck.Features,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.415
+QuickCheck-2.15.0.1,Test.QuickCheck.Features,Parser,1.654
+QuickCheck-2.15.0.1,Test.QuickCheck.Features,Renamer/typechecker,5.307
+QuickCheck-2.15.0.1,Test.QuickCheck.Features,Simplifier,63.077
+QuickCheck-2.15.0.1,Test.QuickCheck.Features,Specialise,1.98
+QuickCheck-2.15.0.1,Test.QuickCheck.Features,Worker Wrapper binds,0.147
+QuickCheck-2.15.0.1,Test.QuickCheck.Function,Called arity analysis,0.011
+QuickCheck-2.15.0.1,Test.QuickCheck.Function,CodeGen,277.501
+QuickCheck-2.15.0.1,Test.QuickCheck.Function,Common sub-expression,0.018
+QuickCheck-2.15.0.1,Test.QuickCheck.Function,Constructed Product Result analysis,0.861
+QuickCheck-2.15.0.1,Test.QuickCheck.Function,CorePrep,3.753
+QuickCheck-2.15.0.1,Test.QuickCheck.Function,CoreTidy,9.094
+QuickCheck-2.15.0.1,Test.QuickCheck.Function,CoreToStg,12.964
+QuickCheck-2.15.0.1,Test.QuickCheck.Function,Demand analysis,7.074
+QuickCheck-2.15.0.1,Test.QuickCheck.Function,Desugar,6.369
+QuickCheck-2.15.0.1,Test.QuickCheck.Function,Exitification transformation,0.015
+QuickCheck-2.15.0.1,Test.QuickCheck.Function,Float inwards,0.022
+QuickCheck-2.15.0.1,Test.QuickCheck.Function,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",9.388
+QuickCheck-2.15.0.1,Test.QuickCheck.Function,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",14.766
+QuickCheck-2.15.0.1,Test.QuickCheck.Function,Parser,11.57
+QuickCheck-2.15.0.1,Test.QuickCheck.Function,Renamer/typechecker,37.382
+QuickCheck-2.15.0.1,Test.QuickCheck.Function,Simplifier,206.532
+QuickCheck-2.15.0.1,Test.QuickCheck.Function,Specialise,2.025
+QuickCheck-2.15.0.1,Test.QuickCheck.Function,Worker Wrapper binds,0.78
+QuickCheck-2.15.0.1,Test.QuickCheck.Gen,Called arity analysis,0.01
+QuickCheck-2.15.0.1,Test.QuickCheck.Gen,CodeGen,183.523
+QuickCheck-2.15.0.1,Test.QuickCheck.Gen,Common sub-expression,0.014
+QuickCheck-2.15.0.1,Test.QuickCheck.Gen,Constructed Product Result analysis,0.889
+QuickCheck-2.15.0.1,Test.QuickCheck.Gen,CorePrep,3.742
+QuickCheck-2.15.0.1,Test.QuickCheck.Gen,CoreTidy,8.454
+QuickCheck-2.15.0.1,Test.QuickCheck.Gen,CoreToStg,24.593
+QuickCheck-2.15.0.1,Test.QuickCheck.Gen,Demand analysis,9.855
+QuickCheck-2.15.0.1,Test.QuickCheck.Gen,Desugar,2.805
+QuickCheck-2.15.0.1,Test.QuickCheck.Gen,Exitification transformation,0.013
+QuickCheck-2.15.0.1,Test.QuickCheck.Gen,Float inwards,0.019999999999999997
+QuickCheck-2.15.0.1,Test.QuickCheck.Gen,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",9.176
+QuickCheck-2.15.0.1,Test.QuickCheck.Gen,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",7.141
+QuickCheck-2.15.0.1,Test.QuickCheck.Gen,Parser,4.076
+QuickCheck-2.15.0.1,Test.QuickCheck.Gen,Renamer/typechecker,28.246
+QuickCheck-2.15.0.1,Test.QuickCheck.Gen,Simplifier,327.658
+QuickCheck-2.15.0.1,Test.QuickCheck.Gen,Specialise,1.368
+QuickCheck-2.15.0.1,Test.QuickCheck.Gen,Worker Wrapper binds,0.833
+QuickCheck-2.15.0.1,Test.QuickCheck.Gen.Unsafe,Called arity analysis,0.015
+QuickCheck-2.15.0.1,Test.QuickCheck.Gen.Unsafe,CodeGen,4.8260000000000005
+QuickCheck-2.15.0.1,Test.QuickCheck.Gen.Unsafe,Common sub-expression,0.01
+QuickCheck-2.15.0.1,Test.QuickCheck.Gen.Unsafe,Constructed Product Result analysis,0.038
+QuickCheck-2.15.0.1,Test.QuickCheck.Gen.Unsafe,CorePrep,0.158
+QuickCheck-2.15.0.1,Test.QuickCheck.Gen.Unsafe,CoreTidy,0.125
+QuickCheck-2.15.0.1,Test.QuickCheck.Gen.Unsafe,CoreToStg,0.309
+QuickCheck-2.15.0.1,Test.QuickCheck.Gen.Unsafe,Demand analysis,0.248
+QuickCheck-2.15.0.1,Test.QuickCheck.Gen.Unsafe,Desugar,0.228
+QuickCheck-2.15.0.1,Test.QuickCheck.Gen.Unsafe,Exitification transformation,0.011
+QuickCheck-2.15.0.1,Test.QuickCheck.Gen.Unsafe,Float inwards,0.025
+QuickCheck-2.15.0.1,Test.QuickCheck.Gen.Unsafe,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.135
+QuickCheck-2.15.0.1,Test.QuickCheck.Gen.Unsafe,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.115
+QuickCheck-2.15.0.1,Test.QuickCheck.Gen.Unsafe,Parser,1.35
+QuickCheck-2.15.0.1,Test.QuickCheck.Gen.Unsafe,Renamer/typechecker,1.771
+QuickCheck-2.15.0.1,Test.QuickCheck.Gen.Unsafe,Simplifier,1.865
+QuickCheck-2.15.0.1,Test.QuickCheck.Gen.Unsafe,Specialise,0.044
+QuickCheck-2.15.0.1,Test.QuickCheck.Gen.Unsafe,Worker Wrapper binds,0.051
+QuickCheck-2.15.0.1,Test.QuickCheck.Modifiers,Called arity analysis,0.02
+QuickCheck-2.15.0.1,Test.QuickCheck.Modifiers,CodeGen,523.719
+QuickCheck-2.15.0.1,Test.QuickCheck.Modifiers,Common sub-expression,0.016
+QuickCheck-2.15.0.1,Test.QuickCheck.Modifiers,Constructed Product Result analysis,1.573
+QuickCheck-2.15.0.1,Test.QuickCheck.Modifiers,CorePrep,16.697
+QuickCheck-2.15.0.1,Test.QuickCheck.Modifiers,CoreTidy,20.141
+QuickCheck-2.15.0.1,Test.QuickCheck.Modifiers,CoreToStg,38.567
+QuickCheck-2.15.0.1,Test.QuickCheck.Modifiers,Demand analysis,22.975
+QuickCheck-2.15.0.1,Test.QuickCheck.Modifiers,Desugar,6.954
+QuickCheck-2.15.0.1,Test.QuickCheck.Modifiers,Exitification transformation,0.015
+QuickCheck-2.15.0.1,Test.QuickCheck.Modifiers,Float inwards,0.025
+QuickCheck-2.15.0.1,Test.QuickCheck.Modifiers,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",21.533
+QuickCheck-2.15.0.1,Test.QuickCheck.Modifiers,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",19.276
+QuickCheck-2.15.0.1,Test.QuickCheck.Modifiers,Parser,4.645
+QuickCheck-2.15.0.1,Test.QuickCheck.Modifiers,Renamer/typechecker,136.899
+QuickCheck-2.15.0.1,Test.QuickCheck.Modifiers,Simplifier,584.842
+QuickCheck-2.15.0.1,Test.QuickCheck.Modifiers,Specialise,2.969
+QuickCheck-2.15.0.1,Test.QuickCheck.Modifiers,Worker Wrapper binds,1.01
+QuickCheck-2.15.0.1,Test.QuickCheck.Monadic,Called arity analysis,0.014
+QuickCheck-2.15.0.1,Test.QuickCheck.Monadic,CodeGen,80.307
+QuickCheck-2.15.0.1,Test.QuickCheck.Monadic,Common sub-expression,0.016
+QuickCheck-2.15.0.1,Test.QuickCheck.Monadic,Constructed Product Result analysis,0.252
+QuickCheck-2.15.0.1,Test.QuickCheck.Monadic,CorePrep,1.369
+QuickCheck-2.15.0.1,Test.QuickCheck.Monadic,CoreTidy,1.956
+QuickCheck-2.15.0.1,Test.QuickCheck.Monadic,CoreToStg,3.3209999999999997
+QuickCheck-2.15.0.1,Test.QuickCheck.Monadic,Demand analysis,2.416
+QuickCheck-2.15.0.1,Test.QuickCheck.Monadic,Desugar,0.854
+QuickCheck-2.15.0.1,Test.QuickCheck.Monadic,Exitification transformation,0.016
+QuickCheck-2.15.0.1,Test.QuickCheck.Monadic,Float inwards,0.027999999999999997
+QuickCheck-2.15.0.1,Test.QuickCheck.Monadic,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.091
+QuickCheck-2.15.0.1,Test.QuickCheck.Monadic,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",3.194
+QuickCheck-2.15.0.1,Test.QuickCheck.Monadic,Parser,2.149
+QuickCheck-2.15.0.1,Test.QuickCheck.Monadic,Renamer/typechecker,13.859
+QuickCheck-2.15.0.1,Test.QuickCheck.Monadic,Simplifier,58.689
+QuickCheck-2.15.0.1,Test.QuickCheck.Monadic,Specialise,0.563
+QuickCheck-2.15.0.1,Test.QuickCheck.Monadic,Worker Wrapper binds,0.221
+QuickCheck-2.15.0.1,Test.QuickCheck.Poly,Called arity analysis,0.018
+QuickCheck-2.15.0.1,Test.QuickCheck.Poly,CodeGen,37.751000000000005
+QuickCheck-2.15.0.1,Test.QuickCheck.Poly,Common sub-expression,0.01
+QuickCheck-2.15.0.1,Test.QuickCheck.Poly,Constructed Product Result analysis,0.136
+QuickCheck-2.15.0.1,Test.QuickCheck.Poly,CorePrep,2.665
+QuickCheck-2.15.0.1,Test.QuickCheck.Poly,CoreTidy,0.721
+QuickCheck-2.15.0.1,Test.QuickCheck.Poly,CoreToStg,1.585
+QuickCheck-2.15.0.1,Test.QuickCheck.Poly,Demand analysis,1.518
+QuickCheck-2.15.0.1,Test.QuickCheck.Poly,Desugar,0.686
+QuickCheck-2.15.0.1,Test.QuickCheck.Poly,Exitification transformation,0.01
+QuickCheck-2.15.0.1,Test.QuickCheck.Poly,Float inwards,0.020999999999999998
+QuickCheck-2.15.0.1,Test.QuickCheck.Poly,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.763
+QuickCheck-2.15.0.1,Test.QuickCheck.Poly,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.807
+QuickCheck-2.15.0.1,Test.QuickCheck.Poly,Parser,2.821
+QuickCheck-2.15.0.1,Test.QuickCheck.Poly,Renamer/typechecker,9.452
+QuickCheck-2.15.0.1,Test.QuickCheck.Poly,Simplifier,27.191
+QuickCheck-2.15.0.1,Test.QuickCheck.Poly,Specialise,0.182
+QuickCheck-2.15.0.1,Test.QuickCheck.Poly,Worker Wrapper binds,0.085
+QuickCheck-2.15.0.1,Test.QuickCheck.Property,Called arity analysis,0.014
+QuickCheck-2.15.0.1,Test.QuickCheck.Property,CodeGen,382.2
+QuickCheck-2.15.0.1,Test.QuickCheck.Property,Common sub-expression,0.016
+QuickCheck-2.15.0.1,Test.QuickCheck.Property,Constructed Product Result analysis,1.53
+QuickCheck-2.15.0.1,Test.QuickCheck.Property,CorePrep,5.659000000000001
+QuickCheck-2.15.0.1,Test.QuickCheck.Property,CoreTidy,16.649
+QuickCheck-2.15.0.1,Test.QuickCheck.Property,CoreToStg,44.135999999999996
+QuickCheck-2.15.0.1,Test.QuickCheck.Property,Demand analysis,15.229
+QuickCheck-2.15.0.1,Test.QuickCheck.Property,Desugar,15.006
+QuickCheck-2.15.0.1,Test.QuickCheck.Property,Exitification transformation,0.013
+QuickCheck-2.15.0.1,Test.QuickCheck.Property,Float inwards,0.023
+QuickCheck-2.15.0.1,Test.QuickCheck.Property,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",14.117
+QuickCheck-2.15.0.1,Test.QuickCheck.Property,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",14.031
+QuickCheck-2.15.0.1,Test.QuickCheck.Property,Parser,9.028
+QuickCheck-2.15.0.1,Test.QuickCheck.Property,Renamer/typechecker,34.392
+QuickCheck-2.15.0.1,Test.QuickCheck.Property,Simplifier,489.302
+QuickCheck-2.15.0.1,Test.QuickCheck.Property,Specialise,2.811
+QuickCheck-2.15.0.1,Test.QuickCheck.Property,Worker Wrapper binds,0.827
+QuickCheck-2.15.0.1,Test.QuickCheck.Random,Called arity analysis,0.015
+QuickCheck-2.15.0.1,Test.QuickCheck.Random,CodeGen,39.929
+QuickCheck-2.15.0.1,Test.QuickCheck.Random,Common sub-expression,0.01
+QuickCheck-2.15.0.1,Test.QuickCheck.Random,Constructed Product Result analysis,0.213
+QuickCheck-2.15.0.1,Test.QuickCheck.Random,CorePrep,0.923
+QuickCheck-2.15.0.1,Test.QuickCheck.Random,CoreTidy,0.818
+QuickCheck-2.15.0.1,Test.QuickCheck.Random,CoreToStg,4.359999999999999
+QuickCheck-2.15.0.1,Test.QuickCheck.Random,Demand analysis,2.164
+QuickCheck-2.15.0.1,Test.QuickCheck.Random,Desugar,0.715
+QuickCheck-2.15.0.1,Test.QuickCheck.Random,Exitification transformation,0.012
+QuickCheck-2.15.0.1,Test.QuickCheck.Random,Float inwards,0.019
+QuickCheck-2.15.0.1,Test.QuickCheck.Random,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.055
+QuickCheck-2.15.0.1,Test.QuickCheck.Random,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.068
+QuickCheck-2.15.0.1,Test.QuickCheck.Random,Parser,2.272
+QuickCheck-2.15.0.1,Test.QuickCheck.Random,Renamer/typechecker,23.873
+QuickCheck-2.15.0.1,Test.QuickCheck.Random,Simplifier,64.901
+QuickCheck-2.15.0.1,Test.QuickCheck.Random,Specialise,0.288
+QuickCheck-2.15.0.1,Test.QuickCheck.Random,Worker Wrapper binds,0.176
+QuickCheck-2.15.0.1,Test.QuickCheck.State,Called arity analysis,0.01
+QuickCheck-2.15.0.1,Test.QuickCheck.State,CodeGen,34.566
+QuickCheck-2.15.0.1,Test.QuickCheck.State,Common sub-expression,0.018
+QuickCheck-2.15.0.1,Test.QuickCheck.State,Constructed Product Result analysis,0.15
+QuickCheck-2.15.0.1,Test.QuickCheck.State,CorePrep,0.6779999999999999
+QuickCheck-2.15.0.1,Test.QuickCheck.State,CoreTidy,0.785
+QuickCheck-2.15.0.1,Test.QuickCheck.State,CoreToStg,1.597
+QuickCheck-2.15.0.1,Test.QuickCheck.State,Demand analysis,1.086
+QuickCheck-2.15.0.1,Test.QuickCheck.State,Desugar,0.296
+QuickCheck-2.15.0.1,Test.QuickCheck.State,Exitification transformation,1.569
+QuickCheck-2.15.0.1,Test.QuickCheck.State,Float inwards,0.024
+QuickCheck-2.15.0.1,Test.QuickCheck.State,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.766
+QuickCheck-2.15.0.1,Test.QuickCheck.State,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.76
+QuickCheck-2.15.0.1,Test.QuickCheck.State,Parser,1.327
+QuickCheck-2.15.0.1,Test.QuickCheck.State,Renamer/typechecker,2.627
+QuickCheck-2.15.0.1,Test.QuickCheck.State,Simplifier,12.488999999999999
+QuickCheck-2.15.0.1,Test.QuickCheck.State,Specialise,0.18
+QuickCheck-2.15.0.1,Test.QuickCheck.State,Worker Wrapper binds,0.057
+QuickCheck-2.15.0.1,Test.QuickCheck.Test,Called arity analysis,0.01
+QuickCheck-2.15.0.1,Test.QuickCheck.Test,CodeGen,480.127
+QuickCheck-2.15.0.1,Test.QuickCheck.Test,Common sub-expression,0.023
+QuickCheck-2.15.0.1,Test.QuickCheck.Test,Constructed Product Result analysis,2.807
+QuickCheck-2.15.0.1,Test.QuickCheck.Test,CorePrep,7.101
+QuickCheck-2.15.0.1,Test.QuickCheck.Test,CoreTidy,9.321
+QuickCheck-2.15.0.1,Test.QuickCheck.Test,CoreToStg,51.458
+QuickCheck-2.15.0.1,Test.QuickCheck.Test,Demand analysis,26.253
+QuickCheck-2.15.0.1,Test.QuickCheck.Test,Desugar,14.874
+QuickCheck-2.15.0.1,Test.QuickCheck.Test,Exitification transformation,0.014
+QuickCheck-2.15.0.1,Test.QuickCheck.Test,Float inwards,0.031
+QuickCheck-2.15.0.1,Test.QuickCheck.Test,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",35.146
+QuickCheck-2.15.0.1,Test.QuickCheck.Test,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",27.624
+QuickCheck-2.15.0.1,Test.QuickCheck.Test,Parser,8.222
+QuickCheck-2.15.0.1,Test.QuickCheck.Test,Renamer/typechecker,38.565
+QuickCheck-2.15.0.1,Test.QuickCheck.Test,Simplifier,742.0029999999999
+QuickCheck-2.15.0.1,Test.QuickCheck.Test,Specialise,11.973
+QuickCheck-2.15.0.1,Test.QuickCheck.Test,Worker Wrapper binds,1.048
+QuickCheck-2.15.0.1,Test.QuickCheck.Text,Called arity analysis,0.011
+QuickCheck-2.15.0.1,Test.QuickCheck.Text,CodeGen,110.147
+QuickCheck-2.15.0.1,Test.QuickCheck.Text,Common sub-expression,0.011
+QuickCheck-2.15.0.1,Test.QuickCheck.Text,Constructed Product Result analysis,0.366
+QuickCheck-2.15.0.1,Test.QuickCheck.Text,CorePrep,1.6219999999999999
+QuickCheck-2.15.0.1,Test.QuickCheck.Text,CoreTidy,1.875
+QuickCheck-2.15.0.1,Test.QuickCheck.Text,CoreToStg,5.111
+QuickCheck-2.15.0.1,Test.QuickCheck.Text,Demand analysis,2.6310000000000002
+QuickCheck-2.15.0.1,Test.QuickCheck.Text,Desugar,1.513
+QuickCheck-2.15.0.1,Test.QuickCheck.Text,Exitification transformation,0.016
+QuickCheck-2.15.0.1,Test.QuickCheck.Text,Float inwards,0.025
+QuickCheck-2.15.0.1,Test.QuickCheck.Text,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",3.609
+QuickCheck-2.15.0.1,Test.QuickCheck.Text,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",3.377
+QuickCheck-2.15.0.1,Test.QuickCheck.Text,Parser,4.687
+QuickCheck-2.15.0.1,Test.QuickCheck.Text,Renamer/typechecker,13.059
+QuickCheck-2.15.0.1,Test.QuickCheck.Text,Simplifier,123.273
+QuickCheck-2.15.0.1,Test.QuickCheck.Text,Specialise,0.72
+QuickCheck-2.15.0.1,Test.QuickCheck.Text,Worker Wrapper binds,0.235

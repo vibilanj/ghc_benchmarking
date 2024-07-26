@@ -1,19 +1,19 @@
 package,module,phase,time
-deepseq-1.5.0.0,Control.DeepSeq,Called arity analysis,0.021
-deepseq-1.5.0.0,Control.DeepSeq,CodeGen,342.707
-deepseq-1.5.0.0,Control.DeepSeq,Common sub-expression,0.026
-deepseq-1.5.0.0,Control.DeepSeq,Constructed Product Result analysis,0.987
-deepseq-1.5.0.0,Control.DeepSeq,CorePrep,5.724
-deepseq-1.5.0.0,Control.DeepSeq,CoreTidy,8.027
-deepseq-1.5.0.0,Control.DeepSeq,CoreToStg,18.892
-deepseq-1.5.0.0,Control.DeepSeq,Demand analysis,12.456
-deepseq-1.5.0.0,Control.DeepSeq,Desugar,10.633
-deepseq-1.5.0.0,Control.DeepSeq,Exitification transformation,0.021
-deepseq-1.5.0.0,Control.DeepSeq,Float inwards,0.051000000000000004
-deepseq-1.5.0.0,Control.DeepSeq,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",15.005
-deepseq-1.5.0.0,Control.DeepSeq,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",9.453
-deepseq-1.5.0.0,Control.DeepSeq,Parser,41.501
-deepseq-1.5.0.0,Control.DeepSeq,Renamer/typechecker,221.884
-deepseq-1.5.0.0,Control.DeepSeq,Simplifier,375.76099999999997
-deepseq-1.5.0.0,Control.DeepSeq,Specialise,1.674
-deepseq-1.5.0.0,Control.DeepSeq,Worker Wrapper binds,0.931
+deepseq-1.5.0.0,Control.DeepSeq,Called arity analysis,0.012
+deepseq-1.5.0.0,Control.DeepSeq,CodeGen,181.39600000000002
+deepseq-1.5.0.0,Control.DeepSeq,Common sub-expression,0.014
+deepseq-1.5.0.0,Control.DeepSeq,Constructed Product Result analysis,2.238
+deepseq-1.5.0.0,Control.DeepSeq,CorePrep,4.548
+deepseq-1.5.0.0,Control.DeepSeq,CoreTidy,4.055
+deepseq-1.5.0.0,Control.DeepSeq,CoreToStg,16.883000000000003
+deepseq-1.5.0.0,Control.DeepSeq,Demand analysis,6.726
+deepseq-1.5.0.0,Control.DeepSeq,Desugar,7.857
+deepseq-1.5.0.0,Control.DeepSeq,Exitification transformation,0.014
+deepseq-1.5.0.0,Control.DeepSeq,Float inwards,0.023
+deepseq-1.5.0.0,Control.DeepSeq,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",8.085
+deepseq-1.5.0.0,Control.DeepSeq,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",5.092
+deepseq-1.5.0.0,Control.DeepSeq,Parser,25.77
+deepseq-1.5.0.0,Control.DeepSeq,Renamer/typechecker,123.633
+deepseq-1.5.0.0,Control.DeepSeq,Simplifier,205.306
+deepseq-1.5.0.0,Control.DeepSeq,Specialise,1.13
+deepseq-1.5.0.0,Control.DeepSeq,Worker Wrapper binds,0.49

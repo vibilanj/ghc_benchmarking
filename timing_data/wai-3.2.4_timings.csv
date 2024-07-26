@@ -1,0 +1,37 @@
+package,module,phase,time
+wai-3.2.4,Network.Wai,Called arity analysis,0.009
+wai-3.2.4,Network.Wai,CodeGen,36.848
+wai-3.2.4,Network.Wai,Common sub-expression,0.014
+wai-3.2.4,Network.Wai,Constructed Product Result analysis,0.275
+wai-3.2.4,Network.Wai,CorePrep,0.722
+wai-3.2.4,Network.Wai,CoreTidy,0.71
+wai-3.2.4,Network.Wai,CoreToStg,2.551
+wai-3.2.4,Network.Wai,Demand analysis,2.092
+wai-3.2.4,Network.Wai,Desugar,2.579
+wai-3.2.4,Network.Wai,Exitification transformation,0.018
+wai-3.2.4,Network.Wai,Float inwards,0.024
+wai-3.2.4,Network.Wai,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.645
+wai-3.2.4,Network.Wai,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.807
+wai-3.2.4,Network.Wai,Parser,2.95
+wai-3.2.4,Network.Wai,Renamer/typechecker,16.58
+wai-3.2.4,Network.Wai,Simplifier,92.411
+wai-3.2.4,Network.Wai,Specialise,0.33
+wai-3.2.4,Network.Wai,Worker Wrapper binds,0.16
+wai-3.2.4,Network.Wai.Internal,Called arity analysis,0.019
+wai-3.2.4,Network.Wai.Internal,CodeGen,64.405
+wai-3.2.4,Network.Wai.Internal,Common sub-expression,0.014
+wai-3.2.4,Network.Wai.Internal,Constructed Product Result analysis,0.143
+wai-3.2.4,Network.Wai.Internal,CorePrep,2.072
+wai-3.2.4,Network.Wai.Internal,CoreTidy,1.94
+wai-3.2.4,Network.Wai.Internal,CoreToStg,5.443
+wai-3.2.4,Network.Wai.Internal,Demand analysis,2.4979999999999998
+wai-3.2.4,Network.Wai.Internal,Desugar,7.001
+wai-3.2.4,Network.Wai.Internal,Exitification transformation,0.014
+wai-3.2.4,Network.Wai.Internal,Float inwards,0.028999999999999998
+wai-3.2.4,Network.Wai.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.408
+wai-3.2.4,Network.Wai.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.736
+wai-3.2.4,Network.Wai.Internal,Parser,0.963
+wai-3.2.4,Network.Wai.Internal,Renamer/typechecker,93.645
+wai-3.2.4,Network.Wai.Internal,Simplifier,46.161
+wai-3.2.4,Network.Wai.Internal,Specialise,0.263
+wai-3.2.4,Network.Wai.Internal,Worker Wrapper binds,0.074

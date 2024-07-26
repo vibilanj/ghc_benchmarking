@@ -1,0 +1,91 @@
+package,module,phase,time
+safe-0.3.21,Safe,Called arity analysis,0.01
+safe-0.3.21,Safe,CodeGen,166.303
+safe-0.3.21,Safe,Common sub-expression,0.015
+safe-0.3.21,Safe,Constructed Product Result analysis,0.393
+safe-0.3.21,Safe,CorePrep,2.529
+safe-0.3.21,Safe,CoreTidy,3.488
+safe-0.3.21,Safe,CoreToStg,5.454000000000001
+safe-0.3.21,Safe,Demand analysis,4.024
+safe-0.3.21,Safe,Desugar,2.836
+safe-0.3.21,Safe,Exitification transformation,0.012
+safe-0.3.21,Safe,Float inwards,0.02
+safe-0.3.21,Safe,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",5.711
+safe-0.3.21,Safe,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",3.935
+safe-0.3.21,Safe,Parser,4.798
+safe-0.3.21,Safe,Renamer/typechecker,31.688
+safe-0.3.21,Safe,Simplifier,135.982
+safe-0.3.21,Safe,Specialise,33.857
+safe-0.3.21,Safe,Worker Wrapper binds,0.402
+safe-0.3.21,Safe.Exact,Called arity analysis,0.009
+safe-0.3.21,Safe.Exact,CodeGen,110.269
+safe-0.3.21,Safe.Exact,Common sub-expression,0.011
+safe-0.3.21,Safe.Exact,Constructed Product Result analysis,0.419
+safe-0.3.21,Safe.Exact,CorePrep,1.734
+safe-0.3.21,Safe.Exact,CoreTidy,2.439
+safe-0.3.21,Safe.Exact,CoreToStg,6.952
+safe-0.3.21,Safe.Exact,Demand analysis,2.807
+safe-0.3.21,Safe.Exact,Desugar,0.841
+safe-0.3.21,Safe.Exact,Exitification transformation,0.013
+safe-0.3.21,Safe.Exact,Float inwards,0.019
+safe-0.3.21,Safe.Exact,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",6.578
+safe-0.3.21,Safe.Exact,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",3.182
+safe-0.3.21,Safe.Exact,Parser,2.744
+safe-0.3.21,Safe.Exact,Renamer/typechecker,19.236
+safe-0.3.21,Safe.Exact,Simplifier,103.432
+safe-0.3.21,Safe.Exact,Specialise,0.773
+safe-0.3.21,Safe.Exact,Worker Wrapper binds,1.444
+safe-0.3.21,Safe.Foldable,Called arity analysis,0.009
+safe-0.3.21,Safe.Foldable,CodeGen,84.162
+safe-0.3.21,Safe.Foldable,Common sub-expression,0.01
+safe-0.3.21,Safe.Foldable,Constructed Product Result analysis,0.146
+safe-0.3.21,Safe.Foldable,CorePrep,0.654
+safe-0.3.21,Safe.Foldable,CoreTidy,1.183
+safe-0.3.21,Safe.Foldable,CoreToStg,2.78
+safe-0.3.21,Safe.Foldable,Demand analysis,1.647
+safe-0.3.21,Safe.Foldable,Desugar,0.435
+safe-0.3.21,Safe.Foldable,Exitification transformation,0.012
+safe-0.3.21,Safe.Foldable,Float inwards,0.017
+safe-0.3.21,Safe.Foldable,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.575
+safe-0.3.21,Safe.Foldable,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.04
+safe-0.3.21,Safe.Foldable,Parser,2.304
+safe-0.3.21,Safe.Foldable,Renamer/typechecker,14.057
+safe-0.3.21,Safe.Foldable,Simplifier,35.61
+safe-0.3.21,Safe.Foldable,Specialise,0.657
+safe-0.3.21,Safe.Foldable,Worker Wrapper binds,0.296
+safe-0.3.21,Safe.Partial,Called arity analysis,0.011
+safe-0.3.21,Safe.Partial,CodeGen,0.9359999999999999
+safe-0.3.21,Safe.Partial,Common sub-expression,0.009
+safe-0.3.21,Safe.Partial,Constructed Product Result analysis,0.015
+safe-0.3.21,Safe.Partial,CorePrep,1.283
+safe-0.3.21,Safe.Partial,CoreTidy,0.046
+safe-0.3.21,Safe.Partial,CoreToStg,0.08399999999999999
+safe-0.3.21,Safe.Partial,Demand analysis,0.062
+safe-0.3.21,Safe.Partial,Desugar,0.124
+safe-0.3.21,Safe.Partial,Exitification transformation,0.009
+safe-0.3.21,Safe.Partial,Float inwards,0.023
+safe-0.3.21,Safe.Partial,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.059
+safe-0.3.21,Safe.Partial,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.035
+safe-0.3.21,Safe.Partial,Parser,0.761
+safe-0.3.21,Safe.Partial,Renamer/typechecker,29.679
+safe-0.3.21,Safe.Partial,Simplifier,0.374
+safe-0.3.21,Safe.Partial,Specialise,0.017
+safe-0.3.21,Safe.Partial,Worker Wrapper binds,0.014
+safe-0.3.21,Safe.Util,Called arity analysis,0.01
+safe-0.3.21,Safe.Util,CodeGen,16.544
+safe-0.3.21,Safe.Util,Common sub-expression,0.009
+safe-0.3.21,Safe.Util,Constructed Product Result analysis,0.055
+safe-0.3.21,Safe.Util,CorePrep,0.251
+safe-0.3.21,Safe.Util,CoreTidy,0.255
+safe-0.3.21,Safe.Util,CoreToStg,0.608
+safe-0.3.21,Safe.Util,Demand analysis,0.29400000000000004
+safe-0.3.21,Safe.Util,Desugar,0.347
+safe-0.3.21,Safe.Util,Exitification transformation,0.01
+safe-0.3.21,Safe.Util,Float inwards,0.018000000000000002
+safe-0.3.21,Safe.Util,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.52
+safe-0.3.21,Safe.Util,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.357
+safe-0.3.21,Safe.Util,Parser,1.226
+safe-0.3.21,Safe.Util,Renamer/typechecker,8.62
+safe-0.3.21,Safe.Util,Simplifier,15.132
+safe-0.3.21,Safe.Util,Specialise,0.084
+safe-0.3.21,Safe.Util,Worker Wrapper binds,0.058

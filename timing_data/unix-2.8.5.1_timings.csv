@@ -1,0 +1,954 @@
+package,module,phase,time
+unix-2.8.5.1,System.Posix,Called arity analysis,0.009
+unix-2.8.5.1,System.Posix,CodeGen,0.739
+unix-2.8.5.1,System.Posix,Common sub-expression,0.018
+unix-2.8.5.1,System.Posix,Constructed Product Result analysis,0.02
+unix-2.8.5.1,System.Posix,CorePrep,0.059
+unix-2.8.5.1,System.Posix,CoreTidy,0.067
+unix-2.8.5.1,System.Posix,CoreToStg,0.08
+unix-2.8.5.1,System.Posix,Demand analysis,0.065
+unix-2.8.5.1,System.Posix,Desugar,0.156
+unix-2.8.5.1,System.Posix,Exitification transformation,0.014
+unix-2.8.5.1,System.Posix,Float inwards,0.025
+unix-2.8.5.1,System.Posix,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.037
+unix-2.8.5.1,System.Posix,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.033
+unix-2.8.5.1,System.Posix,Parser,1.807
+unix-2.8.5.1,System.Posix,Renamer/typechecker,2.019
+unix-2.8.5.1,System.Posix,Simplifier,0.436
+unix-2.8.5.1,System.Posix,Specialise,0.019
+unix-2.8.5.1,System.Posix,Worker Wrapper binds,0.022
+unix-2.8.5.1,System.Posix.ByteString,Called arity analysis,0.013
+unix-2.8.5.1,System.Posix.ByteString,CodeGen,0.906
+unix-2.8.5.1,System.Posix.ByteString,Common sub-expression,0.009
+unix-2.8.5.1,System.Posix.ByteString,Constructed Product Result analysis,0.013
+unix-2.8.5.1,System.Posix.ByteString,CorePrep,0.065
+unix-2.8.5.1,System.Posix.ByteString,CoreTidy,0.054
+unix-2.8.5.1,System.Posix.ByteString,CoreToStg,0.097
+unix-2.8.5.1,System.Posix.ByteString,Demand analysis,0.05
+unix-2.8.5.1,System.Posix.ByteString,Desugar,0.286
+unix-2.8.5.1,System.Posix.ByteString,Exitification transformation,0.01
+unix-2.8.5.1,System.Posix.ByteString,Float inwards,0.020999999999999998
+unix-2.8.5.1,System.Posix.ByteString,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.037
+unix-2.8.5.1,System.Posix.ByteString,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.027
+unix-2.8.5.1,System.Posix.ByteString,Parser,1.056
+unix-2.8.5.1,System.Posix.ByteString,Renamer/typechecker,2.577
+unix-2.8.5.1,System.Posix.ByteString,Simplifier,0.394
+unix-2.8.5.1,System.Posix.ByteString,Specialise,0.019
+unix-2.8.5.1,System.Posix.ByteString,Worker Wrapper binds,0.012
+unix-2.8.5.1,System.Posix.ByteString.FilePath,Called arity analysis,0.02
+unix-2.8.5.1,System.Posix.ByteString.FilePath,CodeGen,50.748
+unix-2.8.5.1,System.Posix.ByteString.FilePath,Common sub-expression,0.013
+unix-2.8.5.1,System.Posix.ByteString.FilePath,Constructed Product Result analysis,0.263
+unix-2.8.5.1,System.Posix.ByteString.FilePath,CorePrep,1.514
+unix-2.8.5.1,System.Posix.ByteString.FilePath,CoreTidy,1.06
+unix-2.8.5.1,System.Posix.ByteString.FilePath,CoreToStg,2.913
+unix-2.8.5.1,System.Posix.ByteString.FilePath,Demand analysis,40.056999999999995
+unix-2.8.5.1,System.Posix.ByteString.FilePath,Desugar,0.499
+unix-2.8.5.1,System.Posix.ByteString.FilePath,Exitification transformation,0.024
+unix-2.8.5.1,System.Posix.ByteString.FilePath,Float inwards,0.025
+unix-2.8.5.1,System.Posix.ByteString.FilePath,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.261
+unix-2.8.5.1,System.Posix.ByteString.FilePath,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.349
+unix-2.8.5.1,System.Posix.ByteString.FilePath,Parser,1.835
+unix-2.8.5.1,System.Posix.ByteString.FilePath,Renamer/typechecker,65.804
+unix-2.8.5.1,System.Posix.ByteString.FilePath,Simplifier,66.752
+unix-2.8.5.1,System.Posix.ByteString.FilePath,Specialise,0.745
+unix-2.8.5.1,System.Posix.ByteString.FilePath,Worker Wrapper binds,0.178
+unix-2.8.5.1,System.Posix.Directory,Called arity analysis,0.011
+unix-2.8.5.1,System.Posix.Directory,CodeGen,26.145
+unix-2.8.5.1,System.Posix.Directory,Common sub-expression,0.012
+unix-2.8.5.1,System.Posix.Directory,Constructed Product Result analysis,0.139
+unix-2.8.5.1,System.Posix.Directory,CorePrep,0.45199999999999996
+unix-2.8.5.1,System.Posix.Directory,CoreTidy,1.035
+unix-2.8.5.1,System.Posix.Directory,CoreToStg,1.891
+unix-2.8.5.1,System.Posix.Directory,Demand analysis,1.021
+unix-2.8.5.1,System.Posix.Directory,Desugar,0.481
+unix-2.8.5.1,System.Posix.Directory,Exitification transformation,0.019
+unix-2.8.5.1,System.Posix.Directory,Float inwards,0.019999999999999997
+unix-2.8.5.1,System.Posix.Directory,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.445
+unix-2.8.5.1,System.Posix.Directory,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.807
+unix-2.8.5.1,System.Posix.Directory,Parser,2.084
+unix-2.8.5.1,System.Posix.Directory,Renamer/typechecker,4.282
+unix-2.8.5.1,System.Posix.Directory,Simplifier,26.905
+unix-2.8.5.1,System.Posix.Directory,Specialise,0.283
+unix-2.8.5.1,System.Posix.Directory,Worker Wrapper binds,0.058
+unix-2.8.5.1,System.Posix.Directory.ByteString,Called arity analysis,0.013
+unix-2.8.5.1,System.Posix.Directory.ByteString,CodeGen,23.895
+unix-2.8.5.1,System.Posix.Directory.ByteString,Common sub-expression,0.012
+unix-2.8.5.1,System.Posix.Directory.ByteString,Constructed Product Result analysis,0.129
+unix-2.8.5.1,System.Posix.Directory.ByteString,CorePrep,0.492
+unix-2.8.5.1,System.Posix.Directory.ByteString,CoreTidy,0.523
+unix-2.8.5.1,System.Posix.Directory.ByteString,CoreToStg,1.412
+unix-2.8.5.1,System.Posix.Directory.ByteString,Demand analysis,0.732
+unix-2.8.5.1,System.Posix.Directory.ByteString,Desugar,0.339
+unix-2.8.5.1,System.Posix.Directory.ByteString,Exitification transformation,0.015
+unix-2.8.5.1,System.Posix.Directory.ByteString,Float inwards,0.026
+unix-2.8.5.1,System.Posix.Directory.ByteString,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.217
+unix-2.8.5.1,System.Posix.Directory.ByteString,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.792
+unix-2.8.5.1,System.Posix.Directory.ByteString,Parser,1.561
+unix-2.8.5.1,System.Posix.Directory.ByteString,Renamer/typechecker,4.913
+unix-2.8.5.1,System.Posix.Directory.ByteString,Simplifier,29.491
+unix-2.8.5.1,System.Posix.Directory.ByteString,Specialise,0.346
+unix-2.8.5.1,System.Posix.Directory.ByteString,Worker Wrapper binds,0.055
+unix-2.8.5.1,System.Posix.Directory.Common,Called arity analysis,0.014
+unix-2.8.5.1,System.Posix.Directory.Common,CodeGen,17.569
+unix-2.8.5.1,System.Posix.Directory.Common,Common sub-expression,0.013
+unix-2.8.5.1,System.Posix.Directory.Common,Constructed Product Result analysis,0.075
+unix-2.8.5.1,System.Posix.Directory.Common,CorePrep,0.41400000000000003
+unix-2.8.5.1,System.Posix.Directory.Common,CoreTidy,0.425
+unix-2.8.5.1,System.Posix.Directory.Common,CoreToStg,1.0430000000000001
+unix-2.8.5.1,System.Posix.Directory.Common,Demand analysis,0.46699999999999997
+unix-2.8.5.1,System.Posix.Directory.Common,Desugar,0.276
+unix-2.8.5.1,System.Posix.Directory.Common,Exitification transformation,0.014
+unix-2.8.5.1,System.Posix.Directory.Common,Float inwards,0.028999999999999998
+unix-2.8.5.1,System.Posix.Directory.Common,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.461
+unix-2.8.5.1,System.Posix.Directory.Common,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.42
+unix-2.8.5.1,System.Posix.Directory.Common,Parser,1.006
+unix-2.8.5.1,System.Posix.Directory.Common,Renamer/typechecker,6.328
+unix-2.8.5.1,System.Posix.Directory.Common,Simplifier,13.982
+unix-2.8.5.1,System.Posix.Directory.Common,Specialise,0.102
+unix-2.8.5.1,System.Posix.Directory.Common,Worker Wrapper binds,0.062
+unix-2.8.5.1,System.Posix.Directory.Fd,Called arity analysis,0.012
+unix-2.8.5.1,System.Posix.Directory.Fd,CodeGen,1.376
+unix-2.8.5.1,System.Posix.Directory.Fd,Common sub-expression,0.014
+unix-2.8.5.1,System.Posix.Directory.Fd,Constructed Product Result analysis,0.016
+unix-2.8.5.1,System.Posix.Directory.Fd,CorePrep,0.067
+unix-2.8.5.1,System.Posix.Directory.Fd,CoreTidy,0.05
+unix-2.8.5.1,System.Posix.Directory.Fd,CoreToStg,0.09
+unix-2.8.5.1,System.Posix.Directory.Fd,Demand analysis,0.05600000000000001
+unix-2.8.5.1,System.Posix.Directory.Fd,Desugar,0.051
+unix-2.8.5.1,System.Posix.Directory.Fd,Exitification transformation,0.014
+unix-2.8.5.1,System.Posix.Directory.Fd,Float inwards,0.025
+unix-2.8.5.1,System.Posix.Directory.Fd,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.043
+unix-2.8.5.1,System.Posix.Directory.Fd,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.035
+unix-2.8.5.1,System.Posix.Directory.Fd,Parser,0.311
+unix-2.8.5.1,System.Posix.Directory.Fd,Renamer/typechecker,0.464
+unix-2.8.5.1,System.Posix.Directory.Fd,Simplifier,0.367
+unix-2.8.5.1,System.Posix.Directory.Fd,Specialise,0.021
+unix-2.8.5.1,System.Posix.Directory.Fd,Worker Wrapper binds,0.016
+unix-2.8.5.1,System.Posix.Directory.Internals,Called arity analysis,0.018
+unix-2.8.5.1,System.Posix.Directory.Internals,CodeGen,0.804
+unix-2.8.5.1,System.Posix.Directory.Internals,Common sub-expression,0.013
+unix-2.8.5.1,System.Posix.Directory.Internals,Constructed Product Result analysis,0.028
+unix-2.8.5.1,System.Posix.Directory.Internals,CorePrep,0.067
+unix-2.8.5.1,System.Posix.Directory.Internals,CoreTidy,0.051
+unix-2.8.5.1,System.Posix.Directory.Internals,CoreToStg,0.10300000000000001
+unix-2.8.5.1,System.Posix.Directory.Internals,Demand analysis,0.099
+unix-2.8.5.1,System.Posix.Directory.Internals,Desugar,0.051
+unix-2.8.5.1,System.Posix.Directory.Internals,Exitification transformation,0.013
+unix-2.8.5.1,System.Posix.Directory.Internals,Float inwards,0.028
+unix-2.8.5.1,System.Posix.Directory.Internals,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.049
+unix-2.8.5.1,System.Posix.Directory.Internals,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.029
+unix-2.8.5.1,System.Posix.Directory.Internals,Parser,0.189
+unix-2.8.5.1,System.Posix.Directory.Internals,Renamer/typechecker,0.375
+unix-2.8.5.1,System.Posix.Directory.Internals,Simplifier,0.429
+unix-2.8.5.1,System.Posix.Directory.Internals,Specialise,0.022
+unix-2.8.5.1,System.Posix.Directory.Internals,Worker Wrapper binds,0.014
+unix-2.8.5.1,System.Posix.Directory.PosixPath,Called arity analysis,0.017
+unix-2.8.5.1,System.Posix.Directory.PosixPath,CodeGen,24.208
+unix-2.8.5.1,System.Posix.Directory.PosixPath,Common sub-expression,0.011
+unix-2.8.5.1,System.Posix.Directory.PosixPath,Constructed Product Result analysis,0.213
+unix-2.8.5.1,System.Posix.Directory.PosixPath,CorePrep,0.502
+unix-2.8.5.1,System.Posix.Directory.PosixPath,CoreTidy,0.503
+unix-2.8.5.1,System.Posix.Directory.PosixPath,CoreToStg,1.303
+unix-2.8.5.1,System.Posix.Directory.PosixPath,Demand analysis,0.8440000000000001
+unix-2.8.5.1,System.Posix.Directory.PosixPath,Desugar,0.575
+unix-2.8.5.1,System.Posix.Directory.PosixPath,Exitification transformation,0.013
+unix-2.8.5.1,System.Posix.Directory.PosixPath,Float inwards,0.028999999999999998
+unix-2.8.5.1,System.Posix.Directory.PosixPath,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.961
+unix-2.8.5.1,System.Posix.Directory.PosixPath,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.867
+unix-2.8.5.1,System.Posix.Directory.PosixPath,Parser,1.189
+unix-2.8.5.1,System.Posix.Directory.PosixPath,Renamer/typechecker,3.269
+unix-2.8.5.1,System.Posix.Directory.PosixPath,Simplifier,24.359
+unix-2.8.5.1,System.Posix.Directory.PosixPath,Specialise,0.19
+unix-2.8.5.1,System.Posix.Directory.PosixPath,Worker Wrapper binds,0.092
+unix-2.8.5.1,System.Posix.DynamicLinker,Called arity analysis,0.016
+unix-2.8.5.1,System.Posix.DynamicLinker,CodeGen,8.734
+unix-2.8.5.1,System.Posix.DynamicLinker,Common sub-expression,0.011
+unix-2.8.5.1,System.Posix.DynamicLinker,Constructed Product Result analysis,0.063
+unix-2.8.5.1,System.Posix.DynamicLinker,CorePrep,0.20400000000000001
+unix-2.8.5.1,System.Posix.DynamicLinker,CoreTidy,0.217
+unix-2.8.5.1,System.Posix.DynamicLinker,CoreToStg,0.509
+unix-2.8.5.1,System.Posix.DynamicLinker,Demand analysis,0.33199999999999996
+unix-2.8.5.1,System.Posix.DynamicLinker,Desugar,0.117
+unix-2.8.5.1,System.Posix.DynamicLinker,Exitification transformation,0.014
+unix-2.8.5.1,System.Posix.DynamicLinker,Float inwards,0.031
+unix-2.8.5.1,System.Posix.DynamicLinker,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.306
+unix-2.8.5.1,System.Posix.DynamicLinker,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.252
+unix-2.8.5.1,System.Posix.DynamicLinker,Parser,1.163
+unix-2.8.5.1,System.Posix.DynamicLinker,Renamer/typechecker,2.818
+unix-2.8.5.1,System.Posix.DynamicLinker,Simplifier,6.016
+unix-2.8.5.1,System.Posix.DynamicLinker,Specialise,0.064
+unix-2.8.5.1,System.Posix.DynamicLinker,Worker Wrapper binds,0.071
+unix-2.8.5.1,System.Posix.DynamicLinker.ByteString,Called arity analysis,0.012
+unix-2.8.5.1,System.Posix.DynamicLinker.ByteString,CodeGen,7.346
+unix-2.8.5.1,System.Posix.DynamicLinker.ByteString,Common sub-expression,0.014
+unix-2.8.5.1,System.Posix.DynamicLinker.ByteString,Constructed Product Result analysis,0.052
+unix-2.8.5.1,System.Posix.DynamicLinker.ByteString,CorePrep,0.441
+unix-2.8.5.1,System.Posix.DynamicLinker.ByteString,CoreTidy,0.191
+unix-2.8.5.1,System.Posix.DynamicLinker.ByteString,CoreToStg,0.67
+unix-2.8.5.1,System.Posix.DynamicLinker.ByteString,Demand analysis,1.049
+unix-2.8.5.1,System.Posix.DynamicLinker.ByteString,Desugar,0.164
+unix-2.8.5.1,System.Posix.DynamicLinker.ByteString,Exitification transformation,0.021
+unix-2.8.5.1,System.Posix.DynamicLinker.ByteString,Float inwards,0.024
+unix-2.8.5.1,System.Posix.DynamicLinker.ByteString,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.256
+unix-2.8.5.1,System.Posix.DynamicLinker.ByteString,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.291
+unix-2.8.5.1,System.Posix.DynamicLinker.ByteString,Parser,0.536
+unix-2.8.5.1,System.Posix.DynamicLinker.ByteString,Renamer/typechecker,2.1
+unix-2.8.5.1,System.Posix.DynamicLinker.ByteString,Simplifier,5.0409999999999995
+unix-2.8.5.1,System.Posix.DynamicLinker.ByteString,Specialise,0.053
+unix-2.8.5.1,System.Posix.DynamicLinker.ByteString,Worker Wrapper binds,0.053
+unix-2.8.5.1,System.Posix.DynamicLinker.Common,Called arity analysis,0.015
+unix-2.8.5.1,System.Posix.DynamicLinker.Common,CodeGen,20.858
+unix-2.8.5.1,System.Posix.DynamicLinker.Common,Common sub-expression,0.014
+unix-2.8.5.1,System.Posix.DynamicLinker.Common,Constructed Product Result analysis,0.078
+unix-2.8.5.1,System.Posix.DynamicLinker.Common,CorePrep,0.379
+unix-2.8.5.1,System.Posix.DynamicLinker.Common,CoreTidy,0.44
+unix-2.8.5.1,System.Posix.DynamicLinker.Common,CoreToStg,1.0150000000000001
+unix-2.8.5.1,System.Posix.DynamicLinker.Common,Demand analysis,0.445
+unix-2.8.5.1,System.Posix.DynamicLinker.Common,Desugar,0.241
+unix-2.8.5.1,System.Posix.DynamicLinker.Common,Exitification transformation,0.028
+unix-2.8.5.1,System.Posix.DynamicLinker.Common,Float inwards,0.026
+unix-2.8.5.1,System.Posix.DynamicLinker.Common,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.66
+unix-2.8.5.1,System.Posix.DynamicLinker.Common,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.552
+unix-2.8.5.1,System.Posix.DynamicLinker.Common,Parser,1.074
+unix-2.8.5.1,System.Posix.DynamicLinker.Common,Renamer/typechecker,2.988
+unix-2.8.5.1,System.Posix.DynamicLinker.Common,Simplifier,17.721
+unix-2.8.5.1,System.Posix.DynamicLinker.Common,Specialise,0.106
+unix-2.8.5.1,System.Posix.DynamicLinker.Common,Worker Wrapper binds,0.056
+unix-2.8.5.1,System.Posix.DynamicLinker.Module,Called arity analysis,0.012
+unix-2.8.5.1,System.Posix.DynamicLinker.Module,CodeGen,19.278
+unix-2.8.5.1,System.Posix.DynamicLinker.Module,Common sub-expression,0.012
+unix-2.8.5.1,System.Posix.DynamicLinker.Module,Constructed Product Result analysis,0.091
+unix-2.8.5.1,System.Posix.DynamicLinker.Module,CorePrep,0.331
+unix-2.8.5.1,System.Posix.DynamicLinker.Module,CoreTidy,0.386
+unix-2.8.5.1,System.Posix.DynamicLinker.Module,CoreToStg,0.9870000000000001
+unix-2.8.5.1,System.Posix.DynamicLinker.Module,Demand analysis,0.445
+unix-2.8.5.1,System.Posix.DynamicLinker.Module,Desugar,0.58
+unix-2.8.5.1,System.Posix.DynamicLinker.Module,Exitification transformation,0.016
+unix-2.8.5.1,System.Posix.DynamicLinker.Module,Float inwards,0.026000000000000002
+unix-2.8.5.1,System.Posix.DynamicLinker.Module,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.5
+unix-2.8.5.1,System.Posix.DynamicLinker.Module,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.589
+unix-2.8.5.1,System.Posix.DynamicLinker.Module,Parser,1.614
+unix-2.8.5.1,System.Posix.DynamicLinker.Module,Renamer/typechecker,3.32
+unix-2.8.5.1,System.Posix.DynamicLinker.Module,Simplifier,10.131
+unix-2.8.5.1,System.Posix.DynamicLinker.Module,Specialise,0.096
+unix-2.8.5.1,System.Posix.DynamicLinker.Module,Worker Wrapper binds,0.061
+unix-2.8.5.1,System.Posix.DynamicLinker.Module.ByteString,Called arity analysis,0.022
+unix-2.8.5.1,System.Posix.DynamicLinker.Module.ByteString,CodeGen,6.371
+unix-2.8.5.1,System.Posix.DynamicLinker.Module.ByteString,Common sub-expression,0.013
+unix-2.8.5.1,System.Posix.DynamicLinker.Module.ByteString,Constructed Product Result analysis,0.038
+unix-2.8.5.1,System.Posix.DynamicLinker.Module.ByteString,CorePrep,0.28700000000000003
+unix-2.8.5.1,System.Posix.DynamicLinker.Module.ByteString,CoreTidy,0.195
+unix-2.8.5.1,System.Posix.DynamicLinker.Module.ByteString,CoreToStg,0.534
+unix-2.8.5.1,System.Posix.DynamicLinker.Module.ByteString,Demand analysis,0.215
+unix-2.8.5.1,System.Posix.DynamicLinker.Module.ByteString,Desugar,0.125
+unix-2.8.5.1,System.Posix.DynamicLinker.Module.ByteString,Exitification transformation,0.013
+unix-2.8.5.1,System.Posix.DynamicLinker.Module.ByteString,Float inwards,0.03
+unix-2.8.5.1,System.Posix.DynamicLinker.Module.ByteString,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.213
+unix-2.8.5.1,System.Posix.DynamicLinker.Module.ByteString,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.184
+unix-2.8.5.1,System.Posix.DynamicLinker.Module.ByteString,Parser,0.952
+unix-2.8.5.1,System.Posix.DynamicLinker.Module.ByteString,Renamer/typechecker,1.111
+unix-2.8.5.1,System.Posix.DynamicLinker.Module.ByteString,Simplifier,3.575
+unix-2.8.5.1,System.Posix.DynamicLinker.Module.ByteString,Specialise,0.046
+unix-2.8.5.1,System.Posix.DynamicLinker.Module.ByteString,Worker Wrapper binds,0.027
+unix-2.8.5.1,System.Posix.DynamicLinker.Prim,Called arity analysis,0.015
+unix-2.8.5.1,System.Posix.DynamicLinker.Prim,CodeGen,36.363
+unix-2.8.5.1,System.Posix.DynamicLinker.Prim,Common sub-expression,0.015
+unix-2.8.5.1,System.Posix.DynamicLinker.Prim,Constructed Product Result analysis,0.149
+unix-2.8.5.1,System.Posix.DynamicLinker.Prim,CorePrep,0.612
+unix-2.8.5.1,System.Posix.DynamicLinker.Prim,CoreTidy,0.764
+unix-2.8.5.1,System.Posix.DynamicLinker.Prim,CoreToStg,1.322
+unix-2.8.5.1,System.Posix.DynamicLinker.Prim,Demand analysis,0.8200000000000001
+unix-2.8.5.1,System.Posix.DynamicLinker.Prim,Desugar,0.43
+unix-2.8.5.1,System.Posix.DynamicLinker.Prim,Exitification transformation,0.017
+unix-2.8.5.1,System.Posix.DynamicLinker.Prim,Float inwards,0.027
+unix-2.8.5.1,System.Posix.DynamicLinker.Prim,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.913
+unix-2.8.5.1,System.Posix.DynamicLinker.Prim,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.576
+unix-2.8.5.1,System.Posix.DynamicLinker.Prim,Parser,1.388
+unix-2.8.5.1,System.Posix.DynamicLinker.Prim,Renamer/typechecker,8.152
+unix-2.8.5.1,System.Posix.DynamicLinker.Prim,Simplifier,38.306000000000004
+unix-2.8.5.1,System.Posix.DynamicLinker.Prim,Specialise,0.149
+unix-2.8.5.1,System.Posix.DynamicLinker.Prim,Worker Wrapper binds,0.092
+unix-2.8.5.1,System.Posix.Env,Called arity analysis,0.011
+unix-2.8.5.1,System.Posix.Env,CodeGen,29.298000000000002
+unix-2.8.5.1,System.Posix.Env,Common sub-expression,0.011
+unix-2.8.5.1,System.Posix.Env,Constructed Product Result analysis,0.208
+unix-2.8.5.1,System.Posix.Env,CorePrep,0.476
+unix-2.8.5.1,System.Posix.Env,CoreTidy,0.831
+unix-2.8.5.1,System.Posix.Env,CoreToStg,1.9539999999999997
+unix-2.8.5.1,System.Posix.Env,Demand analysis,1.186
+unix-2.8.5.1,System.Posix.Env,Desugar,0.551
+unix-2.8.5.1,System.Posix.Env,Exitification transformation,0.017
+unix-2.8.5.1,System.Posix.Env,Float inwards,0.02
+unix-2.8.5.1,System.Posix.Env,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.795
+unix-2.8.5.1,System.Posix.Env,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.185
+unix-2.8.5.1,System.Posix.Env,Parser,1.134
+unix-2.8.5.1,System.Posix.Env,Renamer/typechecker,5.891
+unix-2.8.5.1,System.Posix.Env,Simplifier,33.823
+unix-2.8.5.1,System.Posix.Env,Specialise,0.437
+unix-2.8.5.1,System.Posix.Env,Worker Wrapper binds,0.108
+unix-2.8.5.1,System.Posix.Env.ByteString,Called arity analysis,0.011
+unix-2.8.5.1,System.Posix.Env.ByteString,CodeGen,38.229
+unix-2.8.5.1,System.Posix.Env.ByteString,Common sub-expression,0.015
+unix-2.8.5.1,System.Posix.Env.ByteString,Constructed Product Result analysis,0.218
+unix-2.8.5.1,System.Posix.Env.ByteString,CorePrep,0.908
+unix-2.8.5.1,System.Posix.Env.ByteString,CoreTidy,0.832
+unix-2.8.5.1,System.Posix.Env.ByteString,CoreToStg,2.682
+unix-2.8.5.1,System.Posix.Env.ByteString,Demand analysis,1.4969999999999999
+unix-2.8.5.1,System.Posix.Env.ByteString,Desugar,0.379
+unix-2.8.5.1,System.Posix.Env.ByteString,Exitification transformation,0.012
+unix-2.8.5.1,System.Posix.Env.ByteString,Float inwards,0.028
+unix-2.8.5.1,System.Posix.Env.ByteString,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.426
+unix-2.8.5.1,System.Posix.Env.ByteString,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",3.285
+unix-2.8.5.1,System.Posix.Env.ByteString,Parser,1.233
+unix-2.8.5.1,System.Posix.Env.ByteString,Renamer/typechecker,6.361
+unix-2.8.5.1,System.Posix.Env.ByteString,Simplifier,54.511
+unix-2.8.5.1,System.Posix.Env.ByteString,Specialise,1.44
+unix-2.8.5.1,System.Posix.Env.ByteString,Worker Wrapper binds,0.549
+unix-2.8.5.1,System.Posix.Env.Internal,Called arity analysis,0.02
+unix-2.8.5.1,System.Posix.Env.Internal,CodeGen,5.561
+unix-2.8.5.1,System.Posix.Env.Internal,Common sub-expression,0.012
+unix-2.8.5.1,System.Posix.Env.Internal,Constructed Product Result analysis,0.084
+unix-2.8.5.1,System.Posix.Env.Internal,CorePrep,0.185
+unix-2.8.5.1,System.Posix.Env.Internal,CoreTidy,0.232
+unix-2.8.5.1,System.Posix.Env.Internal,CoreToStg,0.869
+unix-2.8.5.1,System.Posix.Env.Internal,Demand analysis,0.6
+unix-2.8.5.1,System.Posix.Env.Internal,Desugar,0.145
+unix-2.8.5.1,System.Posix.Env.Internal,Exitification transformation,0.012
+unix-2.8.5.1,System.Posix.Env.Internal,Float inwards,0.027999999999999997
+unix-2.8.5.1,System.Posix.Env.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.174
+unix-2.8.5.1,System.Posix.Env.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.414
+unix-2.8.5.1,System.Posix.Env.Internal,Parser,0.326
+unix-2.8.5.1,System.Posix.Env.Internal,Renamer/typechecker,1.076
+unix-2.8.5.1,System.Posix.Env.Internal,Simplifier,6.917
+unix-2.8.5.1,System.Posix.Env.Internal,Specialise,0.257
+unix-2.8.5.1,System.Posix.Env.Internal,Worker Wrapper binds,0.043
+unix-2.8.5.1,System.Posix.Env.PosixString,Called arity analysis,0.013
+unix-2.8.5.1,System.Posix.Env.PosixString,CodeGen,43.281000000000006
+unix-2.8.5.1,System.Posix.Env.PosixString,Common sub-expression,0.013
+unix-2.8.5.1,System.Posix.Env.PosixString,Constructed Product Result analysis,0.268
+unix-2.8.5.1,System.Posix.Env.PosixString,CorePrep,0.865
+unix-2.8.5.1,System.Posix.Env.PosixString,CoreTidy,0.944
+unix-2.8.5.1,System.Posix.Env.PosixString,CoreToStg,3.975
+unix-2.8.5.1,System.Posix.Env.PosixString,Demand analysis,2.393
+unix-2.8.5.1,System.Posix.Env.PosixString,Desugar,0.584
+unix-2.8.5.1,System.Posix.Env.PosixString,Exitification transformation,0.013
+unix-2.8.5.1,System.Posix.Env.PosixString,Float inwards,0.026
+unix-2.8.5.1,System.Posix.Env.PosixString,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.659
+unix-2.8.5.1,System.Posix.Env.PosixString,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.567
+unix-2.8.5.1,System.Posix.Env.PosixString,Parser,1.837
+unix-2.8.5.1,System.Posix.Env.PosixString,Renamer/typechecker,11.365
+unix-2.8.5.1,System.Posix.Env.PosixString,Simplifier,70.826
+unix-2.8.5.1,System.Posix.Env.PosixString,Specialise,0.889
+unix-2.8.5.1,System.Posix.Env.PosixString,Worker Wrapper binds,0.102
+unix-2.8.5.1,System.Posix.Error,Called arity analysis,0.01
+unix-2.8.5.1,System.Posix.Error,CodeGen,9.868
+unix-2.8.5.1,System.Posix.Error,Common sub-expression,0.01
+unix-2.8.5.1,System.Posix.Error,Constructed Product Result analysis,0.053
+unix-2.8.5.1,System.Posix.Error,CorePrep,0.61
+unix-2.8.5.1,System.Posix.Error,CoreTidy,0.241
+unix-2.8.5.1,System.Posix.Error,CoreToStg,0.497
+unix-2.8.5.1,System.Posix.Error,Demand analysis,0.372
+unix-2.8.5.1,System.Posix.Error,Desugar,0.117
+unix-2.8.5.1,System.Posix.Error,Exitification transformation,0.012
+unix-2.8.5.1,System.Posix.Error,Float inwards,0.018
+unix-2.8.5.1,System.Posix.Error,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.342
+unix-2.8.5.1,System.Posix.Error,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.326
+unix-2.8.5.1,System.Posix.Error,Parser,0.878
+unix-2.8.5.1,System.Posix.Error,Renamer/typechecker,3.041
+unix-2.8.5.1,System.Posix.Error,Simplifier,5.596
+unix-2.8.5.1,System.Posix.Error,Specialise,0.784
+unix-2.8.5.1,System.Posix.Error,Worker Wrapper binds,0.051
+unix-2.8.5.1,System.Posix.Fcntl,Called arity analysis,0.016
+unix-2.8.5.1,System.Posix.Fcntl,CodeGen,17.42
+unix-2.8.5.1,System.Posix.Fcntl,Common sub-expression,0.01
+unix-2.8.5.1,System.Posix.Fcntl,Constructed Product Result analysis,0.054
+unix-2.8.5.1,System.Posix.Fcntl,CorePrep,0.29400000000000004
+unix-2.8.5.1,System.Posix.Fcntl,CoreTidy,0.337
+unix-2.8.5.1,System.Posix.Fcntl,CoreToStg,0.768
+unix-2.8.5.1,System.Posix.Fcntl,Demand analysis,0.33799999999999997
+unix-2.8.5.1,System.Posix.Fcntl,Desugar,0.257
+unix-2.8.5.1,System.Posix.Fcntl,Exitification transformation,0.01
+unix-2.8.5.1,System.Posix.Fcntl,Float inwards,0.022
+unix-2.8.5.1,System.Posix.Fcntl,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.347
+unix-2.8.5.1,System.Posix.Fcntl,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.265
+unix-2.8.5.1,System.Posix.Fcntl,Parser,0.904
+unix-2.8.5.1,System.Posix.Fcntl,Renamer/typechecker,5.053
+unix-2.8.5.1,System.Posix.Fcntl,Simplifier,9.486
+unix-2.8.5.1,System.Posix.Fcntl,Specialise,0.073
+unix-2.8.5.1,System.Posix.Fcntl,Worker Wrapper binds,0.051
+unix-2.8.5.1,System.Posix.Files,Called arity analysis,0.013
+unix-2.8.5.1,System.Posix.Files,CodeGen,93.625
+unix-2.8.5.1,System.Posix.Files,Common sub-expression,0.012
+unix-2.8.5.1,System.Posix.Files,Constructed Product Result analysis,0.304
+unix-2.8.5.1,System.Posix.Files,CorePrep,1.223
+unix-2.8.5.1,System.Posix.Files,CoreTidy,1.841
+unix-2.8.5.1,System.Posix.Files,CoreToStg,4.475
+unix-2.8.5.1,System.Posix.Files,Demand analysis,2.3840000000000003
+unix-2.8.5.1,System.Posix.Files,Desugar,3.12
+unix-2.8.5.1,System.Posix.Files,Exitification transformation,0.013
+unix-2.8.5.1,System.Posix.Files,Float inwards,0.027999999999999997
+unix-2.8.5.1,System.Posix.Files,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",3.061
+unix-2.8.5.1,System.Posix.Files,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",3.406
+unix-2.8.5.1,System.Posix.Files,Parser,3.025
+unix-2.8.5.1,System.Posix.Files,Renamer/typechecker,9.228
+unix-2.8.5.1,System.Posix.Files,Simplifier,97.16
+unix-2.8.5.1,System.Posix.Files,Specialise,0.459
+unix-2.8.5.1,System.Posix.Files,Worker Wrapper binds,0.133
+unix-2.8.5.1,System.Posix.Files.ByteString,Called arity analysis,0.011
+unix-2.8.5.1,System.Posix.Files.ByteString,CodeGen,75.05600000000001
+unix-2.8.5.1,System.Posix.Files.ByteString,Common sub-expression,0.013
+unix-2.8.5.1,System.Posix.Files.ByteString,Constructed Product Result analysis,0.276
+unix-2.8.5.1,System.Posix.Files.ByteString,CorePrep,1.103
+unix-2.8.5.1,System.Posix.Files.ByteString,CoreTidy,2.212
+unix-2.8.5.1,System.Posix.Files.ByteString,CoreToStg,2.9909999999999997
+unix-2.8.5.1,System.Posix.Files.ByteString,Demand analysis,2.572
+unix-2.8.5.1,System.Posix.Files.ByteString,Desugar,0.563
+unix-2.8.5.1,System.Posix.Files.ByteString,Exitification transformation,0.016
+unix-2.8.5.1,System.Posix.Files.ByteString,Float inwards,0.023
+unix-2.8.5.1,System.Posix.Files.ByteString,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.97
+unix-2.8.5.1,System.Posix.Files.ByteString,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.332
+unix-2.8.5.1,System.Posix.Files.ByteString,Parser,2.67
+unix-2.8.5.1,System.Posix.Files.ByteString,Renamer/typechecker,12.472
+unix-2.8.5.1,System.Posix.Files.ByteString,Simplifier,65.397
+unix-2.8.5.1,System.Posix.Files.ByteString,Specialise,0.494
+unix-2.8.5.1,System.Posix.Files.ByteString,Worker Wrapper binds,0.133
+unix-2.8.5.1,System.Posix.Files.Common,Called arity analysis,0.011
+unix-2.8.5.1,System.Posix.Files.Common,CodeGen,296.561
+unix-2.8.5.1,System.Posix.Files.Common,Common sub-expression,0.021
+unix-2.8.5.1,System.Posix.Files.Common,Constructed Product Result analysis,0.989
+unix-2.8.5.1,System.Posix.Files.Common,CorePrep,8.084999999999999
+unix-2.8.5.1,System.Posix.Files.Common,CoreTidy,7.612
+unix-2.8.5.1,System.Posix.Files.Common,CoreToStg,19.761
+unix-2.8.5.1,System.Posix.Files.Common,Demand analysis,11.928
+unix-2.8.5.1,System.Posix.Files.Common,Desugar,3.689
+unix-2.8.5.1,System.Posix.Files.Common,Exitification transformation,0.015
+unix-2.8.5.1,System.Posix.Files.Common,Float inwards,0.025
+unix-2.8.5.1,System.Posix.Files.Common,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",6.642
+unix-2.8.5.1,System.Posix.Files.Common,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",12.908
+unix-2.8.5.1,System.Posix.Files.Common,Parser,58.084
+unix-2.8.5.1,System.Posix.Files.Common,Renamer/typechecker,63.533
+unix-2.8.5.1,System.Posix.Files.Common,Simplifier,340.288
+unix-2.8.5.1,System.Posix.Files.Common,Specialise,1.681
+unix-2.8.5.1,System.Posix.Files.Common,Worker Wrapper binds,3.505
+unix-2.8.5.1,System.Posix.Files.PosixString,Called arity analysis,0.012
+unix-2.8.5.1,System.Posix.Files.PosixString,CodeGen,73.997
+unix-2.8.5.1,System.Posix.Files.PosixString,Common sub-expression,0.012
+unix-2.8.5.1,System.Posix.Files.PosixString,Constructed Product Result analysis,0.261
+unix-2.8.5.1,System.Posix.Files.PosixString,CorePrep,1.205
+unix-2.8.5.1,System.Posix.Files.PosixString,CoreTidy,1.381
+unix-2.8.5.1,System.Posix.Files.PosixString,CoreToStg,3.324
+unix-2.8.5.1,System.Posix.Files.PosixString,Demand analysis,1.905
+unix-2.8.5.1,System.Posix.Files.PosixString,Desugar,0.555
+unix-2.8.5.1,System.Posix.Files.PosixString,Exitification transformation,0.016
+unix-2.8.5.1,System.Posix.Files.PosixString,Float inwards,0.020999999999999998
+unix-2.8.5.1,System.Posix.Files.PosixString,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.253
+unix-2.8.5.1,System.Posix.Files.PosixString,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.503
+unix-2.8.5.1,System.Posix.Files.PosixString,Parser,4.4
+unix-2.8.5.1,System.Posix.Files.PosixString,Renamer/typechecker,10.777
+unix-2.8.5.1,System.Posix.Files.PosixString,Simplifier,75.06099999999999
+unix-2.8.5.1,System.Posix.Files.PosixString,Specialise,0.456
+unix-2.8.5.1,System.Posix.Files.PosixString,Worker Wrapper binds,0.128
+unix-2.8.5.1,System.Posix.IO,Called arity analysis,0.015
+unix-2.8.5.1,System.Posix.IO,CodeGen,18.636
+unix-2.8.5.1,System.Posix.IO,Common sub-expression,0.011
+unix-2.8.5.1,System.Posix.IO,Constructed Product Result analysis,0.096
+unix-2.8.5.1,System.Posix.IO,CorePrep,0.6739999999999999
+unix-2.8.5.1,System.Posix.IO,CoreTidy,0.442
+unix-2.8.5.1,System.Posix.IO,CoreToStg,1.365
+unix-2.8.5.1,System.Posix.IO,Demand analysis,0.5680000000000001
+unix-2.8.5.1,System.Posix.IO,Desugar,0.357
+unix-2.8.5.1,System.Posix.IO,Exitification transformation,0.011
+unix-2.8.5.1,System.Posix.IO,Float inwards,0.019
+unix-2.8.5.1,System.Posix.IO,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.438
+unix-2.8.5.1,System.Posix.IO,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.483
+unix-2.8.5.1,System.Posix.IO,Parser,0.955
+unix-2.8.5.1,System.Posix.IO,Renamer/typechecker,2.654
+unix-2.8.5.1,System.Posix.IO,Simplifier,11.157
+unix-2.8.5.1,System.Posix.IO,Specialise,0.081
+unix-2.8.5.1,System.Posix.IO,Worker Wrapper binds,0.07
+unix-2.8.5.1,System.Posix.IO.ByteString,Called arity analysis,0.01
+unix-2.8.5.1,System.Posix.IO.ByteString,CodeGen,21.461
+unix-2.8.5.1,System.Posix.IO.ByteString,Common sub-expression,0.011
+unix-2.8.5.1,System.Posix.IO.ByteString,Constructed Product Result analysis,0.107
+unix-2.8.5.1,System.Posix.IO.ByteString,CorePrep,0.433
+unix-2.8.5.1,System.Posix.IO.ByteString,CoreTidy,0.567
+unix-2.8.5.1,System.Posix.IO.ByteString,CoreToStg,2.176
+unix-2.8.5.1,System.Posix.IO.ByteString,Demand analysis,0.756
+unix-2.8.5.1,System.Posix.IO.ByteString,Desugar,0.355
+unix-2.8.5.1,System.Posix.IO.ByteString,Exitification transformation,0.011
+unix-2.8.5.1,System.Posix.IO.ByteString,Float inwards,0.02
+unix-2.8.5.1,System.Posix.IO.ByteString,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.411
+unix-2.8.5.1,System.Posix.IO.ByteString,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.602
+unix-2.8.5.1,System.Posix.IO.ByteString,Parser,1.503
+unix-2.8.5.1,System.Posix.IO.ByteString,Renamer/typechecker,2.516
+unix-2.8.5.1,System.Posix.IO.ByteString,Simplifier,14.702
+unix-2.8.5.1,System.Posix.IO.ByteString,Specialise,0.085
+unix-2.8.5.1,System.Posix.IO.ByteString,Worker Wrapper binds,0.088
+unix-2.8.5.1,System.Posix.IO.Common,Called arity analysis,0.015
+unix-2.8.5.1,System.Posix.IO.Common,CodeGen,216.961
+unix-2.8.5.1,System.Posix.IO.Common,Common sub-expression,0.021
+unix-2.8.5.1,System.Posix.IO.Common,Constructed Product Result analysis,0.63
+unix-2.8.5.1,System.Posix.IO.Common,CorePrep,6.636
+unix-2.8.5.1,System.Posix.IO.Common,CoreTidy,4.19
+unix-2.8.5.1,System.Posix.IO.Common,CoreToStg,10.065999999999999
+unix-2.8.5.1,System.Posix.IO.Common,Demand analysis,4.859999999999999
+unix-2.8.5.1,System.Posix.IO.Common,Desugar,2.286
+unix-2.8.5.1,System.Posix.IO.Common,Exitification transformation,0.015
+unix-2.8.5.1,System.Posix.IO.Common,Float inwards,0.031
+unix-2.8.5.1,System.Posix.IO.Common,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",5.671
+unix-2.8.5.1,System.Posix.IO.Common,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",10.91
+unix-2.8.5.1,System.Posix.IO.Common,Parser,4.785
+unix-2.8.5.1,System.Posix.IO.Common,Renamer/typechecker,19.962
+unix-2.8.5.1,System.Posix.IO.Common,Simplifier,205.297
+unix-2.8.5.1,System.Posix.IO.Common,Specialise,0.809
+unix-2.8.5.1,System.Posix.IO.Common,Worker Wrapper binds,0.367
+unix-2.8.5.1,System.Posix.IO.PosixString,Called arity analysis,0.011
+unix-2.8.5.1,System.Posix.IO.PosixString,CodeGen,12.147
+unix-2.8.5.1,System.Posix.IO.PosixString,Common sub-expression,0.011
+unix-2.8.5.1,System.Posix.IO.PosixString,Constructed Product Result analysis,0.059
+unix-2.8.5.1,System.Posix.IO.PosixString,CorePrep,0.29000000000000004
+unix-2.8.5.1,System.Posix.IO.PosixString,CoreTidy,0.202
+unix-2.8.5.1,System.Posix.IO.PosixString,CoreToStg,0.642
+unix-2.8.5.1,System.Posix.IO.PosixString,Demand analysis,0.317
+unix-2.8.5.1,System.Posix.IO.PosixString,Desugar,0.182
+unix-2.8.5.1,System.Posix.IO.PosixString,Exitification transformation,0.013
+unix-2.8.5.1,System.Posix.IO.PosixString,Float inwards,0.028
+unix-2.8.5.1,System.Posix.IO.PosixString,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.175
+unix-2.8.5.1,System.Posix.IO.PosixString,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.302
+unix-2.8.5.1,System.Posix.IO.PosixString,Parser,0.809
+unix-2.8.5.1,System.Posix.IO.PosixString,Renamer/typechecker,2.379
+unix-2.8.5.1,System.Posix.IO.PosixString,Simplifier,4.155
+unix-2.8.5.1,System.Posix.IO.PosixString,Specialise,0.047
+unix-2.8.5.1,System.Posix.IO.PosixString,Worker Wrapper binds,0.068
+unix-2.8.5.1,System.Posix.PosixPath.FilePath,Called arity analysis,0.014
+unix-2.8.5.1,System.Posix.PosixPath.FilePath,CodeGen,50.29
+unix-2.8.5.1,System.Posix.PosixPath.FilePath,Common sub-expression,0.012
+unix-2.8.5.1,System.Posix.PosixPath.FilePath,Constructed Product Result analysis,0.203
+unix-2.8.5.1,System.Posix.PosixPath.FilePath,CorePrep,0.812
+unix-2.8.5.1,System.Posix.PosixPath.FilePath,CoreTidy,0.925
+unix-2.8.5.1,System.Posix.PosixPath.FilePath,CoreToStg,2.362
+unix-2.8.5.1,System.Posix.PosixPath.FilePath,Demand analysis,1.416
+unix-2.8.5.1,System.Posix.PosixPath.FilePath,Desugar,0.431
+unix-2.8.5.1,System.Posix.PosixPath.FilePath,Exitification transformation,0.012
+unix-2.8.5.1,System.Posix.PosixPath.FilePath,Float inwards,0.027000000000000003
+unix-2.8.5.1,System.Posix.PosixPath.FilePath,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",3.707
+unix-2.8.5.1,System.Posix.PosixPath.FilePath,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.863
+unix-2.8.5.1,System.Posix.PosixPath.FilePath,Parser,3.569
+unix-2.8.5.1,System.Posix.PosixPath.FilePath,Renamer/typechecker,6.502
+unix-2.8.5.1,System.Posix.PosixPath.FilePath,Simplifier,41.973
+unix-2.8.5.1,System.Posix.PosixPath.FilePath,Specialise,0.235
+unix-2.8.5.1,System.Posix.PosixPath.FilePath,Worker Wrapper binds,0.13
+unix-2.8.5.1,System.Posix.PosixString,Called arity analysis,0.015
+unix-2.8.5.1,System.Posix.PosixString,CodeGen,0.877
+unix-2.8.5.1,System.Posix.PosixString,Common sub-expression,0.01
+unix-2.8.5.1,System.Posix.PosixString,Constructed Product Result analysis,0.02
+unix-2.8.5.1,System.Posix.PosixString,CorePrep,0.07100000000000001
+unix-2.8.5.1,System.Posix.PosixString,CoreTidy,0.049
+unix-2.8.5.1,System.Posix.PosixString,CoreToStg,0.084
+unix-2.8.5.1,System.Posix.PosixString,Demand analysis,0.085
+unix-2.8.5.1,System.Posix.PosixString,Desugar,0.196
+unix-2.8.5.1,System.Posix.PosixString,Exitification transformation,0.014
+unix-2.8.5.1,System.Posix.PosixString,Float inwards,0.022
+unix-2.8.5.1,System.Posix.PosixString,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.047
+unix-2.8.5.1,System.Posix.PosixString,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.03
+unix-2.8.5.1,System.Posix.PosixString,Parser,1.071
+unix-2.8.5.1,System.Posix.PosixString,Renamer/typechecker,1.826
+unix-2.8.5.1,System.Posix.PosixString,Simplifier,0.423
+unix-2.8.5.1,System.Posix.PosixString,Specialise,0.033
+unix-2.8.5.1,System.Posix.PosixString,Worker Wrapper binds,0.023
+unix-2.8.5.1,System.Posix.Process,Called arity analysis,0.01
+unix-2.8.5.1,System.Posix.Process,CodeGen,23.064999999999998
+unix-2.8.5.1,System.Posix.Process,Common sub-expression,0.01
+unix-2.8.5.1,System.Posix.Process,Constructed Product Result analysis,0.122
+unix-2.8.5.1,System.Posix.Process,CorePrep,0.45199999999999996
+unix-2.8.5.1,System.Posix.Process,CoreTidy,0.461
+unix-2.8.5.1,System.Posix.Process,CoreToStg,1.9969999999999999
+unix-2.8.5.1,System.Posix.Process,Demand analysis,1.013
+unix-2.8.5.1,System.Posix.Process,Desugar,0.28
+unix-2.8.5.1,System.Posix.Process,Exitification transformation,0.013
+unix-2.8.5.1,System.Posix.Process,Float inwards,0.018
+unix-2.8.5.1,System.Posix.Process,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.799
+unix-2.8.5.1,System.Posix.Process,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.921
+unix-2.8.5.1,System.Posix.Process,Parser,0.964
+unix-2.8.5.1,System.Posix.Process,Renamer/typechecker,3.763
+unix-2.8.5.1,System.Posix.Process,Simplifier,21.915
+unix-2.8.5.1,System.Posix.Process,Specialise,0.163
+unix-2.8.5.1,System.Posix.Process,Worker Wrapper binds,0.057
+unix-2.8.5.1,System.Posix.Process.ByteString,Called arity analysis,0.011
+unix-2.8.5.1,System.Posix.Process.ByteString,CodeGen,29.173000000000002
+unix-2.8.5.1,System.Posix.Process.ByteString,Common sub-expression,0.013
+unix-2.8.5.1,System.Posix.Process.ByteString,Constructed Product Result analysis,0.131
+unix-2.8.5.1,System.Posix.Process.ByteString,CorePrep,0.576
+unix-2.8.5.1,System.Posix.Process.ByteString,CoreTidy,0.415
+unix-2.8.5.1,System.Posix.Process.ByteString,CoreToStg,1.627
+unix-2.8.5.1,System.Posix.Process.ByteString,Demand analysis,1.064
+unix-2.8.5.1,System.Posix.Process.ByteString,Desugar,0.279
+unix-2.8.5.1,System.Posix.Process.ByteString,Exitification transformation,0.013
+unix-2.8.5.1,System.Posix.Process.ByteString,Float inwards,0.020999999999999998
+unix-2.8.5.1,System.Posix.Process.ByteString,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.651
+unix-2.8.5.1,System.Posix.Process.ByteString,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.113
+unix-2.8.5.1,System.Posix.Process.ByteString,Parser,1.138
+unix-2.8.5.1,System.Posix.Process.ByteString,Renamer/typechecker,3.43
+unix-2.8.5.1,System.Posix.Process.ByteString,Simplifier,20.124
+unix-2.8.5.1,System.Posix.Process.ByteString,Specialise,0.352
+unix-2.8.5.1,System.Posix.Process.ByteString,Worker Wrapper binds,0.056
+unix-2.8.5.1,System.Posix.Process.Common,Called arity analysis,0.015
+unix-2.8.5.1,System.Posix.Process.Common,CodeGen,70.536
+unix-2.8.5.1,System.Posix.Process.Common,Common sub-expression,0.017
+unix-2.8.5.1,System.Posix.Process.Common,Constructed Product Result analysis,0.26
+unix-2.8.5.1,System.Posix.Process.Common,CorePrep,1.6139999999999999
+unix-2.8.5.1,System.Posix.Process.Common,CoreTidy,2.528
+unix-2.8.5.1,System.Posix.Process.Common,CoreToStg,3.1959999999999997
+unix-2.8.5.1,System.Posix.Process.Common,Demand analysis,1.5710000000000002
+unix-2.8.5.1,System.Posix.Process.Common,Desugar,0.732
+unix-2.8.5.1,System.Posix.Process.Common,Exitification transformation,0.019
+unix-2.8.5.1,System.Posix.Process.Common,Float inwards,0.027
+unix-2.8.5.1,System.Posix.Process.Common,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",3.924
+unix-2.8.5.1,System.Posix.Process.Common,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.74
+unix-2.8.5.1,System.Posix.Process.Common,Parser,4.005
+unix-2.8.5.1,System.Posix.Process.Common,Renamer/typechecker,10.621
+unix-2.8.5.1,System.Posix.Process.Common,Simplifier,57.08
+unix-2.8.5.1,System.Posix.Process.Common,Specialise,0.377
+unix-2.8.5.1,System.Posix.Process.Common,Worker Wrapper binds,0.183
+unix-2.8.5.1,System.Posix.Process.Internals,Called arity analysis,0.016
+unix-2.8.5.1,System.Posix.Process.Internals,CodeGen,40.476
+unix-2.8.5.1,System.Posix.Process.Internals,Common sub-expression,0.017
+unix-2.8.5.1,System.Posix.Process.Internals,Constructed Product Result analysis,0.141
+unix-2.8.5.1,System.Posix.Process.Internals,CorePrep,0.5720000000000001
+unix-2.8.5.1,System.Posix.Process.Internals,CoreTidy,0.632
+unix-2.8.5.1,System.Posix.Process.Internals,CoreToStg,1.8599999999999999
+unix-2.8.5.1,System.Posix.Process.Internals,Demand analysis,0.714
+unix-2.8.5.1,System.Posix.Process.Internals,Desugar,0.331
+unix-2.8.5.1,System.Posix.Process.Internals,Exitification transformation,0.016
+unix-2.8.5.1,System.Posix.Process.Internals,Float inwards,0.033
+unix-2.8.5.1,System.Posix.Process.Internals,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.981
+unix-2.8.5.1,System.Posix.Process.Internals,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.965
+unix-2.8.5.1,System.Posix.Process.Internals,Parser,0.905
+unix-2.8.5.1,System.Posix.Process.Internals,Renamer/typechecker,5.782
+unix-2.8.5.1,System.Posix.Process.Internals,Simplifier,25.565
+unix-2.8.5.1,System.Posix.Process.Internals,Specialise,0.196
+unix-2.8.5.1,System.Posix.Process.Internals,Worker Wrapper binds,0.07
+unix-2.8.5.1,System.Posix.Process.PosixString,Called arity analysis,0.017
+unix-2.8.5.1,System.Posix.Process.PosixString,CodeGen,23.663
+unix-2.8.5.1,System.Posix.Process.PosixString,Common sub-expression,0.012
+unix-2.8.5.1,System.Posix.Process.PosixString,Constructed Product Result analysis,0.13
+unix-2.8.5.1,System.Posix.Process.PosixString,CorePrep,0.45599999999999996
+unix-2.8.5.1,System.Posix.Process.PosixString,CoreTidy,0.385
+unix-2.8.5.1,System.Posix.Process.PosixString,CoreToStg,1.4929999999999999
+unix-2.8.5.1,System.Posix.Process.PosixString,Demand analysis,0.896
+unix-2.8.5.1,System.Posix.Process.PosixString,Desugar,0.303
+unix-2.8.5.1,System.Posix.Process.PosixString,Exitification transformation,0.012
+unix-2.8.5.1,System.Posix.Process.PosixString,Float inwards,0.024
+unix-2.8.5.1,System.Posix.Process.PosixString,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.845
+unix-2.8.5.1,System.Posix.Process.PosixString,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.038
+unix-2.8.5.1,System.Posix.Process.PosixString,Parser,0.953
+unix-2.8.5.1,System.Posix.Process.PosixString,Renamer/typechecker,3.492
+unix-2.8.5.1,System.Posix.Process.PosixString,Simplifier,23.558
+unix-2.8.5.1,System.Posix.Process.PosixString,Specialise,0.174
+unix-2.8.5.1,System.Posix.Process.PosixString,Worker Wrapper binds,0.089
+unix-2.8.5.1,System.Posix.Resource,Called arity analysis,0.01
+unix-2.8.5.1,System.Posix.Resource,CodeGen,54.143
+unix-2.8.5.1,System.Posix.Resource,Common sub-expression,0.01
+unix-2.8.5.1,System.Posix.Resource,Constructed Product Result analysis,0.145
+unix-2.8.5.1,System.Posix.Resource,CorePrep,1.303
+unix-2.8.5.1,System.Posix.Resource,CoreTidy,0.967
+unix-2.8.5.1,System.Posix.Resource,CoreToStg,2.161
+unix-2.8.5.1,System.Posix.Resource,Demand analysis,0.935
+unix-2.8.5.1,System.Posix.Resource,Desugar,0.88
+unix-2.8.5.1,System.Posix.Resource,Exitification transformation,0.011
+unix-2.8.5.1,System.Posix.Resource,Float inwards,0.019
+unix-2.8.5.1,System.Posix.Resource,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.451
+unix-2.8.5.1,System.Posix.Resource,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.639
+unix-2.8.5.1,System.Posix.Resource,Parser,1.797
+unix-2.8.5.1,System.Posix.Resource,Renamer/typechecker,4.556
+unix-2.8.5.1,System.Posix.Resource,Simplifier,36.549
+unix-2.8.5.1,System.Posix.Resource,Specialise,0.233
+unix-2.8.5.1,System.Posix.Resource,Worker Wrapper binds,0.084
+unix-2.8.5.1,System.Posix.Semaphore,Called arity analysis,0.011
+unix-2.8.5.1,System.Posix.Semaphore,CodeGen,41.97
+unix-2.8.5.1,System.Posix.Semaphore,Common sub-expression,0.017
+unix-2.8.5.1,System.Posix.Semaphore,Constructed Product Result analysis,0.159
+unix-2.8.5.1,System.Posix.Semaphore,CorePrep,0.611
+unix-2.8.5.1,System.Posix.Semaphore,CoreTidy,0.822
+unix-2.8.5.1,System.Posix.Semaphore,CoreToStg,1.73
+unix-2.8.5.1,System.Posix.Semaphore,Demand analysis,1.302
+unix-2.8.5.1,System.Posix.Semaphore,Desugar,0.428
+unix-2.8.5.1,System.Posix.Semaphore,Exitification transformation,0.012
+unix-2.8.5.1,System.Posix.Semaphore,Float inwards,0.026
+unix-2.8.5.1,System.Posix.Semaphore,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.082
+unix-2.8.5.1,System.Posix.Semaphore,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.416
+unix-2.8.5.1,System.Posix.Semaphore,Parser,2.133
+unix-2.8.5.1,System.Posix.Semaphore,Renamer/typechecker,8.235
+unix-2.8.5.1,System.Posix.Semaphore,Simplifier,30.363
+unix-2.8.5.1,System.Posix.Semaphore,Specialise,0.179
+unix-2.8.5.1,System.Posix.Semaphore,Worker Wrapper binds,0.079
+unix-2.8.5.1,System.Posix.SharedMem,Called arity analysis,0.011
+unix-2.8.5.1,System.Posix.SharedMem,CodeGen,16.097
+unix-2.8.5.1,System.Posix.SharedMem,Common sub-expression,0.014
+unix-2.8.5.1,System.Posix.SharedMem,Constructed Product Result analysis,0.064
+unix-2.8.5.1,System.Posix.SharedMem,CorePrep,0.269
+unix-2.8.5.1,System.Posix.SharedMem,CoreTidy,0.3
+unix-2.8.5.1,System.Posix.SharedMem,CoreToStg,1.166
+unix-2.8.5.1,System.Posix.SharedMem,Demand analysis,0.32
+unix-2.8.5.1,System.Posix.SharedMem,Desugar,0.212
+unix-2.8.5.1,System.Posix.SharedMem,Exitification transformation,0.01
+unix-2.8.5.1,System.Posix.SharedMem,Float inwards,0.023
+unix-2.8.5.1,System.Posix.SharedMem,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.39
+unix-2.8.5.1,System.Posix.SharedMem,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.215
+unix-2.8.5.1,System.Posix.SharedMem,Parser,1.781
+unix-2.8.5.1,System.Posix.SharedMem,Renamer/typechecker,2.455
+unix-2.8.5.1,System.Posix.SharedMem,Simplifier,11.168
+unix-2.8.5.1,System.Posix.SharedMem,Specialise,0.081
+unix-2.8.5.1,System.Posix.SharedMem,Worker Wrapper binds,0.057
+unix-2.8.5.1,System.Posix.Signals,Called arity analysis,0.01
+unix-2.8.5.1,System.Posix.Signals,CodeGen,138.352
+unix-2.8.5.1,System.Posix.Signals,Constructed Product Result analysis,0.259
+unix-2.8.5.1,System.Posix.Signals,CorePrep,2.097
+unix-2.8.5.1,System.Posix.Signals,CoreTidy,1.717
+unix-2.8.5.1,System.Posix.Signals,CoreToStg,6.992
+unix-2.8.5.1,System.Posix.Signals,Demand analysis,1.988
+unix-2.8.5.1,System.Posix.Signals,Desugar,1.284
+unix-2.8.5.1,System.Posix.Signals,Exitification transformation,0.011
+unix-2.8.5.1,System.Posix.Signals,Float inwards,0.02
+unix-2.8.5.1,System.Posix.Signals,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",3.375
+unix-2.8.5.1,System.Posix.Signals,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.898
+unix-2.8.5.1,System.Posix.Signals,Parser,6.915
+unix-2.8.5.1,System.Posix.Signals,Renamer/typechecker,14.234
+unix-2.8.5.1,System.Posix.Signals,Simplifier,90.11
+unix-2.8.5.1,System.Posix.Signals,Specialise,0.576
+unix-2.8.5.1,System.Posix.Signals,Worker Wrapper binds,0.143
+unix-2.8.5.1,System.Posix.Signals.Exts,Called arity analysis,0.015
+unix-2.8.5.1,System.Posix.Signals.Exts,CodeGen,1.084
+unix-2.8.5.1,System.Posix.Signals.Exts,Common sub-expression,0.009
+unix-2.8.5.1,System.Posix.Signals.Exts,Constructed Product Result analysis,0.015
+unix-2.8.5.1,System.Posix.Signals.Exts,CorePrep,0.07500000000000001
+unix-2.8.5.1,System.Posix.Signals.Exts,CoreTidy,0.07
+unix-2.8.5.1,System.Posix.Signals.Exts,CoreToStg,0.118
+unix-2.8.5.1,System.Posix.Signals.Exts,Demand analysis,0.09899999999999999
+unix-2.8.5.1,System.Posix.Signals.Exts,Desugar,0.185
+unix-2.8.5.1,System.Posix.Signals.Exts,Exitification transformation,0.01
+unix-2.8.5.1,System.Posix.Signals.Exts,Float inwards,0.020999999999999998
+unix-2.8.5.1,System.Posix.Signals.Exts,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.086
+unix-2.8.5.1,System.Posix.Signals.Exts,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.031
+unix-2.8.5.1,System.Posix.Signals.Exts,Parser,1.036
+unix-2.8.5.1,System.Posix.Signals.Exts,Renamer/typechecker,1.016
+unix-2.8.5.1,System.Posix.Signals.Exts,Simplifier,0.744
+unix-2.8.5.1,System.Posix.Signals.Exts,Specialise,0.033
+unix-2.8.5.1,System.Posix.Signals.Exts,Worker Wrapper binds,0.013
+unix-2.8.5.1,System.Posix.Temp,Called arity analysis,0.01
+unix-2.8.5.1,System.Posix.Temp,CodeGen,16.619999999999997
+unix-2.8.5.1,System.Posix.Temp,Common sub-expression,0.009
+unix-2.8.5.1,System.Posix.Temp,Constructed Product Result analysis,0.096
+unix-2.8.5.1,System.Posix.Temp,CorePrep,0.375
+unix-2.8.5.1,System.Posix.Temp,CoreTidy,0.392
+unix-2.8.5.1,System.Posix.Temp,CoreToStg,0.881
+unix-2.8.5.1,System.Posix.Temp,Demand analysis,0.395
+unix-2.8.5.1,System.Posix.Temp,Desugar,0.301
+unix-2.8.5.1,System.Posix.Temp,Exitification transformation,0.01
+unix-2.8.5.1,System.Posix.Temp,Float inwards,0.022
+unix-2.8.5.1,System.Posix.Temp,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.592
+unix-2.8.5.1,System.Posix.Temp,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.457
+unix-2.8.5.1,System.Posix.Temp,Parser,1.071
+unix-2.8.5.1,System.Posix.Temp,Renamer/typechecker,2.242
+unix-2.8.5.1,System.Posix.Temp,Simplifier,10.953
+unix-2.8.5.1,System.Posix.Temp,Specialise,0.083
+unix-2.8.5.1,System.Posix.Temp,Worker Wrapper binds,0.073
+unix-2.8.5.1,System.Posix.Temp.ByteString,Called arity analysis,0.01
+unix-2.8.5.1,System.Posix.Temp.ByteString,CodeGen,18.28
+unix-2.8.5.1,System.Posix.Temp.ByteString,Common sub-expression,0.01
+unix-2.8.5.1,System.Posix.Temp.ByteString,Constructed Product Result analysis,0.067
+unix-2.8.5.1,System.Posix.Temp.ByteString,CorePrep,0.3
+unix-2.8.5.1,System.Posix.Temp.ByteString,CoreTidy,0.36
+unix-2.8.5.1,System.Posix.Temp.ByteString,CoreToStg,0.903
+unix-2.8.5.1,System.Posix.Temp.ByteString,Demand analysis,0.361
+unix-2.8.5.1,System.Posix.Temp.ByteString,Desugar,0.188
+unix-2.8.5.1,System.Posix.Temp.ByteString,Exitification transformation,0.02
+unix-2.8.5.1,System.Posix.Temp.ByteString,Float inwards,0.02
+unix-2.8.5.1,System.Posix.Temp.ByteString,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.484
+unix-2.8.5.1,System.Posix.Temp.ByteString,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.522
+unix-2.8.5.1,System.Posix.Temp.ByteString,Parser,0.957
+unix-2.8.5.1,System.Posix.Temp.ByteString,Renamer/typechecker,2.761
+unix-2.8.5.1,System.Posix.Temp.ByteString,Simplifier,9.584
+unix-2.8.5.1,System.Posix.Temp.ByteString,Specialise,0.074
+unix-2.8.5.1,System.Posix.Temp.ByteString,Worker Wrapper binds,0.045
+unix-2.8.5.1,System.Posix.Temp.PosixString,Called arity analysis,0.011
+unix-2.8.5.1,System.Posix.Temp.PosixString,CodeGen,19.866
+unix-2.8.5.1,System.Posix.Temp.PosixString,Common sub-expression,0.015
+unix-2.8.5.1,System.Posix.Temp.PosixString,Constructed Product Result analysis,0.083
+unix-2.8.5.1,System.Posix.Temp.PosixString,CorePrep,0.41800000000000004
+unix-2.8.5.1,System.Posix.Temp.PosixString,CoreTidy,0.499
+unix-2.8.5.1,System.Posix.Temp.PosixString,CoreToStg,1.159
+unix-2.8.5.1,System.Posix.Temp.PosixString,Demand analysis,0.516
+unix-2.8.5.1,System.Posix.Temp.PosixString,Desugar,0.22
+unix-2.8.5.1,System.Posix.Temp.PosixString,Exitification transformation,0.011
+unix-2.8.5.1,System.Posix.Temp.PosixString,Float inwards,0.025
+unix-2.8.5.1,System.Posix.Temp.PosixString,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.969
+unix-2.8.5.1,System.Posix.Temp.PosixString,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.144
+unix-2.8.5.1,System.Posix.Temp.PosixString,Parser,1.335
+unix-2.8.5.1,System.Posix.Temp.PosixString,Renamer/typechecker,2.77
+unix-2.8.5.1,System.Posix.Temp.PosixString,Simplifier,15.706
+unix-2.8.5.1,System.Posix.Temp.PosixString,Specialise,0.154
+unix-2.8.5.1,System.Posix.Temp.PosixString,Worker Wrapper binds,0.052
+unix-2.8.5.1,System.Posix.Terminal,Called arity analysis,0.01
+unix-2.8.5.1,System.Posix.Terminal,CodeGen,12.415
+unix-2.8.5.1,System.Posix.Terminal,Common sub-expression,0.012
+unix-2.8.5.1,System.Posix.Terminal,Constructed Product Result analysis,0.068
+unix-2.8.5.1,System.Posix.Terminal,CorePrep,0.41
+unix-2.8.5.1,System.Posix.Terminal,CoreTidy,0.346
+unix-2.8.5.1,System.Posix.Terminal,CoreToStg,0.877
+unix-2.8.5.1,System.Posix.Terminal,Demand analysis,0.41200000000000003
+unix-2.8.5.1,System.Posix.Terminal,Desugar,0.209
+unix-2.8.5.1,System.Posix.Terminal,Exitification transformation,0.01
+unix-2.8.5.1,System.Posix.Terminal,Float inwards,0.019
+unix-2.8.5.1,System.Posix.Terminal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.334
+unix-2.8.5.1,System.Posix.Terminal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.369
+unix-2.8.5.1,System.Posix.Terminal,Parser,1.06
+unix-2.8.5.1,System.Posix.Terminal,Renamer/typechecker,2.034
+unix-2.8.5.1,System.Posix.Terminal,Simplifier,8.106
+unix-2.8.5.1,System.Posix.Terminal,Specialise,0.086
+unix-2.8.5.1,System.Posix.Terminal,Worker Wrapper binds,0.052
+unix-2.8.5.1,System.Posix.Terminal.ByteString,Called arity analysis,0.012
+unix-2.8.5.1,System.Posix.Terminal.ByteString,CodeGen,14.985
+unix-2.8.5.1,System.Posix.Terminal.ByteString,Common sub-expression,0.019
+unix-2.8.5.1,System.Posix.Terminal.ByteString,Constructed Product Result analysis,0.06
+unix-2.8.5.1,System.Posix.Terminal.ByteString,CorePrep,0.349
+unix-2.8.5.1,System.Posix.Terminal.ByteString,CoreTidy,0.438
+unix-2.8.5.1,System.Posix.Terminal.ByteString,CoreToStg,0.9299999999999999
+unix-2.8.5.1,System.Posix.Terminal.ByteString,Demand analysis,0.33499999999999996
+unix-2.8.5.1,System.Posix.Terminal.ByteString,Desugar,0.229
+unix-2.8.5.1,System.Posix.Terminal.ByteString,Exitification transformation,0.018
+unix-2.8.5.1,System.Posix.Terminal.ByteString,Float inwards,0.028999999999999998
+unix-2.8.5.1,System.Posix.Terminal.ByteString,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.342
+unix-2.8.5.1,System.Posix.Terminal.ByteString,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.487
+unix-2.8.5.1,System.Posix.Terminal.ByteString,Parser,1.281
+unix-2.8.5.1,System.Posix.Terminal.ByteString,Renamer/typechecker,2.203
+unix-2.8.5.1,System.Posix.Terminal.ByteString,Simplifier,12.298
+unix-2.8.5.1,System.Posix.Terminal.ByteString,Specialise,0.064
+unix-2.8.5.1,System.Posix.Terminal.ByteString,Worker Wrapper binds,0.045
+unix-2.8.5.1,System.Posix.Terminal.Common,Called arity analysis,0.02
+unix-2.8.5.1,System.Posix.Terminal.Common,CodeGen,178.422
+unix-2.8.5.1,System.Posix.Terminal.Common,Common sub-expression,0.032
+unix-2.8.5.1,System.Posix.Terminal.Common,Constructed Product Result analysis,0.712
+unix-2.8.5.1,System.Posix.Terminal.Common,CorePrep,3.924
+unix-2.8.5.1,System.Posix.Terminal.Common,CoreTidy,3.703
+unix-2.8.5.1,System.Posix.Terminal.Common,CoreToStg,13.645
+unix-2.8.5.1,System.Posix.Terminal.Common,Demand analysis,5.439
+unix-2.8.5.1,System.Posix.Terminal.Common,Desugar,2.775
+unix-2.8.5.1,System.Posix.Terminal.Common,Exitification transformation,0.015
+unix-2.8.5.1,System.Posix.Terminal.Common,Float inwards,0.027
+unix-2.8.5.1,System.Posix.Terminal.Common,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",10.326
+unix-2.8.5.1,System.Posix.Terminal.Common,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",10.089
+unix-2.8.5.1,System.Posix.Terminal.Common,Parser,10.393
+unix-2.8.5.1,System.Posix.Terminal.Common,Renamer/typechecker,28.403
+unix-2.8.5.1,System.Posix.Terminal.Common,Simplifier,181.627
+unix-2.8.5.1,System.Posix.Terminal.Common,Specialise,1.335
+unix-2.8.5.1,System.Posix.Terminal.Common,Worker Wrapper binds,0.897
+unix-2.8.5.1,System.Posix.Terminal.PosixString,Called arity analysis,0.019
+unix-2.8.5.1,System.Posix.Terminal.PosixString,CodeGen,13.283000000000001
+unix-2.8.5.1,System.Posix.Terminal.PosixString,Common sub-expression,0.012
+unix-2.8.5.1,System.Posix.Terminal.PosixString,Constructed Product Result analysis,0.065
+unix-2.8.5.1,System.Posix.Terminal.PosixString,CorePrep,0.386
+unix-2.8.5.1,System.Posix.Terminal.PosixString,CoreTidy,0.463
+unix-2.8.5.1,System.Posix.Terminal.PosixString,CoreToStg,1.0150000000000001
+unix-2.8.5.1,System.Posix.Terminal.PosixString,Demand analysis,0.494
+unix-2.8.5.1,System.Posix.Terminal.PosixString,Desugar,0.243
+unix-2.8.5.1,System.Posix.Terminal.PosixString,Exitification transformation,0.012
+unix-2.8.5.1,System.Posix.Terminal.PosixString,Float inwards,0.023
+unix-2.8.5.1,System.Posix.Terminal.PosixString,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.386
+unix-2.8.5.1,System.Posix.Terminal.PosixString,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.507
+unix-2.8.5.1,System.Posix.Terminal.PosixString,Parser,1.657
+unix-2.8.5.1,System.Posix.Terminal.PosixString,Renamer/typechecker,2.003
+unix-2.8.5.1,System.Posix.Terminal.PosixString,Simplifier,10.689
+unix-2.8.5.1,System.Posix.Terminal.PosixString,Specialise,0.117
+unix-2.8.5.1,System.Posix.Terminal.PosixString,Worker Wrapper binds,0.047
+unix-2.8.5.1,System.Posix.Time,Called arity analysis,0.013
+unix-2.8.5.1,System.Posix.Time,CodeGen,3.1559999999999997
+unix-2.8.5.1,System.Posix.Time,Common sub-expression,0.012
+unix-2.8.5.1,System.Posix.Time,Constructed Product Result analysis,0.041
+unix-2.8.5.1,System.Posix.Time,CorePrep,0.249
+unix-2.8.5.1,System.Posix.Time,CoreTidy,0.106
+unix-2.8.5.1,System.Posix.Time,CoreToStg,0.40800000000000003
+unix-2.8.5.1,System.Posix.Time,Demand analysis,0.107
+unix-2.8.5.1,System.Posix.Time,Desugar,0.075
+unix-2.8.5.1,System.Posix.Time,Exitification transformation,0.016
+unix-2.8.5.1,System.Posix.Time,Float inwards,0.024
+unix-2.8.5.1,System.Posix.Time,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.121
+unix-2.8.5.1,System.Posix.Time,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.084
+unix-2.8.5.1,System.Posix.Time,Parser,0.372
+unix-2.8.5.1,System.Posix.Time,Renamer/typechecker,1.506
+unix-2.8.5.1,System.Posix.Time,Simplifier,1.986
+unix-2.8.5.1,System.Posix.Time,Specialise,0.036
+unix-2.8.5.1,System.Posix.Time,Worker Wrapper binds,0.034
+unix-2.8.5.1,System.Posix.Unistd,Called arity analysis,0.019
+unix-2.8.5.1,System.Posix.Unistd,CodeGen,39.183
+unix-2.8.5.1,System.Posix.Unistd,Common sub-expression,0.01
+unix-2.8.5.1,System.Posix.Unistd,Constructed Product Result analysis,0.151
+unix-2.8.5.1,System.Posix.Unistd,CorePrep,0.967
+unix-2.8.5.1,System.Posix.Unistd,CoreTidy,0.875
+unix-2.8.5.1,System.Posix.Unistd,CoreToStg,1.779
+unix-2.8.5.1,System.Posix.Unistd,Demand analysis,0.905
+unix-2.8.5.1,System.Posix.Unistd,Desugar,0.597
+unix-2.8.5.1,System.Posix.Unistd,Exitification transformation,0.012
+unix-2.8.5.1,System.Posix.Unistd,Float inwards,0.022
+unix-2.8.5.1,System.Posix.Unistd,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.992
+unix-2.8.5.1,System.Posix.Unistd,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.03
+unix-2.8.5.1,System.Posix.Unistd,Parser,1.8
+unix-2.8.5.1,System.Posix.Unistd,Renamer/typechecker,5.147
+unix-2.8.5.1,System.Posix.Unistd,Simplifier,27.808
+unix-2.8.5.1,System.Posix.Unistd,Specialise,0.198
+unix-2.8.5.1,System.Posix.Unistd,Worker Wrapper binds,0.078
+unix-2.8.5.1,System.Posix.User,Called arity analysis,0.013
+unix-2.8.5.1,System.Posix.User,CodeGen,99.721
+unix-2.8.5.1,System.Posix.User,Common sub-expression,0.015
+unix-2.8.5.1,System.Posix.User,Constructed Product Result analysis,0.505
+unix-2.8.5.1,System.Posix.User,CorePrep,1.718
+unix-2.8.5.1,System.Posix.User,CoreTidy,1.881
+unix-2.8.5.1,System.Posix.User,CoreToStg,8.472000000000001
+unix-2.8.5.1,System.Posix.User,Demand analysis,4.3469999999999995
+unix-2.8.5.1,System.Posix.User,Desugar,0.901
+unix-2.8.5.1,System.Posix.User,Exitification transformation,0.016
+unix-2.8.5.1,System.Posix.User,Float inwards,0.026
+unix-2.8.5.1,System.Posix.User,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",3.547
+unix-2.8.5.1,System.Posix.User,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",3.824
+unix-2.8.5.1,System.Posix.User,Parser,4.773
+unix-2.8.5.1,System.Posix.User,Renamer/typechecker,12.603
+unix-2.8.5.1,System.Posix.User,Simplifier,88.826
+unix-2.8.5.1,System.Posix.User,Specialise,0.588
+unix-2.8.5.1,System.Posix.User,Worker Wrapper binds,0.228
+unix-2.8.5.1,System.Posix.User.ByteString,Called arity analysis,0.011
+unix-2.8.5.1,System.Posix.User.ByteString,CodeGen,90.316
+unix-2.8.5.1,System.Posix.User.ByteString,Common sub-expression,0.04
+unix-2.8.5.1,System.Posix.User.ByteString,Constructed Product Result analysis,0.364
+unix-2.8.5.1,System.Posix.User.ByteString,CorePrep,1.842
+unix-2.8.5.1,System.Posix.User.ByteString,CoreTidy,3.192
+unix-2.8.5.1,System.Posix.User.ByteString,CoreToStg,5.445
+unix-2.8.5.1,System.Posix.User.ByteString,Demand analysis,3.145
+unix-2.8.5.1,System.Posix.User.ByteString,Desugar,0.735
+unix-2.8.5.1,System.Posix.User.ByteString,Exitification transformation,0.015
+unix-2.8.5.1,System.Posix.User.ByteString,Float inwards,0.024
+unix-2.8.5.1,System.Posix.User.ByteString,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",3.511
+unix-2.8.5.1,System.Posix.User.ByteString,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",5.792
+unix-2.8.5.1,System.Posix.User.ByteString,Parser,3.242
+unix-2.8.5.1,System.Posix.User.ByteString,Renamer/typechecker,9.415
+unix-2.8.5.1,System.Posix.User.ByteString,Simplifier,90.144
+unix-2.8.5.1,System.Posix.User.ByteString,Specialise,0.534
+unix-2.8.5.1,System.Posix.User.ByteString,Worker Wrapper binds,0.137
+unix-2.8.5.1,System.Posix.User.Common,Called arity analysis,0.014
+unix-2.8.5.1,System.Posix.User.Common,CodeGen,125.719
+unix-2.8.5.1,System.Posix.User.Common,Common sub-expression,0.013
+unix-2.8.5.1,System.Posix.User.Common,Constructed Product Result analysis,0.385
+unix-2.8.5.1,System.Posix.User.Common,CorePrep,2.117
+unix-2.8.5.1,System.Posix.User.Common,CoreTidy,2.113
+unix-2.8.5.1,System.Posix.User.Common,CoreToStg,4.8149999999999995
+unix-2.8.5.1,System.Posix.User.Common,Demand analysis,3.784
+unix-2.8.5.1,System.Posix.User.Common,Desugar,0.38
+unix-2.8.5.1,System.Posix.User.Common,Exitification transformation,0.016
+unix-2.8.5.1,System.Posix.User.Common,Float inwards,0.025
+unix-2.8.5.1,System.Posix.User.Common,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.911
+unix-2.8.5.1,System.Posix.User.Common,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",7.381
+unix-2.8.5.1,System.Posix.User.Common,Parser,0.866
+unix-2.8.5.1,System.Posix.User.Common,Renamer/typechecker,5.558
+unix-2.8.5.1,System.Posix.User.Common,Simplifier,109.967
+unix-2.8.5.1,System.Posix.User.Common,Specialise,0.559
+unix-2.8.5.1,System.Posix.User.Common,Worker Wrapper binds,0.215

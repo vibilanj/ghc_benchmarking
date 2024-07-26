@@ -1,421 +1,421 @@
 package,module,phase,time
-vector-0.13.1.0,Data.Vector,Called arity analysis,0.009
-vector-0.13.1.0,Data.Vector,CodeGen,1270.8220000000001
-vector-0.13.1.0,Data.Vector,Common sub-expression,0.026000000000000002
-vector-0.13.1.0,Data.Vector,Constructed Product Result analysis,19.973
-vector-0.13.1.0,Data.Vector,CorePrep,24.518
-vector-0.13.1.0,Data.Vector,CoreTidy,43.442
-vector-0.13.1.0,Data.Vector,CoreToStg,288.611
-vector-0.13.1.0,Data.Vector,Demand analysis,218.587
-vector-0.13.1.0,Data.Vector,Desugar,80.3
-vector-0.13.1.0,Data.Vector,Exitification transformation,0.013
-vector-0.13.1.0,Data.Vector,Float inwards,0.019
-vector-0.13.1.0,Data.Vector,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",42.916
-vector-0.13.1.0,Data.Vector,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",150.5
-vector-0.13.1.0,Data.Vector,Liberate case,0.012
-vector-0.13.1.0,Data.Vector,Parser,18.687
-vector-0.13.1.0,Data.Vector,Renamer/typechecker,176.431
-vector-0.13.1.0,Data.Vector,Simplifier,6826.132
-vector-0.13.1.0,Data.Vector,SpecConstr,79.196
-vector-0.13.1.0,Data.Vector,Specialise,9.118
-vector-0.13.1.0,Data.Vector,Worker Wrapper binds,9.539
-vector-0.13.1.0,Data.Vector.Fusion.Bundle,Called arity analysis,0.01
-vector-0.13.1.0,Data.Vector.Fusion.Bundle,CodeGen,898.8489999999999
-vector-0.13.1.0,Data.Vector.Fusion.Bundle,Common sub-expression,0.028
-vector-0.13.1.0,Data.Vector.Fusion.Bundle,Constructed Product Result analysis,49.536
-vector-0.13.1.0,Data.Vector.Fusion.Bundle,CorePrep,33.807
-vector-0.13.1.0,Data.Vector.Fusion.Bundle,CoreTidy,16.473
-vector-0.13.1.0,Data.Vector.Fusion.Bundle,CoreToStg,183.248
-vector-0.13.1.0,Data.Vector.Fusion.Bundle,Demand analysis,109.402
-vector-0.13.1.0,Data.Vector.Fusion.Bundle,Desugar,1.019
-vector-0.13.1.0,Data.Vector.Fusion.Bundle,Exitification transformation,0.012
-vector-0.13.1.0,Data.Vector.Fusion.Bundle,Float inwards,0.022
-vector-0.13.1.0,Data.Vector.Fusion.Bundle,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",68.018
-vector-0.13.1.0,Data.Vector.Fusion.Bundle,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",119.777
-vector-0.13.1.0,Data.Vector.Fusion.Bundle,Liberate case,0.01
-vector-0.13.1.0,Data.Vector.Fusion.Bundle,Parser,9.143
-vector-0.13.1.0,Data.Vector.Fusion.Bundle,Renamer/typechecker,35.016
-vector-0.13.1.0,Data.Vector.Fusion.Bundle,Simplifier,2347.685
-vector-0.13.1.0,Data.Vector.Fusion.Bundle,SpecConstr,26.465
-vector-0.13.1.0,Data.Vector.Fusion.Bundle,Specialise,23.404
-vector-0.13.1.0,Data.Vector.Fusion.Bundle,Worker Wrapper binds,1.164
+vector-0.13.1.0,Data.Vector,Called arity analysis,0.01
+vector-0.13.1.0,Data.Vector,CodeGen,1242.327
+vector-0.13.1.0,Data.Vector,Common sub-expression,0.03
+vector-0.13.1.0,Data.Vector,Constructed Product Result analysis,19.282
+vector-0.13.1.0,Data.Vector,CorePrep,27.017000000000003
+vector-0.13.1.0,Data.Vector,CoreTidy,31.747
+vector-0.13.1.0,Data.Vector,CoreToStg,245.563
+vector-0.13.1.0,Data.Vector,Demand analysis,139.385
+vector-0.13.1.0,Data.Vector,Desugar,3.111
+vector-0.13.1.0,Data.Vector,Exitification transformation,0.012
+vector-0.13.1.0,Data.Vector,Float inwards,0.020999999999999998
+vector-0.13.1.0,Data.Vector,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",40.395
+vector-0.13.1.0,Data.Vector,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",159.81
+vector-0.13.1.0,Data.Vector,Liberate case,0.011
+vector-0.13.1.0,Data.Vector,Parser,18.458
+vector-0.13.1.0,Data.Vector,Renamer/typechecker,170.97
+vector-0.13.1.0,Data.Vector,Simplifier,7192.654
+vector-0.13.1.0,Data.Vector,SpecConstr,84.494
+vector-0.13.1.0,Data.Vector,Specialise,20.862
+vector-0.13.1.0,Data.Vector,Worker Wrapper binds,4.155
+vector-0.13.1.0,Data.Vector.Fusion.Bundle,Called arity analysis,0.012
+vector-0.13.1.0,Data.Vector.Fusion.Bundle,CodeGen,871.461
+vector-0.13.1.0,Data.Vector.Fusion.Bundle,Common sub-expression,0.027999999999999997
+vector-0.13.1.0,Data.Vector.Fusion.Bundle,Constructed Product Result analysis,5.739
+vector-0.13.1.0,Data.Vector.Fusion.Bundle,CorePrep,21.724
+vector-0.13.1.0,Data.Vector.Fusion.Bundle,CoreTidy,26.562
+vector-0.13.1.0,Data.Vector.Fusion.Bundle,CoreToStg,182.483
+vector-0.13.1.0,Data.Vector.Fusion.Bundle,Demand analysis,64.057
+vector-0.13.1.0,Data.Vector.Fusion.Bundle,Desugar,1.065
+vector-0.13.1.0,Data.Vector.Fusion.Bundle,Exitification transformation,0.015
+vector-0.13.1.0,Data.Vector.Fusion.Bundle,Float inwards,0.023
+vector-0.13.1.0,Data.Vector.Fusion.Bundle,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",31.054
+vector-0.13.1.0,Data.Vector.Fusion.Bundle,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",86.411
+vector-0.13.1.0,Data.Vector.Fusion.Bundle,Liberate case,0.013
+vector-0.13.1.0,Data.Vector.Fusion.Bundle,Parser,5.954
+vector-0.13.1.0,Data.Vector.Fusion.Bundle,Renamer/typechecker,33.399
+vector-0.13.1.0,Data.Vector.Fusion.Bundle,Simplifier,2507.675
+vector-0.13.1.0,Data.Vector.Fusion.Bundle,SpecConstr,26.951
+vector-0.13.1.0,Data.Vector.Fusion.Bundle,Specialise,24.569
+vector-0.13.1.0,Data.Vector.Fusion.Bundle,Worker Wrapper binds,1.362
 vector-0.13.1.0,Data.Vector.Fusion.Bundle.Monadic,Called arity analysis,0.011
-vector-0.13.1.0,Data.Vector.Fusion.Bundle.Monadic,CodeGen,1963.435
-vector-0.13.1.0,Data.Vector.Fusion.Bundle.Monadic,Common sub-expression,0.031
-vector-0.13.1.0,Data.Vector.Fusion.Bundle.Monadic,Constructed Product Result analysis,5.956
-vector-0.13.1.0,Data.Vector.Fusion.Bundle.Monadic,CorePrep,58.719
-vector-0.13.1.0,Data.Vector.Fusion.Bundle.Monadic,CoreTidy,38.921
-vector-0.13.1.0,Data.Vector.Fusion.Bundle.Monadic,CoreToStg,357.969
-vector-0.13.1.0,Data.Vector.Fusion.Bundle.Monadic,Demand analysis,131.837
-vector-0.13.1.0,Data.Vector.Fusion.Bundle.Monadic,Desugar,12.56
-vector-0.13.1.0,Data.Vector.Fusion.Bundle.Monadic,Exitification transformation,0.014
-vector-0.13.1.0,Data.Vector.Fusion.Bundle.Monadic,Float inwards,0.023
-vector-0.13.1.0,Data.Vector.Fusion.Bundle.Monadic,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",107.142
-vector-0.13.1.0,Data.Vector.Fusion.Bundle.Monadic,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",139.023
-vector-0.13.1.0,Data.Vector.Fusion.Bundle.Monadic,Liberate case,0.012
-vector-0.13.1.0,Data.Vector.Fusion.Bundle.Monadic,Parser,35.609
-vector-0.13.1.0,Data.Vector.Fusion.Bundle.Monadic,Renamer/typechecker,140.783
-vector-0.13.1.0,Data.Vector.Fusion.Bundle.Monadic,Simplifier,4012.7580000000003
-vector-0.13.1.0,Data.Vector.Fusion.Bundle.Monadic,SpecConstr,42.74
-vector-0.13.1.0,Data.Vector.Fusion.Bundle.Monadic,Specialise,7.803
-vector-0.13.1.0,Data.Vector.Fusion.Bundle.Monadic,Worker Wrapper binds,1.893
-vector-0.13.1.0,Data.Vector.Fusion.Bundle.Size,Called arity analysis,0.02
-vector-0.13.1.0,Data.Vector.Fusion.Bundle.Size,CodeGen,90.32900000000001
-vector-0.13.1.0,Data.Vector.Fusion.Bundle.Size,Common sub-expression,0.059
-vector-0.13.1.0,Data.Vector.Fusion.Bundle.Size,Constructed Product Result analysis,0.273
-vector-0.13.1.0,Data.Vector.Fusion.Bundle.Size,CorePrep,1.029
-vector-0.13.1.0,Data.Vector.Fusion.Bundle.Size,CoreTidy,1.214
-vector-0.13.1.0,Data.Vector.Fusion.Bundle.Size,CoreToStg,3.69
-vector-0.13.1.0,Data.Vector.Fusion.Bundle.Size,Demand analysis,1.6800000000000002
-vector-0.13.1.0,Data.Vector.Fusion.Bundle.Size,Desugar,6.53
-vector-0.13.1.0,Data.Vector.Fusion.Bundle.Size,Exitification transformation,0.022
-vector-0.13.1.0,Data.Vector.Fusion.Bundle.Size,Float inwards,0.052000000000000005
-vector-0.13.1.0,Data.Vector.Fusion.Bundle.Size,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.445
-vector-0.13.1.0,Data.Vector.Fusion.Bundle.Size,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",3.088
-vector-0.13.1.0,Data.Vector.Fusion.Bundle.Size,Liberate case,0.031
-vector-0.13.1.0,Data.Vector.Fusion.Bundle.Size,Parser,2.877
-vector-0.13.1.0,Data.Vector.Fusion.Bundle.Size,Renamer/typechecker,16.103
-vector-0.13.1.0,Data.Vector.Fusion.Bundle.Size,Simplifier,94.8
-vector-0.13.1.0,Data.Vector.Fusion.Bundle.Size,SpecConstr,0.433
-vector-0.13.1.0,Data.Vector.Fusion.Bundle.Size,Specialise,0.471
-vector-0.13.1.0,Data.Vector.Fusion.Bundle.Size,Worker Wrapper binds,0.141
-vector-0.13.1.0,Data.Vector.Fusion.Stream.Monadic,Called arity analysis,0.019
-vector-0.13.1.0,Data.Vector.Fusion.Stream.Monadic,CodeGen,3.1479999999999997
-vector-0.13.1.0,Data.Vector.Fusion.Stream.Monadic,Common sub-expression,0.037
-vector-0.13.1.0,Data.Vector.Fusion.Stream.Monadic,Constructed Product Result analysis,0.021
-vector-0.13.1.0,Data.Vector.Fusion.Stream.Monadic,CorePrep,1.013
-vector-0.13.1.0,Data.Vector.Fusion.Stream.Monadic,CoreTidy,0.097
-vector-0.13.1.0,Data.Vector.Fusion.Stream.Monadic,CoreToStg,0.22799999999999998
-vector-0.13.1.0,Data.Vector.Fusion.Stream.Monadic,Demand analysis,0.08199999999999999
-vector-0.13.1.0,Data.Vector.Fusion.Stream.Monadic,Desugar,0.108
-vector-0.13.1.0,Data.Vector.Fusion.Stream.Monadic,Exitification transformation,0.019
-vector-0.13.1.0,Data.Vector.Fusion.Stream.Monadic,Float inwards,0.035
-vector-0.13.1.0,Data.Vector.Fusion.Stream.Monadic,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.087
-vector-0.13.1.0,Data.Vector.Fusion.Stream.Monadic,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.086
-vector-0.13.1.0,Data.Vector.Fusion.Stream.Monadic,Liberate case,0.019
-vector-0.13.1.0,Data.Vector.Fusion.Stream.Monadic,Parser,0.171
-vector-0.13.1.0,Data.Vector.Fusion.Stream.Monadic,Renamer/typechecker,19.682
-vector-0.13.1.0,Data.Vector.Fusion.Stream.Monadic,Simplifier,1.036
-vector-0.13.1.0,Data.Vector.Fusion.Stream.Monadic,SpecConstr,0.03
-vector-0.13.1.0,Data.Vector.Fusion.Stream.Monadic,Specialise,0.033
-vector-0.13.1.0,Data.Vector.Fusion.Stream.Monadic,Worker Wrapper binds,0.02
-vector-0.13.1.0,Data.Vector.Fusion.Util,Called arity analysis,0.018
-vector-0.13.1.0,Data.Vector.Fusion.Util,CodeGen,13.581
-vector-0.13.1.0,Data.Vector.Fusion.Util,Common sub-expression,0.038
-vector-0.13.1.0,Data.Vector.Fusion.Util,Constructed Product Result analysis,0.08
-vector-0.13.1.0,Data.Vector.Fusion.Util,CorePrep,0.395
-vector-0.13.1.0,Data.Vector.Fusion.Util,CoreTidy,0.439
-vector-0.13.1.0,Data.Vector.Fusion.Util,CoreToStg,0.8500000000000001
-vector-0.13.1.0,Data.Vector.Fusion.Util,Demand analysis,0.556
-vector-0.13.1.0,Data.Vector.Fusion.Util,Desugar,0.359
-vector-0.13.1.0,Data.Vector.Fusion.Util,Exitification transformation,0.022
-vector-0.13.1.0,Data.Vector.Fusion.Util,Float inwards,0.035
-vector-0.13.1.0,Data.Vector.Fusion.Util,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.384
-vector-0.13.1.0,Data.Vector.Fusion.Util,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.333
-vector-0.13.1.0,Data.Vector.Fusion.Util,Liberate case,0.019
-vector-0.13.1.0,Data.Vector.Fusion.Util,Parser,0.822
-vector-0.13.1.0,Data.Vector.Fusion.Util,Renamer/typechecker,12.977
-vector-0.13.1.0,Data.Vector.Fusion.Util,Simplifier,10.488
-vector-0.13.1.0,Data.Vector.Fusion.Util,SpecConstr,0.272
-vector-0.13.1.0,Data.Vector.Fusion.Util,Specialise,0.121
-vector-0.13.1.0,Data.Vector.Fusion.Util,Worker Wrapper binds,0.078
-vector-0.13.1.0,Data.Vector.Generic,Called arity analysis,0.009
-vector-0.13.1.0,Data.Vector.Generic,CodeGen,1517.908
-vector-0.13.1.0,Data.Vector.Generic,Common sub-expression,0.028999999999999998
-vector-0.13.1.0,Data.Vector.Generic,Constructed Product Result analysis,14.801
-vector-0.13.1.0,Data.Vector.Generic,CorePrep,55.882999999999996
-vector-0.13.1.0,Data.Vector.Generic,CoreTidy,54.705
-vector-0.13.1.0,Data.Vector.Generic,CoreToStg,318.919
-vector-0.13.1.0,Data.Vector.Generic,Demand analysis,171.161
-vector-0.13.1.0,Data.Vector.Generic,Desugar,8.921
-vector-0.13.1.0,Data.Vector.Generic,Exitification transformation,0.013
-vector-0.13.1.0,Data.Vector.Generic,Float inwards,0.020999999999999998
-vector-0.13.1.0,Data.Vector.Generic,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",54.071
-vector-0.13.1.0,Data.Vector.Generic,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",184.735
-vector-0.13.1.0,Data.Vector.Generic,Liberate case,0.011
-vector-0.13.1.0,Data.Vector.Generic,Parser,36.73
-vector-0.13.1.0,Data.Vector.Generic,Renamer/typechecker,127.022
-vector-0.13.1.0,Data.Vector.Generic,Simplifier,7129.648
-vector-0.13.1.0,Data.Vector.Generic,SpecConstr,68.885
-vector-0.13.1.0,Data.Vector.Generic,Specialise,16.404
-vector-0.13.1.0,Data.Vector.Generic,Worker Wrapper binds,6.959
-vector-0.13.1.0,Data.Vector.Generic.Base,Called arity analysis,0.023
-vector-0.13.1.0,Data.Vector.Generic.Base,CodeGen,24.093
-vector-0.13.1.0,Data.Vector.Generic.Base,Common sub-expression,0.052000000000000005
-vector-0.13.1.0,Data.Vector.Generic.Base,Constructed Product Result analysis,0.144
-vector-0.13.1.0,Data.Vector.Generic.Base,CorePrep,0.5960000000000001
-vector-0.13.1.0,Data.Vector.Generic.Base,CoreTidy,0.38
-vector-0.13.1.0,Data.Vector.Generic.Base,CoreToStg,1.8290000000000002
-vector-0.13.1.0,Data.Vector.Generic.Base,Demand analysis,0.855
-vector-0.13.1.0,Data.Vector.Generic.Base,Desugar,0.477
-vector-0.13.1.0,Data.Vector.Generic.Base,Exitification transformation,0.027
-vector-0.13.1.0,Data.Vector.Generic.Base,Float inwards,0.051000000000000004
-vector-0.13.1.0,Data.Vector.Generic.Base,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.583
-vector-0.13.1.0,Data.Vector.Generic.Base,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.523
-vector-0.13.1.0,Data.Vector.Generic.Base,Liberate case,0.019
-vector-0.13.1.0,Data.Vector.Generic.Base,Parser,1.962
-vector-0.13.1.0,Data.Vector.Generic.Base,Renamer/typechecker,4.582
-vector-0.13.1.0,Data.Vector.Generic.Base,Simplifier,16.983
-vector-0.13.1.0,Data.Vector.Generic.Base,SpecConstr,0.206
-vector-0.13.1.0,Data.Vector.Generic.Base,Specialise,0.158
-vector-0.13.1.0,Data.Vector.Generic.Base,Worker Wrapper binds,0.39
-vector-0.13.1.0,Data.Vector.Generic.Mutable,Called arity analysis,0.011
-vector-0.13.1.0,Data.Vector.Generic.Mutable,CodeGen,862.004
-vector-0.13.1.0,Data.Vector.Generic.Mutable,Common sub-expression,0.026
-vector-0.13.1.0,Data.Vector.Generic.Mutable,Constructed Product Result analysis,2.212
-vector-0.13.1.0,Data.Vector.Generic.Mutable,CorePrep,19.707
-vector-0.13.1.0,Data.Vector.Generic.Mutable,CoreTidy,14.528
-vector-0.13.1.0,Data.Vector.Generic.Mutable,CoreToStg,141.516
-vector-0.13.1.0,Data.Vector.Generic.Mutable,Demand analysis,51.609
-vector-0.13.1.0,Data.Vector.Generic.Mutable,Desugar,5.059
-vector-0.13.1.0,Data.Vector.Generic.Mutable,Exitification transformation,0.012
-vector-0.13.1.0,Data.Vector.Generic.Mutable,Float inwards,0.041999999999999996
-vector-0.13.1.0,Data.Vector.Generic.Mutable,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",30.246
-vector-0.13.1.0,Data.Vector.Generic.Mutable,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",34.769
-vector-0.13.1.0,Data.Vector.Generic.Mutable,Liberate case,0.013
-vector-0.13.1.0,Data.Vector.Generic.Mutable,Parser,17.713
-vector-0.13.1.0,Data.Vector.Generic.Mutable,Renamer/typechecker,71.075
-vector-0.13.1.0,Data.Vector.Generic.Mutable,Simplifier,1789.417
-vector-0.13.1.0,Data.Vector.Generic.Mutable,SpecConstr,14.612
-vector-0.13.1.0,Data.Vector.Generic.Mutable,Specialise,7.795
-vector-0.13.1.0,Data.Vector.Generic.Mutable,Worker Wrapper binds,1.114
-vector-0.13.1.0,Data.Vector.Generic.Mutable.Base,Called arity analysis,0.019
-vector-0.13.1.0,Data.Vector.Generic.Mutable.Base,CodeGen,45.612
-vector-0.13.1.0,Data.Vector.Generic.Mutable.Base,Common sub-expression,0.052000000000000005
-vector-0.13.1.0,Data.Vector.Generic.Mutable.Base,Constructed Product Result analysis,0.24
-vector-0.13.1.0,Data.Vector.Generic.Mutable.Base,CorePrep,1.056
-vector-0.13.1.0,Data.Vector.Generic.Mutable.Base,CoreTidy,0.929
-vector-0.13.1.0,Data.Vector.Generic.Mutable.Base,CoreToStg,3.1719999999999997
-vector-0.13.1.0,Data.Vector.Generic.Mutable.Base,Demand analysis,2.13
-vector-0.13.1.0,Data.Vector.Generic.Mutable.Base,Desugar,1.075
-vector-0.13.1.0,Data.Vector.Generic.Mutable.Base,Exitification transformation,0.025
-vector-0.13.1.0,Data.Vector.Generic.Mutable.Base,Float inwards,0.040999999999999995
-vector-0.13.1.0,Data.Vector.Generic.Mutable.Base,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.794
-vector-0.13.1.0,Data.Vector.Generic.Mutable.Base,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.779
-vector-0.13.1.0,Data.Vector.Generic.Mutable.Base,Liberate case,0.031
-vector-0.13.1.0,Data.Vector.Generic.Mutable.Base,Parser,3.416
-vector-0.13.1.0,Data.Vector.Generic.Mutable.Base,Renamer/typechecker,11.343
-vector-0.13.1.0,Data.Vector.Generic.Mutable.Base,Simplifier,46.650999999999996
-vector-0.13.1.0,Data.Vector.Generic.Mutable.Base,SpecConstr,0.416
-vector-0.13.1.0,Data.Vector.Generic.Mutable.Base,Specialise,0.298
-vector-0.13.1.0,Data.Vector.Generic.Mutable.Base,Worker Wrapper binds,0.078
-vector-0.13.1.0,Data.Vector.Generic.New,Called arity analysis,0.009
-vector-0.13.1.0,Data.Vector.Generic.New,CodeGen,86.23599999999999
-vector-0.13.1.0,Data.Vector.Generic.New,Common sub-expression,0.026
-vector-0.13.1.0,Data.Vector.Generic.New,Constructed Product Result analysis,0.427
-vector-0.13.1.0,Data.Vector.Generic.New,CorePrep,1.3079999999999998
-vector-0.13.1.0,Data.Vector.Generic.New,CoreTidy,5.358
-vector-0.13.1.0,Data.Vector.Generic.New,CoreToStg,6.115
-vector-0.13.1.0,Data.Vector.Generic.New,Demand analysis,6.91
-vector-0.13.1.0,Data.Vector.Generic.New,Desugar,0.854
-vector-0.13.1.0,Data.Vector.Generic.New,Exitification transformation,0.012
+vector-0.13.1.0,Data.Vector.Fusion.Bundle.Monadic,CodeGen,1912.9720000000002
+vector-0.13.1.0,Data.Vector.Fusion.Bundle.Monadic,Common sub-expression,0.028999999999999998
+vector-0.13.1.0,Data.Vector.Fusion.Bundle.Monadic,Constructed Product Result analysis,7.473
+vector-0.13.1.0,Data.Vector.Fusion.Bundle.Monadic,CorePrep,58.288000000000004
+vector-0.13.1.0,Data.Vector.Fusion.Bundle.Monadic,CoreTidy,80.143
+vector-0.13.1.0,Data.Vector.Fusion.Bundle.Monadic,CoreToStg,369.909
+vector-0.13.1.0,Data.Vector.Fusion.Bundle.Monadic,Demand analysis,85.232
+vector-0.13.1.0,Data.Vector.Fusion.Bundle.Monadic,Desugar,8.806
+vector-0.13.1.0,Data.Vector.Fusion.Bundle.Monadic,Exitification transformation,0.013
+vector-0.13.1.0,Data.Vector.Fusion.Bundle.Monadic,Float inwards,0.022
+vector-0.13.1.0,Data.Vector.Fusion.Bundle.Monadic,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",28.706
+vector-0.13.1.0,Data.Vector.Fusion.Bundle.Monadic,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",148.799
+vector-0.13.1.0,Data.Vector.Fusion.Bundle.Monadic,Liberate case,0.014
+vector-0.13.1.0,Data.Vector.Fusion.Bundle.Monadic,Parser,45.637
+vector-0.13.1.0,Data.Vector.Fusion.Bundle.Monadic,Renamer/typechecker,82.129
+vector-0.13.1.0,Data.Vector.Fusion.Bundle.Monadic,Simplifier,3777.268
+vector-0.13.1.0,Data.Vector.Fusion.Bundle.Monadic,SpecConstr,33.021
+vector-0.13.1.0,Data.Vector.Fusion.Bundle.Monadic,Specialise,6.683
+vector-0.13.1.0,Data.Vector.Fusion.Bundle.Monadic,Worker Wrapper binds,1.134
+vector-0.13.1.0,Data.Vector.Fusion.Bundle.Size,Called arity analysis,0.011
+vector-0.13.1.0,Data.Vector.Fusion.Bundle.Size,CodeGen,43.617999999999995
+vector-0.13.1.0,Data.Vector.Fusion.Bundle.Size,Common sub-expression,0.02
+vector-0.13.1.0,Data.Vector.Fusion.Bundle.Size,Constructed Product Result analysis,0.148
+vector-0.13.1.0,Data.Vector.Fusion.Bundle.Size,CorePrep,0.46900000000000003
+vector-0.13.1.0,Data.Vector.Fusion.Bundle.Size,CoreTidy,0.542
+vector-0.13.1.0,Data.Vector.Fusion.Bundle.Size,CoreToStg,1.831
+vector-0.13.1.0,Data.Vector.Fusion.Bundle.Size,Demand analysis,0.8
+vector-0.13.1.0,Data.Vector.Fusion.Bundle.Size,Desugar,0.847
+vector-0.13.1.0,Data.Vector.Fusion.Bundle.Size,Exitification transformation,0.014
+vector-0.13.1.0,Data.Vector.Fusion.Bundle.Size,Float inwards,0.024
+vector-0.13.1.0,Data.Vector.Fusion.Bundle.Size,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.958
+vector-0.13.1.0,Data.Vector.Fusion.Bundle.Size,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.169
+vector-0.13.1.0,Data.Vector.Fusion.Bundle.Size,Liberate case,0.013
+vector-0.13.1.0,Data.Vector.Fusion.Bundle.Size,Parser,1.941
+vector-0.13.1.0,Data.Vector.Fusion.Bundle.Size,Renamer/typechecker,10.305
+vector-0.13.1.0,Data.Vector.Fusion.Bundle.Size,Simplifier,45.836
+vector-0.13.1.0,Data.Vector.Fusion.Bundle.Size,SpecConstr,0.141
+vector-0.13.1.0,Data.Vector.Fusion.Bundle.Size,Specialise,0.245
+vector-0.13.1.0,Data.Vector.Fusion.Bundle.Size,Worker Wrapper binds,0.088
+vector-0.13.1.0,Data.Vector.Fusion.Stream.Monadic,Called arity analysis,0.01
+vector-0.13.1.0,Data.Vector.Fusion.Stream.Monadic,CodeGen,0.9289999999999999
+vector-0.13.1.0,Data.Vector.Fusion.Stream.Monadic,Common sub-expression,0.02
+vector-0.13.1.0,Data.Vector.Fusion.Stream.Monadic,Constructed Product Result analysis,0.012
+vector-0.13.1.0,Data.Vector.Fusion.Stream.Monadic,CorePrep,0.608
+vector-0.13.1.0,Data.Vector.Fusion.Stream.Monadic,CoreTidy,0.063
+vector-0.13.1.0,Data.Vector.Fusion.Stream.Monadic,CoreToStg,0.101
+vector-0.13.1.0,Data.Vector.Fusion.Stream.Monadic,Demand analysis,0.069
+vector-0.13.1.0,Data.Vector.Fusion.Stream.Monadic,Desugar,0.048
+vector-0.13.1.0,Data.Vector.Fusion.Stream.Monadic,Exitification transformation,0.011
+vector-0.13.1.0,Data.Vector.Fusion.Stream.Monadic,Float inwards,0.018
+vector-0.13.1.0,Data.Vector.Fusion.Stream.Monadic,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.046
+vector-0.13.1.0,Data.Vector.Fusion.Stream.Monadic,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.051
+vector-0.13.1.0,Data.Vector.Fusion.Stream.Monadic,Liberate case,0.01
+vector-0.13.1.0,Data.Vector.Fusion.Stream.Monadic,Parser,0.084
+vector-0.13.1.0,Data.Vector.Fusion.Stream.Monadic,Renamer/typechecker,10.102
+vector-0.13.1.0,Data.Vector.Fusion.Stream.Monadic,Simplifier,0.552
+vector-0.13.1.0,Data.Vector.Fusion.Stream.Monadic,SpecConstr,0.016
+vector-0.13.1.0,Data.Vector.Fusion.Stream.Monadic,Specialise,0.019
+vector-0.13.1.0,Data.Vector.Fusion.Stream.Monadic,Worker Wrapper binds,0.016
+vector-0.13.1.0,Data.Vector.Fusion.Util,Called arity analysis,0.012
+vector-0.13.1.0,Data.Vector.Fusion.Util,CodeGen,5.821
+vector-0.13.1.0,Data.Vector.Fusion.Util,Common sub-expression,0.027
+vector-0.13.1.0,Data.Vector.Fusion.Util,Constructed Product Result analysis,0.044
+vector-0.13.1.0,Data.Vector.Fusion.Util,CorePrep,0.16399999999999998
+vector-0.13.1.0,Data.Vector.Fusion.Util,CoreTidy,0.214
+vector-0.13.1.0,Data.Vector.Fusion.Util,CoreToStg,0.4
+vector-0.13.1.0,Data.Vector.Fusion.Util,Demand analysis,0.243
+vector-0.13.1.0,Data.Vector.Fusion.Util,Desugar,0.192
+vector-0.13.1.0,Data.Vector.Fusion.Util,Exitification transformation,0.008
+vector-0.13.1.0,Data.Vector.Fusion.Util,Float inwards,0.033
+vector-0.13.1.0,Data.Vector.Fusion.Util,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.187
+vector-0.13.1.0,Data.Vector.Fusion.Util,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.396
+vector-0.13.1.0,Data.Vector.Fusion.Util,Liberate case,0.011
+vector-0.13.1.0,Data.Vector.Fusion.Util,Parser,0.447
+vector-0.13.1.0,Data.Vector.Fusion.Util,Renamer/typechecker,4.787
+vector-0.13.1.0,Data.Vector.Fusion.Util,Simplifier,4.864
+vector-0.13.1.0,Data.Vector.Fusion.Util,SpecConstr,0.085
+vector-0.13.1.0,Data.Vector.Fusion.Util,Specialise,0.063
+vector-0.13.1.0,Data.Vector.Fusion.Util,Worker Wrapper binds,0.044
+vector-0.13.1.0,Data.Vector.Generic,Called arity analysis,0.01
+vector-0.13.1.0,Data.Vector.Generic,CodeGen,1549.7730000000001
+vector-0.13.1.0,Data.Vector.Generic,Common sub-expression,0.026000000000000002
+vector-0.13.1.0,Data.Vector.Generic,Constructed Product Result analysis,14.172
+vector-0.13.1.0,Data.Vector.Generic,CorePrep,49.925999999999995
+vector-0.13.1.0,Data.Vector.Generic,CoreTidy,46.595
+vector-0.13.1.0,Data.Vector.Generic,CoreToStg,318.786
+vector-0.13.1.0,Data.Vector.Generic,Demand analysis,156.538
+vector-0.13.1.0,Data.Vector.Generic,Desugar,16.524
+vector-0.13.1.0,Data.Vector.Generic,Exitification transformation,0.016
+vector-0.13.1.0,Data.Vector.Generic,Float inwards,0.019999999999999997
+vector-0.13.1.0,Data.Vector.Generic,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",63.075
+vector-0.13.1.0,Data.Vector.Generic,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",178.741
+vector-0.13.1.0,Data.Vector.Generic,Liberate case,0.012
+vector-0.13.1.0,Data.Vector.Generic,Parser,32.077
+vector-0.13.1.0,Data.Vector.Generic,Renamer/typechecker,135.316
+vector-0.13.1.0,Data.Vector.Generic,Simplifier,7200.81
+vector-0.13.1.0,Data.Vector.Generic,SpecConstr,66.722
+vector-0.13.1.0,Data.Vector.Generic,Specialise,16.466
+vector-0.13.1.0,Data.Vector.Generic,Worker Wrapper binds,6.251
+vector-0.13.1.0,Data.Vector.Generic.Base,Called arity analysis,0.012
+vector-0.13.1.0,Data.Vector.Generic.Base,CodeGen,8.943999999999999
+vector-0.13.1.0,Data.Vector.Generic.Base,Common sub-expression,0.024
+vector-0.13.1.0,Data.Vector.Generic.Base,Constructed Product Result analysis,0.044
+vector-0.13.1.0,Data.Vector.Generic.Base,CorePrep,0.222
+vector-0.13.1.0,Data.Vector.Generic.Base,CoreTidy,0.166
+vector-0.13.1.0,Data.Vector.Generic.Base,CoreToStg,1.0350000000000001
+vector-0.13.1.0,Data.Vector.Generic.Base,Demand analysis,0.392
+vector-0.13.1.0,Data.Vector.Generic.Base,Desugar,0.238
+vector-0.13.1.0,Data.Vector.Generic.Base,Exitification transformation,0.01
+vector-0.13.1.0,Data.Vector.Generic.Base,Float inwards,0.022
+vector-0.13.1.0,Data.Vector.Generic.Base,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.292
+vector-0.13.1.0,Data.Vector.Generic.Base,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.215
+vector-0.13.1.0,Data.Vector.Generic.Base,Liberate case,0.01
+vector-0.13.1.0,Data.Vector.Generic.Base,Parser,1.037
+vector-0.13.1.0,Data.Vector.Generic.Base,Renamer/typechecker,2.335
+vector-0.13.1.0,Data.Vector.Generic.Base,Simplifier,7.588
+vector-0.13.1.0,Data.Vector.Generic.Base,SpecConstr,0.091
+vector-0.13.1.0,Data.Vector.Generic.Base,Specialise,0.083
+vector-0.13.1.0,Data.Vector.Generic.Base,Worker Wrapper binds,0.157
+vector-0.13.1.0,Data.Vector.Generic.Mutable,Called arity analysis,0.015
+vector-0.13.1.0,Data.Vector.Generic.Mutable,CodeGen,855.7139999999999
+vector-0.13.1.0,Data.Vector.Generic.Mutable,Common sub-expression,0.028
+vector-0.13.1.0,Data.Vector.Generic.Mutable,Constructed Product Result analysis,2.175
+vector-0.13.1.0,Data.Vector.Generic.Mutable,CorePrep,26.767000000000003
+vector-0.13.1.0,Data.Vector.Generic.Mutable,CoreTidy,9.368
+vector-0.13.1.0,Data.Vector.Generic.Mutable,CoreToStg,136.473
+vector-0.13.1.0,Data.Vector.Generic.Mutable,Demand analysis,91.684
+vector-0.13.1.0,Data.Vector.Generic.Mutable,Desugar,12.807
+vector-0.13.1.0,Data.Vector.Generic.Mutable,Exitification transformation,0.013
+vector-0.13.1.0,Data.Vector.Generic.Mutable,Float inwards,0.026
+vector-0.13.1.0,Data.Vector.Generic.Mutable,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",27.611
+vector-0.13.1.0,Data.Vector.Generic.Mutable,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",38.199
+vector-0.13.1.0,Data.Vector.Generic.Mutable,Liberate case,0.011
+vector-0.13.1.0,Data.Vector.Generic.Mutable,Parser,18.085
+vector-0.13.1.0,Data.Vector.Generic.Mutable,Renamer/typechecker,71.137
+vector-0.13.1.0,Data.Vector.Generic.Mutable,Simplifier,1798.259
+vector-0.13.1.0,Data.Vector.Generic.Mutable,SpecConstr,13.866
+vector-0.13.1.0,Data.Vector.Generic.Mutable,Specialise,12.52
+vector-0.13.1.0,Data.Vector.Generic.Mutable,Worker Wrapper binds,1.124
+vector-0.13.1.0,Data.Vector.Generic.Mutable.Base,Called arity analysis,0.018
+vector-0.13.1.0,Data.Vector.Generic.Mutable.Base,CodeGen,20.695
+vector-0.13.1.0,Data.Vector.Generic.Mutable.Base,Common sub-expression,0.020999999999999998
+vector-0.13.1.0,Data.Vector.Generic.Mutable.Base,Constructed Product Result analysis,0.092
+vector-0.13.1.0,Data.Vector.Generic.Mutable.Base,CorePrep,0.46699999999999997
+vector-0.13.1.0,Data.Vector.Generic.Mutable.Base,CoreTidy,0.362
+vector-0.13.1.0,Data.Vector.Generic.Mutable.Base,CoreToStg,1.55
+vector-0.13.1.0,Data.Vector.Generic.Mutable.Base,Demand analysis,0.921
+vector-0.13.1.0,Data.Vector.Generic.Mutable.Base,Desugar,0.588
+vector-0.13.1.0,Data.Vector.Generic.Mutable.Base,Exitification transformation,0.011
+vector-0.13.1.0,Data.Vector.Generic.Mutable.Base,Float inwards,0.024
+vector-0.13.1.0,Data.Vector.Generic.Mutable.Base,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.841
+vector-0.13.1.0,Data.Vector.Generic.Mutable.Base,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.838
+vector-0.13.1.0,Data.Vector.Generic.Mutable.Base,Liberate case,0.01
+vector-0.13.1.0,Data.Vector.Generic.Mutable.Base,Parser,1.939
+vector-0.13.1.0,Data.Vector.Generic.Mutable.Base,Renamer/typechecker,5.49
+vector-0.13.1.0,Data.Vector.Generic.Mutable.Base,Simplifier,21.285999999999998
+vector-0.13.1.0,Data.Vector.Generic.Mutable.Base,SpecConstr,0.153
+vector-0.13.1.0,Data.Vector.Generic.Mutable.Base,Specialise,0.148
+vector-0.13.1.0,Data.Vector.Generic.Mutable.Base,Worker Wrapper binds,0.033
+vector-0.13.1.0,Data.Vector.Generic.New,Called arity analysis,0.015
+vector-0.13.1.0,Data.Vector.Generic.New,CodeGen,80.81200000000001
+vector-0.13.1.0,Data.Vector.Generic.New,Common sub-expression,0.031
+vector-0.13.1.0,Data.Vector.Generic.New,Constructed Product Result analysis,0.44
+vector-0.13.1.0,Data.Vector.Generic.New,CorePrep,4.492999999999999
+vector-0.13.1.0,Data.Vector.Generic.New,CoreTidy,1.809
+vector-0.13.1.0,Data.Vector.Generic.New,CoreToStg,6.475
+vector-0.13.1.0,Data.Vector.Generic.New,Demand analysis,7.068
+vector-0.13.1.0,Data.Vector.Generic.New,Desugar,0.797
+vector-0.13.1.0,Data.Vector.Generic.New,Exitification transformation,0.013
 vector-0.13.1.0,Data.Vector.Generic.New,Float inwards,0.022
-vector-0.13.1.0,Data.Vector.Generic.New,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.11
-vector-0.13.1.0,Data.Vector.Generic.New,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",4.686
-vector-0.13.1.0,Data.Vector.Generic.New,Liberate case,0.011
-vector-0.13.1.0,Data.Vector.Generic.New,Parser,2.301
-vector-0.13.1.0,Data.Vector.Generic.New,Renamer/typechecker,10.143
-vector-0.13.1.0,Data.Vector.Generic.New,Simplifier,285.308
-vector-0.13.1.0,Data.Vector.Generic.New,SpecConstr,3.547
-vector-0.13.1.0,Data.Vector.Generic.New,Specialise,0.459
-vector-0.13.1.0,Data.Vector.Generic.New,Worker Wrapper binds,0.275
-vector-0.13.1.0,Data.Vector.Internal.Check,Called arity analysis,0.026
-vector-0.13.1.0,Data.Vector.Internal.Check,CodeGen,122.03
-vector-0.13.1.0,Data.Vector.Internal.Check,Common sub-expression,0.049
-vector-0.13.1.0,Data.Vector.Internal.Check,Constructed Product Result analysis,0.329
-vector-0.13.1.0,Data.Vector.Internal.Check,CorePrep,1.1920000000000002
-vector-0.13.1.0,Data.Vector.Internal.Check,CoreTidy,1.073
-vector-0.13.1.0,Data.Vector.Internal.Check,CoreToStg,4.228
-vector-0.13.1.0,Data.Vector.Internal.Check,Demand analysis,3.0700000000000003
-vector-0.13.1.0,Data.Vector.Internal.Check,Desugar,2.819
-vector-0.13.1.0,Data.Vector.Internal.Check,Exitification transformation,0.021
-vector-0.13.1.0,Data.Vector.Internal.Check,Float inwards,0.043
-vector-0.13.1.0,Data.Vector.Internal.Check,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.981
-vector-0.13.1.0,Data.Vector.Internal.Check,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.802
-vector-0.13.1.0,Data.Vector.Internal.Check,Liberate case,0.02
-vector-0.13.1.0,Data.Vector.Internal.Check,Parser,5.196
-vector-0.13.1.0,Data.Vector.Internal.Check,Renamer/typechecker,19.865
-vector-0.13.1.0,Data.Vector.Internal.Check,Simplifier,96.89699999999999
-vector-0.13.1.0,Data.Vector.Internal.Check,SpecConstr,1.309
-vector-0.13.1.0,Data.Vector.Internal.Check,Specialise,1.533
-vector-0.13.1.0,Data.Vector.Internal.Check,Worker Wrapper binds,0.158
-vector-0.13.1.0,Data.Vector.Mutable,Called arity analysis,0.009
-vector-0.13.1.0,Data.Vector.Mutable,CodeGen,215.449
-vector-0.13.1.0,Data.Vector.Mutable,Common sub-expression,0.027
-vector-0.13.1.0,Data.Vector.Mutable,Constructed Product Result analysis,0.897
-vector-0.13.1.0,Data.Vector.Mutable,CorePrep,3.846
-vector-0.13.1.0,Data.Vector.Mutable,CoreTidy,5.091
-vector-0.13.1.0,Data.Vector.Mutable,CoreToStg,27.720000000000002
-vector-0.13.1.0,Data.Vector.Mutable,Demand analysis,25.695999999999998
-vector-0.13.1.0,Data.Vector.Mutable,Desugar,1.855
-vector-0.13.1.0,Data.Vector.Mutable,Exitification transformation,0.012
+vector-0.13.1.0,Data.Vector.Generic.New,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.219
+vector-0.13.1.0,Data.Vector.Generic.New,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",4.494
+vector-0.13.1.0,Data.Vector.Generic.New,Liberate case,0.013
+vector-0.13.1.0,Data.Vector.Generic.New,Parser,2.414
+vector-0.13.1.0,Data.Vector.Generic.New,Renamer/typechecker,10.391
+vector-0.13.1.0,Data.Vector.Generic.New,Simplifier,271.401
+vector-0.13.1.0,Data.Vector.Generic.New,SpecConstr,0.964
+vector-0.13.1.0,Data.Vector.Generic.New,Specialise,0.468
+vector-0.13.1.0,Data.Vector.Generic.New,Worker Wrapper binds,0.249
+vector-0.13.1.0,Data.Vector.Internal.Check,Called arity analysis,0.019
+vector-0.13.1.0,Data.Vector.Internal.Check,CodeGen,38.364000000000004
+vector-0.13.1.0,Data.Vector.Internal.Check,Common sub-expression,0.02
+vector-0.13.1.0,Data.Vector.Internal.Check,Constructed Product Result analysis,0.134
+vector-0.13.1.0,Data.Vector.Internal.Check,CorePrep,0.931
+vector-0.13.1.0,Data.Vector.Internal.Check,CoreTidy,0.514
+vector-0.13.1.0,Data.Vector.Internal.Check,CoreToStg,2.2190000000000003
+vector-0.13.1.0,Data.Vector.Internal.Check,Demand analysis,1.4849999999999999
+vector-0.13.1.0,Data.Vector.Internal.Check,Desugar,1.73
+vector-0.13.1.0,Data.Vector.Internal.Check,Exitification transformation,0.011
+vector-0.13.1.0,Data.Vector.Internal.Check,Float inwards,0.019
+vector-0.13.1.0,Data.Vector.Internal.Check,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.971
+vector-0.13.1.0,Data.Vector.Internal.Check,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.362
+vector-0.13.1.0,Data.Vector.Internal.Check,Liberate case,0.01
+vector-0.13.1.0,Data.Vector.Internal.Check,Parser,2.586
+vector-0.13.1.0,Data.Vector.Internal.Check,Renamer/typechecker,11.519
+vector-0.13.1.0,Data.Vector.Internal.Check,Simplifier,43.744
+vector-0.13.1.0,Data.Vector.Internal.Check,SpecConstr,0.157
+vector-0.13.1.0,Data.Vector.Internal.Check,Specialise,0.8
+vector-0.13.1.0,Data.Vector.Internal.Check,Worker Wrapper binds,0.099
+vector-0.13.1.0,Data.Vector.Mutable,Called arity analysis,0.01
+vector-0.13.1.0,Data.Vector.Mutable,CodeGen,220.469
+vector-0.13.1.0,Data.Vector.Mutable,Common sub-expression,0.026000000000000002
+vector-0.13.1.0,Data.Vector.Mutable,Constructed Product Result analysis,0.878
+vector-0.13.1.0,Data.Vector.Mutable,CorePrep,3.6470000000000002
+vector-0.13.1.0,Data.Vector.Mutable,CoreTidy,4.323
+vector-0.13.1.0,Data.Vector.Mutable,CoreToStg,18.026
+vector-0.13.1.0,Data.Vector.Mutable,Demand analysis,20.939
+vector-0.13.1.0,Data.Vector.Mutable,Desugar,1.868
+vector-0.13.1.0,Data.Vector.Mutable,Exitification transformation,0.011
 vector-0.13.1.0,Data.Vector.Mutable,Float inwards,0.019999999999999997
-vector-0.13.1.0,Data.Vector.Mutable,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",17.486
-vector-0.13.1.0,Data.Vector.Mutable,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",10.427
-vector-0.13.1.0,Data.Vector.Mutable,Liberate case,0.013
-vector-0.13.1.0,Data.Vector.Mutable,Parser,9.697
-vector-0.13.1.0,Data.Vector.Mutable,Renamer/typechecker,29.27
-vector-0.13.1.0,Data.Vector.Mutable,Simplifier,723.367
-vector-0.13.1.0,Data.Vector.Mutable,SpecConstr,1.889
-vector-0.13.1.0,Data.Vector.Mutable,Specialise,1.831
-vector-0.13.1.0,Data.Vector.Mutable,Worker Wrapper binds,0.345
-vector-0.13.1.0,Data.Vector.Primitive,Called arity analysis,0.012
-vector-0.13.1.0,Data.Vector.Primitive,CodeGen,1111.1970000000001
+vector-0.13.1.0,Data.Vector.Mutable,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",17.255
+vector-0.13.1.0,Data.Vector.Mutable,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",62.432
+vector-0.13.1.0,Data.Vector.Mutable,Liberate case,0.012
+vector-0.13.1.0,Data.Vector.Mutable,Parser,8.533
+vector-0.13.1.0,Data.Vector.Mutable,Renamer/typechecker,27.826
+vector-0.13.1.0,Data.Vector.Mutable,Simplifier,650.445
+vector-0.13.1.0,Data.Vector.Mutable,SpecConstr,1.432
+vector-0.13.1.0,Data.Vector.Mutable,Specialise,1.851
+vector-0.13.1.0,Data.Vector.Mutable,Worker Wrapper binds,0.328
+vector-0.13.1.0,Data.Vector.Primitive,Called arity analysis,0.01
+vector-0.13.1.0,Data.Vector.Primitive,CodeGen,1139.1390000000001
 vector-0.13.1.0,Data.Vector.Primitive,Common sub-expression,0.028999999999999998
-vector-0.13.1.0,Data.Vector.Primitive,Constructed Product Result analysis,14.457
-vector-0.13.1.0,Data.Vector.Primitive,CorePrep,43.102000000000004
-vector-0.13.1.0,Data.Vector.Primitive,CoreTidy,30.628
-vector-0.13.1.0,Data.Vector.Primitive,CoreToStg,192.512
-vector-0.13.1.0,Data.Vector.Primitive,Demand analysis,124.84800000000001
-vector-0.13.1.0,Data.Vector.Primitive,Desugar,3.03
-vector-0.13.1.0,Data.Vector.Primitive,Exitification transformation,0.015
-vector-0.13.1.0,Data.Vector.Primitive,Float inwards,0.024
-vector-0.13.1.0,Data.Vector.Primitive,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",37.871
-vector-0.13.1.0,Data.Vector.Primitive,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",170.102
+vector-0.13.1.0,Data.Vector.Primitive,Constructed Product Result analysis,12.894
+vector-0.13.1.0,Data.Vector.Primitive,CorePrep,26.306
+vector-0.13.1.0,Data.Vector.Primitive,CoreTidy,50.562
+vector-0.13.1.0,Data.Vector.Primitive,CoreToStg,197.536
+vector-0.13.1.0,Data.Vector.Primitive,Demand analysis,126.34899999999999
+vector-0.13.1.0,Data.Vector.Primitive,Desugar,3.748
+vector-0.13.1.0,Data.Vector.Primitive,Exitification transformation,0.014
+vector-0.13.1.0,Data.Vector.Primitive,Float inwards,0.025
+vector-0.13.1.0,Data.Vector.Primitive,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",37.206
+vector-0.13.1.0,Data.Vector.Primitive,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",148.649
 vector-0.13.1.0,Data.Vector.Primitive,Liberate case,0.012
-vector-0.13.1.0,Data.Vector.Primitive,Parser,89.848
-vector-0.13.1.0,Data.Vector.Primitive,Renamer/typechecker,62.73
-vector-0.13.1.0,Data.Vector.Primitive,Simplifier,4750.54
-vector-0.13.1.0,Data.Vector.Primitive,SpecConstr,51.159
-vector-0.13.1.0,Data.Vector.Primitive,Specialise,7.678
-vector-0.13.1.0,Data.Vector.Primitive,Worker Wrapper binds,17.161
-vector-0.13.1.0,Data.Vector.Primitive.Mutable,Called arity analysis,0.012
-vector-0.13.1.0,Data.Vector.Primitive.Mutable,CodeGen,240.649
-vector-0.13.1.0,Data.Vector.Primitive.Mutable,Common sub-expression,7.0329999999999995
-vector-0.13.1.0,Data.Vector.Primitive.Mutable,Constructed Product Result analysis,1.039
-vector-0.13.1.0,Data.Vector.Primitive.Mutable,CorePrep,10.763
-vector-0.13.1.0,Data.Vector.Primitive.Mutable,CoreTidy,5.109
-vector-0.13.1.0,Data.Vector.Primitive.Mutable,CoreToStg,25.758000000000003
-vector-0.13.1.0,Data.Vector.Primitive.Mutable,Demand analysis,23.774
-vector-0.13.1.0,Data.Vector.Primitive.Mutable,Desugar,1.826
-vector-0.13.1.0,Data.Vector.Primitive.Mutable,Exitification transformation,0.013
+vector-0.13.1.0,Data.Vector.Primitive,Parser,19.719
+vector-0.13.1.0,Data.Vector.Primitive,Renamer/typechecker,69.011
+vector-0.13.1.0,Data.Vector.Primitive,Simplifier,4957.975
+vector-0.13.1.0,Data.Vector.Primitive,SpecConstr,50.512
+vector-0.13.1.0,Data.Vector.Primitive,Specialise,12.465
+vector-0.13.1.0,Data.Vector.Primitive,Worker Wrapper binds,4.752
+vector-0.13.1.0,Data.Vector.Primitive.Mutable,Called arity analysis,0.013
+vector-0.13.1.0,Data.Vector.Primitive.Mutable,CodeGen,254.447
+vector-0.13.1.0,Data.Vector.Primitive.Mutable,Common sub-expression,0.027999999999999997
+vector-0.13.1.0,Data.Vector.Primitive.Mutable,Constructed Product Result analysis,1.116
+vector-0.13.1.0,Data.Vector.Primitive.Mutable,CorePrep,3.973
+vector-0.13.1.0,Data.Vector.Primitive.Mutable,CoreTidy,6.166
+vector-0.13.1.0,Data.Vector.Primitive.Mutable,CoreToStg,18.775
+vector-0.13.1.0,Data.Vector.Primitive.Mutable,Demand analysis,22.794
+vector-0.13.1.0,Data.Vector.Primitive.Mutable,Desugar,1.946
+vector-0.13.1.0,Data.Vector.Primitive.Mutable,Exitification transformation,0.014
 vector-0.13.1.0,Data.Vector.Primitive.Mutable,Float inwards,0.024
-vector-0.13.1.0,Data.Vector.Primitive.Mutable,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",21.895
-vector-0.13.1.0,Data.Vector.Primitive.Mutable,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",12.41
-vector-0.13.1.0,Data.Vector.Primitive.Mutable,Liberate case,0.012
-vector-0.13.1.0,Data.Vector.Primitive.Mutable,Parser,8.271
-vector-0.13.1.0,Data.Vector.Primitive.Mutable,Renamer/typechecker,36.925
-vector-0.13.1.0,Data.Vector.Primitive.Mutable,Simplifier,802.697
-vector-0.13.1.0,Data.Vector.Primitive.Mutable,SpecConstr,1.866
-vector-0.13.1.0,Data.Vector.Primitive.Mutable,Specialise,2.776
-vector-0.13.1.0,Data.Vector.Primitive.Mutable,Worker Wrapper binds,0.504
-vector-0.13.1.0,Data.Vector.Storable,Called arity analysis,0.01
-vector-0.13.1.0,Data.Vector.Storable,CodeGen,1445.8220000000001
-vector-0.13.1.0,Data.Vector.Storable,Common sub-expression,0.032
-vector-0.13.1.0,Data.Vector.Storable,Constructed Product Result analysis,28.645
-vector-0.13.1.0,Data.Vector.Storable,CorePrep,29.875
-vector-0.13.1.0,Data.Vector.Storable,CoreTidy,56.86
-vector-0.13.1.0,Data.Vector.Storable,CoreToStg,332.66700000000003
-vector-0.13.1.0,Data.Vector.Storable,Demand analysis,141.474
-vector-0.13.1.0,Data.Vector.Storable,Desugar,3.15
-vector-0.13.1.0,Data.Vector.Storable,Exitification transformation,0.014
-vector-0.13.1.0,Data.Vector.Storable,Float inwards,0.020999999999999998
-vector-0.13.1.0,Data.Vector.Storable,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",40.077
-vector-0.13.1.0,Data.Vector.Storable,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",165.206
-vector-0.13.1.0,Data.Vector.Storable,Liberate case,0.014
-vector-0.13.1.0,Data.Vector.Storable,Parser,17.922
-vector-0.13.1.0,Data.Vector.Storable,Renamer/typechecker,60.871
-vector-0.13.1.0,Data.Vector.Storable,Simplifier,6083.649
-vector-0.13.1.0,Data.Vector.Storable,SpecConstr,71.073
-vector-0.13.1.0,Data.Vector.Storable,Specialise,8.382
-vector-0.13.1.0,Data.Vector.Storable,Worker Wrapper binds,5.565
+vector-0.13.1.0,Data.Vector.Primitive.Mutable,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",14.971
+vector-0.13.1.0,Data.Vector.Primitive.Mutable,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",12.221
+vector-0.13.1.0,Data.Vector.Primitive.Mutable,Liberate case,0.013
+vector-0.13.1.0,Data.Vector.Primitive.Mutable,Parser,6.515
+vector-0.13.1.0,Data.Vector.Primitive.Mutable,Renamer/typechecker,32.674
+vector-0.13.1.0,Data.Vector.Primitive.Mutable,Simplifier,782.622
+vector-0.13.1.0,Data.Vector.Primitive.Mutable,SpecConstr,1.666
+vector-0.13.1.0,Data.Vector.Primitive.Mutable,Specialise,2.635
+vector-0.13.1.0,Data.Vector.Primitive.Mutable,Worker Wrapper binds,0.505
+vector-0.13.1.0,Data.Vector.Storable,Called arity analysis,0.011
+vector-0.13.1.0,Data.Vector.Storable,CodeGen,1454.4070000000002
+vector-0.13.1.0,Data.Vector.Storable,Common sub-expression,0.028
+vector-0.13.1.0,Data.Vector.Storable,Constructed Product Result analysis,15.48
+vector-0.13.1.0,Data.Vector.Storable,CorePrep,27.076
+vector-0.13.1.0,Data.Vector.Storable,CoreTidy,50.594
+vector-0.13.1.0,Data.Vector.Storable,CoreToStg,320.238
+vector-0.13.1.0,Data.Vector.Storable,Demand analysis,164.9
+vector-0.13.1.0,Data.Vector.Storable,Desugar,13.005
+vector-0.13.1.0,Data.Vector.Storable,Exitification transformation,0.017
+vector-0.13.1.0,Data.Vector.Storable,Float inwards,0.022
+vector-0.13.1.0,Data.Vector.Storable,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",39.484
+vector-0.13.1.0,Data.Vector.Storable,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",173.193
+vector-0.13.1.0,Data.Vector.Storable,Liberate case,0.011
+vector-0.13.1.0,Data.Vector.Storable,Parser,15.0
+vector-0.13.1.0,Data.Vector.Storable,Renamer/typechecker,60.564
+vector-0.13.1.0,Data.Vector.Storable,Simplifier,6055.79
+vector-0.13.1.0,Data.Vector.Storable,SpecConstr,198.91
+vector-0.13.1.0,Data.Vector.Storable,Specialise,8.248
+vector-0.13.1.0,Data.Vector.Storable,Worker Wrapper binds,5.913
 vector-0.13.1.0,Data.Vector.Storable.Internal,Called arity analysis,0.012
-vector-0.13.1.0,Data.Vector.Storable.Internal,CodeGen,3.992
-vector-0.13.1.0,Data.Vector.Storable.Internal,Common sub-expression,0.020999999999999998
-vector-0.13.1.0,Data.Vector.Storable.Internal,Constructed Product Result analysis,0.05
-vector-0.13.1.0,Data.Vector.Storable.Internal,CorePrep,0.15799999999999997
-vector-0.13.1.0,Data.Vector.Storable.Internal,CoreTidy,0.149
-vector-0.13.1.0,Data.Vector.Storable.Internal,CoreToStg,0.449
-vector-0.13.1.0,Data.Vector.Storable.Internal,Demand analysis,0.332
-vector-0.13.1.0,Data.Vector.Storable.Internal,Desugar,0.399
-vector-0.13.1.0,Data.Vector.Storable.Internal,Exitification transformation,0.019
-vector-0.13.1.0,Data.Vector.Storable.Internal,Float inwards,0.02
-vector-0.13.1.0,Data.Vector.Storable.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.145
-vector-0.13.1.0,Data.Vector.Storable.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.112
-vector-0.13.1.0,Data.Vector.Storable.Internal,Liberate case,0.01
-vector-0.13.1.0,Data.Vector.Storable.Internal,Parser,1.792
-vector-0.13.1.0,Data.Vector.Storable.Internal,Renamer/typechecker,1.457
-vector-0.13.1.0,Data.Vector.Storable.Internal,Simplifier,1.762
-vector-0.13.1.0,Data.Vector.Storable.Internal,SpecConstr,0.042
-vector-0.13.1.0,Data.Vector.Storable.Internal,Specialise,0.053
-vector-0.13.1.0,Data.Vector.Storable.Internal,Worker Wrapper binds,0.012
-vector-0.13.1.0,Data.Vector.Storable.Mutable,Called arity analysis,0.011
-vector-0.13.1.0,Data.Vector.Storable.Mutable,CodeGen,295.46299999999997
-vector-0.13.1.0,Data.Vector.Storable.Mutable,Common sub-expression,0.03
-vector-0.13.1.0,Data.Vector.Storable.Mutable,Constructed Product Result analysis,10.117
-vector-0.13.1.0,Data.Vector.Storable.Mutable,CorePrep,6.527
-vector-0.13.1.0,Data.Vector.Storable.Mutable,CoreTidy,9.946
-vector-0.13.1.0,Data.Vector.Storable.Mutable,CoreToStg,33.833
-vector-0.13.1.0,Data.Vector.Storable.Mutable,Demand analysis,25.146
-vector-0.13.1.0,Data.Vector.Storable.Mutable,Desugar,2.17
-vector-0.13.1.0,Data.Vector.Storable.Mutable,Exitification transformation,0.014
-vector-0.13.1.0,Data.Vector.Storable.Mutable,Float inwards,0.022
-vector-0.13.1.0,Data.Vector.Storable.Mutable,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",20.603
-vector-0.13.1.0,Data.Vector.Storable.Mutable,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",29.986
-vector-0.13.1.0,Data.Vector.Storable.Mutable,Liberate case,0.012
-vector-0.13.1.0,Data.Vector.Storable.Mutable,Parser,8.398
-vector-0.13.1.0,Data.Vector.Storable.Mutable,Renamer/typechecker,36.911
-vector-0.13.1.0,Data.Vector.Storable.Mutable,Simplifier,1402.929
-vector-0.13.1.0,Data.Vector.Storable.Mutable,SpecConstr,3.051
-vector-0.13.1.0,Data.Vector.Storable.Mutable,Specialise,14.605
-vector-0.13.1.0,Data.Vector.Storable.Mutable,Worker Wrapper binds,0.791
-vector-0.13.1.0,Data.Vector.Unboxed,Called arity analysis,0.01
-vector-0.13.1.0,Data.Vector.Unboxed,CodeGen,1209.789
+vector-0.13.1.0,Data.Vector.Storable.Internal,CodeGen,4.684
+vector-0.13.1.0,Data.Vector.Storable.Internal,Common sub-expression,0.033
+vector-0.13.1.0,Data.Vector.Storable.Internal,Constructed Product Result analysis,0.052
+vector-0.13.1.0,Data.Vector.Storable.Internal,CorePrep,0.10600000000000001
+vector-0.13.1.0,Data.Vector.Storable.Internal,CoreTidy,0.086
+vector-0.13.1.0,Data.Vector.Storable.Internal,CoreToStg,0.357
+vector-0.13.1.0,Data.Vector.Storable.Internal,Demand analysis,0.326
+vector-0.13.1.0,Data.Vector.Storable.Internal,Desugar,0.411
+vector-0.13.1.0,Data.Vector.Storable.Internal,Exitification transformation,0.024
+vector-0.13.1.0,Data.Vector.Storable.Internal,Float inwards,0.020999999999999998
+vector-0.13.1.0,Data.Vector.Storable.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.111
+vector-0.13.1.0,Data.Vector.Storable.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.143
+vector-0.13.1.0,Data.Vector.Storable.Internal,Liberate case,0.011
+vector-0.13.1.0,Data.Vector.Storable.Internal,Parser,1.126
+vector-0.13.1.0,Data.Vector.Storable.Internal,Renamer/typechecker,1.321
+vector-0.13.1.0,Data.Vector.Storable.Internal,Simplifier,1.798
+vector-0.13.1.0,Data.Vector.Storable.Internal,SpecConstr,0.028
+vector-0.13.1.0,Data.Vector.Storable.Internal,Specialise,0.038
+vector-0.13.1.0,Data.Vector.Storable.Internal,Worker Wrapper binds,0.013
+vector-0.13.1.0,Data.Vector.Storable.Mutable,Called arity analysis,0.012
+vector-0.13.1.0,Data.Vector.Storable.Mutable,CodeGen,279.28999999999996
+vector-0.13.1.0,Data.Vector.Storable.Mutable,Common sub-expression,0.028999999999999998
+vector-0.13.1.0,Data.Vector.Storable.Mutable,Constructed Product Result analysis,2.488
+vector-0.13.1.0,Data.Vector.Storable.Mutable,CorePrep,6.127
+vector-0.13.1.0,Data.Vector.Storable.Mutable,CoreTidy,8.886
+vector-0.13.1.0,Data.Vector.Storable.Mutable,CoreToStg,137.007
+vector-0.13.1.0,Data.Vector.Storable.Mutable,Demand analysis,36.957
+vector-0.13.1.0,Data.Vector.Storable.Mutable,Desugar,2.187
+vector-0.13.1.0,Data.Vector.Storable.Mutable,Exitification transformation,0.015
+vector-0.13.1.0,Data.Vector.Storable.Mutable,Float inwards,0.025
+vector-0.13.1.0,Data.Vector.Storable.Mutable,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",34.694
+vector-0.13.1.0,Data.Vector.Storable.Mutable,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",27.425
+vector-0.13.1.0,Data.Vector.Storable.Mutable,Liberate case,0.013
+vector-0.13.1.0,Data.Vector.Storable.Mutable,Parser,8.728
+vector-0.13.1.0,Data.Vector.Storable.Mutable,Renamer/typechecker,35.455
+vector-0.13.1.0,Data.Vector.Storable.Mutable,Simplifier,1342.95
+vector-0.13.1.0,Data.Vector.Storable.Mutable,SpecConstr,3.287
+vector-0.13.1.0,Data.Vector.Storable.Mutable,Specialise,3.686
+vector-0.13.1.0,Data.Vector.Storable.Mutable,Worker Wrapper binds,0.96
+vector-0.13.1.0,Data.Vector.Unboxed,Called arity analysis,0.011
+vector-0.13.1.0,Data.Vector.Unboxed,CodeGen,1200.692
 vector-0.13.1.0,Data.Vector.Unboxed,Common sub-expression,0.027
-vector-0.13.1.0,Data.Vector.Unboxed,Constructed Product Result analysis,13.248
-vector-0.13.1.0,Data.Vector.Unboxed,CorePrep,35.094
-vector-0.13.1.0,Data.Vector.Unboxed,CoreTidy,52.918
-vector-0.13.1.0,Data.Vector.Unboxed,CoreToStg,294.274
-vector-0.13.1.0,Data.Vector.Unboxed,Demand analysis,142.006
-vector-0.13.1.0,Data.Vector.Unboxed,Desugar,14.846
-vector-0.13.1.0,Data.Vector.Unboxed,Exitification transformation,0.017
-vector-0.13.1.0,Data.Vector.Unboxed,Float inwards,0.020999999999999998
-vector-0.13.1.0,Data.Vector.Unboxed,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",47.216
-vector-0.13.1.0,Data.Vector.Unboxed,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",125.612
+vector-0.13.1.0,Data.Vector.Unboxed,Constructed Product Result analysis,11.722
+vector-0.13.1.0,Data.Vector.Unboxed,CorePrep,31.704
+vector-0.13.1.0,Data.Vector.Unboxed,CoreTidy,58.34
+vector-0.13.1.0,Data.Vector.Unboxed,CoreToStg,256.932
+vector-0.13.1.0,Data.Vector.Unboxed,Demand analysis,149.312
+vector-0.13.1.0,Data.Vector.Unboxed,Desugar,7.49
+vector-0.13.1.0,Data.Vector.Unboxed,Exitification transformation,0.013
+vector-0.13.1.0,Data.Vector.Unboxed,Float inwards,0.028999999999999998
+vector-0.13.1.0,Data.Vector.Unboxed,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",40.242
+vector-0.13.1.0,Data.Vector.Unboxed,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",133.276
 vector-0.13.1.0,Data.Vector.Unboxed,Liberate case,0.013
-vector-0.13.1.0,Data.Vector.Unboxed,Parser,27.307
-vector-0.13.1.0,Data.Vector.Unboxed,Renamer/typechecker,83.419
-vector-0.13.1.0,Data.Vector.Unboxed,Simplifier,5751.314
-vector-0.13.1.0,Data.Vector.Unboxed,SpecConstr,53.616
-vector-0.13.1.0,Data.Vector.Unboxed,Specialise,9.241
-vector-0.13.1.0,Data.Vector.Unboxed,Worker Wrapper binds,15.726
-vector-0.13.1.0,Data.Vector.Unboxed.Base,Called arity analysis,0.011
-vector-0.13.1.0,Data.Vector.Unboxed.Base,CodeGen,971.349
+vector-0.13.1.0,Data.Vector.Unboxed,Parser,22.981
+vector-0.13.1.0,Data.Vector.Unboxed,Renamer/typechecker,87.039
+vector-0.13.1.0,Data.Vector.Unboxed,Simplifier,5757.588
+vector-0.13.1.0,Data.Vector.Unboxed,SpecConstr,62.159
+vector-0.13.1.0,Data.Vector.Unboxed,Specialise,19.765
+vector-0.13.1.0,Data.Vector.Unboxed,Worker Wrapper binds,9.413
+vector-0.13.1.0,Data.Vector.Unboxed.Base,Called arity analysis,0.01
+vector-0.13.1.0,Data.Vector.Unboxed.Base,CodeGen,958.944
 vector-0.13.1.0,Data.Vector.Unboxed.Base,Common sub-expression,0.028999999999999998
-vector-0.13.1.0,Data.Vector.Unboxed.Base,Constructed Product Result analysis,12.2
-vector-0.13.1.0,Data.Vector.Unboxed.Base,CorePrep,65.504
-vector-0.13.1.0,Data.Vector.Unboxed.Base,CoreTidy,59.718
-vector-0.13.1.0,Data.Vector.Unboxed.Base,CoreToStg,200.555
-vector-0.13.1.0,Data.Vector.Unboxed.Base,Demand analysis,128.675
-vector-0.13.1.0,Data.Vector.Unboxed.Base,Desugar,171.281
-vector-0.13.1.0,Data.Vector.Unboxed.Base,Exitification transformation,0.014
-vector-0.13.1.0,Data.Vector.Unboxed.Base,Float inwards,0.027000000000000003
-vector-0.13.1.0,Data.Vector.Unboxed.Base,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",105.69
-vector-0.13.1.0,Data.Vector.Unboxed.Base,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",70.006
+vector-0.13.1.0,Data.Vector.Unboxed.Base,Constructed Product Result analysis,32.157
+vector-0.13.1.0,Data.Vector.Unboxed.Base,CorePrep,21.02
+vector-0.13.1.0,Data.Vector.Unboxed.Base,CoreTidy,45.242
+vector-0.13.1.0,Data.Vector.Unboxed.Base,CoreToStg,199.797
+vector-0.13.1.0,Data.Vector.Unboxed.Base,Demand analysis,113.661
+vector-0.13.1.0,Data.Vector.Unboxed.Base,Desugar,57.371
+vector-0.13.1.0,Data.Vector.Unboxed.Base,Exitification transformation,0.013
+vector-0.13.1.0,Data.Vector.Unboxed.Base,Float inwards,0.020999999999999998
+vector-0.13.1.0,Data.Vector.Unboxed.Base,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",97.364
+vector-0.13.1.0,Data.Vector.Unboxed.Base,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",72.232
 vector-0.13.1.0,Data.Vector.Unboxed.Base,Liberate case,0.012
-vector-0.13.1.0,Data.Vector.Unboxed.Base,Parser,52.501
-vector-0.13.1.0,Data.Vector.Unboxed.Base,Renamer/typechecker,210.866
-vector-0.13.1.0,Data.Vector.Unboxed.Base,Simplifier,4383.2789999999995
-vector-0.13.1.0,Data.Vector.Unboxed.Base,SpecConstr,24.8
-vector-0.13.1.0,Data.Vector.Unboxed.Base,Specialise,30.062
-vector-0.13.1.0,Data.Vector.Unboxed.Base,Worker Wrapper binds,4.117
-vector-0.13.1.0,Data.Vector.Unboxed.Mutable,Called arity analysis,0.012
-vector-0.13.1.0,Data.Vector.Unboxed.Mutable,CodeGen,245.24399999999997
-vector-0.13.1.0,Data.Vector.Unboxed.Mutable,Common sub-expression,0.033
-vector-0.13.1.0,Data.Vector.Unboxed.Mutable,Constructed Product Result analysis,1.562
-vector-0.13.1.0,Data.Vector.Unboxed.Mutable,CorePrep,5.662
-vector-0.13.1.0,Data.Vector.Unboxed.Mutable,CoreTidy,8.112
-vector-0.13.1.0,Data.Vector.Unboxed.Mutable,CoreToStg,25.765
-vector-0.13.1.0,Data.Vector.Unboxed.Mutable,Demand analysis,17.154
-vector-0.13.1.0,Data.Vector.Unboxed.Mutable,Desugar,2.917
+vector-0.13.1.0,Data.Vector.Unboxed.Base,Parser,54.447
+vector-0.13.1.0,Data.Vector.Unboxed.Base,Renamer/typechecker,212.147
+vector-0.13.1.0,Data.Vector.Unboxed.Base,Simplifier,4532.802
+vector-0.13.1.0,Data.Vector.Unboxed.Base,SpecConstr,22.112
+vector-0.13.1.0,Data.Vector.Unboxed.Base,Specialise,28.071
+vector-0.13.1.0,Data.Vector.Unboxed.Base,Worker Wrapper binds,3.535
+vector-0.13.1.0,Data.Vector.Unboxed.Mutable,Called arity analysis,0.011
+vector-0.13.1.0,Data.Vector.Unboxed.Mutable,CodeGen,243.44299999999998
+vector-0.13.1.0,Data.Vector.Unboxed.Mutable,Common sub-expression,0.028999999999999998
+vector-0.13.1.0,Data.Vector.Unboxed.Mutable,Constructed Product Result analysis,1.073
+vector-0.13.1.0,Data.Vector.Unboxed.Mutable,CorePrep,3.7720000000000002
+vector-0.13.1.0,Data.Vector.Unboxed.Mutable,CoreTidy,6.289
+vector-0.13.1.0,Data.Vector.Unboxed.Mutable,CoreToStg,23.096
+vector-0.13.1.0,Data.Vector.Unboxed.Mutable,Demand analysis,17.163
+vector-0.13.1.0,Data.Vector.Unboxed.Mutable,Desugar,3.091
 vector-0.13.1.0,Data.Vector.Unboxed.Mutable,Exitification transformation,0.013
-vector-0.13.1.0,Data.Vector.Unboxed.Mutable,Float inwards,0.024
-vector-0.13.1.0,Data.Vector.Unboxed.Mutable,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",11.477
-vector-0.13.1.0,Data.Vector.Unboxed.Mutable,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",21.417
-vector-0.13.1.0,Data.Vector.Unboxed.Mutable,Liberate case,0.014
-vector-0.13.1.0,Data.Vector.Unboxed.Mutable,Parser,9.26
-vector-0.13.1.0,Data.Vector.Unboxed.Mutable,Renamer/typechecker,25.651
-vector-0.13.1.0,Data.Vector.Unboxed.Mutable,Simplifier,561.31
-vector-0.13.1.0,Data.Vector.Unboxed.Mutable,SpecConstr,2.659
-vector-0.13.1.0,Data.Vector.Unboxed.Mutable,Specialise,2.18
-vector-0.13.1.0,Data.Vector.Unboxed.Mutable,Worker Wrapper binds,0.929
+vector-0.13.1.0,Data.Vector.Unboxed.Mutable,Float inwards,0.025
+vector-0.13.1.0,Data.Vector.Unboxed.Mutable,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",10.944
+vector-0.13.1.0,Data.Vector.Unboxed.Mutable,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",12.001
+vector-0.13.1.0,Data.Vector.Unboxed.Mutable,Liberate case,0.013
+vector-0.13.1.0,Data.Vector.Unboxed.Mutable,Parser,7.648
+vector-0.13.1.0,Data.Vector.Unboxed.Mutable,Renamer/typechecker,26.337
+vector-0.13.1.0,Data.Vector.Unboxed.Mutable,Simplifier,603.728
+vector-0.13.1.0,Data.Vector.Unboxed.Mutable,SpecConstr,2.74
+vector-0.13.1.0,Data.Vector.Unboxed.Mutable,Specialise,2.232
+vector-0.13.1.0,Data.Vector.Unboxed.Mutable,Worker Wrapper binds,0.881

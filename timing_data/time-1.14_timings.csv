@@ -1,829 +1,829 @@
 package,module,phase,time
-time-1.14,Data.Format,Called arity analysis,0.018
-time-1.14,Data.Format,CodeGen,221.731
-time-1.14,Data.Format,Common sub-expression,0.024
-time-1.14,Data.Format,Constructed Product Result analysis,0.597
-time-1.14,Data.Format,CorePrep,4.96
-time-1.14,Data.Format,CoreTidy,3.124
-time-1.14,Data.Format,CoreToStg,13.332
-time-1.14,Data.Format,Demand analysis,6.056
-time-1.14,Data.Format,Desugar,7.493
-time-1.14,Data.Format,Exitification transformation,0.02
-time-1.14,Data.Format,Float inwards,0.038
-time-1.14,Data.Format,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",6.836
-time-1.14,Data.Format,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",9.132
-time-1.14,Data.Format,Parser,6.254
-time-1.14,Data.Format,Renamer/typechecker,111.643
-time-1.14,Data.Format,Simplifier,177.495
-time-1.14,Data.Format,Specialise,0.803
-time-1.14,Data.Format,Worker Wrapper binds,0.622
-time-1.14,Data.Time,Called arity analysis,0.009
-time-1.14,Data.Time,CodeGen,0.893
-time-1.14,Data.Time,Common sub-expression,0.01
-time-1.14,Data.Time,Constructed Product Result analysis,0.014
-time-1.14,Data.Time,CorePrep,0.10099999999999999
-time-1.14,Data.Time,CoreTidy,0.093
-time-1.14,Data.Time,CoreToStg,0.131
-time-1.14,Data.Time,Demand analysis,0.055999999999999994
-time-1.14,Data.Time,Desugar,0.088
+time-1.14,Data.Format,Called arity analysis,0.011
+time-1.14,Data.Format,CodeGen,107.955
+time-1.14,Data.Format,Common sub-expression,0.015
+time-1.14,Data.Format,Constructed Product Result analysis,0.293
+time-1.14,Data.Format,CorePrep,1.955
+time-1.14,Data.Format,CoreTidy,2.275
+time-1.14,Data.Format,CoreToStg,6.745
+time-1.14,Data.Format,Demand analysis,2.349
+time-1.14,Data.Format,Desugar,1.571
+time-1.14,Data.Format,Exitification transformation,0.013
+time-1.14,Data.Format,Float inwards,0.02
+time-1.14,Data.Format,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.527
+time-1.14,Data.Format,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.99
+time-1.14,Data.Format,Parser,3.228
+time-1.14,Data.Format,Renamer/typechecker,62.436
+time-1.14,Data.Format,Simplifier,83.682
+time-1.14,Data.Format,Specialise,0.438
+time-1.14,Data.Format,Worker Wrapper binds,0.863
+time-1.14,Data.Time,Called arity analysis,0.013
+time-1.14,Data.Time,CodeGen,0.758
+time-1.14,Data.Time,Common sub-expression,0.009
+time-1.14,Data.Time,Constructed Product Result analysis,0.015
+time-1.14,Data.Time,CorePrep,0.053
+time-1.14,Data.Time,CoreTidy,0.047
+time-1.14,Data.Time,CoreToStg,0.07600000000000001
+time-1.14,Data.Time,Demand analysis,0.05
+time-1.14,Data.Time,Desugar,0.073
 time-1.14,Data.Time,Exitification transformation,0.011
 time-1.14,Data.Time,Float inwards,0.019
-time-1.14,Data.Time,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.052
-time-1.14,Data.Time,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.031
-time-1.14,Data.Time,Parser,0.404
-time-1.14,Data.Time,Renamer/typechecker,1.413
-time-1.14,Data.Time,Simplifier,0.384
-time-1.14,Data.Time,Specialise,0.02
-time-1.14,Data.Time,Worker Wrapper binds,0.017
-time-1.14,Data.Time.Calendar,Called arity analysis,0.01
-time-1.14,Data.Time.Calendar,CodeGen,0.845
-time-1.14,Data.Time.Calendar,Common sub-expression,0.009
-time-1.14,Data.Time.Calendar,Constructed Product Result analysis,0.013
-time-1.14,Data.Time.Calendar,CorePrep,0.076
-time-1.14,Data.Time.Calendar,CoreTidy,0.085
-time-1.14,Data.Time.Calendar,CoreToStg,0.087
-time-1.14,Data.Time.Calendar,Demand analysis,0.046
-time-1.14,Data.Time.Calendar,Desugar,0.055
-time-1.14,Data.Time.Calendar,Exitification transformation,0.01
-time-1.14,Data.Time.Calendar,Float inwards,0.023
-time-1.14,Data.Time.Calendar,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.052
-time-1.14,Data.Time.Calendar,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.026
-time-1.14,Data.Time.Calendar,Parser,0.16
-time-1.14,Data.Time.Calendar,Renamer/typechecker,0.738
-time-1.14,Data.Time.Calendar,Simplifier,0.377
-time-1.14,Data.Time.Calendar,Specialise,0.029
-time-1.14,Data.Time.Calendar,Worker Wrapper binds,0.011
-time-1.14,Data.Time.Calendar.CalendarDiffDays,Called arity analysis,0.032
-time-1.14,Data.Time.Calendar.CalendarDiffDays,CodeGen,139.52100000000002
-time-1.14,Data.Time.Calendar.CalendarDiffDays,Common sub-expression,0.023
-time-1.14,Data.Time.Calendar.CalendarDiffDays,Constructed Product Result analysis,0.623
-time-1.14,Data.Time.Calendar.CalendarDiffDays,CorePrep,2.479
-time-1.14,Data.Time.Calendar.CalendarDiffDays,CoreTidy,3.189
-time-1.14,Data.Time.Calendar.CalendarDiffDays,CoreToStg,4.968
-time-1.14,Data.Time.Calendar.CalendarDiffDays,Demand analysis,3.856
-time-1.14,Data.Time.Calendar.CalendarDiffDays,Desugar,3.23
-time-1.14,Data.Time.Calendar.CalendarDiffDays,Exitification transformation,0.023
-time-1.14,Data.Time.Calendar.CalendarDiffDays,Float inwards,0.082
-time-1.14,Data.Time.Calendar.CalendarDiffDays,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",5.312
-time-1.14,Data.Time.Calendar.CalendarDiffDays,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",4.214
-time-1.14,Data.Time.Calendar.CalendarDiffDays,Parser,0.927
-time-1.14,Data.Time.Calendar.CalendarDiffDays,Renamer/typechecker,170.422
-time-1.14,Data.Time.Calendar.CalendarDiffDays,Simplifier,112.714
-time-1.14,Data.Time.Calendar.CalendarDiffDays,Specialise,0.901
-time-1.14,Data.Time.Calendar.CalendarDiffDays,Worker Wrapper binds,1.636
-time-1.14,Data.Time.Calendar.Days,Called arity analysis,0.02
-time-1.14,Data.Time.Calendar.Days,CodeGen,144.14999999999998
-time-1.14,Data.Time.Calendar.Days,Common sub-expression,0.021
-time-1.14,Data.Time.Calendar.Days,Constructed Product Result analysis,0.411
-time-1.14,Data.Time.Calendar.Days,CorePrep,1.8780000000000001
-time-1.14,Data.Time.Calendar.Days,CoreTidy,2.817
-time-1.14,Data.Time.Calendar.Days,CoreToStg,5.259
-time-1.14,Data.Time.Calendar.Days,Demand analysis,3.295
-time-1.14,Data.Time.Calendar.Days,Desugar,1.075
-time-1.14,Data.Time.Calendar.Days,Exitification transformation,0.023
-time-1.14,Data.Time.Calendar.Days,Float inwards,0.037
-time-1.14,Data.Time.Calendar.Days,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",3.185
-time-1.14,Data.Time.Calendar.Days,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",3.238
-time-1.14,Data.Time.Calendar.Days,Parser,2.251
-time-1.14,Data.Time.Calendar.Days,Renamer/typechecker,21.783
-time-1.14,Data.Time.Calendar.Days,Simplifier,106.346
-time-1.14,Data.Time.Calendar.Days,Specialise,0.956
-time-1.14,Data.Time.Calendar.Days,Worker Wrapper binds,0.503
-time-1.14,Data.Time.Calendar.Easter,Called arity analysis,0.01
-time-1.14,Data.Time.Calendar.Easter,CodeGen,13.495000000000001
-time-1.14,Data.Time.Calendar.Easter,Common sub-expression,0.011
-time-1.14,Data.Time.Calendar.Easter,Constructed Product Result analysis,0.051
-time-1.14,Data.Time.Calendar.Easter,CorePrep,0.254
-time-1.14,Data.Time.Calendar.Easter,CoreTidy,0.246
-time-1.14,Data.Time.Calendar.Easter,CoreToStg,0.606
-time-1.14,Data.Time.Calendar.Easter,Demand analysis,0.23399999999999999
-time-1.14,Data.Time.Calendar.Easter,Desugar,0.278
-time-1.14,Data.Time.Calendar.Easter,Exitification transformation,0.014
-time-1.14,Data.Time.Calendar.Easter,Float inwards,0.019
-time-1.14,Data.Time.Calendar.Easter,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.272
-time-1.14,Data.Time.Calendar.Easter,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.439
-time-1.14,Data.Time.Calendar.Easter,Parser,0.734
-time-1.14,Data.Time.Calendar.Easter,Renamer/typechecker,2.947
-time-1.14,Data.Time.Calendar.Easter,Simplifier,7.518
+time-1.14,Data.Time,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.042
+time-1.14,Data.Time,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.03
+time-1.14,Data.Time,Parser,0.176
+time-1.14,Data.Time,Renamer/typechecker,0.84
+time-1.14,Data.Time,Simplifier,0.385
+time-1.14,Data.Time,Specialise,0.023
+time-1.14,Data.Time,Worker Wrapper binds,0.013
+time-1.14,Data.Time.Calendar,Called arity analysis,0.013
+time-1.14,Data.Time.Calendar,CodeGen,0.7549999999999999
+time-1.14,Data.Time.Calendar,Common sub-expression,0.01
+time-1.14,Data.Time.Calendar,Constructed Product Result analysis,0.014
+time-1.14,Data.Time.Calendar,CorePrep,0.051000000000000004
+time-1.14,Data.Time.Calendar,CoreTidy,0.05
+time-1.14,Data.Time.Calendar,CoreToStg,0.07500000000000001
+time-1.14,Data.Time.Calendar,Demand analysis,0.052000000000000005
+time-1.14,Data.Time.Calendar,Desugar,0.048
+time-1.14,Data.Time.Calendar,Exitification transformation,0.011
+time-1.14,Data.Time.Calendar,Float inwards,0.020999999999999998
+time-1.14,Data.Time.Calendar,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.042
+time-1.14,Data.Time.Calendar,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.03
+time-1.14,Data.Time.Calendar,Parser,0.182
+time-1.14,Data.Time.Calendar,Renamer/typechecker,0.894
+time-1.14,Data.Time.Calendar,Simplifier,0.919
+time-1.14,Data.Time.Calendar,Specialise,0.021
+time-1.14,Data.Time.Calendar,Worker Wrapper binds,0.012
+time-1.14,Data.Time.Calendar.CalendarDiffDays,Called arity analysis,0.011
+time-1.14,Data.Time.Calendar.CalendarDiffDays,CodeGen,67.315
+time-1.14,Data.Time.Calendar.CalendarDiffDays,Common sub-expression,0.012
+time-1.14,Data.Time.Calendar.CalendarDiffDays,Constructed Product Result analysis,0.239
+time-1.14,Data.Time.Calendar.CalendarDiffDays,CorePrep,2.092
+time-1.14,Data.Time.Calendar.CalendarDiffDays,CoreTidy,1.305
+time-1.14,Data.Time.Calendar.CalendarDiffDays,CoreToStg,4.681
+time-1.14,Data.Time.Calendar.CalendarDiffDays,Demand analysis,1.6960000000000002
+time-1.14,Data.Time.Calendar.CalendarDiffDays,Desugar,2.086
+time-1.14,Data.Time.Calendar.CalendarDiffDays,Exitification transformation,0.02
+time-1.14,Data.Time.Calendar.CalendarDiffDays,Float inwards,0.432
+time-1.14,Data.Time.Calendar.CalendarDiffDays,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.961
+time-1.14,Data.Time.Calendar.CalendarDiffDays,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.602
+time-1.14,Data.Time.Calendar.CalendarDiffDays,Parser,0.521
+time-1.14,Data.Time.Calendar.CalendarDiffDays,Renamer/typechecker,100.582
+time-1.14,Data.Time.Calendar.CalendarDiffDays,Simplifier,51.611000000000004
+time-1.14,Data.Time.Calendar.CalendarDiffDays,Specialise,0.45
+time-1.14,Data.Time.Calendar.CalendarDiffDays,Worker Wrapper binds,0.229
+time-1.14,Data.Time.Calendar.Days,Called arity analysis,0.01
+time-1.14,Data.Time.Calendar.Days,CodeGen,75.96600000000001
+time-1.14,Data.Time.Calendar.Days,Common sub-expression,0.011
+time-1.14,Data.Time.Calendar.Days,Constructed Product Result analysis,0.239
+time-1.14,Data.Time.Calendar.Days,CorePrep,2.299
+time-1.14,Data.Time.Calendar.Days,CoreTidy,1.38
+time-1.14,Data.Time.Calendar.Days,CoreToStg,2.6390000000000002
+time-1.14,Data.Time.Calendar.Days,Demand analysis,1.6800000000000002
+time-1.14,Data.Time.Calendar.Days,Desugar,0.732
+time-1.14,Data.Time.Calendar.Days,Exitification transformation,0.01
+time-1.14,Data.Time.Calendar.Days,Float inwards,0.037000000000000005
+time-1.14,Data.Time.Calendar.Days,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.688
+time-1.14,Data.Time.Calendar.Days,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.54
+time-1.14,Data.Time.Calendar.Days,Parser,1.445
+time-1.14,Data.Time.Calendar.Days,Renamer/typechecker,12.113
+time-1.14,Data.Time.Calendar.Days,Simplifier,55.841
+time-1.14,Data.Time.Calendar.Days,Specialise,0.501
+time-1.14,Data.Time.Calendar.Days,Worker Wrapper binds,0.269
+time-1.14,Data.Time.Calendar.Easter,Called arity analysis,0.011
+time-1.14,Data.Time.Calendar.Easter,CodeGen,14.052
+time-1.14,Data.Time.Calendar.Easter,Common sub-expression,0.012
+time-1.14,Data.Time.Calendar.Easter,Constructed Product Result analysis,0.056
+time-1.14,Data.Time.Calendar.Easter,CorePrep,0.232
+time-1.14,Data.Time.Calendar.Easter,CoreTidy,0.222
+time-1.14,Data.Time.Calendar.Easter,CoreToStg,0.729
+time-1.14,Data.Time.Calendar.Easter,Demand analysis,0.244
+time-1.14,Data.Time.Calendar.Easter,Desugar,0.295
+time-1.14,Data.Time.Calendar.Easter,Exitification transformation,0.013
+time-1.14,Data.Time.Calendar.Easter,Float inwards,0.022
+time-1.14,Data.Time.Calendar.Easter,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.305
+time-1.14,Data.Time.Calendar.Easter,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.373
+time-1.14,Data.Time.Calendar.Easter,Parser,0.58
+time-1.14,Data.Time.Calendar.Easter,Renamer/typechecker,3.209
+time-1.14,Data.Time.Calendar.Easter,Simplifier,7.188
 time-1.14,Data.Time.Calendar.Easter,Specialise,0.076
-time-1.14,Data.Time.Calendar.Easter,Worker Wrapper binds,0.04
-time-1.14,Data.Time.Calendar.Gregorian,Called arity analysis,0.019
-time-1.14,Data.Time.Calendar.Gregorian,CodeGen,74.507
-time-1.14,Data.Time.Calendar.Gregorian,Common sub-expression,0.023
-time-1.14,Data.Time.Calendar.Gregorian,Constructed Product Result analysis,0.258
-time-1.14,Data.Time.Calendar.Gregorian,CorePrep,0.88
-time-1.14,Data.Time.Calendar.Gregorian,CoreTidy,1.162
-time-1.14,Data.Time.Calendar.Gregorian,CoreToStg,2.99
-time-1.14,Data.Time.Calendar.Gregorian,Demand analysis,1.7610000000000001
-time-1.14,Data.Time.Calendar.Gregorian,Desugar,1.378
-time-1.14,Data.Time.Calendar.Gregorian,Exitification transformation,0.022
-time-1.14,Data.Time.Calendar.Gregorian,Float inwards,0.039
-time-1.14,Data.Time.Calendar.Gregorian,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.73
-time-1.14,Data.Time.Calendar.Gregorian,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.797
-time-1.14,Data.Time.Calendar.Gregorian,Parser,2.485
-time-1.14,Data.Time.Calendar.Gregorian,Renamer/typechecker,12.058
-time-1.14,Data.Time.Calendar.Gregorian,Simplifier,43.882
-time-1.14,Data.Time.Calendar.Gregorian,Specialise,0.352
-time-1.14,Data.Time.Calendar.Gregorian,Worker Wrapper binds,0.302
-time-1.14,Data.Time.Calendar.Julian,Called arity analysis,0.019
-time-1.14,Data.Time.Calendar.Julian,CodeGen,71.042
-time-1.14,Data.Time.Calendar.Julian,Common sub-expression,0.02
-time-1.14,Data.Time.Calendar.Julian,Constructed Product Result analysis,0.245
-time-1.14,Data.Time.Calendar.Julian,CorePrep,0.9039999999999999
-time-1.14,Data.Time.Calendar.Julian,CoreTidy,1.072
-time-1.14,Data.Time.Calendar.Julian,CoreToStg,3.36
-time-1.14,Data.Time.Calendar.Julian,Demand analysis,1.4220000000000002
-time-1.14,Data.Time.Calendar.Julian,Desugar,1.336
-time-1.14,Data.Time.Calendar.Julian,Exitification transformation,0.022
-time-1.14,Data.Time.Calendar.Julian,Float inwards,0.046
-time-1.14,Data.Time.Calendar.Julian,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.809
-time-1.14,Data.Time.Calendar.Julian,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.917
-time-1.14,Data.Time.Calendar.Julian,Parser,2.495
-time-1.14,Data.Time.Calendar.Julian,Renamer/typechecker,8.907
-time-1.14,Data.Time.Calendar.Julian,Simplifier,43.013
-time-1.14,Data.Time.Calendar.Julian,Specialise,0.333
-time-1.14,Data.Time.Calendar.Julian,Worker Wrapper binds,0.235
-time-1.14,Data.Time.Calendar.JulianYearDay,Called arity analysis,0.021
-time-1.14,Data.Time.Calendar.JulianYearDay,CodeGen,29.619
-time-1.14,Data.Time.Calendar.JulianYearDay,Common sub-expression,0.021
-time-1.14,Data.Time.Calendar.JulianYearDay,Constructed Product Result analysis,0.141
-time-1.14,Data.Time.Calendar.JulianYearDay,CorePrep,0.477
-time-1.14,Data.Time.Calendar.JulianYearDay,CoreTidy,0.608
-time-1.14,Data.Time.Calendar.JulianYearDay,CoreToStg,1.363
-time-1.14,Data.Time.Calendar.JulianYearDay,Demand analysis,0.736
-time-1.14,Data.Time.Calendar.JulianYearDay,Desugar,0.705
-time-1.14,Data.Time.Calendar.JulianYearDay,Exitification transformation,0.021
-time-1.14,Data.Time.Calendar.JulianYearDay,Float inwards,0.038
-time-1.14,Data.Time.Calendar.JulianYearDay,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.819
-time-1.14,Data.Time.Calendar.JulianYearDay,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.746
-time-1.14,Data.Time.Calendar.JulianYearDay,Parser,0.98
-time-1.14,Data.Time.Calendar.JulianYearDay,Renamer/typechecker,4.854
-time-1.14,Data.Time.Calendar.JulianYearDay,Simplifier,18.708
-time-1.14,Data.Time.Calendar.JulianYearDay,Specialise,1.464
-time-1.14,Data.Time.Calendar.JulianYearDay,Worker Wrapper binds,0.145
-time-1.14,Data.Time.Calendar.Month,Called arity analysis,0.019
-time-1.14,Data.Time.Calendar.Month,CodeGen,162.429
-time-1.14,Data.Time.Calendar.Month,Common sub-expression,0.021
-time-1.14,Data.Time.Calendar.Month,Constructed Product Result analysis,0.474
-time-1.14,Data.Time.Calendar.Month,CorePrep,5.421
-time-1.14,Data.Time.Calendar.Month,CoreTidy,3.131
-time-1.14,Data.Time.Calendar.Month,CoreToStg,6.4350000000000005
-time-1.14,Data.Time.Calendar.Month,Demand analysis,3.792
-time-1.14,Data.Time.Calendar.Month,Desugar,1.333
-time-1.14,Data.Time.Calendar.Month,Exitification transformation,0.033
-time-1.14,Data.Time.Calendar.Month,Float inwards,0.04
-time-1.14,Data.Time.Calendar.Month,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",3.891
-time-1.14,Data.Time.Calendar.Month,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",3.844
-time-1.14,Data.Time.Calendar.Month,Parser,1.714
-time-1.14,Data.Time.Calendar.Month,Renamer/typechecker,13.858
-time-1.14,Data.Time.Calendar.Month,Simplifier,127.841
-time-1.14,Data.Time.Calendar.Month,Specialise,1.226
-time-1.14,Data.Time.Calendar.Month,Worker Wrapper binds,0.52
-time-1.14,Data.Time.Calendar.MonthDay,Called arity analysis,0.02
-time-1.14,Data.Time.Calendar.MonthDay,CodeGen,44.052
-time-1.14,Data.Time.Calendar.MonthDay,Common sub-expression,0.02
-time-1.14,Data.Time.Calendar.MonthDay,Constructed Product Result analysis,0.217
-time-1.14,Data.Time.Calendar.MonthDay,CorePrep,0.703
-time-1.14,Data.Time.Calendar.MonthDay,CoreTidy,0.875
-time-1.14,Data.Time.Calendar.MonthDay,CoreToStg,2.569
-time-1.14,Data.Time.Calendar.MonthDay,Demand analysis,1.104
-time-1.14,Data.Time.Calendar.MonthDay,Desugar,0.707
-time-1.14,Data.Time.Calendar.MonthDay,Exitification transformation,0.025
-time-1.14,Data.Time.Calendar.MonthDay,Float inwards,0.038
-time-1.14,Data.Time.Calendar.MonthDay,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.388
-time-1.14,Data.Time.Calendar.MonthDay,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.245
-time-1.14,Data.Time.Calendar.MonthDay,Parser,1.226
-time-1.14,Data.Time.Calendar.MonthDay,Renamer/typechecker,5.094
-time-1.14,Data.Time.Calendar.MonthDay,Simplifier,33.88
-time-1.14,Data.Time.Calendar.MonthDay,Specialise,0.287
-time-1.14,Data.Time.Calendar.MonthDay,Worker Wrapper binds,0.213
-time-1.14,Data.Time.Calendar.OrdinalDate,Called arity analysis,0.022
-time-1.14,Data.Time.Calendar.OrdinalDate,CodeGen,77.28399999999999
-time-1.14,Data.Time.Calendar.OrdinalDate,Common sub-expression,0.033
-time-1.14,Data.Time.Calendar.OrdinalDate,Constructed Product Result analysis,0.282
-time-1.14,Data.Time.Calendar.OrdinalDate,CorePrep,1.001
-time-1.14,Data.Time.Calendar.OrdinalDate,CoreTidy,1.188
-time-1.14,Data.Time.Calendar.OrdinalDate,CoreToStg,3.573
-time-1.14,Data.Time.Calendar.OrdinalDate,Demand analysis,1.7429999999999999
-time-1.14,Data.Time.Calendar.OrdinalDate,Desugar,1.408
-time-1.14,Data.Time.Calendar.OrdinalDate,Exitification transformation,0.044
-time-1.14,Data.Time.Calendar.OrdinalDate,Float inwards,0.042
-time-1.14,Data.Time.Calendar.OrdinalDate,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.139
-time-1.14,Data.Time.Calendar.OrdinalDate,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",4.097
-time-1.14,Data.Time.Calendar.OrdinalDate,Parser,2.543
-time-1.14,Data.Time.Calendar.OrdinalDate,Renamer/typechecker,14.504
-time-1.14,Data.Time.Calendar.OrdinalDate,Simplifier,57.196
-time-1.14,Data.Time.Calendar.OrdinalDate,Specialise,0.381
-time-1.14,Data.Time.Calendar.OrdinalDate,Worker Wrapper binds,0.244
-time-1.14,Data.Time.Calendar.Private,Called arity analysis,0.023
-time-1.14,Data.Time.Calendar.Private,CodeGen,63.28
-time-1.14,Data.Time.Calendar.Private,Common sub-expression,0.021
-time-1.14,Data.Time.Calendar.Private,Constructed Product Result analysis,0.236
-time-1.14,Data.Time.Calendar.Private,CorePrep,1.078
-time-1.14,Data.Time.Calendar.Private,CoreTidy,1.034
-time-1.14,Data.Time.Calendar.Private,CoreToStg,3.286
-time-1.14,Data.Time.Calendar.Private,Demand analysis,1.881
-time-1.14,Data.Time.Calendar.Private,Desugar,1.349
-time-1.14,Data.Time.Calendar.Private,Exitification transformation,0.022
-time-1.14,Data.Time.Calendar.Private,Float inwards,0.039
-time-1.14,Data.Time.Calendar.Private,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.312
-time-1.14,Data.Time.Calendar.Private,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.499
-time-1.14,Data.Time.Calendar.Private,Parser,1.691
-time-1.14,Data.Time.Calendar.Private,Renamer/typechecker,13.752
-time-1.14,Data.Time.Calendar.Private,Simplifier,41.752
-time-1.14,Data.Time.Calendar.Private,Specialise,0.467
-time-1.14,Data.Time.Calendar.Private,Worker Wrapper binds,0.233
-time-1.14,Data.Time.Calendar.Quarter,Called arity analysis,0.03
-time-1.14,Data.Time.Calendar.Quarter,CodeGen,313.21400000000006
-time-1.14,Data.Time.Calendar.Quarter,Common sub-expression,0.021
-time-1.14,Data.Time.Calendar.Quarter,Constructed Product Result analysis,1.162
-time-1.14,Data.Time.Calendar.Quarter,CorePrep,3.045
-time-1.14,Data.Time.Calendar.Quarter,CoreTidy,10.041
-time-1.14,Data.Time.Calendar.Quarter,CoreToStg,11.674
-time-1.14,Data.Time.Calendar.Quarter,Demand analysis,7.926
-time-1.14,Data.Time.Calendar.Quarter,Desugar,2.598
-time-1.14,Data.Time.Calendar.Quarter,Exitification transformation,0.021
-time-1.14,Data.Time.Calendar.Quarter,Float inwards,0.038000000000000006
-time-1.14,Data.Time.Calendar.Quarter,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",8.549
-time-1.14,Data.Time.Calendar.Quarter,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",7.848
-time-1.14,Data.Time.Calendar.Quarter,Parser,2.567
-time-1.14,Data.Time.Calendar.Quarter,Renamer/typechecker,26.078
-time-1.14,Data.Time.Calendar.Quarter,Simplifier,289.689
-time-1.14,Data.Time.Calendar.Quarter,Specialise,1.803
-time-1.14,Data.Time.Calendar.Quarter,Worker Wrapper binds,0.891
-time-1.14,Data.Time.Calendar.Types,Called arity analysis,0.021
-time-1.14,Data.Time.Calendar.Types,CodeGen,29.744
-time-1.14,Data.Time.Calendar.Types,Common sub-expression,0.02
-time-1.14,Data.Time.Calendar.Types,Constructed Product Result analysis,0.107
-time-1.14,Data.Time.Calendar.Types,CorePrep,0.691
-time-1.14,Data.Time.Calendar.Types,CoreTidy,0.499
-time-1.14,Data.Time.Calendar.Types,CoreToStg,1.073
-time-1.14,Data.Time.Calendar.Types,Demand analysis,0.732
-time-1.14,Data.Time.Calendar.Types,Desugar,0.412
-time-1.14,Data.Time.Calendar.Types,Exitification transformation,0.022
-time-1.14,Data.Time.Calendar.Types,Float inwards,0.038
-time-1.14,Data.Time.Calendar.Types,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.559
-time-1.14,Data.Time.Calendar.Types,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.602
-time-1.14,Data.Time.Calendar.Types,Parser,1.872
-time-1.14,Data.Time.Calendar.Types,Renamer/typechecker,4.449
-time-1.14,Data.Time.Calendar.Types,Simplifier,9.288
-time-1.14,Data.Time.Calendar.Types,Specialise,0.206
-time-1.14,Data.Time.Calendar.Types,Worker Wrapper binds,0.151
-time-1.14,Data.Time.Calendar.Week,Called arity analysis,0.015
-time-1.14,Data.Time.Calendar.Week,CodeGen,169.81799999999998
-time-1.14,Data.Time.Calendar.Week,Common sub-expression,0.022
-time-1.14,Data.Time.Calendar.Week,Constructed Product Result analysis,2.622
-time-1.14,Data.Time.Calendar.Week,CorePrep,2.276
-time-1.14,Data.Time.Calendar.Week,CoreTidy,4.671
-time-1.14,Data.Time.Calendar.Week,CoreToStg,8.986
-time-1.14,Data.Time.Calendar.Week,Demand analysis,5.346
-time-1.14,Data.Time.Calendar.Week,Desugar,1.283
-time-1.14,Data.Time.Calendar.Week,Exitification transformation,0.016
-time-1.14,Data.Time.Calendar.Week,Float inwards,0.047
-time-1.14,Data.Time.Calendar.Week,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",5.16
-time-1.14,Data.Time.Calendar.Week,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",4.898
-time-1.14,Data.Time.Calendar.Week,Parser,1.067
-time-1.14,Data.Time.Calendar.Week,Renamer/typechecker,12.239
-time-1.14,Data.Time.Calendar.Week,Simplifier,163.978
-time-1.14,Data.Time.Calendar.Week,Specialise,0.96
-time-1.14,Data.Time.Calendar.Week,Worker Wrapper binds,0.497
-time-1.14,Data.Time.Calendar.WeekDate,Called arity analysis,0.012
-time-1.14,Data.Time.Calendar.WeekDate,CodeGen,59.472
-time-1.14,Data.Time.Calendar.WeekDate,Common sub-expression,0.014
-time-1.14,Data.Time.Calendar.WeekDate,Constructed Product Result analysis,0.164
-time-1.14,Data.Time.Calendar.WeekDate,CorePrep,0.75
-time-1.14,Data.Time.Calendar.WeekDate,CoreTidy,1.441
-time-1.14,Data.Time.Calendar.WeekDate,CoreToStg,2.912
-time-1.14,Data.Time.Calendar.WeekDate,Demand analysis,1.303
-time-1.14,Data.Time.Calendar.WeekDate,Desugar,0.521
-time-1.14,Data.Time.Calendar.WeekDate,Exitification transformation,0.015
-time-1.14,Data.Time.Calendar.WeekDate,Float inwards,0.024
-time-1.14,Data.Time.Calendar.WeekDate,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.719
-time-1.14,Data.Time.Calendar.WeekDate,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.065
-time-1.14,Data.Time.Calendar.WeekDate,Parser,1.493
-time-1.14,Data.Time.Calendar.WeekDate,Renamer/typechecker,7.433
-time-1.14,Data.Time.Calendar.WeekDate,Simplifier,46.835
-time-1.14,Data.Time.Calendar.WeekDate,Specialise,0.464
-time-1.14,Data.Time.Calendar.WeekDate,Worker Wrapper binds,0.138
+time-1.14,Data.Time.Calendar.Easter,Worker Wrapper binds,0.036
+time-1.14,Data.Time.Calendar.Gregorian,Called arity analysis,0.011
+time-1.14,Data.Time.Calendar.Gregorian,CodeGen,33.462
+time-1.14,Data.Time.Calendar.Gregorian,Common sub-expression,0.012
+time-1.14,Data.Time.Calendar.Gregorian,Constructed Product Result analysis,0.14
+time-1.14,Data.Time.Calendar.Gregorian,CorePrep,0.46599999999999997
+time-1.14,Data.Time.Calendar.Gregorian,CoreTidy,0.577
+time-1.14,Data.Time.Calendar.Gregorian,CoreToStg,1.478
+time-1.14,Data.Time.Calendar.Gregorian,Demand analysis,0.8009999999999999
+time-1.14,Data.Time.Calendar.Gregorian,Desugar,0.706
+time-1.14,Data.Time.Calendar.Gregorian,Exitification transformation,0.014
+time-1.14,Data.Time.Calendar.Gregorian,Float inwards,0.020999999999999998
+time-1.14,Data.Time.Calendar.Gregorian,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.996
+time-1.14,Data.Time.Calendar.Gregorian,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.859
+time-1.14,Data.Time.Calendar.Gregorian,Parser,2.118
+time-1.14,Data.Time.Calendar.Gregorian,Renamer/typechecker,59.027
+time-1.14,Data.Time.Calendar.Gregorian,Simplifier,21.269
+time-1.14,Data.Time.Calendar.Gregorian,Specialise,0.167
+time-1.14,Data.Time.Calendar.Gregorian,Worker Wrapper binds,0.126
+time-1.14,Data.Time.Calendar.Julian,Called arity analysis,0.012
+time-1.14,Data.Time.Calendar.Julian,CodeGen,35.204
+time-1.14,Data.Time.Calendar.Julian,Common sub-expression,0.012
+time-1.14,Data.Time.Calendar.Julian,Constructed Product Result analysis,0.111
+time-1.14,Data.Time.Calendar.Julian,CorePrep,0.424
+time-1.14,Data.Time.Calendar.Julian,CoreTidy,0.507
+time-1.14,Data.Time.Calendar.Julian,CoreToStg,1.501
+time-1.14,Data.Time.Calendar.Julian,Demand analysis,0.6659999999999999
+time-1.14,Data.Time.Calendar.Julian,Desugar,0.547
+time-1.14,Data.Time.Calendar.Julian,Exitification transformation,0.013
+time-1.14,Data.Time.Calendar.Julian,Float inwards,0.027
+time-1.14,Data.Time.Calendar.Julian,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.022
+time-1.14,Data.Time.Calendar.Julian,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.23
+time-1.14,Data.Time.Calendar.Julian,Parser,1.832
+time-1.14,Data.Time.Calendar.Julian,Renamer/typechecker,5.292
+time-1.14,Data.Time.Calendar.Julian,Simplifier,20.428
+time-1.14,Data.Time.Calendar.Julian,Specialise,0.137
+time-1.14,Data.Time.Calendar.Julian,Worker Wrapper binds,0.107
+time-1.14,Data.Time.Calendar.JulianYearDay,Called arity analysis,0.012
+time-1.14,Data.Time.Calendar.JulianYearDay,CodeGen,13.948
+time-1.14,Data.Time.Calendar.JulianYearDay,Common sub-expression,0.01
+time-1.14,Data.Time.Calendar.JulianYearDay,Constructed Product Result analysis,0.059
+time-1.14,Data.Time.Calendar.JulianYearDay,CorePrep,0.218
+time-1.14,Data.Time.Calendar.JulianYearDay,CoreTidy,0.254
+time-1.14,Data.Time.Calendar.JulianYearDay,CoreToStg,0.6679999999999999
+time-1.14,Data.Time.Calendar.JulianYearDay,Demand analysis,0.271
+time-1.14,Data.Time.Calendar.JulianYearDay,Desugar,0.355
+time-1.14,Data.Time.Calendar.JulianYearDay,Exitification transformation,0.013
+time-1.14,Data.Time.Calendar.JulianYearDay,Float inwards,0.020999999999999998
+time-1.14,Data.Time.Calendar.JulianYearDay,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.36
+time-1.14,Data.Time.Calendar.JulianYearDay,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.362
+time-1.14,Data.Time.Calendar.JulianYearDay,Parser,0.643
+time-1.14,Data.Time.Calendar.JulianYearDay,Renamer/typechecker,3.075
+time-1.14,Data.Time.Calendar.JulianYearDay,Simplifier,9.417
+time-1.14,Data.Time.Calendar.JulianYearDay,Specialise,0.073
+time-1.14,Data.Time.Calendar.JulianYearDay,Worker Wrapper binds,0.055
+time-1.14,Data.Time.Calendar.Month,Called arity analysis,0.009
+time-1.14,Data.Time.Calendar.Month,CodeGen,79.281
+time-1.14,Data.Time.Calendar.Month,Common sub-expression,0.011
+time-1.14,Data.Time.Calendar.Month,Constructed Product Result analysis,0.248
+time-1.14,Data.Time.Calendar.Month,CorePrep,1.068
+time-1.14,Data.Time.Calendar.Month,CoreTidy,1.516
+time-1.14,Data.Time.Calendar.Month,CoreToStg,2.792
+time-1.14,Data.Time.Calendar.Month,Demand analysis,2.015
+time-1.14,Data.Time.Calendar.Month,Desugar,0.656
+time-1.14,Data.Time.Calendar.Month,Exitification transformation,0.015
+time-1.14,Data.Time.Calendar.Month,Float inwards,0.03
+time-1.14,Data.Time.Calendar.Month,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.939
+time-1.14,Data.Time.Calendar.Month,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.957
+time-1.14,Data.Time.Calendar.Month,Parser,1.09
+time-1.14,Data.Time.Calendar.Month,Renamer/typechecker,8.528
+time-1.14,Data.Time.Calendar.Month,Simplifier,59.006
+time-1.14,Data.Time.Calendar.Month,Specialise,0.666
+time-1.14,Data.Time.Calendar.Month,Worker Wrapper binds,0.259
+time-1.14,Data.Time.Calendar.MonthDay,Called arity analysis,0.012
+time-1.14,Data.Time.Calendar.MonthDay,CodeGen,21.167
+time-1.14,Data.Time.Calendar.MonthDay,Common sub-expression,0.012
+time-1.14,Data.Time.Calendar.MonthDay,Constructed Product Result analysis,0.079
+time-1.14,Data.Time.Calendar.MonthDay,CorePrep,0.625
+time-1.14,Data.Time.Calendar.MonthDay,CoreTidy,0.405
+time-1.14,Data.Time.Calendar.MonthDay,CoreToStg,1.549
+time-1.14,Data.Time.Calendar.MonthDay,Demand analysis,0.444
+time-1.14,Data.Time.Calendar.MonthDay,Desugar,0.347
+time-1.14,Data.Time.Calendar.MonthDay,Exitification transformation,0.012
+time-1.14,Data.Time.Calendar.MonthDay,Float inwards,0.29100000000000004
+time-1.14,Data.Time.Calendar.MonthDay,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.919
+time-1.14,Data.Time.Calendar.MonthDay,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.576
+time-1.14,Data.Time.Calendar.MonthDay,Parser,0.803
+time-1.14,Data.Time.Calendar.MonthDay,Renamer/typechecker,3.226
+time-1.14,Data.Time.Calendar.MonthDay,Simplifier,15.778
+time-1.14,Data.Time.Calendar.MonthDay,Specialise,0.116
+time-1.14,Data.Time.Calendar.MonthDay,Worker Wrapper binds,0.061
+time-1.14,Data.Time.Calendar.OrdinalDate,Called arity analysis,0.014
+time-1.14,Data.Time.Calendar.OrdinalDate,CodeGen,38.394
+time-1.14,Data.Time.Calendar.OrdinalDate,Common sub-expression,0.01
+time-1.14,Data.Time.Calendar.OrdinalDate,Constructed Product Result analysis,0.118
+time-1.14,Data.Time.Calendar.OrdinalDate,CorePrep,0.453
+time-1.14,Data.Time.Calendar.OrdinalDate,CoreTidy,0.8
+time-1.14,Data.Time.Calendar.OrdinalDate,CoreToStg,1.7229999999999999
+time-1.14,Data.Time.Calendar.OrdinalDate,Demand analysis,0.638
+time-1.14,Data.Time.Calendar.OrdinalDate,Desugar,0.713
+time-1.14,Data.Time.Calendar.OrdinalDate,Exitification transformation,0.01
+time-1.14,Data.Time.Calendar.OrdinalDate,Float inwards,0.019
+time-1.14,Data.Time.Calendar.OrdinalDate,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.345
+time-1.14,Data.Time.Calendar.OrdinalDate,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.955
+time-1.14,Data.Time.Calendar.OrdinalDate,Parser,2.263
+time-1.14,Data.Time.Calendar.OrdinalDate,Renamer/typechecker,8.52
+time-1.14,Data.Time.Calendar.OrdinalDate,Simplifier,25.113999999999997
+time-1.14,Data.Time.Calendar.OrdinalDate,Specialise,0.177
+time-1.14,Data.Time.Calendar.OrdinalDate,Worker Wrapper binds,0.11
+time-1.14,Data.Time.Calendar.Private,Called arity analysis,0.011
+time-1.14,Data.Time.Calendar.Private,CodeGen,31.706
+time-1.14,Data.Time.Calendar.Private,Common sub-expression,0.01
+time-1.14,Data.Time.Calendar.Private,Constructed Product Result analysis,0.102
+time-1.14,Data.Time.Calendar.Private,CorePrep,0.474
+time-1.14,Data.Time.Calendar.Private,CoreTidy,0.531
+time-1.14,Data.Time.Calendar.Private,CoreToStg,1.694
+time-1.14,Data.Time.Calendar.Private,Demand analysis,0.762
+time-1.14,Data.Time.Calendar.Private,Desugar,0.738
+time-1.14,Data.Time.Calendar.Private,Exitification transformation,0.013
+time-1.14,Data.Time.Calendar.Private,Float inwards,0.020999999999999998
+time-1.14,Data.Time.Calendar.Private,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.681
+time-1.14,Data.Time.Calendar.Private,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.737
+time-1.14,Data.Time.Calendar.Private,Parser,1.174
+time-1.14,Data.Time.Calendar.Private,Renamer/typechecker,7.889
+time-1.14,Data.Time.Calendar.Private,Simplifier,20.829
+time-1.14,Data.Time.Calendar.Private,Specialise,0.232
+time-1.14,Data.Time.Calendar.Private,Worker Wrapper binds,0.105
+time-1.14,Data.Time.Calendar.Quarter,Called arity analysis,0.009
+time-1.14,Data.Time.Calendar.Quarter,CodeGen,190.75
+time-1.14,Data.Time.Calendar.Quarter,Common sub-expression,0.017
+time-1.14,Data.Time.Calendar.Quarter,Constructed Product Result analysis,2.072
+time-1.14,Data.Time.Calendar.Quarter,CorePrep,2.023
+time-1.14,Data.Time.Calendar.Quarter,CoreTidy,2.951
+time-1.14,Data.Time.Calendar.Quarter,CoreToStg,6.322
+time-1.14,Data.Time.Calendar.Quarter,Demand analysis,4.773
+time-1.14,Data.Time.Calendar.Quarter,Desugar,1.643
+time-1.14,Data.Time.Calendar.Quarter,Exitification transformation,0.018
+time-1.14,Data.Time.Calendar.Quarter,Float inwards,0.028999999999999998
+time-1.14,Data.Time.Calendar.Quarter,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",4.621
+time-1.14,Data.Time.Calendar.Quarter,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",5.145
+time-1.14,Data.Time.Calendar.Quarter,Parser,1.43
+time-1.14,Data.Time.Calendar.Quarter,Renamer/typechecker,14.132
+time-1.14,Data.Time.Calendar.Quarter,Simplifier,162.542
+time-1.14,Data.Time.Calendar.Quarter,Specialise,1.071
+time-1.14,Data.Time.Calendar.Quarter,Worker Wrapper binds,0.404
+time-1.14,Data.Time.Calendar.Types,Called arity analysis,0.014
+time-1.14,Data.Time.Calendar.Types,CodeGen,13.896999999999998
+time-1.14,Data.Time.Calendar.Types,Common sub-expression,0.012
+time-1.14,Data.Time.Calendar.Types,Constructed Product Result analysis,0.054
+time-1.14,Data.Time.Calendar.Types,CorePrep,0.192
+time-1.14,Data.Time.Calendar.Types,CoreTidy,0.247
+time-1.14,Data.Time.Calendar.Types,CoreToStg,0.477
+time-1.14,Data.Time.Calendar.Types,Demand analysis,0.33499999999999996
+time-1.14,Data.Time.Calendar.Types,Desugar,0.224
+time-1.14,Data.Time.Calendar.Types,Exitification transformation,0.013
+time-1.14,Data.Time.Calendar.Types,Float inwards,0.023
+time-1.14,Data.Time.Calendar.Types,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.27
+time-1.14,Data.Time.Calendar.Types,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.22
+time-1.14,Data.Time.Calendar.Types,Parser,0.646
+time-1.14,Data.Time.Calendar.Types,Renamer/typechecker,3.04
+time-1.14,Data.Time.Calendar.Types,Simplifier,5.376
+time-1.14,Data.Time.Calendar.Types,Specialise,0.095
+time-1.14,Data.Time.Calendar.Types,Worker Wrapper binds,0.433
+time-1.14,Data.Time.Calendar.Week,Called arity analysis,0.01
+time-1.14,Data.Time.Calendar.Week,CodeGen,130.418
+time-1.14,Data.Time.Calendar.Week,Common sub-expression,0.017
+time-1.14,Data.Time.Calendar.Week,Constructed Product Result analysis,0.455
+time-1.14,Data.Time.Calendar.Week,CorePrep,1.4809999999999999
+time-1.14,Data.Time.Calendar.Week,CoreTidy,3.499
+time-1.14,Data.Time.Calendar.Week,CoreToStg,4.364000000000001
+time-1.14,Data.Time.Calendar.Week,Demand analysis,3.434
+time-1.14,Data.Time.Calendar.Week,Desugar,0.906
+time-1.14,Data.Time.Calendar.Week,Exitification transformation,0.014
+time-1.14,Data.Time.Calendar.Week,Float inwards,0.025
+time-1.14,Data.Time.Calendar.Week,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",3.463
+time-1.14,Data.Time.Calendar.Week,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",5.982
+time-1.14,Data.Time.Calendar.Week,Parser,1.024
+time-1.14,Data.Time.Calendar.Week,Renamer/typechecker,7.829
+time-1.14,Data.Time.Calendar.Week,Simplifier,104.371
+time-1.14,Data.Time.Calendar.Week,Specialise,0.72
+time-1.14,Data.Time.Calendar.Week,Worker Wrapper binds,0.28
+time-1.14,Data.Time.Calendar.WeekDate,Called arity analysis,0.017
+time-1.14,Data.Time.Calendar.WeekDate,CodeGen,48.372
+time-1.14,Data.Time.Calendar.WeekDate,Common sub-expression,0.013
+time-1.14,Data.Time.Calendar.WeekDate,Constructed Product Result analysis,0.151
+time-1.14,Data.Time.Calendar.WeekDate,CorePrep,0.5660000000000001
+time-1.14,Data.Time.Calendar.WeekDate,CoreTidy,0.786
+time-1.14,Data.Time.Calendar.WeekDate,CoreToStg,1.865
+time-1.14,Data.Time.Calendar.WeekDate,Demand analysis,1.113
+time-1.14,Data.Time.Calendar.WeekDate,Desugar,0.456
+time-1.14,Data.Time.Calendar.WeekDate,Exitification transformation,0.013
+time-1.14,Data.Time.Calendar.WeekDate,Float inwards,0.020999999999999998
+time-1.14,Data.Time.Calendar.WeekDate,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.307
+time-1.14,Data.Time.Calendar.WeekDate,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.666
+time-1.14,Data.Time.Calendar.WeekDate,Parser,1.213
+time-1.14,Data.Time.Calendar.WeekDate,Renamer/typechecker,6.258
+time-1.14,Data.Time.Calendar.WeekDate,Simplifier,36.329
+time-1.14,Data.Time.Calendar.WeekDate,Specialise,0.387
+time-1.14,Data.Time.Calendar.WeekDate,Worker Wrapper binds,0.135
 time-1.14,Data.Time.Clock,Called arity analysis,0.009
-time-1.14,Data.Time.Clock,CodeGen,0.857
-time-1.14,Data.Time.Clock,Common sub-expression,0.008
-time-1.14,Data.Time.Clock,Constructed Product Result analysis,0.011
-time-1.14,Data.Time.Clock,CorePrep,0.053000000000000005
-time-1.14,Data.Time.Clock,CoreTidy,0.046
-time-1.14,Data.Time.Clock,CoreToStg,0.078
-time-1.14,Data.Time.Clock,Demand analysis,0.044
-time-1.14,Data.Time.Clock,Desugar,0.053
-time-1.14,Data.Time.Clock,Exitification transformation,0.009
-time-1.14,Data.Time.Clock,Float inwards,0.017
-time-1.14,Data.Time.Clock,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.051
-time-1.14,Data.Time.Clock,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.025
-time-1.14,Data.Time.Clock,Parser,0.243
-time-1.14,Data.Time.Clock,Renamer/typechecker,1.221
-time-1.14,Data.Time.Clock,Simplifier,0.38
-time-1.14,Data.Time.Clock,Specialise,0.021
-time-1.14,Data.Time.Clock,Worker Wrapper binds,0.011
-time-1.14,Data.Time.Clock.Internal.AbsoluteTime,Called arity analysis,0.011
-time-1.14,Data.Time.Clock.Internal.AbsoluteTime,CodeGen,46.617000000000004
-time-1.14,Data.Time.Clock.Internal.AbsoluteTime,Common sub-expression,0.013
-time-1.14,Data.Time.Clock.Internal.AbsoluteTime,Constructed Product Result analysis,0.139
-time-1.14,Data.Time.Clock.Internal.AbsoluteTime,CorePrep,0.802
-time-1.14,Data.Time.Clock.Internal.AbsoluteTime,CoreTidy,1.523
-time-1.14,Data.Time.Clock.Internal.AbsoluteTime,CoreToStg,1.908
-time-1.14,Data.Time.Clock.Internal.AbsoluteTime,Demand analysis,1.124
-time-1.14,Data.Time.Clock.Internal.AbsoluteTime,Desugar,0.276
-time-1.14,Data.Time.Clock.Internal.AbsoluteTime,Exitification transformation,0.016
-time-1.14,Data.Time.Clock.Internal.AbsoluteTime,Float inwards,0.02
-time-1.14,Data.Time.Clock.Internal.AbsoluteTime,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.061
-time-1.14,Data.Time.Clock.Internal.AbsoluteTime,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.1
-time-1.14,Data.Time.Clock.Internal.AbsoluteTime,Parser,0.589
-time-1.14,Data.Time.Clock.Internal.AbsoluteTime,Renamer/typechecker,4.476
-time-1.14,Data.Time.Clock.Internal.AbsoluteTime,Simplifier,32.106
-time-1.14,Data.Time.Clock.Internal.AbsoluteTime,Specialise,0.387
-time-1.14,Data.Time.Clock.Internal.AbsoluteTime,Worker Wrapper binds,0.973
-time-1.14,Data.Time.Clock.Internal.CTimespec,Called arity analysis,0.015
-time-1.14,Data.Time.Clock.Internal.CTimespec,CodeGen,29.929000000000002
-time-1.14,Data.Time.Clock.Internal.CTimespec,Common sub-expression,0.015
-time-1.14,Data.Time.Clock.Internal.CTimespec,Constructed Product Result analysis,0.16
-time-1.14,Data.Time.Clock.Internal.CTimespec,CorePrep,0.7
-time-1.14,Data.Time.Clock.Internal.CTimespec,CoreTidy,0.637
-time-1.14,Data.Time.Clock.Internal.CTimespec,CoreToStg,1.751
-time-1.14,Data.Time.Clock.Internal.CTimespec,Demand analysis,0.9219999999999999
-time-1.14,Data.Time.Clock.Internal.CTimespec,Desugar,0.552
-time-1.14,Data.Time.Clock.Internal.CTimespec,Exitification transformation,0.019
-time-1.14,Data.Time.Clock.Internal.CTimespec,Float inwards,0.03
-time-1.14,Data.Time.Clock.Internal.CTimespec,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.034
-time-1.14,Data.Time.Clock.Internal.CTimespec,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.895
-time-1.14,Data.Time.Clock.Internal.CTimespec,Parser,1.654
-time-1.14,Data.Time.Clock.Internal.CTimespec,Renamer/typechecker,19.807
-time-1.14,Data.Time.Clock.Internal.CTimespec,Simplifier,32.902
-time-1.14,Data.Time.Clock.Internal.CTimespec,Specialise,0.199
-time-1.14,Data.Time.Clock.Internal.CTimespec,Worker Wrapper binds,0.12
-time-1.14,Data.Time.Clock.Internal.CTimeval,Called arity analysis,0.012
-time-1.14,Data.Time.Clock.Internal.CTimeval,CodeGen,17.404
+time-1.14,Data.Time.Clock,CodeGen,0.772
+time-1.14,Data.Time.Clock,Common sub-expression,0.01
+time-1.14,Data.Time.Clock,Constructed Product Result analysis,0.013
+time-1.14,Data.Time.Clock,CorePrep,0.048
+time-1.14,Data.Time.Clock,CoreTidy,0.045
+time-1.14,Data.Time.Clock,CoreToStg,0.07200000000000001
+time-1.14,Data.Time.Clock,Demand analysis,0.045
+time-1.14,Data.Time.Clock,Desugar,0.037
+time-1.14,Data.Time.Clock,Exitification transformation,0.01
+time-1.14,Data.Time.Clock,Float inwards,0.019
+time-1.14,Data.Time.Clock,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.037
+time-1.14,Data.Time.Clock,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.029
+time-1.14,Data.Time.Clock,Parser,0.212
+time-1.14,Data.Time.Clock,Renamer/typechecker,0.66
+time-1.14,Data.Time.Clock,Simplifier,0.338
+time-1.14,Data.Time.Clock,Specialise,0.019
+time-1.14,Data.Time.Clock,Worker Wrapper binds,0.012
+time-1.14,Data.Time.Clock.Internal.AbsoluteTime,Called arity analysis,0.013
+time-1.14,Data.Time.Clock.Internal.AbsoluteTime,CodeGen,42.292
+time-1.14,Data.Time.Clock.Internal.AbsoluteTime,Common sub-expression,0.011
+time-1.14,Data.Time.Clock.Internal.AbsoluteTime,Constructed Product Result analysis,0.12
+time-1.14,Data.Time.Clock.Internal.AbsoluteTime,CorePrep,1.515
+time-1.14,Data.Time.Clock.Internal.AbsoluteTime,CoreTidy,0.943
+time-1.14,Data.Time.Clock.Internal.AbsoluteTime,CoreToStg,1.374
+time-1.14,Data.Time.Clock.Internal.AbsoluteTime,Demand analysis,1.5810000000000002
+time-1.14,Data.Time.Clock.Internal.AbsoluteTime,Desugar,0.264
+time-1.14,Data.Time.Clock.Internal.AbsoluteTime,Exitification transformation,0.013
+time-1.14,Data.Time.Clock.Internal.AbsoluteTime,Float inwards,0.024
+time-1.14,Data.Time.Clock.Internal.AbsoluteTime,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.734
+time-1.14,Data.Time.Clock.Internal.AbsoluteTime,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.006
+time-1.14,Data.Time.Clock.Internal.AbsoluteTime,Parser,0.475
+time-1.14,Data.Time.Clock.Internal.AbsoluteTime,Renamer/typechecker,4.242
+time-1.14,Data.Time.Clock.Internal.AbsoluteTime,Simplifier,25.878
+time-1.14,Data.Time.Clock.Internal.AbsoluteTime,Specialise,0.381
+time-1.14,Data.Time.Clock.Internal.AbsoluteTime,Worker Wrapper binds,0.159
+time-1.14,Data.Time.Clock.Internal.CTimespec,Called arity analysis,0.017
+time-1.14,Data.Time.Clock.Internal.CTimespec,CodeGen,24.145
+time-1.14,Data.Time.Clock.Internal.CTimespec,Common sub-expression,0.011
+time-1.14,Data.Time.Clock.Internal.CTimespec,Constructed Product Result analysis,0.131
+time-1.14,Data.Time.Clock.Internal.CTimespec,CorePrep,0.527
+time-1.14,Data.Time.Clock.Internal.CTimespec,CoreTidy,0.56
+time-1.14,Data.Time.Clock.Internal.CTimespec,CoreToStg,1.388
+time-1.14,Data.Time.Clock.Internal.CTimespec,Demand analysis,0.825
+time-1.14,Data.Time.Clock.Internal.CTimespec,Desugar,0.464
+time-1.14,Data.Time.Clock.Internal.CTimespec,Exitification transformation,0.012
+time-1.14,Data.Time.Clock.Internal.CTimespec,Float inwards,0.022
+time-1.14,Data.Time.Clock.Internal.CTimespec,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.891
+time-1.14,Data.Time.Clock.Internal.CTimespec,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.748
+time-1.14,Data.Time.Clock.Internal.CTimespec,Parser,1.594
+time-1.14,Data.Time.Clock.Internal.CTimespec,Renamer/typechecker,11.172
+time-1.14,Data.Time.Clock.Internal.CTimespec,Simplifier,24.962
+time-1.14,Data.Time.Clock.Internal.CTimespec,Specialise,0.145
+time-1.14,Data.Time.Clock.Internal.CTimespec,Worker Wrapper binds,0.107
+time-1.14,Data.Time.Clock.Internal.CTimeval,Called arity analysis,0.016
+time-1.14,Data.Time.Clock.Internal.CTimeval,CodeGen,13.957
 time-1.14,Data.Time.Clock.Internal.CTimeval,Common sub-expression,0.012
-time-1.14,Data.Time.Clock.Internal.CTimeval,Constructed Product Result analysis,0.125
-time-1.14,Data.Time.Clock.Internal.CTimeval,CorePrep,0.478
-time-1.14,Data.Time.Clock.Internal.CTimeval,CoreTidy,0.463
-time-1.14,Data.Time.Clock.Internal.CTimeval,CoreToStg,1.338
-time-1.14,Data.Time.Clock.Internal.CTimeval,Demand analysis,2.3209999999999997
-time-1.14,Data.Time.Clock.Internal.CTimeval,Desugar,0.515
+time-1.14,Data.Time.Clock.Internal.CTimeval,Constructed Product Result analysis,0.099
+time-1.14,Data.Time.Clock.Internal.CTimeval,CorePrep,0.391
+time-1.14,Data.Time.Clock.Internal.CTimeval,CoreTidy,0.414
+time-1.14,Data.Time.Clock.Internal.CTimeval,CoreToStg,0.9570000000000001
+time-1.14,Data.Time.Clock.Internal.CTimeval,Demand analysis,0.6859999999999999
+time-1.14,Data.Time.Clock.Internal.CTimeval,Desugar,0.278
 time-1.14,Data.Time.Clock.Internal.CTimeval,Exitification transformation,0.012
 time-1.14,Data.Time.Clock.Internal.CTimeval,Float inwards,0.022
-time-1.14,Data.Time.Clock.Internal.CTimeval,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.573
-time-1.14,Data.Time.Clock.Internal.CTimeval,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.609
-time-1.14,Data.Time.Clock.Internal.CTimeval,Parser,1.069
-time-1.14,Data.Time.Clock.Internal.CTimeval,Renamer/typechecker,2.63
-time-1.14,Data.Time.Clock.Internal.CTimeval,Simplifier,17.137
-time-1.14,Data.Time.Clock.Internal.CTimeval,Specialise,1.526
-time-1.14,Data.Time.Clock.Internal.CTimeval,Worker Wrapper binds,0.11
-time-1.14,Data.Time.Clock.Internal.DiffTime,Called arity analysis,0.012
-time-1.14,Data.Time.Clock.Internal.DiffTime,CodeGen,80.287
-time-1.14,Data.Time.Clock.Internal.DiffTime,Common sub-expression,0.012
-time-1.14,Data.Time.Clock.Internal.DiffTime,Constructed Product Result analysis,0.197
-time-1.14,Data.Time.Clock.Internal.DiffTime,CorePrep,1.0070000000000001
-time-1.14,Data.Time.Clock.Internal.DiffTime,CoreTidy,1.439
-time-1.14,Data.Time.Clock.Internal.DiffTime,CoreToStg,3.811
-time-1.14,Data.Time.Clock.Internal.DiffTime,Demand analysis,1.771
-time-1.14,Data.Time.Clock.Internal.DiffTime,Desugar,0.767
-time-1.14,Data.Time.Clock.Internal.DiffTime,Exitification transformation,0.02
-time-1.14,Data.Time.Clock.Internal.DiffTime,Float inwards,0.022
-time-1.14,Data.Time.Clock.Internal.DiffTime,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",3.09
-time-1.14,Data.Time.Clock.Internal.DiffTime,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.696
-time-1.14,Data.Time.Clock.Internal.DiffTime,Parser,1.258
-time-1.14,Data.Time.Clock.Internal.DiffTime,Renamer/typechecker,9.062
-time-1.14,Data.Time.Clock.Internal.DiffTime,Simplifier,70.44800000000001
-time-1.14,Data.Time.Clock.Internal.DiffTime,Specialise,0.679
-time-1.14,Data.Time.Clock.Internal.DiffTime,Worker Wrapper binds,0.307
-time-1.14,Data.Time.Clock.Internal.NominalDiffTime,Called arity analysis,0.016
-time-1.14,Data.Time.Clock.Internal.NominalDiffTime,CodeGen,73.53999999999999
-time-1.14,Data.Time.Clock.Internal.NominalDiffTime,Common sub-expression,0.015
-time-1.14,Data.Time.Clock.Internal.NominalDiffTime,Constructed Product Result analysis,1.012
-time-1.14,Data.Time.Clock.Internal.NominalDiffTime,CorePrep,1.0
-time-1.14,Data.Time.Clock.Internal.NominalDiffTime,CoreTidy,2.546
-time-1.14,Data.Time.Clock.Internal.NominalDiffTime,CoreToStg,4.084
-time-1.14,Data.Time.Clock.Internal.NominalDiffTime,Demand analysis,2.28
-time-1.14,Data.Time.Clock.Internal.NominalDiffTime,Desugar,0.784
-time-1.14,Data.Time.Clock.Internal.NominalDiffTime,Exitification transformation,0.019
-time-1.14,Data.Time.Clock.Internal.NominalDiffTime,Float inwards,0.027999999999999997
-time-1.14,Data.Time.Clock.Internal.NominalDiffTime,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.626
-time-1.14,Data.Time.Clock.Internal.NominalDiffTime,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.62
-time-1.14,Data.Time.Clock.Internal.NominalDiffTime,Parser,1.865
-time-1.14,Data.Time.Clock.Internal.NominalDiffTime,Renamer/typechecker,11.471
-time-1.14,Data.Time.Clock.Internal.NominalDiffTime,Simplifier,63.49
-time-1.14,Data.Time.Clock.Internal.NominalDiffTime,Specialise,0.507
-time-1.14,Data.Time.Clock.Internal.NominalDiffTime,Worker Wrapper binds,0.238
-time-1.14,Data.Time.Clock.Internal.POSIXTime,Called arity analysis,0.013
-time-1.14,Data.Time.Clock.Internal.POSIXTime,CodeGen,0.852
-time-1.14,Data.Time.Clock.Internal.POSIXTime,Common sub-expression,0.011
-time-1.14,Data.Time.Clock.Internal.POSIXTime,Constructed Product Result analysis,0.025
-time-1.14,Data.Time.Clock.Internal.POSIXTime,CorePrep,0.078
-time-1.14,Data.Time.Clock.Internal.POSIXTime,CoreTidy,0.059
-time-1.14,Data.Time.Clock.Internal.POSIXTime,CoreToStg,0.123
-time-1.14,Data.Time.Clock.Internal.POSIXTime,Demand analysis,0.098
-time-1.14,Data.Time.Clock.Internal.POSIXTime,Desugar,0.061
-time-1.14,Data.Time.Clock.Internal.POSIXTime,Exitification transformation,0.017
-time-1.14,Data.Time.Clock.Internal.POSIXTime,Float inwards,0.032
-time-1.14,Data.Time.Clock.Internal.POSIXTime,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.055
-time-1.14,Data.Time.Clock.Internal.POSIXTime,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.039
-time-1.14,Data.Time.Clock.Internal.POSIXTime,Parser,0.203
-time-1.14,Data.Time.Clock.Internal.POSIXTime,Renamer/typechecker,0.649
-time-1.14,Data.Time.Clock.Internal.POSIXTime,Simplifier,0.617
-time-1.14,Data.Time.Clock.Internal.POSIXTime,Specialise,0.021
-time-1.14,Data.Time.Clock.Internal.POSIXTime,Worker Wrapper binds,0.029
-time-1.14,Data.Time.Clock.Internal.SystemTime,Called arity analysis,0.012
-time-1.14,Data.Time.Clock.Internal.SystemTime,CodeGen,96.043
-time-1.14,Data.Time.Clock.Internal.SystemTime,Common sub-expression,0.014
-time-1.14,Data.Time.Clock.Internal.SystemTime,Constructed Product Result analysis,0.256
-time-1.14,Data.Time.Clock.Internal.SystemTime,CorePrep,1.049
-time-1.14,Data.Time.Clock.Internal.SystemTime,CoreTidy,1.485
-time-1.14,Data.Time.Clock.Internal.SystemTime,CoreToStg,5.052
-time-1.14,Data.Time.Clock.Internal.SystemTime,Demand analysis,2.411
-time-1.14,Data.Time.Clock.Internal.SystemTime,Desugar,0.531
-time-1.14,Data.Time.Clock.Internal.SystemTime,Exitification transformation,0.013
+time-1.14,Data.Time.Clock.Internal.CTimeval,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.58
+time-1.14,Data.Time.Clock.Internal.CTimeval,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.614
+time-1.14,Data.Time.Clock.Internal.CTimeval,Parser,0.967
+time-1.14,Data.Time.Clock.Internal.CTimeval,Renamer/typechecker,2.329
+time-1.14,Data.Time.Clock.Internal.CTimeval,Simplifier,16.621
+time-1.14,Data.Time.Clock.Internal.CTimeval,Specialise,0.361
+time-1.14,Data.Time.Clock.Internal.CTimeval,Worker Wrapper binds,0.088
+time-1.14,Data.Time.Clock.Internal.DiffTime,Called arity analysis,0.019
+time-1.14,Data.Time.Clock.Internal.DiffTime,CodeGen,74.219
+time-1.14,Data.Time.Clock.Internal.DiffTime,Common sub-expression,0.021
+time-1.14,Data.Time.Clock.Internal.DiffTime,Constructed Product Result analysis,0.195
+time-1.14,Data.Time.Clock.Internal.DiffTime,CorePrep,0.976
+time-1.14,Data.Time.Clock.Internal.DiffTime,CoreTidy,1.347
+time-1.14,Data.Time.Clock.Internal.DiffTime,CoreToStg,2.4299999999999997
+time-1.14,Data.Time.Clock.Internal.DiffTime,Demand analysis,2.29
+time-1.14,Data.Time.Clock.Internal.DiffTime,Desugar,0.672
+time-1.14,Data.Time.Clock.Internal.DiffTime,Exitification transformation,0.015
+time-1.14,Data.Time.Clock.Internal.DiffTime,Float inwards,0.02
+time-1.14,Data.Time.Clock.Internal.DiffTime,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.763
+time-1.14,Data.Time.Clock.Internal.DiffTime,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.711
+time-1.14,Data.Time.Clock.Internal.DiffTime,Parser,1.004
+time-1.14,Data.Time.Clock.Internal.DiffTime,Renamer/typechecker,9.74
+time-1.14,Data.Time.Clock.Internal.DiffTime,Simplifier,60.649
+time-1.14,Data.Time.Clock.Internal.DiffTime,Specialise,0.632
+time-1.14,Data.Time.Clock.Internal.DiffTime,Worker Wrapper binds,0.211
+time-1.14,Data.Time.Clock.Internal.NominalDiffTime,Called arity analysis,0.02
+time-1.14,Data.Time.Clock.Internal.NominalDiffTime,CodeGen,74.095
+time-1.14,Data.Time.Clock.Internal.NominalDiffTime,Common sub-expression,0.011
+time-1.14,Data.Time.Clock.Internal.NominalDiffTime,Constructed Product Result analysis,0.215
+time-1.14,Data.Time.Clock.Internal.NominalDiffTime,CorePrep,0.915
+time-1.14,Data.Time.Clock.Internal.NominalDiffTime,CoreTidy,2.255
+time-1.14,Data.Time.Clock.Internal.NominalDiffTime,CoreToStg,2.285
+time-1.14,Data.Time.Clock.Internal.NominalDiffTime,Demand analysis,1.762
+time-1.14,Data.Time.Clock.Internal.NominalDiffTime,Desugar,0.767
+time-1.14,Data.Time.Clock.Internal.NominalDiffTime,Exitification transformation,0.014
+time-1.14,Data.Time.Clock.Internal.NominalDiffTime,Float inwards,0.020999999999999998
+time-1.14,Data.Time.Clock.Internal.NominalDiffTime,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",3.24
+time-1.14,Data.Time.Clock.Internal.NominalDiffTime,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.642
+time-1.14,Data.Time.Clock.Internal.NominalDiffTime,Parser,1.654
+time-1.14,Data.Time.Clock.Internal.NominalDiffTime,Renamer/typechecker,7.27
+time-1.14,Data.Time.Clock.Internal.NominalDiffTime,Simplifier,54.213
+time-1.14,Data.Time.Clock.Internal.NominalDiffTime,Specialise,0.534
+time-1.14,Data.Time.Clock.Internal.NominalDiffTime,Worker Wrapper binds,0.231
+time-1.14,Data.Time.Clock.Internal.POSIXTime,Called arity analysis,0.011
+time-1.14,Data.Time.Clock.Internal.POSIXTime,CodeGen,0.879
+time-1.14,Data.Time.Clock.Internal.POSIXTime,Common sub-expression,0.01
+time-1.14,Data.Time.Clock.Internal.POSIXTime,Constructed Product Result analysis,0.014
+time-1.14,Data.Time.Clock.Internal.POSIXTime,CorePrep,0.062
+time-1.14,Data.Time.Clock.Internal.POSIXTime,CoreTidy,0.053
+time-1.14,Data.Time.Clock.Internal.POSIXTime,CoreToStg,0.08399999999999999
+time-1.14,Data.Time.Clock.Internal.POSIXTime,Demand analysis,0.07
+time-1.14,Data.Time.Clock.Internal.POSIXTime,Desugar,0.064
+time-1.14,Data.Time.Clock.Internal.POSIXTime,Exitification transformation,0.011
+time-1.14,Data.Time.Clock.Internal.POSIXTime,Float inwards,0.020999999999999998
+time-1.14,Data.Time.Clock.Internal.POSIXTime,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.06
+time-1.14,Data.Time.Clock.Internal.POSIXTime,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.028
+time-1.14,Data.Time.Clock.Internal.POSIXTime,Parser,0.197
+time-1.14,Data.Time.Clock.Internal.POSIXTime,Renamer/typechecker,0.654
+time-1.14,Data.Time.Clock.Internal.POSIXTime,Simplifier,0.546
+time-1.14,Data.Time.Clock.Internal.POSIXTime,Specialise,0.02
+time-1.14,Data.Time.Clock.Internal.POSIXTime,Worker Wrapper binds,0.012
+time-1.14,Data.Time.Clock.Internal.SystemTime,Called arity analysis,0.01
+time-1.14,Data.Time.Clock.Internal.SystemTime,CodeGen,100.008
+time-1.14,Data.Time.Clock.Internal.SystemTime,Common sub-expression,0.012
+time-1.14,Data.Time.Clock.Internal.SystemTime,Constructed Product Result analysis,0.247
+time-1.14,Data.Time.Clock.Internal.SystemTime,CorePrep,1.2890000000000001
+time-1.14,Data.Time.Clock.Internal.SystemTime,CoreTidy,2.528
+time-1.14,Data.Time.Clock.Internal.SystemTime,CoreToStg,4.198
+time-1.14,Data.Time.Clock.Internal.SystemTime,Demand analysis,2.0309999999999997
+time-1.14,Data.Time.Clock.Internal.SystemTime,Desugar,0.52
+time-1.14,Data.Time.Clock.Internal.SystemTime,Exitification transformation,0.014
 time-1.14,Data.Time.Clock.Internal.SystemTime,Float inwards,0.022
-time-1.14,Data.Time.Clock.Internal.SystemTime,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",3.635
-time-1.14,Data.Time.Clock.Internal.SystemTime,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.41
-time-1.14,Data.Time.Clock.Internal.SystemTime,Parser,1.55
-time-1.14,Data.Time.Clock.Internal.SystemTime,Renamer/typechecker,7.485
-time-1.14,Data.Time.Clock.Internal.SystemTime,Simplifier,71.706
-time-1.14,Data.Time.Clock.Internal.SystemTime,Specialise,0.544
-time-1.14,Data.Time.Clock.Internal.SystemTime,Worker Wrapper binds,0.272
-time-1.14,Data.Time.Clock.Internal.UTCDiff,Called arity analysis,0.01
-time-1.14,Data.Time.Clock.Internal.UTCDiff,CodeGen,4.635
-time-1.14,Data.Time.Clock.Internal.UTCDiff,Common sub-expression,0.013
-time-1.14,Data.Time.Clock.Internal.UTCDiff,Constructed Product Result analysis,0.03
-time-1.14,Data.Time.Clock.Internal.UTCDiff,CorePrep,0.176
-time-1.14,Data.Time.Clock.Internal.UTCDiff,CoreTidy,0.142
-time-1.14,Data.Time.Clock.Internal.UTCDiff,CoreToStg,0.374
-time-1.14,Data.Time.Clock.Internal.UTCDiff,Demand analysis,0.16
-time-1.14,Data.Time.Clock.Internal.UTCDiff,Desugar,0.127
+time-1.14,Data.Time.Clock.Internal.SystemTime,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",4.324
+time-1.14,Data.Time.Clock.Internal.SystemTime,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.15
+time-1.14,Data.Time.Clock.Internal.SystemTime,Parser,1.945
+time-1.14,Data.Time.Clock.Internal.SystemTime,Renamer/typechecker,5.787
+time-1.14,Data.Time.Clock.Internal.SystemTime,Simplifier,62.685
+time-1.14,Data.Time.Clock.Internal.SystemTime,Specialise,0.596
+time-1.14,Data.Time.Clock.Internal.SystemTime,Worker Wrapper binds,0.243
+time-1.14,Data.Time.Clock.Internal.UTCDiff,Called arity analysis,0.011
+time-1.14,Data.Time.Clock.Internal.UTCDiff,CodeGen,4.79
+time-1.14,Data.Time.Clock.Internal.UTCDiff,Common sub-expression,0.01
+time-1.14,Data.Time.Clock.Internal.UTCDiff,Constructed Product Result analysis,0.034
+time-1.14,Data.Time.Clock.Internal.UTCDiff,CorePrep,0.109
+time-1.14,Data.Time.Clock.Internal.UTCDiff,CoreTidy,0.093
+time-1.14,Data.Time.Clock.Internal.UTCDiff,CoreToStg,0.263
+time-1.14,Data.Time.Clock.Internal.UTCDiff,Demand analysis,0.154
+time-1.14,Data.Time.Clock.Internal.UTCDiff,Desugar,0.075
 time-1.14,Data.Time.Clock.Internal.UTCDiff,Exitification transformation,0.01
-time-1.14,Data.Time.Clock.Internal.UTCDiff,Float inwards,0.019
-time-1.14,Data.Time.Clock.Internal.UTCDiff,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.075
-time-1.14,Data.Time.Clock.Internal.UTCDiff,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.107
-time-1.14,Data.Time.Clock.Internal.UTCDiff,Parser,0.295
-time-1.14,Data.Time.Clock.Internal.UTCDiff,Renamer/typechecker,1.329
-time-1.14,Data.Time.Clock.Internal.UTCDiff,Simplifier,1.739
-time-1.14,Data.Time.Clock.Internal.UTCDiff,Specialise,0.032
-time-1.14,Data.Time.Clock.Internal.UTCDiff,Worker Wrapper binds,0.033
-time-1.14,Data.Time.Clock.Internal.UTCTime,Called arity analysis,0.014
-time-1.14,Data.Time.Clock.Internal.UTCTime,CodeGen,78.939
-time-1.14,Data.Time.Clock.Internal.UTCTime,Common sub-expression,0.011
-time-1.14,Data.Time.Clock.Internal.UTCTime,Constructed Product Result analysis,0.195
-time-1.14,Data.Time.Clock.Internal.UTCTime,CorePrep,1.04
-time-1.14,Data.Time.Clock.Internal.UTCTime,CoreTidy,1.233
-time-1.14,Data.Time.Clock.Internal.UTCTime,CoreToStg,2.415
-time-1.14,Data.Time.Clock.Internal.UTCTime,Demand analysis,2.0909999999999997
-time-1.14,Data.Time.Clock.Internal.UTCTime,Desugar,0.403
-time-1.14,Data.Time.Clock.Internal.UTCTime,Exitification transformation,0.019
+time-1.14,Data.Time.Clock.Internal.UTCDiff,Float inwards,0.020999999999999998
+time-1.14,Data.Time.Clock.Internal.UTCDiff,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.072
+time-1.14,Data.Time.Clock.Internal.UTCDiff,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.103
+time-1.14,Data.Time.Clock.Internal.UTCDiff,Parser,0.251
+time-1.14,Data.Time.Clock.Internal.UTCDiff,Renamer/typechecker,0.858
+time-1.14,Data.Time.Clock.Internal.UTCDiff,Simplifier,1.7710000000000001
+time-1.14,Data.Time.Clock.Internal.UTCDiff,Specialise,0.036
+time-1.14,Data.Time.Clock.Internal.UTCDiff,Worker Wrapper binds,0.037
+time-1.14,Data.Time.Clock.Internal.UTCTime,Called arity analysis,0.011
+time-1.14,Data.Time.Clock.Internal.UTCTime,CodeGen,83.122
+time-1.14,Data.Time.Clock.Internal.UTCTime,Common sub-expression,0.012
+time-1.14,Data.Time.Clock.Internal.UTCTime,Constructed Product Result analysis,0.25
+time-1.14,Data.Time.Clock.Internal.UTCTime,CorePrep,0.956
+time-1.14,Data.Time.Clock.Internal.UTCTime,CoreTidy,1.262
+time-1.14,Data.Time.Clock.Internal.UTCTime,CoreToStg,3.018
+time-1.14,Data.Time.Clock.Internal.UTCTime,Demand analysis,1.807
+time-1.14,Data.Time.Clock.Internal.UTCTime,Desugar,0.451
+time-1.14,Data.Time.Clock.Internal.UTCTime,Exitification transformation,0.013
 time-1.14,Data.Time.Clock.Internal.UTCTime,Float inwards,0.020999999999999998
-time-1.14,Data.Time.Clock.Internal.UTCTime,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.815
-time-1.14,Data.Time.Clock.Internal.UTCTime,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.663
-time-1.14,Data.Time.Clock.Internal.UTCTime,Parser,1.79
-time-1.14,Data.Time.Clock.Internal.UTCTime,Renamer/typechecker,5.921
-time-1.14,Data.Time.Clock.Internal.UTCTime,Simplifier,112.679
-time-1.14,Data.Time.Clock.Internal.UTCTime,Specialise,0.509
-time-1.14,Data.Time.Clock.Internal.UTCTime,Worker Wrapper binds,0.233
-time-1.14,Data.Time.Clock.Internal.UniversalTime,Called arity analysis,0.015
-time-1.14,Data.Time.Clock.Internal.UniversalTime,CodeGen,47.679
-time-1.14,Data.Time.Clock.Internal.UniversalTime,Common sub-expression,0.014
-time-1.14,Data.Time.Clock.Internal.UniversalTime,Constructed Product Result analysis,0.137
-time-1.14,Data.Time.Clock.Internal.UniversalTime,CorePrep,0.768
-time-1.14,Data.Time.Clock.Internal.UniversalTime,CoreTidy,1.133
-time-1.14,Data.Time.Clock.Internal.UniversalTime,CoreToStg,1.827
-time-1.14,Data.Time.Clock.Internal.UniversalTime,Demand analysis,1.203
-time-1.14,Data.Time.Clock.Internal.UniversalTime,Desugar,0.288
+time-1.14,Data.Time.Clock.Internal.UTCTime,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.476
+time-1.14,Data.Time.Clock.Internal.UTCTime,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.78
+time-1.14,Data.Time.Clock.Internal.UTCTime,Parser,0.467
+time-1.14,Data.Time.Clock.Internal.UTCTime,Renamer/typechecker,6.466
+time-1.14,Data.Time.Clock.Internal.UTCTime,Simplifier,53.228
+time-1.14,Data.Time.Clock.Internal.UTCTime,Specialise,0.479
+time-1.14,Data.Time.Clock.Internal.UTCTime,Worker Wrapper binds,0.247
+time-1.14,Data.Time.Clock.Internal.UniversalTime,Called arity analysis,0.013
+time-1.14,Data.Time.Clock.Internal.UniversalTime,CodeGen,48.508
+time-1.14,Data.Time.Clock.Internal.UniversalTime,Common sub-expression,0.011
+time-1.14,Data.Time.Clock.Internal.UniversalTime,Constructed Product Result analysis,0.154
+time-1.14,Data.Time.Clock.Internal.UniversalTime,CorePrep,0.713
+time-1.14,Data.Time.Clock.Internal.UniversalTime,CoreTidy,1.68
+time-1.14,Data.Time.Clock.Internal.UniversalTime,CoreToStg,2.431
+time-1.14,Data.Time.Clock.Internal.UniversalTime,Demand analysis,1.659
+time-1.14,Data.Time.Clock.Internal.UniversalTime,Desugar,0.324
 time-1.14,Data.Time.Clock.Internal.UniversalTime,Exitification transformation,0.012
-time-1.14,Data.Time.Clock.Internal.UniversalTime,Float inwards,0.023
-time-1.14,Data.Time.Clock.Internal.UniversalTime,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.217
-time-1.14,Data.Time.Clock.Internal.UniversalTime,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.12
-time-1.14,Data.Time.Clock.Internal.UniversalTime,Parser,0.303
-time-1.14,Data.Time.Clock.Internal.UniversalTime,Renamer/typechecker,6.187
-time-1.14,Data.Time.Clock.Internal.UniversalTime,Simplifier,33.221000000000004
-time-1.14,Data.Time.Clock.Internal.UniversalTime,Specialise,0.549
-time-1.14,Data.Time.Clock.Internal.UniversalTime,Worker Wrapper binds,0.167
+time-1.14,Data.Time.Clock.Internal.UniversalTime,Float inwards,0.028999999999999998
+time-1.14,Data.Time.Clock.Internal.UniversalTime,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.373
+time-1.14,Data.Time.Clock.Internal.UniversalTime,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.022
+time-1.14,Data.Time.Clock.Internal.UniversalTime,Parser,0.334
+time-1.14,Data.Time.Clock.Internal.UniversalTime,Renamer/typechecker,5.938
+time-1.14,Data.Time.Clock.Internal.UniversalTime,Simplifier,32.227
+time-1.14,Data.Time.Clock.Internal.UniversalTime,Specialise,0.557
+time-1.14,Data.Time.Clock.Internal.UniversalTime,Worker Wrapper binds,0.186
 time-1.14,Data.Time.Clock.POSIX,Called arity analysis,0.011
-time-1.14,Data.Time.Clock.POSIX,CodeGen,12.629000000000001
-time-1.14,Data.Time.Clock.POSIX,Common sub-expression,0.014
-time-1.14,Data.Time.Clock.POSIX,Constructed Product Result analysis,0.06
-time-1.14,Data.Time.Clock.POSIX,CorePrep,0.258
-time-1.14,Data.Time.Clock.POSIX,CoreTidy,0.32
-time-1.14,Data.Time.Clock.POSIX,CoreToStg,0.653
-time-1.14,Data.Time.Clock.POSIX,Demand analysis,0.33899999999999997
-time-1.14,Data.Time.Clock.POSIX,Desugar,0.213
+time-1.14,Data.Time.Clock.POSIX,CodeGen,12.553
+time-1.14,Data.Time.Clock.POSIX,Common sub-expression,0.01
+time-1.14,Data.Time.Clock.POSIX,Constructed Product Result analysis,0.057
+time-1.14,Data.Time.Clock.POSIX,CorePrep,0.246
+time-1.14,Data.Time.Clock.POSIX,CoreTidy,0.245
+time-1.14,Data.Time.Clock.POSIX,CoreToStg,0.594
+time-1.14,Data.Time.Clock.POSIX,Demand analysis,0.751
+time-1.14,Data.Time.Clock.POSIX,Desugar,0.224
 time-1.14,Data.Time.Clock.POSIX,Exitification transformation,0.011
-time-1.14,Data.Time.Clock.POSIX,Float inwards,0.020999999999999998
-time-1.14,Data.Time.Clock.POSIX,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.213
-time-1.14,Data.Time.Clock.POSIX,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.353
-time-1.14,Data.Time.Clock.POSIX,Parser,0.47
-time-1.14,Data.Time.Clock.POSIX,Renamer/typechecker,2.51
-time-1.14,Data.Time.Clock.POSIX,Simplifier,8.209
-time-1.14,Data.Time.Clock.POSIX,Specialise,0.081
-time-1.14,Data.Time.Clock.POSIX,Worker Wrapper binds,0.047
-time-1.14,Data.Time.Clock.System,Called arity analysis,0.01
-time-1.14,Data.Time.Clock.System,CodeGen,15.133
-time-1.14,Data.Time.Clock.System,Common sub-expression,0.012
-time-1.14,Data.Time.Clock.System,Constructed Product Result analysis,0.059
-time-1.14,Data.Time.Clock.System,CorePrep,0.552
-time-1.14,Data.Time.Clock.System,CoreTidy,0.294
-time-1.14,Data.Time.Clock.System,CoreToStg,1.0510000000000002
-time-1.14,Data.Time.Clock.System,Demand analysis,0.391
-time-1.14,Data.Time.Clock.System,Desugar,0.815
+time-1.14,Data.Time.Clock.POSIX,Float inwards,0.019999999999999997
+time-1.14,Data.Time.Clock.POSIX,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.231
+time-1.14,Data.Time.Clock.POSIX,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.327
+time-1.14,Data.Time.Clock.POSIX,Parser,0.834
+time-1.14,Data.Time.Clock.POSIX,Renamer/typechecker,1.766
+time-1.14,Data.Time.Clock.POSIX,Simplifier,8.888
+time-1.14,Data.Time.Clock.POSIX,Specialise,0.086
+time-1.14,Data.Time.Clock.POSIX,Worker Wrapper binds,0.052
+time-1.14,Data.Time.Clock.System,Called arity analysis,0.011
+time-1.14,Data.Time.Clock.System,CodeGen,13.792000000000002
+time-1.14,Data.Time.Clock.System,Common sub-expression,0.01
+time-1.14,Data.Time.Clock.System,Constructed Product Result analysis,0.065
+time-1.14,Data.Time.Clock.System,CorePrep,0.304
+time-1.14,Data.Time.Clock.System,CoreTidy,0.295
+time-1.14,Data.Time.Clock.System,CoreToStg,0.903
+time-1.14,Data.Time.Clock.System,Demand analysis,0.329
+time-1.14,Data.Time.Clock.System,Desugar,0.427
 time-1.14,Data.Time.Clock.System,Exitification transformation,0.011
 time-1.14,Data.Time.Clock.System,Float inwards,0.019
-time-1.14,Data.Time.Clock.System,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.346
-time-1.14,Data.Time.Clock.System,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.415
-time-1.14,Data.Time.Clock.System,Parser,0.879
-time-1.14,Data.Time.Clock.System,Renamer/typechecker,3.162
-time-1.14,Data.Time.Clock.System,Simplifier,10.918
-time-1.14,Data.Time.Clock.System,Specialise,0.102
-time-1.14,Data.Time.Clock.System,Worker Wrapper binds,0.077
-time-1.14,Data.Time.Clock.TAI,Called arity analysis,0.014
-time-1.14,Data.Time.Clock.TAI,CodeGen,25.923000000000002
-time-1.14,Data.Time.Clock.TAI,Common sub-expression,0.01
-time-1.14,Data.Time.Clock.TAI,Constructed Product Result analysis,0.086
-time-1.14,Data.Time.Clock.TAI,CorePrep,0.389
-time-1.14,Data.Time.Clock.TAI,CoreTidy,0.379
-time-1.14,Data.Time.Clock.TAI,CoreToStg,0.991
-time-1.14,Data.Time.Clock.TAI,Demand analysis,0.5880000000000001
-time-1.14,Data.Time.Clock.TAI,Desugar,0.218
-time-1.14,Data.Time.Clock.TAI,Exitification transformation,0.012
-time-1.14,Data.Time.Clock.TAI,Float inwards,0.022
-time-1.14,Data.Time.Clock.TAI,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.58
-time-1.14,Data.Time.Clock.TAI,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.487
-time-1.14,Data.Time.Clock.TAI,Parser,0.806
-time-1.14,Data.Time.Clock.TAI,Renamer/typechecker,3.856
-time-1.14,Data.Time.Clock.TAI,Simplifier,11.951
-time-1.14,Data.Time.Clock.TAI,Specialise,0.256
-time-1.14,Data.Time.Clock.TAI,Worker Wrapper binds,0.065
-time-1.14,Data.Time.Format,Called arity analysis,0.009
-time-1.14,Data.Time.Format,CodeGen,0.872
-time-1.14,Data.Time.Format,Common sub-expression,0.009
-time-1.14,Data.Time.Format,Constructed Product Result analysis,0.012
-time-1.14,Data.Time.Format,CorePrep,0.057999999999999996
-time-1.14,Data.Time.Format,CoreTidy,0.052
-time-1.14,Data.Time.Format,CoreToStg,0.088
-time-1.14,Data.Time.Format,Demand analysis,0.057999999999999996
-time-1.14,Data.Time.Format,Desugar,0.036
-time-1.14,Data.Time.Format,Exitification transformation,0.011
-time-1.14,Data.Time.Format,Float inwards,0.017
-time-1.14,Data.Time.Format,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.043
-time-1.14,Data.Time.Format,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.029
-time-1.14,Data.Time.Format,Parser,0.178
-time-1.14,Data.Time.Format,Renamer/typechecker,0.712
-time-1.14,Data.Time.Format,Simplifier,0.365
-time-1.14,Data.Time.Format,Specialise,0.021
+time-1.14,Data.Time.Clock.System,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.304
+time-1.14,Data.Time.Clock.System,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.379
+time-1.14,Data.Time.Clock.System,Parser,0.844
+time-1.14,Data.Time.Clock.System,Renamer/typechecker,3.383
+time-1.14,Data.Time.Clock.System,Simplifier,10.18
+time-1.14,Data.Time.Clock.System,Specialise,0.086
+time-1.14,Data.Time.Clock.System,Worker Wrapper binds,0.063
+time-1.14,Data.Time.Clock.TAI,Called arity analysis,0.011
+time-1.14,Data.Time.Clock.TAI,CodeGen,26.521
+time-1.14,Data.Time.Clock.TAI,Common sub-expression,0.011
+time-1.14,Data.Time.Clock.TAI,Constructed Product Result analysis,0.087
+time-1.14,Data.Time.Clock.TAI,CorePrep,0.296
+time-1.14,Data.Time.Clock.TAI,CoreTidy,0.367
+time-1.14,Data.Time.Clock.TAI,CoreToStg,0.944
+time-1.14,Data.Time.Clock.TAI,Demand analysis,0.485
+time-1.14,Data.Time.Clock.TAI,Desugar,0.189
+time-1.14,Data.Time.Clock.TAI,Exitification transformation,0.013
+time-1.14,Data.Time.Clock.TAI,Float inwards,0.019
+time-1.14,Data.Time.Clock.TAI,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.538
+time-1.14,Data.Time.Clock.TAI,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.484
+time-1.14,Data.Time.Clock.TAI,Parser,0.634
+time-1.14,Data.Time.Clock.TAI,Renamer/typechecker,3.036
+time-1.14,Data.Time.Clock.TAI,Simplifier,12.222999999999999
+time-1.14,Data.Time.Clock.TAI,Specialise,0.147
+time-1.14,Data.Time.Clock.TAI,Worker Wrapper binds,0.06
+time-1.14,Data.Time.Format,Called arity analysis,0.01
+time-1.14,Data.Time.Format,CodeGen,1.27
+time-1.14,Data.Time.Format,Common sub-expression,0.01
+time-1.14,Data.Time.Format,Constructed Product Result analysis,0.013
+time-1.14,Data.Time.Format,CorePrep,0.053000000000000005
+time-1.14,Data.Time.Format,CoreTidy,0.048
+time-1.14,Data.Time.Format,CoreToStg,0.095
+time-1.14,Data.Time.Format,Demand analysis,0.048
+time-1.14,Data.Time.Format,Desugar,0.05
+time-1.14,Data.Time.Format,Exitification transformation,0.01
+time-1.14,Data.Time.Format,Float inwards,0.028
+time-1.14,Data.Time.Format,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.051
+time-1.14,Data.Time.Format,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.028
+time-1.14,Data.Time.Format,Parser,0.188
+time-1.14,Data.Time.Format,Renamer/typechecker,0.669
+time-1.14,Data.Time.Format,Simplifier,0.384
+time-1.14,Data.Time.Format,Specialise,0.019
 time-1.14,Data.Time.Format,Worker Wrapper binds,0.011
-time-1.14,Data.Time.Format.Format.Class,Called arity analysis,0.018
-time-1.14,Data.Time.Format.Format.Class,CodeGen,55.28
-time-1.14,Data.Time.Format.Format.Class,Common sub-expression,0.013
-time-1.14,Data.Time.Format.Format.Class,Constructed Product Result analysis,0.213
-time-1.14,Data.Time.Format.Format.Class,CorePrep,0.7809999999999999
-time-1.14,Data.Time.Format.Format.Class,CoreTidy,0.671
-time-1.14,Data.Time.Format.Format.Class,CoreToStg,3.5119999999999996
-time-1.14,Data.Time.Format.Format.Class,Demand analysis,1.807
-time-1.14,Data.Time.Format.Format.Class,Desugar,1.204
-time-1.14,Data.Time.Format.Format.Class,Exitification transformation,0.018
-time-1.14,Data.Time.Format.Format.Class,Float inwards,0.03
-time-1.14,Data.Time.Format.Format.Class,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.845
-time-1.14,Data.Time.Format.Format.Class,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.488
-time-1.14,Data.Time.Format.Format.Class,Parser,2.954
-time-1.14,Data.Time.Format.Format.Class,Renamer/typechecker,8.17
-time-1.14,Data.Time.Format.Format.Class,Simplifier,35.594
-time-1.14,Data.Time.Format.Format.Class,Specialise,0.292
-time-1.14,Data.Time.Format.Format.Class,Worker Wrapper binds,0.165
-time-1.14,Data.Time.Format.Format.Instances,Called arity analysis,0.016
-time-1.14,Data.Time.Format.Format.Instances,CodeGen,194.933
-time-1.14,Data.Time.Format.Format.Instances,Common sub-expression,0.022
-time-1.14,Data.Time.Format.Format.Instances,Constructed Product Result analysis,0.633
-time-1.14,Data.Time.Format.Format.Instances,CorePrep,2.4370000000000003
-time-1.14,Data.Time.Format.Format.Instances,CoreTidy,3.958
-time-1.14,Data.Time.Format.Format.Instances,CoreToStg,12.285
-time-1.14,Data.Time.Format.Format.Instances,Demand analysis,6.785
-time-1.14,Data.Time.Format.Format.Instances,Desugar,1.743
+time-1.14,Data.Time.Format.Format.Class,Called arity analysis,0.019
+time-1.14,Data.Time.Format.Format.Class,CodeGen,48.441
+time-1.14,Data.Time.Format.Format.Class,Common sub-expression,0.011
+time-1.14,Data.Time.Format.Format.Class,Constructed Product Result analysis,0.184
+time-1.14,Data.Time.Format.Format.Class,CorePrep,0.713
+time-1.14,Data.Time.Format.Format.Class,CoreTidy,0.69
+time-1.14,Data.Time.Format.Format.Class,CoreToStg,2.143
+time-1.14,Data.Time.Format.Format.Class,Demand analysis,1.5539999999999998
+time-1.14,Data.Time.Format.Format.Class,Desugar,1.169
+time-1.14,Data.Time.Format.Format.Class,Exitification transformation,0.012
+time-1.14,Data.Time.Format.Format.Class,Float inwards,0.02
+time-1.14,Data.Time.Format.Format.Class,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.356
+time-1.14,Data.Time.Format.Format.Class,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.574
+time-1.14,Data.Time.Format.Format.Class,Parser,1.931
+time-1.14,Data.Time.Format.Format.Class,Renamer/typechecker,7.12
+time-1.14,Data.Time.Format.Format.Class,Simplifier,31.362000000000002
+time-1.14,Data.Time.Format.Format.Class,Specialise,0.273
+time-1.14,Data.Time.Format.Format.Class,Worker Wrapper binds,0.101
+time-1.14,Data.Time.Format.Format.Instances,Called arity analysis,0.01
+time-1.14,Data.Time.Format.Format.Instances,CodeGen,195.14
+time-1.14,Data.Time.Format.Format.Instances,Common sub-expression,0.013
+time-1.14,Data.Time.Format.Format.Instances,Constructed Product Result analysis,2.125
+time-1.14,Data.Time.Format.Format.Instances,CorePrep,3.4690000000000003
+time-1.14,Data.Time.Format.Format.Instances,CoreTidy,3.28
+time-1.14,Data.Time.Format.Format.Instances,CoreToStg,11.108
+time-1.14,Data.Time.Format.Format.Instances,Demand analysis,6.872999999999999
+time-1.14,Data.Time.Format.Format.Instances,Desugar,1.919
 time-1.14,Data.Time.Format.Format.Instances,Exitification transformation,0.015
-time-1.14,Data.Time.Format.Format.Instances,Float inwards,0.025
-time-1.14,Data.Time.Format.Format.Instances,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",4.556
-time-1.14,Data.Time.Format.Format.Instances,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",6.538
-time-1.14,Data.Time.Format.Format.Instances,Parser,2.482
-time-1.14,Data.Time.Format.Format.Instances,Renamer/typechecker,18.28
-time-1.14,Data.Time.Format.Format.Instances,Simplifier,148.091
-time-1.14,Data.Time.Format.Format.Instances,Specialise,1.375
-time-1.14,Data.Time.Format.Format.Instances,Worker Wrapper binds,0.418
+time-1.14,Data.Time.Format.Format.Instances,Float inwards,0.023
+time-1.14,Data.Time.Format.Format.Instances,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",4.25
+time-1.14,Data.Time.Format.Format.Instances,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",4.462
+time-1.14,Data.Time.Format.Format.Instances,Parser,2.566
+time-1.14,Data.Time.Format.Format.Instances,Renamer/typechecker,16.968
+time-1.14,Data.Time.Format.Format.Instances,Simplifier,166.482
+time-1.14,Data.Time.Format.Format.Instances,Specialise,1.402
+time-1.14,Data.Time.Format.Format.Instances,Worker Wrapper binds,0.372
 time-1.14,Data.Time.Format.ISO8601,Called arity analysis,0.011
-time-1.14,Data.Time.Format.ISO8601,CodeGen,414.072
-time-1.14,Data.Time.Format.ISO8601,Common sub-expression,0.015
-time-1.14,Data.Time.Format.ISO8601,Constructed Product Result analysis,0.925
-time-1.14,Data.Time.Format.ISO8601,CorePrep,4.836
-time-1.14,Data.Time.Format.ISO8601,CoreTidy,7.669
-time-1.14,Data.Time.Format.ISO8601,CoreToStg,20.09
-time-1.14,Data.Time.Format.ISO8601,Demand analysis,7.131
-time-1.14,Data.Time.Format.ISO8601,Desugar,1.809
-time-1.14,Data.Time.Format.ISO8601,Exitification transformation,0.014
+time-1.14,Data.Time.Format.ISO8601,CodeGen,357.53200000000004
+time-1.14,Data.Time.Format.ISO8601,Common sub-expression,0.014
+time-1.14,Data.Time.Format.ISO8601,Constructed Product Result analysis,0.895
+time-1.14,Data.Time.Format.ISO8601,CorePrep,4.086
+time-1.14,Data.Time.Format.ISO8601,CoreTidy,4.887
+time-1.14,Data.Time.Format.ISO8601,CoreToStg,31.953
+time-1.14,Data.Time.Format.ISO8601,Demand analysis,7.497
+time-1.14,Data.Time.Format.ISO8601,Desugar,7.793
+time-1.14,Data.Time.Format.ISO8601,Exitification transformation,0.013
 time-1.14,Data.Time.Format.ISO8601,Float inwards,0.022
-time-1.14,Data.Time.Format.ISO8601,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",5.48
-time-1.14,Data.Time.Format.ISO8601,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",15.095
-time-1.14,Data.Time.Format.ISO8601,Parser,8.083
-time-1.14,Data.Time.Format.ISO8601,Renamer/typechecker,25.001
-time-1.14,Data.Time.Format.ISO8601,Simplifier,368.807
-time-1.14,Data.Time.Format.ISO8601,Specialise,4.113
-time-1.14,Data.Time.Format.ISO8601,Worker Wrapper binds,0.583
-time-1.14,Data.Time.Format.Internal,Called arity analysis,0.014
-time-1.14,Data.Time.Format.Internal,CodeGen,0.8200000000000001
-time-1.14,Data.Time.Format.Internal,Common sub-expression,0.01
-time-1.14,Data.Time.Format.Internal,Constructed Product Result analysis,0.016
-time-1.14,Data.Time.Format.Internal,CorePrep,0.057999999999999996
-time-1.14,Data.Time.Format.Internal,CoreTidy,0.072
-time-1.14,Data.Time.Format.Internal,CoreToStg,0.07700000000000001
-time-1.14,Data.Time.Format.Internal,Demand analysis,0.053000000000000005
-time-1.14,Data.Time.Format.Internal,Desugar,0.035
-time-1.14,Data.Time.Format.Internal,Exitification transformation,0.012
-time-1.14,Data.Time.Format.Internal,Float inwards,0.022
-time-1.14,Data.Time.Format.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.057
-time-1.14,Data.Time.Format.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.03
-time-1.14,Data.Time.Format.Internal,Parser,0.211
-time-1.14,Data.Time.Format.Internal,Renamer/typechecker,0.586
-time-1.14,Data.Time.Format.Internal,Simplifier,0.378
+time-1.14,Data.Time.Format.ISO8601,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",4.452
+time-1.14,Data.Time.Format.ISO8601,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",17.646
+time-1.14,Data.Time.Format.ISO8601,Parser,6.073
+time-1.14,Data.Time.Format.ISO8601,Renamer/typechecker,19.832
+time-1.14,Data.Time.Format.ISO8601,Simplifier,331.012
+time-1.14,Data.Time.Format.ISO8601,Specialise,4.893
+time-1.14,Data.Time.Format.ISO8601,Worker Wrapper binds,0.651
+time-1.14,Data.Time.Format.Internal,Called arity analysis,0.011
+time-1.14,Data.Time.Format.Internal,CodeGen,0.77
+time-1.14,Data.Time.Format.Internal,Common sub-expression,0.009
+time-1.14,Data.Time.Format.Internal,Constructed Product Result analysis,0.015
+time-1.14,Data.Time.Format.Internal,CorePrep,0.056
+time-1.14,Data.Time.Format.Internal,CoreTidy,0.055
+time-1.14,Data.Time.Format.Internal,CoreToStg,0.07300000000000001
+time-1.14,Data.Time.Format.Internal,Demand analysis,0.048
+time-1.14,Data.Time.Format.Internal,Desugar,0.052
+time-1.14,Data.Time.Format.Internal,Exitification transformation,0.011
+time-1.14,Data.Time.Format.Internal,Float inwards,0.02
+time-1.14,Data.Time.Format.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.045
+time-1.14,Data.Time.Format.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.034
+time-1.14,Data.Time.Format.Internal,Parser,0.19
+time-1.14,Data.Time.Format.Internal,Renamer/typechecker,0.56
+time-1.14,Data.Time.Format.Internal,Simplifier,0.426
 time-1.14,Data.Time.Format.Internal,Specialise,0.02
-time-1.14,Data.Time.Format.Internal,Worker Wrapper binds,0.013
-time-1.14,Data.Time.Format.Locale,Called arity analysis,0.016
-time-1.14,Data.Time.Format.Locale,CodeGen,86.24600000000001
+time-1.14,Data.Time.Format.Internal,Worker Wrapper binds,0.012
+time-1.14,Data.Time.Format.Locale,Called arity analysis,0.011
+time-1.14,Data.Time.Format.Locale,CodeGen,82.381
 time-1.14,Data.Time.Format.Locale,Common sub-expression,0.01
-time-1.14,Data.Time.Format.Locale,Constructed Product Result analysis,0.168
-time-1.14,Data.Time.Format.Locale,CorePrep,1.206
-time-1.14,Data.Time.Format.Locale,CoreTidy,1.567
-time-1.14,Data.Time.Format.Locale,CoreToStg,2.67
-time-1.14,Data.Time.Format.Locale,Demand analysis,1.35
-time-1.14,Data.Time.Format.Locale,Desugar,0.409
-time-1.14,Data.Time.Format.Locale,Exitification transformation,0.012
+time-1.14,Data.Time.Format.Locale,Constructed Product Result analysis,0.167
+time-1.14,Data.Time.Format.Locale,CorePrep,0.8420000000000001
+time-1.14,Data.Time.Format.Locale,CoreTidy,1.562
+time-1.14,Data.Time.Format.Locale,CoreToStg,2.121
+time-1.14,Data.Time.Format.Locale,Demand analysis,1.228
+time-1.14,Data.Time.Format.Locale,Desugar,0.46
+time-1.14,Data.Time.Format.Locale,Exitification transformation,0.011
 time-1.14,Data.Time.Format.Locale,Float inwards,0.020999999999999998
-time-1.14,Data.Time.Format.Locale,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",3.633
-time-1.14,Data.Time.Format.Locale,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.73
-time-1.14,Data.Time.Format.Locale,Parser,0.751
-time-1.14,Data.Time.Format.Locale,Renamer/typechecker,4.065
-time-1.14,Data.Time.Format.Locale,Simplifier,36.108000000000004
-time-1.14,Data.Time.Format.Locale,Specialise,0.705
-time-1.14,Data.Time.Format.Locale,Worker Wrapper binds,0.154
-time-1.14,Data.Time.Format.Parse,Called arity analysis,0.011
-time-1.14,Data.Time.Format.Parse,CodeGen,90.453
+time-1.14,Data.Time.Format.Locale,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.568
+time-1.14,Data.Time.Format.Locale,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.245
+time-1.14,Data.Time.Format.Locale,Parser,0.77
+time-1.14,Data.Time.Format.Locale,Renamer/typechecker,5.438
+time-1.14,Data.Time.Format.Locale,Simplifier,30.326
+time-1.14,Data.Time.Format.Locale,Specialise,0.375
+time-1.14,Data.Time.Format.Locale,Worker Wrapper binds,0.118
+time-1.14,Data.Time.Format.Parse,Called arity analysis,0.01
+time-1.14,Data.Time.Format.Parse,CodeGen,84.565
 time-1.14,Data.Time.Format.Parse,Common sub-expression,0.011
 time-1.14,Data.Time.Format.Parse,Constructed Product Result analysis,0.303
-time-1.14,Data.Time.Format.Parse,CorePrep,1.617
-time-1.14,Data.Time.Format.Parse,CoreTidy,1.477
-time-1.14,Data.Time.Format.Parse,CoreToStg,5.104
-time-1.14,Data.Time.Format.Parse,Demand analysis,2.371
-time-1.14,Data.Time.Format.Parse,Desugar,0.764
-time-1.14,Data.Time.Format.Parse,Exitification transformation,0.017
-time-1.14,Data.Time.Format.Parse,Float inwards,0.026000000000000002
-time-1.14,Data.Time.Format.Parse,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.301
-time-1.14,Data.Time.Format.Parse,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.319
-time-1.14,Data.Time.Format.Parse,Parser,1.59
-time-1.14,Data.Time.Format.Parse,Renamer/typechecker,7.802
-time-1.14,Data.Time.Format.Parse,Simplifier,72.185
-time-1.14,Data.Time.Format.Parse,Specialise,0.419
+time-1.14,Data.Time.Format.Parse,CorePrep,1.111
+time-1.14,Data.Time.Format.Parse,CoreTidy,1.41
+time-1.14,Data.Time.Format.Parse,CoreToStg,5.011
+time-1.14,Data.Time.Format.Parse,Demand analysis,2.365
+time-1.14,Data.Time.Format.Parse,Desugar,0.774
+time-1.14,Data.Time.Format.Parse,Exitification transformation,0.011
+time-1.14,Data.Time.Format.Parse,Float inwards,0.019999999999999997
+time-1.14,Data.Time.Format.Parse,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.336
+time-1.14,Data.Time.Format.Parse,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.152
+time-1.14,Data.Time.Format.Parse,Parser,1.591
+time-1.14,Data.Time.Format.Parse,Renamer/typechecker,8.525
+time-1.14,Data.Time.Format.Parse,Simplifier,61.885999999999996
+time-1.14,Data.Time.Format.Parse,Specialise,0.408
 time-1.14,Data.Time.Format.Parse,Worker Wrapper binds,0.168
-time-1.14,Data.Time.Format.Parse.Class,Called arity analysis,0.011
-time-1.14,Data.Time.Format.Parse.Class,CodeGen,163.394
-time-1.14,Data.Time.Format.Parse.Class,Common sub-expression,0.021
-time-1.14,Data.Time.Format.Parse.Class,Constructed Product Result analysis,0.453
-time-1.14,Data.Time.Format.Parse.Class,CorePrep,2.061
-time-1.14,Data.Time.Format.Parse.Class,CoreTidy,2.161
-time-1.14,Data.Time.Format.Parse.Class,CoreToStg,7.8100000000000005
-time-1.14,Data.Time.Format.Parse.Class,Demand analysis,3.607
-time-1.14,Data.Time.Format.Parse.Class,Desugar,1.319
-time-1.14,Data.Time.Format.Parse.Class,Exitification transformation,0.015
-time-1.14,Data.Time.Format.Parse.Class,Float inwards,0.024
-time-1.14,Data.Time.Format.Parse.Class,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",3.367
-time-1.14,Data.Time.Format.Parse.Class,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",4.996
-time-1.14,Data.Time.Format.Parse.Class,Parser,2.318
-time-1.14,Data.Time.Format.Parse.Class,Renamer/typechecker,14.389
-time-1.14,Data.Time.Format.Parse.Class,Simplifier,147.38
-time-1.14,Data.Time.Format.Parse.Class,Specialise,0.958
-time-1.14,Data.Time.Format.Parse.Class,Worker Wrapper binds,0.248
-time-1.14,Data.Time.Format.Parse.Instances,Called arity analysis,0.013
-time-1.14,Data.Time.Format.Parse.Instances,CodeGen,190.05
-time-1.14,Data.Time.Format.Parse.Instances,Common sub-expression,0.019
-time-1.14,Data.Time.Format.Parse.Instances,Constructed Product Result analysis,0.718
-time-1.14,Data.Time.Format.Parse.Instances,CorePrep,5.678999999999999
-time-1.14,Data.Time.Format.Parse.Instances,CoreTidy,2.282
-time-1.14,Data.Time.Format.Parse.Instances,CoreToStg,9.612
-time-1.14,Data.Time.Format.Parse.Instances,Demand analysis,6.327
-time-1.14,Data.Time.Format.Parse.Instances,Desugar,9.895
-time-1.14,Data.Time.Format.Parse.Instances,Exitification transformation,0.018
-time-1.14,Data.Time.Format.Parse.Instances,Float inwards,0.027
-time-1.14,Data.Time.Format.Parse.Instances,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",9.84
-time-1.14,Data.Time.Format.Parse.Instances,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",5.45
-time-1.14,Data.Time.Format.Parse.Instances,Parser,5.257
-time-1.14,Data.Time.Format.Parse.Instances,Renamer/typechecker,24.618
-time-1.14,Data.Time.Format.Parse.Instances,Simplifier,197.656
-time-1.14,Data.Time.Format.Parse.Instances,Specialise,1.642
-time-1.14,Data.Time.Format.Parse.Instances,Worker Wrapper binds,0.314
-time-1.14,Data.Time.LocalTime,Called arity analysis,0.014
-time-1.14,Data.Time.LocalTime,CodeGen,0.745
-time-1.14,Data.Time.LocalTime,Common sub-expression,0.011
-time-1.14,Data.Time.LocalTime,Constructed Product Result analysis,0.016
-time-1.14,Data.Time.LocalTime,CorePrep,0.067
-time-1.14,Data.Time.LocalTime,CoreTidy,0.056
-time-1.14,Data.Time.LocalTime,CoreToStg,0.08499999999999999
-time-1.14,Data.Time.LocalTime,Demand analysis,0.08600000000000001
-time-1.14,Data.Time.LocalTime,Desugar,0.045
-time-1.14,Data.Time.LocalTime,Exitification transformation,0.015
-time-1.14,Data.Time.LocalTime,Float inwards,0.019
-time-1.14,Data.Time.LocalTime,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.051
-time-1.14,Data.Time.LocalTime,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.04
-time-1.14,Data.Time.LocalTime,Parser,0.298
-time-1.14,Data.Time.LocalTime,Renamer/typechecker,0.758
-time-1.14,Data.Time.LocalTime,Simplifier,0.41300000000000003
-time-1.14,Data.Time.LocalTime,Specialise,0.018
-time-1.14,Data.Time.LocalTime,Worker Wrapper binds,0.017
+time-1.14,Data.Time.Format.Parse.Class,Called arity analysis,0.012
+time-1.14,Data.Time.Format.Parse.Class,CodeGen,157.676
+time-1.14,Data.Time.Format.Parse.Class,Common sub-expression,0.012
+time-1.14,Data.Time.Format.Parse.Class,Constructed Product Result analysis,0.466
+time-1.14,Data.Time.Format.Parse.Class,CorePrep,1.922
+time-1.14,Data.Time.Format.Parse.Class,CoreTidy,1.684
+time-1.14,Data.Time.Format.Parse.Class,CoreToStg,6.308
+time-1.14,Data.Time.Format.Parse.Class,Demand analysis,3.1029999999999998
+time-1.14,Data.Time.Format.Parse.Class,Desugar,1.344
+time-1.14,Data.Time.Format.Parse.Class,Exitification transformation,0.014
+time-1.14,Data.Time.Format.Parse.Class,Float inwards,0.027
+time-1.14,Data.Time.Format.Parse.Class,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",3.269
+time-1.14,Data.Time.Format.Parse.Class,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",4.922
+time-1.14,Data.Time.Format.Parse.Class,Parser,2.567
+time-1.14,Data.Time.Format.Parse.Class,Renamer/typechecker,10.855
+time-1.14,Data.Time.Format.Parse.Class,Simplifier,136.911
+time-1.14,Data.Time.Format.Parse.Class,Specialise,1.021
+time-1.14,Data.Time.Format.Parse.Class,Worker Wrapper binds,0.261
+time-1.14,Data.Time.Format.Parse.Instances,Called arity analysis,0.012
+time-1.14,Data.Time.Format.Parse.Instances,CodeGen,180.351
+time-1.14,Data.Time.Format.Parse.Instances,Common sub-expression,0.013
+time-1.14,Data.Time.Format.Parse.Instances,Constructed Product Result analysis,0.691
+time-1.14,Data.Time.Format.Parse.Instances,CorePrep,2.1350000000000002
+time-1.14,Data.Time.Format.Parse.Instances,CoreTidy,1.974
+time-1.14,Data.Time.Format.Parse.Instances,CoreToStg,8.754
+time-1.14,Data.Time.Format.Parse.Instances,Demand analysis,4.664
+time-1.14,Data.Time.Format.Parse.Instances,Desugar,2.168
+time-1.14,Data.Time.Format.Parse.Instances,Exitification transformation,0.019
+time-1.14,Data.Time.Format.Parse.Instances,Float inwards,0.022
+time-1.14,Data.Time.Format.Parse.Instances,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",5.07
+time-1.14,Data.Time.Format.Parse.Instances,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",5.185
+time-1.14,Data.Time.Format.Parse.Instances,Parser,3.63
+time-1.14,Data.Time.Format.Parse.Instances,Renamer/typechecker,25.547
+time-1.14,Data.Time.Format.Parse.Instances,Simplifier,177.019
+time-1.14,Data.Time.Format.Parse.Instances,Specialise,1.519
+time-1.14,Data.Time.Format.Parse.Instances,Worker Wrapper binds,0.284
+time-1.14,Data.Time.LocalTime,Called arity analysis,0.01
+time-1.14,Data.Time.LocalTime,CodeGen,0.855
+time-1.14,Data.Time.LocalTime,Common sub-expression,0.009
+time-1.14,Data.Time.LocalTime,Constructed Product Result analysis,0.013
+time-1.14,Data.Time.LocalTime,CorePrep,0.061
+time-1.14,Data.Time.LocalTime,CoreTidy,0.046
+time-1.14,Data.Time.LocalTime,CoreToStg,0.08299999999999999
+time-1.14,Data.Time.LocalTime,Demand analysis,0.045
+time-1.14,Data.Time.LocalTime,Desugar,0.035
+time-1.14,Data.Time.LocalTime,Exitification transformation,0.011
+time-1.14,Data.Time.LocalTime,Float inwards,0.019999999999999997
+time-1.14,Data.Time.LocalTime,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.035
+time-1.14,Data.Time.LocalTime,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.027
+time-1.14,Data.Time.LocalTime,Parser,0.228
+time-1.14,Data.Time.LocalTime,Renamer/typechecker,0.709
+time-1.14,Data.Time.LocalTime,Simplifier,0.342
+time-1.14,Data.Time.LocalTime,Specialise,0.019
+time-1.14,Data.Time.LocalTime,Worker Wrapper binds,0.011
 time-1.14,Data.Time.LocalTime.Internal.CalendarDiffTime,Called arity analysis,0.012
-time-1.14,Data.Time.LocalTime.Internal.CalendarDiffTime,CodeGen,66.244
-time-1.14,Data.Time.LocalTime.Internal.CalendarDiffTime,Common sub-expression,0.02
-time-1.14,Data.Time.LocalTime.Internal.CalendarDiffTime,Constructed Product Result analysis,0.187
-time-1.14,Data.Time.LocalTime.Internal.CalendarDiffTime,CorePrep,0.9550000000000001
-time-1.14,Data.Time.LocalTime.Internal.CalendarDiffTime,CoreTidy,1.055
-time-1.14,Data.Time.LocalTime.Internal.CalendarDiffTime,CoreToStg,3.087
-time-1.14,Data.Time.LocalTime.Internal.CalendarDiffTime,Demand analysis,1.6059999999999999
-time-1.14,Data.Time.LocalTime.Internal.CalendarDiffTime,Desugar,0.317
-time-1.14,Data.Time.LocalTime.Internal.CalendarDiffTime,Exitification transformation,0.014
-time-1.14,Data.Time.LocalTime.Internal.CalendarDiffTime,Float inwards,0.03
-time-1.14,Data.Time.LocalTime.Internal.CalendarDiffTime,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.332
-time-1.14,Data.Time.LocalTime.Internal.CalendarDiffTime,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.672
-time-1.14,Data.Time.LocalTime.Internal.CalendarDiffTime,Parser,0.54
-time-1.14,Data.Time.LocalTime.Internal.CalendarDiffTime,Renamer/typechecker,4.826
-time-1.14,Data.Time.LocalTime.Internal.CalendarDiffTime,Simplifier,43.022
-time-1.14,Data.Time.LocalTime.Internal.CalendarDiffTime,Specialise,0.705
-time-1.14,Data.Time.LocalTime.Internal.CalendarDiffTime,Worker Wrapper binds,0.219
-time-1.14,Data.Time.LocalTime.Internal.LocalTime,Called arity analysis,0.012
-time-1.14,Data.Time.LocalTime.Internal.LocalTime,CodeGen,101.39099999999999
-time-1.14,Data.Time.LocalTime.Internal.LocalTime,Common sub-expression,0.013
-time-1.14,Data.Time.LocalTime.Internal.LocalTime,Constructed Product Result analysis,0.275
-time-1.14,Data.Time.LocalTime.Internal.LocalTime,CorePrep,1.136
-time-1.14,Data.Time.LocalTime.Internal.LocalTime,CoreTidy,1.611
-time-1.14,Data.Time.LocalTime.Internal.LocalTime,CoreToStg,4.545999999999999
-time-1.14,Data.Time.LocalTime.Internal.LocalTime,Demand analysis,3.378
-time-1.14,Data.Time.LocalTime.Internal.LocalTime,Desugar,0.556
-time-1.14,Data.Time.LocalTime.Internal.LocalTime,Exitification transformation,0.013
-time-1.14,Data.Time.LocalTime.Internal.LocalTime,Float inwards,0.020999999999999998
-time-1.14,Data.Time.LocalTime.Internal.LocalTime,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",4.866
-time-1.14,Data.Time.LocalTime.Internal.LocalTime,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.314
-time-1.14,Data.Time.LocalTime.Internal.LocalTime,Parser,0.854
-time-1.14,Data.Time.LocalTime.Internal.LocalTime,Renamer/typechecker,5.905
-time-1.14,Data.Time.LocalTime.Internal.LocalTime,Simplifier,59.574
-time-1.14,Data.Time.LocalTime.Internal.LocalTime,Specialise,0.507
-time-1.14,Data.Time.LocalTime.Internal.LocalTime,Worker Wrapper binds,0.281
-time-1.14,Data.Time.LocalTime.Internal.TimeOfDay,Called arity analysis,0.015
-time-1.14,Data.Time.LocalTime.Internal.TimeOfDay,CodeGen,134.52800000000002
+time-1.14,Data.Time.LocalTime.Internal.CalendarDiffTime,CodeGen,65.88999999999999
+time-1.14,Data.Time.LocalTime.Internal.CalendarDiffTime,Common sub-expression,0.012
+time-1.14,Data.Time.LocalTime.Internal.CalendarDiffTime,Constructed Product Result analysis,0.258
+time-1.14,Data.Time.LocalTime.Internal.CalendarDiffTime,CorePrep,0.7689999999999999
+time-1.14,Data.Time.LocalTime.Internal.CalendarDiffTime,CoreTidy,0.96
+time-1.14,Data.Time.LocalTime.Internal.CalendarDiffTime,CoreToStg,2.2439999999999998
+time-1.14,Data.Time.LocalTime.Internal.CalendarDiffTime,Demand analysis,2.324
+time-1.14,Data.Time.LocalTime.Internal.CalendarDiffTime,Desugar,0.364
+time-1.14,Data.Time.LocalTime.Internal.CalendarDiffTime,Exitification transformation,0.013
+time-1.14,Data.Time.LocalTime.Internal.CalendarDiffTime,Float inwards,0.023
+time-1.14,Data.Time.LocalTime.Internal.CalendarDiffTime,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",3.018
+time-1.14,Data.Time.LocalTime.Internal.CalendarDiffTime,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.436
+time-1.14,Data.Time.LocalTime.Internal.CalendarDiffTime,Parser,0.575
+time-1.14,Data.Time.LocalTime.Internal.CalendarDiffTime,Renamer/typechecker,4.859
+time-1.14,Data.Time.LocalTime.Internal.CalendarDiffTime,Simplifier,43.813
+time-1.14,Data.Time.LocalTime.Internal.CalendarDiffTime,Specialise,0.428
+time-1.14,Data.Time.LocalTime.Internal.CalendarDiffTime,Worker Wrapper binds,0.261
+time-1.14,Data.Time.LocalTime.Internal.LocalTime,Called arity analysis,0.01
+time-1.14,Data.Time.LocalTime.Internal.LocalTime,CodeGen,100.614
+time-1.14,Data.Time.LocalTime.Internal.LocalTime,Common sub-expression,0.014
+time-1.14,Data.Time.LocalTime.Internal.LocalTime,Constructed Product Result analysis,0.245
+time-1.14,Data.Time.LocalTime.Internal.LocalTime,CorePrep,1.264
+time-1.14,Data.Time.LocalTime.Internal.LocalTime,CoreTidy,1.704
+time-1.14,Data.Time.LocalTime.Internal.LocalTime,CoreToStg,3.4530000000000003
+time-1.14,Data.Time.LocalTime.Internal.LocalTime,Demand analysis,2.242
+time-1.14,Data.Time.LocalTime.Internal.LocalTime,Desugar,0.512
+time-1.14,Data.Time.LocalTime.Internal.LocalTime,Exitification transformation,0.015
+time-1.14,Data.Time.LocalTime.Internal.LocalTime,Float inwards,0.028999999999999998
+time-1.14,Data.Time.LocalTime.Internal.LocalTime,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.328
+time-1.14,Data.Time.LocalTime.Internal.LocalTime,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",4.298
+time-1.14,Data.Time.LocalTime.Internal.LocalTime,Parser,0.774
+time-1.14,Data.Time.LocalTime.Internal.LocalTime,Renamer/typechecker,5.579
+time-1.14,Data.Time.LocalTime.Internal.LocalTime,Simplifier,51.442
+time-1.14,Data.Time.LocalTime.Internal.LocalTime,Specialise,0.466
+time-1.14,Data.Time.LocalTime.Internal.LocalTime,Worker Wrapper binds,0.258
+time-1.14,Data.Time.LocalTime.Internal.TimeOfDay,Called arity analysis,0.011
+time-1.14,Data.Time.LocalTime.Internal.TimeOfDay,CodeGen,130.374
 time-1.14,Data.Time.LocalTime.Internal.TimeOfDay,Common sub-expression,0.012
-time-1.14,Data.Time.LocalTime.Internal.TimeOfDay,Constructed Product Result analysis,0.328
-time-1.14,Data.Time.LocalTime.Internal.TimeOfDay,CorePrep,1.6640000000000001
-time-1.14,Data.Time.LocalTime.Internal.TimeOfDay,CoreTidy,2.348
-time-1.14,Data.Time.LocalTime.Internal.TimeOfDay,CoreToStg,4.9510000000000005
-time-1.14,Data.Time.LocalTime.Internal.TimeOfDay,Demand analysis,3.146
-time-1.14,Data.Time.LocalTime.Internal.TimeOfDay,Desugar,0.824
-time-1.14,Data.Time.LocalTime.Internal.TimeOfDay,Exitification transformation,0.019
-time-1.14,Data.Time.LocalTime.Internal.TimeOfDay,Float inwards,0.034999999999999996
-time-1.14,Data.Time.LocalTime.Internal.TimeOfDay,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",3.265
-time-1.14,Data.Time.LocalTime.Internal.TimeOfDay,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",3.267
-time-1.14,Data.Time.LocalTime.Internal.TimeOfDay,Parser,1.011
-time-1.14,Data.Time.LocalTime.Internal.TimeOfDay,Renamer/typechecker,9.387
-time-1.14,Data.Time.LocalTime.Internal.TimeOfDay,Simplifier,111.364
-time-1.14,Data.Time.LocalTime.Internal.TimeOfDay,Specialise,0.827
-time-1.14,Data.Time.LocalTime.Internal.TimeOfDay,Worker Wrapper binds,0.31
-time-1.14,Data.Time.LocalTime.Internal.TimeZone,Called arity analysis,0.017
-time-1.14,Data.Time.LocalTime.Internal.TimeZone,CodeGen,119.12299999999999
-time-1.14,Data.Time.LocalTime.Internal.TimeZone,Common sub-expression,0.012
-time-1.14,Data.Time.LocalTime.Internal.TimeZone,Constructed Product Result analysis,0.276
-time-1.14,Data.Time.LocalTime.Internal.TimeZone,CorePrep,1.706
-time-1.14,Data.Time.LocalTime.Internal.TimeZone,CoreTidy,1.834
-time-1.14,Data.Time.LocalTime.Internal.TimeZone,CoreToStg,4.0969999999999995
-time-1.14,Data.Time.LocalTime.Internal.TimeZone,Demand analysis,3.349
-time-1.14,Data.Time.LocalTime.Internal.TimeZone,Desugar,0.734
-time-1.14,Data.Time.LocalTime.Internal.TimeZone,Exitification transformation,0.019
-time-1.14,Data.Time.LocalTime.Internal.TimeZone,Float inwards,0.027000000000000003
-time-1.14,Data.Time.LocalTime.Internal.TimeZone,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",3.492
-time-1.14,Data.Time.LocalTime.Internal.TimeZone,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.794
-time-1.14,Data.Time.LocalTime.Internal.TimeZone,Parser,1.639
-time-1.14,Data.Time.LocalTime.Internal.TimeZone,Renamer/typechecker,8.706
-time-1.14,Data.Time.LocalTime.Internal.TimeZone,Simplifier,85.108
-time-1.14,Data.Time.LocalTime.Internal.TimeZone,Specialise,0.616
-time-1.14,Data.Time.LocalTime.Internal.TimeZone,Worker Wrapper binds,0.268
-time-1.14,Data.Time.LocalTime.Internal.ZonedTime,Called arity analysis,0.014
-time-1.14,Data.Time.LocalTime.Internal.ZonedTime,CodeGen,68.375
-time-1.14,Data.Time.LocalTime.Internal.ZonedTime,Common sub-expression,0.019
-time-1.14,Data.Time.LocalTime.Internal.ZonedTime,Constructed Product Result analysis,0.175
-time-1.14,Data.Time.LocalTime.Internal.ZonedTime,CorePrep,1.928
-time-1.14,Data.Time.LocalTime.Internal.ZonedTime,CoreTidy,1.078
-time-1.14,Data.Time.LocalTime.Internal.ZonedTime,CoreToStg,2.326
-time-1.14,Data.Time.LocalTime.Internal.ZonedTime,Demand analysis,1.545
-time-1.14,Data.Time.LocalTime.Internal.ZonedTime,Desugar,0.322
-time-1.14,Data.Time.LocalTime.Internal.ZonedTime,Exitification transformation,0.014
-time-1.14,Data.Time.LocalTime.Internal.ZonedTime,Float inwards,0.027999999999999997
-time-1.14,Data.Time.LocalTime.Internal.ZonedTime,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.102
-time-1.14,Data.Time.LocalTime.Internal.ZonedTime,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.685
-time-1.14,Data.Time.LocalTime.Internal.ZonedTime,Parser,0.686
-time-1.14,Data.Time.LocalTime.Internal.ZonedTime,Renamer/typechecker,5.054
-time-1.14,Data.Time.LocalTime.Internal.ZonedTime,Simplifier,43.194
-time-1.14,Data.Time.LocalTime.Internal.ZonedTime,Specialise,0.402
-time-1.14,Data.Time.LocalTime.Internal.ZonedTime,Worker Wrapper binds,0.216
+time-1.14,Data.Time.LocalTime.Internal.TimeOfDay,Constructed Product Result analysis,0.322
+time-1.14,Data.Time.LocalTime.Internal.TimeOfDay,CorePrep,1.666
+time-1.14,Data.Time.LocalTime.Internal.TimeOfDay,CoreTidy,2.089
+time-1.14,Data.Time.LocalTime.Internal.TimeOfDay,CoreToStg,4.834
+time-1.14,Data.Time.LocalTime.Internal.TimeOfDay,Demand analysis,3.053
+time-1.14,Data.Time.LocalTime.Internal.TimeOfDay,Desugar,0.749
+time-1.14,Data.Time.LocalTime.Internal.TimeOfDay,Exitification transformation,0.016
+time-1.14,Data.Time.LocalTime.Internal.TimeOfDay,Float inwards,0.022
+time-1.14,Data.Time.LocalTime.Internal.TimeOfDay,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",3.126
+time-1.14,Data.Time.LocalTime.Internal.TimeOfDay,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",5.015
+time-1.14,Data.Time.LocalTime.Internal.TimeOfDay,Parser,1.242
+time-1.14,Data.Time.LocalTime.Internal.TimeOfDay,Renamer/typechecker,9.025
+time-1.14,Data.Time.LocalTime.Internal.TimeOfDay,Simplifier,95.226
+time-1.14,Data.Time.LocalTime.Internal.TimeOfDay,Specialise,0.759
+time-1.14,Data.Time.LocalTime.Internal.TimeOfDay,Worker Wrapper binds,0.322
+time-1.14,Data.Time.LocalTime.Internal.TimeZone,Called arity analysis,0.01
+time-1.14,Data.Time.LocalTime.Internal.TimeZone,CodeGen,109.624
+time-1.14,Data.Time.LocalTime.Internal.TimeZone,Common sub-expression,0.013
+time-1.14,Data.Time.LocalTime.Internal.TimeZone,Constructed Product Result analysis,0.279
+time-1.14,Data.Time.LocalTime.Internal.TimeZone,CorePrep,2.584
+time-1.14,Data.Time.LocalTime.Internal.TimeZone,CoreTidy,2.158
+time-1.14,Data.Time.LocalTime.Internal.TimeZone,CoreToStg,76.017
+time-1.14,Data.Time.LocalTime.Internal.TimeZone,Demand analysis,3.672
+time-1.14,Data.Time.LocalTime.Internal.TimeZone,Desugar,2.432
+time-1.14,Data.Time.LocalTime.Internal.TimeZone,Exitification transformation,0.012
+time-1.14,Data.Time.LocalTime.Internal.TimeZone,Float inwards,0.02
+time-1.14,Data.Time.LocalTime.Internal.TimeZone,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",3.86
+time-1.14,Data.Time.LocalTime.Internal.TimeZone,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",3.218
+time-1.14,Data.Time.LocalTime.Internal.TimeZone,Parser,1.8
+time-1.14,Data.Time.LocalTime.Internal.TimeZone,Renamer/typechecker,8.881
+time-1.14,Data.Time.LocalTime.Internal.TimeZone,Simplifier,78.655
+time-1.14,Data.Time.LocalTime.Internal.TimeZone,Specialise,1.203
+time-1.14,Data.Time.LocalTime.Internal.TimeZone,Worker Wrapper binds,0.893
+time-1.14,Data.Time.LocalTime.Internal.ZonedTime,Called arity analysis,0.015
+time-1.14,Data.Time.LocalTime.Internal.ZonedTime,CodeGen,65.364
+time-1.14,Data.Time.LocalTime.Internal.ZonedTime,Common sub-expression,0.014
+time-1.14,Data.Time.LocalTime.Internal.ZonedTime,Constructed Product Result analysis,0.171
+time-1.14,Data.Time.LocalTime.Internal.ZonedTime,CorePrep,0.8029999999999999
+time-1.14,Data.Time.LocalTime.Internal.ZonedTime,CoreTidy,1.033
+time-1.14,Data.Time.LocalTime.Internal.ZonedTime,CoreToStg,2.317
+time-1.14,Data.Time.LocalTime.Internal.ZonedTime,Demand analysis,1.483
+time-1.14,Data.Time.LocalTime.Internal.ZonedTime,Desugar,0.289
+time-1.14,Data.Time.LocalTime.Internal.ZonedTime,Exitification transformation,0.015
+time-1.14,Data.Time.LocalTime.Internal.ZonedTime,Float inwards,0.028999999999999998
+time-1.14,Data.Time.LocalTime.Internal.ZonedTime,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.006
+time-1.14,Data.Time.LocalTime.Internal.ZonedTime,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.407
+time-1.14,Data.Time.LocalTime.Internal.ZonedTime,Parser,0.626
+time-1.14,Data.Time.LocalTime.Internal.ZonedTime,Renamer/typechecker,4.15
+time-1.14,Data.Time.LocalTime.Internal.ZonedTime,Simplifier,35.767
+time-1.14,Data.Time.LocalTime.Internal.ZonedTime,Specialise,0.394
+time-1.14,Data.Time.LocalTime.Internal.ZonedTime,Worker Wrapper binds,0.191

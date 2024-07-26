@@ -1,0 +1,37 @@
+package,module,phase,time
+tagged-0.8.8,Data.Proxy.TH,Called arity analysis,0.019
+tagged-0.8.8,Data.Proxy.TH,CodeGen,44.323
+tagged-0.8.8,Data.Proxy.TH,Common sub-expression,0.01
+tagged-0.8.8,Data.Proxy.TH,Constructed Product Result analysis,0.227
+tagged-0.8.8,Data.Proxy.TH,CorePrep,1.183
+tagged-0.8.8,Data.Proxy.TH,CoreTidy,0.62
+tagged-0.8.8,Data.Proxy.TH,CoreToStg,2.678
+tagged-0.8.8,Data.Proxy.TH,Demand analysis,11.303
+tagged-0.8.8,Data.Proxy.TH,Desugar,0.674
+tagged-0.8.8,Data.Proxy.TH,Exitification transformation,0.01
+tagged-0.8.8,Data.Proxy.TH,Float inwards,0.027
+tagged-0.8.8,Data.Proxy.TH,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.093
+tagged-0.8.8,Data.Proxy.TH,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.761
+tagged-0.8.8,Data.Proxy.TH,Parser,17.734
+tagged-0.8.8,Data.Proxy.TH,Renamer/typechecker,66.846
+tagged-0.8.8,Data.Proxy.TH,Simplifier,38.647
+tagged-0.8.8,Data.Proxy.TH,Specialise,0.913
+tagged-0.8.8,Data.Proxy.TH,Worker Wrapper binds,0.582
+tagged-0.8.8,Data.Tagged,Called arity analysis,0.011
+tagged-0.8.8,Data.Tagged,CodeGen,198.668
+tagged-0.8.8,Data.Tagged,Common sub-expression,0.013
+tagged-0.8.8,Data.Tagged,Constructed Product Result analysis,1.158
+tagged-0.8.8,Data.Tagged,CorePrep,3.215
+tagged-0.8.8,Data.Tagged,CoreTidy,6.686
+tagged-0.8.8,Data.Tagged,CoreToStg,17.726
+tagged-0.8.8,Data.Tagged,Demand analysis,9.386
+tagged-0.8.8,Data.Tagged,Desugar,7.453
+tagged-0.8.8,Data.Tagged,Exitification transformation,0.013
+tagged-0.8.8,Data.Tagged,Float inwards,0.020999999999999998
+tagged-0.8.8,Data.Tagged,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",9.867
+tagged-0.8.8,Data.Tagged,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",8.292
+tagged-0.8.8,Data.Tagged,Parser,5.922
+tagged-0.8.8,Data.Tagged,Renamer/typechecker,178.304
+tagged-0.8.8,Data.Tagged,Simplifier,283.959
+tagged-0.8.8,Data.Tagged,Specialise,1.788
+tagged-0.8.8,Data.Tagged,Worker Wrapper binds,0.949

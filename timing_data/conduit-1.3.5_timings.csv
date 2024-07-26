@@ -1,0 +1,253 @@
+package,module,phase,time
+conduit-1.3.5,Conduit,Called arity analysis,0.01
+conduit-1.3.5,Conduit,CodeGen,0.813
+conduit-1.3.5,Conduit,Common sub-expression,0.008
+conduit-1.3.5,Conduit,Constructed Product Result analysis,0.012
+conduit-1.3.5,Conduit,CorePrep,0.056
+conduit-1.3.5,Conduit,CoreTidy,0.042
+conduit-1.3.5,Conduit,CoreToStg,0.08
+conduit-1.3.5,Conduit,Demand analysis,0.045
+conduit-1.3.5,Conduit,Desugar,0.132
+conduit-1.3.5,Conduit,Exitification transformation,0.009
+conduit-1.3.5,Conduit,Float inwards,0.016
+conduit-1.3.5,Conduit,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.055
+conduit-1.3.5,Conduit,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.026
+conduit-1.3.5,Conduit,Parser,0.99
+conduit-1.3.5,Conduit,Renamer/typechecker,1.358
+conduit-1.3.5,Conduit,Simplifier,0.426
+conduit-1.3.5,Conduit,Specialise,0.018
+conduit-1.3.5,Conduit,Worker Wrapper binds,0.011
+conduit-1.3.5,Data.Conduit,Called arity analysis,0.009
+conduit-1.3.5,Data.Conduit,CodeGen,0.7
+conduit-1.3.5,Data.Conduit,Common sub-expression,0.009
+conduit-1.3.5,Data.Conduit,Constructed Product Result analysis,0.011
+conduit-1.3.5,Data.Conduit,CorePrep,0.065
+conduit-1.3.5,Data.Conduit,CoreTidy,0.047
+conduit-1.3.5,Data.Conduit,CoreToStg,0.099
+conduit-1.3.5,Data.Conduit,Demand analysis,0.045
+conduit-1.3.5,Data.Conduit,Desugar,0.04
+conduit-1.3.5,Data.Conduit,Exitification transformation,0.01
+conduit-1.3.5,Data.Conduit,Float inwards,0.017
+conduit-1.3.5,Data.Conduit,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.071
+conduit-1.3.5,Data.Conduit,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.026
+conduit-1.3.5,Data.Conduit,Parser,0.442
+conduit-1.3.5,Data.Conduit,Renamer/typechecker,0.583
+conduit-1.3.5,Data.Conduit,Simplifier,0.444
+conduit-1.3.5,Data.Conduit,Specialise,0.034
+conduit-1.3.5,Data.Conduit,Worker Wrapper binds,0.011
+conduit-1.3.5,Data.Conduit.Combinators,Called arity analysis,0.011
+conduit-1.3.5,Data.Conduit.Combinators,CodeGen,804.9870000000001
+conduit-1.3.5,Data.Conduit.Combinators,Common sub-expression,0.018
+conduit-1.3.5,Data.Conduit.Combinators,Constructed Product Result analysis,6.631
+conduit-1.3.5,Data.Conduit.Combinators,CorePrep,13.232
+conduit-1.3.5,Data.Conduit.Combinators,CoreTidy,20.215
+conduit-1.3.5,Data.Conduit.Combinators,CoreToStg,87.404
+conduit-1.3.5,Data.Conduit.Combinators,Demand analysis,76.259
+conduit-1.3.5,Data.Conduit.Combinators,Desugar,27.376
+conduit-1.3.5,Data.Conduit.Combinators,Exitification transformation,0.013
+conduit-1.3.5,Data.Conduit.Combinators,Float inwards,0.023
+conduit-1.3.5,Data.Conduit.Combinators,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",70.369
+conduit-1.3.5,Data.Conduit.Combinators,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",59.585
+conduit-1.3.5,Data.Conduit.Combinators,Parser,25.55
+conduit-1.3.5,Data.Conduit.Combinators,Renamer/typechecker,180.625
+conduit-1.3.5,Data.Conduit.Combinators,Simplifier,2631.2
+conduit-1.3.5,Data.Conduit.Combinators,Specialise,9.129
+conduit-1.3.5,Data.Conduit.Combinators,Worker Wrapper binds,5.532
+conduit-1.3.5,Data.Conduit.Combinators.Stream,Called arity analysis,0.016
+conduit-1.3.5,Data.Conduit.Combinators.Stream,CodeGen,196.16
+conduit-1.3.5,Data.Conduit.Combinators.Stream,Common sub-expression,0.012
+conduit-1.3.5,Data.Conduit.Combinators.Stream,Constructed Product Result analysis,0.869
+conduit-1.3.5,Data.Conduit.Combinators.Stream,CorePrep,3.91
+conduit-1.3.5,Data.Conduit.Combinators.Stream,CoreTidy,4.476
+conduit-1.3.5,Data.Conduit.Combinators.Stream,CoreToStg,9.149
+conduit-1.3.5,Data.Conduit.Combinators.Stream,Demand analysis,7.99
+conduit-1.3.5,Data.Conduit.Combinators.Stream,Desugar,7.146
+conduit-1.3.5,Data.Conduit.Combinators.Stream,Exitification transformation,0.013
+conduit-1.3.5,Data.Conduit.Combinators.Stream,Float inwards,0.026000000000000002
+conduit-1.3.5,Data.Conduit.Combinators.Stream,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",8.664
+conduit-1.3.5,Data.Conduit.Combinators.Stream,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",8.154
+conduit-1.3.5,Data.Conduit.Combinators.Stream,Parser,5.584
+conduit-1.3.5,Data.Conduit.Combinators.Stream,Renamer/typechecker,92.446
+conduit-1.3.5,Data.Conduit.Combinators.Stream,Simplifier,292.651
+conduit-1.3.5,Data.Conduit.Combinators.Stream,Specialise,1.35
+conduit-1.3.5,Data.Conduit.Combinators.Stream,Worker Wrapper binds,0.347
+conduit-1.3.5,Data.Conduit.Combinators.Unqualified,Called arity analysis,0.011
+conduit-1.3.5,Data.Conduit.Combinators.Unqualified,CodeGen,203.151
+conduit-1.3.5,Data.Conduit.Combinators.Unqualified,Common sub-expression,0.014
+conduit-1.3.5,Data.Conduit.Combinators.Unqualified,Constructed Product Result analysis,1.216
+conduit-1.3.5,Data.Conduit.Combinators.Unqualified,CorePrep,3.675
+conduit-1.3.5,Data.Conduit.Combinators.Unqualified,CoreTidy,5.021
+conduit-1.3.5,Data.Conduit.Combinators.Unqualified,CoreToStg,14.529
+conduit-1.3.5,Data.Conduit.Combinators.Unqualified,Demand analysis,11.911999999999999
+conduit-1.3.5,Data.Conduit.Combinators.Unqualified,Desugar,2.691
+conduit-1.3.5,Data.Conduit.Combinators.Unqualified,Exitification transformation,0.015
+conduit-1.3.5,Data.Conduit.Combinators.Unqualified,Float inwards,0.024
+conduit-1.3.5,Data.Conduit.Combinators.Unqualified,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",17.885
+conduit-1.3.5,Data.Conduit.Combinators.Unqualified,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",16.115
+conduit-1.3.5,Data.Conduit.Combinators.Unqualified,Parser,9.254
+conduit-1.3.5,Data.Conduit.Combinators.Unqualified,Renamer/typechecker,38.075
+conduit-1.3.5,Data.Conduit.Combinators.Unqualified,Simplifier,306.098
+conduit-1.3.5,Data.Conduit.Combinators.Unqualified,Specialise,1.71
+conduit-1.3.5,Data.Conduit.Combinators.Unqualified,Worker Wrapper binds,0.524
+conduit-1.3.5,Data.Conduit.Internal,Called arity analysis,0.011
+conduit-1.3.5,Data.Conduit.Internal,CodeGen,1.0150000000000001
+conduit-1.3.5,Data.Conduit.Internal,Common sub-expression,0.011
+conduit-1.3.5,Data.Conduit.Internal,Constructed Product Result analysis,0.014
+conduit-1.3.5,Data.Conduit.Internal,CorePrep,0.061
+conduit-1.3.5,Data.Conduit.Internal,CoreTidy,0.049
+conduit-1.3.5,Data.Conduit.Internal,CoreToStg,0.085
+conduit-1.3.5,Data.Conduit.Internal,Demand analysis,0.051000000000000004
+conduit-1.3.5,Data.Conduit.Internal,Desugar,0.039
+conduit-1.3.5,Data.Conduit.Internal,Exitification transformation,0.012
+conduit-1.3.5,Data.Conduit.Internal,Float inwards,0.023
+conduit-1.3.5,Data.Conduit.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.044
+conduit-1.3.5,Data.Conduit.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.031
+conduit-1.3.5,Data.Conduit.Internal,Parser,0.382
+conduit-1.3.5,Data.Conduit.Internal,Renamer/typechecker,0.624
+conduit-1.3.5,Data.Conduit.Internal,Simplifier,0.393
+conduit-1.3.5,Data.Conduit.Internal,Specialise,0.024
+conduit-1.3.5,Data.Conduit.Internal,Worker Wrapper binds,0.014
+conduit-1.3.5,Data.Conduit.Internal.Conduit,Called arity analysis,0.015
+conduit-1.3.5,Data.Conduit.Internal.Conduit,CodeGen,397.829
+conduit-1.3.5,Data.Conduit.Internal.Conduit,Common sub-expression,0.013
+conduit-1.3.5,Data.Conduit.Internal.Conduit,Constructed Product Result analysis,2.219
+conduit-1.3.5,Data.Conduit.Internal.Conduit,CorePrep,9.263
+conduit-1.3.5,Data.Conduit.Internal.Conduit,CoreTidy,8.82
+conduit-1.3.5,Data.Conduit.Internal.Conduit,CoreToStg,23.137
+conduit-1.3.5,Data.Conduit.Internal.Conduit,Demand analysis,20.168
+conduit-1.3.5,Data.Conduit.Internal.Conduit,Desugar,12.23
+conduit-1.3.5,Data.Conduit.Internal.Conduit,Exitification transformation,0.013
+conduit-1.3.5,Data.Conduit.Internal.Conduit,Float inwards,0.03
+conduit-1.3.5,Data.Conduit.Internal.Conduit,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",18.066
+conduit-1.3.5,Data.Conduit.Internal.Conduit,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",25.328
+conduit-1.3.5,Data.Conduit.Internal.Conduit,Parser,17.147
+conduit-1.3.5,Data.Conduit.Internal.Conduit,Renamer/typechecker,101.26
+conduit-1.3.5,Data.Conduit.Internal.Conduit,Simplifier,493.176
+conduit-1.3.5,Data.Conduit.Internal.Conduit,Specialise,8.949
+conduit-1.3.5,Data.Conduit.Internal.Conduit,Worker Wrapper binds,2.261
+conduit-1.3.5,Data.Conduit.Internal.Fusion,Called arity analysis,0.014
+conduit-1.3.5,Data.Conduit.Internal.Fusion,CodeGen,25.747999999999998
+conduit-1.3.5,Data.Conduit.Internal.Fusion,Common sub-expression,0.01
+conduit-1.3.5,Data.Conduit.Internal.Fusion,Constructed Product Result analysis,0.133
+conduit-1.3.5,Data.Conduit.Internal.Fusion,CorePrep,0.484
+conduit-1.3.5,Data.Conduit.Internal.Fusion,CoreTidy,1.156
+conduit-1.3.5,Data.Conduit.Internal.Fusion,CoreToStg,1.022
+conduit-1.3.5,Data.Conduit.Internal.Fusion,Demand analysis,3.8600000000000003
+conduit-1.3.5,Data.Conduit.Internal.Fusion,Desugar,6.922
+conduit-1.3.5,Data.Conduit.Internal.Fusion,Exitification transformation,0.014
+conduit-1.3.5,Data.Conduit.Internal.Fusion,Float inwards,0.023
+conduit-1.3.5,Data.Conduit.Internal.Fusion,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.702
+conduit-1.3.5,Data.Conduit.Internal.Fusion,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.759
+conduit-1.3.5,Data.Conduit.Internal.Fusion,Parser,2.963
+conduit-1.3.5,Data.Conduit.Internal.Fusion,Renamer/typechecker,16.882
+conduit-1.3.5,Data.Conduit.Internal.Fusion,Simplifier,85.226
+conduit-1.3.5,Data.Conduit.Internal.Fusion,Specialise,0.226
+conduit-1.3.5,Data.Conduit.Internal.Fusion,Worker Wrapper binds,0.045
+conduit-1.3.5,Data.Conduit.Internal.List.Stream,Called arity analysis,0.018
+conduit-1.3.5,Data.Conduit.Internal.List.Stream,CodeGen,174.002
+conduit-1.3.5,Data.Conduit.Internal.List.Stream,Common sub-expression,0.017
+conduit-1.3.5,Data.Conduit.Internal.List.Stream,Constructed Product Result analysis,0.346
+conduit-1.3.5,Data.Conduit.Internal.List.Stream,CorePrep,2.599
+conduit-1.3.5,Data.Conduit.Internal.List.Stream,CoreTidy,2.308
+conduit-1.3.5,Data.Conduit.Internal.List.Stream,CoreToStg,11.073
+conduit-1.3.5,Data.Conduit.Internal.List.Stream,Demand analysis,5.39
+conduit-1.3.5,Data.Conduit.Internal.List.Stream,Desugar,4.279
+conduit-1.3.5,Data.Conduit.Internal.List.Stream,Exitification transformation,0.015
+conduit-1.3.5,Data.Conduit.Internal.List.Stream,Float inwards,0.028999999999999998
+conduit-1.3.5,Data.Conduit.Internal.List.Stream,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",11.584
+conduit-1.3.5,Data.Conduit.Internal.List.Stream,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",7.901
+conduit-1.3.5,Data.Conduit.Internal.List.Stream,Parser,10.733
+conduit-1.3.5,Data.Conduit.Internal.List.Stream,Renamer/typechecker,36.414
+conduit-1.3.5,Data.Conduit.Internal.List.Stream,Simplifier,138.058
+conduit-1.3.5,Data.Conduit.Internal.List.Stream,Specialise,1.06
+conduit-1.3.5,Data.Conduit.Internal.List.Stream,Worker Wrapper binds,0.161
+conduit-1.3.5,Data.Conduit.Internal.Pipe,Called arity analysis,0.011
+conduit-1.3.5,Data.Conduit.Internal.Pipe,CodeGen,191.675
+conduit-1.3.5,Data.Conduit.Internal.Pipe,Common sub-expression,0.014
+conduit-1.3.5,Data.Conduit.Internal.Pipe,Constructed Product Result analysis,0.886
+conduit-1.3.5,Data.Conduit.Internal.Pipe,CorePrep,4.039
+conduit-1.3.5,Data.Conduit.Internal.Pipe,CoreTidy,7.728
+conduit-1.3.5,Data.Conduit.Internal.Pipe,CoreToStg,10.239
+conduit-1.3.5,Data.Conduit.Internal.Pipe,Demand analysis,7.601
+conduit-1.3.5,Data.Conduit.Internal.Pipe,Desugar,4.117
+conduit-1.3.5,Data.Conduit.Internal.Pipe,Exitification transformation,0.013
+conduit-1.3.5,Data.Conduit.Internal.Pipe,Float inwards,0.022
+conduit-1.3.5,Data.Conduit.Internal.Pipe,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",14.058
+conduit-1.3.5,Data.Conduit.Internal.Pipe,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",14.052
+conduit-1.3.5,Data.Conduit.Internal.Pipe,Parser,7.886
+conduit-1.3.5,Data.Conduit.Internal.Pipe,Renamer/typechecker,232.322
+conduit-1.3.5,Data.Conduit.Internal.Pipe,Simplifier,157.583
+conduit-1.3.5,Data.Conduit.Internal.Pipe,Specialise,1.583
+conduit-1.3.5,Data.Conduit.Internal.Pipe,Worker Wrapper binds,0.613
+conduit-1.3.5,Data.Conduit.Lift,Called arity analysis,0.01
+conduit-1.3.5,Data.Conduit.Lift,CodeGen,144.055
+conduit-1.3.5,Data.Conduit.Lift,Common sub-expression,0.011
+conduit-1.3.5,Data.Conduit.Lift,Constructed Product Result analysis,0.722
+conduit-1.3.5,Data.Conduit.Lift,CorePrep,2.907
+conduit-1.3.5,Data.Conduit.Lift,CoreTidy,4.155
+conduit-1.3.5,Data.Conduit.Lift,CoreToStg,7.305
+conduit-1.3.5,Data.Conduit.Lift,Demand analysis,6.054
+conduit-1.3.5,Data.Conduit.Lift,Desugar,2.04
+conduit-1.3.5,Data.Conduit.Lift,Exitification transformation,0.012
+conduit-1.3.5,Data.Conduit.Lift,Float inwards,0.023
+conduit-1.3.5,Data.Conduit.Lift,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",6.113
+conduit-1.3.5,Data.Conduit.Lift,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",8.709
+conduit-1.3.5,Data.Conduit.Lift,Parser,4.617
+conduit-1.3.5,Data.Conduit.Lift,Renamer/typechecker,24.397
+conduit-1.3.5,Data.Conduit.Lift,Simplifier,164.276
+conduit-1.3.5,Data.Conduit.Lift,Specialise,0.767
+conduit-1.3.5,Data.Conduit.Lift,Worker Wrapper binds,0.591
+conduit-1.3.5,Data.Conduit.List,Called arity analysis,0.01
+conduit-1.3.5,Data.Conduit.List,CodeGen,185.62400000000002
+conduit-1.3.5,Data.Conduit.List,Common sub-expression,0.013
+conduit-1.3.5,Data.Conduit.List,Constructed Product Result analysis,1.304
+conduit-1.3.5,Data.Conduit.List,CorePrep,3.06
+conduit-1.3.5,Data.Conduit.List,CoreTidy,6.105
+conduit-1.3.5,Data.Conduit.List,CoreToStg,9.565999999999999
+conduit-1.3.5,Data.Conduit.List,Demand analysis,12.937
+conduit-1.3.5,Data.Conduit.List,Desugar,4.395
+conduit-1.3.5,Data.Conduit.List,Exitification transformation,0.013
+conduit-1.3.5,Data.Conduit.List,Float inwards,0.019
+conduit-1.3.5,Data.Conduit.List,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",10.349
+conduit-1.3.5,Data.Conduit.List,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",16.868
+conduit-1.3.5,Data.Conduit.List,Parser,8.406
+conduit-1.3.5,Data.Conduit.List,Renamer/typechecker,67.659
+conduit-1.3.5,Data.Conduit.List,Simplifier,431.554
+conduit-1.3.5,Data.Conduit.List,Specialise,1.215
+conduit-1.3.5,Data.Conduit.List,Worker Wrapper binds,0.501
+conduit-1.3.5,Data.Streaming.FileRead,Called arity analysis,0.01
+conduit-1.3.5,Data.Streaming.FileRead,CodeGen,3.683
+conduit-1.3.5,Data.Streaming.FileRead,Common sub-expression,0.016
+conduit-1.3.5,Data.Streaming.FileRead,Constructed Product Result analysis,0.085
+conduit-1.3.5,Data.Streaming.FileRead,CorePrep,0.127
+conduit-1.3.5,Data.Streaming.FileRead,CoreTidy,0.13
+conduit-1.3.5,Data.Streaming.FileRead,CoreToStg,0.332
+conduit-1.3.5,Data.Streaming.FileRead,Demand analysis,0.153
+conduit-1.3.5,Data.Streaming.FileRead,Desugar,0.178
+conduit-1.3.5,Data.Streaming.FileRead,Exitification transformation,0.016
+conduit-1.3.5,Data.Streaming.FileRead,Float inwards,0.027000000000000003
+conduit-1.3.5,Data.Streaming.FileRead,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.098
+conduit-1.3.5,Data.Streaming.FileRead,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.183
+conduit-1.3.5,Data.Streaming.FileRead,Parser,1.051
+conduit-1.3.5,Data.Streaming.FileRead,Renamer/typechecker,4.892
+conduit-1.3.5,Data.Streaming.FileRead,Simplifier,5.132
+conduit-1.3.5,Data.Streaming.FileRead,Specialise,0.036
+conduit-1.3.5,Data.Streaming.FileRead,Worker Wrapper binds,0.031
+conduit-1.3.5,Data.Streaming.Filesystem,Called arity analysis,0.013
+conduit-1.3.5,Data.Streaming.Filesystem,CodeGen,44.742999999999995
+conduit-1.3.5,Data.Streaming.Filesystem,Common sub-expression,0.01
+conduit-1.3.5,Data.Streaming.Filesystem,Constructed Product Result analysis,0.129
+conduit-1.3.5,Data.Streaming.Filesystem,CorePrep,0.645
+conduit-1.3.5,Data.Streaming.Filesystem,CoreTidy,1.201
+conduit-1.3.5,Data.Streaming.Filesystem,CoreToStg,1.6320000000000001
+conduit-1.3.5,Data.Streaming.Filesystem,Demand analysis,0.923
+conduit-1.3.5,Data.Streaming.Filesystem,Desugar,5.877
+conduit-1.3.5,Data.Streaming.Filesystem,Exitification transformation,0.011
+conduit-1.3.5,Data.Streaming.Filesystem,Float inwards,0.020999999999999998
+conduit-1.3.5,Data.Streaming.Filesystem,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.802
+conduit-1.3.5,Data.Streaming.Filesystem,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.915
+conduit-1.3.5,Data.Streaming.Filesystem,Parser,1.285
+conduit-1.3.5,Data.Streaming.Filesystem,Renamer/typechecker,8.273
+conduit-1.3.5,Data.Streaming.Filesystem,Simplifier,37.687999999999995
+conduit-1.3.5,Data.Streaming.Filesystem,Specialise,0.137
+conduit-1.3.5,Data.Streaming.Filesystem,Worker Wrapper binds,0.074

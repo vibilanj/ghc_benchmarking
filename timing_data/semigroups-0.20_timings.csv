@@ -1,0 +1,19 @@
+package,module,phase,time
+semigroups-0.20,Data.Semigroup.Generic,Called arity analysis,0.014
+semigroups-0.20,Data.Semigroup.Generic,CodeGen,29.594
+semigroups-0.20,Data.Semigroup.Generic,Common sub-expression,0.012
+semigroups-0.20,Data.Semigroup.Generic,Constructed Product Result analysis,0.09
+semigroups-0.20,Data.Semigroup.Generic,CorePrep,1.146
+semigroups-0.20,Data.Semigroup.Generic,CoreTidy,0.514
+semigroups-0.20,Data.Semigroup.Generic,CoreToStg,1.2850000000000001
+semigroups-0.20,Data.Semigroup.Generic,Demand analysis,1.055
+semigroups-0.20,Data.Semigroup.Generic,Desugar,1.507
+semigroups-0.20,Data.Semigroup.Generic,Exitification transformation,0.012
+semigroups-0.20,Data.Semigroup.Generic,Float inwards,0.03
+semigroups-0.20,Data.Semigroup.Generic,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.812
+semigroups-0.20,Data.Semigroup.Generic,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.164
+semigroups-0.20,Data.Semigroup.Generic,Parser,1.523
+semigroups-0.20,Data.Semigroup.Generic,Renamer/typechecker,53.526
+semigroups-0.20,Data.Semigroup.Generic,Simplifier,18.67
+semigroups-0.20,Data.Semigroup.Generic,Specialise,0.149
+semigroups-0.20,Data.Semigroup.Generic,Worker Wrapper binds,0.089

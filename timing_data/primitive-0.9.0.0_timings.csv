@@ -1,0 +1,281 @@
+package,module,phase,time
+primitive-0.9.0.0,Control.Monad.Primitive,Called arity analysis,0.011
+primitive-0.9.0.0,Control.Monad.Primitive,CodeGen,95.319
+primitive-0.9.0.0,Control.Monad.Primitive,Common sub-expression,0.022
+primitive-0.9.0.0,Control.Monad.Primitive,Constructed Product Result analysis,0.36
+primitive-0.9.0.0,Control.Monad.Primitive,CorePrep,2.3049999999999997
+primitive-0.9.0.0,Control.Monad.Primitive,CoreTidy,1.907
+primitive-0.9.0.0,Control.Monad.Primitive,CoreToStg,4.529
+primitive-0.9.0.0,Control.Monad.Primitive,Demand analysis,4.0520000000000005
+primitive-0.9.0.0,Control.Monad.Primitive,Desugar,1.763
+primitive-0.9.0.0,Control.Monad.Primitive,Exitification transformation,0.011
+primitive-0.9.0.0,Control.Monad.Primitive,Float inwards,0.019
+primitive-0.9.0.0,Control.Monad.Primitive,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",3.186
+primitive-0.9.0.0,Control.Monad.Primitive,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",3.134
+primitive-0.9.0.0,Control.Monad.Primitive,Liberate case,0.011
+primitive-0.9.0.0,Control.Monad.Primitive,Parser,5.884
+primitive-0.9.0.0,Control.Monad.Primitive,Renamer/typechecker,77.63
+primitive-0.9.0.0,Control.Monad.Primitive,Simplifier,99.193
+primitive-0.9.0.0,Control.Monad.Primitive,SpecConstr,0.508
+primitive-0.9.0.0,Control.Monad.Primitive,Specialise,0.815
+primitive-0.9.0.0,Control.Monad.Primitive,Worker Wrapper binds,0.233
+primitive-0.9.0.0,Data.Primitive,Called arity analysis,0.012
+primitive-0.9.0.0,Data.Primitive,CodeGen,0.841
+primitive-0.9.0.0,Data.Primitive,Common sub-expression,0.019
+primitive-0.9.0.0,Data.Primitive,Constructed Product Result analysis,0.017
+primitive-0.9.0.0,Data.Primitive,CorePrep,0.059
+primitive-0.9.0.0,Data.Primitive,CoreTidy,0.046
+primitive-0.9.0.0,Data.Primitive,CoreToStg,0.10500000000000001
+primitive-0.9.0.0,Data.Primitive,Demand analysis,0.06
+primitive-0.9.0.0,Data.Primitive,Desugar,0.105
+primitive-0.9.0.0,Data.Primitive,Exitification transformation,0.011
+primitive-0.9.0.0,Data.Primitive,Float inwards,0.02
+primitive-0.9.0.0,Data.Primitive,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.037
+primitive-0.9.0.0,Data.Primitive,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.033
+primitive-0.9.0.0,Data.Primitive,Liberate case,0.01
+primitive-0.9.0.0,Data.Primitive,Parser,0.212
+primitive-0.9.0.0,Data.Primitive,Renamer/typechecker,0.743
+primitive-0.9.0.0,Data.Primitive,Simplifier,0.486
+primitive-0.9.0.0,Data.Primitive,SpecConstr,0.014
+primitive-0.9.0.0,Data.Primitive,Specialise,0.021
+primitive-0.9.0.0,Data.Primitive,Worker Wrapper binds,0.017
+primitive-0.9.0.0,Data.Primitive.Array,Called arity analysis,0.01
+primitive-0.9.0.0,Data.Primitive.Array,CodeGen,324.735
+primitive-0.9.0.0,Data.Primitive.Array,Common sub-expression,0.032
+primitive-0.9.0.0,Data.Primitive.Array,Constructed Product Result analysis,1.28
+primitive-0.9.0.0,Data.Primitive.Array,CorePrep,4.536
+primitive-0.9.0.0,Data.Primitive.Array,CoreTidy,6.85
+primitive-0.9.0.0,Data.Primitive.Array,CoreToStg,31.595
+primitive-0.9.0.0,Data.Primitive.Array,Demand analysis,19.415
+primitive-0.9.0.0,Data.Primitive.Array,Desugar,20.554
+primitive-0.9.0.0,Data.Primitive.Array,Exitification transformation,0.013
+primitive-0.9.0.0,Data.Primitive.Array,Float inwards,0.03
+primitive-0.9.0.0,Data.Primitive.Array,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",23.858
+primitive-0.9.0.0,Data.Primitive.Array,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",16.823
+primitive-0.9.0.0,Data.Primitive.Array,Liberate case,0.012
+primitive-0.9.0.0,Data.Primitive.Array,Parser,12.704
+primitive-0.9.0.0,Data.Primitive.Array,Renamer/typechecker,211.61
+primitive-0.9.0.0,Data.Primitive.Array,Simplifier,707.232
+primitive-0.9.0.0,Data.Primitive.Array,SpecConstr,9.32
+primitive-0.9.0.0,Data.Primitive.Array,Specialise,2.906
+primitive-0.9.0.0,Data.Primitive.Array,Worker Wrapper binds,1.461
+primitive-0.9.0.0,Data.Primitive.ByteArray,Called arity analysis,0.01
+primitive-0.9.0.0,Data.Primitive.ByteArray,CodeGen,78.804
+primitive-0.9.0.0,Data.Primitive.ByteArray,Common sub-expression,0.023
+primitive-0.9.0.0,Data.Primitive.ByteArray,Constructed Product Result analysis,0.245
+primitive-0.9.0.0,Data.Primitive.ByteArray,CorePrep,1.8159999999999998
+primitive-0.9.0.0,Data.Primitive.ByteArray,CoreTidy,1.043
+primitive-0.9.0.0,Data.Primitive.ByteArray,CoreToStg,4.487
+primitive-0.9.0.0,Data.Primitive.ByteArray,Demand analysis,3.383
+primitive-0.9.0.0,Data.Primitive.ByteArray,Desugar,2.336
+primitive-0.9.0.0,Data.Primitive.ByteArray,Exitification transformation,0.019
+primitive-0.9.0.0,Data.Primitive.ByteArray,Float inwards,0.019999999999999997
+primitive-0.9.0.0,Data.Primitive.ByteArray,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.947
+primitive-0.9.0.0,Data.Primitive.ByteArray,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.739
+primitive-0.9.0.0,Data.Primitive.ByteArray,Liberate case,0.012
+primitive-0.9.0.0,Data.Primitive.ByteArray,Parser,5.463
+primitive-0.9.0.0,Data.Primitive.ByteArray,Renamer/typechecker,16.954
+primitive-0.9.0.0,Data.Primitive.ByteArray,Simplifier,94.408
+primitive-0.9.0.0,Data.Primitive.ByteArray,SpecConstr,0.403
+primitive-0.9.0.0,Data.Primitive.ByteArray,Specialise,0.507
+primitive-0.9.0.0,Data.Primitive.ByteArray,Worker Wrapper binds,0.119
+primitive-0.9.0.0,Data.Primitive.Internal.Operations,Called arity analysis,0.01
+primitive-0.9.0.0,Data.Primitive.Internal.Operations,CodeGen,36.433
+primitive-0.9.0.0,Data.Primitive.Internal.Operations,Common sub-expression,0.026000000000000002
+primitive-0.9.0.0,Data.Primitive.Internal.Operations,Constructed Product Result analysis,0.198
+primitive-0.9.0.0,Data.Primitive.Internal.Operations,CorePrep,1.6059999999999999
+primitive-0.9.0.0,Data.Primitive.Internal.Operations,CoreTidy,0.637
+primitive-0.9.0.0,Data.Primitive.Internal.Operations,CoreToStg,2.021
+primitive-0.9.0.0,Data.Primitive.Internal.Operations,Demand analysis,1.188
+primitive-0.9.0.0,Data.Primitive.Internal.Operations,Desugar,0.249
+primitive-0.9.0.0,Data.Primitive.Internal.Operations,Exitification transformation,0.012
+primitive-0.9.0.0,Data.Primitive.Internal.Operations,Float inwards,0.020999999999999998
+primitive-0.9.0.0,Data.Primitive.Internal.Operations,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.965
+primitive-0.9.0.0,Data.Primitive.Internal.Operations,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.966
+primitive-0.9.0.0,Data.Primitive.Internal.Operations,Liberate case,0.011
+primitive-0.9.0.0,Data.Primitive.Internal.Operations,Parser,2.347
+primitive-0.9.0.0,Data.Primitive.Internal.Operations,Renamer/typechecker,16.577
+primitive-0.9.0.0,Data.Primitive.Internal.Operations,Simplifier,33.379
+primitive-0.9.0.0,Data.Primitive.Internal.Operations,SpecConstr,0.131
+primitive-0.9.0.0,Data.Primitive.Internal.Operations,Specialise,0.163
+primitive-0.9.0.0,Data.Primitive.Internal.Operations,Worker Wrapper binds,0.036
+primitive-0.9.0.0,Data.Primitive.Internal.Read,Called arity analysis,0.01
+primitive-0.9.0.0,Data.Primitive.Internal.Read,CodeGen,7.332
+primitive-0.9.0.0,Data.Primitive.Internal.Read,Common sub-expression,0.022
+primitive-0.9.0.0,Data.Primitive.Internal.Read,Constructed Product Result analysis,0.035
+primitive-0.9.0.0,Data.Primitive.Internal.Read,CorePrep,0.6
+primitive-0.9.0.0,Data.Primitive.Internal.Read,CoreTidy,0.176
+primitive-0.9.0.0,Data.Primitive.Internal.Read,CoreToStg,0.537
+primitive-0.9.0.0,Data.Primitive.Internal.Read,Demand analysis,0.16799999999999998
+primitive-0.9.0.0,Data.Primitive.Internal.Read,Desugar,2.433
+primitive-0.9.0.0,Data.Primitive.Internal.Read,Exitification transformation,0.01
+primitive-0.9.0.0,Data.Primitive.Internal.Read,Float inwards,0.018
+primitive-0.9.0.0,Data.Primitive.Internal.Read,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.251
+primitive-0.9.0.0,Data.Primitive.Internal.Read,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.148
+primitive-0.9.0.0,Data.Primitive.Internal.Read,Liberate case,0.011
+primitive-0.9.0.0,Data.Primitive.Internal.Read,Parser,0.32
+primitive-0.9.0.0,Data.Primitive.Internal.Read,Renamer/typechecker,10.826
+primitive-0.9.0.0,Data.Primitive.Internal.Read,Simplifier,5.056
+primitive-0.9.0.0,Data.Primitive.Internal.Read,SpecConstr,0.193
+primitive-0.9.0.0,Data.Primitive.Internal.Read,Specialise,0.919
+primitive-0.9.0.0,Data.Primitive.Internal.Read,Worker Wrapper binds,0.027
+primitive-0.9.0.0,Data.Primitive.MVar,Called arity analysis,0.014
+primitive-0.9.0.0,Data.Primitive.MVar,CodeGen,21.349
+primitive-0.9.0.0,Data.Primitive.MVar,Common sub-expression,0.028
+primitive-0.9.0.0,Data.Primitive.MVar,Constructed Product Result analysis,0.08
+primitive-0.9.0.0,Data.Primitive.MVar,CorePrep,0.353
+primitive-0.9.0.0,Data.Primitive.MVar,CoreTidy,0.39
+primitive-0.9.0.0,Data.Primitive.MVar,CoreToStg,1.227
+primitive-0.9.0.0,Data.Primitive.MVar,Demand analysis,0.641
+primitive-0.9.0.0,Data.Primitive.MVar,Desugar,1.067
+primitive-0.9.0.0,Data.Primitive.MVar,Exitification transformation,0.01
+primitive-0.9.0.0,Data.Primitive.MVar,Float inwards,0.028
+primitive-0.9.0.0,Data.Primitive.MVar,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.768
+primitive-0.9.0.0,Data.Primitive.MVar,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.106
+primitive-0.9.0.0,Data.Primitive.MVar,Liberate case,0.01
+primitive-0.9.0.0,Data.Primitive.MVar,Parser,1.397
+primitive-0.9.0.0,Data.Primitive.MVar,Renamer/typechecker,6.966
+primitive-0.9.0.0,Data.Primitive.MVar,Simplifier,13.643
+primitive-0.9.0.0,Data.Primitive.MVar,SpecConstr,0.122
+primitive-0.9.0.0,Data.Primitive.MVar,Specialise,0.194
+primitive-0.9.0.0,Data.Primitive.MVar,Worker Wrapper binds,0.136
+primitive-0.9.0.0,Data.Primitive.MachDeps,Called arity analysis,0.01
+primitive-0.9.0.0,Data.Primitive.MachDeps,CodeGen,3.3259999999999996
+primitive-0.9.0.0,Data.Primitive.MachDeps,Common sub-expression,0.025
+primitive-0.9.0.0,Data.Primitive.MachDeps,Constructed Product Result analysis,0.017
+primitive-0.9.0.0,Data.Primitive.MachDeps,CorePrep,0.11699999999999999
+primitive-0.9.0.0,Data.Primitive.MachDeps,CoreTidy,0.115
+primitive-0.9.0.0,Data.Primitive.MachDeps,CoreToStg,0.251
+primitive-0.9.0.0,Data.Primitive.MachDeps,Demand analysis,0.092
+primitive-0.9.0.0,Data.Primitive.MachDeps,Desugar,0.775
+primitive-0.9.0.0,Data.Primitive.MachDeps,Exitification transformation,0.009
+primitive-0.9.0.0,Data.Primitive.MachDeps,Float inwards,0.019
+primitive-0.9.0.0,Data.Primitive.MachDeps,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.063
+primitive-0.9.0.0,Data.Primitive.MachDeps,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.04
+primitive-0.9.0.0,Data.Primitive.MachDeps,Liberate case,0.011
+primitive-0.9.0.0,Data.Primitive.MachDeps,Parser,2.467
+primitive-0.9.0.0,Data.Primitive.MachDeps,Renamer/typechecker,3.235
+primitive-0.9.0.0,Data.Primitive.MachDeps,Simplifier,1.295
+primitive-0.9.0.0,Data.Primitive.MachDeps,SpecConstr,0.034
+primitive-0.9.0.0,Data.Primitive.MachDeps,Specialise,0.032
+primitive-0.9.0.0,Data.Primitive.MachDeps,Worker Wrapper binds,0.013
+primitive-0.9.0.0,Data.Primitive.MutVar,Called arity analysis,0.01
+primitive-0.9.0.0,Data.Primitive.MutVar,CodeGen,15.499
+primitive-0.9.0.0,Data.Primitive.MutVar,Common sub-expression,0.024
+primitive-0.9.0.0,Data.Primitive.MutVar,Constructed Product Result analysis,0.077
+primitive-0.9.0.0,Data.Primitive.MutVar,CorePrep,0.358
+primitive-0.9.0.0,Data.Primitive.MutVar,CoreTidy,0.358
+primitive-0.9.0.0,Data.Primitive.MutVar,CoreToStg,1.282
+primitive-0.9.0.0,Data.Primitive.MutVar,Demand analysis,0.6930000000000001
+primitive-0.9.0.0,Data.Primitive.MutVar,Desugar,0.658
+primitive-0.9.0.0,Data.Primitive.MutVar,Exitification transformation,0.012
+primitive-0.9.0.0,Data.Primitive.MutVar,Float inwards,0.020999999999999998
+primitive-0.9.0.0,Data.Primitive.MutVar,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.773
+primitive-0.9.0.0,Data.Primitive.MutVar,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.719
+primitive-0.9.0.0,Data.Primitive.MutVar,Liberate case,0.01
+primitive-0.9.0.0,Data.Primitive.MutVar,Parser,1.377
+primitive-0.9.0.0,Data.Primitive.MutVar,Renamer/typechecker,4.274
+primitive-0.9.0.0,Data.Primitive.MutVar,Simplifier,14.547
+primitive-0.9.0.0,Data.Primitive.MutVar,SpecConstr,0.083
+primitive-0.9.0.0,Data.Primitive.MutVar,Specialise,0.168
+primitive-0.9.0.0,Data.Primitive.MutVar,Worker Wrapper binds,0.059
+primitive-0.9.0.0,Data.Primitive.PrimArray,Called arity analysis,0.01
+primitive-0.9.0.0,Data.Primitive.PrimArray,CodeGen,262.53200000000004
+primitive-0.9.0.0,Data.Primitive.PrimArray,Common sub-expression,0.027999999999999997
+primitive-0.9.0.0,Data.Primitive.PrimArray,Constructed Product Result analysis,0.948
+primitive-0.9.0.0,Data.Primitive.PrimArray,CorePrep,4.333
+primitive-0.9.0.0,Data.Primitive.PrimArray,CoreTidy,6.014
+primitive-0.9.0.0,Data.Primitive.PrimArray,CoreToStg,30.459
+primitive-0.9.0.0,Data.Primitive.PrimArray,Demand analysis,14.89
+primitive-0.9.0.0,Data.Primitive.PrimArray,Desugar,5.434
+primitive-0.9.0.0,Data.Primitive.PrimArray,Exitification transformation,0.015
+primitive-0.9.0.0,Data.Primitive.PrimArray,Float inwards,0.026999999999999996
+primitive-0.9.0.0,Data.Primitive.PrimArray,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",12.883
+primitive-0.9.0.0,Data.Primitive.PrimArray,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",12.629
+primitive-0.9.0.0,Data.Primitive.PrimArray,Liberate case,0.012
+primitive-0.9.0.0,Data.Primitive.PrimArray,Parser,11.435
+primitive-0.9.0.0,Data.Primitive.PrimArray,Renamer/typechecker,46.504
+primitive-0.9.0.0,Data.Primitive.PrimArray,Simplifier,557.523
+primitive-0.9.0.0,Data.Primitive.PrimArray,SpecConstr,9.502
+primitive-0.9.0.0,Data.Primitive.PrimArray,Specialise,1.924
+primitive-0.9.0.0,Data.Primitive.PrimArray,Worker Wrapper binds,0.622
+primitive-0.9.0.0,Data.Primitive.PrimVar,Called arity analysis,0.014
+primitive-0.9.0.0,Data.Primitive.PrimVar,CodeGen,35.375
+primitive-0.9.0.0,Data.Primitive.PrimVar,Common sub-expression,0.03
+primitive-0.9.0.0,Data.Primitive.PrimVar,Constructed Product Result analysis,0.09
+primitive-0.9.0.0,Data.Primitive.PrimVar,CorePrep,0.837
+primitive-0.9.0.0,Data.Primitive.PrimVar,CoreTidy,0.519
+primitive-0.9.0.0,Data.Primitive.PrimVar,CoreToStg,3.8169999999999997
+primitive-0.9.0.0,Data.Primitive.PrimVar,Demand analysis,1.379
+primitive-0.9.0.0,Data.Primitive.PrimVar,Desugar,1.12
+primitive-0.9.0.0,Data.Primitive.PrimVar,Exitification transformation,0.017
+primitive-0.9.0.0,Data.Primitive.PrimVar,Float inwards,0.022
+primitive-0.9.0.0,Data.Primitive.PrimVar,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.43
+primitive-0.9.0.0,Data.Primitive.PrimVar,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.329
+primitive-0.9.0.0,Data.Primitive.PrimVar,Liberate case,0.012
+primitive-0.9.0.0,Data.Primitive.PrimVar,Parser,2.711
+primitive-0.9.0.0,Data.Primitive.PrimVar,Renamer/typechecker,8.469
+primitive-0.9.0.0,Data.Primitive.PrimVar,Simplifier,27.158
+primitive-0.9.0.0,Data.Primitive.PrimVar,SpecConstr,0.112
+primitive-0.9.0.0,Data.Primitive.PrimVar,Specialise,0.239
+primitive-0.9.0.0,Data.Primitive.PrimVar,Worker Wrapper binds,0.044
+primitive-0.9.0.0,Data.Primitive.Ptr,Called arity analysis,0.01
+primitive-0.9.0.0,Data.Primitive.Ptr,CodeGen,15.114
+primitive-0.9.0.0,Data.Primitive.Ptr,Common sub-expression,0.022
+primitive-0.9.0.0,Data.Primitive.Ptr,Constructed Product Result analysis,0.056
+primitive-0.9.0.0,Data.Primitive.Ptr,CorePrep,0.272
+primitive-0.9.0.0,Data.Primitive.Ptr,CoreTidy,0.212
+primitive-0.9.0.0,Data.Primitive.Ptr,CoreToStg,1.099
+primitive-0.9.0.0,Data.Primitive.Ptr,Demand analysis,0.572
+primitive-0.9.0.0,Data.Primitive.Ptr,Desugar,0.465
+primitive-0.9.0.0,Data.Primitive.Ptr,Exitification transformation,0.015
+primitive-0.9.0.0,Data.Primitive.Ptr,Float inwards,0.022
+primitive-0.9.0.0,Data.Primitive.Ptr,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.578
+primitive-0.9.0.0,Data.Primitive.Ptr,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.584
+primitive-0.9.0.0,Data.Primitive.Ptr,Liberate case,0.01
+primitive-0.9.0.0,Data.Primitive.Ptr,Parser,1.935
+primitive-0.9.0.0,Data.Primitive.Ptr,Renamer/typechecker,4.286
+primitive-0.9.0.0,Data.Primitive.Ptr,Simplifier,8.656
+primitive-0.9.0.0,Data.Primitive.Ptr,SpecConstr,0.067
+primitive-0.9.0.0,Data.Primitive.Ptr,Specialise,0.134
+primitive-0.9.0.0,Data.Primitive.Ptr,Worker Wrapper binds,0.016
+primitive-0.9.0.0,Data.Primitive.SmallArray,Called arity analysis,0.019
+primitive-0.9.0.0,Data.Primitive.SmallArray,CodeGen,321.61699999999996
+primitive-0.9.0.0,Data.Primitive.SmallArray,Common sub-expression,0.03
+primitive-0.9.0.0,Data.Primitive.SmallArray,Constructed Product Result analysis,1.246
+primitive-0.9.0.0,Data.Primitive.SmallArray,CorePrep,4.760999999999999
+primitive-0.9.0.0,Data.Primitive.SmallArray,CoreTidy,15.516
+primitive-0.9.0.0,Data.Primitive.SmallArray,CoreToStg,46.327
+primitive-0.9.0.0,Data.Primitive.SmallArray,Demand analysis,15.4
+primitive-0.9.0.0,Data.Primitive.SmallArray,Desugar,5.192
+primitive-0.9.0.0,Data.Primitive.SmallArray,Exitification transformation,0.015
+primitive-0.9.0.0,Data.Primitive.SmallArray,Float inwards,0.023
+primitive-0.9.0.0,Data.Primitive.SmallArray,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",22.258
+primitive-0.9.0.0,Data.Primitive.SmallArray,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",20.466
+primitive-0.9.0.0,Data.Primitive.SmallArray,Liberate case,0.013
+primitive-0.9.0.0,Data.Primitive.SmallArray,Parser,11.523
+primitive-0.9.0.0,Data.Primitive.SmallArray,Renamer/typechecker,48.381
+primitive-0.9.0.0,Data.Primitive.SmallArray,Simplifier,619.369
+primitive-0.9.0.0,Data.Primitive.SmallArray,SpecConstr,2.668
+primitive-0.9.0.0,Data.Primitive.SmallArray,Specialise,2.489
+primitive-0.9.0.0,Data.Primitive.SmallArray,Worker Wrapper binds,0.892
+primitive-0.9.0.0,Data.Primitive.Types,Called arity analysis,0.011
+primitive-0.9.0.0,Data.Primitive.Types,CodeGen,207.95499999999998
+primitive-0.9.0.0,Data.Primitive.Types,Common sub-expression,0.022
+primitive-0.9.0.0,Data.Primitive.Types,Constructed Product Result analysis,2.056
+primitive-0.9.0.0,Data.Primitive.Types,CorePrep,3.605
+primitive-0.9.0.0,Data.Primitive.Types,CoreTidy,8.916
+primitive-0.9.0.0,Data.Primitive.Types,CoreToStg,20.58
+primitive-0.9.0.0,Data.Primitive.Types,Demand analysis,14.780999999999999
+primitive-0.9.0.0,Data.Primitive.Types,Desugar,123.745
+primitive-0.9.0.0,Data.Primitive.Types,Exitification transformation,0.012
+primitive-0.9.0.0,Data.Primitive.Types,Float inwards,0.019999999999999997
+primitive-0.9.0.0,Data.Primitive.Types,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",7.325
+primitive-0.9.0.0,Data.Primitive.Types,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",6.58
+primitive-0.9.0.0,Data.Primitive.Types,Liberate case,0.01
+primitive-0.9.0.0,Data.Primitive.Types,Parser,18.055
+primitive-0.9.0.0,Data.Primitive.Types,Renamer/typechecker,181.889
+primitive-0.9.0.0,Data.Primitive.Types,Simplifier,399.924
+primitive-0.9.0.0,Data.Primitive.Types,SpecConstr,1.397
+primitive-0.9.0.0,Data.Primitive.Types,Specialise,1.472
+primitive-0.9.0.0,Data.Primitive.Types,Worker Wrapper binds,0.928

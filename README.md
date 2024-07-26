@@ -43,6 +43,8 @@ This will take roughly two minutes per package. However, this time may vary depe
 
 ## Analysis
 
+NOTE: Analysis was done on top 20 Hackage packages with the most reverse dependencies using GHC v9.4.8.
+
 As expected, there is a positive correlation between the amount of time spent parsing and the total time taken for compilation. Similarly, there is a positive correlation between the amount of time spent parsing and the size of the source files. However, the percentage plots show that the parsing phase takes up a relatively small portion of the total compilation time. As the total time or the size of the source files increases, the percentage of time spent parsing decreases, indicating that other compilation phases become more dominant.
 
 There are some outliers in the parser time vs. size plots where smaller files take longer to parse than larger files. This cluster consisted of short preprocessed Haskell source files. They use the C Preprocessor (CPP) to include or conditionally compile code based on preprocessor directives. Examples of these modules are `Data.ByteString.ReadInt` and `Data.ByteString.ReadNat` from the `bytestring-0.12.1.0` package and `System.OsPath` from the `filepath-1.5.3.0` package.

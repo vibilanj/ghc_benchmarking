@@ -1,0 +1,81 @@
+package,module,phase,time
+cereal-0.5.8.3,Data.Serialize,Called arity analysis,0.01
+cereal-0.5.8.3,Data.Serialize,CodeGen,724.126
+cereal-0.5.8.3,Data.Serialize,Common sub-expression,0.032
+cereal-0.5.8.3,Data.Serialize,Constructed Product Result analysis,3.953
+cereal-0.5.8.3,Data.Serialize,CorePrep,33.941
+cereal-0.5.8.3,Data.Serialize,CoreTidy,24.578
+cereal-0.5.8.3,Data.Serialize,CoreToStg,154.74099999999999
+cereal-0.5.8.3,Data.Serialize,Demand analysis,48.004
+cereal-0.5.8.3,Data.Serialize,Desugar,8.389
+cereal-0.5.8.3,Data.Serialize,Exitification transformation,0.012
+cereal-0.5.8.3,Data.Serialize,Float inwards,0.024
+cereal-0.5.8.3,Data.Serialize,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",44.142
+cereal-0.5.8.3,Data.Serialize,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",64.095
+cereal-0.5.8.3,Data.Serialize,Liberate case,0.015
+cereal-0.5.8.3,Data.Serialize,Parser,10.229
+cereal-0.5.8.3,Data.Serialize,Renamer/typechecker,69.64
+cereal-0.5.8.3,Data.Serialize,Simplifier,2617.219
+cereal-0.5.8.3,Data.Serialize,SpecConstr,14.71
+cereal-0.5.8.3,Data.Serialize,Specialise,17.418
+cereal-0.5.8.3,Data.Serialize,Worker Wrapper binds,2.56
+cereal-0.5.8.3,Data.Serialize.Get,Called arity analysis,0.009
+cereal-0.5.8.3,Data.Serialize.Get,CodeGen,278.091
+cereal-0.5.8.3,Data.Serialize.Get,Common sub-expression,0.027999999999999997
+cereal-0.5.8.3,Data.Serialize.Get,Constructed Product Result analysis,5.535
+cereal-0.5.8.3,Data.Serialize.Get,CorePrep,12.406
+cereal-0.5.8.3,Data.Serialize.Get,CoreTidy,8.166
+cereal-0.5.8.3,Data.Serialize.Get,CoreToStg,84.84
+cereal-0.5.8.3,Data.Serialize.Get,Demand analysis,27.831000000000003
+cereal-0.5.8.3,Data.Serialize.Get,Desugar,2.626
+cereal-0.5.8.3,Data.Serialize.Get,Exitification transformation,0.013
+cereal-0.5.8.3,Data.Serialize.Get,Float inwards,0.020999999999999998
+cereal-0.5.8.3,Data.Serialize.Get,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",34.62
+cereal-0.5.8.3,Data.Serialize.Get,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",29.124
+cereal-0.5.8.3,Data.Serialize.Get,Liberate case,0.018
+cereal-0.5.8.3,Data.Serialize.Get,Parser,9.167
+cereal-0.5.8.3,Data.Serialize.Get,Renamer/typechecker,153.821
+cereal-0.5.8.3,Data.Serialize.Get,Simplifier,1327.151
+cereal-0.5.8.3,Data.Serialize.Get,SpecConstr,3.021
+cereal-0.5.8.3,Data.Serialize.Get,Specialise,6.818
+cereal-0.5.8.3,Data.Serialize.Get,Worker Wrapper binds,1.583
+cereal-0.5.8.3,Data.Serialize.IEEE754,Called arity analysis,0.012
+cereal-0.5.8.3,Data.Serialize.IEEE754,CodeGen,57.992000000000004
+cereal-0.5.8.3,Data.Serialize.IEEE754,Common sub-expression,0.027
+cereal-0.5.8.3,Data.Serialize.IEEE754,Constructed Product Result analysis,0.32
+cereal-0.5.8.3,Data.Serialize.IEEE754,CorePrep,1.201
+cereal-0.5.8.3,Data.Serialize.IEEE754,CoreTidy,1.511
+cereal-0.5.8.3,Data.Serialize.IEEE754,CoreToStg,5.645
+cereal-0.5.8.3,Data.Serialize.IEEE754,Demand analysis,2.758
+cereal-0.5.8.3,Data.Serialize.IEEE754,Desugar,0.214
+cereal-0.5.8.3,Data.Serialize.IEEE754,Exitification transformation,0.014
+cereal-0.5.8.3,Data.Serialize.IEEE754,Float inwards,0.02
+cereal-0.5.8.3,Data.Serialize.IEEE754,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",6.717
+cereal-0.5.8.3,Data.Serialize.IEEE754,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",3.48
+cereal-0.5.8.3,Data.Serialize.IEEE754,Liberate case,0.016
+cereal-0.5.8.3,Data.Serialize.IEEE754,Parser,1.19
+cereal-0.5.8.3,Data.Serialize.IEEE754,Renamer/typechecker,3.19
+cereal-0.5.8.3,Data.Serialize.IEEE754,Simplifier,99.114
+cereal-0.5.8.3,Data.Serialize.IEEE754,SpecConstr,0.602
+cereal-0.5.8.3,Data.Serialize.IEEE754,Specialise,0.554
+cereal-0.5.8.3,Data.Serialize.IEEE754,Worker Wrapper binds,0.148
+cereal-0.5.8.3,Data.Serialize.Put,Called arity analysis,0.011
+cereal-0.5.8.3,Data.Serialize.Put,CodeGen,241.75900000000001
+cereal-0.5.8.3,Data.Serialize.Put,Common sub-expression,0.027
+cereal-0.5.8.3,Data.Serialize.Put,Constructed Product Result analysis,0.911
+cereal-0.5.8.3,Data.Serialize.Put,CorePrep,3.8949999999999996
+cereal-0.5.8.3,Data.Serialize.Put,CoreTidy,2.732
+cereal-0.5.8.3,Data.Serialize.Put,CoreToStg,25.064
+cereal-0.5.8.3,Data.Serialize.Put,Demand analysis,9.924
+cereal-0.5.8.3,Data.Serialize.Put,Desugar,8.021
+cereal-0.5.8.3,Data.Serialize.Put,Exitification transformation,0.012
+cereal-0.5.8.3,Data.Serialize.Put,Float inwards,0.023
+cereal-0.5.8.3,Data.Serialize.Put,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",5.223
+cereal-0.5.8.3,Data.Serialize.Put,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",49.715
+cereal-0.5.8.3,Data.Serialize.Put,Liberate case,0.011
+cereal-0.5.8.3,Data.Serialize.Put,Parser,5.499
+cereal-0.5.8.3,Data.Serialize.Put,Renamer/typechecker,15.858
+cereal-0.5.8.3,Data.Serialize.Put,Simplifier,504.361
+cereal-0.5.8.3,Data.Serialize.Put,SpecConstr,2.331
+cereal-0.5.8.3,Data.Serialize.Put,Specialise,1.242
+cereal-0.5.8.3,Data.Serialize.Put,Worker Wrapper binds,0.589

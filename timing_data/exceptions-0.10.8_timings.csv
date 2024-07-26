@@ -1,0 +1,41 @@
+package,module,phase,time
+exceptions-0.10.8,Control.Monad.Catch,Called arity analysis,0.01
+exceptions-0.10.8,Control.Monad.Catch,CodeGen,377.51800000000003
+exceptions-0.10.8,Control.Monad.Catch,Common sub-expression,0.03
+exceptions-0.10.8,Control.Monad.Catch,Constructed Product Result analysis,3.156
+exceptions-0.10.8,Control.Monad.Catch,CorePrep,11.803
+exceptions-0.10.8,Control.Monad.Catch,CoreTidy,17.496
+exceptions-0.10.8,Control.Monad.Catch,CoreToStg,41.111999999999995
+exceptions-0.10.8,Control.Monad.Catch,Demand analysis,16.166
+exceptions-0.10.8,Control.Monad.Catch,Desugar,6.517
+exceptions-0.10.8,Control.Monad.Catch,Exitification transformation,0.012
+exceptions-0.10.8,Control.Monad.Catch,Float inwards,0.019999999999999997
+exceptions-0.10.8,Control.Monad.Catch,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",21.113
+exceptions-0.10.8,Control.Monad.Catch,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",15.83
+exceptions-0.10.8,Control.Monad.Catch,Liberate case,0.012
+exceptions-0.10.8,Control.Monad.Catch,Parser,11.109
+exceptions-0.10.8,Control.Monad.Catch,Renamer/typechecker,204.682
+exceptions-0.10.8,Control.Monad.Catch,Simplifier,525.339
+exceptions-0.10.8,Control.Monad.Catch,SpecConstr,2.012
+exceptions-0.10.8,Control.Monad.Catch,Specialise,8.84
+exceptions-0.10.8,Control.Monad.Catch,Worker Wrapper binds,1.248
+exceptions-0.10.8,Control.Monad.Catch.Pure,Called arity analysis,0.019
+exceptions-0.10.8,Control.Monad.Catch.Pure,CodeGen,146.12
+exceptions-0.10.8,Control.Monad.Catch.Pure,Common sub-expression,0.036
+exceptions-0.10.8,Control.Monad.Catch.Pure,Constructed Product Result analysis,0.367
+exceptions-0.10.8,Control.Monad.Catch.Pure,CorePrep,2.282
+exceptions-0.10.8,Control.Monad.Catch.Pure,CoreTidy,3.644
+exceptions-0.10.8,Control.Monad.Catch.Pure,CoreToStg,10.267
+exceptions-0.10.8,Control.Monad.Catch.Pure,Demand analysis,8.122
+exceptions-0.10.8,Control.Monad.Catch.Pure,Desugar,1.922
+exceptions-0.10.8,Control.Monad.Catch.Pure,Exitification transformation,0.011
+exceptions-0.10.8,Control.Monad.Catch.Pure,Float inwards,0.031
+exceptions-0.10.8,Control.Monad.Catch.Pure,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",6.455
+exceptions-0.10.8,Control.Monad.Catch.Pure,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",5.088
+exceptions-0.10.8,Control.Monad.Catch.Pure,Liberate case,0.011
+exceptions-0.10.8,Control.Monad.Catch.Pure,Parser,2.127
+exceptions-0.10.8,Control.Monad.Catch.Pure,Renamer/typechecker,45.276
+exceptions-0.10.8,Control.Monad.Catch.Pure,Simplifier,150.832
+exceptions-0.10.8,Control.Monad.Catch.Pure,SpecConstr,0.624
+exceptions-0.10.8,Control.Monad.Catch.Pure,Specialise,0.939
+exceptions-0.10.8,Control.Monad.Catch.Pure,Worker Wrapper binds,0.536

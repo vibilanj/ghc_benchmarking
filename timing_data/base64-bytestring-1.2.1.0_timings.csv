@@ -1,0 +1,91 @@
+package,module,phase,time
+base64-bytestring-1.2.1.0,Data.ByteString.Base64,Called arity analysis,0.014
+base64-bytestring-1.2.1.0,Data.ByteString.Base64,CodeGen,25.776
+base64-bytestring-1.2.1.0,Data.ByteString.Base64,Common sub-expression,0.013
+base64-bytestring-1.2.1.0,Data.ByteString.Base64,Constructed Product Result analysis,0.091
+base64-bytestring-1.2.1.0,Data.ByteString.Base64,CorePrep,0.33599999999999997
+base64-bytestring-1.2.1.0,Data.ByteString.Base64,CoreTidy,0.264
+base64-bytestring-1.2.1.0,Data.ByteString.Base64,CoreToStg,1.124
+base64-bytestring-1.2.1.0,Data.ByteString.Base64,Demand analysis,0.519
+base64-bytestring-1.2.1.0,Data.ByteString.Base64,Desugar,0.293
+base64-bytestring-1.2.1.0,Data.ByteString.Base64,Exitification transformation,0.01
+base64-bytestring-1.2.1.0,Data.ByteString.Base64,Float inwards,0.03
+base64-bytestring-1.2.1.0,Data.ByteString.Base64,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.343
+base64-bytestring-1.2.1.0,Data.ByteString.Base64,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.545
+base64-bytestring-1.2.1.0,Data.ByteString.Base64,Parser,1.677
+base64-bytestring-1.2.1.0,Data.ByteString.Base64,Renamer/typechecker,2.713
+base64-bytestring-1.2.1.0,Data.ByteString.Base64,Simplifier,15.96
+base64-bytestring-1.2.1.0,Data.ByteString.Base64,Specialise,0.065
+base64-bytestring-1.2.1.0,Data.ByteString.Base64,Worker Wrapper binds,0.055
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.Internal,Called arity analysis,0.021
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.Internal,CodeGen,118.138
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.Internal,Common sub-expression,0.018
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.Internal,Constructed Product Result analysis,0.6
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.Internal,CorePrep,4.856
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.Internal,CoreTidy,1.755
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.Internal,CoreToStg,10.837
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.Internal,Demand analysis,4.510999999999999
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.Internal,Desugar,9.581
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.Internal,Exitification transformation,0.015
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.Internal,Float inwards,0.022
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",7.85
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",6.51
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.Internal,Parser,5.398
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.Internal,Renamer/typechecker,78.147
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.Internal,Simplifier,205.236
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.Internal,Specialise,1.953
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.Internal,Worker Wrapper binds,0.358
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.Lazy,Called arity analysis,0.011
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.Lazy,CodeGen,11.642
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.Lazy,Common sub-expression,0.012
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.Lazy,Constructed Product Result analysis,0.098
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.Lazy,CorePrep,0.246
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.Lazy,CoreTidy,0.175
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.Lazy,CoreToStg,1.016
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.Lazy,Demand analysis,0.651
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.Lazy,Desugar,0.253
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.Lazy,Exitification transformation,0.016
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.Lazy,Float inwards,0.019
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.Lazy,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",3.234
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.Lazy,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.793
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.Lazy,Parser,1.879
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.Lazy,Renamer/typechecker,5.435
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.Lazy,Simplifier,12.753
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.Lazy,Specialise,0.179
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.Lazy,Worker Wrapper binds,0.042
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.URL,Called arity analysis,0.011
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.URL,CodeGen,28.564
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.URL,Common sub-expression,0.011
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.URL,Constructed Product Result analysis,0.096
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.URL,CorePrep,0.46499999999999997
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.URL,CoreTidy,0.26
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.URL,CoreToStg,1.5299999999999998
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.URL,Demand analysis,0.539
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.URL,Desugar,0.258
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.URL,Exitification transformation,0.014
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.URL,Float inwards,0.02
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.URL,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.48
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.URL,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.699
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.URL,Parser,1.436
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.URL,Renamer/typechecker,3.348
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.URL,Simplifier,13.151
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.URL,Specialise,0.103
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.URL,Worker Wrapper binds,0.061
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.URL.Lazy,Called arity analysis,0.011
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.URL.Lazy,CodeGen,16.08
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.URL.Lazy,Common sub-expression,0.011
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.URL.Lazy,Constructed Product Result analysis,0.103
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.URL.Lazy,CorePrep,0.45
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.URL.Lazy,CoreTidy,0.218
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.URL.Lazy,CoreToStg,1.376
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.URL.Lazy,Demand analysis,0.6779999999999999
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.URL.Lazy,Desugar,0.31
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.URL.Lazy,Exitification transformation,0.017
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.URL.Lazy,Float inwards,0.019999999999999997
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.URL.Lazy,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.959
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.URL.Lazy,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.655
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.URL.Lazy,Parser,1.172
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.URL.Lazy,Renamer/typechecker,3.497
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.URL.Lazy,Simplifier,13.084999999999999
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.URL.Lazy,Specialise,0.249
+base64-bytestring-1.2.1.0,Data.ByteString.Base64.URL.Lazy,Worker Wrapper binds,0.052

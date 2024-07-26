@@ -1,0 +1,343 @@
+package,module,phase,time
+http-client-0.7.17,Data.KeyedPool,Called arity analysis,0.01
+http-client-0.7.17,Data.KeyedPool,CodeGen,155.47500000000002
+http-client-0.7.17,Data.KeyedPool,Common sub-expression,0.017
+http-client-0.7.17,Data.KeyedPool,Constructed Product Result analysis,0.791
+http-client-0.7.17,Data.KeyedPool,CorePrep,3.6590000000000003
+http-client-0.7.17,Data.KeyedPool,CoreTidy,4.2
+http-client-0.7.17,Data.KeyedPool,CoreToStg,8.558
+http-client-0.7.17,Data.KeyedPool,Demand analysis,5.476
+http-client-0.7.17,Data.KeyedPool,Desugar,2.718
+http-client-0.7.17,Data.KeyedPool,Exitification transformation,0.015
+http-client-0.7.17,Data.KeyedPool,Float inwards,0.024
+http-client-0.7.17,Data.KeyedPool,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",10.039
+http-client-0.7.17,Data.KeyedPool,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",6.476
+http-client-0.7.17,Data.KeyedPool,Parser,3.345
+http-client-0.7.17,Data.KeyedPool,Renamer/typechecker,79.202
+http-client-0.7.17,Data.KeyedPool,Simplifier,245.512
+http-client-0.7.17,Data.KeyedPool,Specialise,1.343
+http-client-0.7.17,Data.KeyedPool,Worker Wrapper binds,0.389
+http-client-0.7.17,Network.HTTP.Client,Called arity analysis,0.017
+http-client-0.7.17,Network.HTTP.Client,CodeGen,65.027
+http-client-0.7.17,Network.HTTP.Client,Common sub-expression,0.013
+http-client-0.7.17,Network.HTTP.Client,Constructed Product Result analysis,0.347
+http-client-0.7.17,Network.HTTP.Client,CorePrep,1.9699999999999998
+http-client-0.7.17,Network.HTTP.Client,CoreTidy,1.589
+http-client-0.7.17,Network.HTTP.Client,CoreToStg,6.431
+http-client-0.7.17,Network.HTTP.Client,Demand analysis,2.819
+http-client-0.7.17,Network.HTTP.Client,Desugar,0.836
+http-client-0.7.17,Network.HTTP.Client,Exitification transformation,0.012
+http-client-0.7.17,Network.HTTP.Client,Float inwards,0.027000000000000003
+http-client-0.7.17,Network.HTTP.Client,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.514
+http-client-0.7.17,Network.HTTP.Client,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.182
+http-client-0.7.17,Network.HTTP.Client,Parser,3.248
+http-client-0.7.17,Network.HTTP.Client,Renamer/typechecker,44.167
+http-client-0.7.17,Network.HTTP.Client,Simplifier,71.14699999999999
+http-client-0.7.17,Network.HTTP.Client,Specialise,0.473
+http-client-0.7.17,Network.HTTP.Client,Worker Wrapper binds,0.247
+http-client-0.7.17,Network.HTTP.Client.Body,Called arity analysis,0.015
+http-client-0.7.17,Network.HTTP.Client.Body,CodeGen,53.786
+http-client-0.7.17,Network.HTTP.Client.Body,Common sub-expression,0.013
+http-client-0.7.17,Network.HTTP.Client.Body,Constructed Product Result analysis,0.311
+http-client-0.7.17,Network.HTTP.Client.Body,CorePrep,1.363
+http-client-0.7.17,Network.HTTP.Client.Body,CoreTidy,0.996
+http-client-0.7.17,Network.HTTP.Client.Body,CoreToStg,4.989
+http-client-0.7.17,Network.HTTP.Client.Body,Demand analysis,1.9849999999999999
+http-client-0.7.17,Network.HTTP.Client.Body,Desugar,1.503
+http-client-0.7.17,Network.HTTP.Client.Body,Exitification transformation,0.02
+http-client-0.7.17,Network.HTTP.Client.Body,Float inwards,0.034
+http-client-0.7.17,Network.HTTP.Client.Body,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.807
+http-client-0.7.17,Network.HTTP.Client.Body,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.123
+http-client-0.7.17,Network.HTTP.Client.Body,Parser,1.82
+http-client-0.7.17,Network.HTTP.Client.Body,Renamer/typechecker,11.447
+http-client-0.7.17,Network.HTTP.Client.Body,Simplifier,64.134
+http-client-0.7.17,Network.HTTP.Client.Body,Specialise,0.52
+http-client-0.7.17,Network.HTTP.Client.Body,Worker Wrapper binds,0.118
+http-client-0.7.17,Network.HTTP.Client.Connection,Called arity analysis,0.011
+http-client-0.7.17,Network.HTTP.Client.Connection,CodeGen,94.158
+http-client-0.7.17,Network.HTTP.Client.Connection,Common sub-expression,0.012
+http-client-0.7.17,Network.HTTP.Client.Connection,Constructed Product Result analysis,0.533
+http-client-0.7.17,Network.HTTP.Client.Connection,CorePrep,1.9020000000000001
+http-client-0.7.17,Network.HTTP.Client.Connection,CoreTidy,1.529
+http-client-0.7.17,Network.HTTP.Client.Connection,CoreToStg,8.479
+http-client-0.7.17,Network.HTTP.Client.Connection,Demand analysis,3.322
+http-client-0.7.17,Network.HTTP.Client.Connection,Desugar,1.115
+http-client-0.7.17,Network.HTTP.Client.Connection,Exitification transformation,0.021
+http-client-0.7.17,Network.HTTP.Client.Connection,Float inwards,0.028999999999999998
+http-client-0.7.17,Network.HTTP.Client.Connection,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",3.221
+http-client-0.7.17,Network.HTTP.Client.Connection,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",4.113
+http-client-0.7.17,Network.HTTP.Client.Connection,Parser,3.42
+http-client-0.7.17,Network.HTTP.Client.Connection,Renamer/typechecker,14.825
+http-client-0.7.17,Network.HTTP.Client.Connection,Simplifier,136.147
+http-client-0.7.17,Network.HTTP.Client.Connection,Specialise,0.732
+http-client-0.7.17,Network.HTTP.Client.Connection,Worker Wrapper binds,0.25
+http-client-0.7.17,Network.HTTP.Client.Cookies,Called arity analysis,0.01
+http-client-0.7.17,Network.HTTP.Client.Cookies,CodeGen,130.183
+http-client-0.7.17,Network.HTTP.Client.Cookies,Common sub-expression,0.013
+http-client-0.7.17,Network.HTTP.Client.Cookies,Constructed Product Result analysis,0.625
+http-client-0.7.17,Network.HTTP.Client.Cookies,CorePrep,3.101
+http-client-0.7.17,Network.HTTP.Client.Cookies,CoreTidy,5.881
+http-client-0.7.17,Network.HTTP.Client.Cookies,CoreToStg,11.966
+http-client-0.7.17,Network.HTTP.Client.Cookies,Demand analysis,4.82
+http-client-0.7.17,Network.HTTP.Client.Cookies,Desugar,2.423
+http-client-0.7.17,Network.HTTP.Client.Cookies,Exitification transformation,0.015
+http-client-0.7.17,Network.HTTP.Client.Cookies,Float inwards,0.022
+http-client-0.7.17,Network.HTTP.Client.Cookies,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",4.794
+http-client-0.7.17,Network.HTTP.Client.Cookies,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",5.858
+http-client-0.7.17,Network.HTTP.Client.Cookies,Parser,2.515
+http-client-0.7.17,Network.HTTP.Client.Cookies,Renamer/typechecker,19.144
+http-client-0.7.17,Network.HTTP.Client.Cookies,Simplifier,214.286
+http-client-0.7.17,Network.HTTP.Client.Cookies,Specialise,0.97
+http-client-0.7.17,Network.HTTP.Client.Cookies,Worker Wrapper binds,0.294
+http-client-0.7.17,Network.HTTP.Client.Core,Called arity analysis,0.012
+http-client-0.7.17,Network.HTTP.Client.Core,CodeGen,85.426
+http-client-0.7.17,Network.HTTP.Client.Core,Common sub-expression,0.012
+http-client-0.7.17,Network.HTTP.Client.Core,Constructed Product Result analysis,0.475
+http-client-0.7.17,Network.HTTP.Client.Core,CorePrep,1.483
+http-client-0.7.17,Network.HTTP.Client.Core,CoreTidy,1.846
+http-client-0.7.17,Network.HTTP.Client.Core,CoreToStg,7.423
+http-client-0.7.17,Network.HTTP.Client.Core,Demand analysis,4.365
+http-client-0.7.17,Network.HTTP.Client.Core,Desugar,1.249
+http-client-0.7.17,Network.HTTP.Client.Core,Exitification transformation,0.012
+http-client-0.7.17,Network.HTTP.Client.Core,Float inwards,0.020999999999999998
+http-client-0.7.17,Network.HTTP.Client.Core,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.983
+http-client-0.7.17,Network.HTTP.Client.Core,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",3.425
+http-client-0.7.17,Network.HTTP.Client.Core,Parser,2.046
+http-client-0.7.17,Network.HTTP.Client.Core,Renamer/typechecker,9.55
+http-client-0.7.17,Network.HTTP.Client.Core,Simplifier,89.032
+http-client-0.7.17,Network.HTTP.Client.Core,Specialise,0.461
+http-client-0.7.17,Network.HTTP.Client.Core,Worker Wrapper binds,0.162
+http-client-0.7.17,Network.HTTP.Client.Headers,Called arity analysis,0.013
+http-client-0.7.17,Network.HTTP.Client.Headers,CodeGen,61.559
+http-client-0.7.17,Network.HTTP.Client.Headers,Common sub-expression,0.019
+http-client-0.7.17,Network.HTTP.Client.Headers,Constructed Product Result analysis,0.467
+http-client-0.7.17,Network.HTTP.Client.Headers,CorePrep,1.154
+http-client-0.7.17,Network.HTTP.Client.Headers,CoreTidy,1.001
+http-client-0.7.17,Network.HTTP.Client.Headers,CoreToStg,5.255
+http-client-0.7.17,Network.HTTP.Client.Headers,Demand analysis,3.736
+http-client-0.7.17,Network.HTTP.Client.Headers,Desugar,1.301
+http-client-0.7.17,Network.HTTP.Client.Headers,Exitification transformation,0.014
+http-client-0.7.17,Network.HTTP.Client.Headers,Float inwards,0.037000000000000005
+http-client-0.7.17,Network.HTTP.Client.Headers,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.363
+http-client-0.7.17,Network.HTTP.Client.Headers,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",4.002
+http-client-0.7.17,Network.HTTP.Client.Headers,Parser,2.208
+http-client-0.7.17,Network.HTTP.Client.Headers,Renamer/typechecker,11.658
+http-client-0.7.17,Network.HTTP.Client.Headers,Simplifier,84.43299999999999
+http-client-0.7.17,Network.HTTP.Client.Headers,Specialise,0.357
+http-client-0.7.17,Network.HTTP.Client.Headers,Worker Wrapper binds,0.125
+http-client-0.7.17,Network.HTTP.Client.Internal,Called arity analysis,0.011
+http-client-0.7.17,Network.HTTP.Client.Internal,CodeGen,1.5550000000000002
+http-client-0.7.17,Network.HTTP.Client.Internal,Common sub-expression,0.01
+http-client-0.7.17,Network.HTTP.Client.Internal,Constructed Product Result analysis,0.013
+http-client-0.7.17,Network.HTTP.Client.Internal,CorePrep,0.125
+http-client-0.7.17,Network.HTTP.Client.Internal,CoreTidy,0.052
+http-client-0.7.17,Network.HTTP.Client.Internal,CoreToStg,0.126
+http-client-0.7.17,Network.HTTP.Client.Internal,Demand analysis,0.056999999999999995
+http-client-0.7.17,Network.HTTP.Client.Internal,Desugar,0.127
+http-client-0.7.17,Network.HTTP.Client.Internal,Exitification transformation,0.011
+http-client-0.7.17,Network.HTTP.Client.Internal,Float inwards,0.02
+http-client-0.7.17,Network.HTTP.Client.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.038
+http-client-0.7.17,Network.HTTP.Client.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.029
+http-client-0.7.17,Network.HTTP.Client.Internal,Parser,0.553
+http-client-0.7.17,Network.HTTP.Client.Internal,Renamer/typechecker,1.198
+http-client-0.7.17,Network.HTTP.Client.Internal,Simplifier,0.362
+http-client-0.7.17,Network.HTTP.Client.Internal,Specialise,0.019
+http-client-0.7.17,Network.HTTP.Client.Internal,Worker Wrapper binds,0.018
+http-client-0.7.17,Network.HTTP.Client.Manager,Called arity analysis,0.014
+http-client-0.7.17,Network.HTTP.Client.Manager,CodeGen,61.033
+http-client-0.7.17,Network.HTTP.Client.Manager,Common sub-expression,0.013
+http-client-0.7.17,Network.HTTP.Client.Manager,Constructed Product Result analysis,0.224
+http-client-0.7.17,Network.HTTP.Client.Manager,CorePrep,2.728
+http-client-0.7.17,Network.HTTP.Client.Manager,CoreTidy,1.279
+http-client-0.7.17,Network.HTTP.Client.Manager,CoreToStg,3.82
+http-client-0.7.17,Network.HTTP.Client.Manager,Demand analysis,2.229
+http-client-0.7.17,Network.HTTP.Client.Manager,Desugar,1.16
+http-client-0.7.17,Network.HTTP.Client.Manager,Exitification transformation,0.021
+http-client-0.7.17,Network.HTTP.Client.Manager,Float inwards,0.022
+http-client-0.7.17,Network.HTTP.Client.Manager,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.873
+http-client-0.7.17,Network.HTTP.Client.Manager,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.002
+http-client-0.7.17,Network.HTTP.Client.Manager,Parser,2.087
+http-client-0.7.17,Network.HTTP.Client.Manager,Renamer/typechecker,8.035
+http-client-0.7.17,Network.HTTP.Client.Manager,Simplifier,49.591
+http-client-0.7.17,Network.HTTP.Client.Manager,Specialise,0.808
+http-client-0.7.17,Network.HTTP.Client.Manager,Worker Wrapper binds,0.148
+http-client-0.7.17,Network.HTTP.Client.MultipartFormData,Called arity analysis,0.012
+http-client-0.7.17,Network.HTTP.Client.MultipartFormData,CodeGen,190.09699999999998
+http-client-0.7.17,Network.HTTP.Client.MultipartFormData,Common sub-expression,0.02
+http-client-0.7.17,Network.HTTP.Client.MultipartFormData,Constructed Product Result analysis,1.186
+http-client-0.7.17,Network.HTTP.Client.MultipartFormData,CorePrep,3.371
+http-client-0.7.17,Network.HTTP.Client.MultipartFormData,CoreTidy,6.66
+http-client-0.7.17,Network.HTTP.Client.MultipartFormData,CoreToStg,16.322
+http-client-0.7.17,Network.HTTP.Client.MultipartFormData,Demand analysis,8.128
+http-client-0.7.17,Network.HTTP.Client.MultipartFormData,Desugar,4.061
+http-client-0.7.17,Network.HTTP.Client.MultipartFormData,Exitification transformation,0.014
+http-client-0.7.17,Network.HTTP.Client.MultipartFormData,Float inwards,0.028999999999999998
+http-client-0.7.17,Network.HTTP.Client.MultipartFormData,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",13.834
+http-client-0.7.17,Network.HTTP.Client.MultipartFormData,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",11.015
+http-client-0.7.17,Network.HTTP.Client.MultipartFormData,Parser,2.195
+http-client-0.7.17,Network.HTTP.Client.MultipartFormData,Renamer/typechecker,45.035
+http-client-0.7.17,Network.HTTP.Client.MultipartFormData,Simplifier,347.935
+http-client-0.7.17,Network.HTTP.Client.MultipartFormData,Specialise,1.41
+http-client-0.7.17,Network.HTTP.Client.MultipartFormData,Worker Wrapper binds,0.812
+http-client-0.7.17,Network.HTTP.Client.Request,Called arity analysis,0.013
+http-client-0.7.17,Network.HTTP.Client.Request,CodeGen,234.452
+http-client-0.7.17,Network.HTTP.Client.Request,Common sub-expression,0.016
+http-client-0.7.17,Network.HTTP.Client.Request,Constructed Product Result analysis,2.162
+http-client-0.7.17,Network.HTTP.Client.Request,CorePrep,4.0329999999999995
+http-client-0.7.17,Network.HTTP.Client.Request,CoreTidy,7.376
+http-client-0.7.17,Network.HTTP.Client.Request,CoreToStg,32.587
+http-client-0.7.17,Network.HTTP.Client.Request,Demand analysis,11.437000000000001
+http-client-0.7.17,Network.HTTP.Client.Request,Desugar,6.862
+http-client-0.7.17,Network.HTTP.Client.Request,Exitification transformation,0.014
+http-client-0.7.17,Network.HTTP.Client.Request,Float inwards,0.027000000000000003
+http-client-0.7.17,Network.HTTP.Client.Request,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",87.534
+http-client-0.7.17,Network.HTTP.Client.Request,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",21.071
+http-client-0.7.17,Network.HTTP.Client.Request,Parser,7.382
+http-client-0.7.17,Network.HTTP.Client.Request,Renamer/typechecker,40.024
+http-client-0.7.17,Network.HTTP.Client.Request,Simplifier,397.501
+http-client-0.7.17,Network.HTTP.Client.Request,Specialise,3.939
+http-client-0.7.17,Network.HTTP.Client.Request,Worker Wrapper binds,0.8
+http-client-0.7.17,Network.HTTP.Client.Response,Called arity analysis,0.011
+http-client-0.7.17,Network.HTTP.Client.Response,CodeGen,92.511
+http-client-0.7.17,Network.HTTP.Client.Response,Common sub-expression,0.012
+http-client-0.7.17,Network.HTTP.Client.Response,Constructed Product Result analysis,0.313
+http-client-0.7.17,Network.HTTP.Client.Response,CorePrep,1.221
+http-client-0.7.17,Network.HTTP.Client.Response,CoreTidy,1.153
+http-client-0.7.17,Network.HTTP.Client.Response,CoreToStg,6.438000000000001
+http-client-0.7.17,Network.HTTP.Client.Response,Demand analysis,2.612
+http-client-0.7.17,Network.HTTP.Client.Response,Desugar,0.904
+http-client-0.7.17,Network.HTTP.Client.Response,Exitification transformation,0.014
+http-client-0.7.17,Network.HTTP.Client.Response,Float inwards,0.020999999999999998
+http-client-0.7.17,Network.HTTP.Client.Response,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",5.755
+http-client-0.7.17,Network.HTTP.Client.Response,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",3.393
+http-client-0.7.17,Network.HTTP.Client.Response,Parser,1.239
+http-client-0.7.17,Network.HTTP.Client.Response,Renamer/typechecker,6.674
+http-client-0.7.17,Network.HTTP.Client.Response,Simplifier,83.463
+http-client-0.7.17,Network.HTTP.Client.Response,Specialise,0.621
+http-client-0.7.17,Network.HTTP.Client.Response,Worker Wrapper binds,0.152
+http-client-0.7.17,Network.HTTP.Client.Types,Called arity analysis,0.01
+http-client-0.7.17,Network.HTTP.Client.Types,CodeGen,616.018
+http-client-0.7.17,Network.HTTP.Client.Types,Common sub-expression,0.014
+http-client-0.7.17,Network.HTTP.Client.Types,Constructed Product Result analysis,2.107
+http-client-0.7.17,Network.HTTP.Client.Types,CorePrep,7.805
+http-client-0.7.17,Network.HTTP.Client.Types,CoreTidy,14.958
+http-client-0.7.17,Network.HTTP.Client.Types,CoreToStg,59.506
+http-client-0.7.17,Network.HTTP.Client.Types,Demand analysis,23.329
+http-client-0.7.17,Network.HTTP.Client.Types,Desugar,19.063
+http-client-0.7.17,Network.HTTP.Client.Types,Exitification transformation,0.013
+http-client-0.7.17,Network.HTTP.Client.Types,Float inwards,0.020999999999999998
+http-client-0.7.17,Network.HTTP.Client.Types,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",25.859
+http-client-0.7.17,Network.HTTP.Client.Types,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",26.905
+http-client-0.7.17,Network.HTTP.Client.Types,Parser,7.401
+http-client-0.7.17,Network.HTTP.Client.Types,Renamer/typechecker,175.952
+http-client-0.7.17,Network.HTTP.Client.Types,Simplifier,796.8969999999999
+http-client-0.7.17,Network.HTTP.Client.Types,Specialise,9.591
+http-client-0.7.17,Network.HTTP.Client.Types,Worker Wrapper binds,2.007
+http-client-0.7.17,Network.HTTP.Client.Util,Called arity analysis,0.01
+http-client-0.7.17,Network.HTTP.Client.Util,CodeGen,3.263
+http-client-0.7.17,Network.HTTP.Client.Util,Common sub-expression,0.011
+http-client-0.7.17,Network.HTTP.Client.Util,Constructed Product Result analysis,0.029
+http-client-0.7.17,Network.HTTP.Client.Util,CorePrep,0.12
+http-client-0.7.17,Network.HTTP.Client.Util,CoreTidy,0.159
+http-client-0.7.17,Network.HTTP.Client.Util,CoreToStg,0.214
+http-client-0.7.17,Network.HTTP.Client.Util,Demand analysis,0.108
+http-client-0.7.17,Network.HTTP.Client.Util,Desugar,0.102
+http-client-0.7.17,Network.HTTP.Client.Util,Exitification transformation,0.01
+http-client-0.7.17,Network.HTTP.Client.Util,Float inwards,0.026000000000000002
+http-client-0.7.17,Network.HTTP.Client.Util,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.203
+http-client-0.7.17,Network.HTTP.Client.Util,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.105
+http-client-0.7.17,Network.HTTP.Client.Util,Parser,0.266
+http-client-0.7.17,Network.HTTP.Client.Util,Renamer/typechecker,1.187
+http-client-0.7.17,Network.HTTP.Client.Util,Simplifier,2.568
+http-client-0.7.17,Network.HTTP.Client.Util,Specialise,0.19
+http-client-0.7.17,Network.HTTP.Client.Util,Worker Wrapper binds,0.019
+http-client-0.7.17,Network.HTTP.Proxy,Called arity analysis,0.01
+http-client-0.7.17,Network.HTTP.Proxy,CodeGen,133.489
+http-client-0.7.17,Network.HTTP.Proxy,Common sub-expression,0.011
+http-client-0.7.17,Network.HTTP.Proxy,Constructed Product Result analysis,1.025
+http-client-0.7.17,Network.HTTP.Proxy,CorePrep,2.79
+http-client-0.7.17,Network.HTTP.Proxy,CoreTidy,2.444
+http-client-0.7.17,Network.HTTP.Proxy,CoreToStg,11.399000000000001
+http-client-0.7.17,Network.HTTP.Proxy,Demand analysis,5.856999999999999
+http-client-0.7.17,Network.HTTP.Proxy,Desugar,1.147
+http-client-0.7.17,Network.HTTP.Proxy,Exitification transformation,0.013
+http-client-0.7.17,Network.HTTP.Proxy,Float inwards,0.022
+http-client-0.7.17,Network.HTTP.Proxy,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",4.69
+http-client-0.7.17,Network.HTTP.Proxy,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",7.076
+http-client-0.7.17,Network.HTTP.Proxy,Parser,2.279
+http-client-0.7.17,Network.HTTP.Proxy,Renamer/typechecker,8.433
+http-client-0.7.17,Network.HTTP.Proxy,Simplifier,168.774
+http-client-0.7.17,Network.HTTP.Proxy,Specialise,1.007
+http-client-0.7.17,Network.HTTP.Proxy,Worker Wrapper binds,0.358
+http-client-0.7.17,Network.PublicSuffixList.DataStructure,Called arity analysis,0.011
+http-client-0.7.17,Network.PublicSuffixList.DataStructure,CodeGen,25.564999999999998
+http-client-0.7.17,Network.PublicSuffixList.DataStructure,Common sub-expression,0.013
+http-client-0.7.17,Network.PublicSuffixList.DataStructure,Constructed Product Result analysis,0.04
+http-client-0.7.17,Network.PublicSuffixList.DataStructure,CorePrep,0.21100000000000002
+http-client-0.7.17,Network.PublicSuffixList.DataStructure,CoreTidy,0.131
+http-client-0.7.17,Network.PublicSuffixList.DataStructure,CoreToStg,0.448
+http-client-0.7.17,Network.PublicSuffixList.DataStructure,Demand analysis,0.119
+http-client-0.7.17,Network.PublicSuffixList.DataStructure,Desugar,0.152
+http-client-0.7.17,Network.PublicSuffixList.DataStructure,Exitification transformation,0.013
+http-client-0.7.17,Network.PublicSuffixList.DataStructure,Float inwards,0.022
+http-client-0.7.17,Network.PublicSuffixList.DataStructure,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.088
+http-client-0.7.17,Network.PublicSuffixList.DataStructure,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.128
+http-client-0.7.17,Network.PublicSuffixList.DataStructure,Parser,9.31
+http-client-0.7.17,Network.PublicSuffixList.DataStructure,Renamer/typechecker,6.275
+http-client-0.7.17,Network.PublicSuffixList.DataStructure,Simplifier,1.6680000000000001
+http-client-0.7.17,Network.PublicSuffixList.DataStructure,Specialise,0.04
+http-client-0.7.17,Network.PublicSuffixList.DataStructure,Worker Wrapper binds,0.021
+http-client-0.7.17,Network.PublicSuffixList.Lookup,Called arity analysis,0.017
+http-client-0.7.17,Network.PublicSuffixList.Lookup,CodeGen,106.104
+http-client-0.7.17,Network.PublicSuffixList.Lookup,Common sub-expression,0.014
+http-client-0.7.17,Network.PublicSuffixList.Lookup,Constructed Product Result analysis,0.504
+http-client-0.7.17,Network.PublicSuffixList.Lookup,CorePrep,2.397
+http-client-0.7.17,Network.PublicSuffixList.Lookup,CoreTidy,0.983
+http-client-0.7.17,Network.PublicSuffixList.Lookup,CoreToStg,8.738
+http-client-0.7.17,Network.PublicSuffixList.Lookup,Demand analysis,3.551
+http-client-0.7.17,Network.PublicSuffixList.Lookup,Desugar,0.634
+http-client-0.7.17,Network.PublicSuffixList.Lookup,Exitification transformation,0.014
+http-client-0.7.17,Network.PublicSuffixList.Lookup,Float inwards,0.033
+http-client-0.7.17,Network.PublicSuffixList.Lookup,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.646
+http-client-0.7.17,Network.PublicSuffixList.Lookup,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",3.706
+http-client-0.7.17,Network.PublicSuffixList.Lookup,Parser,0.835
+http-client-0.7.17,Network.PublicSuffixList.Lookup,Renamer/typechecker,4.022
+http-client-0.7.17,Network.PublicSuffixList.Lookup,Simplifier,76.576
+http-client-0.7.17,Network.PublicSuffixList.Lookup,Specialise,1.506
+http-client-0.7.17,Network.PublicSuffixList.Lookup,Worker Wrapper binds,0.136
+http-client-0.7.17,Network.PublicSuffixList.Serialize,Called arity analysis,0.019
+http-client-0.7.17,Network.PublicSuffixList.Serialize,CodeGen,33.759
+http-client-0.7.17,Network.PublicSuffixList.Serialize,Common sub-expression,0.012
+http-client-0.7.17,Network.PublicSuffixList.Serialize,Constructed Product Result analysis,0.271
+http-client-0.7.17,Network.PublicSuffixList.Serialize,CorePrep,0.786
+http-client-0.7.17,Network.PublicSuffixList.Serialize,CoreTidy,0.62
+http-client-0.7.17,Network.PublicSuffixList.Serialize,CoreToStg,2.6020000000000003
+http-client-0.7.17,Network.PublicSuffixList.Serialize,Demand analysis,2.418
+http-client-0.7.17,Network.PublicSuffixList.Serialize,Desugar,0.423
+http-client-0.7.17,Network.PublicSuffixList.Serialize,Exitification transformation,0.013
+http-client-0.7.17,Network.PublicSuffixList.Serialize,Float inwards,0.03
+http-client-0.7.17,Network.PublicSuffixList.Serialize,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.129
+http-client-0.7.17,Network.PublicSuffixList.Serialize,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.838
+http-client-0.7.17,Network.PublicSuffixList.Serialize,Parser,0.868
+http-client-0.7.17,Network.PublicSuffixList.Serialize,Renamer/typechecker,4.474
+http-client-0.7.17,Network.PublicSuffixList.Serialize,Simplifier,41.032
+http-client-0.7.17,Network.PublicSuffixList.Serialize,Specialise,0.262
+http-client-0.7.17,Network.PublicSuffixList.Serialize,Worker Wrapper binds,0.091
+http-client-0.7.17,Network.PublicSuffixList.Types,Called arity analysis,0.011
+http-client-0.7.17,Network.PublicSuffixList.Types,CodeGen,13.554
+http-client-0.7.17,Network.PublicSuffixList.Types,Common sub-expression,0.012
+http-client-0.7.17,Network.PublicSuffixList.Types,Constructed Product Result analysis,0.067
+http-client-0.7.17,Network.PublicSuffixList.Types,CorePrep,0.385
+http-client-0.7.17,Network.PublicSuffixList.Types,CoreTidy,0.407
+http-client-0.7.17,Network.PublicSuffixList.Types,CoreToStg,0.668
+http-client-0.7.17,Network.PublicSuffixList.Types,Demand analysis,0.52
+http-client-0.7.17,Network.PublicSuffixList.Types,Desugar,0.256
+http-client-0.7.17,Network.PublicSuffixList.Types,Exitification transformation,0.011
+http-client-0.7.17,Network.PublicSuffixList.Types,Float inwards,0.020999999999999998
+http-client-0.7.17,Network.PublicSuffixList.Types,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.418
+http-client-0.7.17,Network.PublicSuffixList.Types,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.297
+http-client-0.7.17,Network.PublicSuffixList.Types,Parser,0.271
+http-client-0.7.17,Network.PublicSuffixList.Types,Renamer/typechecker,2.325
+http-client-0.7.17,Network.PublicSuffixList.Types,Simplifier,7.487
+http-client-0.7.17,Network.PublicSuffixList.Types,Specialise,0.115
+http-client-0.7.17,Network.PublicSuffixList.Types,Worker Wrapper binds,0.045

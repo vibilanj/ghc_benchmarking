@@ -1,0 +1,127 @@
+package,module,phase,time
+http-types-0.12.4,Network.HTTP.Types,Called arity analysis,0.012
+http-types-0.12.4,Network.HTTP.Types,CodeGen,0.8089999999999999
+http-types-0.12.4,Network.HTTP.Types,Common sub-expression,0.011
+http-types-0.12.4,Network.HTTP.Types,Constructed Product Result analysis,0.015
+http-types-0.12.4,Network.HTTP.Types,CorePrep,0.055999999999999994
+http-types-0.12.4,Network.HTTP.Types,CoreTidy,0.045
+http-types-0.12.4,Network.HTTP.Types,CoreToStg,0.079
+http-types-0.12.4,Network.HTTP.Types,Demand analysis,0.048
+http-types-0.12.4,Network.HTTP.Types,Desugar,0.048
+http-types-0.12.4,Network.HTTP.Types,Exitification transformation,0.01
+http-types-0.12.4,Network.HTTP.Types,Float inwards,0.023
+http-types-0.12.4,Network.HTTP.Types,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.041
+http-types-0.12.4,Network.HTTP.Types,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.027
+http-types-0.12.4,Network.HTTP.Types,Parser,1.56
+http-types-0.12.4,Network.HTTP.Types,Renamer/typechecker,6.365
+http-types-0.12.4,Network.HTTP.Types,Simplifier,0.358
+http-types-0.12.4,Network.HTTP.Types,Specialise,0.023
+http-types-0.12.4,Network.HTTP.Types,Worker Wrapper binds,0.012
+http-types-0.12.4,Network.HTTP.Types.Header,Called arity analysis,0.016
+http-types-0.12.4,Network.HTTP.Types.Header,CodeGen,181.25400000000002
+http-types-0.12.4,Network.HTTP.Types.Header,Common sub-expression,0.018
+http-types-0.12.4,Network.HTTP.Types.Header,Constructed Product Result analysis,0.513
+http-types-0.12.4,Network.HTTP.Types.Header,CorePrep,2.0500000000000003
+http-types-0.12.4,Network.HTTP.Types.Header,CoreTidy,5.8
+http-types-0.12.4,Network.HTTP.Types.Header,CoreToStg,10.643
+http-types-0.12.4,Network.HTTP.Types.Header,Demand analysis,5.854
+http-types-0.12.4,Network.HTTP.Types.Header,Desugar,9.2
+http-types-0.12.4,Network.HTTP.Types.Header,Exitification transformation,0.013
+http-types-0.12.4,Network.HTTP.Types.Header,Float inwards,0.026000000000000002
+http-types-0.12.4,Network.HTTP.Types.Header,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",8.163
+http-types-0.12.4,Network.HTTP.Types.Header,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",6.502
+http-types-0.12.4,Network.HTTP.Types.Header,Parser,2.571
+http-types-0.12.4,Network.HTTP.Types.Header,Renamer/typechecker,182.596
+http-types-0.12.4,Network.HTTP.Types.Header,Simplifier,188.254
+http-types-0.12.4,Network.HTTP.Types.Header,Specialise,0.945
+http-types-0.12.4,Network.HTTP.Types.Header,Worker Wrapper binds,0.288
+http-types-0.12.4,Network.HTTP.Types.Method,Called arity analysis,0.011
+http-types-0.12.4,Network.HTTP.Types.Method,CodeGen,157.58499999999998
+http-types-0.12.4,Network.HTTP.Types.Method,Common sub-expression,0.012
+http-types-0.12.4,Network.HTTP.Types.Method,Constructed Product Result analysis,0.455
+http-types-0.12.4,Network.HTTP.Types.Method,CorePrep,1.5750000000000002
+http-types-0.12.4,Network.HTTP.Types.Method,CoreTidy,2.681
+http-types-0.12.4,Network.HTTP.Types.Method,CoreToStg,4.539
+http-types-0.12.4,Network.HTTP.Types.Method,Demand analysis,4.871
+http-types-0.12.4,Network.HTTP.Types.Method,Desugar,2.063
+http-types-0.12.4,Network.HTTP.Types.Method,Exitification transformation,0.018
+http-types-0.12.4,Network.HTTP.Types.Method,Float inwards,0.020999999999999998
+http-types-0.12.4,Network.HTTP.Types.Method,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",3.159
+http-types-0.12.4,Network.HTTP.Types.Method,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",3.765
+http-types-0.12.4,Network.HTTP.Types.Method,Parser,0.785
+http-types-0.12.4,Network.HTTP.Types.Method,Renamer/typechecker,20.284
+http-types-0.12.4,Network.HTTP.Types.Method,Simplifier,190.744
+http-types-0.12.4,Network.HTTP.Types.Method,Specialise,1.146
+http-types-0.12.4,Network.HTTP.Types.Method,Worker Wrapper binds,0.249
+http-types-0.12.4,Network.HTTP.Types.QueryLike,Called arity analysis,0.011
+http-types-0.12.4,Network.HTTP.Types.QueryLike,CodeGen,19.082
+http-types-0.12.4,Network.HTTP.Types.QueryLike,Common sub-expression,0.011
+http-types-0.12.4,Network.HTTP.Types.QueryLike,Constructed Product Result analysis,0.075
+http-types-0.12.4,Network.HTTP.Types.QueryLike,CorePrep,0.463
+http-types-0.12.4,Network.HTTP.Types.QueryLike,CoreTidy,0.42
+http-types-0.12.4,Network.HTTP.Types.QueryLike,CoreToStg,1.089
+http-types-0.12.4,Network.HTTP.Types.QueryLike,Demand analysis,0.429
+http-types-0.12.4,Network.HTTP.Types.QueryLike,Desugar,0.172
+http-types-0.12.4,Network.HTTP.Types.QueryLike,Exitification transformation,0.011
+http-types-0.12.4,Network.HTTP.Types.QueryLike,Float inwards,0.020999999999999998
+http-types-0.12.4,Network.HTTP.Types.QueryLike,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.299
+http-types-0.12.4,Network.HTTP.Types.QueryLike,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.371
+http-types-0.12.4,Network.HTTP.Types.QueryLike,Parser,0.578
+http-types-0.12.4,Network.HTTP.Types.QueryLike,Renamer/typechecker,2.494
+http-types-0.12.4,Network.HTTP.Types.QueryLike,Simplifier,10.59
+http-types-0.12.4,Network.HTTP.Types.QueryLike,Specialise,0.073
+http-types-0.12.4,Network.HTTP.Types.QueryLike,Worker Wrapper binds,0.059
+http-types-0.12.4,Network.HTTP.Types.Status,Called arity analysis,0.01
+http-types-0.12.4,Network.HTTP.Types.Status,CodeGen,149.3
+http-types-0.12.4,Network.HTTP.Types.Status,Common sub-expression,0.021
+http-types-0.12.4,Network.HTTP.Types.Status,Constructed Product Result analysis,0.377
+http-types-0.12.4,Network.HTTP.Types.Status,CorePrep,1.7069999999999999
+http-types-0.12.4,Network.HTTP.Types.Status,CoreTidy,2.546
+http-types-0.12.4,Network.HTTP.Types.Status,CoreToStg,4.579
+http-types-0.12.4,Network.HTTP.Types.Status,Demand analysis,3.3449999999999998
+http-types-0.12.4,Network.HTTP.Types.Status,Desugar,0.94
+http-types-0.12.4,Network.HTTP.Types.Status,Exitification transformation,0.013
+http-types-0.12.4,Network.HTTP.Types.Status,Float inwards,0.027
+http-types-0.12.4,Network.HTTP.Types.Status,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",3.183
+http-types-0.12.4,Network.HTTP.Types.Status,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",12.952
+http-types-0.12.4,Network.HTTP.Types.Status,Parser,2.515
+http-types-0.12.4,Network.HTTP.Types.Status,Renamer/typechecker,12.562
+http-types-0.12.4,Network.HTTP.Types.Status,Simplifier,121.379
+http-types-0.12.4,Network.HTTP.Types.Status,Specialise,0.595
+http-types-0.12.4,Network.HTTP.Types.Status,Worker Wrapper binds,0.268
+http-types-0.12.4,Network.HTTP.Types.URI,Called arity analysis,0.02
+http-types-0.12.4,Network.HTTP.Types.URI,CodeGen,175.19299999999998
+http-types-0.12.4,Network.HTTP.Types.URI,Common sub-expression,0.013
+http-types-0.12.4,Network.HTTP.Types.URI,Constructed Product Result analysis,0.794
+http-types-0.12.4,Network.HTTP.Types.URI,CorePrep,3.2329999999999997
+http-types-0.12.4,Network.HTTP.Types.URI,CoreTidy,2.709
+http-types-0.12.4,Network.HTTP.Types.URI,CoreToStg,11.104
+http-types-0.12.4,Network.HTTP.Types.URI,Demand analysis,4.743
+http-types-0.12.4,Network.HTTP.Types.URI,Desugar,1.825
+http-types-0.12.4,Network.HTTP.Types.URI,Exitification transformation,0.013
+http-types-0.12.4,Network.HTTP.Types.URI,Float inwards,0.022
+http-types-0.12.4,Network.HTTP.Types.URI,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",6.653
+http-types-0.12.4,Network.HTTP.Types.URI,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",6.989
+http-types-0.12.4,Network.HTTP.Types.URI,Parser,3.151
+http-types-0.12.4,Network.HTTP.Types.URI,Renamer/typechecker,21.854
+http-types-0.12.4,Network.HTTP.Types.URI,Simplifier,227.638
+http-types-0.12.4,Network.HTTP.Types.URI,Specialise,0.988
+http-types-0.12.4,Network.HTTP.Types.URI,Worker Wrapper binds,0.346
+http-types-0.12.4,Network.HTTP.Types.Version,Called arity analysis,0.019
+http-types-0.12.4,Network.HTTP.Types.Version,CodeGen,61.888000000000005
+http-types-0.12.4,Network.HTTP.Types.Version,Common sub-expression,0.011
+http-types-0.12.4,Network.HTTP.Types.Version,Constructed Product Result analysis,0.231
+http-types-0.12.4,Network.HTTP.Types.Version,CorePrep,1.283
+http-types-0.12.4,Network.HTTP.Types.Version,CoreTidy,2.159
+http-types-0.12.4,Network.HTTP.Types.Version,CoreToStg,2.23
+http-types-0.12.4,Network.HTTP.Types.Version,Demand analysis,1.745
+http-types-0.12.4,Network.HTTP.Types.Version,Desugar,0.403
+http-types-0.12.4,Network.HTTP.Types.Version,Exitification transformation,0.018
+http-types-0.12.4,Network.HTTP.Types.Version,Float inwards,0.026000000000000002
+http-types-0.12.4,Network.HTTP.Types.Version,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",4.186
+http-types-0.12.4,Network.HTTP.Types.Version,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.387
+http-types-0.12.4,Network.HTTP.Types.Version,Parser,0.429
+http-types-0.12.4,Network.HTTP.Types.Version,Renamer/typechecker,4.189
+http-types-0.12.4,Network.HTTP.Types.Version,Simplifier,37.109
+http-types-0.12.4,Network.HTTP.Types.Version,Specialise,0.399
+http-types-0.12.4,Network.HTTP.Types.Version,Worker Wrapper binds,0.267

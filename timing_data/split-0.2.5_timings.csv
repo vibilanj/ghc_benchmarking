@@ -1,0 +1,37 @@
+package,module,phase,time
+split-0.2.5,Data.List.Split,Called arity analysis,0.009
+split-0.2.5,Data.List.Split,CodeGen,0.77
+split-0.2.5,Data.List.Split,Common sub-expression,0.009
+split-0.2.5,Data.List.Split,Constructed Product Result analysis,0.012
+split-0.2.5,Data.List.Split,CorePrep,0.088
+split-0.2.5,Data.List.Split,CoreTidy,0.047
+split-0.2.5,Data.List.Split,CoreToStg,0.096
+split-0.2.5,Data.List.Split,Demand analysis,0.047
+split-0.2.5,Data.List.Split,Desugar,0.031
+split-0.2.5,Data.List.Split,Exitification transformation,0.009
+split-0.2.5,Data.List.Split,Float inwards,0.017
+split-0.2.5,Data.List.Split,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.039
+split-0.2.5,Data.List.Split,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.027
+split-0.2.5,Data.List.Split,Parser,0.39
+split-0.2.5,Data.List.Split,Renamer/typechecker,0.446
+split-0.2.5,Data.List.Split,Simplifier,0.354
+split-0.2.5,Data.List.Split,Specialise,0.018
+split-0.2.5,Data.List.Split,Worker Wrapper binds,0.011
+split-0.2.5,Data.List.Split.Internals,Called arity analysis,0.015
+split-0.2.5,Data.List.Split.Internals,CodeGen,141.726
+split-0.2.5,Data.List.Split.Internals,Common sub-expression,0.012
+split-0.2.5,Data.List.Split.Internals,Constructed Product Result analysis,0.46
+split-0.2.5,Data.List.Split.Internals,CorePrep,4.065
+split-0.2.5,Data.List.Split.Internals,CoreTidy,2.017
+split-0.2.5,Data.List.Split.Internals,CoreToStg,9.033999999999999
+split-0.2.5,Data.List.Split.Internals,Demand analysis,4.171
+split-0.2.5,Data.List.Split.Internals,Desugar,2.638
+split-0.2.5,Data.List.Split.Internals,Exitification transformation,0.014
+split-0.2.5,Data.List.Split.Internals,Float inwards,0.033
+split-0.2.5,Data.List.Split.Internals,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",3.786
+split-0.2.5,Data.List.Split.Internals,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",5.228
+split-0.2.5,Data.List.Split.Internals,Parser,5.349
+split-0.2.5,Data.List.Split.Internals,Renamer/typechecker,58.771
+split-0.2.5,Data.List.Split.Internals,Simplifier,128.206
+split-0.2.5,Data.List.Split.Internals,Specialise,0.562
+split-0.2.5,Data.List.Split.Internals,Worker Wrapper binds,0.298

@@ -1,201 +1,201 @@
 package,module,phase,time
-filepath-1.5.3.0,/home/vibilanj/Documents/uni/research/haskell_parser/benchmarking/sources/filepath-1.5.3.0/dist-newstyle/build/x86_64-linux/ghc-9.4.8/filepath-1.5.3.0/build/System/OsPath.dyn_hi-boot,WriteIface,0.214
-filepath-1.5.3.0,/home/vibilanj/Documents/uni/research/haskell_parser/benchmarking/sources/filepath-1.5.3.0/dist-newstyle/build/x86_64-linux/ghc-9.4.8/filepath-1.5.3.0/build/System/OsPath.hi-boot,WriteIface,0.237
-filepath-1.5.3.0,System.FilePath,Called arity analysis,0.011
-filepath-1.5.3.0,System.FilePath,CodeGen,0.9319999999999999
-filepath-1.5.3.0,System.FilePath,Common sub-expression,0.01
-filepath-1.5.3.0,System.FilePath,Constructed Product Result analysis,0.014
-filepath-1.5.3.0,System.FilePath,CorePrep,0.088
-filepath-1.5.3.0,System.FilePath,CoreTidy,0.054
-filepath-1.5.3.0,System.FilePath,CoreToStg,0.116
-filepath-1.5.3.0,System.FilePath,Demand analysis,0.053000000000000005
-filepath-1.5.3.0,System.FilePath,Desugar,0.176
-filepath-1.5.3.0,System.FilePath,Exitification transformation,0.011
-filepath-1.5.3.0,System.FilePath,Float inwards,0.02
-filepath-1.5.3.0,System.FilePath,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.042
-filepath-1.5.3.0,System.FilePath,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.031
-filepath-1.5.3.0,System.FilePath,Parser,1.445
-filepath-1.5.3.0,System.FilePath,Renamer/typechecker,0.712
-filepath-1.5.3.0,System.FilePath,Simplifier,0.44599999999999995
-filepath-1.5.3.0,System.FilePath,Specialise,0.021
-filepath-1.5.3.0,System.FilePath,Worker Wrapper binds,0.014
-filepath-1.5.3.0,System.FilePath.Posix,Called arity analysis,0.011
-filepath-1.5.3.0,System.FilePath.Posix,CodeGen,124.21600000000001
-filepath-1.5.3.0,System.FilePath.Posix,Common sub-expression,0.016
-filepath-1.5.3.0,System.FilePath.Posix,Constructed Product Result analysis,0.527
-filepath-1.5.3.0,System.FilePath.Posix,CorePrep,1.9569999999999999
-filepath-1.5.3.0,System.FilePath.Posix,CoreTidy,1.814
-filepath-1.5.3.0,System.FilePath.Posix,CoreToStg,8.801
-filepath-1.5.3.0,System.FilePath.Posix,Demand analysis,3.192
-filepath-1.5.3.0,System.FilePath.Posix,Desugar,3.51
+filepath-1.5.3.0,/home/vibilanj/Documents/uni/research/haskell_parser/benchmarking/sources/filepath-1.5.3.0/dist-newstyle/build/x86_64-linux/ghc-9.4.8/filepath-1.5.3.0/build/System/OsPath.dyn_hi-boot,WriteIface,0.138
+filepath-1.5.3.0,/home/vibilanj/Documents/uni/research/haskell_parser/benchmarking/sources/filepath-1.5.3.0/dist-newstyle/build/x86_64-linux/ghc-9.4.8/filepath-1.5.3.0/build/System/OsPath.hi-boot,WriteIface,0.325
+filepath-1.5.3.0,System.FilePath,Called arity analysis,0.009
+filepath-1.5.3.0,System.FilePath,CodeGen,0.74
+filepath-1.5.3.0,System.FilePath,Common sub-expression,0.009
+filepath-1.5.3.0,System.FilePath,Constructed Product Result analysis,0.011
+filepath-1.5.3.0,System.FilePath,CorePrep,0.07
+filepath-1.5.3.0,System.FilePath,CoreTidy,0.059
+filepath-1.5.3.0,System.FilePath,CoreToStg,0.078
+filepath-1.5.3.0,System.FilePath,Demand analysis,0.044
+filepath-1.5.3.0,System.FilePath,Desugar,0.107
+filepath-1.5.3.0,System.FilePath,Exitification transformation,0.009
+filepath-1.5.3.0,System.FilePath,Float inwards,0.016
+filepath-1.5.3.0,System.FilePath,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.039
+filepath-1.5.3.0,System.FilePath,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.026
+filepath-1.5.3.0,System.FilePath,Parser,1.166
+filepath-1.5.3.0,System.FilePath,Renamer/typechecker,0.442
+filepath-1.5.3.0,System.FilePath,Simplifier,0.329
+filepath-1.5.3.0,System.FilePath,Specialise,0.019
+filepath-1.5.3.0,System.FilePath,Worker Wrapper binds,0.01
+filepath-1.5.3.0,System.FilePath.Posix,Called arity analysis,0.01
+filepath-1.5.3.0,System.FilePath.Posix,CodeGen,107.257
+filepath-1.5.3.0,System.FilePath.Posix,Common sub-expression,0.011
+filepath-1.5.3.0,System.FilePath.Posix,Constructed Product Result analysis,0.442
+filepath-1.5.3.0,System.FilePath.Posix,CorePrep,2.01
+filepath-1.5.3.0,System.FilePath.Posix,CoreTidy,1.637
+filepath-1.5.3.0,System.FilePath.Posix,CoreToStg,7.5440000000000005
+filepath-1.5.3.0,System.FilePath.Posix,Demand analysis,2.847
+filepath-1.5.3.0,System.FilePath.Posix,Desugar,5.97
 filepath-1.5.3.0,System.FilePath.Posix,Exitification transformation,0.015
-filepath-1.5.3.0,System.FilePath.Posix,Float inwards,0.023
-filepath-1.5.3.0,System.FilePath.Posix,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",4.144
-filepath-1.5.3.0,System.FilePath.Posix,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",3.942
-filepath-1.5.3.0,System.FilePath.Posix,Parser,8.163
-filepath-1.5.3.0,System.FilePath.Posix,Renamer/typechecker,73.522
-filepath-1.5.3.0,System.FilePath.Posix,Simplifier,206.763
-filepath-1.5.3.0,System.FilePath.Posix,Specialise,1.457
-filepath-1.5.3.0,System.FilePath.Posix,Worker Wrapper binds,0.23
+filepath-1.5.3.0,System.FilePath.Posix,Float inwards,0.027000000000000003
+filepath-1.5.3.0,System.FilePath.Posix,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",3.646
+filepath-1.5.3.0,System.FilePath.Posix,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",3.491
+filepath-1.5.3.0,System.FilePath.Posix,Parser,7.652
+filepath-1.5.3.0,System.FilePath.Posix,Renamer/typechecker,69.006
+filepath-1.5.3.0,System.FilePath.Posix,Simplifier,178.39600000000002
+filepath-1.5.3.0,System.FilePath.Posix,Specialise,1.048
+filepath-1.5.3.0,System.FilePath.Posix,Worker Wrapper binds,0.19
 filepath-1.5.3.0,System.FilePath.Windows,Called arity analysis,0.011
-filepath-1.5.3.0,System.FilePath.Windows,CodeGen,235.277
-filepath-1.5.3.0,System.FilePath.Windows,Common sub-expression,0.018
-filepath-1.5.3.0,System.FilePath.Windows,Constructed Product Result analysis,0.975
-filepath-1.5.3.0,System.FilePath.Windows,CorePrep,3.377
-filepath-1.5.3.0,System.FilePath.Windows,CoreTidy,3.06
-filepath-1.5.3.0,System.FilePath.Windows,CoreToStg,20.554
-filepath-1.5.3.0,System.FilePath.Windows,Demand analysis,9.181000000000001
-filepath-1.5.3.0,System.FilePath.Windows,Desugar,3.769
-filepath-1.5.3.0,System.FilePath.Windows,Exitification transformation,0.013
-filepath-1.5.3.0,System.FilePath.Windows,Float inwards,0.025
-filepath-1.5.3.0,System.FilePath.Windows,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",7.091
-filepath-1.5.3.0,System.FilePath.Windows,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",10.066
-filepath-1.5.3.0,System.FilePath.Windows,Parser,10.858
-filepath-1.5.3.0,System.FilePath.Windows,Renamer/typechecker,24.364
-filepath-1.5.3.0,System.FilePath.Windows,Simplifier,322.154
-filepath-1.5.3.0,System.FilePath.Windows,Specialise,2.694
-filepath-1.5.3.0,System.FilePath.Windows,Worker Wrapper binds,0.347
-filepath-1.5.3.0,System.OsPath,Called arity analysis,0.017
-filepath-1.5.3.0,System.OsPath,CodeGen,21.336
-filepath-1.5.3.0,System.OsPath,Common sub-expression,0.015
-filepath-1.5.3.0,System.OsPath,Constructed Product Result analysis,0.1
-filepath-1.5.3.0,System.OsPath,CorePrep,0.335
-filepath-1.5.3.0,System.OsPath,CoreTidy,0.35300000000000004
-filepath-1.5.3.0,System.OsPath,CoreToStg,0.768
-filepath-1.5.3.0,System.OsPath,Demand analysis,1.487
-filepath-1.5.3.0,System.OsPath,Desugar,0.556
+filepath-1.5.3.0,System.FilePath.Windows,CodeGen,189.639
+filepath-1.5.3.0,System.FilePath.Windows,Common sub-expression,0.012
+filepath-1.5.3.0,System.FilePath.Windows,Constructed Product Result analysis,1.875
+filepath-1.5.3.0,System.FilePath.Windows,CorePrep,3.207
+filepath-1.5.3.0,System.FilePath.Windows,CoreTidy,2.794
+filepath-1.5.3.0,System.FilePath.Windows,CoreToStg,14.943999999999999
+filepath-1.5.3.0,System.FilePath.Windows,Demand analysis,4.664
+filepath-1.5.3.0,System.FilePath.Windows,Desugar,2.954
+filepath-1.5.3.0,System.FilePath.Windows,Exitification transformation,0.011
+filepath-1.5.3.0,System.FilePath.Windows,Float inwards,0.019
+filepath-1.5.3.0,System.FilePath.Windows,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",6.628
+filepath-1.5.3.0,System.FilePath.Windows,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",7.552
+filepath-1.5.3.0,System.FilePath.Windows,Parser,8.696
+filepath-1.5.3.0,System.FilePath.Windows,Renamer/typechecker,21.679
+filepath-1.5.3.0,System.FilePath.Windows,Simplifier,280.975
+filepath-1.5.3.0,System.FilePath.Windows,Specialise,0.801
+filepath-1.5.3.0,System.FilePath.Windows,Worker Wrapper binds,0.341
+filepath-1.5.3.0,System.OsPath,Called arity analysis,0.012
+filepath-1.5.3.0,System.OsPath,CodeGen,19.954
+filepath-1.5.3.0,System.OsPath,Common sub-expression,0.009
+filepath-1.5.3.0,System.OsPath,Constructed Product Result analysis,0.086
+filepath-1.5.3.0,System.OsPath,CorePrep,0.276
+filepath-1.5.3.0,System.OsPath,CoreTidy,0.402
+filepath-1.5.3.0,System.OsPath,CoreToStg,0.8240000000000001
+filepath-1.5.3.0,System.OsPath,Demand analysis,0.474
+filepath-1.5.3.0,System.OsPath,Desugar,0.541
 filepath-1.5.3.0,System.OsPath,Exitification transformation,0.01
-filepath-1.5.3.0,System.OsPath,Float inwards,0.036000000000000004
-filepath-1.5.3.0,System.OsPath,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.437
-filepath-1.5.3.0,System.OsPath,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.304
-filepath-1.5.3.0,System.OsPath,Parser,4.47
-filepath-1.5.3.0,System.OsPath,Renamer/typechecker,7.943
-filepath-1.5.3.0,System.OsPath,Simplifier,13.473
-filepath-1.5.3.0,System.OsPath,Specialise,0.1
-filepath-1.5.3.0,System.OsPath,Worker Wrapper binds,0.08
-filepath-1.5.3.0,System.OsPath.Encoding,Called arity analysis,0.011
-filepath-1.5.3.0,System.OsPath.Encoding,CodeGen,1.061
-filepath-1.5.3.0,System.OsPath.Encoding,Common sub-expression,0.013
-filepath-1.5.3.0,System.OsPath.Encoding,Constructed Product Result analysis,0.018
-filepath-1.5.3.0,System.OsPath.Encoding,CorePrep,0.096
-filepath-1.5.3.0,System.OsPath.Encoding,CoreTidy,0.074
-filepath-1.5.3.0,System.OsPath.Encoding,CoreToStg,0.156
-filepath-1.5.3.0,System.OsPath.Encoding,Demand analysis,0.063
-filepath-1.5.3.0,System.OsPath.Encoding,Desugar,0.034
-filepath-1.5.3.0,System.OsPath.Encoding,Exitification transformation,0.019
-filepath-1.5.3.0,System.OsPath.Encoding,Float inwards,0.022
-filepath-1.5.3.0,System.OsPath.Encoding,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.046
-filepath-1.5.3.0,System.OsPath.Encoding,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.05
+filepath-1.5.3.0,System.OsPath,Float inwards,0.02
+filepath-1.5.3.0,System.OsPath,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.358
+filepath-1.5.3.0,System.OsPath,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.27
+filepath-1.5.3.0,System.OsPath,Parser,3.6790000000000003
+filepath-1.5.3.0,System.OsPath,Renamer/typechecker,9.370000000000001
+filepath-1.5.3.0,System.OsPath,Simplifier,11.729000000000001
+filepath-1.5.3.0,System.OsPath,Specialise,0.074
+filepath-1.5.3.0,System.OsPath,Worker Wrapper binds,0.06
+filepath-1.5.3.0,System.OsPath.Encoding,Called arity analysis,0.012
+filepath-1.5.3.0,System.OsPath.Encoding,CodeGen,0.887
+filepath-1.5.3.0,System.OsPath.Encoding,Common sub-expression,0.009
+filepath-1.5.3.0,System.OsPath.Encoding,Constructed Product Result analysis,0.012
+filepath-1.5.3.0,System.OsPath.Encoding,CorePrep,0.07300000000000001
+filepath-1.5.3.0,System.OsPath.Encoding,CoreTidy,0.045
+filepath-1.5.3.0,System.OsPath.Encoding,CoreToStg,0.11699999999999999
+filepath-1.5.3.0,System.OsPath.Encoding,Demand analysis,0.06
+filepath-1.5.3.0,System.OsPath.Encoding,Desugar,0.037
+filepath-1.5.3.0,System.OsPath.Encoding,Exitification transformation,0.01
+filepath-1.5.3.0,System.OsPath.Encoding,Float inwards,0.02
+filepath-1.5.3.0,System.OsPath.Encoding,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.059
+filepath-1.5.3.0,System.OsPath.Encoding,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.031
 filepath-1.5.3.0,System.OsPath.Encoding,Parser,0.225
-filepath-1.5.3.0,System.OsPath.Encoding,Renamer/typechecker,0.981
-filepath-1.5.3.0,System.OsPath.Encoding,Simplifier,0.447
-filepath-1.5.3.0,System.OsPath.Encoding,Specialise,0.022
-filepath-1.5.3.0,System.OsPath.Encoding,Worker Wrapper binds,0.017
-filepath-1.5.3.0,System.OsPath.Internal,Called arity analysis,0.012
-filepath-1.5.3.0,System.OsPath.Internal,CodeGen,50.708
+filepath-1.5.3.0,System.OsPath.Encoding,Renamer/typechecker,0.962
+filepath-1.5.3.0,System.OsPath.Encoding,Simplifier,0.388
+filepath-1.5.3.0,System.OsPath.Encoding,Specialise,0.025
+filepath-1.5.3.0,System.OsPath.Encoding,Worker Wrapper binds,0.011
+filepath-1.5.3.0,System.OsPath.Internal,Called arity analysis,0.015
+filepath-1.5.3.0,System.OsPath.Internal,CodeGen,64.918
 filepath-1.5.3.0,System.OsPath.Internal,Common sub-expression,0.011
-filepath-1.5.3.0,System.OsPath.Internal,Constructed Product Result analysis,0.217
-filepath-1.5.3.0,System.OsPath.Internal,CorePrep,0.814
-filepath-1.5.3.0,System.OsPath.Internal,CoreTidy,0.864
-filepath-1.5.3.0,System.OsPath.Internal,CoreToStg,2.073
-filepath-1.5.3.0,System.OsPath.Internal,Demand analysis,2.174
-filepath-1.5.3.0,System.OsPath.Internal,Desugar,0.306
-filepath-1.5.3.0,System.OsPath.Internal,Exitification transformation,0.017
-filepath-1.5.3.0,System.OsPath.Internal,Float inwards,0.023
-filepath-1.5.3.0,System.OsPath.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.783
-filepath-1.5.3.0,System.OsPath.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.915
-filepath-1.5.3.0,System.OsPath.Internal,Parser,1.954
-filepath-1.5.3.0,System.OsPath.Internal,Renamer/typechecker,12.104
-filepath-1.5.3.0,System.OsPath.Internal,Simplifier,39.067
-filepath-1.5.3.0,System.OsPath.Internal,Specialise,0.59
-filepath-1.5.3.0,System.OsPath.Internal,Worker Wrapper binds,0.261
-filepath-1.5.3.0,System.OsPath.Posix,Called arity analysis,0.013
-filepath-1.5.3.0,System.OsPath.Posix,CodeGen,63.042
-filepath-1.5.3.0,System.OsPath.Posix,Common sub-expression,0.024
-filepath-1.5.3.0,System.OsPath.Posix,Constructed Product Result analysis,0.32
-filepath-1.5.3.0,System.OsPath.Posix,CorePrep,1.401
-filepath-1.5.3.0,System.OsPath.Posix,CoreTidy,1.74
-filepath-1.5.3.0,System.OsPath.Posix,CoreToStg,4.862
-filepath-1.5.3.0,System.OsPath.Posix,Demand analysis,2.767
-filepath-1.5.3.0,System.OsPath.Posix,Desugar,4.714
-filepath-1.5.3.0,System.OsPath.Posix,Exitification transformation,0.018
-filepath-1.5.3.0,System.OsPath.Posix,Float inwards,0.025
-filepath-1.5.3.0,System.OsPath.Posix,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.196
-filepath-1.5.3.0,System.OsPath.Posix,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",3.047
-filepath-1.5.3.0,System.OsPath.Posix,Parser,4.259
-filepath-1.5.3.0,System.OsPath.Posix,Renamer/typechecker,34.712
-filepath-1.5.3.0,System.OsPath.Posix,Simplifier,81.862
-filepath-1.5.3.0,System.OsPath.Posix,Specialise,0.665
-filepath-1.5.3.0,System.OsPath.Posix,Worker Wrapper binds,0.218
-filepath-1.5.3.0,System.OsPath.Posix.Internal,Called arity analysis,0.012
-filepath-1.5.3.0,System.OsPath.Posix.Internal,CodeGen,164.424
-filepath-1.5.3.0,System.OsPath.Posix.Internal,Common sub-expression,0.017
-filepath-1.5.3.0,System.OsPath.Posix.Internal,Constructed Product Result analysis,0.861
-filepath-1.5.3.0,System.OsPath.Posix.Internal,CorePrep,8.344999999999999
-filepath-1.5.3.0,System.OsPath.Posix.Internal,CoreTidy,3.362
-filepath-1.5.3.0,System.OsPath.Posix.Internal,CoreToStg,14.762
-filepath-1.5.3.0,System.OsPath.Posix.Internal,Demand analysis,6.2509999999999994
-filepath-1.5.3.0,System.OsPath.Posix.Internal,Desugar,8.01
-filepath-1.5.3.0,System.OsPath.Posix.Internal,Exitification transformation,0.015
-filepath-1.5.3.0,System.OsPath.Posix.Internal,Float inwards,0.024
-filepath-1.5.3.0,System.OsPath.Posix.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",4.444
-filepath-1.5.3.0,System.OsPath.Posix.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",14.977
-filepath-1.5.3.0,System.OsPath.Posix.Internal,Parser,13.573
-filepath-1.5.3.0,System.OsPath.Posix.Internal,Renamer/typechecker,34.439
-filepath-1.5.3.0,System.OsPath.Posix.Internal,Simplifier,305.008
-filepath-1.5.3.0,System.OsPath.Posix.Internal,Specialise,1.448
-filepath-1.5.3.0,System.OsPath.Posix.Internal,Worker Wrapper binds,0.31
-filepath-1.5.3.0,System.OsPath.Types,Called arity analysis,0.012
-filepath-1.5.3.0,System.OsPath.Types,CodeGen,0.845
+filepath-1.5.3.0,System.OsPath.Internal,Constructed Product Result analysis,0.265
+filepath-1.5.3.0,System.OsPath.Internal,CorePrep,1.5110000000000001
+filepath-1.5.3.0,System.OsPath.Internal,CoreTidy,0.909
+filepath-1.5.3.0,System.OsPath.Internal,CoreToStg,2.705
+filepath-1.5.3.0,System.OsPath.Internal,Demand analysis,2.354
+filepath-1.5.3.0,System.OsPath.Internal,Desugar,0.285
+filepath-1.5.3.0,System.OsPath.Internal,Exitification transformation,0.012
+filepath-1.5.3.0,System.OsPath.Internal,Float inwards,0.026999999999999996
+filepath-1.5.3.0,System.OsPath.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.797
+filepath-1.5.3.0,System.OsPath.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.36
+filepath-1.5.3.0,System.OsPath.Internal,Parser,2.031
+filepath-1.5.3.0,System.OsPath.Internal,Renamer/typechecker,9.323
+filepath-1.5.3.0,System.OsPath.Internal,Simplifier,89.51299999999999
+filepath-1.5.3.0,System.OsPath.Internal,Specialise,0.308
+filepath-1.5.3.0,System.OsPath.Internal,Worker Wrapper binds,0.151
+filepath-1.5.3.0,System.OsPath.Posix,Called arity analysis,0.014
+filepath-1.5.3.0,System.OsPath.Posix,CodeGen,72.609
+filepath-1.5.3.0,System.OsPath.Posix,Common sub-expression,0.011
+filepath-1.5.3.0,System.OsPath.Posix,Constructed Product Result analysis,0.275
+filepath-1.5.3.0,System.OsPath.Posix,CorePrep,1.9060000000000001
+filepath-1.5.3.0,System.OsPath.Posix,CoreTidy,1.612
+filepath-1.5.3.0,System.OsPath.Posix,CoreToStg,4.236000000000001
+filepath-1.5.3.0,System.OsPath.Posix,Demand analysis,2.754
+filepath-1.5.3.0,System.OsPath.Posix,Desugar,2.069
+filepath-1.5.3.0,System.OsPath.Posix,Exitification transformation,0.011
+filepath-1.5.3.0,System.OsPath.Posix,Float inwards,0.020999999999999998
+filepath-1.5.3.0,System.OsPath.Posix,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.925
+filepath-1.5.3.0,System.OsPath.Posix,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.886
+filepath-1.5.3.0,System.OsPath.Posix,Parser,5.988
+filepath-1.5.3.0,System.OsPath.Posix,Renamer/typechecker,29.756
+filepath-1.5.3.0,System.OsPath.Posix,Simplifier,77.89
+filepath-1.5.3.0,System.OsPath.Posix,Specialise,0.569
+filepath-1.5.3.0,System.OsPath.Posix,Worker Wrapper binds,0.167
+filepath-1.5.3.0,System.OsPath.Posix.Internal,Called arity analysis,0.01
+filepath-1.5.3.0,System.OsPath.Posix.Internal,CodeGen,153.55
+filepath-1.5.3.0,System.OsPath.Posix.Internal,Common sub-expression,0.02
+filepath-1.5.3.0,System.OsPath.Posix.Internal,Constructed Product Result analysis,1.239
+filepath-1.5.3.0,System.OsPath.Posix.Internal,CorePrep,2.119
+filepath-1.5.3.0,System.OsPath.Posix.Internal,CoreTidy,6.625
+filepath-1.5.3.0,System.OsPath.Posix.Internal,CoreToStg,12.823
+filepath-1.5.3.0,System.OsPath.Posix.Internal,Demand analysis,5.673
+filepath-1.5.3.0,System.OsPath.Posix.Internal,Desugar,3.269
+filepath-1.5.3.0,System.OsPath.Posix.Internal,Exitification transformation,0.014
+filepath-1.5.3.0,System.OsPath.Posix.Internal,Float inwards,0.020999999999999998
+filepath-1.5.3.0,System.OsPath.Posix.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",5.39
+filepath-1.5.3.0,System.OsPath.Posix.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",8.154
+filepath-1.5.3.0,System.OsPath.Posix.Internal,Parser,8.955
+filepath-1.5.3.0,System.OsPath.Posix.Internal,Renamer/typechecker,34.107
+filepath-1.5.3.0,System.OsPath.Posix.Internal,Simplifier,262.187
+filepath-1.5.3.0,System.OsPath.Posix.Internal,Specialise,0.628
+filepath-1.5.3.0,System.OsPath.Posix.Internal,Worker Wrapper binds,0.287
+filepath-1.5.3.0,System.OsPath.Types,Called arity analysis,0.014
+filepath-1.5.3.0,System.OsPath.Types,CodeGen,0.745
 filepath-1.5.3.0,System.OsPath.Types,Common sub-expression,0.01
-filepath-1.5.3.0,System.OsPath.Types,Constructed Product Result analysis,0.015
-filepath-1.5.3.0,System.OsPath.Types,CorePrep,0.06
-filepath-1.5.3.0,System.OsPath.Types,CoreTidy,0.077
-filepath-1.5.3.0,System.OsPath.Types,CoreToStg,0.122
-filepath-1.5.3.0,System.OsPath.Types,Demand analysis,0.068
-filepath-1.5.3.0,System.OsPath.Types,Desugar,0.159
+filepath-1.5.3.0,System.OsPath.Types,Constructed Product Result analysis,0.012
+filepath-1.5.3.0,System.OsPath.Types,CorePrep,0.056
+filepath-1.5.3.0,System.OsPath.Types,CoreTidy,0.073
+filepath-1.5.3.0,System.OsPath.Types,CoreToStg,0.079
+filepath-1.5.3.0,System.OsPath.Types,Demand analysis,0.05500000000000001
+filepath-1.5.3.0,System.OsPath.Types,Desugar,0.093
 filepath-1.5.3.0,System.OsPath.Types,Exitification transformation,0.011
-filepath-1.5.3.0,System.OsPath.Types,Float inwards,0.02
-filepath-1.5.3.0,System.OsPath.Types,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.053
-filepath-1.5.3.0,System.OsPath.Types,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.029
-filepath-1.5.3.0,System.OsPath.Types,Parser,0.767
-filepath-1.5.3.0,System.OsPath.Types,Renamer/typechecker,1.43
-filepath-1.5.3.0,System.OsPath.Types,Simplifier,0.439
-filepath-1.5.3.0,System.OsPath.Types,Specialise,0.027
-filepath-1.5.3.0,System.OsPath.Types,Worker Wrapper binds,0.013
-filepath-1.5.3.0,System.OsPath.Windows,Called arity analysis,0.012
-filepath-1.5.3.0,System.OsPath.Windows,CodeGen,62.018
-filepath-1.5.3.0,System.OsPath.Windows,Common sub-expression,0.012
-filepath-1.5.3.0,System.OsPath.Windows,Constructed Product Result analysis,0.262
-filepath-1.5.3.0,System.OsPath.Windows,CorePrep,0.843
-filepath-1.5.3.0,System.OsPath.Windows,CoreTidy,1.011
-filepath-1.5.3.0,System.OsPath.Windows,CoreToStg,2.5469999999999997
-filepath-1.5.3.0,System.OsPath.Windows,Demand analysis,2.04
-filepath-1.5.3.0,System.OsPath.Windows,Desugar,0.683
-filepath-1.5.3.0,System.OsPath.Windows,Exitification transformation,0.017
-filepath-1.5.3.0,System.OsPath.Windows,Float inwards,0.022
-filepath-1.5.3.0,System.OsPath.Windows,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.116
-filepath-1.5.3.0,System.OsPath.Windows,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.963
-filepath-1.5.3.0,System.OsPath.Windows,Parser,3.978
-filepath-1.5.3.0,System.OsPath.Windows,Renamer/typechecker,10.995
-filepath-1.5.3.0,System.OsPath.Windows,Simplifier,58.224
-filepath-1.5.3.0,System.OsPath.Windows,Specialise,1.889
-filepath-1.5.3.0,System.OsPath.Windows,Worker Wrapper binds,0.192
-filepath-1.5.3.0,System.OsPath.Windows.Internal,Called arity analysis,0.012
-filepath-1.5.3.0,System.OsPath.Windows.Internal,CodeGen,266.861
+filepath-1.5.3.0,System.OsPath.Types,Float inwards,0.020999999999999998
+filepath-1.5.3.0,System.OsPath.Types,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.039
+filepath-1.5.3.0,System.OsPath.Types,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.031
+filepath-1.5.3.0,System.OsPath.Types,Parser,0.928
+filepath-1.5.3.0,System.OsPath.Types,Renamer/typechecker,1.429
+filepath-1.5.3.0,System.OsPath.Types,Simplifier,0.356
+filepath-1.5.3.0,System.OsPath.Types,Specialise,0.02
+filepath-1.5.3.0,System.OsPath.Types,Worker Wrapper binds,0.012
+filepath-1.5.3.0,System.OsPath.Windows,Called arity analysis,0.021
+filepath-1.5.3.0,System.OsPath.Windows,CodeGen,79.872
+filepath-1.5.3.0,System.OsPath.Windows,Common sub-expression,0.011
+filepath-1.5.3.0,System.OsPath.Windows,Constructed Product Result analysis,0.295
+filepath-1.5.3.0,System.OsPath.Windows,CorePrep,1.822
+filepath-1.5.3.0,System.OsPath.Windows,CoreTidy,2.049
+filepath-1.5.3.0,System.OsPath.Windows,CoreToStg,3.9370000000000003
+filepath-1.5.3.0,System.OsPath.Windows,Demand analysis,2.409
+filepath-1.5.3.0,System.OsPath.Windows,Desugar,0.702
+filepath-1.5.3.0,System.OsPath.Windows,Exitification transformation,0.019
+filepath-1.5.3.0,System.OsPath.Windows,Float inwards,0.035
+filepath-1.5.3.0,System.OsPath.Windows,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.16
+filepath-1.5.3.0,System.OsPath.Windows,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.556
+filepath-1.5.3.0,System.OsPath.Windows,Parser,3.747
+filepath-1.5.3.0,System.OsPath.Windows,Renamer/typechecker,10.074
+filepath-1.5.3.0,System.OsPath.Windows,Simplifier,65.782
+filepath-1.5.3.0,System.OsPath.Windows,Specialise,0.32
+filepath-1.5.3.0,System.OsPath.Windows,Worker Wrapper binds,0.182
+filepath-1.5.3.0,System.OsPath.Windows.Internal,Called arity analysis,0.016
+filepath-1.5.3.0,System.OsPath.Windows.Internal,CodeGen,268.922
 filepath-1.5.3.0,System.OsPath.Windows.Internal,Common sub-expression,0.015
-filepath-1.5.3.0,System.OsPath.Windows.Internal,Constructed Product Result analysis,1.064
-filepath-1.5.3.0,System.OsPath.Windows.Internal,CorePrep,3.347
-filepath-1.5.3.0,System.OsPath.Windows.Internal,CoreTidy,9.044
-filepath-1.5.3.0,System.OsPath.Windows.Internal,CoreToStg,29.183
-filepath-1.5.3.0,System.OsPath.Windows.Internal,Demand analysis,8.609
-filepath-1.5.3.0,System.OsPath.Windows.Internal,Desugar,3.339
-filepath-1.5.3.0,System.OsPath.Windows.Internal,Exitification transformation,0.015
+filepath-1.5.3.0,System.OsPath.Windows.Internal,Constructed Product Result analysis,1.109
+filepath-1.5.3.0,System.OsPath.Windows.Internal,CorePrep,11.368
+filepath-1.5.3.0,System.OsPath.Windows.Internal,CoreTidy,7.261
+filepath-1.5.3.0,System.OsPath.Windows.Internal,CoreToStg,17.723
+filepath-1.5.3.0,System.OsPath.Windows.Internal,Demand analysis,9.54
+filepath-1.5.3.0,System.OsPath.Windows.Internal,Desugar,3.23
+filepath-1.5.3.0,System.OsPath.Windows.Internal,Exitification transformation,0.014
 filepath-1.5.3.0,System.OsPath.Windows.Internal,Float inwards,0.022
-filepath-1.5.3.0,System.OsPath.Windows.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",7.329
-filepath-1.5.3.0,System.OsPath.Windows.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",17.884
-filepath-1.5.3.0,System.OsPath.Windows.Internal,Parser,8.508
-filepath-1.5.3.0,System.OsPath.Windows.Internal,Renamer/typechecker,22.753
-filepath-1.5.3.0,System.OsPath.Windows.Internal,Simplifier,345.838
-filepath-1.5.3.0,System.OsPath.Windows.Internal,Specialise,1.479
-filepath-1.5.3.0,System.OsPath.Windows.Internal,Worker Wrapper binds,0.5
+filepath-1.5.3.0,System.OsPath.Windows.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",7.817
+filepath-1.5.3.0,System.OsPath.Windows.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",17.36
+filepath-1.5.3.0,System.OsPath.Windows.Internal,Parser,9.401
+filepath-1.5.3.0,System.OsPath.Windows.Internal,Renamer/typechecker,22.732
+filepath-1.5.3.0,System.OsPath.Windows.Internal,Simplifier,353.37
+filepath-1.5.3.0,System.OsPath.Windows.Internal,Specialise,1.374
+filepath-1.5.3.0,System.OsPath.Windows.Internal,Worker Wrapper binds,0.464

@@ -1,0 +1,307 @@
+package,module,phase,time
+optparse-applicative-0.18.1.0,Options.Applicative,Called arity analysis,0.01
+optparse-applicative-0.18.1.0,Options.Applicative,CodeGen,1.5270000000000001
+optparse-applicative-0.18.1.0,Options.Applicative,Common sub-expression,0.015
+optparse-applicative-0.18.1.0,Options.Applicative,Constructed Product Result analysis,0.012
+optparse-applicative-0.18.1.0,Options.Applicative,CorePrep,0.069
+optparse-applicative-0.18.1.0,Options.Applicative,CoreTidy,0.071
+optparse-applicative-0.18.1.0,Options.Applicative,CoreToStg,0.111
+optparse-applicative-0.18.1.0,Options.Applicative,Demand analysis,0.048
+optparse-applicative-0.18.1.0,Options.Applicative,Desugar,0.058
+optparse-applicative-0.18.1.0,Options.Applicative,Exitification transformation,0.011
+optparse-applicative-0.18.1.0,Options.Applicative,Float inwards,0.019
+optparse-applicative-0.18.1.0,Options.Applicative,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.037
+optparse-applicative-0.18.1.0,Options.Applicative,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.039
+optparse-applicative-0.18.1.0,Options.Applicative,Parser,0.639
+optparse-applicative-0.18.1.0,Options.Applicative,Renamer/typechecker,0.789
+optparse-applicative-0.18.1.0,Options.Applicative,Simplifier,0.367
+optparse-applicative-0.18.1.0,Options.Applicative,Specialise,0.019
+optparse-applicative-0.18.1.0,Options.Applicative,Worker Wrapper binds,0.013
+optparse-applicative-0.18.1.0,Options.Applicative.Arrows,Called arity analysis,0.011
+optparse-applicative-0.18.1.0,Options.Applicative.Arrows,CodeGen,20.583
+optparse-applicative-0.18.1.0,Options.Applicative.Arrows,Common sub-expression,0.015
+optparse-applicative-0.18.1.0,Options.Applicative.Arrows,Constructed Product Result analysis,0.062
+optparse-applicative-0.18.1.0,Options.Applicative.Arrows,CorePrep,0.5209999999999999
+optparse-applicative-0.18.1.0,Options.Applicative.Arrows,CoreTidy,0.451
+optparse-applicative-0.18.1.0,Options.Applicative.Arrows,CoreToStg,0.8160000000000001
+optparse-applicative-0.18.1.0,Options.Applicative.Arrows,Demand analysis,0.577
+optparse-applicative-0.18.1.0,Options.Applicative.Arrows,Desugar,0.228
+optparse-applicative-0.18.1.0,Options.Applicative.Arrows,Exitification transformation,0.011
+optparse-applicative-0.18.1.0,Options.Applicative.Arrows,Float inwards,0.023
+optparse-applicative-0.18.1.0,Options.Applicative.Arrows,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.775
+optparse-applicative-0.18.1.0,Options.Applicative.Arrows,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.853
+optparse-applicative-0.18.1.0,Options.Applicative.Arrows,Parser,0.967
+optparse-applicative-0.18.1.0,Options.Applicative.Arrows,Renamer/typechecker,6.327
+optparse-applicative-0.18.1.0,Options.Applicative.Arrows,Simplifier,9.793
+optparse-applicative-0.18.1.0,Options.Applicative.Arrows,Specialise,0.128
+optparse-applicative-0.18.1.0,Options.Applicative.Arrows,Worker Wrapper binds,0.103
+optparse-applicative-0.18.1.0,Options.Applicative.BashCompletion,Called arity analysis,0.011
+optparse-applicative-0.18.1.0,Options.Applicative.BashCompletion,CodeGen,118.721
+optparse-applicative-0.18.1.0,Options.Applicative.BashCompletion,Common sub-expression,0.012
+optparse-applicative-0.18.1.0,Options.Applicative.BashCompletion,Constructed Product Result analysis,0.331
+optparse-applicative-0.18.1.0,Options.Applicative.BashCompletion,CorePrep,3.01
+optparse-applicative-0.18.1.0,Options.Applicative.BashCompletion,CoreTidy,1.837
+optparse-applicative-0.18.1.0,Options.Applicative.BashCompletion,CoreToStg,4.091
+optparse-applicative-0.18.1.0,Options.Applicative.BashCompletion,Demand analysis,2.035
+optparse-applicative-0.18.1.0,Options.Applicative.BashCompletion,Desugar,1.189
+optparse-applicative-0.18.1.0,Options.Applicative.BashCompletion,Exitification transformation,0.013
+optparse-applicative-0.18.1.0,Options.Applicative.BashCompletion,Float inwards,0.023
+optparse-applicative-0.18.1.0,Options.Applicative.BashCompletion,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.957
+optparse-applicative-0.18.1.0,Options.Applicative.BashCompletion,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.629
+optparse-applicative-0.18.1.0,Options.Applicative.BashCompletion,Parser,1.734
+optparse-applicative-0.18.1.0,Options.Applicative.BashCompletion,Renamer/typechecker,9.433
+optparse-applicative-0.18.1.0,Options.Applicative.BashCompletion,Simplifier,87.455
+optparse-applicative-0.18.1.0,Options.Applicative.BashCompletion,Specialise,0.595
+optparse-applicative-0.18.1.0,Options.Applicative.BashCompletion,Worker Wrapper binds,0.144
+optparse-applicative-0.18.1.0,Options.Applicative.Builder,Called arity analysis,0.019
+optparse-applicative-0.18.1.0,Options.Applicative.Builder,CodeGen,146.173
+optparse-applicative-0.18.1.0,Options.Applicative.Builder,Common sub-expression,0.017
+optparse-applicative-0.18.1.0,Options.Applicative.Builder,Constructed Product Result analysis,0.349
+optparse-applicative-0.18.1.0,Options.Applicative.Builder,CorePrep,3.1980000000000004
+optparse-applicative-0.18.1.0,Options.Applicative.Builder,CoreTidy,2.699
+optparse-applicative-0.18.1.0,Options.Applicative.Builder,CoreToStg,6.247999999999999
+optparse-applicative-0.18.1.0,Options.Applicative.Builder,Demand analysis,3.73
+optparse-applicative-0.18.1.0,Options.Applicative.Builder,Desugar,4.148
+optparse-applicative-0.18.1.0,Options.Applicative.Builder,Exitification transformation,0.011
+optparse-applicative-0.18.1.0,Options.Applicative.Builder,Float inwards,0.027
+optparse-applicative-0.18.1.0,Options.Applicative.Builder,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",3.333
+optparse-applicative-0.18.1.0,Options.Applicative.Builder,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",3.235
+optparse-applicative-0.18.1.0,Options.Applicative.Builder,Parser,5.568
+optparse-applicative-0.18.1.0,Options.Applicative.Builder,Renamer/typechecker,21.705
+optparse-applicative-0.18.1.0,Options.Applicative.Builder,Simplifier,88.512
+optparse-applicative-0.18.1.0,Options.Applicative.Builder,Specialise,0.406
+optparse-applicative-0.18.1.0,Options.Applicative.Builder,Worker Wrapper binds,0.348
+optparse-applicative-0.18.1.0,Options.Applicative.Builder.Completer,Called arity analysis,0.011
+optparse-applicative-0.18.1.0,Options.Applicative.Builder.Completer,CodeGen,37.147000000000006
+optparse-applicative-0.18.1.0,Options.Applicative.Builder.Completer,Common sub-expression,0.016
+optparse-applicative-0.18.1.0,Options.Applicative.Builder.Completer,Constructed Product Result analysis,0.154
+optparse-applicative-0.18.1.0,Options.Applicative.Builder.Completer,CorePrep,0.647
+optparse-applicative-0.18.1.0,Options.Applicative.Builder.Completer,CoreTidy,0.449
+optparse-applicative-0.18.1.0,Options.Applicative.Builder.Completer,CoreToStg,1.662
+optparse-applicative-0.18.1.0,Options.Applicative.Builder.Completer,Demand analysis,0.913
+optparse-applicative-0.18.1.0,Options.Applicative.Builder.Completer,Desugar,0.836
+optparse-applicative-0.18.1.0,Options.Applicative.Builder.Completer,Exitification transformation,0.011
+optparse-applicative-0.18.1.0,Options.Applicative.Builder.Completer,Float inwards,0.032
+optparse-applicative-0.18.1.0,Options.Applicative.Builder.Completer,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.805
+optparse-applicative-0.18.1.0,Options.Applicative.Builder.Completer,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.76
+optparse-applicative-0.18.1.0,Options.Applicative.Builder.Completer,Parser,1.485
+optparse-applicative-0.18.1.0,Options.Applicative.Builder.Completer,Renamer/typechecker,9.169
+optparse-applicative-0.18.1.0,Options.Applicative.Builder.Completer,Simplifier,36.903999999999996
+optparse-applicative-0.18.1.0,Options.Applicative.Builder.Completer,Specialise,0.216
+optparse-applicative-0.18.1.0,Options.Applicative.Builder.Completer,Worker Wrapper binds,0.061
+optparse-applicative-0.18.1.0,Options.Applicative.Builder.Internal,Called arity analysis,0.014
+optparse-applicative-0.18.1.0,Options.Applicative.Builder.Internal,CodeGen,54.202
+optparse-applicative-0.18.1.0,Options.Applicative.Builder.Internal,Common sub-expression,0.014
+optparse-applicative-0.18.1.0,Options.Applicative.Builder.Internal,Constructed Product Result analysis,0.3
+optparse-applicative-0.18.1.0,Options.Applicative.Builder.Internal,CorePrep,0.8240000000000001
+optparse-applicative-0.18.1.0,Options.Applicative.Builder.Internal,CoreTidy,1.073
+optparse-applicative-0.18.1.0,Options.Applicative.Builder.Internal,CoreToStg,2.618
+optparse-applicative-0.18.1.0,Options.Applicative.Builder.Internal,Demand analysis,1.8860000000000001
+optparse-applicative-0.18.1.0,Options.Applicative.Builder.Internal,Desugar,0.669
+optparse-applicative-0.18.1.0,Options.Applicative.Builder.Internal,Exitification transformation,0.015
+optparse-applicative-0.18.1.0,Options.Applicative.Builder.Internal,Float inwards,0.025
+optparse-applicative-0.18.1.0,Options.Applicative.Builder.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.077
+optparse-applicative-0.18.1.0,Options.Applicative.Builder.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.45
+optparse-applicative-0.18.1.0,Options.Applicative.Builder.Internal,Parser,1.71
+optparse-applicative-0.18.1.0,Options.Applicative.Builder.Internal,Renamer/typechecker,7.019
+optparse-applicative-0.18.1.0,Options.Applicative.Builder.Internal,Simplifier,34.076
+optparse-applicative-0.18.1.0,Options.Applicative.Builder.Internal,Specialise,1.349
+optparse-applicative-0.18.1.0,Options.Applicative.Builder.Internal,Worker Wrapper binds,0.273
+optparse-applicative-0.18.1.0,Options.Applicative.Common,Called arity analysis,0.019
+optparse-applicative-0.18.1.0,Options.Applicative.Common,CodeGen,156.73000000000002
+optparse-applicative-0.18.1.0,Options.Applicative.Common,Common sub-expression,0.016
+optparse-applicative-0.18.1.0,Options.Applicative.Common,Constructed Product Result analysis,0.839
+optparse-applicative-0.18.1.0,Options.Applicative.Common,CorePrep,2.441
+optparse-applicative-0.18.1.0,Options.Applicative.Common,CoreTidy,1.883
+optparse-applicative-0.18.1.0,Options.Applicative.Common,CoreToStg,10.129999999999999
+optparse-applicative-0.18.1.0,Options.Applicative.Common,Demand analysis,6.583
+optparse-applicative-0.18.1.0,Options.Applicative.Common,Desugar,7.653
+optparse-applicative-0.18.1.0,Options.Applicative.Common,Exitification transformation,0.019
+optparse-applicative-0.18.1.0,Options.Applicative.Common,Float inwards,0.032
+optparse-applicative-0.18.1.0,Options.Applicative.Common,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",5.986
+optparse-applicative-0.18.1.0,Options.Applicative.Common,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",7.985
+optparse-applicative-0.18.1.0,Options.Applicative.Common,Parser,2.74
+optparse-applicative-0.18.1.0,Options.Applicative.Common,Renamer/typechecker,20.077
+optparse-applicative-0.18.1.0,Options.Applicative.Common,Simplifier,155.902
+optparse-applicative-0.18.1.0,Options.Applicative.Common,Specialise,3.172
+optparse-applicative-0.18.1.0,Options.Applicative.Common,Worker Wrapper binds,0.325
+optparse-applicative-0.18.1.0,Options.Applicative.Extra,Called arity analysis,0.011
+optparse-applicative-0.18.1.0,Options.Applicative.Extra,CodeGen,84.166
+optparse-applicative-0.18.1.0,Options.Applicative.Extra,Common sub-expression,0.014
+optparse-applicative-0.18.1.0,Options.Applicative.Extra,Constructed Product Result analysis,0.441
+optparse-applicative-0.18.1.0,Options.Applicative.Extra,CorePrep,1.654
+optparse-applicative-0.18.1.0,Options.Applicative.Extra,CoreTidy,1.289
+optparse-applicative-0.18.1.0,Options.Applicative.Extra,CoreToStg,4.571999999999999
+optparse-applicative-0.18.1.0,Options.Applicative.Extra,Demand analysis,2.528
+optparse-applicative-0.18.1.0,Options.Applicative.Extra,Desugar,2.2
+optparse-applicative-0.18.1.0,Options.Applicative.Extra,Exitification transformation,0.015
+optparse-applicative-0.18.1.0,Options.Applicative.Extra,Float inwards,0.024
+optparse-applicative-0.18.1.0,Options.Applicative.Extra,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.69
+optparse-applicative-0.18.1.0,Options.Applicative.Extra,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",4.492
+optparse-applicative-0.18.1.0,Options.Applicative.Extra,Parser,2.1
+optparse-applicative-0.18.1.0,Options.Applicative.Extra,Renamer/typechecker,11.651
+optparse-applicative-0.18.1.0,Options.Applicative.Extra,Simplifier,94.692
+optparse-applicative-0.18.1.0,Options.Applicative.Extra,Specialise,0.734
+optparse-applicative-0.18.1.0,Options.Applicative.Extra,Worker Wrapper binds,0.152
+optparse-applicative-0.18.1.0,Options.Applicative.Help,Called arity analysis,0.011
+optparse-applicative-0.18.1.0,Options.Applicative.Help,CodeGen,0.961
+optparse-applicative-0.18.1.0,Options.Applicative.Help,Common sub-expression,0.01
+optparse-applicative-0.18.1.0,Options.Applicative.Help,Constructed Product Result analysis,0.013
+optparse-applicative-0.18.1.0,Options.Applicative.Help,CorePrep,0.057999999999999996
+optparse-applicative-0.18.1.0,Options.Applicative.Help,CoreTidy,0.051
+optparse-applicative-0.18.1.0,Options.Applicative.Help,CoreToStg,0.087
+optparse-applicative-0.18.1.0,Options.Applicative.Help,Demand analysis,0.046
+optparse-applicative-0.18.1.0,Options.Applicative.Help,Desugar,0.057
+optparse-applicative-0.18.1.0,Options.Applicative.Help,Exitification transformation,0.012
+optparse-applicative-0.18.1.0,Options.Applicative.Help,Float inwards,0.028999999999999998
+optparse-applicative-0.18.1.0,Options.Applicative.Help,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.043
+optparse-applicative-0.18.1.0,Options.Applicative.Help,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.026
+optparse-applicative-0.18.1.0,Options.Applicative.Help,Parser,0.193
+optparse-applicative-0.18.1.0,Options.Applicative.Help,Renamer/typechecker,0.795
+optparse-applicative-0.18.1.0,Options.Applicative.Help,Simplifier,0.345
+optparse-applicative-0.18.1.0,Options.Applicative.Help,Specialise,0.025
+optparse-applicative-0.18.1.0,Options.Applicative.Help,Worker Wrapper binds,0.012
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Chunk,Called arity analysis,0.012
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Chunk,CodeGen,53.896
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Chunk,Common sub-expression,0.011
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Chunk,Constructed Product Result analysis,0.207
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Chunk,CorePrep,1.134
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Chunk,CoreTidy,0.732
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Chunk,CoreToStg,2.6029999999999998
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Chunk,Demand analysis,1.5339999999999998
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Chunk,Desugar,1.659
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Chunk,Exitification transformation,0.01
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Chunk,Float inwards,0.019999999999999997
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Chunk,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.151
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Chunk,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.59
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Chunk,Parser,0.96
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Chunk,Renamer/typechecker,19.166
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Chunk,Simplifier,46.189
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Chunk,Specialise,0.186
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Chunk,Worker Wrapper binds,0.134
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Core,Called arity analysis,0.018
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Core,CodeGen,124.019
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Core,Common sub-expression,0.019
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Core,Constructed Product Result analysis,0.436
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Core,CorePrep,1.7189999999999999
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Core,CoreTidy,1.388
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Core,CoreToStg,6.83
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Core,Demand analysis,3.421
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Core,Desugar,1.527
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Core,Exitification transformation,0.019
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Core,Float inwards,0.027999999999999997
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Core,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",4.295
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Core,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.561
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Core,Parser,3.467
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Core,Renamer/typechecker,15.611
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Core,Simplifier,98.057
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Core,Specialise,0.506
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Core,Worker Wrapper binds,0.253
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Levenshtein,Called arity analysis,0.016
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Levenshtein,CodeGen,45.025000000000006
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Levenshtein,Common sub-expression,0.01
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Levenshtein,Constructed Product Result analysis,0.15
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Levenshtein,CorePrep,1.442
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Levenshtein,CoreTidy,0.575
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Levenshtein,CoreToStg,1.6320000000000001
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Levenshtein,Demand analysis,1.099
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Levenshtein,Desugar,0.54
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Levenshtein,Exitification transformation,0.012
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Levenshtein,Float inwards,0.022
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Levenshtein,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.132
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Levenshtein,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.101
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Levenshtein,Parser,0.511
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Levenshtein,Renamer/typechecker,21.912
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Levenshtein,Simplifier,31.651999999999997
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Levenshtein,Specialise,0.557
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Levenshtein,Worker Wrapper binds,0.102
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Pretty,Called arity analysis,0.012
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Pretty,CodeGen,20.922
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Pretty,Common sub-expression,0.015
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Pretty,Constructed Product Result analysis,0.105
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Pretty,CorePrep,0.378
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Pretty,CoreTidy,0.303
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Pretty,CoreToStg,1.1680000000000001
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Pretty,Demand analysis,0.864
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Pretty,Desugar,0.222
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Pretty,Exitification transformation,0.012
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Pretty,Float inwards,0.022
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Pretty,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.286
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Pretty,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.734
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Pretty,Parser,1.395
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Pretty,Renamer/typechecker,12.77
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Pretty,Simplifier,20.875999999999998
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Pretty,Specialise,0.075
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Pretty,Worker Wrapper binds,0.085
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Types,Called arity analysis,0.01
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Types,CodeGen,32.672
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Types,Common sub-expression,0.013
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Types,Constructed Product Result analysis,0.118
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Types,CorePrep,0.636
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Types,CoreTidy,38.457
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Types,CoreToStg,1.9989999999999999
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Types,Demand analysis,0.9570000000000001
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Types,Desugar,0.868
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Types,Exitification transformation,0.014
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Types,Float inwards,0.023
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Types,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.555
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Types,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.822
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Types,Parser,0.507
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Types,Renamer/typechecker,3.717
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Types,Simplifier,17.341
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Types,Specialise,0.107
+optparse-applicative-0.18.1.0,Options.Applicative.Help.Types,Worker Wrapper binds,0.077
+optparse-applicative-0.18.1.0,Options.Applicative.Internal,Called arity analysis,0.016
+optparse-applicative-0.18.1.0,Options.Applicative.Internal,CodeGen,191.52100000000002
+optparse-applicative-0.18.1.0,Options.Applicative.Internal,Common sub-expression,0.012
+optparse-applicative-0.18.1.0,Options.Applicative.Internal,Constructed Product Result analysis,1.479
+optparse-applicative-0.18.1.0,Options.Applicative.Internal,CorePrep,4.053
+optparse-applicative-0.18.1.0,Options.Applicative.Internal,CoreTidy,6.174
+optparse-applicative-0.18.1.0,Options.Applicative.Internal,CoreToStg,19.796
+optparse-applicative-0.18.1.0,Options.Applicative.Internal,Demand analysis,7.447
+optparse-applicative-0.18.1.0,Options.Applicative.Internal,Desugar,5.666
+optparse-applicative-0.18.1.0,Options.Applicative.Internal,Exitification transformation,0.019
+optparse-applicative-0.18.1.0,Options.Applicative.Internal,Float inwards,0.020999999999999998
+optparse-applicative-0.18.1.0,Options.Applicative.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",9.552
+optparse-applicative-0.18.1.0,Options.Applicative.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",9.395
+optparse-applicative-0.18.1.0,Options.Applicative.Internal,Parser,2.487
+optparse-applicative-0.18.1.0,Options.Applicative.Internal,Renamer/typechecker,24.215
+optparse-applicative-0.18.1.0,Options.Applicative.Internal,Simplifier,306.507
+optparse-applicative-0.18.1.0,Options.Applicative.Internal,Specialise,3.603
+optparse-applicative-0.18.1.0,Options.Applicative.Internal,Worker Wrapper binds,0.51
+optparse-applicative-0.18.1.0,Options.Applicative.NonEmpty,Called arity analysis,0.01
+optparse-applicative-0.18.1.0,Options.Applicative.NonEmpty,CodeGen,2.543
+optparse-applicative-0.18.1.0,Options.Applicative.NonEmpty,Common sub-expression,0.012
+optparse-applicative-0.18.1.0,Options.Applicative.NonEmpty,Constructed Product Result analysis,0.021
+optparse-applicative-0.18.1.0,Options.Applicative.NonEmpty,CorePrep,1.372
+optparse-applicative-0.18.1.0,Options.Applicative.NonEmpty,CoreTidy,0.144
+optparse-applicative-0.18.1.0,Options.Applicative.NonEmpty,CoreToStg,0.20600000000000002
+optparse-applicative-0.18.1.0,Options.Applicative.NonEmpty,Demand analysis,0.091
+optparse-applicative-0.18.1.0,Options.Applicative.NonEmpty,Desugar,0.065
+optparse-applicative-0.18.1.0,Options.Applicative.NonEmpty,Exitification transformation,0.015
+optparse-applicative-0.18.1.0,Options.Applicative.NonEmpty,Float inwards,0.02
+optparse-applicative-0.18.1.0,Options.Applicative.NonEmpty,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.1
+optparse-applicative-0.18.1.0,Options.Applicative.NonEmpty,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.082
+optparse-applicative-0.18.1.0,Options.Applicative.NonEmpty,Parser,0.207
+optparse-applicative-0.18.1.0,Options.Applicative.NonEmpty,Renamer/typechecker,1.235
+optparse-applicative-0.18.1.0,Options.Applicative.NonEmpty,Simplifier,1.342
+optparse-applicative-0.18.1.0,Options.Applicative.NonEmpty,Specialise,0.03
+optparse-applicative-0.18.1.0,Options.Applicative.NonEmpty,Worker Wrapper binds,0.037
+optparse-applicative-0.18.1.0,Options.Applicative.Types,Called arity analysis,0.01
+optparse-applicative-0.18.1.0,Options.Applicative.Types,CodeGen,332.308
+optparse-applicative-0.18.1.0,Options.Applicative.Types,Common sub-expression,0.019
+optparse-applicative-0.18.1.0,Options.Applicative.Types,Constructed Product Result analysis,0.938
+optparse-applicative-0.18.1.0,Options.Applicative.Types,CorePrep,5.183
+optparse-applicative-0.18.1.0,Options.Applicative.Types,CoreTidy,10.653
+optparse-applicative-0.18.1.0,Options.Applicative.Types,CoreToStg,21.954
+optparse-applicative-0.18.1.0,Options.Applicative.Types,Demand analysis,9.841999999999999
+optparse-applicative-0.18.1.0,Options.Applicative.Types,Desugar,2.038
+optparse-applicative-0.18.1.0,Options.Applicative.Types,Exitification transformation,0.014
+optparse-applicative-0.18.1.0,Options.Applicative.Types,Float inwards,0.020999999999999998
+optparse-applicative-0.18.1.0,Options.Applicative.Types,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",12.456
+optparse-applicative-0.18.1.0,Options.Applicative.Types,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",12.677
+optparse-applicative-0.18.1.0,Options.Applicative.Types,Parser,3.562
+optparse-applicative-0.18.1.0,Options.Applicative.Types,Renamer/typechecker,45.808
+optparse-applicative-0.18.1.0,Options.Applicative.Types,Simplifier,378.861
+optparse-applicative-0.18.1.0,Options.Applicative.Types,Specialise,3.496
+optparse-applicative-0.18.1.0,Options.Applicative.Types,Worker Wrapper binds,0.878

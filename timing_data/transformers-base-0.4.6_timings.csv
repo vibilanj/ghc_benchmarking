@@ -1,0 +1,19 @@
+package,module,phase,time
+transformers-base-0.4.6,Control.Monad.Base,Called arity analysis,0.01
+transformers-base-0.4.6,Control.Monad.Base,CodeGen,94.51400000000001
+transformers-base-0.4.6,Control.Monad.Base,Common sub-expression,0.014
+transformers-base-0.4.6,Control.Monad.Base,Constructed Product Result analysis,0.172
+transformers-base-0.4.6,Control.Monad.Base,CorePrep,2.253
+transformers-base-0.4.6,Control.Monad.Base,CoreTidy,1.351
+transformers-base-0.4.6,Control.Monad.Base,CoreToStg,4.971
+transformers-base-0.4.6,Control.Monad.Base,Demand analysis,3.468
+transformers-base-0.4.6,Control.Monad.Base,Desugar,3.603
+transformers-base-0.4.6,Control.Monad.Base,Exitification transformation,0.012
+transformers-base-0.4.6,Control.Monad.Base,Float inwards,0.023
+transformers-base-0.4.6,Control.Monad.Base,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",3.354
+transformers-base-0.4.6,Control.Monad.Base,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",2.757
+transformers-base-0.4.6,Control.Monad.Base,Parser,19.228
+transformers-base-0.4.6,Control.Monad.Base,Renamer/typechecker,73.464
+transformers-base-0.4.6,Control.Monad.Base,Simplifier,42.671
+transformers-base-0.4.6,Control.Monad.Base,Specialise,0.873
+transformers-base-0.4.6,Control.Monad.Base,Worker Wrapper binds,0.233

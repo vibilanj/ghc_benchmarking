@@ -1,0 +1,91 @@
+package,module,phase,time
+resourcet-1.3.0,Control.Monad.Trans.Resource,Called arity analysis,0.011
+resourcet-1.3.0,Control.Monad.Trans.Resource,CodeGen,45.033
+resourcet-1.3.0,Control.Monad.Trans.Resource,Common sub-expression,0.017
+resourcet-1.3.0,Control.Monad.Trans.Resource,Constructed Product Result analysis,0.159
+resourcet-1.3.0,Control.Monad.Trans.Resource,CorePrep,0.922
+resourcet-1.3.0,Control.Monad.Trans.Resource,CoreTidy,1.426
+resourcet-1.3.0,Control.Monad.Trans.Resource,CoreToStg,4.699999999999999
+resourcet-1.3.0,Control.Monad.Trans.Resource,Demand analysis,1.359
+resourcet-1.3.0,Control.Monad.Trans.Resource,Desugar,0.818
+resourcet-1.3.0,Control.Monad.Trans.Resource,Exitification transformation,0.011
+resourcet-1.3.0,Control.Monad.Trans.Resource,Float inwards,0.020999999999999998
+resourcet-1.3.0,Control.Monad.Trans.Resource,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",1.932
+resourcet-1.3.0,Control.Monad.Trans.Resource,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.916
+resourcet-1.3.0,Control.Monad.Trans.Resource,Parser,2.864
+resourcet-1.3.0,Control.Monad.Trans.Resource,Renamer/typechecker,9.608
+resourcet-1.3.0,Control.Monad.Trans.Resource,Simplifier,29.892
+resourcet-1.3.0,Control.Monad.Trans.Resource,Specialise,0.317
+resourcet-1.3.0,Control.Monad.Trans.Resource,Worker Wrapper binds,0.19
+resourcet-1.3.0,Control.Monad.Trans.Resource.Internal,Called arity analysis,0.01
+resourcet-1.3.0,Control.Monad.Trans.Resource.Internal,CodeGen,275.116
+resourcet-1.3.0,Control.Monad.Trans.Resource.Internal,Common sub-expression,0.017
+resourcet-1.3.0,Control.Monad.Trans.Resource.Internal,Constructed Product Result analysis,0.595
+resourcet-1.3.0,Control.Monad.Trans.Resource.Internal,CorePrep,3.152
+resourcet-1.3.0,Control.Monad.Trans.Resource.Internal,CoreTidy,5.608
+resourcet-1.3.0,Control.Monad.Trans.Resource.Internal,CoreToStg,11.048
+resourcet-1.3.0,Control.Monad.Trans.Resource.Internal,Demand analysis,9.537
+resourcet-1.3.0,Control.Monad.Trans.Resource.Internal,Desugar,2.99
+resourcet-1.3.0,Control.Monad.Trans.Resource.Internal,Exitification transformation,0.013
+resourcet-1.3.0,Control.Monad.Trans.Resource.Internal,Float inwards,0.023
+resourcet-1.3.0,Control.Monad.Trans.Resource.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",8.651
+resourcet-1.3.0,Control.Monad.Trans.Resource.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",7.492
+resourcet-1.3.0,Control.Monad.Trans.Resource.Internal,Parser,4.887
+resourcet-1.3.0,Control.Monad.Trans.Resource.Internal,Renamer/typechecker,174.243
+resourcet-1.3.0,Control.Monad.Trans.Resource.Internal,Simplifier,184.876
+resourcet-1.3.0,Control.Monad.Trans.Resource.Internal,Specialise,1.988
+resourcet-1.3.0,Control.Monad.Trans.Resource.Internal,Worker Wrapper binds,0.563
+resourcet-1.3.0,Data.Acquire,Called arity analysis,0.016
+resourcet-1.3.0,Data.Acquire,CodeGen,13.317
+resourcet-1.3.0,Data.Acquire,Common sub-expression,0.009
+resourcet-1.3.0,Data.Acquire,Constructed Product Result analysis,0.04
+resourcet-1.3.0,Data.Acquire,CorePrep,0.326
+resourcet-1.3.0,Data.Acquire,CoreTidy,0.254
+resourcet-1.3.0,Data.Acquire,CoreToStg,1.1840000000000002
+resourcet-1.3.0,Data.Acquire,Demand analysis,0.318
+resourcet-1.3.0,Data.Acquire,Desugar,0.246
+resourcet-1.3.0,Data.Acquire,Exitification transformation,0.01
+resourcet-1.3.0,Data.Acquire,Float inwards,0.02
+resourcet-1.3.0,Data.Acquire,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.31
+resourcet-1.3.0,Data.Acquire,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.44
+resourcet-1.3.0,Data.Acquire,Parser,1.055
+resourcet-1.3.0,Data.Acquire,Renamer/typechecker,2.182
+resourcet-1.3.0,Data.Acquire,Simplifier,5.142
+resourcet-1.3.0,Data.Acquire,Specialise,0.057
+resourcet-1.3.0,Data.Acquire,Worker Wrapper binds,0.056
+resourcet-1.3.0,Data.Acquire.Internal,Called arity analysis,0.01
+resourcet-1.3.0,Data.Acquire.Internal,CodeGen,52.001999999999995
+resourcet-1.3.0,Data.Acquire.Internal,Common sub-expression,0.01
+resourcet-1.3.0,Data.Acquire.Internal,Constructed Product Result analysis,0.193
+resourcet-1.3.0,Data.Acquire.Internal,CorePrep,1.4609999999999999
+resourcet-1.3.0,Data.Acquire.Internal,CoreTidy,1.398
+resourcet-1.3.0,Data.Acquire.Internal,CoreToStg,2.535
+resourcet-1.3.0,Data.Acquire.Internal,Demand analysis,3.0300000000000002
+resourcet-1.3.0,Data.Acquire.Internal,Desugar,0.572
+resourcet-1.3.0,Data.Acquire.Internal,Exitification transformation,0.012
+resourcet-1.3.0,Data.Acquire.Internal,Float inwards,0.023
+resourcet-1.3.0,Data.Acquire.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",2.125
+resourcet-1.3.0,Data.Acquire.Internal,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",1.502
+resourcet-1.3.0,Data.Acquire.Internal,Parser,2.02
+resourcet-1.3.0,Data.Acquire.Internal,Renamer/typechecker,27.874
+resourcet-1.3.0,Data.Acquire.Internal,Simplifier,64.209
+resourcet-1.3.0,Data.Acquire.Internal,Specialise,0.223
+resourcet-1.3.0,Data.Acquire.Internal,Worker Wrapper binds,0.175
+resourcet-1.3.0,UnliftIO.Resource,Called arity analysis,0.01
+resourcet-1.3.0,UnliftIO.Resource,CodeGen,7.180999999999999
+resourcet-1.3.0,UnliftIO.Resource,Common sub-expression,0.012
+resourcet-1.3.0,UnliftIO.Resource,Constructed Product Result analysis,0.029
+resourcet-1.3.0,UnliftIO.Resource,CorePrep,0.213
+resourcet-1.3.0,UnliftIO.Resource,CoreTidy,0.245
+resourcet-1.3.0,UnliftIO.Resource,CoreToStg,0.395
+resourcet-1.3.0,UnliftIO.Resource,Demand analysis,0.211
+resourcet-1.3.0,UnliftIO.Resource,Desugar,0.164
+resourcet-1.3.0,UnliftIO.Resource,Exitification transformation,0.01
+resourcet-1.3.0,UnliftIO.Resource,Float inwards,0.018000000000000002
+resourcet-1.3.0,UnliftIO.Resource,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False})",0.291
+resourcet-1.3.0,UnliftIO.Resource,"Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True})",0.221
+resourcet-1.3.0,UnliftIO.Resource,Parser,0.41
+resourcet-1.3.0,UnliftIO.Resource,Renamer/typechecker,2.023
+resourcet-1.3.0,UnliftIO.Resource,Simplifier,3.078
+resourcet-1.3.0,UnliftIO.Resource,Specialise,0.166
+resourcet-1.3.0,UnliftIO.Resource,Worker Wrapper binds,0.046
